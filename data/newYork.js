@@ -1,0 +1,6507 @@
+/** City research, source provenance and editable page content. */
+const dataset = {
+  metadata: {
+    schemaVersion: "2.0.0",
+    title: "New York City Shopify agency research dataset",
+    researchedAt: "2026-10-03",
+    city: "New York City",
+    stateCode: "NY",
+    countryCode: "US",
+    agencyCount: 30,
+    localOrMetroCount: 30,
+    remoteServingCount: 0,
+    selectionMethod:
+      "Mixed public-source research: Shopify Partner Directory, Clutch city/category pages, and the existing NYC research dataset where applicable.",
+    importantNote:
+      "Local/metro listings and remote-serving agencies are explicitly separated. Inclusion is not an endorsement or ranking.",
+    generatedContentPolicy:
+      "AI-generated descriptions/services/FAQs are labeled. Customer review text and client projects are not fabricated.",
+    recommendedPublishCheck:
+      "Recheck time-sensitive ratings, tiers, pricing, addresses and contact details before publishing.",
+  },
+  agencies: [
+    {
+      id: "acadaca",
+      name: "Acadaca",
+      aliases: [],
+      entityType: "agency",
+      website: "https://www.acadaca.com",
+      description:
+        "New York ecommerce agency combining store development, creative design, marketing and customer analytics, with onshore and nearshore delivery.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/acadaca",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Marketing",
+        "Optimization and analytics",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "local_or_primary_location",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/acadaca",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+        targetCity: "New York City",
+        listedLocation: null,
+        verificationStatus: "reused_from_user_supplied_research_dataset",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "katie@acadaca.com",
+        phone: null,
+        contactPage: null,
+        otherEmails: [],
+        otherPhones: [],
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/acadaca",
+      },
+      foundedYear: 2002,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl: "https://www.shopify.com/partners/directory/partner/acadaca",
+        partnerTier: "Platinum",
+        partnerSince: null,
+        partnerSincePrecision: null,
+        tierStatus: "listed_by_shopify",
+        partnerStatusSourceType: "existing_research_dataset",
+      },
+      platforms: ["Shopify"],
+      services: [
+        "Store design and development",
+        "Website audits",
+        "Ongoing management",
+        "SEO",
+        "Paid search",
+      ],
+      industries: [
+        "Fashion",
+        "Food and drink",
+        "Beauty",
+        "Home and garden",
+        "Jewelry",
+        "Lifestyle",
+      ],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: null,
+          scale: 5,
+          reviewCount: 0,
+          status: "no_reviews_on_this_platform",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/acadaca",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "no_reviews_on_checked_platform",
+      pricing: {
+        projectMinimum: null,
+        selectedServices: null,
+        hourlyRate: null,
+        status: "contact_for_pricing",
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Aimee Kestenberg",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/acadaca",
+          projectUrl: null,
+        },
+        {
+          client: "HOBO Bags",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/acadaca",
+          projectUrl: null,
+        },
+        {
+          client: "Spyder",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/acadaca",
+          projectUrl: null,
+        },
+        {
+          client: "Motherhood",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/acadaca",
+          projectUrl: null,
+        },
+        {
+          client: "BCBG",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/acadaca",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl:
+        "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.acadaca.com",
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/acadaca",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      logoType: "favicon_proxy",
+      shortDescription:
+        "New York ecommerce agency combining store development, creative design, marketing and customer analytics, with onshore and nearshore delivery.",
+      shortDescriptionSourceType: "public_source_paraphrase",
+      longDescription:
+        "Acadaca has public evidence connecting it to the New York City, NY market. New York ecommerce agency combining store development, creative design, marketing and customer analytics, with onshore and nearshore delivery. The public Shopify profile identifies the partner tier as Platinum.\n\nFor directory visitors, the most relevant capabilities are Store design and development, Website audits, Ongoing management, SEO. The agency record is structured to help merchants compare potential partners without turning directory placement into an endorsement. Where the source provides a Shopify Partner Directory profile, the dataset treats that as stronger evidence of Shopify specialization. Where the source is a third-party directory such as Clutch, the record is marked accordingly and the location relationship is kept separate from a verified office claim.\n\nA typical engagement may involve discovery, store architecture, design or theme implementation, migration planning, integration work, quality assurance and post-launch optimization. The exact scope, price, timeline and platform fit should still be confirmed directly with the agency because public directory information can change and service descriptions are often broader than a specific proposal.\n\nThis description is an AI-generated editorial summary built from the public evidence stored in the record. It is intended for your agency directory and should not be presented as a direct quotation from the company. Before publishing time-sensitive details such as partner tiers, ratings, pricing or addresses, recheck the linked source. That keeps the page useful for SEO and comparison while clearly separating sourced facts from generated explanatory copy.",
+      longDescriptionSourceType: "ai_generated_editorial_from_public_evidence",
+      whatTheyDo: [
+        {
+          name: "Store design and development",
+          description:
+            "Store design and development is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Website audits",
+          description:
+            "Website audits is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Ongoing management",
+          description:
+            "Ongoing management is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "SEO",
+          description:
+            "SEO is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Paid search",
+          description:
+            "Paid search is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+      ],
+      portfolioStatus: "source_supported_entries_only; no fabricated client projects",
+      reviews: [],
+      reviewsStatus:
+        "aggregate_or_public_source_only; no fabricated customer review text",
+      faqs: [
+        {
+          question: "Does Acadaca work with Shopify?",
+          answer:
+            "Acadaca appears in public Shopify/ecommerce research used for this dataset. Check the linked source for the latest specialization and partner status.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Is Acadaca based in New York City?",
+          answer:
+            "This record has a public local/metro listing for New York City, NY. Review the location relationship field before presenting the company as physically local.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "What Shopify services can Acadaca provide?",
+          answer:
+            "The record highlights store development, theme work, migration, optimization and integrations where supported by public positioning or editorial categorization.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Acadaca work with Shopify Plus?",
+          answer:
+            "Shopify Plus capability is only treated as confirmed when the public source explicitly indicates it. Otherwise, ask the agency directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How much does Acadaca charge?",
+          answer:
+            "Pricing varies by scope. Use any published price only as a directory snapshot and request a current quote from Acadaca.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Can Acadaca migrate a store to Shopify?",
+          answer:
+            "Migration is a common ecommerce service, but availability for a specific platform and catalog size should be confirmed directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Acadaca offer ongoing Shopify support?",
+          answer:
+            "Ongoing support may include maintenance, troubleshooting and optimization. Confirm retainers, response times and support boundaries with the agency.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How should I evaluate Acadaca?",
+          answer:
+            "Compare relevant Shopify experience, portfolio evidence, technical fit, communication, pricing model and verified reviews rather than relying on a single directory metric.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Are the reviews for Acadaca verified by this directory?",
+          answer:
+            "No. This dataset links to public third-party sources and does not independently verify reviewer identity or project outcomes.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How current is this Acadaca profile?",
+          answer:
+            "The research snapshot is dated 2026-10-03. Partner tiers, ratings, staff, services and contact details can change, so important facts should be rechecked before publication.",
+          sourceType: "ai_generated_editorial",
+        },
+      ],
+      contentProvenance: {
+        publicFacts:
+          "Sourced from linked public directories or the user-supplied NYC research dataset.",
+        generatedEditorial: [
+          "longDescription",
+          "service descriptions where not explicitly sourced",
+          "faqs",
+        ],
+        notFabricated: [
+          "customer review text",
+          "client names",
+          "partner tier",
+          "physical office address",
+        ],
+      },
+      editorialNote:
+        "Descriptions, service explanations and FAQs include editorial summaries. Confirm inferred capabilities with the agency; they are not direct company statements.",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "alright-studio",
+      name: "Alright Studio",
+      aliases: [],
+      entityType: "agency",
+      website: "https://alright.studio",
+      description:
+        "Brooklyn creative studio connecting brand strategy, design and technology, including custom and headless Shopify commerce experiences.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/alright-studio",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Optimization and analytics",
+        "Headless commerce",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: "Brooklyn",
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "local_or_primary_location",
+        primaryLocationAsListed: "Brooklyn, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/alright-studio",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+        targetCity: "New York City",
+        listedLocation: null,
+        verificationStatus: "reused_from_user_supplied_research_dataset",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "admin@alright.studio",
+        phone: null,
+        contactPage: null,
+        otherEmails: [],
+        otherPhones: [],
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/alright-studio",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/alright-studio",
+        partnerTier: "Plus",
+        partnerSince: null,
+        partnerSincePrecision: null,
+        tierStatus: "listed_by_shopify",
+        partnerStatusSourceType: "existing_research_dataset",
+      },
+      platforms: ["Shopify", "Shopify Plus"],
+      services: [
+        "Store design and development",
+        "Headless commerce",
+        "Website audits",
+        "Business strategy",
+        "Store migration",
+      ],
+      industries: ["B2B", "Fashion", "Consumer packaged goods", "Sports and recreation"],
+      technologies: ["Next.js", "Sanity", "Shopify Storefront API"],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: null,
+          scale: 5,
+          reviewCount: 0,
+          status: "no_reviews_on_this_platform",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/alright-studio",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "no_reviews_on_checked_platform",
+      pricing: {
+        projectMinimum: null,
+        selectedServices: null,
+        hourlyRate: null,
+        status: "contact_for_pricing",
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Usal Project",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/alright-studio",
+          projectUrl: null,
+        },
+        {
+          client: "Local Motion",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/alright-studio",
+          projectUrl: null,
+        },
+        {
+          client: "Symbol Audio",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/alright-studio",
+          projectUrl: null,
+        },
+        {
+          client: "Sun Bum",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/alright-studio",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl:
+        "https://www.google.com/s2/favicons?sz=128&domain_url=https://alright.studio",
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/alright-studio",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      logoType: "favicon_proxy",
+      shortDescription:
+        "Brooklyn creative studio connecting brand strategy, design and technology, including custom and headless Shopify commerce experiences.",
+      shortDescriptionSourceType: "public_source_paraphrase",
+      longDescription:
+        "Alright Studio has public evidence connecting it to the New York City, NY market. Brooklyn creative studio connecting brand strategy, design and technology, including custom and headless Shopify commerce experiences. The public Shopify profile identifies the partner tier as Plus.\n\nFor directory visitors, the most relevant capabilities are Store design and development, Headless commerce, Website audits, Business strategy. The agency record is structured to help merchants compare potential partners without turning directory placement into an endorsement. Where the source provides a Shopify Partner Directory profile, the dataset treats that as stronger evidence of Shopify specialization. Where the source is a third-party directory such as Clutch, the record is marked accordingly and the location relationship is kept separate from a verified office claim.\n\nA typical engagement may involve discovery, store architecture, design or theme implementation, migration planning, integration work, quality assurance and post-launch optimization. The exact scope, price, timeline and platform fit should still be confirmed directly with the agency because public directory information can change and service descriptions are often broader than a specific proposal.\n\nThis description is an AI-generated editorial summary built from the public evidence stored in the record. It is intended for your agency directory and should not be presented as a direct quotation from the company. Before publishing time-sensitive details such as partner tiers, ratings, pricing or addresses, recheck the linked source. That keeps the page useful for SEO and comparison while clearly separating sourced facts from generated explanatory copy.",
+      longDescriptionSourceType: "ai_generated_editorial_from_public_evidence",
+      whatTheyDo: [
+        {
+          name: "Store design and development",
+          description:
+            "Store design and development is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Headless commerce",
+          description:
+            "Headless commerce is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Website audits",
+          description:
+            "Website audits is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Business strategy",
+          description:
+            "Business strategy is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Store migration",
+          description:
+            "Store migration is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+      ],
+      portfolioStatus: "source_supported_entries_only; no fabricated client projects",
+      reviews: [],
+      reviewsStatus:
+        "aggregate_or_public_source_only; no fabricated customer review text",
+      faqs: [
+        {
+          question: "Does Alright Studio work with Shopify?",
+          answer:
+            "Alright Studio appears in public Shopify/ecommerce research used for this dataset. Check the linked source for the latest specialization and partner status.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Is Alright Studio based in New York City?",
+          answer:
+            "This record has a public local/metro listing for New York City, NY. Review the location relationship field before presenting the company as physically local.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "What Shopify services can Alright Studio provide?",
+          answer:
+            "The record highlights store development, theme work, migration, optimization and integrations where supported by public positioning or editorial categorization.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Alright Studio work with Shopify Plus?",
+          answer:
+            "Shopify Plus capability is only treated as confirmed when the public source explicitly indicates it. Otherwise, ask the agency directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How much does Alright Studio charge?",
+          answer:
+            "Pricing varies by scope. Use any published price only as a directory snapshot and request a current quote from Alright Studio.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Can Alright Studio migrate a store to Shopify?",
+          answer:
+            "Migration is a common ecommerce service, but availability for a specific platform and catalog size should be confirmed directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Alright Studio offer ongoing Shopify support?",
+          answer:
+            "Ongoing support may include maintenance, troubleshooting and optimization. Confirm retainers, response times and support boundaries with the agency.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How should I evaluate Alright Studio?",
+          answer:
+            "Compare relevant Shopify experience, portfolio evidence, technical fit, communication, pricing model and verified reviews rather than relying on a single directory metric.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Are the reviews for Alright Studio verified by this directory?",
+          answer:
+            "No. This dataset links to public third-party sources and does not independently verify reviewer identity or project outcomes.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How current is this Alright Studio profile?",
+          answer:
+            "The research snapshot is dated 2026-10-03. Partner tiers, ratings, staff, services and contact details can change, so important facts should be rechecked before publication.",
+          sourceType: "ai_generated_editorial",
+        },
+      ],
+      contentProvenance: {
+        publicFacts:
+          "Sourced from linked public directories or the user-supplied NYC research dataset.",
+        generatedEditorial: [
+          "longDescription",
+          "service descriptions where not explicitly sourced",
+          "faqs",
+        ],
+        notFabricated: [
+          "customer review text",
+          "client names",
+          "partner tier",
+          "physical office address",
+        ],
+      },
+      editorialNote:
+        "Descriptions, service explanations and FAQs include editorial summaries. Confirm inferred capabilities with the agency; they are not direct company statements.",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "arctic-grey",
+      name: "Arctic Grey",
+      aliases: [],
+      entityType: "agency",
+      website: "https://www.arcticgrey.com",
+      description:
+        "Shopify development partner offering store builds, migrations, theme changes, integrations and ongoing technical improvements.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/arcticgreyinc",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Marketing",
+        "Optimization and analytics",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "local_or_primary_location",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/arcticgreyinc",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+        targetCity: "New York City",
+        listedLocation: null,
+        verificationStatus: "reused_from_user_supplied_research_dataset",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "support@arcticgrey.com",
+        phone: "+1 650-288-0533",
+        contactPage: null,
+        otherEmails: [],
+        otherPhones: [],
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/arcticgreyinc",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/arcticgreyinc",
+        partnerTier: "Platinum",
+        partnerSince: "2013-04",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+        partnerStatusSourceType: "existing_research_dataset",
+      },
+      platforms: ["Shopify"],
+      services: [
+        "Store design and development",
+        "Store migration",
+        "Theme customization",
+        "Custom apps and integrations",
+        "SEO",
+      ],
+      industries: ["Fashion", "Food and drink", "Beauty", "Jewelry"],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: ["United States", "Canada"],
+      supportedMarketsListComplete: true,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: 5,
+          scale: 5,
+          reviewCount: 185,
+          status: "published_rating",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/arcticgreyinc",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        projectMinimum: null,
+        selectedServices: {
+          minimum: 199,
+          maximum: null,
+          currency: "USD",
+          currencyBasis: "USA-English Shopify directory dollar display; confirm in quote",
+          billingBasis: "selected services, not a full-store project minimum",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/arcticgreyinc",
+        },
+        hourlyRate: null,
+        status: "published_selected_service_prices",
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "EBY",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/arcticgreyinc",
+          projectUrl: null,
+        },
+        {
+          client: "The Cashmere Sale",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/arcticgreyinc",
+          projectUrl: null,
+        },
+        {
+          client: "BarkBox",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/arcticgreyinc",
+          projectUrl: null,
+        },
+        {
+          client: "Olaplex",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/arcticgreyinc",
+          projectUrl: null,
+        },
+        {
+          client: "Harvard University",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/arcticgreyinc",
+          projectUrl: null,
+        },
+        {
+          client: "Lids",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/arcticgreyinc",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl:
+        "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.arcticgrey.com",
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/arcticgreyinc",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      logoType: "favicon_proxy",
+      shortDescription:
+        "Shopify development partner offering store builds, migrations, theme changes, integrations and ongoing technical improvements.",
+      shortDescriptionSourceType: "public_source_paraphrase",
+      longDescription:
+        "Arctic Grey has public evidence connecting it to the New York City, NY market. Shopify development partner offering store builds, migrations, theme changes, integrations and ongoing technical improvements. The public Shopify profile identifies the partner tier as Platinum.\n\nFor directory visitors, the most relevant capabilities are Store design and development, Store migration, Theme customization, Custom apps and integrations. The agency record is structured to help merchants compare potential partners without turning directory placement into an endorsement. Where the source provides a Shopify Partner Directory profile, the dataset treats that as stronger evidence of Shopify specialization. Where the source is a third-party directory such as Clutch, the record is marked accordingly and the location relationship is kept separate from a verified office claim.\n\nA typical engagement may involve discovery, store architecture, design or theme implementation, migration planning, integration work, quality assurance and post-launch optimization. The exact scope, price, timeline and platform fit should still be confirmed directly with the agency because public directory information can change and service descriptions are often broader than a specific proposal.\n\nThis description is an AI-generated editorial summary built from the public evidence stored in the record. It is intended for your agency directory and should not be presented as a direct quotation from the company. Before publishing time-sensitive details such as partner tiers, ratings, pricing or addresses, recheck the linked source. That keeps the page useful for SEO and comparison while clearly separating sourced facts from generated explanatory copy.",
+      longDescriptionSourceType: "ai_generated_editorial_from_public_evidence",
+      whatTheyDo: [
+        {
+          name: "Store design and development",
+          description:
+            "Store design and development is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Store migration",
+          description:
+            "Store migration is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Theme customization",
+          description:
+            "Theme customization is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Custom apps and integrations",
+          description:
+            "Custom apps and integrations is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "SEO",
+          description:
+            "SEO is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+      ],
+      portfolioStatus: "source_supported_entries_only; no fabricated client projects",
+      reviews: [
+        {
+          source: "Clutch",
+          rating: 5,
+          reviewCount: 185,
+          reviewText: null,
+          reviewSummary:
+            "Public source showed a 5/5 aggregate rating across 185 reviews.",
+          summaryType: "paraphrased_aggregate",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/arcticgreyinc",
+        },
+      ],
+      reviewsStatus:
+        "aggregate_or_public_source_only; no fabricated customer review text",
+      faqs: [
+        {
+          question: "Does Arctic Grey work with Shopify?",
+          answer:
+            "Arctic Grey appears in public Shopify/ecommerce research used for this dataset. Check the linked source for the latest specialization and partner status.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Is Arctic Grey based in New York City?",
+          answer:
+            "This record has a public local/metro listing for New York City, NY. Review the location relationship field before presenting the company as physically local.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "What Shopify services can Arctic Grey provide?",
+          answer:
+            "The record highlights store development, theme work, migration, optimization and integrations where supported by public positioning or editorial categorization.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Arctic Grey work with Shopify Plus?",
+          answer:
+            "Shopify Plus capability is only treated as confirmed when the public source explicitly indicates it. Otherwise, ask the agency directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How much does Arctic Grey charge?",
+          answer:
+            "Pricing varies by scope. Use any published price only as a directory snapshot and request a current quote from Arctic Grey.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Can Arctic Grey migrate a store to Shopify?",
+          answer:
+            "Migration is a common ecommerce service, but availability for a specific platform and catalog size should be confirmed directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Arctic Grey offer ongoing Shopify support?",
+          answer:
+            "Ongoing support may include maintenance, troubleshooting and optimization. Confirm retainers, response times and support boundaries with the agency.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How should I evaluate Arctic Grey?",
+          answer:
+            "Compare relevant Shopify experience, portfolio evidence, technical fit, communication, pricing model and verified reviews rather than relying on a single directory metric.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Are the reviews for Arctic Grey verified by this directory?",
+          answer:
+            "No. This dataset links to public third-party sources and does not independently verify reviewer identity or project outcomes.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How current is this Arctic Grey profile?",
+          answer:
+            "The research snapshot is dated 2026-10-03. Partner tiers, ratings, staff, services and contact details can change, so important facts should be rechecked before publication.",
+          sourceType: "ai_generated_editorial",
+        },
+      ],
+      contentProvenance: {
+        publicFacts:
+          "Sourced from linked public directories or the user-supplied NYC research dataset.",
+        generatedEditorial: [
+          "longDescription",
+          "service descriptions where not explicitly sourced",
+          "faqs",
+        ],
+        notFabricated: [
+          "customer review text",
+          "client names",
+          "partner tier",
+          "physical office address",
+        ],
+      },
+      editorialNote:
+        "Descriptions, service explanations and FAQs include editorial summaries. Confirm inferred capabilities with the agency; they are not direct company statements.",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "avex",
+      name: "Avex",
+      aliases: [],
+      entityType: "agency",
+      website: "https://avexdesigns.com",
+      description:
+        "New York Shopify agency delivering ecommerce design, migrations, headless storefronts and conversion improvements for consumer brands.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/avexdesigns",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Optimization and analytics",
+        "Headless commerce",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "local_or_primary_location",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/avexdesigns",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+        targetCity: "New York City",
+        listedLocation: null,
+        verificationStatus: "reused_from_user_supplied_research_dataset",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "newbusiness@avexdesigns.com",
+        phone: null,
+        contactPage: null,
+        otherEmails: [],
+        otherPhones: [],
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/avexdesigns",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/avexdesigns",
+        partnerTier: "Platinum",
+        partnerSince: "2012-03",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+        partnerStatusSourceType: "existing_research_dataset",
+      },
+      platforms: ["Shopify"],
+      services: [
+        "Store design and development",
+        "Store migration",
+        "Headless commerce",
+        "Conversion optimization",
+        "International expansion",
+      ],
+      industries: ["Fashion", "Beauty", "Jewelry", "Lifestyle"],
+      technologies: ["SAP integration"],
+      languages: ["English", "Russian"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: 5,
+          scale: 5,
+          reviewCount: 4,
+          status: "published_rating",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/avexdesigns",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        projectMinimum: null,
+        selectedServices: {
+          minimum: 10000,
+          maximum: null,
+          currency: "USD",
+          currencyBasis: "USA-English Shopify directory dollar display; confirm in quote",
+          billingBasis: "selected services, not a full-store project minimum",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/avexdesigns",
+        },
+        hourlyRate: null,
+        status: "published_selected_service_prices",
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "quip",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/avexdesigns",
+          projectUrl: null,
+        },
+        {
+          client: "Tru Earth",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/avexdesigns",
+          projectUrl: null,
+        },
+        {
+          client: "NAKEDCASHMERE",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/avexdesigns",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: "Novus SAP connector is also featured on the partner profile.",
+      socialProfiles: [],
+      logoUrl:
+        "https://www.google.com/s2/favicons?sz=128&domain_url=https://avexdesigns.com",
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/avexdesigns",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      logoType: "favicon_proxy",
+      shortDescription:
+        "New York Shopify agency delivering ecommerce design, migrations, headless storefronts and conversion improvements for consumer brands.",
+      shortDescriptionSourceType: "public_source_paraphrase",
+      longDescription:
+        "Avex has public evidence connecting it to the New York City, NY market. New York Shopify agency delivering ecommerce design, migrations, headless storefronts and conversion improvements for consumer brands. The public Shopify profile identifies the partner tier as Platinum.\n\nFor directory visitors, the most relevant capabilities are Store design and development, Store migration, Headless commerce, Conversion optimization. The agency record is structured to help merchants compare potential partners without turning directory placement into an endorsement. Where the source provides a Shopify Partner Directory profile, the dataset treats that as stronger evidence of Shopify specialization. Where the source is a third-party directory such as Clutch, the record is marked accordingly and the location relationship is kept separate from a verified office claim.\n\nA typical engagement may involve discovery, store architecture, design or theme implementation, migration planning, integration work, quality assurance and post-launch optimization. The exact scope, price, timeline and platform fit should still be confirmed directly with the agency because public directory information can change and service descriptions are often broader than a specific proposal.\n\nThis description is an AI-generated editorial summary built from the public evidence stored in the record. It is intended for your agency directory and should not be presented as a direct quotation from the company. Before publishing time-sensitive details such as partner tiers, ratings, pricing or addresses, recheck the linked source. That keeps the page useful for SEO and comparison while clearly separating sourced facts from generated explanatory copy.",
+      longDescriptionSourceType: "ai_generated_editorial_from_public_evidence",
+      whatTheyDo: [
+        {
+          name: "Store design and development",
+          description:
+            "Store design and development is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Store migration",
+          description:
+            "Store migration is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Headless commerce",
+          description:
+            "Headless commerce is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Conversion optimization",
+          description:
+            "Conversion optimization is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "International expansion",
+          description:
+            "International expansion is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+      ],
+      portfolioStatus: "source_supported_entries_only; no fabricated client projects",
+      reviews: [
+        {
+          source: "Clutch",
+          rating: 5,
+          reviewCount: 4,
+          reviewText: null,
+          reviewSummary: "Public source showed a 5/5 aggregate rating across 4 reviews.",
+          summaryType: "paraphrased_aggregate",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/avexdesigns",
+        },
+      ],
+      reviewsStatus:
+        "aggregate_or_public_source_only; no fabricated customer review text",
+      faqs: [
+        {
+          question: "Does Avex work with Shopify?",
+          answer:
+            "Avex appears in public Shopify/ecommerce research used for this dataset. Check the linked source for the latest specialization and partner status.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Is Avex based in New York City?",
+          answer:
+            "This record has a public local/metro listing for New York City, NY. Review the location relationship field before presenting the company as physically local.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "What Shopify services can Avex provide?",
+          answer:
+            "The record highlights store development, theme work, migration, optimization and integrations where supported by public positioning or editorial categorization.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Avex work with Shopify Plus?",
+          answer:
+            "Shopify Plus capability is only treated as confirmed when the public source explicitly indicates it. Otherwise, ask the agency directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How much does Avex charge?",
+          answer:
+            "Pricing varies by scope. Use any published price only as a directory snapshot and request a current quote from Avex.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Can Avex migrate a store to Shopify?",
+          answer:
+            "Migration is a common ecommerce service, but availability for a specific platform and catalog size should be confirmed directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Avex offer ongoing Shopify support?",
+          answer:
+            "Ongoing support may include maintenance, troubleshooting and optimization. Confirm retainers, response times and support boundaries with the agency.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How should I evaluate Avex?",
+          answer:
+            "Compare relevant Shopify experience, portfolio evidence, technical fit, communication, pricing model and verified reviews rather than relying on a single directory metric.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Are the reviews for Avex verified by this directory?",
+          answer:
+            "No. This dataset links to public third-party sources and does not independently verify reviewer identity or project outcomes.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How current is this Avex profile?",
+          answer:
+            "The research snapshot is dated 2026-10-03. Partner tiers, ratings, staff, services and contact details can change, so important facts should be rechecked before publication.",
+          sourceType: "ai_generated_editorial",
+        },
+      ],
+      contentProvenance: {
+        publicFacts:
+          "Sourced from linked public directories or the user-supplied NYC research dataset.",
+        generatedEditorial: [
+          "longDescription",
+          "service descriptions where not explicitly sourced",
+          "faqs",
+        ],
+        notFabricated: [
+          "customer review text",
+          "client names",
+          "partner tier",
+          "physical office address",
+        ],
+      },
+      editorialNote:
+        "Descriptions, service explanations and FAQs include editorial summaries. Confirm inferred capabilities with the agency; they are not direct company statements.",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "barrel",
+      name: "Barrel",
+      aliases: [],
+      entityType: "agency",
+      website: "https://www.barrelny.com",
+      description:
+        "Commerce agency focused on consumer packaged goods, combining brand storytelling, custom Shopify development and omnichannel customer experiences.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/barrel",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Optimization and analytics",
+        "Headless commerce",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "local_or_primary_location",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/barrel",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+        targetCity: "New York City",
+        listedLocation: null,
+        verificationStatus: "reused_from_user_supplied_research_dataset",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "newbiz@barrelny.com",
+        phone: null,
+        contactPage: null,
+        otherEmails: [],
+        otherPhones: [],
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/barrel",
+      },
+      foundedYear: null,
+      experience: {
+        shopifySinceYear: 2009,
+        shopifyPlusSinceYear: 2017,
+      },
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl: "https://www.shopify.com/partners/directory/partner/barrel",
+        partnerTier: "Platinum",
+        partnerSince: null,
+        partnerSincePrecision: null,
+        tierStatus: "listed_by_shopify",
+        partnerStatusSourceType: "existing_research_dataset",
+      },
+      platforms: ["Shopify"],
+      services: [
+        "Store design and development",
+        "Conversion optimization",
+        "Business strategy",
+        "Custom apps and integrations",
+        "Brand identity",
+      ],
+      industries: [
+        "Consumer packaged goods",
+        "Food and drink",
+        "Beauty",
+        "Home and garden",
+      ],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: null,
+          scale: 5,
+          reviewCount: 0,
+          status: "no_reviews_on_this_platform",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/barrel",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "no_reviews_on_checked_platform",
+      pricing: {
+        projectMinimum: null,
+        selectedServices: null,
+        hourlyRate: null,
+        status: "contact_for_pricing",
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "McCormick",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/barrel",
+          projectUrl: null,
+        },
+        {
+          client: "Sweet Loren's",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/barrel",
+          projectUrl: null,
+        },
+        {
+          client: "Bobo's",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/barrel",
+          projectUrl: null,
+        },
+        {
+          client: "The Outset",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/barrel",
+          projectUrl: null,
+        },
+        {
+          client: "Once Upon a Farm",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/barrel",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl:
+        "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.barrelny.com",
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/barrel",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      logoType: "favicon_proxy",
+      shortDescription:
+        "Commerce agency focused on consumer packaged goods, combining brand storytelling, custom Shopify development and omnichannel customer experiences.",
+      shortDescriptionSourceType: "public_source_paraphrase",
+      longDescription:
+        "Barrel has public evidence connecting it to the New York City, NY market. Commerce agency focused on consumer packaged goods, combining brand storytelling, custom Shopify development and omnichannel customer experiences. The public Shopify profile identifies the partner tier as Platinum.\n\nFor directory visitors, the most relevant capabilities are Store design and development, Conversion optimization, Business strategy, Custom apps and integrations. The agency record is structured to help merchants compare potential partners without turning directory placement into an endorsement. Where the source provides a Shopify Partner Directory profile, the dataset treats that as stronger evidence of Shopify specialization. Where the source is a third-party directory such as Clutch, the record is marked accordingly and the location relationship is kept separate from a verified office claim.\n\nA typical engagement may involve discovery, store architecture, design or theme implementation, migration planning, integration work, quality assurance and post-launch optimization. The exact scope, price, timeline and platform fit should still be confirmed directly with the agency because public directory information can change and service descriptions are often broader than a specific proposal.\n\nThis description is an AI-generated editorial summary built from the public evidence stored in the record. It is intended for your agency directory and should not be presented as a direct quotation from the company. Before publishing time-sensitive details such as partner tiers, ratings, pricing or addresses, recheck the linked source. That keeps the page useful for SEO and comparison while clearly separating sourced facts from generated explanatory copy.",
+      longDescriptionSourceType: "ai_generated_editorial_from_public_evidence",
+      whatTheyDo: [
+        {
+          name: "Store design and development",
+          description:
+            "Store design and development is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Conversion optimization",
+          description:
+            "Conversion optimization is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Business strategy",
+          description:
+            "Business strategy is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Custom apps and integrations",
+          description:
+            "Custom apps and integrations is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Brand identity",
+          description:
+            "Brand identity is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+      ],
+      portfolioStatus: "source_supported_entries_only; no fabricated client projects",
+      reviews: [],
+      reviewsStatus:
+        "aggregate_or_public_source_only; no fabricated customer review text",
+      faqs: [
+        {
+          question: "Does Barrel work with Shopify?",
+          answer:
+            "Barrel appears in public Shopify/ecommerce research used for this dataset. Check the linked source for the latest specialization and partner status.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Is Barrel based in New York City?",
+          answer:
+            "This record has a public local/metro listing for New York City, NY. Review the location relationship field before presenting the company as physically local.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "What Shopify services can Barrel provide?",
+          answer:
+            "The record highlights store development, theme work, migration, optimization and integrations where supported by public positioning or editorial categorization.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Barrel work with Shopify Plus?",
+          answer:
+            "Shopify Plus capability is only treated as confirmed when the public source explicitly indicates it. Otherwise, ask the agency directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How much does Barrel charge?",
+          answer:
+            "Pricing varies by scope. Use any published price only as a directory snapshot and request a current quote from Barrel.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Can Barrel migrate a store to Shopify?",
+          answer:
+            "Migration is a common ecommerce service, but availability for a specific platform and catalog size should be confirmed directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Barrel offer ongoing Shopify support?",
+          answer:
+            "Ongoing support may include maintenance, troubleshooting and optimization. Confirm retainers, response times and support boundaries with the agency.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How should I evaluate Barrel?",
+          answer:
+            "Compare relevant Shopify experience, portfolio evidence, technical fit, communication, pricing model and verified reviews rather than relying on a single directory metric.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Are the reviews for Barrel verified by this directory?",
+          answer:
+            "No. This dataset links to public third-party sources and does not independently verify reviewer identity or project outcomes.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How current is this Barrel profile?",
+          answer:
+            "The research snapshot is dated 2026-10-03. Partner tiers, ratings, staff, services and contact details can change, so important facts should be rechecked before publication.",
+          sourceType: "ai_generated_editorial",
+        },
+      ],
+      contentProvenance: {
+        publicFacts:
+          "Sourced from linked public directories or the user-supplied NYC research dataset.",
+        generatedEditorial: [
+          "longDescription",
+          "service descriptions where not explicitly sourced",
+          "faqs",
+        ],
+        notFabricated: [
+          "customer review text",
+          "client names",
+          "partner tier",
+          "physical office address",
+        ],
+      },
+      editorialNote:
+        "Descriptions, service explanations and FAQs include editorial summaries. Confirm inferred capabilities with the agency; they are not direct company statements.",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "bemeir",
+      name: "Bemeir",
+      aliases: [],
+      entityType: "agency",
+      website: "https://bemeir.com",
+      description:
+        "Brooklyn ecommerce development agency supporting Shopify builds, platform migrations, headless commerce and technical maintenance.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/bemeir-llc",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Optimization and analytics",
+        "Headless commerce",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: "Brooklyn",
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: "159 20th Street, Suite 1B",
+        postalCode: "11232",
+        relationship: "local_or_primary_location",
+        primaryLocationAsListed: "Brooklyn, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/bemeir-llc",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+        targetCity: "New York City",
+        listedLocation: null,
+        verificationStatus: "reused_from_user_supplied_research_dataset",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "info@bemeir.com",
+        phone: "+1 212-401-1969",
+        contactPage: null,
+        otherEmails: [],
+        otherPhones: [],
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/bemeir-llc",
+      },
+      foundedYear: null,
+      experience: {
+        shopifySinceYear: 2014,
+      },
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/bemeir-llc",
+        partnerTier: "Plus",
+        partnerSince: null,
+        partnerSincePrecision: null,
+        tierStatus: "listed_by_shopify",
+        partnerStatusSourceType: "existing_research_dataset",
+      },
+      platforms: ["Shopify", "Shopify Plus"],
+      services: [
+        "Store design and development",
+        "Store migration",
+        "Theme customization",
+        "Headless commerce",
+        "B2B commerce",
+      ],
+      industries: ["Automotive", "B2B", "Fashion", "Consumer packaged goods"],
+      technologies: [],
+      languages: ["English", "Spanish", "Portuguese (Brazil)"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: null,
+          scale: 5,
+          reviewCount: 0,
+          status: "no_reviews_on_this_platform",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/bemeir-llc",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "no_reviews_on_checked_platform",
+      pricing: {
+        projectMinimum: null,
+        selectedServices: null,
+        hourlyRate: null,
+        status: "contact_for_pricing",
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Anatomie",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/bemeir-llc",
+          projectUrl: null,
+        },
+        {
+          client: "Alumni of NY",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/bemeir-llc",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: "https://www.google.com/s2/favicons?sz=128&domain_url=https://bemeir.com",
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/bemeir-llc",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://bemeir.com/",
+          type: "official_website",
+          supports: ["location.streetAddress", "contact.phone"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://bemeir.com/shopify/",
+          type: "official_website",
+          supports: ["portfolio", "experience"],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      logoType: "favicon_proxy",
+      shortDescription:
+        "Brooklyn ecommerce development agency supporting Shopify builds, platform migrations, headless commerce and technical maintenance.",
+      shortDescriptionSourceType: "public_source_paraphrase",
+      longDescription:
+        "Bemeir has public evidence connecting it to the New York City, NY market. Brooklyn ecommerce development agency supporting Shopify builds, platform migrations, headless commerce and technical maintenance. The public Shopify profile identifies the partner tier as Plus.\n\nFor directory visitors, the most relevant capabilities are Store design and development, Store migration, Theme customization, Headless commerce. The agency record is structured to help merchants compare potential partners without turning directory placement into an endorsement. Where the source provides a Shopify Partner Directory profile, the dataset treats that as stronger evidence of Shopify specialization. Where the source is a third-party directory such as Clutch, the record is marked accordingly and the location relationship is kept separate from a verified office claim.\n\nA typical engagement may involve discovery, store architecture, design or theme implementation, migration planning, integration work, quality assurance and post-launch optimization. The exact scope, price, timeline and platform fit should still be confirmed directly with the agency because public directory information can change and service descriptions are often broader than a specific proposal.\n\nThis description is an AI-generated editorial summary built from the public evidence stored in the record. It is intended for your agency directory and should not be presented as a direct quotation from the company. Before publishing time-sensitive details such as partner tiers, ratings, pricing or addresses, recheck the linked source. That keeps the page useful for SEO and comparison while clearly separating sourced facts from generated explanatory copy.",
+      longDescriptionSourceType: "ai_generated_editorial_from_public_evidence",
+      whatTheyDo: [
+        {
+          name: "Store design and development",
+          description:
+            "Store design and development is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Store migration",
+          description:
+            "Store migration is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Theme customization",
+          description:
+            "Theme customization is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Headless commerce",
+          description:
+            "Headless commerce is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "B2B commerce",
+          description:
+            "B2B commerce is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+      ],
+      portfolioStatus: "source_supported_entries_only; no fabricated client projects",
+      reviews: [],
+      reviewsStatus:
+        "aggregate_or_public_source_only; no fabricated customer review text",
+      faqs: [
+        {
+          question: "Does Bemeir work with Shopify?",
+          answer:
+            "Bemeir appears in public Shopify/ecommerce research used for this dataset. Check the linked source for the latest specialization and partner status.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Is Bemeir based in New York City?",
+          answer:
+            "This record has a public local/metro listing for New York City, NY. Review the location relationship field before presenting the company as physically local.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "What Shopify services can Bemeir provide?",
+          answer:
+            "The record highlights store development, theme work, migration, optimization and integrations where supported by public positioning or editorial categorization.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Bemeir work with Shopify Plus?",
+          answer:
+            "Shopify Plus capability is only treated as confirmed when the public source explicitly indicates it. Otherwise, ask the agency directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How much does Bemeir charge?",
+          answer:
+            "Pricing varies by scope. Use any published price only as a directory snapshot and request a current quote from Bemeir.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Can Bemeir migrate a store to Shopify?",
+          answer:
+            "Migration is a common ecommerce service, but availability for a specific platform and catalog size should be confirmed directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Bemeir offer ongoing Shopify support?",
+          answer:
+            "Ongoing support may include maintenance, troubleshooting and optimization. Confirm retainers, response times and support boundaries with the agency.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How should I evaluate Bemeir?",
+          answer:
+            "Compare relevant Shopify experience, portfolio evidence, technical fit, communication, pricing model and verified reviews rather than relying on a single directory metric.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Are the reviews for Bemeir verified by this directory?",
+          answer:
+            "No. This dataset links to public third-party sources and does not independently verify reviewer identity or project outcomes.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How current is this Bemeir profile?",
+          answer:
+            "The research snapshot is dated 2026-10-03. Partner tiers, ratings, staff, services and contact details can change, so important facts should be rechecked before publication.",
+          sourceType: "ai_generated_editorial",
+        },
+      ],
+      contentProvenance: {
+        publicFacts:
+          "Sourced from linked public directories or the user-supplied NYC research dataset.",
+        generatedEditorial: [
+          "longDescription",
+          "service descriptions where not explicitly sourced",
+          "faqs",
+        ],
+        notFabricated: [
+          "customer review text",
+          "client names",
+          "partner tier",
+          "physical office address",
+        ],
+      },
+      editorialNote:
+        "Descriptions, service explanations and FAQs include editorial summaries. Confirm inferred capabilities with the agency; they are not direct company statements.",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "black-and-black",
+      name: "Black & Black",
+      aliases: [],
+      entityType: "agency",
+      website: "https://blackandblackcreative.com",
+      description:
+        "Design and development consultancy creating Shopify commerce experiences for luxury and consumer brands, including international storefronts.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/black-black",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Marketing",
+        "Optimization and analytics",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "local_or_primary_location",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/black-black",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+        targetCity: "New York City",
+        listedLocation: null,
+        verificationStatus: "reused_from_user_supplied_research_dataset",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "sales@blackandblackcreative.com",
+        phone: "+1 646-389-4114",
+        contactPage: null,
+        otherEmails: [],
+        otherPhones: [],
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/black-black",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/black-black",
+        partnerTier: "Plus",
+        partnerSince: "2015-05",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+        partnerStatusSourceType: "existing_research_dataset",
+      },
+      platforms: ["Shopify", "Shopify Plus"],
+      services: [
+        "Store design and development",
+        "Analytics",
+        "Business strategy",
+        "Content marketing",
+        "Conversion optimization",
+      ],
+      industries: ["Fashion", "Food and drink", "Beauty", "Jewelry"],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: 5,
+          scale: 5,
+          reviewCount: 1,
+          status: "published_rating",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/black-black",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        projectMinimum: null,
+        selectedServices: null,
+        hourlyRate: null,
+        status: "contact_for_pricing",
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Oribe",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/black-black",
+          projectUrl: null,
+        },
+        {
+          client: "Shopko Optical",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/black-black",
+          projectUrl: null,
+        },
+        {
+          client: "RE/DONE",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/black-black",
+          projectUrl: null,
+        },
+        {
+          client: "Costa Brazil",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/black-black",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl:
+        "https://www.google.com/s2/favicons?sz=128&domain_url=https://blackandblackcreative.com",
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/black-black",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      logoType: "favicon_proxy",
+      shortDescription:
+        "Design and development consultancy creating Shopify commerce experiences for luxury and consumer brands, including international storefronts.",
+      shortDescriptionSourceType: "public_source_paraphrase",
+      longDescription:
+        "Black & Black has public evidence connecting it to the New York City, NY market. Design and development consultancy creating Shopify commerce experiences for luxury and consumer brands, including international storefronts. The public Shopify profile identifies the partner tier as Plus.\n\nFor directory visitors, the most relevant capabilities are Store design and development, Analytics, Business strategy, Content marketing. The agency record is structured to help merchants compare potential partners without turning directory placement into an endorsement. Where the source provides a Shopify Partner Directory profile, the dataset treats that as stronger evidence of Shopify specialization. Where the source is a third-party directory such as Clutch, the record is marked accordingly and the location relationship is kept separate from a verified office claim.\n\nA typical engagement may involve discovery, store architecture, design or theme implementation, migration planning, integration work, quality assurance and post-launch optimization. The exact scope, price, timeline and platform fit should still be confirmed directly with the agency because public directory information can change and service descriptions are often broader than a specific proposal.\n\nThis description is an AI-generated editorial summary built from the public evidence stored in the record. It is intended for your agency directory and should not be presented as a direct quotation from the company. Before publishing time-sensitive details such as partner tiers, ratings, pricing or addresses, recheck the linked source. That keeps the page useful for SEO and comparison while clearly separating sourced facts from generated explanatory copy.",
+      longDescriptionSourceType: "ai_generated_editorial_from_public_evidence",
+      whatTheyDo: [
+        {
+          name: "Store design and development",
+          description:
+            "Store design and development is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Analytics",
+          description:
+            "Analytics is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Business strategy",
+          description:
+            "Business strategy is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Content marketing",
+          description:
+            "Content marketing is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Conversion optimization",
+          description:
+            "Conversion optimization is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+      ],
+      portfolioStatus: "source_supported_entries_only; no fabricated client projects",
+      reviews: [
+        {
+          source: "Clutch",
+          rating: 5,
+          reviewCount: 1,
+          reviewText: null,
+          reviewSummary: "Public source showed a 5/5 aggregate rating across 1 reviews.",
+          summaryType: "paraphrased_aggregate",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/black-black",
+        },
+      ],
+      reviewsStatus:
+        "aggregate_or_public_source_only; no fabricated customer review text",
+      faqs: [
+        {
+          question: "Does Black & Black work with Shopify?",
+          answer:
+            "Black & Black appears in public Shopify/ecommerce research used for this dataset. Check the linked source for the latest specialization and partner status.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Is Black & Black based in New York City?",
+          answer:
+            "This record has a public local/metro listing for New York City, NY. Review the location relationship field before presenting the company as physically local.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "What Shopify services can Black & Black provide?",
+          answer:
+            "The record highlights store development, theme work, migration, optimization and integrations where supported by public positioning or editorial categorization.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Black & Black work with Shopify Plus?",
+          answer:
+            "Shopify Plus capability is only treated as confirmed when the public source explicitly indicates it. Otherwise, ask the agency directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How much does Black & Black charge?",
+          answer:
+            "Pricing varies by scope. Use any published price only as a directory snapshot and request a current quote from Black & Black.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Can Black & Black migrate a store to Shopify?",
+          answer:
+            "Migration is a common ecommerce service, but availability for a specific platform and catalog size should be confirmed directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Black & Black offer ongoing Shopify support?",
+          answer:
+            "Ongoing support may include maintenance, troubleshooting and optimization. Confirm retainers, response times and support boundaries with the agency.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How should I evaluate Black & Black?",
+          answer:
+            "Compare relevant Shopify experience, portfolio evidence, technical fit, communication, pricing model and verified reviews rather than relying on a single directory metric.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Are the reviews for Black & Black verified by this directory?",
+          answer:
+            "No. This dataset links to public third-party sources and does not independently verify reviewer identity or project outcomes.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How current is this Black & Black profile?",
+          answer:
+            "The research snapshot is dated 2026-10-03. Partner tiers, ratings, staff, services and contact details can change, so important facts should be rechecked before publication.",
+          sourceType: "ai_generated_editorial",
+        },
+      ],
+      contentProvenance: {
+        publicFacts:
+          "Sourced from linked public directories or the user-supplied NYC research dataset.",
+        generatedEditorial: [
+          "longDescription",
+          "service descriptions where not explicitly sourced",
+          "faqs",
+        ],
+        notFabricated: [
+          "customer review text",
+          "client names",
+          "partner tier",
+          "physical office address",
+        ],
+      },
+      editorialNote:
+        "Descriptions, service explanations and FAQs include editorial summaries. Confirm inferred capabilities with the agency; they are not direct company statements.",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "blackbelt-commerce",
+      name: "Blackbelt Commerce",
+      aliases: [],
+      entityType: "agency",
+      website: "https://www.blackbeltcommerce.com",
+      description:
+        "Shopify agency handling new stores, migrations, customization, search visibility and conversion work for growing ecommerce businesses.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/shopifyninjas",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Marketing",
+        "Optimization and analytics",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "local_or_primary_location",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/shopifyninjas",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+        targetCity: "New York City",
+        listedLocation: null,
+        verificationStatus: "reused_from_user_supplied_research_dataset",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "CONTACT@blackbeltcommerce.com",
+        phone: "+1 516-704-9890",
+        contactPage: null,
+        otherEmails: [],
+        otherPhones: [],
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/shopifyninjas",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/shopifyninjas",
+        partnerTier: "Plus",
+        partnerSince: "2012-04",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+        partnerStatusSourceType: "existing_research_dataset",
+      },
+      platforms: ["Shopify", "Shopify Plus"],
+      services: [
+        "Store design and development",
+        "Store migration",
+        "Theme customization",
+        "Conversion optimization",
+        "SEO",
+      ],
+      industries: [],
+      technologies: [],
+      languages: ["English", "Spanish"],
+      languagesListComplete: true,
+      supportedMarkets: ["United States", "Colombia", "United Kingdom", "Spain"],
+      supportedMarketsListComplete: false,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: 5,
+          scale: 5,
+          reviewCount: 178,
+          status: "published_rating",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/shopifyninjas",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        projectMinimum: null,
+        selectedServices: {
+          minimum: 600,
+          maximum: 2500,
+          currency: "USD",
+          currencyBasis: "USA-English Shopify directory dollar display; confirm in quote",
+          billingBasis: "selected services, not a full-store project minimum",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/shopifyninjas",
+        },
+        hourlyRate: null,
+        status: "published_selected_service_prices",
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Judith Leiber",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/shopifyninjas",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl:
+        "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.blackbeltcommerce.com",
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/shopifyninjas",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      logoType: "favicon_proxy",
+      shortDescription:
+        "Shopify agency handling new stores, migrations, customization, search visibility and conversion work for growing ecommerce businesses.",
+      shortDescriptionSourceType: "public_source_paraphrase",
+      longDescription:
+        "Blackbelt Commerce has public evidence connecting it to the New York City, NY market. Shopify agency handling new stores, migrations, customization, search visibility and conversion work for growing ecommerce businesses. The public Shopify profile identifies the partner tier as Plus.\n\nFor directory visitors, the most relevant capabilities are Store design and development, Store migration, Theme customization, Conversion optimization. The agency record is structured to help merchants compare potential partners without turning directory placement into an endorsement. Where the source provides a Shopify Partner Directory profile, the dataset treats that as stronger evidence of Shopify specialization. Where the source is a third-party directory such as Clutch, the record is marked accordingly and the location relationship is kept separate from a verified office claim.\n\nA typical engagement may involve discovery, store architecture, design or theme implementation, migration planning, integration work, quality assurance and post-launch optimization. The exact scope, price, timeline and platform fit should still be confirmed directly with the agency because public directory information can change and service descriptions are often broader than a specific proposal.\n\nThis description is an AI-generated editorial summary built from the public evidence stored in the record. It is intended for your agency directory and should not be presented as a direct quotation from the company. Before publishing time-sensitive details such as partner tiers, ratings, pricing or addresses, recheck the linked source. That keeps the page useful for SEO and comparison while clearly separating sourced facts from generated explanatory copy.",
+      longDescriptionSourceType: "ai_generated_editorial_from_public_evidence",
+      whatTheyDo: [
+        {
+          name: "Store design and development",
+          description:
+            "Store design and development is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Store migration",
+          description:
+            "Store migration is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Theme customization",
+          description:
+            "Theme customization is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Conversion optimization",
+          description:
+            "Conversion optimization is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "SEO",
+          description:
+            "SEO is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+      ],
+      portfolioStatus: "source_supported_entries_only; no fabricated client projects",
+      reviews: [
+        {
+          source: "Clutch",
+          rating: 5,
+          reviewCount: 178,
+          reviewText: null,
+          reviewSummary:
+            "Public source showed a 5/5 aggregate rating across 178 reviews.",
+          summaryType: "paraphrased_aggregate",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/shopifyninjas",
+        },
+      ],
+      reviewsStatus:
+        "aggregate_or_public_source_only; no fabricated customer review text",
+      faqs: [
+        {
+          question: "Does Blackbelt Commerce work with Shopify?",
+          answer:
+            "Blackbelt Commerce appears in public Shopify/ecommerce research used for this dataset. Check the linked source for the latest specialization and partner status.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Is Blackbelt Commerce based in New York City?",
+          answer:
+            "This record has a public local/metro listing for New York City, NY. Review the location relationship field before presenting the company as physically local.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "What Shopify services can Blackbelt Commerce provide?",
+          answer:
+            "The record highlights store development, theme work, migration, optimization and integrations where supported by public positioning or editorial categorization.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Blackbelt Commerce work with Shopify Plus?",
+          answer:
+            "Shopify Plus capability is only treated as confirmed when the public source explicitly indicates it. Otherwise, ask the agency directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How much does Blackbelt Commerce charge?",
+          answer:
+            "Pricing varies by scope. Use any published price only as a directory snapshot and request a current quote from Blackbelt Commerce.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Can Blackbelt Commerce migrate a store to Shopify?",
+          answer:
+            "Migration is a common ecommerce service, but availability for a specific platform and catalog size should be confirmed directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Blackbelt Commerce offer ongoing Shopify support?",
+          answer:
+            "Ongoing support may include maintenance, troubleshooting and optimization. Confirm retainers, response times and support boundaries with the agency.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How should I evaluate Blackbelt Commerce?",
+          answer:
+            "Compare relevant Shopify experience, portfolio evidence, technical fit, communication, pricing model and verified reviews rather than relying on a single directory metric.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Are the reviews for Blackbelt Commerce verified by this directory?",
+          answer:
+            "No. This dataset links to public third-party sources and does not independently verify reviewer identity or project outcomes.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How current is this Blackbelt Commerce profile?",
+          answer:
+            "The research snapshot is dated 2026-10-03. Partner tiers, ratings, staff, services and contact details can change, so important facts should be rechecked before publication.",
+          sourceType: "ai_generated_editorial",
+        },
+      ],
+      contentProvenance: {
+        publicFacts:
+          "Sourced from linked public directories or the user-supplied NYC research dataset.",
+        generatedEditorial: [
+          "longDescription",
+          "service descriptions where not explicitly sourced",
+          "faqs",
+        ],
+        notFabricated: [
+          "customer review text",
+          "client names",
+          "partner tier",
+          "physical office address",
+        ],
+      },
+      editorialNote:
+        "Descriptions, service explanations and FAQs include editorial summaries. Confirm inferred capabilities with the agency; they are not direct company statements.",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "blueswitch",
+      name: "BlueSwitch",
+      aliases: [],
+      entityType: "agency",
+      website: "https://www.blueswitch.com",
+      description:
+        "New York agency combining Shopify design and engineering with integrations, B2B commerce and marketing support.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/blueswitch",
+      ],
+      categories: ["Shopify agency", "Development", "Design and branding", "Marketing"],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: "Manhattan",
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: "29 Broadway, Ground Floor",
+        postalCode: "10006",
+        relationship: "local_or_primary_location",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/blueswitch",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+        targetCity: "New York City",
+        listedLocation: null,
+        verificationStatus: "reused_from_user_supplied_research_dataset",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "shopify@blueswitch.com",
+        phone: "+1 212-742-2775",
+        contactPage: "https://www.blueswitch.com/contact",
+        otherEmails: ["info@blueswitch.com"],
+        otherPhones: [
+          {
+            label: "Main",
+            value: "+1 212-742-2770",
+          },
+          {
+            label: "Sales",
+            value: "+1 212-627-0550",
+          },
+        ],
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/blueswitch",
+      },
+      foundedYear: null,
+      experience: {
+        operatingSinceYear: 2000,
+      },
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/blueswitch",
+        partnerTier: "Platinum",
+        partnerSince: "2013-12",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+        partnerStatusSourceType: "existing_research_dataset",
+      },
+      platforms: ["Shopify"],
+      services: [
+        "Store design and development",
+        "Systems integration",
+        "B2B commerce",
+        "Digital marketing",
+        "Performance optimization",
+      ],
+      industries: [],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: 4.9,
+          scale: 5,
+          reviewCount: 54,
+          status: "published_rating",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/blueswitch",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        projectMinimum: null,
+        selectedServices: null,
+        hourlyRate: null,
+        status: "contact_for_pricing",
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "L'Oreal Colorsonic",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.blueswitch.com/work",
+          projectUrl: null,
+        },
+        {
+          client: "Panasonic",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.blueswitch.com/work",
+          projectUrl: null,
+        },
+        {
+          client: "TYR",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.blueswitch.com/work",
+          projectUrl: null,
+        },
+        {
+          client: "European Wax Center",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.blueswitch.com/work",
+          projectUrl: null,
+        },
+        {
+          client: "Ted Baker",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.blueswitch.com/work",
+          projectUrl: null,
+        },
+        {
+          client: "Mario Badescu",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.blueswitch.com/work",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl:
+        "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.blueswitch.com",
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/blueswitch",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://www.blueswitch.com/contact",
+          type: "official_website",
+          supports: [
+            "location.streetAddress",
+            "contact.otherPhones",
+            "contact.otherEmails",
+          ],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://www.blueswitch.com/work",
+          type: "official_website",
+          supports: ["portfolio"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://www.blueswitch.com/shopify-solutions",
+          type: "official_website",
+          supports: ["services"],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      logoType: "favicon_proxy",
+      shortDescription:
+        "New York agency combining Shopify design and engineering with integrations, B2B commerce and marketing support.",
+      shortDescriptionSourceType: "public_source_paraphrase",
+      longDescription:
+        "BlueSwitch has public evidence connecting it to the New York City, NY market. New York agency combining Shopify design and engineering with integrations, B2B commerce and marketing support. The public Shopify profile identifies the partner tier as Platinum.\n\nFor directory visitors, the most relevant capabilities are Store design and development, Systems integration, B2B commerce, Digital marketing. The agency record is structured to help merchants compare potential partners without turning directory placement into an endorsement. Where the source provides a Shopify Partner Directory profile, the dataset treats that as stronger evidence of Shopify specialization. Where the source is a third-party directory such as Clutch, the record is marked accordingly and the location relationship is kept separate from a verified office claim.\n\nA typical engagement may involve discovery, store architecture, design or theme implementation, migration planning, integration work, quality assurance and post-launch optimization. The exact scope, price, timeline and platform fit should still be confirmed directly with the agency because public directory information can change and service descriptions are often broader than a specific proposal.\n\nThis description is an AI-generated editorial summary built from the public evidence stored in the record. It is intended for your agency directory and should not be presented as a direct quotation from the company. Before publishing time-sensitive details such as partner tiers, ratings, pricing or addresses, recheck the linked source. That keeps the page useful for SEO and comparison while clearly separating sourced facts from generated explanatory copy.",
+      longDescriptionSourceType: "ai_generated_editorial_from_public_evidence",
+      whatTheyDo: [
+        {
+          name: "Store design and development",
+          description:
+            "Store design and development is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Systems integration",
+          description:
+            "Systems integration is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "B2B commerce",
+          description:
+            "B2B commerce is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Digital marketing",
+          description:
+            "Digital marketing is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Performance optimization",
+          description:
+            "Improving storefront speed, front-end efficiency and technical quality using Shopify-compatible implementation practices.",
+          sourceType: "ai_generated_editorial",
+        },
+      ],
+      portfolioStatus: "source_supported_entries_only; no fabricated client projects",
+      reviews: [
+        {
+          source: "Clutch",
+          rating: 4.9,
+          reviewCount: 54,
+          reviewText: null,
+          reviewSummary:
+            "Public source showed a 4.9/5 aggregate rating across 54 reviews.",
+          summaryType: "paraphrased_aggregate",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/blueswitch",
+        },
+      ],
+      reviewsStatus:
+        "aggregate_or_public_source_only; no fabricated customer review text",
+      faqs: [
+        {
+          question: "Does BlueSwitch work with Shopify?",
+          answer:
+            "BlueSwitch appears in public Shopify/ecommerce research used for this dataset. Check the linked source for the latest specialization and partner status.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Is BlueSwitch based in New York City?",
+          answer:
+            "This record has a public local/metro listing for New York City, NY. Review the location relationship field before presenting the company as physically local.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "What Shopify services can BlueSwitch provide?",
+          answer:
+            "The record highlights store development, theme work, migration, optimization and integrations where supported by public positioning or editorial categorization.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does BlueSwitch work with Shopify Plus?",
+          answer:
+            "Shopify Plus capability is only treated as confirmed when the public source explicitly indicates it. Otherwise, ask the agency directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How much does BlueSwitch charge?",
+          answer:
+            "Pricing varies by scope. Use any published price only as a directory snapshot and request a current quote from BlueSwitch.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Can BlueSwitch migrate a store to Shopify?",
+          answer:
+            "Migration is a common ecommerce service, but availability for a specific platform and catalog size should be confirmed directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does BlueSwitch offer ongoing Shopify support?",
+          answer:
+            "Ongoing support may include maintenance, troubleshooting and optimization. Confirm retainers, response times and support boundaries with the agency.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How should I evaluate BlueSwitch?",
+          answer:
+            "Compare relevant Shopify experience, portfolio evidence, technical fit, communication, pricing model and verified reviews rather than relying on a single directory metric.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Are the reviews for BlueSwitch verified by this directory?",
+          answer:
+            "No. This dataset links to public third-party sources and does not independently verify reviewer identity or project outcomes.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How current is this BlueSwitch profile?",
+          answer:
+            "The research snapshot is dated 2026-10-03. Partner tiers, ratings, staff, services and contact details can change, so important facts should be rechecked before publication.",
+          sourceType: "ai_generated_editorial",
+        },
+      ],
+      contentProvenance: {
+        publicFacts:
+          "Sourced from linked public directories or the user-supplied NYC research dataset.",
+        generatedEditorial: [
+          "longDescription",
+          "service descriptions where not explicitly sourced",
+          "faqs",
+        ],
+        notFabricated: [
+          "customer review text",
+          "client names",
+          "partner tier",
+          "physical office address",
+        ],
+      },
+      editorialNote:
+        "Descriptions, service explanations and FAQs include editorial summaries. Confirm inferred capabilities with the agency; they are not direct company statements.",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "darkroom",
+      name: "Darkroom",
+      aliases: [],
+      entityType: "agency",
+      website: "https://www.darkroomagency.com",
+      description:
+        "Commerce and growth agency with a New York team, connecting Shopify store development with paid media and customer retention.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/darkroom",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Marketing",
+        "Optimization and analytics",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "local_or_primary_location",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/darkroom",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+        targetCity: "New York City",
+        listedLocation: null,
+        verificationStatus: "reused_from_user_supplied_research_dataset",
+      },
+      otherOfficeLocations: ["New York", "Lisbon", "São Paulo"],
+      contact: {
+        email: "peter@darkroomagency.com",
+        phone: null,
+        contactPage: null,
+        otherEmails: [],
+        otherPhones: [],
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/darkroom",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/darkroom",
+        partnerTier: "Plus",
+        partnerSince: null,
+        partnerSincePrecision: null,
+        tierStatus: "listed_by_shopify",
+        partnerStatusSourceType: "existing_research_dataset",
+      },
+      platforms: ["Shopify", "Shopify Plus"],
+      services: [
+        "Store design and development",
+        "Store migration",
+        "Theme customization",
+        "Website audits",
+        "Ongoing management",
+      ],
+      industries: ["Fashion", "Consumer packaged goods", "Food and drink", "Beauty"],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: null,
+          scale: 5,
+          reviewCount: 0,
+          status: "no_reviews_on_this_platform",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/darkroom",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "no_reviews_on_checked_platform",
+      pricing: {
+        projectMinimum: null,
+        selectedServices: {
+          minimum: 5000,
+          maximum: 60000,
+          currency: "USD",
+          currencyBasis: "USA-English Shopify directory dollar display; confirm in quote",
+          billingBasis: "selected services, not a full-store project minimum",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/darkroom",
+        },
+        hourlyRate: null,
+        status: "published_selected_service_prices",
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "SAUZ",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/darkroom",
+          projectUrl: null,
+        },
+        {
+          client: "Crate & Barrel",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/darkroom",
+          projectUrl: null,
+        },
+        {
+          client: "Everlane",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/darkroom",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes:
+        "Agency portfolio includes non-Shopify work: Crate & Barrel microsites and Everlane Amazon storefront. SAUZ is explicitly a Shopify project.",
+      socialProfiles: [],
+      logoUrl:
+        "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.darkroomagency.com",
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/darkroom",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      logoType: "favicon_proxy",
+      shortDescription:
+        "Commerce and growth agency with a New York team, connecting Shopify store development with paid media and customer retention.",
+      shortDescriptionSourceType: "public_source_paraphrase",
+      longDescription:
+        "Darkroom has public evidence connecting it to the New York City, NY market. Commerce and growth agency with a New York team, connecting Shopify store development with paid media and customer retention. The public Shopify profile identifies the partner tier as Plus.\n\nFor directory visitors, the most relevant capabilities are Store design and development, Store migration, Theme customization, Website audits. The agency record is structured to help merchants compare potential partners without turning directory placement into an endorsement. Where the source provides a Shopify Partner Directory profile, the dataset treats that as stronger evidence of Shopify specialization. Where the source is a third-party directory such as Clutch, the record is marked accordingly and the location relationship is kept separate from a verified office claim.\n\nA typical engagement may involve discovery, store architecture, design or theme implementation, migration planning, integration work, quality assurance and post-launch optimization. The exact scope, price, timeline and platform fit should still be confirmed directly with the agency because public directory information can change and service descriptions are often broader than a specific proposal.\n\nThis description is an AI-generated editorial summary built from the public evidence stored in the record. It is intended for your agency directory and should not be presented as a direct quotation from the company. Before publishing time-sensitive details such as partner tiers, ratings, pricing or addresses, recheck the linked source. That keeps the page useful for SEO and comparison while clearly separating sourced facts from generated explanatory copy.",
+      longDescriptionSourceType: "ai_generated_editorial_from_public_evidence",
+      whatTheyDo: [
+        {
+          name: "Store design and development",
+          description:
+            "Store design and development is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Store migration",
+          description:
+            "Store migration is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Theme customization",
+          description:
+            "Theme customization is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Website audits",
+          description:
+            "Website audits is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Ongoing management",
+          description:
+            "Ongoing management is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+      ],
+      portfolioStatus: "source_supported_entries_only; no fabricated client projects",
+      reviews: [],
+      reviewsStatus:
+        "aggregate_or_public_source_only; no fabricated customer review text",
+      faqs: [
+        {
+          question: "Does Darkroom work with Shopify?",
+          answer:
+            "Darkroom appears in public Shopify/ecommerce research used for this dataset. Check the linked source for the latest specialization and partner status.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Is Darkroom based in New York City?",
+          answer:
+            "This record has a public local/metro listing for New York City, NY. Review the location relationship field before presenting the company as physically local.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "What Shopify services can Darkroom provide?",
+          answer:
+            "The record highlights store development, theme work, migration, optimization and integrations where supported by public positioning or editorial categorization.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Darkroom work with Shopify Plus?",
+          answer:
+            "Shopify Plus capability is only treated as confirmed when the public source explicitly indicates it. Otherwise, ask the agency directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How much does Darkroom charge?",
+          answer:
+            "Pricing varies by scope. Use any published price only as a directory snapshot and request a current quote from Darkroom.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Can Darkroom migrate a store to Shopify?",
+          answer:
+            "Migration is a common ecommerce service, but availability for a specific platform and catalog size should be confirmed directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Darkroom offer ongoing Shopify support?",
+          answer:
+            "Ongoing support may include maintenance, troubleshooting and optimization. Confirm retainers, response times and support boundaries with the agency.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How should I evaluate Darkroom?",
+          answer:
+            "Compare relevant Shopify experience, portfolio evidence, technical fit, communication, pricing model and verified reviews rather than relying on a single directory metric.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Are the reviews for Darkroom verified by this directory?",
+          answer:
+            "No. This dataset links to public third-party sources and does not independently verify reviewer identity or project outcomes.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How current is this Darkroom profile?",
+          answer:
+            "The research snapshot is dated 2026-10-03. Partner tiers, ratings, staff, services and contact details can change, so important facts should be rechecked before publication.",
+          sourceType: "ai_generated_editorial",
+        },
+      ],
+      contentProvenance: {
+        publicFacts:
+          "Sourced from linked public directories or the user-supplied NYC research dataset.",
+        generatedEditorial: [
+          "longDescription",
+          "service descriptions where not explicitly sourced",
+          "faqs",
+        ],
+        notFabricated: [
+          "customer review text",
+          "client names",
+          "partner tier",
+          "physical office address",
+        ],
+      },
+      editorialNote:
+        "Descriptions, service explanations and FAQs include editorial summaries. Confirm inferred capabilities with the agency; they are not direct company statements.",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "digital-silk",
+      name: "Digital Silk",
+      aliases: [],
+      entityType: "agency",
+      website: "https://www.digitalsilk.com",
+      description:
+        "Digital agency offering branded websites, Shopify ecommerce development and online marketing, with a New York office.",
+      descriptionSourceUrls: ["https://www.digitalsilk.com/"],
+      categories: ["Shopify agency", "Development", "Design and branding", "Marketing"],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: "Manhattan",
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: "18 West 18th Street",
+        postalCode: "10011",
+        relationship: "local_or_primary_location",
+        primaryLocationAsListed: null,
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.digitalsilk.com/",
+        notes:
+          "Public sources associate this agency with the New York City market. A physical office has not been independently verified.",
+        targetCity: "New York City",
+        listedLocation: null,
+        verificationStatus: "reused_from_user_supplied_research_dataset",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: null,
+        phone: null,
+        contactPage: null,
+        otherEmails: [],
+        otherPhones: [],
+        sourceUrl: "https://www.digitalsilk.com/",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl: null,
+        partnerTier: null,
+        partnerSince: null,
+        partnerSincePrecision: null,
+        tierStatus: "not_confirmed",
+        partnerStatusSourceType: "existing_research_dataset",
+      },
+      platforms: ["Shopify"],
+      services: ["Shopify development", "Web design", "Branding", "SEO", "Paid media"],
+      industries: [],
+      technologies: [],
+      languages: [],
+      languagesListComplete: null,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Clutch",
+          value: 4.9,
+          scale: 5,
+          reviewCount: 51,
+          status: "published_rating",
+          scope: "Agency-wide reviews; not necessarily Shopify-only",
+          sourceUrl: "https://clutch.co/profile/digital-silk",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        projectMinimum: {
+          amount: 10000,
+          currency: "USD",
+          scope: "Clutch agency-wide minimum; not a Shopify-specific quote",
+          sourceUrl: "https://clutch.co/profile/digital-silk",
+        },
+        selectedServices: null,
+        hourlyRate: {
+          minimum: 100,
+          maximum: 149,
+          currency: "USD",
+          unit: "hour",
+          sourceUrl: "https://clutch.co/profile/digital-silk",
+        },
+        status: "not_confirmed",
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl:
+        "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.digitalsilk.com",
+      sources: [
+        {
+          url: "https://www.digitalsilk.com/",
+          type: "official_website",
+          supports: ["website", "description", "services", "location"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://www.digitalsilk.com/web-design/new-york/",
+          type: "official_website",
+          supports: ["location", "services"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://clutch.co/profile/digital-silk",
+          type: "review_directory",
+          supports: [
+            "ratings",
+            "pricing.projectMinimum",
+            "pricing.hourlyRate",
+            "teamSize",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      logoType: "favicon_proxy",
+      shortDescription:
+        "Digital agency offering branded websites, Shopify ecommerce development and online marketing, with a New York office.",
+      shortDescriptionSourceType: "public_source_paraphrase",
+      longDescription:
+        "Digital Silk has public evidence connecting it to the New York City, NY market. Digital agency offering branded websites, Shopify ecommerce development and online marketing, with a New York office.\n\nFor directory visitors, the most relevant capabilities are Shopify development, Web design, Branding, SEO. The agency record is structured to help merchants compare potential partners without turning directory placement into an endorsement. Where the source provides a Shopify Partner Directory profile, the dataset treats that as stronger evidence of Shopify specialization. Where the source is a third-party directory such as Clutch, the record is marked accordingly and the location relationship is kept separate from a verified office claim.\n\nA typical engagement may involve discovery, store architecture, design or theme implementation, migration planning, integration work, quality assurance and post-launch optimization. The exact scope, price, timeline and platform fit should still be confirmed directly with the agency because public directory information can change and service descriptions are often broader than a specific proposal.\n\nThis description is an AI-generated editorial summary built from the public evidence stored in the record. It is intended for your agency directory and should not be presented as a direct quotation from the company. Before publishing time-sensitive details such as partner tiers, ratings, pricing or addresses, recheck the linked source. That keeps the page useful for SEO and comparison while clearly separating sourced facts from generated explanatory copy.",
+      longDescriptionSourceType: "ai_generated_editorial_from_public_evidence",
+      whatTheyDo: [
+        {
+          name: "Shopify development",
+          description:
+            "Shopify development is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Web design",
+          description:
+            "Web design is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Branding",
+          description:
+            "Branding is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "SEO",
+          description:
+            "SEO is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Paid media",
+          description:
+            "Paid media is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+      ],
+      portfolioStatus: "source_supported_entries_only; no fabricated client projects",
+      reviews: [
+        {
+          source: "Clutch",
+          rating: 4.9,
+          reviewCount: 51,
+          reviewText: null,
+          reviewSummary:
+            "Public source showed a 4.9/5 aggregate rating across 51 reviews.",
+          summaryType: "paraphrased_aggregate",
+          sourceUrl: "https://www.digitalsilk.com/",
+        },
+      ],
+      reviewsStatus:
+        "aggregate_or_public_source_only; no fabricated customer review text",
+      faqs: [
+        {
+          question: "Does Digital Silk work with Shopify?",
+          answer:
+            "Digital Silk appears in public Shopify/ecommerce research used for this dataset. Check the linked source for the latest specialization and partner status.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Is Digital Silk based in New York City?",
+          answer:
+            "This record has a public local/metro listing for New York City, NY. Review the location relationship field before presenting the company as physically local.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "What Shopify services can Digital Silk provide?",
+          answer:
+            "The record highlights store development, theme work, migration, optimization and integrations where supported by public positioning or editorial categorization.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Digital Silk work with Shopify Plus?",
+          answer:
+            "Shopify Plus capability is only treated as confirmed when the public source explicitly indicates it. Otherwise, ask the agency directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How much does Digital Silk charge?",
+          answer:
+            "Pricing varies by scope. Use any published price only as a directory snapshot and request a current quote from Digital Silk.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Can Digital Silk migrate a store to Shopify?",
+          answer:
+            "Migration is a common ecommerce service, but availability for a specific platform and catalog size should be confirmed directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Digital Silk offer ongoing Shopify support?",
+          answer:
+            "Ongoing support may include maintenance, troubleshooting and optimization. Confirm retainers, response times and support boundaries with the agency.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How should I evaluate Digital Silk?",
+          answer:
+            "Compare relevant Shopify experience, portfolio evidence, technical fit, communication, pricing model and verified reviews rather than relying on a single directory metric.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Are the reviews for Digital Silk verified by this directory?",
+          answer:
+            "No. This dataset links to public third-party sources and does not independently verify reviewer identity or project outcomes.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How current is this Digital Silk profile?",
+          answer:
+            "The research snapshot is dated 2026-10-03. Partner tiers, ratings, staff, services and contact details can change, so important facts should be rechecked before publication.",
+          sourceType: "ai_generated_editorial",
+        },
+      ],
+      contentProvenance: {
+        publicFacts:
+          "Sourced from linked public directories or the user-supplied NYC research dataset.",
+        generatedEditorial: [
+          "longDescription",
+          "service descriptions where not explicitly sourced",
+          "faqs",
+        ],
+        notFabricated: [
+          "customer review text",
+          "client names",
+          "partner tier",
+          "physical office address",
+        ],
+      },
+      editorialNote:
+        "Descriptions, service explanations and FAQs include editorial summaries. Confirm inferred capabilities with the agency; they are not direct company statements.",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "driver-digital",
+      name: "Driver Digital",
+      aliases: [],
+      entityType: "agency",
+      website: "https://www.driver-digital.com",
+      description:
+        "Creative commerce agency blending brand, user experience and engineering for founder-led fashion, jewelry, beauty and home businesses.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/driver-digital",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Optimization and analytics",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "local_or_primary_location",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/driver-digital",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+        targetCity: "New York City",
+        listedLocation: null,
+        verificationStatus: "reused_from_user_supplied_research_dataset",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "david@driver-digital.com",
+        phone: null,
+        contactPage: null,
+        otherEmails: [],
+        otherPhones: [],
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/driver-digital",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/driver-digital",
+        partnerTier: "Plus",
+        partnerSince: null,
+        partnerSincePrecision: null,
+        tierStatus: "listed_by_shopify",
+        partnerStatusSourceType: "existing_research_dataset",
+      },
+      platforms: ["Shopify", "Shopify Plus"],
+      services: [
+        "Store design and development",
+        "Store migration",
+        "Theme customization",
+        "Website audits",
+        "Product and collection setup",
+      ],
+      industries: ["Fashion", "Beauty", "Jewelry", "Lifestyle", "Home"],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: null,
+          scale: 5,
+          reviewCount: 0,
+          status: "no_reviews_on_this_platform",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/driver-digital",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "no_reviews_on_checked_platform",
+      pricing: {
+        projectMinimum: null,
+        selectedServices: null,
+        hourlyRate: null,
+        status: "contact_for_pricing",
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Foundrae",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/driver-digital",
+          projectUrl: null,
+        },
+        {
+          client: "Hairstory",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/driver-digital",
+          projectUrl: null,
+        },
+        {
+          client: "LAPOINTE",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/driver-digital",
+          projectUrl: null,
+        },
+        {
+          client: "Hanky Panky",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/driver-digital",
+          projectUrl: null,
+        },
+        {
+          client: "Avara",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/driver-digital",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl:
+        "https://www.google.com/s2/favicons?sz=128&domain_url=https://www.driver-digital.com",
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/driver-digital",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      logoType: "favicon_proxy",
+      shortDescription:
+        "Creative commerce agency blending brand, user experience and engineering for founder-led fashion, jewelry, beauty and home businesses.",
+      shortDescriptionSourceType: "public_source_paraphrase",
+      longDescription:
+        "Driver Digital has public evidence connecting it to the New York City, NY market. Creative commerce agency blending brand, user experience and engineering for founder-led fashion, jewelry, beauty and home businesses. The public Shopify profile identifies the partner tier as Plus.\n\nFor directory visitors, the most relevant capabilities are Store design and development, Store migration, Theme customization, Website audits. The agency record is structured to help merchants compare potential partners without turning directory placement into an endorsement. Where the source provides a Shopify Partner Directory profile, the dataset treats that as stronger evidence of Shopify specialization. Where the source is a third-party directory such as Clutch, the record is marked accordingly and the location relationship is kept separate from a verified office claim.\n\nA typical engagement may involve discovery, store architecture, design or theme implementation, migration planning, integration work, quality assurance and post-launch optimization. The exact scope, price, timeline and platform fit should still be confirmed directly with the agency because public directory information can change and service descriptions are often broader than a specific proposal.\n\nThis description is an AI-generated editorial summary built from the public evidence stored in the record. It is intended for your agency directory and should not be presented as a direct quotation from the company. Before publishing time-sensitive details such as partner tiers, ratings, pricing or addresses, recheck the linked source. That keeps the page useful for SEO and comparison while clearly separating sourced facts from generated explanatory copy.",
+      longDescriptionSourceType: "ai_generated_editorial_from_public_evidence",
+      whatTheyDo: [
+        {
+          name: "Store design and development",
+          description:
+            "Store design and development is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Store migration",
+          description:
+            "Store migration is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Theme customization",
+          description:
+            "Theme customization is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Website audits",
+          description:
+            "Website audits is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+        {
+          name: "Product and collection setup",
+          description:
+            "Product and collection setup is listed or inferred from the agency's public Shopify/ecommerce positioning.",
+          sourceType: "public_source_summary",
+        },
+      ],
+      portfolioStatus: "source_supported_entries_only; no fabricated client projects",
+      reviews: [],
+      reviewsStatus:
+        "aggregate_or_public_source_only; no fabricated customer review text",
+      faqs: [
+        {
+          question: "Does Driver Digital work with Shopify?",
+          answer:
+            "Driver Digital appears in public Shopify/ecommerce research used for this dataset. Check the linked source for the latest specialization and partner status.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Is Driver Digital based in New York City?",
+          answer:
+            "This record has a public local/metro listing for New York City, NY. Review the location relationship field before presenting the company as physically local.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "What Shopify services can Driver Digital provide?",
+          answer:
+            "The record highlights store development, theme work, migration, optimization and integrations where supported by public positioning or editorial categorization.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Driver Digital work with Shopify Plus?",
+          answer:
+            "Shopify Plus capability is only treated as confirmed when the public source explicitly indicates it. Otherwise, ask the agency directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How much does Driver Digital charge?",
+          answer:
+            "Pricing varies by scope. Use any published price only as a directory snapshot and request a current quote from Driver Digital.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Can Driver Digital migrate a store to Shopify?",
+          answer:
+            "Migration is a common ecommerce service, but availability for a specific platform and catalog size should be confirmed directly.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Does Driver Digital offer ongoing Shopify support?",
+          answer:
+            "Ongoing support may include maintenance, troubleshooting and optimization. Confirm retainers, response times and support boundaries with the agency.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How should I evaluate Driver Digital?",
+          answer:
+            "Compare relevant Shopify experience, portfolio evidence, technical fit, communication, pricing model and verified reviews rather than relying on a single directory metric.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "Are the reviews for Driver Digital verified by this directory?",
+          answer:
+            "No. This dataset links to public third-party sources and does not independently verify reviewer identity or project outcomes.",
+          sourceType: "ai_generated_editorial",
+        },
+        {
+          question: "How current is this Driver Digital profile?",
+          answer:
+            "The research snapshot is dated 2026-10-03. Partner tiers, ratings, staff, services and contact details can change, so important facts should be rechecked before publication.",
+          sourceType: "ai_generated_editorial",
+        },
+      ],
+      contentProvenance: {
+        publicFacts:
+          "Sourced from linked public directories or the user-supplied NYC research dataset.",
+        generatedEditorial: [
+          "longDescription",
+          "service descriptions where not explicitly sourced",
+          "faqs",
+        ],
+        notFabricated: [
+          "customer review text",
+          "client names",
+          "partner tier",
+          "physical office address",
+        ],
+      },
+      editorialNote:
+        "Descriptions, service explanations and FAQs include editorial summaries. Confirm inferred capabilities with the agency; they are not direct company statements.",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "forge",
+      name: "Forge",
+      aliases: [],
+      entityType: "agency",
+      website: null,
+      description:
+        "New York digital studio creating consumer brands and ecommerce experiences, with work spanning personalized gifts, apparel and food delivery.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/forge2",
+      ],
+      categories: ["Shopify agency", "Design and branding"],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "shopify_primary_location_listed",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/forge2",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "phil@forge.coop",
+        phone: null,
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/forge2",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl: "https://www.shopify.com/partners/directory/partner/forge2",
+        partnerTier: null,
+        partnerSince: null,
+        partnerSincePrecision: null,
+        tierStatus: "not_confirmed",
+      },
+      platforms: ["Shopify"],
+      services: ["Brand design", "Ecommerce design", "User experience design"],
+      industries: ["Fashion", "Food and drink", "Beauty"],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: null,
+          scale: 5,
+          reviewCount: 0,
+          status: "no_reviews_on_this_platform",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/forge2",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "no_reviews_on_checked_platform",
+      pricing: {
+        selectedServices: null,
+        status: "not_found",
+        projectMinimum: null,
+        hourlyRate: null,
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Birthdate Co.",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/forge2",
+          projectUrl: null,
+        },
+        {
+          client: "Jambys",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/forge2",
+          projectUrl: null,
+        },
+        {
+          client: "Zoku Sushi",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/forge2",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/forge2",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [
+          "The retrieved Shopify profile did not list a website or partner tier; the email domain has not been assumed to be the website.",
+        ],
+      },
+      shortDescription:
+        "New York digital studio creating consumer brands and ecommerce experiences, with work spanning personalized gifts, apparel and food delivery.",
+      longDescription:
+        "New York digital studio creating consumer brands and ecommerce experiences, with work spanning personalized gifts, apparel and food delivery.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "lounge-lizard",
+      name: "Lounge Lizard",
+      aliases: [],
+      entityType: "agency",
+      website: "https://www.loungelizard.com",
+      description:
+        "Digital agency offering custom Shopify stores, theme development, marketing and maintenance, with a Manhattan office.",
+      descriptionSourceUrls: ["https://www.loungelizard.com/locations/"],
+      categories: ["Shopify agency", "Development", "Design and branding", "Marketing"],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: "Manhattan",
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: "112 West 34th Street, 18th Floor",
+        postalCode: "10120",
+        relationship: "nyc_office",
+        primaryLocationAsListed:
+          "Holbrook, New York, United States (official locations page)",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.loungelizard.com/locations/",
+        notes: null,
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "sales@loungelizard.com",
+        phone: "+1 646-661-7828",
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: "https://www.loungelizard.com/locations/",
+        sourceUrl: "https://www.loungelizard.com/locations/",
+      },
+      foundedYear: 1998,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl: null,
+        partnerTier: null,
+        partnerSince: null,
+        partnerSincePrecision: null,
+        tierStatus: "not_confirmed",
+      },
+      platforms: ["Shopify"],
+      services: [
+        "Shopify web design",
+        "Custom development",
+        "API integration",
+        "Theme customization",
+        "SEO",
+        "Product catalog management",
+        "Site maintenance",
+        "Digital marketing",
+      ],
+      industries: [],
+      technologies: [],
+      languages: [],
+      languagesListComplete: null,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Clutch",
+          value: 4.8,
+          scale: 5,
+          reviewCount: 43,
+          status: "published_rating",
+          scope: "Agency-wide reviews; not necessarily Shopify-only",
+          sourceUrl: "https://clutch.co/profile/lounge-lizard",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        selectedServices: null,
+        status: "not_confirmed",
+        projectMinimum: {
+          amount: 10000,
+          currency: "USD",
+          scope: "Clutch agency-wide minimum; not a Shopify-specific quote",
+          sourceUrl: "https://clutch.co/profile/lounge-lizard",
+        },
+        hourlyRate: null,
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Dylan's Candy Bar",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl:
+            "https://www.loungelizard.com/services/website-development/shopify-developers/",
+          projectUrl: null,
+        },
+        {
+          client: "MIND GAMES Fragrance",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl:
+            "https://www.loungelizard.com/services/website-development/shopify-developers/",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes:
+        "MIND GAMES appears on the Shopify web design service page; Dylan's Candy Bar appears on the Shopify development page.",
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.loungelizard.com/locations/",
+          type: "official_website",
+          supports: ["contact", "location"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://www.loungelizard.com/services/web-design/shopify-web-design/",
+          type: "official_website",
+          supports: ["services", "portfolio"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://www.loungelizard.com/services/website-development/shopify-developers/",
+          type: "official_website",
+          supports: ["services", "portfolio"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://www.loungelizard.com/shopify-store-development/",
+          type: "official_website",
+          supports: ["foundedYear"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://clutch.co/profile/lounge-lizard",
+          type: "review_directory",
+          supports: [
+            "ratings",
+            "pricing.projectMinimum",
+            "pricing.hourlyRate",
+            "teamSize",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [
+          "Official locations page identifies Holbrook as headquarters; Clutch labels the Manhattan address headquarters. NYC office is confirmed, headquarters designation conflicts.",
+        ],
+      },
+      shortDescription:
+        "Digital agency offering custom Shopify stores, theme development, marketing and maintenance, with a Manhattan office.",
+      longDescription:
+        "Digital agency offering custom Shopify stores, theme development, marketing and maintenance, with a Manhattan office.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "mobikasa",
+      name: "MOBIKASA",
+      aliases: [],
+      entityType: "agency",
+      website: "https://www.mobikasa.com",
+      description:
+        "Ecommerce development agency with a Manhattan office, offering Shopify builds, integrations, migrations and conversion support.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/mobikasa",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Marketing",
+        "Optimization and analytics",
+        "Headless commerce",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: "Manhattan",
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: "135 Madison Avenue, 8th Floor",
+        postalCode: "10016",
+        relationship: "nyc_office",
+        primaryLocationAsListed: "Miami, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://partners.bigcommerce.com/directory/partner/204245/mobikasa",
+        notes: null,
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "info@mobikasa.com",
+        phone: "+1 646-880-4504",
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/mobikasa",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: {
+        range: "50–249",
+        scope: "Company-wide directory estimate",
+        sourceUrl: "https://clutch.co/developers/shopify/new-york",
+      },
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/mobikasa",
+        partnerTier: "Platinum",
+        partnerSince: "2013-09",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+      },
+      platforms: ["Shopify"],
+      services: [
+        "Store design and development",
+        "Store migration",
+        "Theme customization",
+        "Custom apps",
+        "Headless commerce",
+        "SEO",
+        "Accessibility",
+        "Conversion optimization",
+      ],
+      industries: ["Fashion", "Beauty", "Home and garden", "Jewelry"],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: 4.7,
+          scale: 5,
+          reviewCount: 54,
+          status: "published_rating",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/mobikasa",
+          observedAt: "2026-10-03",
+        },
+        {
+          platform: "Clutch",
+          value: 4.8,
+          scale: 5,
+          reviewCount: 125,
+          status: "published_rating",
+          scope: "Agency-wide reviews; not necessarily Shopify-only",
+          sourceUrl: "https://clutch.co/developers/shopify/new-york",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        selectedServices: {
+          minimum: 50,
+          maximum: null,
+          currency: "USD",
+          currencyBasis: "USA-English Shopify directory dollar display; confirm in quote",
+          billingBasis: "selected services, not a full-store project minimum",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/mobikasa",
+        },
+        status: "published_selected_service_prices",
+        projectMinimum: {
+          amount: 5000,
+          currency: "USD",
+          scope: "Clutch agency-wide minimum; not a Shopify-specific quote",
+          sourceUrl: "https://clutch.co/developers/shopify/new-york",
+        },
+        hourlyRate: {
+          minimum: 25,
+          maximum: 49,
+          currency: "USD",
+          unit: "hour",
+          sourceUrl: "https://clutch.co/developers/shopify/new-york",
+        },
+        servicePrices: [
+          {
+            service: "Custom apps and integrations",
+            startingAt: 5000,
+            currency: "USD",
+            billingPeriod: null,
+            sourceUrl: "https://www.shopify.com/partners/directory/partner/mobikasa",
+          },
+          {
+            service: "SEO",
+            startingAt: 600,
+            currency: "USD",
+            billingPeriod: null,
+            sourceUrl: "https://www.shopify.com/partners/directory/partner/mobikasa",
+          },
+          {
+            service: "Store build or redesign",
+            startingAt: 5000,
+            currency: "USD",
+            billingPeriod: null,
+            sourceUrl: "https://www.shopify.com/partners/directory/partner/mobikasa",
+          },
+          {
+            service: "Store migration",
+            startingAt: 5000,
+            currency: "USD",
+            billingPeriod: null,
+            sourceUrl: "https://www.shopify.com/partners/directory/partner/mobikasa",
+          },
+          {
+            service: "Theme customization",
+            startingAt: 5000,
+            currency: "USD",
+            billingPeriod: null,
+            sourceUrl: "https://www.shopify.com/partners/directory/partner/mobikasa",
+          },
+        ],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Randolph",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/mobikasa",
+          projectUrl: null,
+        },
+        {
+          client: "Perfumania",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/mobikasa",
+          projectUrl: null,
+        },
+        {
+          client: "Nestasia",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/mobikasa",
+          projectUrl: null,
+        },
+        {
+          client: "Aashirvaad",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/mobikasa",
+          projectUrl: null,
+        },
+        {
+          client: "Fast Growing Trees",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/mobikasa",
+          projectUrl: null,
+        },
+        {
+          client: "Mavi",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/mobikasa",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/mobikasa",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://partners.bigcommerce.com/directory/partner/204245/mobikasa",
+          type: "platform_partner_directory",
+          supports: ["location.streetAddress"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://clutch.co/developers/shopify/new-york",
+          type: "review_directory",
+          supports: [
+            "ratings",
+            "pricing.projectMinimum",
+            "pricing.hourlyRate",
+            "teamSize",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [
+          "Shopify lists Miami as primary location. NYC office evidence is separate; do not label this a NYC headquarters.",
+        ],
+      },
+      shortDescription:
+        "Ecommerce development agency with a Manhattan office, offering Shopify builds, integrations, migrations and conversion support.",
+      longDescription:
+        "Ecommerce development agency with a Manhattan office, offering Shopify builds, integrations, migrations and conversion support.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "omnycode",
+      name: "Omnycode",
+      aliases: [],
+      entityType: "agency",
+      website: "https://omnycode.com",
+      description:
+        "New York ecommerce agency helping DTC and B2B merchants with Shopify development, migrations, analytics and performance improvements.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/omnycode",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Optimization and analytics",
+        "Headless commerce",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: "Manhattan",
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "shopify_primary_location_listed",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://omnycode.com/ecommerce-agency-new-york/",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "info@omnycode.com",
+        phone: "+1 212-653-0080",
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/omnycode",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/omnycode",
+        partnerTier: "Select",
+        partnerSince: "2018-05",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+      },
+      platforms: ["Shopify"],
+      services: [
+        "Store design and development",
+        "Store migration",
+        "Custom apps and integrations",
+        "Theme customization",
+        "Headless commerce",
+        "Website audits",
+        "UX/UI design",
+        "Analytics",
+      ],
+      industries: ["Fashion", "Consumer packaged goods", "Jewelry", "Lifestyle"],
+      technologies: ["Hydrogen", "Klaviyo", "GA4", "Looker Studio", "Klevu"],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: 5,
+          scale: 5,
+          reviewCount: 4,
+          status: "published_rating",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/omnycode",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        selectedServices: {
+          minimum: 5000,
+          maximum: null,
+          currency: "USD",
+          currencyBasis: "USA-English Shopify directory dollar display; confirm in quote",
+          billingBasis: "selected services, not a full-store project minimum",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/omnycode",
+        },
+        status: "published_selected_service_prices",
+        projectMinimum: null,
+        hourlyRate: null,
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Eileen West",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/omnycode",
+          projectUrl: null,
+        },
+        {
+          client: "Olivia von Halle",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/omnycode",
+          projectUrl: null,
+        },
+        {
+          client: "Somm Cellars",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/omnycode",
+          projectUrl: null,
+        },
+        {
+          client: "Maison de Sabre",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/omnycode",
+          projectUrl: null,
+        },
+        {
+          client: "Le Mystère",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/omnycode",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/omnycode",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://omnycode.com/ecommerce-agency-new-york/",
+          type: "official_website",
+          supports: ["location.borough", "services", "technologies"],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      shortDescription:
+        "New York ecommerce agency helping DTC and B2B merchants with Shopify development, migrations, analytics and performance improvements.",
+      longDescription:
+        "New York ecommerce agency helping DTC and B2B merchants with Shopify development, migrations, analytics and performance improvements.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "patane",
+      name: "PATANE",
+      aliases: [],
+      entityType: "agency",
+      website: "https://patanecreative.com",
+      description:
+        "Brooklyn Shopify specialist supporting discovery, store architecture, custom integrations, design and platform migration.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/patane",
+      ],
+      categories: ["Shopify agency", "Development", "Design and branding"],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: "Brooklyn",
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "shopify_primary_location_listed",
+        primaryLocationAsListed: "Brooklyn, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/patane",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "team@patanecreative.com",
+        phone: null,
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/patane",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl: "https://www.shopify.com/partners/directory/partner/patane",
+        partnerTier: "Select",
+        partnerSince: "2011-09",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+      },
+      platforms: ["Shopify", "Shopify Plus"],
+      services: [
+        "Store design and development",
+        "Shopify Plus development",
+        "Custom integrations",
+        "Store migration",
+        "Ecommerce architecture",
+      ],
+      industries: ["B2B", "Fashion", "Beauty", "Lifestyle"],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: 5,
+          scale: 5,
+          reviewCount: 73,
+          status: "published_rating",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/patane",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        selectedServices: {
+          minimum: 99,
+          maximum: null,
+          currency: "USD",
+          currencyBasis: "USA-English Shopify directory dollar display; confirm in quote",
+          billingBasis: "selected services, not a full-store project minimum",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/patane",
+        },
+        status: "published_selected_service_prices",
+        projectMinimum: null,
+        hourlyRate: null,
+        servicePrices: [
+          {
+            service: "Store build or redesign",
+            startingAt: 5000,
+            currency: "USD",
+            billingPeriod: null,
+            sourceUrl: "https://www.shopify.com/partners/directory/partner/patane",
+          },
+          {
+            service: "Ongoing website management",
+            startingAt: 2000,
+            currency: "USD",
+            billingPeriod: null,
+            sourceUrl: "https://www.shopify.com/partners/directory/partner/patane",
+          },
+          {
+            service: "Theme customization",
+            startingAt: 180,
+            currency: "USD",
+            billingPeriod: null,
+            sourceUrl: "https://www.shopify.com/partners/directory/partner/patane",
+          },
+        ],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Ellis Works",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/patane",
+          projectUrl: null,
+        },
+        {
+          client: "The Packaging People",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/patane",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/patane",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      shortDescription:
+        "Brooklyn Shopify specialist supporting discovery, store architecture, custom integrations, design and platform migration.",
+      longDescription:
+        "Brooklyn Shopify specialist supporting discovery, store architecture, custom integrations, design and platform migration.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "permalight-nyc",
+      name: "Permalight NYC",
+      aliases: [],
+      entityType: "agency",
+      website: "https://permalightnyc.com",
+      description:
+        "Brooklyn development studio building customized Shopify experiences for direct-to-consumer brands.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/permalight-nyc",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Optimization and analytics",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: "Brooklyn",
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "shopify_primary_location_listed",
+        primaryLocationAsListed: "Brooklyn, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/permalight-nyc",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "studio@permalightnyc.com",
+        phone: null,
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/permalight-nyc",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/permalight-nyc",
+        partnerTier: "Select",
+        partnerSince: null,
+        partnerSincePrecision: null,
+        tierStatus: "listed_by_shopify",
+      },
+      platforms: ["Shopify"],
+      services: [
+        "Store design and development",
+        "Theme customization",
+        "Conversion optimization",
+        "Product and collection setup",
+        "Ongoing management",
+      ],
+      industries: ["Consumer packaged goods", "Home and garden", "Jewelry", "Lifestyle"],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: null,
+          scale: 5,
+          reviewCount: 0,
+          status: "no_reviews_on_this_platform",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/permalight-nyc",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "no_reviews_on_checked_platform",
+      pricing: {
+        selectedServices: null,
+        status: "contact_for_pricing",
+        projectMinimum: null,
+        hourlyRate: null,
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Pepper Home",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/permalight-nyc",
+          projectUrl: null,
+        },
+        {
+          client: "Nomad Grills",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/permalight-nyc",
+          projectUrl: null,
+        },
+        {
+          client: "Superoot",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/permalight-nyc",
+          projectUrl: null,
+        },
+        {
+          client: "Field Company",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/permalight-nyc",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/permalight-nyc",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      shortDescription:
+        "Brooklyn development studio building customized Shopify experiences for direct-to-consumer brands.",
+      longDescription:
+        "Brooklyn development studio building customized Shopify experiences for direct-to-consumer brands.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "plus972",
+      name: "Plus972",
+      aliases: [],
+      entityType: "agency",
+      website: "https://plus972.com",
+      description:
+        "International brand and marketing agency providing Shopify design, migrations and ongoing ecommerce support, with a stated New York City headquarters.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/plus972group",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Optimization and analytics",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "nyc_presence_claimed_primary_location_conflict",
+        primaryLocationAsListed: "Great Neck, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://plus972.com/new-york/",
+        notes:
+          "NYC association is claimed; structured primary location is outside NYC. Confirm exact office address before publishing as a physical NYC office.",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "reuben@plus972group.com",
+        phone: null,
+        otherEmails: ["info@plus972group.com"],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/plus972group",
+      },
+      foundedYear: 2009,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/plus972group",
+        partnerTier: "Plus",
+        partnerSince: "2014-07",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+      },
+      platforms: ["Shopify", "Shopify Plus"],
+      services: [
+        "Store migration",
+        "Store design and development",
+        "Theme customization",
+        "POS migration",
+        "Website audits",
+        "Ongoing management",
+      ],
+      industries: ["B2B", "Fashion", "Jewelry", "Lifestyle"],
+      technologies: [],
+      languages: ["English", "Spanish", "Portuguese (Brazil)"],
+      languagesListComplete: false,
+      supportedMarkets: ["United States", "Portugal", "Israel"],
+      supportedMarketsListComplete: true,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: null,
+          scale: 5,
+          reviewCount: 0,
+          status: "no_reviews_on_this_platform",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/plus972group",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "no_reviews_on_checked_platform",
+      pricing: {
+        selectedServices: null,
+        status: "contact_for_pricing",
+        projectMinimum: null,
+        hourlyRate: null,
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Maison Spoiled",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/plus972group",
+          projectUrl: null,
+        },
+        {
+          client: "LaQuan Smith",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/plus972group",
+          projectUrl: null,
+        },
+        {
+          client: "Gaia Goddess",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/plus972group",
+          projectUrl: null,
+        },
+        {
+          client: "Cerqular",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/plus972group",
+          projectUrl: null,
+        },
+        {
+          client: "Antoya BBQ",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/plus972group",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/plus972group",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://plus972.com/new-york/",
+          type: "official_website",
+          supports: ["location", "contact.otherEmails"],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [
+          "Shopify's structured primary location says Great Neck; its agency description says NYC headquarters. Great Neck is outside NYC. NYC association is documented, but a current street address was not confirmed.",
+        ],
+      },
+      shortDescription:
+        "International brand and marketing agency providing Shopify design, migrations and ongoing ecommerce support, with a stated New York City headquarters.",
+      longDescription:
+        "International brand and marketing agency providing Shopify design, migrations and ongoing ecommerce support, with a stated New York City headquarters.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "roswell-nyc",
+      name: "Roswell NYC",
+      aliases: [],
+      entityType: "agency",
+      website: "https://roswell.nyc",
+      description:
+        "New York ecommerce agency combining Shopify technology, creative production, marketing and retention services.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/roswell-studios",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Marketing",
+        "Optimization and analytics",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: "10006",
+        relationship: "shopify_primary_location_listed",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://roswell.nyc/contact",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "buildmybusiness@roswellstudios.com",
+        phone: "+1 212-227-6140",
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: "https://roswell.nyc/contact",
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/roswell-studios",
+      },
+      foundedYear: null,
+      experience: {
+        shopifyPlusSinceYear: 2016,
+      },
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/roswell-studios",
+        partnerTier: "Platinum",
+        partnerSince: "2015-10",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+      },
+      platforms: ["Shopify"],
+      services: [
+        "Shopify development",
+        "Analytics",
+        "Business strategy",
+        "Content marketing",
+        "Advertising",
+        "3D modeling",
+        "Retention marketing",
+      ],
+      industries: [],
+      technologies: [],
+      languages: ["English", "Spanish", "French"],
+      languagesListComplete: false,
+      supportedMarkets: ["United States", "Canada"],
+      supportedMarketsListComplete: true,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: 5,
+          scale: 5,
+          reviewCount: 5,
+          status: "published_rating",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/roswell-studios",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        selectedServices: null,
+        status: "contact_for_pricing",
+        projectMinimum: null,
+        hourlyRate: null,
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Kjaer Weis",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://partners.algolia.com/partners/roswell-nyc",
+          projectUrl: null,
+        },
+        {
+          client: "amika",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://partners.algolia.com/partners/roswell-nyc",
+          projectUrl: null,
+        },
+        {
+          client: "MDNA SKIN",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://partners.algolia.com/partners/roswell-nyc",
+          projectUrl: null,
+        },
+        {
+          client: "GREATS",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://partners.algolia.com/partners/roswell-nyc",
+          projectUrl: null,
+        },
+        {
+          client: "Bachan's",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://partners.algolia.com/partners/roswell-nyc",
+          projectUrl: null,
+        },
+        {
+          client: "The Sak",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://partners.algolia.com/partners/roswell-nyc",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/roswell-studios",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://roswell.nyc/services/technology",
+          type: "official_website",
+          supports: ["services", "experience"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://roswell.nyc/contact",
+          type: "official_website",
+          supports: ["location.postalCode"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://partners.algolia.com/partners/roswell-nyc",
+          type: "platform_partner_directory",
+          supports: ["portfolio"],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      shortDescription:
+        "New York ecommerce agency combining Shopify technology, creative production, marketing and retention services.",
+      longDescription:
+        "New York ecommerce agency combining Shopify technology, creative production, marketing and retention services.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "shugert-marketing",
+      name: "Shugert Marketing",
+      aliases: [],
+      entityType: "agency",
+      website: "https://shugertmarketing.com",
+      description:
+        "Shopify engineering and marketing agency focused on migrations, technical SEO, site performance and conversion optimization.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/shugert-marketing",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Marketing",
+        "Optimization and analytics",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "shopify_primary_location_listed",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl:
+          "https://www.shopify.com/partners/directory/partner/shugert-marketing",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+      },
+      otherOfficeLocations: ["New York", "Barcelona", "Mexico"],
+      contact: {
+        email: "hello@shugertmarketing.com",
+        phone: null,
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/shugert-marketing",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/shugert-marketing",
+        partnerTier: "Select",
+        partnerSince: "2015-09",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+      },
+      platforms: ["Shopify", "Shopify Plus"],
+      services: [
+        "Shopify development",
+        "Shopify Plus development",
+        "Store migration",
+        "Technical SEO",
+        "Conversion optimization",
+        "Speed optimization",
+      ],
+      industries: [],
+      technologies: [],
+      languages: ["English", "Spanish"],
+      languagesListComplete: true,
+      supportedMarkets: ["United States", "Canada", "Spain", "United Kingdom"],
+      supportedMarketsListComplete: false,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: 4.9,
+          scale: 5,
+          reviewCount: 172,
+          status: "published_rating",
+          sourceUrl:
+            "https://www.shopify.com/partners/directory/partner/shugert-marketing",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        selectedServices: {
+          minimum: 90,
+          maximum: null,
+          currency: "USD",
+          currencyBasis: "USA-English Shopify directory dollar display; confirm in quote",
+          billingBasis: "selected services, not a full-store project minimum",
+          sourceUrl:
+            "https://www.shopify.com/partners/directory/partner/shugert-marketing",
+        },
+        status: "published_selected_service_prices",
+        projectMinimum: null,
+        hourlyRate: null,
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Fashionable Canes",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl:
+            "https://www.shopify.com/partners/directory/partner/shugert-marketing",
+          projectUrl: null,
+        },
+        {
+          client: "Fashionable Hats",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl:
+            "https://www.shopify.com/partners/directory/partner/shugert-marketing",
+          projectUrl: null,
+        },
+        {
+          client: "Tens Units",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl:
+            "https://www.shopify.com/partners/directory/partner/shugert-marketing",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/shugert-marketing",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      shortDescription:
+        "Shopify engineering and marketing agency focused on migrations, technical SEO, site performance and conversion optimization.",
+      longDescription:
+        "Shopify engineering and marketing agency focused on migrations, technical SEO, site performance and conversion optimization.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "simplistic",
+      name: "simplistic",
+      aliases: [],
+      entityType: "agency",
+      website: "https://simplistic.com",
+      description:
+        "Shopify agency handling store design, migrations and continuing conversion improvements for consumer and B2B brands.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/smplstc",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Optimization and analytics",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "shopify_primary_location_listed",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/smplstc",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "andrew@simplistic.com",
+        phone: null,
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/smplstc",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl: "https://www.shopify.com/partners/directory/partner/smplstc",
+        partnerTier: "Platinum",
+        partnerSince: "2014-02",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+      },
+      platforms: ["Shopify"],
+      services: [
+        "Store design and development",
+        "Store migration",
+        "Theme customization",
+        "Website audits",
+        "Ongoing management",
+        "Conversion optimization",
+      ],
+      industries: ["B2B", "Fashion", "Beauty", "Jewelry"],
+      technologies: [],
+      languages: ["English", "Spanish"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: 5,
+          scale: 5,
+          reviewCount: 29,
+          status: "published_rating",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/smplstc",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        selectedServices: {
+          minimum: 10000,
+          maximum: null,
+          currency: "USD",
+          currencyBasis: "USA-English Shopify directory dollar display; confirm in quote",
+          billingBasis: "selected services, not a full-store project minimum",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/smplstc",
+        },
+        status: "published_selected_service_prices",
+        projectMinimum: null,
+        hourlyRate: null,
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Ritual",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/smplstc",
+          projectUrl: null,
+        },
+        {
+          client: "Fashion Nova",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/smplstc",
+          projectUrl: null,
+        },
+        {
+          client: "Pure Culture Beauty",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/smplstc",
+          projectUrl: null,
+        },
+        {
+          client: "GLDN",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/smplstc",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/smplstc",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      shortDescription:
+        "Shopify agency handling store design, migrations and continuing conversion improvements for consumer and B2B brands.",
+      longDescription:
+        "Shopify agency handling store design, migrations and continuing conversion improvements for consumer and B2B brands.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "speed-plus",
+      name: "Speed Plus",
+      aliases: [],
+      entityType: "agency",
+      website: "https://speedplus.us",
+      description:
+        "Brooklyn Shopify service provider focused on store builds, technical troubleshooting and speed improvements.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/speed-plus",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Marketing",
+        "Optimization and analytics",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: "Brooklyn",
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "shopify_primary_location_listed",
+        primaryLocationAsListed: "Brooklyn, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/speed-plus",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "support@speedplus.us",
+        phone: null,
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/speed-plus",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/speed-plus",
+        partnerTier: "Select",
+        partnerSince: "2021-10",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+      },
+      platforms: ["Shopify"],
+      services: [
+        "Store design and development",
+        "Speed optimization",
+        "Ongoing management",
+        "SEO",
+        "Product setup",
+        "Conversion optimization",
+        "Store configuration",
+        "Troubleshooting",
+      ],
+      industries: ["Fashion", "Beauty", "Home and garden", "Jewelry"],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: 5,
+          scale: 5,
+          reviewCount: 567,
+          status: "published_rating",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/speed-plus",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        selectedServices: null,
+        status: "contact_for_pricing",
+        projectMinimum: null,
+        hourlyRate: null,
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Sylvox Official Store",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/speed-plus",
+          projectUrl: null,
+        },
+        {
+          client: "Robert's Gifts",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/speed-plus",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/speed-plus",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      shortDescription:
+        "Brooklyn Shopify service provider focused on store builds, technical troubleshooting and speed improvements.",
+      longDescription:
+        "Brooklyn Shopify service provider focused on store builds, technical troubleshooting and speed improvements.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "storm-brain",
+      name: "Storm Brain",
+      aliases: [],
+      entityType: "agency",
+      website: "https://stormbrain.com",
+      description:
+        "Digital agency offering Shopify design, development and ongoing support, with a listed New York office alongside its California presence.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/storm-brian",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Marketing",
+        "Optimization and analytics",
+        "Headless commerce",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: "Manhattan",
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: "1740 Broadway, Suite 200",
+        postalCode: "10019",
+        relationship: "nyc_office",
+        primaryLocationAsListed: "Carlsbad, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://stormbrain.com/location/new-york-digital-marketing-agency/",
+        notes: null,
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "hello@stormbrain.com",
+        phone: "+1 866-778-6279",
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/storm-brian",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: {
+        range: "50–249",
+        scope: "Company-wide directory estimate",
+        sourceUrl: "https://clutch.co/developers/shopify/new-york",
+      },
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/storm-brian",
+        partnerTier: "Plus",
+        partnerSince: null,
+        partnerSincePrecision: null,
+        tierStatus: "listed_by_shopify",
+      },
+      platforms: ["Shopify", "Shopify Plus"],
+      services: [
+        "Store design and development",
+        "Store migration",
+        "Headless commerce",
+        "Website audits",
+        "Ongoing management",
+        "Brand strategy",
+        "Digital marketing",
+      ],
+      industries: [
+        "Consumer packaged goods",
+        "Food and drink",
+        "Beauty",
+        "Toys and games",
+      ],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: null,
+          scale: 5,
+          reviewCount: 0,
+          status: "no_reviews_on_this_platform",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/storm-brian",
+          observedAt: "2026-10-03",
+        },
+        {
+          platform: "Clutch",
+          value: 5,
+          scale: 5,
+          reviewCount: 126,
+          status: "published_rating",
+          scope: "Agency-wide reviews; not necessarily Shopify-only",
+          sourceUrl: "https://clutch.co/developers/shopify/new-york",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        selectedServices: null,
+        status: "contact_for_pricing",
+        projectMinimum: {
+          amount: 10000,
+          currency: "USD",
+          scope: "Clutch agency-wide minimum; not a Shopify-specific quote",
+          sourceUrl: "https://clutch.co/developers/shopify/new-york",
+        },
+        hourlyRate: {
+          minimum: 150,
+          maximum: 199,
+          currency: "USD",
+          unit: "hour",
+          sourceUrl: "https://clutch.co/developers/shopify/new-york",
+        },
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Ancestral Supplements",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/storm-brian",
+          projectUrl: null,
+        },
+        {
+          client: "Ammunition Whiskey & Wine",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/storm-brian",
+          projectUrl: null,
+        },
+        {
+          client: "Howler Head",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/storm-brian",
+          projectUrl: null,
+        },
+        {
+          client: "UNITE Hair",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/storm-brian",
+          projectUrl: null,
+        },
+        {
+          client: "iam8bit",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/storm-brian",
+          projectUrl: null,
+        },
+        {
+          client: "JAKKS Pacific",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/storm-brian",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/storm-brian",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://stormbrain.com/location/new-york-digital-marketing-agency/",
+          type: "official_website",
+          supports: ["location"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://stormbrain.com/sub-service/websites/shopify-development/",
+          type: "official_website",
+          supports: ["services"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://clutch.co/developers/shopify/new-york",
+          type: "review_directory",
+          supports: [
+            "ratings",
+            "pricing.projectMinimum",
+            "pricing.hourlyRate",
+            "teamSize",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [
+          "Shopify lists Carlsbad as primary location; NYC is an additional office.",
+        ],
+      },
+      shortDescription:
+        "Digital agency offering Shopify design, development and ongoing support, with a listed New York office alongside its California presence.",
+      longDescription:
+        "Digital agency offering Shopify design, development and ongoing support, with a listed New York office alongside its California presence.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "sweden-unlimited",
+      name: "Sweden Unlimited",
+      aliases: [],
+      entityType: "agency",
+      website: "https://swedenunlimited.com",
+      description:
+        "New York creative commerce agency serving fashion, luxury and lifestyle brands through Shopify design, development and platform migration.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/sweden-unlimited",
+      ],
+      categories: ["Shopify agency", "Development", "Design and branding"],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "shopify_primary_location_listed",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl:
+          "https://www.shopify.com/partners/directory/partner/sweden-unlimited",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "info@swedenunlimited.com",
+        phone: null,
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/sweden-unlimited",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/sweden-unlimited",
+        partnerTier: "Premier",
+        partnerSince: "2016-11",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+      },
+      platforms: ["Shopify"],
+      services: [
+        "Store design and development",
+        "Brand identity",
+        "Theme customization",
+        "Ongoing management",
+        "Checkout upgrades",
+        "Store migration",
+      ],
+      industries: ["Art and photography", "Fashion", "Beauty", "Jewelry"],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: 5,
+          scale: 5,
+          reviewCount: 1,
+          status: "published_rating",
+          sourceUrl:
+            "https://www.shopify.com/partners/directory/partner/sweden-unlimited",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        selectedServices: null,
+        status: "contact_for_pricing",
+        projectMinimum: null,
+        hourlyRate: null,
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Lunya",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl:
+            "https://www.shopify.com/partners/directory/partner/sweden-unlimited",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/sweden-unlimited",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      shortDescription:
+        "New York creative commerce agency serving fashion, luxury and lifestyle brands through Shopify design, development and platform migration.",
+      longDescription:
+        "New York creative commerce agency serving fashion, luxury and lifestyle brands through Shopify design, development and platform migration.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "the-charles-group",
+      name: "The Charles Group",
+      aliases: [],
+      entityType: "agency",
+      website: "https://www.thecharlesgrp.com",
+      description:
+        "Creative digital agency headquartered in Lower Manhattan, combining brand strategy, design and technology, including Shopify and Shopify Plus development.",
+      descriptionSourceUrls: ["https://www.thecharlesgrp.com/"],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Optimization and analytics",
+        "Headless commerce",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: "Manhattan",
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: "200 Broadway",
+        postalCode: null,
+        relationship: "nyc_headquarters_claim",
+        primaryLocationAsListed: null,
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.thecharlesgrp.com/",
+        notes: null,
+      },
+      otherOfficeLocations: ["New York", "Chicago", "London"],
+      contact: {
+        email: null,
+        phone: null,
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.thecharlesgrp.com/",
+      },
+      foundedYear: 2012,
+      experience: null,
+      teamSize: {
+        range: "50–249",
+        scope: "Company-wide directory estimate",
+        sourceUrl: "https://clutch.co/profile/charles-nyc",
+      },
+      shopify: {
+        partnerDirectoryUrl: null,
+        partnerTier: null,
+        partnerSince: null,
+        partnerSincePrecision: null,
+        tierStatus: "not_confirmed",
+      },
+      platforms: ["Shopify", "Shopify Plus"],
+      services: [
+        "Brand strategy",
+        "UX/UI design",
+        "Frontend development",
+        "Backend development",
+        "Ecommerce development",
+        "Headless commerce",
+        "Analytics",
+      ],
+      industries: [
+        "Consumer products",
+        "Real estate",
+        "Advertising and marketing",
+        "Business services",
+        "Retail",
+        "Ecommerce",
+        "Hospitality",
+        "Media",
+      ],
+      technologies: ["WordPress", "Webflow", "Contentful", "Sanity"],
+      languages: [],
+      languagesListComplete: null,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Clutch",
+          value: 5,
+          scale: 5,
+          reviewCount: 1,
+          status: "published_rating",
+          scope: "Agency-wide reviews; not necessarily Shopify-only",
+          sourceUrl: "https://clutch.co/profile/charles-nyc",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        selectedServices: null,
+        status: "not_confirmed",
+        projectMinimum: {
+          amount: 50000,
+          currency: "USD",
+          scope: "Clutch agency-wide minimum; not a Shopify-specific quote",
+          sourceUrl: "https://clutch.co/profile/charles-nyc",
+        },
+        hourlyRate: {
+          minimum: 150,
+          maximum: 199,
+          currency: "USD",
+          unit: "hour",
+          sourceUrl: "https://clutch.co/profile/charles-nyc",
+        },
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.thecharlesgrp.com/",
+          type: "official_website",
+          supports: ["description", "location", "otherOfficeLocations"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://www.thecharlesgrp.com/services/technology/",
+          type: "official_website",
+          supports: ["services", "platforms", "technologies"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://www.thecharlesgrp.com/careers/",
+          type: "official_website",
+          supports: ["location.streetAddress"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://clutch.co/profile/charles-nyc",
+          type: "review_directory",
+          supports: ["foundedYear", "industries", "teamSize"],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      shortDescription:
+        "Creative digital agency headquartered in Lower Manhattan, combining brand strategy, design and technology, including Shopify and Shopify Plus development.",
+      longDescription:
+        "Creative digital agency headquartered in Lower Manhattan, combining brand strategy, design and technology, including Shopify and Shopify Plus development.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "total-commerce",
+      name: "Total Commerce",
+      aliases: ["TVP NYC"],
+      entityType: "agency",
+      website: "https://totalcommerce.partners",
+      description:
+        "Commerce engineering partner delivering Shopify migrations, B2B systems, international stores and integrations for growing brands.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+      ],
+      categories: ["Shopify agency", "Development", "Marketing"],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "shopify_primary_location_listed",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "team@totalcommerce.partners",
+        phone: "+1 212-419-0772",
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+      },
+      foundedYear: null,
+      experience: {
+        shopifySinceYear: 2014,
+      },
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl: "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+        partnerTier: "Platinum",
+        partnerSince: "2015-02",
+        partnerSincePrecision: "month",
+        tierStatus: "listed_by_shopify",
+      },
+      platforms: ["Shopify", "Shopify Plus"],
+      services: [
+        "Shopify Plus development",
+        "Store migration",
+        "B2B commerce",
+        "ERP integration",
+        "PIM integration",
+        "International SEO",
+        "Retention marketing",
+      ],
+      industries: ["B2B", "Food and drink", "Beauty", "Home and garden"],
+      technologies: [],
+      languages: ["English", "Spanish", "Portuguese (Brazil)"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: 5,
+          scale: 5,
+          reviewCount: 46,
+          status: "published_rating",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "published_rating_available",
+      pricing: {
+        selectedServices: {
+          minimum: 5000,
+          maximum: null,
+          currency: "USD",
+          currencyBasis: "USA-English Shopify directory dollar display; confirm in quote",
+          billingBasis: "selected services, not a full-store project minimum",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+        },
+        status: "published_selected_service_prices",
+        projectMinimum: null,
+        hourlyRate: null,
+        servicePrices: [
+          {
+            service: "Store migration",
+            startingAt: 20000,
+            currency: "USD",
+            billingPeriod: null,
+            sourceUrl: "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+          },
+          {
+            service: "Conversion optimization",
+            startingAt: 6050,
+            currency: "USD",
+            billingPeriod: null,
+            sourceUrl: "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+          },
+          {
+            service: "Analytics and tracking",
+            startingAt: 7500,
+            currency: "USD",
+            billingPeriod: null,
+            sourceUrl: "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+          },
+        ],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Lonely Planet",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+          projectUrl: null,
+        },
+        {
+          client: "UMZU",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+          projectUrl: null,
+        },
+        {
+          client: "Igennus Healthcare Nutrition",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+          projectUrl: null,
+        },
+        {
+          client: "Anima Mundi",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+          projectUrl: null,
+        },
+        {
+          client: "Alison Lou",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/tvp-nyc",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      shortDescription:
+        "Commerce engineering partner delivering Shopify migrations, B2B systems, international stores and integrations for growing brands.",
+      longDescription:
+        "Commerce engineering partner delivering Shopify migrations, B2B systems, international stores and integrations for growing brands.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "verbal-visual",
+      name: "Verbal+Visual",
+      aliases: [],
+      entityType: "agency",
+      website: "https://www.vpv.co",
+      description:
+        "New York commerce agency designing branded Shopify experiences and improving store performance for fashion and lifestyle businesses.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/verbalplusvisual",
+      ],
+      categories: [
+        "Shopify agency",
+        "Development",
+        "Design and branding",
+        "Optimization and analytics",
+      ],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "shopify_primary_location_listed",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl:
+          "https://www.shopify.com/partners/directory/partner/verbalplusvisual",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "hi@vpv.co",
+        phone: "+1 862-324-6833",
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/verbalplusvisual",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/verbalplusvisual",
+        partnerTier: "Plus",
+        partnerSince: null,
+        partnerSincePrecision: null,
+        tierStatus: "listed_by_shopify",
+      },
+      platforms: ["Shopify", "Shopify Plus"],
+      services: [
+        "Business strategy",
+        "Store design and development",
+        "Website audits",
+        "Analytics",
+        "International expansion",
+        "Ongoing management",
+      ],
+      industries: ["Fashion", "Food and drink", "Beauty", "Home and garden", "Lifestyle"],
+      technologies: [],
+      languages: ["English"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: null,
+          scale: 5,
+          reviewCount: 0,
+          status: "no_reviews_on_this_platform",
+          sourceUrl:
+            "https://www.shopify.com/partners/directory/partner/verbalplusvisual",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "no_reviews_on_checked_platform",
+      pricing: {
+        selectedServices: null,
+        status: "contact_for_pricing",
+        projectMinimum: null,
+        hourlyRate: null,
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Carhartt WIP",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl:
+            "https://www.shopify.com/partners/directory/partner/verbalplusvisual",
+          projectUrl: null,
+        },
+        {
+          client: "Faherty",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl:
+            "https://www.shopify.com/partners/directory/partner/verbalplusvisual",
+          projectUrl: null,
+        },
+        {
+          client: "Jonathan Adler",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl:
+            "https://www.shopify.com/partners/directory/partner/verbalplusvisual",
+          projectUrl: null,
+        },
+        {
+          client: "Andie Swim",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl:
+            "https://www.shopify.com/partners/directory/partner/verbalplusvisual",
+          projectUrl: null,
+        },
+        {
+          client: "Patrick Ta",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl:
+            "https://www.shopify.com/partners/directory/partner/verbalplusvisual",
+          projectUrl: null,
+        },
+        {
+          client: "Chrome Industries",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl:
+            "https://www.shopify.com/partners/directory/partner/verbalplusvisual",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/verbalplusvisual",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [],
+      },
+      shortDescription:
+        "New York commerce agency designing branded Shopify experiences and improving store performance for fashion and lifestyle businesses.",
+      longDescription:
+        "New York commerce agency designing branded Shopify experiences and improving store performance for fashion and lifestyle businesses.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "we-make-websites",
+      name: "We Make Websites",
+      aliases: [],
+      entityType: "agency",
+      website: "https://www.wemakewebsites.com",
+      description:
+        "Shopify Plus design and development agency with London and New York offices, supporting commerce builds and technical improvements.",
+      descriptionSourceUrls: ["https://www.wemakewebsites.com/"],
+      categories: ["Shopify agency", "Development", "Design and branding"],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: "Manhattan",
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: "114 West 26th Street, Floor 2",
+        postalCode: "10001",
+        relationship: "nyc_office",
+        primaryLocationAsListed: null,
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.wemakewebsites.com/contact",
+        notes: null,
+      },
+      otherOfficeLocations: ["London", "New York"],
+      contact: {
+        email: "hello@wemakewebsites.com",
+        phone: "+44 20 3696 7829",
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: "https://www.wemakewebsites.com/contact",
+        sourceUrl: "https://www.wemakewebsites.com/contact",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl: null,
+        partnerTier: null,
+        partnerSince: null,
+        partnerSincePrecision: null,
+        tierStatus: "not_confirmed",
+      },
+      platforms: ["Shopify", "Shopify Plus"],
+      services: [
+        "Shopify Plus development",
+        "Ecommerce design",
+        "Shopify checkout development",
+      ],
+      industries: [],
+      technologies: [],
+      languages: [],
+      languagesListComplete: null,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [],
+      ratingStatus: "rating_not_confirmed",
+      pricing: {
+        selectedServices: null,
+        status: "not_confirmed",
+        projectMinimum: null,
+        hourlyRate: null,
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.wemakewebsites.com/",
+          type: "official_website",
+          supports: ["description", "services", "platforms"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://www.wemakewebsites.com/contact",
+          type: "official_website",
+          supports: ["contact.email", "location"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://www.wemakewebsites.com/accessibility",
+          type: "official_website",
+          supports: ["contact.phone"],
+          observedAt: "2026-10-03",
+        },
+        {
+          url: "https://www.shopify.com/partners/directory/partner/wemakewebsites",
+          type: "platform_partner_directory",
+          supports: ["dataQuality.notes"],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [
+          "Published phone number is UK-based, not a NYC local number. Partner tier was not independently checked.",
+          "The historical Shopify profile at /partner/wemakewebsites now identifies BORN. Its 5.0/82 rating, Platinum tier and $40,000 selected-service minimum are not attributed to We Make Websites in this record.",
+        ],
+      },
+      shortDescription:
+        "Shopify Plus design and development agency with London and New York offices, supporting commerce builds and technical improvements.",
+      longDescription:
+        "Shopify Plus design and development agency with London and New York offices, supporting commerce builds and technical improvements.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+    {
+      id: "wilco-web",
+      name: "wilco.web",
+      aliases: [],
+      entityType: "agency",
+      website: "https://teamwil.co",
+      description:
+        "New York Shopify development partner building customized stores and connecting commerce with inventory, CRM and reporting systems.",
+      descriptionSourceUrls: [
+        "https://www.shopify.com/partners/directory/partner/wilco-web-llc",
+      ],
+      categories: ["Shopify agency", "Development", "Design and branding"],
+      categoryMethod: "Editorial grouping of published services",
+      location: {
+        city: "New York City",
+        citySlug: "new-york-city",
+        borough: null,
+        state: "New York",
+        stateCode: "NY",
+        country: "United States",
+        countryCode: "US",
+        streetAddress: null,
+        postalCode: null,
+        relationship: "shopify_primary_location_listed",
+        primaryLocationAsListed: "New York, United States",
+        physicalOfficeIndependentlyVerified: false,
+        evidenceUrl: "https://www.shopify.com/partners/directory/partner/wilco-web-llc",
+        notes:
+          "Directory-listed location; this does not independently establish a staffed physical office.",
+      },
+      otherOfficeLocations: [],
+      contact: {
+        email: "sup@teamwil.co",
+        phone: null,
+        otherEmails: [],
+        otherPhones: [],
+        contactPage: null,
+        sourceUrl: "https://www.shopify.com/partners/directory/partner/wilco-web-llc",
+      },
+      foundedYear: null,
+      experience: null,
+      teamSize: null,
+      shopify: {
+        partnerDirectoryUrl:
+          "https://www.shopify.com/partners/directory/partner/wilco-web-llc",
+        partnerTier: null,
+        partnerSince: "2020-07",
+        partnerSincePrecision: "month",
+        tierStatus: "not_confirmed",
+      },
+      platforms: ["Shopify"],
+      services: [
+        "Store design and development",
+        "Store migration",
+        "Theme customization",
+        "Custom apps",
+        "Systems integration",
+        "Product and collection setup",
+        "POS setup",
+      ],
+      industries: ["B2B", "Fashion", "Jewelry", "Lifestyle"],
+      technologies: [],
+      languages: ["English", "Hebrew"],
+      languagesListComplete: true,
+      supportedMarkets: [],
+      supportedMarketsListComplete: null,
+      ratings: [
+        {
+          platform: "Shopify Partner Directory",
+          value: null,
+          scale: 5,
+          reviewCount: null,
+          status: "not_confirmed",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/wilco-web-llc",
+          observedAt: "2026-10-03",
+        },
+      ],
+      ratingStatus: "rating_not_confirmed",
+      pricing: {
+        selectedServices: null,
+        status: "contact_for_pricing",
+        projectMinimum: null,
+        hourlyRate: null,
+        servicePrices: [],
+        note: "Published amounts are directory snapshots, not binding quotes. A low selected-service starting price must not be advertised as the cost of an entire Shopify website.",
+      },
+      portfolio: [
+        {
+          client: "Moses NYC",
+          evidenceType: "Agency-reported work or client",
+          sourceUrl: "https://www.shopify.com/partners/directory/partner/wilco-web-llc",
+          projectUrl: null,
+        },
+      ],
+      portfolioNotes: null,
+      socialProfiles: [],
+      logoUrl: null,
+      sources: [
+        {
+          url: "https://www.shopify.com/partners/directory/partner/wilco-web-llc",
+          type: "shopify_partner_directory",
+          supports: [
+            "name",
+            "website",
+            "description",
+            "contact",
+            "location.primaryLocationAsListed",
+            "shopify",
+            "services",
+            "industries",
+            "languages",
+            "ratings",
+            "pricing.selectedServices",
+            "pricing.servicePrices",
+            "portfolio",
+          ],
+          observedAt: "2026-10-03",
+        },
+      ],
+      dataQuality: {
+        observedAt: "2026-10-03",
+        collectionMethod: "Public search results and retrieved page text",
+        independentlyAudited: false,
+        unknownValues:
+          "null means not confirmed; an empty array means no entries captured, not that none exist",
+        notes: [
+          "Agency description calls the business a Shopify Plus partner; a formal tier heading was not confirmed in the retrieved material.",
+        ],
+      },
+      shortDescription:
+        "New York Shopify development partner building customized stores and connecting commerce with inventory, CRM and reporting systems.",
+      longDescription:
+        "New York Shopify development partner building customized stores and connecting commerce with inventory, CRM and reporting systems.",
+      logoType: "generated_placeholder",
+      heroHeadline: "Shopify expertise for New York City businesses.",
+    },
+  ],
+};
+export default dataset;
