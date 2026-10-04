@@ -1,16 +1,21 @@
 import "@/styles/base.css";
 import "@/styles/directory.css";
 import "@/styles/profile.css";
+
+import Script from "next/script";
 import { site } from "@/lib/site";
 import ShortlistProvider from "@/components/providers/ShortlistProvider";
-import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
   metadataBase: new URL(site.url),
-  title: { default: "eStorefy — Shopify Agency Directory", template: "%s | eStorefy" },
+  title: {
+    default: "eStorefy — Shopify Agency Directory",
+    template: "%s | eStorefy",
+  },
   description: site.description,
   icons: { icon: "/icon.svg" },
 };
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -27,7 +32,7 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
 
             function gtag() {
-              dataLayer.push(arguments);
+              window.dataLayer.push(arguments);
             }
 
             gtag('js', new Date());
