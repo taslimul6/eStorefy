@@ -12,15 +12,29 @@ export const metadata = {
   icons: { icon: "/icon.svg" },
 };
 export default function RootLayout({ children }) {
-  const gaId = process.env.NEXT_PUBLIC_GA_ID;
-
   return (
     <html lang="en">
       <body>
         <ShortlistProvider>{children}</ShortlistProvider>
-      </body>
 
-      {gaId && <GoogleAnalytics gaId={gaId} />}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=GT-PJ4NLK4K"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-tag" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+              dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+            gtag('config', 'GT-PJ4NLK4K');
+          `}
+        </Script>
+      </body>
     </html>
   );
 }
