@@ -1,0 +1,3409 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "loyalty-rewards",
+    "number": 18,
+    "name": "Loyalty & Rewards",
+    "group": "Reviews & Loyalty",
+    "slug": "loyalty-rewards",
+    "url_path": "/apps/loyalty-rewards",
+    "focus": "Collect customer feedback and support repeat purchasing.",
+    "description": "Compare Shopify apps for loyalty & rewards. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards/all"],
+    "seo": {
+      "title": "Shopify Loyalty & Rewards Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for loyalty & rewards: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a loyalty & rewards app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "bon-loyalty-rewards",
+      "name": "BON Loyalty Program & Rewards",
+      "slug": "bon-loyalty-rewards",
+      "category_fit": {
+        "app_id": "bon-loyalty-rewards",
+        "selection_score": 6.1719,
+        "rating_evidence": {"value": 5.0, "reviews": 1951},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["loyalty", "reward"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/bon-loyalty-rewards"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+        "description_long": "BON Loyalty Program & Rewards is developed by VEGAHUB Technology Inc. and listed for loyalty and rewards, pop-ups. Its structured listing identifies functions such as reward programs, memberships, vip tiers, referrals. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards", "Referral Programs"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards", "Referral Programs"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 1951,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/bon-loyalty-rewards",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 1},
+          {"stars": 4, "percentage": 1, "count": 23},
+          {"stars": 3, "percentage": 0, "count": 7},
+          {"stars": 2, "percentage": 0, "count": 4},
+          {"stars": 1, "percentage": 1, "count": 11}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE FOREVER",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 15.0,
+            "billing_period": "month",
+            "price_display": "$15 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $324/year and save 7%"]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 129.0,
+            "billing_period": "month",
+            "price_display": "$129 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,236/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://bonloyalty.com/pricing-plans/?utm_source=applisting&utm_medium=pricing_options&utm_campaign=english",
+        "starting_paid_monthly_price_usd": 15.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 16, 2021 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          },
+          {"name": "Pop-ups", "url": "https://apps.shopify.com/categories/store-design-notifications-pop-ups"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gifts", "label": "Gifts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.early_access", "label": "Early access"},
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.exclusive_access",
+            "label": "Exclusive access"
+          },
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.membership_perks",
+            "label": "Membership perks"
+          },
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"},
+          {"handle": "cf.pop_ups.pop_up_types.discounts", "label": "Discounts"},
+          {"handle": "cf.pop_ups.pop_up_types.rewards", "label": "Rewards"},
+          {"handle": "cf.pop_ups.pop_up_types.banners", "label": "Banners"},
+          {"handle": "cf.pop_ups.pop_up_types.announcements", "label": "Announcements"},
+          {"handle": "cf.pop_ups.managing_pop_ups.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.pop_ups.managing_pop_ups.templates", "label": "Templates"},
+          {"handle": "cf.pop_ups.managing_pop_ups.translation", "label": "Translation"},
+          {"handle": "cf.pop_ups.managing_pop_ups.campaigns", "label": "Campaigns"},
+          {"handle": "cf.pop_ups.managing_pop_ups.triggers_and_rules", "label": "Triggers and rules"},
+          {"handle": "cf.pop_ups.managing_pop_ups.automations", "label": "Automations"},
+          {"handle": "cf.pop_ups.managing_pop_ups.analytics", "label": "Analytics"}
+        ],
+        "languages": ["English", " German", " Spanish", " French", " and Japanese"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Fera Product Reviews",
+          "Headless - Hydrogen",
+          "Judge.me Product Reviews",
+          "Klaviyo: Email Markeing & SMS",
+          "LAI Product Reviews",
+          "PageFly Landing Page Builder"
+        ]
+      },
+      "developer": {
+        "name": "VEGAHUB Technology Inc.",
+        "website_url": "https://bonloyalty.com?utm_source=applisting&utm_medium=address&utm_campaign=website",
+        "partner_url": "https://apps.shopify.com/partners/bon-loyalty2",
+        "public_address": "Oakville, ON, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/bon-loyalty-rewards",
+        "canonical_app_store_url": "https://apps.shopify.com/bon-loyalty-rewards",
+        "install_url": "https://apps.shopify.com/bon-loyalty-rewards",
+        "demo_store_url": "https://bonloyalty-demo-store-2.myshopify.com/pages/loyalty",
+        "resources": {
+          "Privacy policy": "https://bonloyalty.com/privacy-policy/",
+          "FAQ": "https://bonloyalty.com/docs/set-up-a-loyalty-program/overview-quick-start-guide/",
+          "Tutorial": "https://bonloyalty.com/videos/introduction-video/",
+          "VEGAHUB Technology Inc.": "https://apps.shopify.com/partners/bon-loyalty2",
+          "Website": "https://bonloyalty.com",
+          "Changelog": "https://bonloyalty.com/changelog/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/icon/CJTU5Y2ivZADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/promotional_image/CML_5r6t8pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/desktop_screenshot/CNPtl7De_pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/desktop_screenshot/CLeDorDe_pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/desktop_screenshot/CIHzqrDe_pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/desktop_screenshot/CKectLDe_pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/desktop_screenshot/CPHevbDe_pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/desktop_screenshot/CNaJx7De_pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/mobile_screenshot/CI_C0LDe_pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/mobile_screenshot/CJLk2rDe_pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/mobile_screenshot/CIXO47De_pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/mobile_screenshot/COTr7LDe_pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/mobile_screenshot/COCl9rDe_pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/mobile_screenshot/CIiT_7De_pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/pos_screenshot/CPLLiLHe_pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f367f56199c88dba9296f532dfc5b383/pos_screenshot/CKqLkrHe_pYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BON Loyalty Program & Rewards free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/bon-loyalty-rewards"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  Spanish,  French,  and Japanese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bon-loyalty-rewards"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Fera Product Reviews, Headless - Hydrogen, Judge.me Product Reviews, Klaviyo: Email Markeing & SMS, LAI Product Reviews, PageFly Landing Page Builder",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bon-loyalty-rewards"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/bon-loyalty-rewards"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://bonloyalty.com/docs/set-up-a-loyalty-program/overview-quick-start-guide/",
+            "https://bonloyalty.com/videos/introduction-video/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards", "referral-programs"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "BON Loyalty Program & Rewards Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/bon-loyalty-rewards",
+          "retrieved_at": "2026-10-04T05:09:57.250353+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "A powerful Shopify Loyalty App provides loyalty points, rewards & referral programs…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/bon-loyalty-rewards"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "appstle-loyalty",
+      "name": "Appstle Loyalty Program Reward",
+      "slug": "appstle-loyalty",
+      "category_fit": {
+        "app_id": "appstle-loyalty",
+        "selection_score": 6.1552,
+        "rating_evidence": {"value": 5.0, "reviews": 1411},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["loyalty", "reward"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/appstle-loyalty"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, vip tiers.",
+        "description_long": "Appstle Loyalty Program Reward is developed by Appstle Loyalty and listed for loyalty and rewards. Its structured listing identifies functions such as reward programs, vip tiers, referrals, cash back programs. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards", "Referral Programs", "Cart Drawers & Cart Upsells", "Courses & Memberships"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards", "Referral Programs", "Cart Drawers & Cart Upsells", "Courses & Memberships"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 1411,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/appstle-loyalty",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 1},
+          {"stars": 4, "percentage": 1, "count": 19},
+          {"stars": 3, "percentage": 0, "count": 7},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 9}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "STARTER",
+            "amount_usd": 10.0,
+            "billing_period": "month",
+            "price_display": "$10 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $96/year and save 20%"]
+          },
+          {
+            "name": "BUSINESS (Biz)",
+            "amount_usd": 30.0,
+            "billing_period": "month",
+            "price_display": "$30 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $288/year and save 20%"]
+          },
+          {
+            "name": "BUSINESS PREMIUM",
+            "amount_usd": 100.0,
+            "billing_period": "month",
+            "price_display": "$100 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $960/year and save 20%",
+              "Plan applicable for 5000 orders in a month. No extra charges. $0.015 per extra order."
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 10.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "February 2, 2023",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.program_types.cash_back_programs", "label": "Cash back programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.cash_back", "label": "Cash back"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.store_credit", "label": "Store credit"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.badges", "label": "Badges"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Judge.Me, Appstle Subscription",
+          "Klaviyo, Omnisend",
+          "Loox Reviews, Product Reviews",
+          "Mailchimp, Stamped IO",
+          "Recharge, Yotpo Subscriptions",
+          "Seal, Bold, Recurpay"
+        ]
+      },
+      "developer": {
+        "name": "Appstle Loyalty",
+        "website_url": "https://appstle.com/",
+        "partner_url": "https://apps.shopify.com/partners/appstle3",
+        "public_address": "Menlo Park, CA, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/appstle-loyalty",
+        "canonical_app_store_url": "https://apps.shopify.com/appstle-loyalty",
+        "install_url": "https://apps.shopify.com/appstle-loyalty",
+        "demo_store_url": "https://loyaltyuidev.myshopify.com/pages/loyalty-program",
+        "resources": {
+          "Privacy policy": "https://appstle.com/privacy-policy/",
+          "FAQ": "https://appstle.com/faq/",
+          "Tutorial": "https://intercom.help/appstle/en/collections/3787343-loyalty",
+          "App Documentation": "https://developers.appstle.com/",
+          "Appstle Loyalty": "https://apps.shopify.com/partners/appstle3",
+          "Website": "https://appstle.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/icon/CPq18q7S8ZQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/desktop_screenshot/CKrnlJzouv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/desktop_screenshot/CNP2sM2P4f0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/desktop_screenshot/CMjDmuj4powDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/desktop_screenshot/CKCnuJzouv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/desktop_screenshot/COuExJzouv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/desktop_screenshot/CNzS-Y24i5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/mobile_screenshot/CLeD7OL4w_0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/mobile_screenshot/CKSyuM7quv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/mobile_screenshot/CKj27pzzhokDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/pos_screenshot/CLjLx87quv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/pos_screenshot/COuN087quv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/pos_screenshot/CIWPsIzSrJADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/pos_screenshot/CL6UvoKa8o8DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/xwxTIGtAHO4"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Appstle Loyalty Program Reward free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/appstle-loyalty"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appstle-loyalty"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Judge.Me, Appstle Subscription, Klaviyo, Omnisend, Loox Reviews, Product Reviews, Mailchimp, Stamped IO, Recharge, Yotpo Subscriptions, Seal, Bold, Recurpay",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appstle-loyalty"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/appstle-loyalty"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://appstle.com/faq/",
+            "https://intercom.help/appstle/en/collections/3787343-loyalty",
+            "https://developers.appstle.com/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards", "referral-programs", "cart-drawers-cart-upsells", "courses-memberships"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "Appstle Loyalty Program Reward Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, vip tiers.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/appstle-loyalty",
+          "retrieved_at": "2026-10-04T05:09:50.293292+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "A powerful built-for Shopify loyalty app offering points, store credits, rewards, referrals…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/appstle-loyalty"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "smile-io",
+      "name": "Smile: Loyalty Program Rewards",
+      "slug": "smile-io",
+      "category_fit": {
+        "app_id": "smile-io",
+        "selection_score": 6.1139,
+        "rating_evidence": {"value": 4.9, "reviews": 4618},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["loyalty", "reward"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/smile-io"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+        "description_long": "Smile: Loyalty Program Rewards is developed by Smile.io and listed for loyalty and rewards, pop-ups. Its structured listing identifies functions such as reward programs, memberships, vip tiers, referrals. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards", "Referral Programs"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards", "Referral Programs"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 4618,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/smile-io",
+        "distribution": [
+          {"stars": 5, "percentage": 91, "count": 4},
+          {"stars": 4, "percentage": 5, "count": 250},
+          {"stars": 3, "percentage": 1, "count": 59},
+          {"stars": 2, "percentage": 1, "count": 24},
+          {"stars": 1, "percentage": 1, "count": 69}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 15.0,
+            "billing_period": "month",
+            "price_display": "$15 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 199.0,
+            "billing_period": "month",
+            "price_display": "$199 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Includes 2,500 monthly orders, then $20 per additional 100 orders"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://smile.io/pricing?utm_source=app-store&utm_medium=app-store-listing&utm_campaign=app-store-listing&utm_content=pricing-info",
+        "starting_paid_monthly_price_usd": 15.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "December 2, 2014 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          },
+          {"name": "Pop-ups", "url": "https://apps.shopify.com/categories/store-design-notifications-pop-ups"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.program_types.subscriptions", "label": "Subscriptions"},
+          {"handle": "cf.loyalty_and_rewards.program_types.gift_card_programs", "label": "Gift card programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gifts", "label": "Gifts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gift_cards", "label": "Gift cards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.early_access", "label": "Early access"},
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.exclusive_access",
+            "label": "Exclusive access"
+          },
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.membership_perks",
+            "label": "Membership perks"
+          },
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.events", "label": "Events"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.services", "label": "Services"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.donations", "label": "Donations"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"},
+          {"handle": "cf.pop_ups.pop_up_types.cart_pop_ups", "label": "Cart pop-ups"},
+          {"handle": "cf.pop_ups.pop_up_types.discounts", "label": "Discounts"},
+          {"handle": "cf.pop_ups.pop_up_types.rewards", "label": "Rewards"},
+          {"handle": "cf.pop_ups.pop_up_types.banners", "label": "Banners"},
+          {"handle": "cf.pop_ups.managing_pop_ups.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.pop_ups.managing_pop_ups.templates", "label": "Templates"},
+          {"handle": "cf.pop_ups.managing_pop_ups.translation", "label": "Translation"},
+          {"handle": "cf.pop_ups.managing_pop_ups.campaigns", "label": "Campaigns"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Japanese",
+          " German",
+          " Italian",
+          " Chinese (Simplified)",
+          " Portuguese (Brazil)",
+          " Dutch",
+          " and Spanish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Gorgias",
+          "Judge.me",
+          "Klaviyo",
+          "Loox",
+          "Mailchimp",
+          "Recharge"
+        ]
+      },
+      "developer": {
+        "name": "Smile.io",
+        "website_url": "https://smile.io?utm_source=app-store&utm_medium=app-store-listing&utm_campaign=app-store-listing&utm_content=developer-website",
+        "partner_url": "https://apps.shopify.com/partners/smile-io",
+        "public_address": "PO Box 33042 Ira Needles, Waterloo, ON, N2T 2M9, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/smile-io",
+        "canonical_app_store_url": "https://apps.shopify.com/smile-io",
+        "install_url": "https://apps.shopify.com/smile-io",
+        "demo_store_url": "https://smile-plus-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://smile.io/privacy-policy",
+          "FAQ": "https://smile.io/pricing",
+          "Tutorial": "https://resources.smile.io/demo",
+          "App Documentation": "https://blog.smile.io/what-rewards-program-should-your-brand-use/",
+          "Smile.io": "https://apps.shopify.com/partners/smile-io",
+          "Website": "https://smile.io",
+          "Changelog": "https://news.smile.io"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/439617d93d452f065b8cd6122493ccc3/icon/CPHVlb70lu8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/439617d93d452f065b8cd6122493ccc3/promotional_image/CLuClICgtJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/439617d93d452f065b8cd6122493ccc3/desktop_screenshot/CPuNnICgtJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/439617d93d452f065b8cd6122493ccc3/desktop_screenshot/CN3WpICgtJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/439617d93d452f065b8cd6122493ccc3/desktop_screenshot/CJOurYCgtJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/439617d93d452f065b8cd6122493ccc3/desktop_screenshot/CO2AtoCgtJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/439617d93d452f065b8cd6122493ccc3/desktop_screenshot/CLLHvoCgtJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/439617d93d452f065b8cd6122493ccc3/desktop_screenshot/CKXsx4CgtJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/439617d93d452f065b8cd6122493ccc3/mobile_screenshot/CKqh0ICgtJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/439617d93d452f065b8cd6122493ccc3/mobile_screenshot/CNeJmtHgtJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/439617d93d452f065b8cd6122493ccc3/pos_screenshot/CNz34ICgtJIDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Smile: Loyalty Program Rewards free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/smile-io"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Japanese,  German,  Italian,  Chinese (Simplified),  Portuguese (Brazil),  Dutch,  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/smile-io"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Gorgias, Judge.me, Klaviyo, Loox, Mailchimp, Recharge",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/smile-io"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/smile-io"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://smile.io/pricing",
+            "https://resources.smile.io/demo",
+            "https://blog.smile.io/what-rewards-program-should-your-brand-use/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards", "referral-programs"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "Smile: Loyalty Program Rewards Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/smile-io",
+          "retrieved_at": "2026-10-04T05:09:57.178846+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Increase sales and repeat purchases, save on acquisition costs, and boost customer…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/smile-io"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "essential-loyalty-rewards-program",
+      "name": "Essent Loyalty Program Rewards",
+      "slug": "essential-loyalty-rewards-program",
+      "category_fit": {
+        "app_id": "essential-loyalty-rewards-program",
+        "selection_score": 6.0917,
+        "rating_evidence": {"value": 5.0, "reviews": 490},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["loyalty", "reward"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/essential-loyalty-rewards-program"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+        "description_long": "Essent Loyalty Program Rewards is developed by Essential Apps and listed for loyalty and rewards, discounts. Its structured listing identifies functions such as reward programs, memberships, vip tiers, affiliate programs. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 490,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/essential-loyalty-rewards-program",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 482},
+          {"stars": 4, "percentage": 1, "count": 7},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 10.0,
+            "billing_period": "month",
+            "price_display": "$10 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 24.0,
+            "billing_period": "month",
+            "price_display": "$24 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 10.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "November 25, 2024",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          },
+          {
+            "name": "Discounts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-promotions-discounts"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.affiliate_programs", "label": "Affiliate programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.program_types.cash_back_programs", "label": "Cash back programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.game_programs", "label": "Game programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gifts", "label": "Gifts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.cash_back", "label": "Cash back"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.store_credit", "label": "Store credit"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.exclusive_access",
+            "label": "Exclusive access"
+          },
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.membership_perks",
+            "label": "Membership perks"
+          },
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"},
+          {"handle": "cf.discounts.discount_types.discount_codes", "label": "Discount codes"},
+          {"handle": "cf.discounts.discount_types.coupons", "label": "Coupons"},
+          {"handle": "cf.discounts.discount_types.fixed_pricing", "label": "Fixed pricing"},
+          {"handle": "cf.discounts.discount_types.flat_discounts", "label": "Flat discounts"},
+          {"handle": "cf.discounts.discount_types.percentage_discounts", "label": "Percentage discounts"},
+          {"handle": "cf.discounts.discount_types.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.discounts.discount_types.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.discounts.discount_types.cart_discounts", "label": "Cart discounts"},
+          {"handle": "cf.discounts.discount_types.checkout_discounts", "label": "Checkout discounts"},
+          {"handle": "cf.discounts.discount_types.gifts", "label": "Gifts"},
+          {"handle": "cf.discounts.discount_types.rewards", "label": "Rewards"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " Spanish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Czech",
+          " Danish",
+          " Finnish",
+          " Norwegian (Bokmål)",
+          " Polish",
+          " Swedish",
+          " Thai",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Turkish",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Flow",
+          "Judge.me Reviews",
+          "Klaviyo: Email Marketing & SMS",
+          "Omnisend Email Marketing & SMS",
+          "Point of Sale",
+          "Store credit"
+        ]
+      },
+      "developer": {
+        "name": "Essential Apps",
+        "website_url": "https://essential-apps.com/loyalty",
+        "partner_url": "https://apps.shopify.com/partners/essentials25",
+        "public_address": "Baltupio g. 45 - 27, Vilnius, 08324, LT"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/essential-loyalty-rewards-program",
+        "canonical_app_store_url": "https://apps.shopify.com/essential-loyalty-rewards-program",
+        "install_url": "https://apps.shopify.com/essential-loyalty-rewards-program",
+        "demo_store_url": "https://essential-loyalty.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://essential-apps.com/essential-loyalty-rewards-privacy-policy/",
+          "Essential Apps": "https://apps.shopify.com/partners/essentials25",
+          "Website": "https://essential-apps.com/loyalty"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/icon/CJOfo_n_4IoDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/promotional_image/CLfh0uGh_5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/desktop_screenshot/CLr33uGh_5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/desktop_screenshot/CJen06r60ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/desktop_screenshot/CJ23yM700ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/desktop_screenshot/CMvJ3Kr60ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/desktop_screenshot/CIj_xrGBhJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/desktop_screenshot/CIW_6pW8s5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/mobile_screenshot/CK2R85W8s5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/mobile_screenshot/CI3S_JW8s5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/mobile_screenshot/CL__hZa8s5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/mobile_screenshot/CJuNj5a8s5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/mobile_screenshot/CMPn3M700ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/mobile_screenshot/CLzr5s700ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/pos_screenshot/CLvZt-Kh_5MDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/pos_screenshot/CNrkwOKh_5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0f331d7dd3c9d099e10afa0b347a5fcb/pos_screenshot/CICsyuKh_5MDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Essent Loyalty Program Rewards free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/essential-loyalty-rewards-program"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  Spanish,  French,  Italian,  Japanese,  Korean,  Portuguese (Brazil),  Portuguese (Portugal),  Czech,  Danish,  Finnish,  Norwegian (Bokmål),  Polish,  Swedish,  Thai,  Chinese (Simplified),  Chinese (Traditional),  Turkish,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/essential-loyalty-rewards-program"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Flow, Judge.me Reviews, Klaviyo: Email Marketing & SMS, Omnisend Email Marketing & SMS, Point of Sale, Store credit",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/essential-loyalty-rewards-program"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/essential-loyalty-rewards-program"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "Essent Loyalty Program Rewards Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/essential-loyalty-rewards-program",
+          "retrieved_at": "2026-10-04T05:10:04.046299+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Boost customer loyalty with Essnetial customizable loyalty programs, rewards, referrals, and VIP…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/essential-loyalty-rewards-program"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "casa-loyalty",
+      "name": "Casa Loyalty Points & Rewards",
+      "slug": "casa-loyalty",
+      "category_fit": {
+        "app_id": "casa-loyalty",
+        "selection_score": 6.0899,
+        "rating_evidence": {"value": 5.0, "reviews": 478},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["loyalty", "reward"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/casa-loyalty"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+        "description_long": "Casa Loyalty Points & Rewards is developed by Casa Apps and listed for loyalty and rewards, gift cards. Its structured listing identifies functions such as reward programs, memberships, vip tiers, affiliate programs. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards", "Referral Programs"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards", "Referral Programs"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 478,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/casa-loyalty",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 468},
+          {"stars": 4, "percentage": 2, "count": 9},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 17, 2024",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          },
+          {
+            "name": "Gift cards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-gifts-gift-cards"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.affiliate_programs", "label": "Affiliate programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.program_types.subscriptions", "label": "Subscriptions"},
+          {"handle": "cf.loyalty_and_rewards.program_types.wishlists", "label": "Wishlists"},
+          {
+            "handle": "cf.loyalty_and_rewards.program_types.stamp_or_punch_cards",
+            "label": "Stamp or punch cards"
+          },
+          {"handle": "cf.loyalty_and_rewards.program_types.gift_card_programs", "label": "Gift card programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.cash_back_programs", "label": "Cash back programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.digital_wallets", "label": "Digital wallets"},
+          {"handle": "cf.loyalty_and_rewards.program_types.contests", "label": "Contests"},
+          {"handle": "cf.loyalty_and_rewards.program_types.game_programs", "label": "Game programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gifts", "label": "Gifts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gift_cards", "label": "Gift cards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.cash_back", "label": "Cash back"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.store_credit", "label": "Store credit"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.commission", "label": "Commission"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.early_access", "label": "Early access"},
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.exclusive_access",
+            "label": "Exclusive access"
+          },
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.membership_perks",
+            "label": "Membership perks"
+          },
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.events", "label": "Events"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " German",
+          " Arabic",
+          " Chinese (Traditional)",
+          " Italian",
+          " Dutch",
+          " Norwegian",
+          " Bosnian",
+          " Danish",
+          " Greek",
+          " French",
+          " Irish",
+          " Hebrew",
+          " Japanese",
+          " Lithuanian",
+          " Russian",
+          " Swedish",
+          " Chinese (Simplified)",
+          " Serbian",
+          " Portuguese (Portugal)",
+          " Portuguese (Brazil)",
+          " Polish",
+          " Korean",
+          " Indonesian",
+          " Bulgarian",
+          " Hungarian",
+          " Czech",
+          " Finnish",
+          " Turkish",
+          " Thai",
+          " and Vietnamese"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Admin",
+          "Gorgias",
+          "Judgeme",
+          "klaviyo",
+          "Omnisend",
+          "Recharge",
+          "Smartrr (25+)"
+        ]
+      },
+      "developer": {
+        "name": "Casa Apps",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/casaapps",
+        "public_address": "651 N Broad St, Suite 201, Middletown, DE, 19709, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/casa-loyalty",
+        "canonical_app_store_url": "https://apps.shopify.com/casa-loyalty",
+        "install_url": "https://apps.shopify.com/casa-loyalty",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://casaapps.com/page-policy/",
+          "Casa Apps": "https://apps.shopify.com/partners/casaapps"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/e144aabad718db32fdf9b72680a0ddc3/icon/CPW49IqL-4wDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/e144aabad718db32fdf9b72680a0ddc3/promotional_image/CK6E7sO1k5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e144aabad718db32fdf9b72680a0ddc3/desktop_screenshot/CPX7kKGI-4wDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e144aabad718db32fdf9b72680a0ddc3/desktop_screenshot/CPSinqGI-4wDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e144aabad718db32fdf9b72680a0ddc3/desktop_screenshot/CMbSqKGI-4wDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e144aabad718db32fdf9b72680a0ddc3/desktop_screenshot/CML7s6GI-4wDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e144aabad718db32fdf9b72680a0ddc3/desktop_screenshot/CMDLwaGI-4wDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e144aabad718db32fdf9b72680a0ddc3/desktop_screenshot/CPuNzqGI-4wDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e144aabad718db32fdf9b72680a0ddc3/pos_screenshot/CISH2KGI-4wDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Casa Loyalty Points & Rewards free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/casa-loyalty"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  German,  Arabic,  Chinese (Traditional),  Italian,  Dutch,  Norwegian,  Bosnian,  Danish,  Greek,  French,  Irish,  Hebrew,  Japanese,  Lithuanian,  Russian,  Swedish,  Chinese (Simplified),  Serbian,  Portuguese (Portugal),  Portuguese (Brazil),  Polish,  Korean,  Indonesian,  Bulgarian,  Hungarian,  Czech,  Finnish,  Turkish,  Thai,  and Vietnamese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/casa-loyalty"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Admin, Gorgias, Judgeme, klaviyo, Omnisend, Recharge, Smartrr (25+)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/casa-loyalty"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/casa-loyalty"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards", "referral-programs"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "Casa Loyalty Points & Rewards Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/casa-loyalty",
+          "retrieved_at": "2026-10-04T05:10:12.049851+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Your all-in-one solution for loyalty, referrals, and VIP rewards programs. Drive customer…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/casa-loyalty"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "loyalty-program-2",
+      "name": "Love Loyalty Rewards & Points",
+      "slug": "loyalty-program-2",
+      "category_fit": {
+        "app_id": "loyalty-program-2",
+        "selection_score": 6.0717,
+        "rating_evidence": {"value": 5.0, "reviews": 373},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["loyalty", "reward"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/loyalty-program-2"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+        "description_long": "Love Loyalty Rewards & Points is developed by 2023 Projects, Inc and listed for loyalty and rewards. Its structured listing identifies functions such as reward programs, memberships, vip tiers, referrals. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards", "Referral Programs", "Courses & Memberships"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards", "Referral Programs", "Courses & Memberships"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 373,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/loyalty-program-2",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 369},
+          {"stars": 4, "percentage": 1, "count": 3},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 12.0,
+            "billing_period": "month",
+            "price_display": "$12 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $120/year and save 17%"]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $708/year and save 25%",
+              "Includes 2,000 monthly orders, then +$15 per additional 100 orders"
+            ]
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 399.0,
+            "billing_period": "month",
+            "price_display": "$399 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $3,588/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 12.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 24, 2024",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.program_types.cash_back_programs", "label": "Cash back programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gift_cards", "label": "Gift cards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.cash_back", "label": "Cash back"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.store_credit", "label": "Store credit"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.early_access", "label": "Early access"},
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.exclusive_access",
+            "label": "Exclusive access"
+          },
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.membership_perks",
+            "label": "Membership perks"
+          },
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Email",
+          "Judge.me",
+          "Klaviyo",
+          "Review apps"
+        ]
+      },
+      "developer": {
+        "name": "2023 Projects, Inc",
+        "website_url": "https://www.loveloyalty.app/",
+        "partner_url": "https://apps.shopify.com/partners/2023-projects-inc",
+        "public_address": "651 N Broad St, Suite 201, Middletown, DE, 19709, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/loyalty-program-2",
+        "canonical_app_store_url": "https://apps.shopify.com/loyalty-program-2",
+        "install_url": "https://apps.shopify.com/loyalty-program-2",
+        "demo_store_url": "https://love-loyalty-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.loveloyalty.app/privacy-policy",
+          "FAQ": "https://helpdesk-love-loyalty.crisp.help/en/category/faq-1dm96ri/",
+          "Tutorial": "https://www.youtube.com/playlist?list=PL1jNXLS2SQEcPqBVkzg7y2imJpMjR_yK5",
+          "App Documentation": "https://helpdesk-love-loyalty.crisp.help/en/category/getting-started-zs5gp2/",
+          "2023 Projects, Inc": "https://apps.shopify.com/partners/2023-projects-inc",
+          "Website": "https://www.loveloyalty.app/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/icon/CLen2J3gtpMDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/promotional_image/CNyYgbOUgpcDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/desktop_screenshot/CM_lndfU9ZUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/desktop_screenshot/CK-Sz6CRqZQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/desktop_screenshot/CPaL2KCRqZQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/desktop_screenshot/CIOM4aCRqZQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/desktop_screenshot/CPPw6aCRqZQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/desktop_screenshot/CI_xrqzCipEDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/pos_screenshot/CLn1tqzCipEDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Love Loyalty Rewards & Points free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/loyalty-program-2"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/loyalty-program-2"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Email, Judge.me, Klaviyo, Review apps",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/loyalty-program-2"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/loyalty-program-2"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://helpdesk-love-loyalty.crisp.help/en/category/faq-1dm96ri/",
+            "https://www.youtube.com/playlist?list=PL1jNXLS2SQEcPqBVkzg7y2imJpMjR_yK5",
+            "https://helpdesk-love-loyalty.crisp.help/en/category/getting-started-zs5gp2/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards", "referral-programs", "courses-memberships"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "Love Loyalty Rewards & Points Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/loyalty-program-2",
+          "retrieved_at": "2026-10-04T05:10:12.067715+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Build a loyal customer base with Love Loyalty. Your customers can redeem…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/loyalty-program-2"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "joyio",
+      "name": "Joy Loyalty Program Rewards",
+      "slug": "joyio",
+      "category_fit": {
+        "app_id": "joyio",
+        "selection_score": 6.0686,
+        "rating_evidence": {"value": 4.9, "reviews": 1788},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["loyalty", "reward"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/joyio"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+        "description_long": "Joy Loyalty Program Rewards is developed by Joy Loyalty Program & Rewards and listed for loyalty and rewards, discounts. Its structured listing identifies functions such as reward programs, memberships, vip tiers, referrals. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards", "Referral Programs"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards", "Referral Programs"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1788,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/joyio",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 1},
+          {"stars": 4, "percentage": 3, "count": 60},
+          {"stars": 3, "percentage": 0, "count": 7},
+          {"stars": 2, "percentage": 0, "count": 4},
+          {"stars": 1, "percentage": 1, "count": 19}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["500 monthly orders, then +$15 per 100 orders"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 129.0,
+            "billing_period": "month",
+            "price_display": "$129 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["2,000 monthly orders, then +$10 per 100 orders"]
+          },
+          {
+            "name": "Ultimate",
+            "amount_usd": 499.0,
+            "billing_period": "month",
+            "price_display": "$499 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["7,000 monthly orders, then +$5 per 100 orders"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://joy.so/pricing/",
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 28, 2021",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          },
+          {
+            "name": "Discounts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-promotions-discounts"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.program_types.subscriptions", "label": "Subscriptions"},
+          {"handle": "cf.loyalty_and_rewards.program_types.gift_card_programs", "label": "Gift card programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.cash_back_programs", "label": "Cash back programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gifts", "label": "Gifts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gift_cards", "label": "Gift cards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.cash_back", "label": "Cash back"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.store_credit", "label": "Store credit"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.early_access", "label": "Early access"},
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.exclusive_access",
+            "label": "Exclusive access"
+          },
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.membership_perks",
+            "label": "Membership perks"
+          },
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.badges", "label": "Badges"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"},
+          {"handle": "cf.discounts.discount_types.discount_codes", "label": "Discount codes"},
+          {"handle": "cf.discounts.discount_types.coupons", "label": "Coupons"},
+          {"handle": "cf.discounts.discount_types.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.discounts.discount_types.flat_discounts", "label": "Flat discounts"},
+          {"handle": "cf.discounts.discount_types.percentage_discounts", "label": "Percentage discounts"},
+          {"handle": "cf.discounts.discount_types.bulk_discounts", "label": "Bulk discounts"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " Italian",
+          " French",
+          " Japanese",
+          " German",
+          " Indonesian",
+          " and Chinese (Simplified)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Chatty AI Chatbot & Live chat",
+          "Judge.me Product Reviews App",
+          "Klaviyo: Email Marketing & SMS",
+          "Loox ‑ Visual Product Reviews",
+          "Omnisend Email Marketing & SMS",
+          "Recharge Subscription"
+        ]
+      },
+      "developer": {
+        "name": "Joy Loyalty Program & Rewards",
+        "website_url": "https://joy.so",
+        "partner_url": "https://apps.shopify.com/partners/getjoy",
+        "public_address": "Hanoi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/joyio",
+        "canonical_app_store_url": "https://apps.shopify.com/joyio",
+        "install_url": "https://apps.shopify.com/joyio",
+        "demo_store_url": "https://demo-comestic.joy.so/pages/joy-loyalty-page",
+        "resources": {
+          "Privacy policy": "https://help.joy.so/policies/privacy-policy",
+          "FAQ": "https://help.joy.so/",
+          "Joy Loyalty Program & Rewards": "https://apps.shopify.com/partners/getjoy",
+          "Website": "https://joy.so"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/icon/CK6DxNDQsZYDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/desktop_screenshot/CIPvndbOsZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/desktop_screenshot/CIKFqNbOsZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/desktop_screenshot/CMe1sdbOsZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/desktop_screenshot/CL-7vNbOsZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/desktop_screenshot/CKyoxtbOsZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/desktop_screenshot/CPzH0NbOsZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/mobile_screenshot/CJae29bOsZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/mobile_screenshot/CL-A5dbOsZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/mobile_screenshot/CJPz7dbOsZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/mobile_screenshot/CMK199bOsZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/mobile_screenshot/CJWAgdfOsZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/mobile_screenshot/CLDGi9fOsZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/pos_screenshot/CNCQltfOsZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/pos_screenshot/CPO6oNfOsZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1c76cf8a2c51f2fcf7a52ae3db9b0d6f/pos_screenshot/COTcqtfOsZYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/SpP54hiZk90"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Joy Loyalty Program Rewards free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/joyio"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  Italian,  French,  Japanese,  German,  Indonesian,  and Chinese (Simplified)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/joyio"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Chatty AI Chatbot & Live chat, Judge.me Product Reviews App, Klaviyo: Email Marketing & SMS, Loox ‑ Visual Product Reviews, Omnisend Email Marketing & SMS, Recharge Subscription",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/joyio"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/joyio"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.joy.so/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards", "referral-programs"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "Joy Loyalty Program Rewards Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/joyio",
+          "retrieved_at": "2026-10-04T05:09:57.421803+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Build powerful loyalty programs with points, rewards, referrals, VIP tiers & membership.…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/joyio"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "customer-accounts",
+      "name": "Froonze VIP Loyalty & Wishlist",
+      "slug": "customer-accounts",
+      "category_fit": {
+        "app_id": "customer-accounts",
+        "selection_score": 6.0463,
+        "rating_evidence": {"value": 5.0, "reviews": 274},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["loyalty", "reward"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/customer-accounts"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+        "description_long": "Froonze VIP Loyalty & Wishlist is developed by Froonze Limited and listed for loyalty and rewards, wishlists. Its structured listing identifies functions such as reward programs, memberships, vip tiers, affiliate programs. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards", "Wishlists"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards", "Wishlists"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 274,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/customer-accounts",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 270},
+          {"stars": 4, "percentage": 1, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free to install",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 10.0,
+            "billing_period": "month",
+            "price_display": "$10 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 30.0,
+            "billing_period": "month",
+            "price_display": "$30 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Unlimited",
+            "amount_usd": 60.0,
+            "billing_period": "month",
+            "price_display": "$60 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.froonze.com/pricing/",
+        "starting_paid_monthly_price_usd": 10.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "December 1, 2021",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          },
+          {
+            "name": "Wishlists",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-wishlists"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.affiliate_programs", "label": "Affiliate programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.program_types.wishlists", "label": "Wishlists"},
+          {"handle": "cf.loyalty_and_rewards.program_types.cash_back_programs", "label": "Cash back programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.digital_wallets", "label": "Digital wallets"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.cash_back", "label": "Cash back"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.store_credit", "label": "Store credit"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.commission", "label": "Commission"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.early_access", "label": "Early access"},
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.exclusive_access",
+            "label": "Exclusive access"
+          },
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.membership_perks",
+            "label": "Membership perks"
+          },
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"},
+          {"handle": "cf.wishlists.list_types.public_wishlist", "label": "Public wishlist"},
+          {"handle": "cf.wishlists.list_types.favorites", "label": "Favorites"},
+          {"handle": "cf.wishlists.list_types.save_for_later", "label": "Save for later"},
+          {"handle": "cf.wishlists.list_types.guest_wishlist", "label": "Guest wishlist"},
+          {"handle": "cf.wishlists.list_management.email_sharing", "label": "Email sharing"},
+          {"handle": "cf.wishlists.list_management.social_sharing", "label": "Social sharing"},
+          {"handle": "cf.wishlists.list_management.share_links", "label": "Share links"}
+        ],
+        "languages": ["English", " Spanish", " Portuguese (Brazil)", " French", " Italian", " and German"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Facebook Pixel",
+          "Google Analytics",
+          "Judge.me",
+          "Klaviyo",
+          "PushOwl"
+        ]
+      },
+      "developer": {
+        "name": "Froonze Limited",
+        "website_url": "https://www.froonze.com/",
+        "partner_url": "https://apps.shopify.com/partners/froonze-company",
+        "public_address": "Unit 2A, 17/F, Glenealy Tower, No.1 Glenealy Central, Hong Kong, HK, 0000, HK"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/customer-accounts",
+        "canonical_app_store_url": "https://apps.shopify.com/customer-accounts",
+        "install_url": "https://apps.shopify.com/customer-accounts",
+        "demo_store_url": "https://demo.froonze.com/account",
+        "resources": {
+          "Privacy policy": "https://www.froonze.com/privacy/",
+          "FAQ": "https://froonze.tawk.help/",
+          "Froonze Limited": "https://apps.shopify.com/partners/froonze-company",
+          "Website": "https://www.froonze.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/39667e1b914fcca4e73731f12966de2f/icon/CN_T2salmfQCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/39667e1b914fcca4e73731f12966de2f/promotional_image/CMCC3de_i5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/39667e1b914fcca4e73731f12966de2f/desktop_screenshot/CPztpJba5o0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/39667e1b914fcca4e73731f12966de2f/desktop_screenshot/CIqWi43Z5o0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/39667e1b914fcca4e73731f12966de2f/desktop_screenshot/CJ702PSsqJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/39667e1b914fcca4e73731f12966de2f/desktop_screenshot/CM_H4vSsqJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/39667e1b914fcca4e73731f12966de2f/desktop_screenshot/CJnd6_SsqJMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Froonze VIP Loyalty & Wishlist free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/customer-accounts"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  Portuguese (Brazil),  French,  Italian,  and German",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/customer-accounts"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Facebook Pixel, Google Analytics, Judge.me, Klaviyo, PushOwl",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/customer-accounts"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/customer-accounts"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://froonze.tawk.help/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards", "wishlists"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "Froonze VIP Loyalty & Wishlist Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/customer-accounts",
+          "retrieved_at": "2026-10-04T05:10:34.849647+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Create your own loyalty & rewards program to turn first-time customers into…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/customer-accounts"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "parcelpanel",
+      "name": "CWILL Order Tracking",
+      "slug": "parcelpanel",
+      "category_fit": {
+        "app_id": "parcelpanel",
+        "selection_score": 6.0458,
+        "rating_evidence": {"value": 5.0, "reviews": 3172},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["loyalty"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/parcelpanel"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include branded tracking page, order lookup page.",
+        "description_long": "CWILL Order Tracking is developed by CWILL INC and listed for order tracking, shipping. Its structured listing identifies functions such as branded tracking page, order lookup page, real-time tracking, custom tracking link. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards", "Order Tracking"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards", "Order Tracking"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 3172,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/parcelpanel",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 3},
+          {"stars": 4, "percentage": 2, "count": 64},
+          {"stars": 3, "percentage": 0, "count": 12},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 16}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 11.0,
+            "billing_period": "month",
+            "price_display": "$11 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $108/year and save 18%", "$0.05 per additional quota"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 59.0,
+            "billing_period": "month",
+            "price_display": "$59 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $564/year and save 20%", "$0.05 per additional quota"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 479.0,
+            "billing_period": "month",
+            "price_display": "$479 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $4,548/year and save 21%", "$0.05 per additional quota"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.cwill.com/pricing/order-tracking/",
+        "starting_paid_monthly_price_usd": 11.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 25, 2019 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Order tracking",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-order-tracking"
+          },
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.order_tracking.tracking.branded_tracking_page", "label": "Branded tracking page"},
+          {"handle": "cf.order_tracking.tracking.order_lookup_page", "label": "Order lookup page"},
+          {"handle": "cf.order_tracking.tracking.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.order_tracking.tracking.custom_tracking_link", "label": "Custom tracking link"},
+          {"handle": "cf.order_tracking.tracking.translation", "label": "Translation"},
+          {"handle": "cf.order_tracking.tracking.estimated_delivery_date", "label": "Estimated delivery date"},
+          {"handle": "cf.order_tracking.tracking.global_tracking", "label": "Global tracking"},
+          {"handle": "cf.order_tracking.tracking.dashboards", "label": "Dashboards"},
+          {"handle": "cf.order_tracking.tracking.order_export", "label": "Order export"},
+          {"handle": "cf.order_tracking.tracking.multi_carrier", "label": "Multi-carrier"},
+          {"handle": "cf.order_tracking.tracking.api", "label": "API"},
+          {"handle": "cf.order_tracking.tracking.analytics", "label": "Analytics"},
+          {"handle": "cf.order_tracking.tracking.carrier_masking", "label": "Carrier masking"},
+          {"handle": "cf.order_tracking.notifications.email", "label": "Email"},
+          {
+            "handle": "cf.order_tracking.notifications.real_time_notifications",
+            "label": "Real-time notifications"
+          },
+          {"handle": "cf.order_tracking.notifications.sms", "label": "SMS"},
+          {"handle": "cf.order_tracking.notifications.translation", "label": "Translation"},
+          {"handle": "cf.order_tracking.notifications.custom_notifications", "label": "Custom notifications"},
+          {"handle": "cf.order_tracking.notifications.automation", "label": "Automations"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_insurance", "label": "Shipping insurance"},
+          {"handle": "cf.shipping.labels_and_packaging.delivery_dates", "label": "Delivery date"},
+          {"handle": "cf.shipping.labels_and_packaging.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.labels_and_packaging.multi_language", "label": "Multi-language"},
+          {"handle": "cf.shipping.labels_and_packaging.carrier_selection", "label": "Carrier selection"},
+          {"handle": "cf.shipping.managing_shipments.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.managing_shipments.real_time_tracking", "label": "Real-time tracking"},
+          {
+            "handle": "cf.shipping.managing_shipments.branded_tracking_pages",
+            "label": "Branded tracking page"
+          },
+          {"handle": "cf.shipping.managing_shipments.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.shipping.managing_shipments.order_updates", "label": "Order updates"},
+          {"handle": "cf.shipping.managing_shipments.shipping_analytics", "label": "Shipping analytics"}
+        ],
+        "languages": [
+          "German",
+          " English",
+          " Spanish",
+          " French",
+          " Chinese (Simplified)",
+          " Italian",
+          " Chinese (Traditional)",
+          " Swedish",
+          " Dutch",
+          " Portuguese (Brazil)",
+          " Czech",
+          " Danish",
+          " Finnish",
+          " Japanese",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Polish",
+          " Thai",
+          " Turkish",
+          " Portuguese (Portugal)",
+          " and Norwegian"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Gorgias",
+          "Headless",
+          "Judge.me",
+          "Klaviyo",
+          "PageFly",
+          "PayPal"
+        ]
+      },
+      "developer": {
+        "name": "CWILL INC",
+        "website_url": "https://www.cwill.com/products/order-tracking/",
+        "partner_url": "https://apps.shopify.com/partners/parcelpanel",
+        "public_address": "201 Commonwealth Ct, Ste 220, Cary, NC, 27511-4471, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/parcelpanel",
+        "canonical_app_store_url": "https://apps.shopify.com/parcelpanel",
+        "install_url": "https://apps.shopify.com/parcelpanel",
+        "demo_store_url": "https://parcelpanel.myshopify.com/apps/parcelpanel",
+        "resources": {
+          "Privacy policy": "https://www.cwill.com/privacy-policy/",
+          "FAQ": "https://docs.parcelpanel.com/",
+          "Tutorial": "https://docs.parcelpanel.com/article/how-to-add-the-tracking-page-to-your-storefront-within-1-minute/",
+          "App Documentation": "https://docs.parcelpanel.com/",
+          "CWILL INC": "https://apps.shopify.com/partners/parcelpanel",
+          "Website": "https://www.cwill.com/products/order-tracking/",
+          "Changelog": "https://parcelpanel.canny.io/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/49a7da2f5f1af407d002b15b55189273/icon/CMmA8oXs6pUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/49a7da2f5f1af407d002b15b55189273/promotional_image/CIDOiuvs6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/49a7da2f5f1af407d002b15b55189273/desktop_screenshot/CMj1levs6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/49a7da2f5f1af407d002b15b55189273/desktop_screenshot/CIi4n-vs6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/49a7da2f5f1af407d002b15b55189273/desktop_screenshot/CIugqevs6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/49a7da2f5f1af407d002b15b55189273/desktop_screenshot/CL68suvs6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/49a7da2f5f1af407d002b15b55189273/desktop_screenshot/CIqXu-vs6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/49a7da2f5f1af407d002b15b55189273/desktop_screenshot/CMnRzYik85EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/49a7da2f5f1af407d002b15b55189273/mobile_screenshot/CKaqxOvs6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/49a7da2f5f1af407d002b15b55189273/mobile_screenshot/CJnKzevs6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/49a7da2f5f1af407d002b15b55189273/mobile_screenshot/CNLe1uvs6pUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is CWILL Order Tracking free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/parcelpanel"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "German,  English,  Spanish,  French,  Chinese (Simplified),  Italian,  Chinese (Traditional),  Swedish,  Dutch,  Portuguese (Brazil),  Czech,  Danish,  Finnish,  Japanese,  Korean,  Norwegian (Bokmål),  Polish,  Thai,  Turkish,  Portuguese (Portugal),  and Norwegian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/parcelpanel"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Gorgias, Headless, Judge.me, Klaviyo, PageFly, PayPal",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/parcelpanel"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/parcelpanel"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.parcelpanel.com/",
+            "https://docs.parcelpanel.com/article/how-to-add-the-tracking-page-to-your-storefront-within-1-minute/",
+            "https://docs.parcelpanel.com/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards", "order-tracking"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "CWILL Order Tracking Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include branded tracking page, order lookup page.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/parcelpanel",
+          "retrieved_at": "2026-10-04T05:22:16.252771+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Track order status with branded tracking pages and shipping notifications from CWILL…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/parcelpanel"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "loloyal",
+      "name": "CWILL Loyalty & Referrals",
+      "slug": "loloyal",
+      "category_fit": {
+        "app_id": "loloyal",
+        "selection_score": 6.0266,
+        "rating_evidence": {"value": 4.9, "reviews": 812},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["loyalty", "reward"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/loloyal"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+        "description_long": "CWILL Loyalty & Referrals is developed by CWILL and listed for loyalty and rewards. Its structured listing identifies functions such as reward programs, memberships, vip tiers, referrals. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards", "Referral Programs"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards", "Referral Programs"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 812,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/loloyal",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 771},
+          {"stars": 4, "percentage": 3, "count": 26},
+          {"stars": 3, "percentage": 1, "count": 6},
+          {"stars": 2, "percentage": 1, "count": 5},
+          {"stars": 1, "percentage": 0, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $190/year and save 17%",
+              "$19/pm for stores with up to 200 orders/pm, or $29/pm for up to 500 orders/pm."
+            ]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 69.0,
+            "billing_period": "month",
+            "price_display": "$69 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $690/year and save 17%",
+              "Tiered pricing: 500–3,000 orders/pm, from $69/pm. For more orders & enterprise features, see all pricing options below."
+            ]
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 599.0,
+            "billing_period": "month",
+            "price_display": "$599 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $5,990/year and save 17%",
+              "Plus plans start at $599/month. Final pricing varies based on each merchant's requirements and usage."
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.cwill.com/pricing/loyalty-referrals/",
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 12, 2021",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.program_types.subscriptions", "label": "Subscriptions"},
+          {"handle": "cf.loyalty_and_rewards.program_types.game_programs", "label": "Game programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gifts", "label": "Gifts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.early_access", "label": "Early access"},
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.exclusive_access",
+            "label": "Exclusive access"
+          },
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.membership_perks",
+            "label": "Membership perks"
+          },
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.events", "label": "Events"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.services", "label": "Services"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " Spanish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Chinese (Traditional)",
+          " Chinese (Simplified)",
+          " Portuguese (Brazil)",
+          " Korean",
+          " Czech",
+          " Danish",
+          " Finnish",
+          " Norwegian (Bokmål)",
+          " Polish",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Dutch",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Judgeme Product Reviews App",
+          "Klaviyo: Email Marketing & SMS",
+          "PageFly",
+          "Seal Subscriptions",
+          "Trustoo",
+          "Willdesk: Live Chat & Helpdesk"
+        ]
+      },
+      "developer": {
+        "name": "CWILL",
+        "website_url": "https://www.cwill.com/products/loyalty-referrals/",
+        "partner_url": "https://apps.shopify.com/partners/sealapps",
+        "public_address": "201 Commonwealth Ct, Ste 220, Cary, NC, 27511-4471, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/loloyal",
+        "canonical_app_store_url": "https://apps.shopify.com/loloyal",
+        "install_url": "https://apps.shopify.com/loloyal",
+        "demo_store_url": "https://loloyal-demo2.myshopify.com//",
+        "resources": {
+          "Privacy policy": "https://www.cwill.com/privacy-policy/",
+          "FAQ": "https://help.loyalty.cwill.com",
+          "Tutorial": "https://calendly.com/cwill-loyalty/get-a-demo",
+          "App Documentation": "https://help.loyalty.cwill.com",
+          "CWILL": "https://apps.shopify.com/partners/sealapps",
+          "Website": "https://www.cwill.com/products/loyalty-referrals/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/90c0cbb40b9748b853b2851473234440/icon/CPK2_PWa6JUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/90c0cbb40b9748b853b2851473234440/promotional_image/CJfNsNTuhZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90c0cbb40b9748b853b2851473234440/desktop_screenshot/CL3l0Jy76JUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90c0cbb40b9748b853b2851473234440/desktop_screenshot/CIOW3Jy76JUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90c0cbb40b9748b853b2851473234440/desktop_screenshot/CMi25Zy76JUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90c0cbb40b9748b853b2851473234440/desktop_screenshot/CM3O75y76JUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90c0cbb40b9748b853b2851473234440/desktop_screenshot/CKya-py76JUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90c0cbb40b9748b853b2851473234440/pos_screenshot/COr-h5276JUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is CWILL Loyalty & Referrals free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/loloyal"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  Spanish,  French,  Italian,  Japanese,  Chinese (Traditional),  Chinese (Simplified),  Portuguese (Brazil),  Korean,  Czech,  Danish,  Finnish,  Norwegian (Bokmål),  Polish,  Swedish,  Thai,  Turkish,  Dutch,  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/loloyal"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Judgeme Product Reviews App, Klaviyo: Email Marketing & SMS, PageFly, Seal Subscriptions, Trustoo, Willdesk: Live Chat & Helpdesk",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/loloyal"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/loloyal"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.loyalty.cwill.com",
+            "https://calendly.com/cwill-loyalty/get-a-demo",
+            "https://help.loyalty.cwill.com"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards", "referral-programs"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "CWILL Loyalty & Referrals Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/loloyal",
+          "retrieved_at": "2026-10-04T05:10:03.926114+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Drive repeat sales, reduce acquisition costs, and maximize customer lifetime value with…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/loloyal"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "yoyoloyalty",
+      "name": "YOYO: Loyalty, VIP, Membership",
+      "slug": "yoyoloyalty",
+      "category_fit": {
+        "app_id": "yoyoloyalty",
+        "selection_score": 6.0028,
+        "rating_evidence": {"value": 5.0, "reviews": 175},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["loyalty", "reward"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/yoyoloyalty"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+        "description_long": "YOYO: Loyalty, VIP, Membership is developed by YoYo Loyalty and listed for loyalty and rewards, subscriptions. Its structured listing identifies functions such as reward programs, memberships, vip tiers, referrals. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards", "Courses & Memberships"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards", "Courses & Memberships"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 175,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/yoyoloyalty",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 172},
+          {"stars": 4, "percentage": 1, "count": 1},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 9.0,
+            "billing_period": "month",
+            "price_display": "$9 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $86.40/year and save 20%"]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 59.0,
+            "billing_period": "month",
+            "price_display": "$59 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $566.40/year and save 20%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 199.0,
+            "billing_period": "month",
+            "price_display": "$199 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,910.40/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://yoyoloyalty.app/pricing/",
+        "starting_paid_monthly_price_usd": 9.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "April 10, 2025",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          },
+          {
+            "name": "Subscriptions",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-subscriptions"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.program_types.wishlists", "label": "Wishlists"},
+          {"handle": "cf.loyalty_and_rewards.program_types.cash_back_programs", "label": "Cash back programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.digital_wallets", "label": "Digital wallets"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gifts", "label": "Gifts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.cash_back", "label": "Cash back"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.store_credit", "label": "Store credit"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.early_access", "label": "Early access"},
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.exclusive_access",
+            "label": "Exclusive access"
+          },
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.membership_perks",
+            "label": "Membership perks"
+          },
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.badges", "label": "Badges"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"},
+          {
+            "handle": "cf.subscriptions.subscription_types.curated_subscriptions",
+            "label": "Curated subscriptions"
+          },
+          {
+            "handle": "cf.subscriptions.subscription_types.access_subscriptions",
+            "label": "Access subscriptions"
+          },
+          {"handle": "cf.subscriptions.subscription_types.memberships", "label": "Memberships"},
+          {
+            "handle": "cf.subscriptions.subscription_types.custom_subscriptions",
+            "label": "Custom subscriptions"
+          },
+          {"handle": "cf.subscriptions.pricing_you_can_set.recurring_payments", "label": "Recurring payments"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.subscribe_and_save", "label": "Subscribe and save"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.one_time_payment", "label": "One-time payment"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.custom_pricing", "label": "Custom pricing"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " French",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " and Spanish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "AG Product Reviews",
+          "Appstle Subscriptions",
+          "Judge.me Product Reviews",
+          "Klaviyo: Email Marketing & SMS",
+          "Omnisend Email Marketing & SMS"
+        ]
+      },
+      "developer": {
+        "name": "YoYo Loyalty",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/cash-loyalty",
+        "public_address": "Churchill tower 1, Dubai, SH, 00000, AE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/yoyoloyalty",
+        "canonical_app_store_url": "https://apps.shopify.com/yoyoloyalty",
+        "install_url": "https://apps.shopify.com/yoyoloyalty",
+        "demo_store_url": "https://demo.yoyoloyalty.app/",
+        "resources": {
+          "Privacy policy": "https://app.cashloyalty.co/privacy-policy",
+          "YoYo Loyalty": "https://apps.shopify.com/partners/cash-loyalty"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/icon/CPC64PuTtY8DEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/promotional_image/CMzWqIqw3JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/desktop_screenshot/CICUs4qw3JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/desktop_screenshot/CIX-u4qw3JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/desktop_screenshot/CLHNxYqw3JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/desktop_screenshot/COnQzoqw3JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/desktop_screenshot/CN-514qw3JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/desktop_screenshot/CPPFjbCRhJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/pos_screenshot/CMDE3oKa-JUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is YOYO: Loyalty, VIP, Membership free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/yoyoloyalty"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Italian,  Portuguese (Brazil),  Portuguese (Portugal),  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/yoyoloyalty"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, AG Product Reviews, Appstle Subscriptions, Judge.me Product Reviews, Klaviyo: Email Marketing & SMS, Omnisend Email Marketing & SMS",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/yoyoloyalty"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/yoyoloyalty"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards", "courses-memberships"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "YOYO: Loyalty, VIP, Membership Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/yoyoloyalty",
+          "retrieved_at": "2026-10-04T05:10:12.040853+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/yoyoloyalty"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "koin-store-credit",
+      "name": "Koin Store Credit & Rewards",
+      "slug": "koin-store-credit",
+      "category_fit": {
+        "app_id": "koin-store-credit",
+        "selection_score": 6.0021,
+        "rating_evidence": {"value": 5.0, "reviews": 174},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["reward", "loyalty"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/koin-store-credit"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, vip tiers.",
+        "description_long": "Koin Store Credit & Rewards is developed by Koin (by Qikify) and listed for loyalty and rewards, payment experience. Its structured listing identifies functions such as reward programs, vip tiers, cash back programs, digital wallets. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 174,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/koin-store-credit",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 171},
+          {"stars": 4, "percentage": 2, "count": 3},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "December 19, 2024",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          },
+          {
+            "name": "Payment experience",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-payment-experience"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.cash_back_programs", "label": "Cash back programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.digital_wallets", "label": "Digital wallets"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.cash_back", "label": "Cash back"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.store_credit", "label": "Store credit"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"},
+          {"handle": "cf.payments.display_options.widget_design", "label": "Widget design"},
+          {"handle": "cf.payments.display_options.widget_placement", "label": "Widget placement"},
+          {"handle": "cf.payments.display_options.widget_text", "label": "Widget text"},
+          {"handle": "cf.payments.display_options.widget_color", "label": "Widget color"},
+          {"handle": "cf.payments.display_options.personalized_messages", "label": "Personalized messages"}
+        ],
+        "languages": ["English", " Japanese", " Vietnamese", " Portuguese (Brazil)", " and Portuguese (Portugal)"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Judge.me",
+          "Mysbox - Mystery Box Builder",
+          "POS",
+          "Qikify Checkout Customizer"
+        ]
+      },
+      "developer": {
+        "name": "Koin (by Qikify)",
+        "website_url": "https://getkoin.io/",
+        "partner_url": "https://apps.shopify.com/partners/koin-app",
+        "public_address": "Singapore, SG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/koin-store-credit",
+        "canonical_app_store_url": "https://apps.shopify.com/koin-store-credit",
+        "install_url": "https://apps.shopify.com/koin-store-credit",
+        "demo_store_url": "https://koin-demo-store.myshopify.com/products/the-multi-location-snowboard",
+        "resources": {
+          "Privacy policy": "https://getkoin.io/pages/privacy-policy",
+          "Tutorial": "https://getkoin.io/blogs/news/tagged/use-cases",
+          "Koin (by Qikify)": "https://apps.shopify.com/partners/koin-app",
+          "Website": "https://getkoin.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9f8e6c7523d7a0039bb00d48d4f48598/icon/COGepZSfkIoDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9f8e6c7523d7a0039bb00d48d4f48598/promotional_image/CPa2vf-vuJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9f8e6c7523d7a0039bb00d48d4f48598/desktop_screenshot/COvNgtGozJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9f8e6c7523d7a0039bb00d48d4f48598/desktop_screenshot/CLKR8fPUl5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9f8e6c7523d7a0039bb00d48d4f48598/desktop_screenshot/CO782I-yj5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9f8e6c7523d7a0039bb00d48d4f48598/desktop_screenshot/CNSKupHwkZEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9f8e6c7523d7a0039bb00d48d4f48598/desktop_screenshot/CNnK6o-yj5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9f8e6c7523d7a0039bb00d48d4f48598/desktop_screenshot/CNP-8o-yj5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9f8e6c7523d7a0039bb00d48d4f48598/mobile_screenshot/CL6v-4-yj5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9f8e6c7523d7a0039bb00d48d4f48598/mobile_screenshot/CJHwj5SqzJIDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Koin Store Credit & Rewards free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/koin-store-credit"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Japanese,  Vietnamese,  Portuguese (Brazil),  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/koin-store-credit"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Judge.me, Mysbox - Mystery Box Builder, POS, Qikify Checkout Customizer",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/koin-store-credit"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/koin-store-credit"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://getkoin.io/blogs/news/tagged/use-cases"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "Koin Store Credit & Rewards Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, vip tiers.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/koin-store-credit",
+          "retrieved_at": "2026-10-04T05:10:20.342957+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Boost CR and increase repeat purchases by offering cashback and store credits…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/koin-store-credit"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

@@ -2,14 +2,12 @@
 import { useState } from "react";
 import Link from "next/link";
 import SectionHeading from "@/components/shared/SectionHeading";
-export default function CityExplorer({ cities, agencies, currentCity }) {
+export default function CityExplorer({ cities, currentCity }) {
   const [selectedId, setSelectedId] = useState(currentCity?.id || cities[0].id);
   const city = cities.find((item) => item.id === selectedId) || cities[0];
-  const local = agencies.filter((agency) => agency.cityId === city.id);
-  const services = [...new Set(local.flatMap((agency) => agency.serviceGroups))];
-  const publishedRatings = local.filter((agency) =>
-    agency.ratings.some((rating) => rating.value != null),
-  ).length;
+  const serviceCounts = city.insights.serviceCounts;
+  const services = serviceCounts.map(([service]) => service);
+  const publishedRatings = city.insights.ratedCount;
   return (
     <>
       <section className="cities" id="locations">
@@ -19,7 +17,7 @@ export default function CityExplorer({ cities, agencies, currentCity }) {
           description="Open a city directory to explore its researched collection."
         />
         <div className="citygrid">
-          {cities.map((item) => (
+          {cities.slice(0, 20).map((item) => (
             <Link
               href={`/${item.route}`}
               className="city"
@@ -37,6 +35,9 @@ export default function CityExplorer({ cities, agencies, currentCity }) {
             </Link>
           ))}
         </div>
+        <Link className="text-link" href="/locations">
+          Browse all {cities.length} locations ↗
+        </Link>
       </section>
       <section className="rich split" id="city-insights">
         <div className="snapshot">
@@ -52,17 +53,17 @@ export default function CityExplorer({ cities, agencies, currentCity }) {
             >
               {cities.map((item) => (
                 <option key={item.id} value={item.id}>
-                  {item.name}
+                  {item.fullName}
                 </option>
               ))}
             </select>
           </div>
           <p>
-            {local.length} profiles across {services.length} service areas.
+            {city.count} profiles across {services.length} service areas.
           </p>
           <div className="snapshot-stats">
             <div>
-              <strong>{local.length}</strong>
+              <strong>{city.count}</strong>
               <small>Listed agencies</small>
             </div>
             <div>
@@ -76,15 +77,13 @@ export default function CityExplorer({ cities, agencies, currentCity }) {
           </div>
           <div className="bars">
             {services.map((service) => {
-              const count = local.filter((agency) =>
-                agency.serviceGroups.includes(service),
-              ).length;
+              const count = serviceCounts.find(([name]) => name === service)[1];
               return (
                 <div className="bar-row" key={service}>
                   <span>{service}</span>
                   <span className="bar-track">
                     <span
-                      style={{ width: `${(count / Math.max(local.length, 1)) * 100}%` }}
+                      style={{ width: `${(count / Math.max(city.count, 1)) * 100}%` }}
                     />
                   </span>
                   <span>{count}</span>

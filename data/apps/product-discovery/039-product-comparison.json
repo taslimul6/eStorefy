@@ -1,0 +1,3333 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "product-comparison",
+    "number": 39,
+    "name": "Product Comparison",
+    "group": "Product Discovery",
+    "slug": "product-comparison",
+    "url_path": "/apps/product-comparison",
+    "focus": "Help shoppers find, compare and choose products.",
+    "description": "Compare Shopify apps for product comparison. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/store-design-product-display-product-comparison/all"],
+    "seo": {
+      "title": "Shopify Product Comparison Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for product comparison: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a product comparison app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "spec-compare",
+      "name": "Bear Specs & Compare",
+      "slug": "spec-compare",
+      "category_fit": {
+        "app_id": "spec-compare",
+        "selection_score": 5.6689,
+        "rating_evidence": {"value": 4.8, "reviews": 47},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["compar"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/spec-compare"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for product comparison. Listed functions include comparison page, comparison table.",
+        "description_long": "Bear Specs & Compare is developed by Bear Apps and listed for product comparison, metafields. Its structured listing identifies functions such as comparison page, comparison table, multi-product, variants. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Comparison"],
+        "best_for": {
+          "use_cases": ["Product Comparison"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 47,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/spec-compare",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 45},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 2, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $6.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 6.99,
+            "billing_period": "month",
+            "price_display": "$6.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $69.99/year and save 17%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $99.99/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 6.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 3, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Product comparison",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-product-comparison"
+          },
+          {"name": "Metafields", "url": "https://apps.shopify.com/categories/store-design-content-metafields"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_comparison.comparison_tools.comparison_page", "label": "Comparison page"},
+          {"handle": "cf.product_comparison.comparison_tools.comparison_table", "label": "Comparison table"},
+          {"handle": "cf.product_comparison.comparison_tools.multi_product", "label": "Multi-product"},
+          {"handle": "cf.product_comparison.comparison_tools.variants", "label": "Variants"},
+          {"handle": "cf.product_comparison.comparison_tools.specifications", "label": "Specifications"},
+          {"handle": "cf.product_comparison.comparison_tools.recommendations", "label": "Recommendations"},
+          {
+            "handle": "cf.product_comparison.comparison_tools.ai_recommendations",
+            "label": "AI recommendations"
+          },
+          {
+            "handle": "cf.product_comparison.comparison_tools.highlight_differences",
+            "label": "Highlight differences"
+          },
+          {"handle": "cf.product_comparison.comparison_tools.analytics", "label": "Analytics"},
+          {"handle": "cf.product_comparison.display_options.table_layout", "label": "Table layout"},
+          {"handle": "cf.product_comparison.display_options.colors_and_fonts", "label": "Color and font"},
+          {"handle": "cf.product_comparison.display_options.custom_icons", "label": "Custom icons"},
+          {"handle": "cf.product_comparison.display_options.custom_text", "label": "Custom text"},
+          {"handle": "cf.product_comparison.display_options.floating_chart", "label": "Floating chart"},
+          {"handle": "cf.product_comparison.display_options.unit_conversion", "label": "Unit conversion"},
+          {"handle": "cf.product_comparison.display_options.multi_language", "label": "Multi-language"},
+          {"handle": "cf.product_comparison.display_options.translation", "label": "Translation"},
+          {"handle": "cf.product_comparison.display_options.product_page", "label": "Product page"},
+          {"handle": "cf.product_comparison.display_options.collection_page", "label": "Collection page"},
+          {"handle": "cf.product_comparison.display_options.mobile_responsive", "label": "Mobile responsive"},
+          {"handle": "cf.metafields.metafield_types.collections", "label": "Collections"},
+          {"handle": "cf.metafields.metafield_types.products", "label": "Products"},
+          {"handle": "cf.metafields.metafield_types.variants", "label": "Variants"},
+          {"handle": "cf.metafields.metafield_types.standard", "label": "Standard"},
+          {"handle": "cf.metafields.metafield_types.metaobjects", "label": "Metaobjects"},
+          {"handle": "cf.metafields.metafield_types.booleans", "label": "Booleans"},
+          {"handle": "cf.metafields.metafield_types.colors", "label": "Colors"},
+          {"handle": "cf.metafields.metafield_types.dates", "label": "Dates"},
+          {"handle": "cf.metafields.metafield_types.dimensions", "label": "Dimensions"},
+          {"handle": "cf.metafields.metafield_types.files", "label": "Files"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " French",
+          " Japanese",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Spanish",
+          " Italian",
+          " Korean",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Shopify Admin",
+          "2048 Variants",
+          "Boost AI Search & Filter",
+          "Searchanise Search & Filter",
+          "Smart Product Filter & Search"
+        ]
+      },
+      "developer": {
+        "name": "Bear Apps",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/koala-apps",
+        "public_address": "Tokyo, JP-13, JP"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/spec-compare",
+        "canonical_app_store_url": "https://apps.shopify.com/spec-compare",
+        "install_url": "https://apps.shopify.com/spec-compare",
+        "demo_store_url": "https://spec-and-compare.myshopify.com/products/canon-eos-5d-mark-iv",
+        "resources": {
+          "Privacy policy": "https://www.spec-and-compare.com/docs/privacy-policy",
+          "FAQ": "https://www.spec-and-compare.com/docs/faq",
+          "Tutorial": "https://www.spec-and-compare.com/#setting-up-the-app",
+          "App Documentation": "https://www.spec-and-compare.com",
+          "Bear Apps": "https://apps.shopify.com/partners/koala-apps",
+          "Changelog": "https://www.spec-and-compare.com/docs/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/3a9c982304789ec5e286e0346dc5f5b9/icon/CLXWstGnmosDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/3a9c982304789ec5e286e0346dc5f5b9/promotional_image/CNn3rM6BvI4DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3a9c982304789ec5e286e0346dc5f5b9/desktop_screenshot/CIiO4bWQ0I4DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3a9c982304789ec5e286e0346dc5f5b9/desktop_screenshot/CKfNlJD2944DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3a9c982304789ec5e286e0346dc5f5b9/desktop_screenshot/CKPLqrDKt5ADEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3a9c982304789ec5e286e0346dc5f5b9/desktop_screenshot/CLGxlYrqsZEDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Bear Specs & Compare free?",
+            "answer": "The pricing label retrieved from the listing is: From $6.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/spec-compare"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Japanese,  Portuguese (Brazil),  Portuguese (Portugal),  Spanish,  Italian,  Korean,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/spec-compare"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, 2048 Variants, Boost AI Search & Filter, Searchanise Search & Filter, Smart Product Filter & Search",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/spec-compare"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/spec-compare"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://www.spec-and-compare.com/docs/faq",
+            "https://www.spec-and-compare.com/#setting-up-the-app",
+            "https://www.spec-and-compare.com"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-comparison"],
+        "primary_category_id": "product-comparison",
+        "seo": {
+          "title": "Bear Specs & Compare Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product comparison. Listed functions include comparison page, comparison table.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/spec-compare",
+          "retrieved_at": "2026-10-04T05:15:07.342306+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Display beautiful, accessible, SEO-friendly specification tables and comparison tables to help customers…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/spec-compare"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "compareder-product-compare",
+      "name": "Compareder ‑ Product Compare",
+      "slug": "compareder-product-compare",
+      "category_fit": {
+        "app_id": "compareder-product-compare",
+        "selection_score": 5.5555,
+        "rating_evidence": {"value": 4.8, "reviews": 23},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["compar"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/compareder-product-compare"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for product comparison. Listed functions include comparison page, comparison table.",
+        "description_long": "Compareder ‑ Product Compare is developed by Stallion Apps and listed for product comparison, product display - other. Its structured listing identifies functions such as comparison page, comparison table, pop-ups, multi-product. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Comparison"],
+        "best_for": {
+          "use_cases": ["Product Comparison"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 23,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/compareder-product-compare",
+        "distribution": [
+          {"stars": 5, "percentage": 87, "count": 20},
+          {"stars": 4, "percentage": 4, "count": 1},
+          {"stars": 3, "percentage": 4, "count": 1},
+          {"stars": 2, "percentage": 4, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Lite",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Business",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $56.89/year and save 5%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 8.99,
+            "billing_period": "month",
+            "price_display": "$8.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $97.09/year and save 10%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 8, 2021",
+        "shopify_categories": [
+          {
+            "name": "Product comparison",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-product-comparison"
+          },
+          {
+            "name": "Product display - Other",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-product-display-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_comparison.comparison_tools.comparison_page", "label": "Comparison page"},
+          {"handle": "cf.product_comparison.comparison_tools.comparison_table", "label": "Comparison table"},
+          {"handle": "cf.product_comparison.comparison_tools.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.product_comparison.comparison_tools.multi_product", "label": "Multi-product"},
+          {"handle": "cf.product_comparison.comparison_tools.variants", "label": "Variants"},
+          {"handle": "cf.product_comparison.comparison_tools.specifications", "label": "Specifications"},
+          {
+            "handle": "cf.product_comparison.comparison_tools.highlight_differences",
+            "label": "Highlight differences"
+          },
+          {"handle": "cf.product_comparison.comparison_tools.show_and_hide", "label": "Show and hide"},
+          {"handle": "cf.product_comparison.comparison_tools.analytics", "label": "Analytics"},
+          {"handle": "cf.product_comparison.display_options.table_layout", "label": "Table layout"},
+          {"handle": "cf.product_comparison.display_options.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_comparison.display_options.custom_text", "label": "Custom text"},
+          {"handle": "cf.product_comparison.display_options.multi_language", "label": "Multi-language"},
+          {"handle": "cf.product_comparison.display_options.translation", "label": "Translation"},
+          {"handle": "cf.product_comparison.display_options.product_page", "label": "Product page"},
+          {"handle": "cf.product_comparison.display_options.collection_page", "label": "Collection page"},
+          {"handle": "cf.product_comparison.display_options.mobile_responsive", "label": "Mobile responsive"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Admin",
+          "Algolia Search and Discovery",
+          "All Top Product Filter & Search",
+          "GemPages Landing Page Builder",
+          "PageFly Landing Page Builder",
+          "Product Filter & Search",
+          "Smart Product Filter & Search"
+        ]
+      },
+      "developer": {
+        "name": "Stallion Apps",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/stallion-apps",
+        "public_address": "Mota Varachha, Surat, GJ, 394105, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/compareder-product-compare",
+        "canonical_app_store_url": "https://apps.shopify.com/compareder-product-compare",
+        "install_url": "https://apps.shopify.com/compareder-product-compare",
+        "demo_store_url": "https://compareder-demo.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://compareder.coderagon.com/privacy.php",
+          "Stallion Apps": "https://apps.shopify.com/partners/stallion-apps"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f1bc684fe3737e08dd63e0ef5fb989e1/icon/CLC9_bOK3ZEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f1bc684fe3737e08dd63e0ef5fb989e1/promotional_image/CPjphrSK3ZEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f1bc684fe3737e08dd63e0ef5fb989e1/desktop_screenshot/CP6fkbSK3ZEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f1bc684fe3737e08dd63e0ef5fb989e1/desktop_screenshot/CODSmbSK3ZEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f1bc684fe3737e08dd63e0ef5fb989e1/desktop_screenshot/CITjobSK3ZEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f1bc684fe3737e08dd63e0ef5fb989e1/desktop_screenshot/CIOsqrSK3ZEDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Compareder ‑ Product Compare free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/compareder-product-compare"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/compareder-product-compare"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Algolia Search and Discovery, All Top Product Filter & Search, GemPages Landing Page Builder, PageFly Landing Page Builder, Product Filter & Search, Smart Product Filter & Search",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/compareder-product-compare"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/compareder-product-compare"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-comparison"],
+        "primary_category_id": "product-comparison",
+        "seo": {
+          "title": "Compareder ‑ Product Compare Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product comparison. Listed functions include comparison page, comparison table.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/compareder-product-compare",
+          "retrieved_at": "2026-10-04T05:15:14.721731+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Customers can use the Product Compare page to compare up to four…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/compareder-product-compare"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "snap-compare",
+      "name": "Snap Compare: Compare Products",
+      "slug": "snap-compare",
+      "category_fit": {
+        "app_id": "snap-compare",
+        "selection_score": 5.4218,
+        "rating_evidence": {"value": 5.0, "reviews": 7},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["compar"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/snap-compare"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for product comparison. Listed functions include comparison page, comparison table.",
+        "description_long": "Snap Compare: Compare Products is developed by Seapixel and listed for product comparison. Its structured listing identifies functions such as comparison page, comparison table, multi-product, variants. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Comparison"],
+        "best_for": {
+          "use_cases": ["Product Comparison"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 7,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/snap-compare",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 7},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "UNLIMITED",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $49/year and save 18%"]
+          },
+          {
+            "name": "INSIGHTS",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $99/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 23, 2025",
+        "shopify_categories": [
+          {
+            "name": "Product comparison",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-product-comparison"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_comparison.comparison_tools.comparison_page", "label": "Comparison page"},
+          {"handle": "cf.product_comparison.comparison_tools.comparison_table", "label": "Comparison table"},
+          {"handle": "cf.product_comparison.comparison_tools.multi_product", "label": "Multi-product"},
+          {"handle": "cf.product_comparison.comparison_tools.variants", "label": "Variants"},
+          {
+            "handle": "cf.product_comparison.comparison_tools.highlight_differences",
+            "label": "Highlight differences"
+          },
+          {"handle": "cf.product_comparison.display_options.custom_text", "label": "Custom text"},
+          {"handle": "cf.product_comparison.display_options.import_and_export", "label": "Import and export"},
+          {"handle": "cf.product_comparison.display_options.floating_chart", "label": "Floating chart"},
+          {"handle": "cf.product_comparison.display_options.multi_language", "label": "Multi-language"},
+          {"handle": "cf.product_comparison.display_options.translation", "label": "Translation"},
+          {"handle": "cf.product_comparison.display_options.product_page", "label": "Product page"},
+          {"handle": "cf.product_comparison.display_options.collection_page", "label": "Collection page"},
+          {"handle": "cf.product_comparison.display_options.mobile_responsive", "label": "Mobile responsive"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin", "Bazaarvoice", "Judge.me", "Loox", "Stamped.io", "Yotpo"]
+      },
+      "developer": {
+        "name": "Seapixel",
+        "website_url": "https://www.seapixel.com",
+        "partner_url": "https://apps.shopify.com/partners/seapixel",
+        "public_address": "Agiou Konstantinou 40, Marousi, Athens, 15124, GR"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/snap-compare",
+        "canonical_app_store_url": "https://apps.shopify.com/snap-compare",
+        "install_url": "https://apps.shopify.com/snap-compare",
+        "demo_store_url": "https://seapixel.myshopify.com/collections/snap-compare",
+        "resources": {
+          "Privacy policy": "https://www.seapixel.com/privacy-policy",
+          "App Documentation": "https://docs.seapixel.com/categories/snap-compare",
+          "Seapixel": "https://apps.shopify.com/partners/seapixel",
+          "Website": "https://www.seapixel.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6026b3b88958574e9fd7a9f88c3ae29d/icon/CLf17uesjJcDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6026b3b88958574e9fd7a9f88c3ae29d/promotional_image/CPWut4GH-ooDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6026b3b88958574e9fd7a9f88c3ae29d/desktop_screenshot/CIuFipqH-ooDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6026b3b88958574e9fd7a9f88c3ae29d/desktop_screenshot/CIqUmJqH-ooDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6026b3b88958574e9fd7a9f88c3ae29d/desktop_screenshot/CMiiopqH-ooDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6026b3b88958574e9fd7a9f88c3ae29d/desktop_screenshot/CNiQotXcnY4DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6026b3b88958574e9fd7a9f88c3ae29d/desktop_screenshot/CI21t5bcnY4DEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Snap Compare: Compare Products free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/snap-compare"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/snap-compare"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Bazaarvoice, Judge.me, Loox, Stamped.io, Yotpo",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/snap-compare"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/snap-compare"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.seapixel.com/categories/snap-compare"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-comparison"],
+        "primary_category_id": "product-comparison",
+        "seo": {
+          "title": "Snap Compare: Compare Products Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product comparison. Listed functions include comparison page, comparison table.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/snap-compare",
+          "retrieved_at": "2026-10-04T05:15:07.410141+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Compare products side-by-side with variants, metafields, and custom attributes. Shareable links, analytics,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/snap-compare"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "tably-comparison-tables",
+      "name": "Tably Comparison & Spec Tables",
+      "slug": "tably-comparison-tables",
+      "category_fit": {
+        "app_id": "tably-comparison-tables",
+        "selection_score": 5.3561,
+        "rating_evidence": {"value": 4.5, "reviews": 15},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["compar"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/tably-comparison-tables"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for product comparison. Listed functions include comparison page, comparison table.",
+        "description_long": "Tably Comparison & Spec Tables is developed by NextGen Software and listed for product comparison. Its structured listing identifies functions such as comparison page, comparison table, multi-product, variants. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Comparison"],
+        "best_for": {
+          "use_cases": ["Product Comparison"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.5,
+        "review_count": 15,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/tably-comparison-tables",
+        "distribution": [
+          {"stars": 5, "percentage": 93, "count": 14},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 7, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "$6.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "All Included",
+            "amount_usd": 6.99,
+            "billing_period": "month",
+            "price_display": "$6.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $55/year and save 34%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 6.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 8, 2025",
+        "shopify_categories": [
+          {
+            "name": "Product comparison",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-product-comparison"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_comparison.comparison_tools.comparison_page", "label": "Comparison page"},
+          {"handle": "cf.product_comparison.comparison_tools.comparison_table", "label": "Comparison table"},
+          {"handle": "cf.product_comparison.comparison_tools.multi_product", "label": "Multi-product"},
+          {"handle": "cf.product_comparison.comparison_tools.variants", "label": "Variants"},
+          {"handle": "cf.product_comparison.comparison_tools.specifications", "label": "Specifications"},
+          {
+            "handle": "cf.product_comparison.comparison_tools.ai_recommendations",
+            "label": "AI recommendations"
+          },
+          {
+            "handle": "cf.product_comparison.comparison_tools.highlight_differences",
+            "label": "Highlight differences"
+          },
+          {"handle": "cf.product_comparison.comparison_tools.show_and_hide", "label": "Show and hide"},
+          {"handle": "cf.product_comparison.comparison_tools.images", "label": "Images"},
+          {
+            "handle": "cf.product_comparison.display_options.drag_and_drop_editor",
+            "label": "Drag and drop editor"
+          },
+          {"handle": "cf.product_comparison.display_options.table_layout", "label": "Table layout"},
+          {"handle": "cf.product_comparison.display_options.colors_and_fonts", "label": "Color and font"},
+          {"handle": "cf.product_comparison.display_options.custom_text", "label": "Custom text"},
+          {"handle": "cf.product_comparison.display_options.templates", "label": "Templates"},
+          {"handle": "cf.product_comparison.display_options.floating_chart", "label": "Floating chart"},
+          {"handle": "cf.product_comparison.display_options.product_page", "label": "Product page"},
+          {"handle": "cf.product_comparison.display_options.mobile_responsive", "label": "Mobile responsive"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "NextGen Software",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/nextgen-software2",
+        "public_address": "192 Bear Christiana Rd, #2016, Bear, DE, 19701, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/tably-comparison-tables",
+        "canonical_app_store_url": "https://apps.shopify.com/tably-comparison-tables",
+        "install_url": "https://apps.shopify.com/tably-comparison-tables",
+        "demo_store_url": "https://tably-smart-home-demo.myshopify.com/products/apexone-omni-complete-automation",
+        "resources": {
+          "Privacy policy": "https://cettechventure.com/tably-privacy-policy/",
+          "NextGen Software": "https://apps.shopify.com/partners/nextgen-software2"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/2c184bbd10d4a0a18ca21bccd57171fc/icon/COCxi_nDkZADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/2c184bbd10d4a0a18ca21bccd57171fc/promotional_image/CODh0O2Du5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2c184bbd10d4a0a18ca21bccd57171fc/desktop_screenshot/CMaN2u2Du5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2c184bbd10d4a0a18ca21bccd57171fc/desktop_screenshot/CLm54-2Du5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2c184bbd10d4a0a18ca21bccd57171fc/desktop_screenshot/CImL7e2Du5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2c184bbd10d4a0a18ca21bccd57171fc/desktop_screenshot/CPbx9e2Du5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2c184bbd10d4a0a18ca21bccd57171fc/desktop_screenshot/CNLr_u2Du5MDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Tably Comparison & Spec Tables free?",
+            "answer": "The pricing label retrieved from the listing is: $6.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/tably-comparison-tables"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/tably-comparison-tables"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/tably-comparison-tables"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/tably-comparison-tables"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-comparison"],
+        "primary_category_id": "product-comparison",
+        "seo": {
+          "title": "Tably Comparison & Spec Tables Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product comparison. Listed functions include comparison page, comparison table.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/tably-comparison-tables",
+          "retrieved_at": "2026-10-04T05:15:14.770154+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Visual comparison tables for Shopify. Showcase product features and competitive advantages. Easy…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/tably-comparison-tables"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "ecomposer",
+      "name": "EComposer Landing Page Builder",
+      "slug": "ecomposer",
+      "category_fit": {
+        "app_id": "ecomposer",
+        "selection_score": 5.2508,
+        "rating_evidence": {"value": 4.9, "reviews": 3481},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["compar"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/ecomposer"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for page builders. Listed functions include landing pages, home pages.",
+        "description_long": "EComposer Landing Page Builder is developed by EComposer and listed for page builder, upsell and cross-sell. Its structured listing identifies functions such as landing pages, home pages, product pages, collections. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Page Builders", "Theme Sections", "Product Comparison"],
+        "best_for": {
+          "use_cases": ["Page Builders", "Theme Sections", "Product Comparison"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 3481,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/ecomposer",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 3},
+          {"stars": 4, "percentage": 2, "count": 60},
+          {"stars": 3, "percentage": 0, "count": 6},
+          {"stars": 2, "percentage": 0, "count": 7},
+          {"stars": 1, "percentage": 1, "count": 20}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "STANDARD",
+            "amount_usd": 25.0,
+            "billing_period": "month",
+            "price_display": "$25 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $228/year and save 24%"]
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $468/year and save 20%"]
+          },
+          {
+            "name": "PREMIUM",
+            "amount_usd": 129.0,
+            "billing_period": "month",
+            "price_display": "$129 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,236/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://ecomposer.io/pages/pricing",
+        "starting_paid_monthly_price_usd": 25.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 6, 2022",
+        "shopify_categories": [
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.collections", "label": "Collections"},
+          {"handle": "cf.page_builder.page_types.coming_soon_pages", "label": "Coming soon pages"},
+          {"handle": "cf.page_builder.page_types.blogs", "label": "Blogs"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.help_center_pages", "label": "Help center pages"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.cart_pages", "label": "Cart pages"},
+          {"handle": "cf.page_builder.page_types.quick_view", "label": "Quick view"},
+          {"handle": "cf.page_builder.page_types.footers", "label": "Footers"},
+          {"handle": "cf.page_builder.page_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.page_builder.page_types.forms", "label": "Forms"},
+          {"handle": "cf.page_builder.page_types.404_pages", "label": "404 pages"},
+          {"handle": "cf.page_builder.page_types.press_pages", "label": "Press pages"},
+          {"handle": "cf.page_builder.page_types.career_pages", "label": "Career pages"},
+          {"handle": "cf.page_builder.page_types.legal_pages", "label": "Legal pages"},
+          {"handle": "cf.page_builder.page_types.link_in_bio_page", "label": "Link in bio page"},
+          {"handle": "cf.page_builder.page_types.reviews_page", "label": "Reviews page"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.page_builder.managing_pages.elements", "label": "Elements"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.import_and_export", "label": "Import and export"},
+          {"handle": "cf.page_builder.managing_pages.save_pages", "label": "Save pages"},
+          {"handle": "cf.page_builder.managing_pages.draft_pages", "label": "Draft pages"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Appstle, Trustoo, Any Theme",
+          "Avada, Ryviu, SMSBump, Stamped",
+          "Fera, Vitals, Bold, Hulk",
+          "Growave, PushOwl, Aftership",
+          "Klaviyo, Loox, Yotpo, Judgeme",
+          "Omnisend, Seguno, Instafeed"
+        ]
+      },
+      "developer": {
+        "name": "EComposer",
+        "website_url": "https://ecomposer.io/",
+        "partner_url": "https://apps.shopify.com/partners/ecomposer",
+        "public_address": "Wan Chai, HK, HK"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/ecomposer",
+        "canonical_app_store_url": "https://apps.shopify.com/ecomposer",
+        "install_url": "https://apps.shopify.com/ecomposer",
+        "demo_store_url": "https://ecomposer.io/pages/demo",
+        "resources": {
+          "Privacy policy": "https://ecomposer.io/pages/privacy-policy",
+          "FAQ": "https://ecomposer.io/pages/faqs",
+          "EComposer": "https://apps.shopify.com/partners/ecomposer",
+          "Website": "https://ecomposer.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/icon/CIOUnvvPu_gCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/promotional_image/CNjjqsPf5pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/desktop_screenshot/CPvalPe_rI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/desktop_screenshot/COuUoPe_rI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/desktop_screenshot/CLLtqfe_rI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/desktop_screenshot/CNmg7M36iYcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/desktop_screenshot/CIrNyM79iYcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/desktop_screenshot/CPSWrevW6o0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/mobile_screenshot/CIvrh876iYcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/mobile_screenshot/CO3h0s79iYcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/mobile_screenshot/CJrM3M79iYcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is EComposer Landing Page Builder free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/ecomposer"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ecomposer"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Appstle, Trustoo, Any Theme, Avada, Ryviu, SMSBump, Stamped, Fera, Vitals, Bold, Hulk, Growave, PushOwl, Aftership, Klaviyo, Loox, Yotpo, Judgeme, Omnisend, Seguno, Instafeed",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ecomposer"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/ecomposer"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://ecomposer.io/pages/faqs"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["page-builders", "theme-sections", "product-comparison"],
+        "primary_category_id": "page-builders",
+        "seo": {
+          "title": "EComposer Landing Page Builder Shopify App | eStorefy",
+          "meta_description": "A Shopify app for page builders. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/ecomposer",
+          "retrieved_at": "2026-10-04T05:13:04.629364+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Easy Shopify landing page builder, product page, homepage, collection, blog, FAQs, Contact,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/ecomposer"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "zigpoll",
+      "name": "Zigpoll Customer Surveys",
+      "slug": "zigpoll",
+      "category_fit": {
+        "app_id": "zigpoll",
+        "selection_score": 5.25,
+        "rating_evidence": {"value": 5.0, "reviews": 554},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["compar"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/zigpoll"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for email marketing. Listed functions include conditional logic, custom styles.",
+        "description_long": "Zigpoll Customer Surveys is developed by Argonautic Labs and listed for surveys, analytics. Its structured listing identifies functions such as conditional logic, custom styles, drag-and-drop editor, embedded forms. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Email Marketing",
+          "SMS Marketing",
+          "Product Comparison",
+          "Customer Surveys",
+          "Marketing Attribution"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Email Marketing",
+            "SMS Marketing",
+            "Product Comparison",
+            "Customer Surveys",
+            "Marketing Attribution"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 554,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/zigpoll",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 544},
+          {"stars": 4, "percentage": 1, "count": 8},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Lite",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $348/year and save 26%"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 129.0,
+            "billing_period": "month",
+            "price_display": "$129 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,164/year and save 25%"]
+          },
+          {
+            "name": "Premier",
+            "amount_usd": 399.0,
+            "billing_period": "month",
+            "price_display": "$399 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $3,588/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.zigpoll.com/pricing",
+        "starting_paid_monthly_price_usd": 39.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "April 23, 2019",
+        "shopify_categories": [
+          {"name": "Surveys", "url": "https://apps.shopify.com/categories/store-management-support-surveys"},
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.surveys.form_customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.surveys.form_customization.custom_styles", "label": "Custom styles"},
+          {"handle": "cf.surveys.form_customization.drag_and_drop_editor", "label": "Drag-and-drop editor"},
+          {"handle": "cf.surveys.form_customization.embedded_forms", "label": "Embedded forms"},
+          {"handle": "cf.surveys.form_customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.surveys.form_customization.templates", "label": "Templates"},
+          {"handle": "cf.surveys.form_customization.multi_page", "label": "Multi-page"},
+          {"handle": "cf.surveys.form_customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.surveys.form_customization.real_time_edits", "label": "Real-time editing"},
+          {"handle": "cf.surveys.form_customization.scheduling", "label": "Scheduling"},
+          {"handle": "cf.surveys.form_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.surveys.survey_types.customer_satisfaction", "label": "Customer satisfaction"},
+          {"handle": "cf.surveys.survey_types.market_research", "label": "Market research"},
+          {"handle": "cf.surveys.survey_types.net_promoter_score_nps", "label": "Net Promoter Score (NPS)"},
+          {"handle": "cf.surveys.survey_types.product_feedback", "label": "Product feedback"},
+          {"handle": "cf.surveys.survey_types.post_purchase", "label": "Post-purchase"},
+          {"handle": "cf.surveys.survey_types.attribution", "label": "Attribution"},
+          {"handle": "cf.surveys.submission_management.sms", "label": "SMS"},
+          {"handle": "cf.surveys.submission_management.email", "label": "Email"},
+          {"handle": "cf.surveys.submission_management.data_export", "label": "Data export"},
+          {"handle": "cf.surveys.submission_management.analytics", "label": "Analytics"},
+          {"handle": "cf.surveys.submission_management.customer_segments", "label": "Customer segments"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.event_tracking", "label": "Event tracking"},
+          {"handle": "cf.analytics.customer_behavior.segmentation", "label": "Segmentation"},
+          {"handle": "cf.analytics.customer_behavior.visitor_ip", "label": "Visitor IP"},
+          {"handle": "cf.analytics.marketing_and_sales.ai_insights", "label": "AI insights"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "ActiveCampaign",
+          "Google Analytics",
+          "Google Sheets",
+          "Gorgias",
+          "Klaviyo",
+          "Mailchimp"
+        ]
+      },
+      "developer": {
+        "name": "Argonautic Labs",
+        "website_url": "https://www.zigpoll.com",
+        "partner_url": "https://apps.shopify.com/partners/jason-zigelbaum",
+        "public_address": "400 E 67th Street, New York, NY, 10065, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/zigpoll",
+        "canonical_app_store_url": "https://apps.shopify.com/zigpoll",
+        "install_url": "https://apps.shopify.com/zigpoll",
+        "demo_store_url": "https://www.zigpoll.com/demo/post-purchase",
+        "resources": {
+          "Privacy policy": "https://www.zigpoll.com/terms-and-policies",
+          "FAQ": "https://www.zigpoll.com/faq",
+          "Argonautic Labs": "https://apps.shopify.com/partners/jason-zigelbaum",
+          "Website": "https://www.zigpoll.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/icon/CN6KptDZyJYDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/promotional_image/CMDTmKrb8JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CMDy76HVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CICe-qHVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CIaRhKLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CMXHjqLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CNbMmKLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/mobile_screenshot/CNfjoqLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/pos_screenshot/CKjirKLVyJYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Zigpoll Customer Surveys free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, ActiveCampaign, Google Analytics, Google Sheets, Gorgias, Klaviyo, Mailchimp",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://www.zigpoll.com/faq"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "email-marketing",
+          "sms-marketing",
+          "product-comparison",
+          "customer-surveys",
+          "marketing-attribution"
+        ],
+        "primary_category_id": "email-marketing",
+        "seo": {
+          "title": "Zigpoll Customer Surveys Shopify App | eStorefy",
+          "meta_description": "A Shopify app for email marketing. Listed functions include conditional logic, custom styles.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/zigpoll",
+          "retrieved_at": "2026-10-04T05:25:58.246372+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Post-purchase, attribution, NPS, exit-intent, email and SMS surveys for Shopify. See how…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/zigpoll"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "variant-king-combined-listings",
+      "name": "SA Variants: Combined Listings",
+      "slug": "variant-king-combined-listings",
+      "category_fit": {
+        "app_id": "variant-king-combined-listings",
+        "selection_score": 5.2355,
+        "rating_evidence": {"value": 5.0, "reviews": 449},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["compar"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/variant-king-combined-listings"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for product comparison. Listed functions include checkboxes, swatches.",
+        "description_long": "SA Variants: Combined Listings is developed by StarApps and listed for product variants, search and navigation - other. Its structured listing identifies functions such as checkboxes, swatches, conditional logic, fonts. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Comparison", "Product Options & Variants", "Color Swatches"],
+        "best_for": {
+          "use_cases": ["Product Comparison", "Product Options & Variants", "Color Swatches"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 449,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/variant-king-combined-listings",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 439},
+          {"stars": 4, "percentage": 2, "count": 7},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Partner stores",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 5.0,
+            "billing_period": "month",
+            "price_display": "$5 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "Priced based on Shopify plan - Pause & Build: $5/mo, Basic: $14.9/mo, Grow: $29.9/mo, Advanced: $49.9/mo, Plus: 99.9/mo"
+            ]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 10.0,
+            "billing_period": "month",
+            "price_display": "$10 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "Priced based on Shopify plan - Pause & Build: $10/mo, Basic: $29.9/mo, Grow: $59.9/mo, Advanced: $99.9/mo, Plus:199.9/mo"
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://sa-variants-combined-listings-demo.starapps.studio/pages/variant-king-combined-listing-pricing",
+        "starting_paid_monthly_price_usd": 5.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 31, 2025",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          },
+          {
+            "name": "Search and navigation - Other",
+            "url": "https://apps.shopify.com/categories/store-design-search-and-navigation-search-and-navigation-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.checkboxes", "label": "Checkboxes"},
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.product_variants.customization.fonts", "label": "Fonts"},
+          {"handle": "cf.product_variants.customization.dates", "label": "Dates"},
+          {"handle": "cf.product_variants.customization.dimensions", "label": "Dimensions"},
+          {"handle": "cf.product_variants.customization.dropdowns", "label": "Dropdowns"},
+          {"handle": "cf.product_variants.customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.product_variants.customization.multi_select", "label": "Multi-select"},
+          {"handle": "cf.product_variants.customization.numbers", "label": "Numbers"},
+          {"handle": "cf.product_variants.customization.radio_buttons", "label": "Radio buttons"},
+          {"handle": "cf.product_variants.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.product_variants.customization.gift_wrap", "label": "Gift wrap"},
+          {"handle": "cf.product_variants.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_variants.customization.custom_html", "label": "Custom HTML"},
+          {"handle": "cf.product_variants.customization.size_chart", "label": "Size charts"},
+          {"handle": "cf.product_variants.customization.preview", "label": "Preview"},
+          {"handle": "cf.product_variants.customization.translation", "label": "Translation"},
+          {"handle": "cf.product_variants.customization.import_and_export", "label": "Import and export"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"},
+          {"handle": "cf.product_variants.pricing.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.product_variants.pricing.discount_options", "label": "Discount options"},
+          {"handle": "cf.product_variants.pricing.add_ons", "label": "Add-ons"},
+          {"handle": "cf.product_variants.pricing.variant_upcharges", "label": "Variant upcharges"},
+          {"handle": "cf.product_variants.pricing.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.product_variants.inventory.low_stock_alerts", "label": "Low stock alerts"},
+          {"handle": "cf.product_variants.inventory.hide_out_of_stock", "label": "Hide out-of-stock"},
+          {"handle": "cf.product_variants.inventory.sku_management", "label": "SKU management"},
+          {"handle": "cf.product_variants.inventory.stock_availability", "label": "Stock availability"},
+          {"handle": "cf.product_variants.inventory.in_stock_display", "label": "In-stock display"}
+        ],
+        "languages": [
+          "English",
+          " Arabic",
+          " Afrikaans",
+          " German",
+          " Spanish",
+          " French",
+          " Hindi",
+          " Japanese",
+          " Swedish",
+          " Vietnamese",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": [
+          "Shopify Admin",
+          "Collection page",
+          "Combined Listings",
+          "Page Builder apps",
+          "Product Filter & Search",
+          "Swatch King",
+          "Variant Image"
+        ]
+      },
+      "developer": {
+        "name": "StarApps",
+        "website_url": "https://www.starapps.io/",
+        "partner_url": "https://apps.shopify.com/partners/starapps-studio",
+        "public_address": "StarApps, WeWork Eleven West, Pune, MH, 411045, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/variant-king-combined-listings",
+        "canonical_app_store_url": "https://apps.shopify.com/variant-king-combined-listings",
+        "install_url": "https://apps.shopify.com/variant-king-combined-listings",
+        "demo_store_url": "https://sa-variants-combined-listings-demo.starapps.studio/",
+        "resources": {
+          "Privacy policy": "https://variant-king.starapps.studio/pages/privacy-policy",
+          "StarApps": "https://apps.shopify.com/partners/starapps-studio",
+          "Website": "https://www.starapps.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/icon/COLA-dTB94oDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/promotional_image/CPDvy6_s5ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/desktop_screenshot/CLmXs-bz5ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/desktop_screenshot/CNvdvebz5ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/desktop_screenshot/CLakyObz5ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/desktop_screenshot/CJWU0-bz5ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/desktop_screenshot/CKPD3ebz5ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/desktop_screenshot/CP2E5-bz5ZUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is SA Variants: Combined Listings free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/variant-king-combined-listings"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Arabic,  Afrikaans,  German,  Spanish,  French,  Hindi,  Japanese,  Swedish,  Vietnamese,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/variant-king-combined-listings"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Collection page, Combined Listings, Page Builder apps, Product Filter & Search, Swatch King, Variant Image",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/variant-king-combined-listings"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/variant-king-combined-listings"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-comparison", "product-options-variants", "color-swatches"],
+        "primary_category_id": "product-comparison",
+        "seo": {
+          "title": "SA Variants: Combined Listings Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product comparison. Listed functions include checkboxes, swatches.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/variant-king-combined-listings",
+          "retrieved_at": "2026-10-04T05:16:09.226984+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Link separate products as a combined listing. Split variants into products with…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/variant-king-combined-listings"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "releasit-cod-order-form",
+      "name": "Releasit COD Form & Upsells",
+      "slug": "releasit-cod-order-form",
+      "category_fit": {
+        "app_id": "releasit-cod-order-form",
+        "selection_score": 5.235,
+        "rating_evidence": {"value": 4.9, "reviews": 2500},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["compar"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/releasit-cod-order-form"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for upsell & cross-sell. Listed functions include custom fees, prepaid incentives.",
+        "description_long": "Releasit COD Form & Upsells is developed by Releasit and listed for pay later, upsell and cross-sell. Its structured listing identifies functions such as custom fees, prepaid incentives, fraud prevention, one-time password (otp). For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Upsell & Cross-sell",
+          "Product Comparison",
+          "Cash on Delivery",
+          "Wholesale Catalogs & Order Forms",
+          "Shipping Rate Calculators"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Upsell & Cross-sell",
+            "Product Comparison",
+            "Cash on Delivery",
+            "Wholesale Catalogs & Order Forms",
+            "Shipping Rate Calculators"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 2500,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/releasit-cod-order-form",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 2},
+          {"stars": 4, "percentage": 4, "count": 106},
+          {"stars": 3, "percentage": 1, "count": 16},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 1, "count": 27}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Forever Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 11.49,
+            "billing_period": "month",
+            "price_display": "$11.49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $103.49/year and save 25%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $269.99/year and save 25%"]
+          },
+          {
+            "name": "Unlimited",
+            "amount_usd": 69.99,
+            "billing_period": "month",
+            "price_display": "$69.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $629.99/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 11.49,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 31, 2021",
+        "shopify_categories": [
+          {
+            "name": "Pay later",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-pay-later"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.cash_on_delivery_cod.cod_management.custom_fees", "label": "Custom fees"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.prepaid_incentives",
+            "label": "Prepaid incentives"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.fraud_prevention", "label": "Fraud prevention"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.one_time_password_otp",
+            "label": "One-time password (OTP)"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.ip_blocking", "label": "IP blocking"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.phone_confirmation",
+            "label": "Phone confirmation"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.sms_confirmation", "label": "SMS confirmation"},
+          {"handle": "cf.cash_on_delivery_cod.cod_management.order_export", "label": "Order export"},
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.drag_and_drop_editor",
+            "label": "Drag-and-drop editor"
+          },
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_fields", "label": "Custom fields"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.fonts_and_colors", "label": "Font and color"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_buttons", "label": "Custom buttons"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_layout", "label": "Custom layouts"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.embedded_forms", "label": "Embedded forms"},
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.shipping_options",
+            "label": "Shipping options"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.address_verification",
+            "label": "Address validation"
+          },
+          {"handle": "cf.cash_on_delivery_cod.form_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.cash_on_delivery_cod.conversion_and_upsell.cross_sell", "label": "Cross-sell"},
+          {"handle": "cf.cash_on_delivery_cod.conversion_and_upsell.discounts", "label": "Discounts"},
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.one_click_order",
+            "label": "One-click order"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.one_click_upsells",
+            "label": "One-click upsells"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.post_purchase_upsells",
+            "label": "Post-purchase upsells"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.pixel_tracking",
+            "label": "Pixel tracking"
+          },
+          {"handle": "cf.cash_on_delivery_cod.conversion_and_upsell.cart_recovery", "label": "Cart recovery"},
+          {"handle": "cf.upsell_and_cross_sell.customization.cart_upsell", "label": "Cart upsell"},
+          {"handle": "cf.upsell_and_cross_sell.customization.checkout_upsell", "label": "Checkout upsell"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.product_page_upsell",
+            "label": "Product page upsell"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.thank_you_page_upsell",
+            "label": "Thank you page upsell"
+          }
+        ],
+        "languages": [
+          "English",
+          " Italian",
+          " Spanish",
+          " French",
+          " Czech",
+          " Danish",
+          " German",
+          " Finnish",
+          " Japanese",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "GemPages",
+          "Google Sheets",
+          "Kaching Cart",
+          "PageFly",
+          "Wide Bundles",
+          "Zipify Pages"
+        ]
+      },
+      "developer": {
+        "name": "Releasit",
+        "website_url": "https://www.releas.it",
+        "partner_url": "https://apps.shopify.com/partners/releasit",
+        "public_address": "1 Kingdom St, Paddington Central, London, ENG, W26BD, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/releasit-cod-order-form",
+        "canonical_app_store_url": "https://apps.shopify.com/releasit-cod-order-form",
+        "install_url": "https://apps.shopify.com/releasit-cod-order-form",
+        "demo_store_url": "https://cod-order-form-demo-b.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.releas.it/pages/privacy-policy",
+          "FAQ": "https://help.releas.it/en/",
+          "Tutorial": "https://help.releas.it/en/article/how-to-activate-the-app-on-your-theme-yjb19o/",
+          "App Documentation": "https://www.releas.it/blogs/news",
+          "Releasit": "https://apps.shopify.com/partners/releasit",
+          "Website": "https://www.releas.it"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/icon/CKKYs5695_ICEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/desktop_screenshot/CLrBiJu4ppEDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/desktop_screenshot/CMmqh8n_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/desktop_screenshot/CI3bkMn_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/desktop_screenshot/COuYmsn_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/desktop_screenshot/CP3_o8n_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/desktop_screenshot/CNS0r8n_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/mobile_screenshot/CLKxucn_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/mobile_screenshot/CJLWwsn_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/mobile_screenshot/COi-y8n_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/mobile_screenshot/CLqYwpuko5ADEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/mobile_screenshot/CKHBy5uko5ADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/G6xZjLWfoEY"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Releasit COD Form & Upsells free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/releasit-cod-order-form"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Italian,  Spanish,  French,  Czech,  Danish,  German,  Finnish,  Japanese,  Korean,  Norwegian (Bokmål),  Dutch,  Polish,  Portuguese (Brazil),  Portuguese (Portugal),  Swedish,  Thai,  Turkish,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/releasit-cod-order-form"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, GemPages, Google Sheets, Kaching Cart, PageFly, Wide Bundles, Zipify Pages",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/releasit-cod-order-form"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/releasit-cod-order-form"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.releas.it/en/",
+            "https://help.releas.it/en/article/how-to-activate-the-app-on-your-theme-yjb19o/",
+            "https://www.releas.it/blogs/news"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select eligible products and set the offer conditions.",
+            "Preview the offer and test cart totals on a sample order.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "upsell-cross-sell",
+          "product-comparison",
+          "cash-on-delivery",
+          "wholesale-catalogs-order-forms",
+          "shipping-rate-calculators"
+        ],
+        "primary_category_id": "upsell-cross-sell",
+        "seo": {
+          "title": "Releasit COD Form & Upsells Shopify App | eStorefy",
+          "meta_description": "A Shopify app for upsell & cross-sell. Listed functions include custom fees, prepaid incentives.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/releasit-cod-order-form",
+          "retrieved_at": "2026-10-04T05:18:56.644851+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Create a 1 Click COD Order Form with Upsells, Offers and more.…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/releasit-cod-order-form"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "discounty-bulk-discount-sales",
+      "name": "Discounty: Bulk Discount Sales",
+      "slug": "discounty-bulk-discount-sales",
+      "category_fit": {
+        "app_id": "discounty-bulk-discount-sales",
+        "selection_score": 5.2009,
+        "rating_evidence": {"value": 4.9, "reviews": 1266},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["compar"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/discounty-bulk-discount-sales"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for volume discounts. Listed functions include discount codes, bogo.",
+        "description_long": "Discounty: Bulk Discount Sales is developed by Discounty and listed for discounts, pricing optimization. Its structured listing identifies functions such as discount codes, bogo, fixed pricing, tiered pricing. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Volume Discounts", "Free Gifts with Purchase", "Product Comparison", "Bulk Product Editing"],
+        "best_for": {
+          "use_cases": ["Volume Discounts", "Free Gifts with Purchase", "Product Comparison", "Bulk Product Editing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1266,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/discounty-bulk-discount-sales",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 1},
+          {"stars": 4, "percentage": 2, "count": 28},
+          {"stars": 3, "percentage": 0, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 2, "count": 27}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Lite",
+            "amount_usd": 9.9,
+            "billing_period": "month",
+            "price_display": "$9.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $99/year and save 17%"]
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 29.9,
+            "billing_period": "month",
+            "price_display": "$29.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $299/year and save 17%"]
+          },
+          {
+            "name": "Discounty",
+            "amount_usd": 49.9,
+            "billing_period": "month",
+            "price_display": "$49.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $499/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.discounty.ai/pricing",
+        "starting_paid_monthly_price_usd": 9.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 19, 2022",
+        "shopify_categories": [
+          {
+            "name": "Discounts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-promotions-discounts"
+          },
+          {
+            "name": "Pricing optimization",
+            "url": "https://apps.shopify.com/categories/selling-products-pricing-pricing-optimization"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.discounts.discount_types.discount_codes", "label": "Discount codes"},
+          {"handle": "cf.discounts.discount_types.bogo", "label": "BOGO"},
+          {"handle": "cf.discounts.discount_types.fixed_pricing", "label": "Fixed pricing"},
+          {"handle": "cf.discounts.discount_types.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.discounts.discount_types.volume_discounts", "label": "Volume discounts"},
+          {"handle": "cf.discounts.discount_types.quantity_breaks", "label": "Quantity breaks"},
+          {"handle": "cf.discounts.discount_types.flat_discounts", "label": "Flat discounts"},
+          {"handle": "cf.discounts.discount_types.percentage_discounts", "label": "Percentage discounts"},
+          {"handle": "cf.discounts.discount_types.bulk_discounts", "label": "Bulk discounts"},
+          {"handle": "cf.discounts.discount_types.wholesale_pricing", "label": "Wholesale pricing"},
+          {"handle": "cf.discounts.discount_types.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.discounts.discount_types.cart_discounts", "label": "Cart discounts"},
+          {"handle": "cf.discounts.discount_types.checkout_discounts", "label": "Checkout discounts"},
+          {"handle": "cf.discounts.discount_types.gifts", "label": "Gifts"},
+          {"handle": "cf.discounts.discount_types.rewards", "label": "Rewards"},
+          {"handle": "cf.discounts.discount_types.subscriptions", "label": "Subscriptions"},
+          {"handle": "cf.discounts.discount_types.limited_time_offers", "label": "Limited time offers"},
+          {"handle": "cf.discounts.discount_types.countdown_timers", "label": "Countdown timers"},
+          {"handle": "cf.discounts.discount_types.upsell_discounts", "label": "Upsell discounts"},
+          {"handle": "cf.discounts.discount_types.cross_sell_discounts", "label": "Cross-sell discounts"},
+          {"handle": "cf.discounts.discount_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.discounts.discount_types.banners", "label": "Banners"},
+          {"handle": "cf.discounts.discount_types.dynamic_pricing", "label": "Dynamic pricing"},
+          {"handle": "cf.discounts.discount_types.custom_discounts", "label": "Custom discounts"},
+          {"handle": "cf.discounts.managing_discounts.bulk_editing", "label": "Bulk editing"},
+          {"handle": "cf.discounts.managing_discounts.campaigns", "label": "Campaigns"},
+          {"handle": "cf.discounts.managing_discounts.discount_stacking", "label": "Discount stacking"},
+          {"handle": "cf.discounts.managing_discounts.automations", "label": "Automations"},
+          {"handle": "cf.discounts.managing_discounts.targeting", "label": "Targeting"},
+          {"handle": "cf.discounts.managing_discounts.segmentation", "label": "Segmentation"}
+        ],
+        "languages": ["English", " French", " Dutch", " German", " Portuguese (Brazil)", " Spanish", " and Italian"],
+        "works_with": [
+          "Checkout",
+          "Shopify POS",
+          "Shopify Admin",
+          "Fast Bundle: Bundles Discounts",
+          "PageFly Landing Page Builder",
+          "Sales badge on different theme",
+          "Sidekick",
+          "Themes & Style"
+        ]
+      },
+      "developer": {
+        "name": "Discounty",
+        "website_url": "https://www.discounty.ai/",
+        "partner_url": "https://apps.shopify.com/partners/discounty2",
+        "public_address": "Richmond, BC, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/discounty-bulk-discount-sales",
+        "canonical_app_store_url": "https://apps.shopify.com/discounty-bulk-discount-sales",
+        "install_url": "https://apps.shopify.com/discounty-bulk-discount-sales",
+        "demo_store_url": "https://discounty-demo-shop.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.discounty.ai/privacy-policy",
+          "FAQ": "https://help.discounty.ai/en/",
+          "Tutorial": "https://www.youtube.com/watch?v=4pM9xCcJpxM&list=PLwzw06qA3GV1CYRLbyZk0l0ccSQDfUXmo",
+          "App Documentation": "https://www.discounty.ai/terms-of-use",
+          "Discounty": "https://apps.shopify.com/partners/discounty2",
+          "Website": "https://www.discounty.ai/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/8a115cabd931135bad35675f80983d4f/icon/CIP4j6Co7YsDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/8a115cabd931135bad35675f80983d4f/promotional_image/CM-tpt7ZrpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8a115cabd931135bad35675f80983d4f/desktop_screenshot/CJKZvtS1rJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8a115cabd931135bad35675f80983d4f/desktop_screenshot/CK3UqZu0rJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8a115cabd931135bad35675f80983d4f/desktop_screenshot/CMmYs5u0rJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8a115cabd931135bad35675f80983d4f/desktop_screenshot/CLeDvZu0rJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8a115cabd931135bad35675f80983d4f/desktop_screenshot/CMmbyJu0rJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8a115cabd931135bad35675f80983d4f/desktop_screenshot/CN-s0pu0rJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8a115cabd931135bad35675f80983d4f/mobile_screenshot/CL6o4Ju0rJUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Discounty: Bulk Discount Sales free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/discounty-bulk-discount-sales"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Dutch,  German,  Portuguese (Brazil),  Spanish,  and Italian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/discounty-bulk-discount-sales"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify POS, Shopify Admin, Fast Bundle: Bundles Discounts, PageFly Landing Page Builder, Sales badge on different theme, Sidekick, Themes & Style",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/discounty-bulk-discount-sales"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/discounty-bulk-discount-sales"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.discounty.ai/en/",
+            "https://www.youtube.com/watch?v=4pM9xCcJpxM&list=PLwzw06qA3GV1CYRLbyZk0l0ccSQDfUXmo",
+            "https://www.discounty.ai/terms-of-use"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select eligible products and set the offer conditions.",
+            "Preview the offer and test cart totals on a sample order.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["volume-discounts", "free-gifts-with-purchase", "product-comparison", "bulk-product-editing"],
+        "primary_category_id": "volume-discounts",
+        "seo": {
+          "title": "Discounty: Bulk Discount Sales Shopify App | eStorefy",
+          "meta_description": "A Shopify app for volume discounts. Listed functions include discount codes, bogo.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/discounty-bulk-discount-sales",
+          "retrieved_at": "2026-10-04T05:08:36.538576+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Discounty runs bulk price edits, volume discounts, BOGO and free shipping offers…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/discounty-bulk-discount-sales"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "entafix-custom-xml-feeds",
+      "name": "FeedFix | XML Import & Export",
+      "slug": "entafix-custom-xml-feeds",
+      "category_fit": {
+        "app_id": "entafix-custom-xml-feeds",
+        "selection_score": 5.1976,
+        "rating_evidence": {"value": 5.0, "reviews": 278},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["compar"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/entafix-custom-xml-feeds"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for google shopping feeds. Listed functions include attribute filtering, attribute mapping.",
+        "description_long": "FeedFix | XML Import & Export is developed by Entafix and listed for product feeds, store data importer. Its structured listing identifies functions such as attribute filtering, attribute mapping, metafields, custom formulas. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Google Shopping Feeds",
+          "Meta Pixel & Conversion Tracking",
+          "Product Comparison",
+          "Marketplace Integrations",
+          "Store Migration & Data Import"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Google Shopping Feeds",
+            "Meta Pixel & Conversion Tracking",
+            "Product Comparison",
+            "Marketplace Integrations",
+            "Store Migration & Data Import"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 278,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/entafix-custom-xml-feeds",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 278},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Export - Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": ["Import - Plus 24.99$ | Also Bundle Options"]
+          },
+          {
+            "name": "Export - Plus",
+            "amount_usd": 7.99,
+            "billing_period": "month",
+            "price_display": "$7.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $79.90/year and save 17%", "Import - Advanced 39.99$ | Also Bundle Options"]
+          },
+          {
+            "name": "Export - Advanced",
+            "amount_usd": 17.99,
+            "billing_period": "month",
+            "price_display": "$17.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $179.90/year and save 17%", "Import - Premium 79.99$ | Also Bundle Options"]
+          },
+          {
+            "name": "Export - Unlimited",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $499.90/year and save 17%", "Import - Unlimited 149.99$ | Also Bundle Options"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://entafix.com/feedfix-pricing",
+        "starting_paid_monthly_price_usd": 7.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 21, 2023",
+        "shopify_categories": [
+          {
+            "name": "Product feeds",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-product-feeds"
+          },
+          {
+            "name": "Store data importer",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-store-data-importer"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.product_feeds.feed_customization.attribute_filtering",
+            "label": "Attribute filtering"
+          },
+          {"handle": "cf.product_feeds.feed_customization.attribute_mapping", "label": "Attribute mapping"},
+          {"handle": "cf.product_feeds.feed_customization.metafields", "label": "Metafields"},
+          {"handle": "cf.product_feeds.feed_customization.custom_formulas", "label": "Custom formulas"},
+          {"handle": "cf.product_feeds.feed_customization.custom_labels", "label": "Custom labels"},
+          {"handle": "cf.product_feeds.feed_customization.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.product_feeds.feed_customization.local_inventory", "label": "Local inventory"},
+          {"handle": "cf.product_feeds.feed_customization.localized_feeds", "label": "Localized feeds"},
+          {"handle": "cf.product_feeds.feed_customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.product_feeds.feed_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.product_feeds.feed_customization.variant_sync", "label": "Variant sync"},
+          {"handle": "cf.product_feeds.feed_management.product_sync", "label": "Product sync"},
+          {"handle": "cf.product_feeds.feed_management.scheduled_sync", "label": "Scheduled sync"},
+          {"handle": "cf.product_feeds.feed_management.product_selection", "label": "Product selection"},
+          {
+            "handle": "cf.product_feeds.feed_management.target_specific_feeds",
+            "label": "Target-specific feeds"
+          },
+          {"handle": "cf.product_feeds.feed_management.feed_optimization", "label": "Feed optimization"},
+          {"handle": "cf.product_feeds.feed_management.multi_format", "label": "Multi-format"},
+          {"handle": "cf.store_data_importer.data_sync.auto_updates", "label": "Auto-update"},
+          {"handle": "cf.store_data_importer.data_sync.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.store_data_importer.data_sync.price_sync", "label": "Price sync"},
+          {"handle": "cf.store_data_importer.data_sync.product_sync", "label": "Product sync"},
+          {"handle": "cf.store_data_importer.data_sync.real_time_sync", "label": "Real-time sync"},
+          {"handle": "cf.store_data_importer.data_sync.scheduled_sync", "label": "Scheduled sync"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_export", "label": "Bulk export"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_import", "label": "Bulk import"},
+          {"handle": "cf.store_data_importer.data_migration.scheduled_export", "label": "Scheduled export"},
+          {"handle": "cf.store_data_importer.data_migration.scheduled_import", "label": "Scheduled import"},
+          {
+            "handle": "cf.store_data_importer.data_migration.large_file_support",
+            "label": "Large file support"
+          },
+          {"handle": "cf.store_data_importer.data_migration.bulk_updates", "label": "Bulk updates"},
+          {"handle": "cf.store_data_importer.data_migration.collections", "label": "Collections"}
+        ],
+        "languages": [
+          "English",
+          " Turkish",
+          " Czech",
+          " Danish",
+          " German",
+          " Polish",
+          " Dutch",
+          " French",
+          " Spanish",
+          " and Italian"
+        ],
+        "works_with": [
+          "Shopify Admin",
+          "Akakçe/TradeDoubler/Impact.com",
+          "API, FTP, SFTP",
+          "Google Merchant Center/Meta",
+          "Heureka/Skroutz/Glami/Alza",
+          "TikTok/Klaviyo/Awin",
+          "XML, JSON"
+        ]
+      },
+      "developer": {
+        "name": "Entafix",
+        "website_url": "https://entafix.com",
+        "partner_url": "https://apps.shopify.com/partners/entafix",
+        "public_address": "Cumhuriyet Mahallesi Aşık Veysel Caddesi, Küçükçekmece / İstanbul, İstanbul, 34290, TR"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/entafix-custom-xml-feeds",
+        "canonical_app_store_url": "https://apps.shopify.com/entafix-custom-xml-feeds",
+        "install_url": "https://apps.shopify.com/entafix-custom-xml-feeds",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://entafix.com/custom-xml-feeds/privacy.php",
+          "Entafix": "https://apps.shopify.com/partners/entafix",
+          "Website": "https://entafix.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/icon/COHCrojahZADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/promotional_image/CPPbupfmhZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/desktop_screenshot/CNvcw5fmhZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/desktop_screenshot/CKXOzZfmhZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/desktop_screenshot/COC22JfmhZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/desktop_screenshot/CMOl4ZfmhZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/desktop_screenshot/CLr_6ZfmhZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/desktop_screenshot/CKSw8pfmhZADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is FeedFix | XML Import & Export free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/entafix-custom-xml-feeds"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Turkish,  Czech,  Danish,  German,  Polish,  Dutch,  French,  Spanish,  and Italian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/entafix-custom-xml-feeds"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Akakçe/TradeDoubler/Impact.com, API, FTP, SFTP, Google Merchant Center/Meta, Heureka/Skroutz/Glami/Alza, TikTok/Klaviyo/Awin, XML, JSON",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/entafix-custom-xml-feeds"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/entafix-custom-xml-feeds"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "google-shopping-feeds",
+          "meta-pixel-conversion-tracking",
+          "product-comparison",
+          "marketplace-integrations",
+          "store-migration-data-import"
+        ],
+        "primary_category_id": "google-shopping-feeds",
+        "seo": {
+          "title": "FeedFix | XML Import & Export Shopify App | eStorefy",
+          "meta_description": "A Shopify app for google shopping feeds. Listed functions include attribute filtering, attribute mapping.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/entafix-custom-xml-feeds",
+          "retrieved_at": "2026-10-04T05:28:56.026370+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Export product feeds to Google, Meta and price comparison sites. Import products…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/entafix-custom-xml-feeds"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "discount-mix",
+      "name": "Discount Mixer: Bulk Discounts",
+      "slug": "discount-mix",
+      "category_fit": {
+        "app_id": "discount-mix",
+        "selection_score": 5.1855,
+        "rating_evidence": {"value": 5.0, "reviews": 243},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["compar"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/discount-mix"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for volume discounts. Listed functions include discount codes, coupons.",
+        "description_long": "Discount Mixer: Bulk Discounts is developed by Discount Mixer and listed for discounts, pricing optimization. Its structured listing identifies functions such as discount codes, coupons, bogo, fixed pricing. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Volume Discounts", "Free Gifts with Purchase", "Product Comparison", "Bulk Product Editing"],
+        "best_for": {
+          "use_cases": ["Volume Discounts", "Free Gifts with Purchase", "Product Comparison", "Bulk Product Editing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 243,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/discount-mix",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 241},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 1.0,
+            "billing_period": "month",
+            "price_display": "$1 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Start for $1 in your first month, then $8.99/month or $83.90/year. Limited-time offer."]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 2.0,
+            "billing_period": "month",
+            "price_display": "$2 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Start for $2 in your first month, then $20.99/month or $191.90/year. Limited-time offer."]
+          },
+          {
+            "name": "Ultimate",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $479.90/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.discount-mixer.com/pricing",
+        "starting_paid_monthly_price_usd": 1.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "December 7, 2023",
+        "shopify_categories": [
+          {
+            "name": "Discounts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-promotions-discounts"
+          },
+          {
+            "name": "Pricing optimization",
+            "url": "https://apps.shopify.com/categories/selling-products-pricing-pricing-optimization"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.discounts.discount_types.discount_codes", "label": "Discount codes"},
+          {"handle": "cf.discounts.discount_types.coupons", "label": "Coupons"},
+          {"handle": "cf.discounts.discount_types.bogo", "label": "BOGO"},
+          {"handle": "cf.discounts.discount_types.fixed_pricing", "label": "Fixed pricing"},
+          {"handle": "cf.discounts.discount_types.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.discounts.discount_types.volume_discounts", "label": "Volume discounts"},
+          {"handle": "cf.discounts.discount_types.quantity_breaks", "label": "Quantity breaks"},
+          {"handle": "cf.discounts.discount_types.flat_discounts", "label": "Flat discounts"},
+          {"handle": "cf.discounts.discount_types.percentage_discounts", "label": "Percentage discounts"},
+          {"handle": "cf.discounts.discount_types.bulk_discounts", "label": "Bulk discounts"},
+          {"handle": "cf.discounts.discount_types.wholesale_pricing", "label": "Wholesale pricing"},
+          {"handle": "cf.discounts.discount_types.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.discounts.discount_types.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.discounts.discount_types.cart_discounts", "label": "Cart discounts"},
+          {"handle": "cf.discounts.discount_types.checkout_discounts", "label": "Checkout discounts"},
+          {"handle": "cf.discounts.discount_types.gifts", "label": "Gifts"},
+          {"handle": "cf.discounts.discount_types.product_bundles", "label": "Product bundles"},
+          {"handle": "cf.discounts.discount_types.limited_time_offers", "label": "Limited time offers"},
+          {"handle": "cf.discounts.discount_types.countdown_timers", "label": "Countdown timers"},
+          {"handle": "cf.discounts.discount_types.upsell_discounts", "label": "Upsell discounts"},
+          {"handle": "cf.discounts.discount_types.cross_sell_discounts", "label": "Cross-sell discounts"},
+          {"handle": "cf.discounts.discount_types.banners", "label": "Banners"},
+          {"handle": "cf.discounts.discount_types.dynamic_pricing", "label": "Dynamic pricing"},
+          {"handle": "cf.discounts.discount_types.custom_discounts", "label": "Custom discounts"},
+          {"handle": "cf.discounts.managing_discounts.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.discounts.managing_discounts.bulk_editing", "label": "Bulk editing"},
+          {"handle": "cf.discounts.managing_discounts.import_and_export", "label": "Import and export"},
+          {"handle": "cf.discounts.managing_discounts.custom_code", "label": "Custom code"},
+          {"handle": "cf.discounts.managing_discounts.currency_conversion", "label": "Currency conversion"},
+          {"handle": "cf.discounts.managing_discounts.localization", "label": "Localization"}
+        ],
+        "languages": [
+          "English",
+          " Czech",
+          " Danish",
+          " German",
+          " Spanish",
+          " Finnish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Polish",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Vietnamese",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Color Swatch",
+          "Currency Localization",
+          "Landing Page Builder apps",
+          "Point of Sale (POS)",
+          "Product Bundle apps",
+          "Product List and Filter"
+        ]
+      },
+      "developer": {
+        "name": "Discount Mixer",
+        "website_url": "https://www.discount-mixer.com?utm_source=app_store&utm_medium=listing",
+        "partner_url": "https://apps.shopify.com/partners/discount-mixer",
+        "public_address": "Fiveways, 57/59 Hatfield Road, Potters Bar, ENG, EN6 1HS, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/discount-mix",
+        "canonical_app_store_url": "https://apps.shopify.com/discount-mix",
+        "install_url": "https://apps.shopify.com/discount-mix",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.discount-mixer.com/privacy-and-policy",
+          "FAQ": "https://help.discount-mixer.com/collections/7436872-faq",
+          "Tutorial": "https://help.discount-mixer.com/collections/7226266-instant-start-instructions",
+          "Discount Mixer": "https://apps.shopify.com/partners/discount-mixer",
+          "Website": "https://www.discount-mixer.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/eb11db1d5f5aa494c97260e510431bef/icon/CNfj6PP8xoMDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/eb11db1d5f5aa494c97260e510431bef/promotional_image/CIffw6-OlpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/eb11db1d5f5aa494c97260e510431bef/desktop_screenshot/CO2-z6-OlpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/eb11db1d5f5aa494c97260e510431bef/desktop_screenshot/CNfB2q-OlpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/eb11db1d5f5aa494c97260e510431bef/desktop_screenshot/CLey5a-OlpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/eb11db1d5f5aa494c97260e510431bef/desktop_screenshot/COno76-OlpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/eb11db1d5f5aa494c97260e510431bef/desktop_screenshot/CJv4-q-OlpcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Discount Mixer: Bulk Discounts free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/discount-mix"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Czech,  Danish,  German,  Spanish,  Finnish,  French,  Italian,  Japanese,  Korean,  Norwegian (Bokmål),  Dutch,  Polish,  Swedish,  Thai,  Turkish,  Vietnamese,  Portuguese (Brazil),  Portuguese (Portugal),  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/discount-mix"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Color Swatch, Currency Localization, Landing Page Builder apps, Point of Sale (POS), Product Bundle apps, Product List and Filter",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/discount-mix"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/discount-mix"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.discount-mixer.com/collections/7436872-faq",
+            "https://help.discount-mixer.com/collections/7226266-instant-start-instructions"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select eligible products and set the offer conditions.",
+            "Preview the offer and test cart totals on a sample order.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["volume-discounts", "free-gifts-with-purchase", "product-comparison", "bulk-product-editing"],
+        "primary_category_id": "volume-discounts",
+        "seo": {
+          "title": "Discount Mixer: Bulk Discounts Shopify App | eStorefy",
+          "meta_description": "A Shopify app for volume discounts. Listed functions include discount codes, coupons.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/discount-mix",
+          "retrieved_at": "2026-10-04T05:08:44.716090+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Discount Mixer helps you create quantity breaks, free gifts, shipping discounts and…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/discount-mix"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "subscription-payments",
+      "name": "Recharge Subscriptions App",
+      "slug": "subscription-payments",
+      "category_fit": {
+        "app_id": "subscription-payments",
+        "selection_score": 5.1463,
+        "rating_evidence": {"value": 4.8, "reviews": 3124},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["compar"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/subscription-payments"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for product comparison. Listed functions include curated subscriptions, replenishment subscriptions.",
+        "description_long": "Recharge Subscriptions App is developed by Recharge and listed for subscriptions, product bundles. Its structured listing identifies functions such as curated subscriptions, replenishment subscriptions, access subscriptions, memberships. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Comparison", "Subscriptions"],
+        "best_for": {
+          "use_cases": ["Product Comparison", "Subscriptions"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 3124,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/subscription-payments",
+        "distribution": [
+          {"stars": 5, "percentage": 89, "count": 2},
+          {"stars": 4, "percentage": 5, "count": 146},
+          {"stars": 3, "percentage": 1, "count": 31},
+          {"stars": 2, "percentage": 1, "count": 24},
+          {"stars": 1, "percentage": 5, "count": 147}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $25/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "25-50",
+            "amount_usd": 25.0,
+            "billing_period": "month",
+            "price_display": "$25 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Start with our $25/month plan — no transaction fees for your first 50 subscribers."]
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 499.0,
+            "billing_period": "month",
+            "price_display": "$499 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": "https://rechargepayments.com/pricing",
+        "starting_paid_monthly_price_usd": 25.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "October 14, 2014 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Subscriptions",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-subscriptions"
+          },
+          {
+            "name": "Product bundles",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-product-bundles"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.subscriptions.subscription_types.curated_subscriptions",
+            "label": "Curated subscriptions"
+          },
+          {
+            "handle": "cf.subscriptions.subscription_types.replenishment_subscriptions",
+            "label": "Replenishment subscriptions"
+          },
+          {
+            "handle": "cf.subscriptions.subscription_types.access_subscriptions",
+            "label": "Access subscriptions"
+          },
+          {"handle": "cf.subscriptions.subscription_types.memberships", "label": "Memberships"},
+          {"handle": "cf.subscriptions.subscription_types.services", "label": "Services"},
+          {"handle": "cf.subscriptions.subscription_types.product_bundles", "label": "Product bundles"},
+          {"handle": "cf.subscriptions.subscription_types.subscription_boxes", "label": "Subscription boxes"},
+          {"handle": "cf.subscriptions.subscription_types.digital_products", "label": "Digital products"},
+          {"handle": "cf.subscriptions.subscription_types.physical_products", "label": "Physical products"},
+          {
+            "handle": "cf.subscriptions.subscription_types.custom_subscriptions",
+            "label": "Custom subscriptions"
+          },
+          {"handle": "cf.subscriptions.pricing_you_can_set.recurring_payments", "label": "Recurring payments"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.subscribe_and_save", "label": "Subscribe and save"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.fixed_pricing", "label": "Fixed pricing"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.freemium", "label": "Freemium"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.trial_periods", "label": "Trial periods"},
+          {
+            "handle": "cf.subscriptions.pricing_you_can_set.usage_based_pricing",
+            "label": "Usage-based pricing"
+          },
+          {"handle": "cf.subscriptions.pricing_you_can_set.per_user_pricing", "label": "Per-user pricing"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.one_time_payment", "label": "One-time payment"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.dynamic_pricing", "label": "Dynamic pricing"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.product_bundles.bundle_types.fixed_bundles", "label": "Fixed bundles"},
+          {"handle": "cf.product_bundles.bundle_types.multipacks", "label": "Multipacks"},
+          {
+            "handle": "cf.product_bundles.bundle_types.mix_and_match_bundles",
+            "label": "Mix-and-match bundles"
+          },
+          {"handle": "cf.product_bundles.bundle_types.variant_bundles", "label": "Variant bundles"},
+          {
+            "handle": "cf.product_bundles.bundle_types.infinite_option_bundles",
+            "label": "Infinite option bundles"
+          },
+          {"handle": "cf.product_bundles.bundle_types.build_a_box", "label": "Build a box"},
+          {"handle": "cf.product_bundles.bundle_types.gift_boxes", "label": "Gift boxes"},
+          {"handle": "cf.product_bundles.bundle_types.mystery_boxes", "label": "Mystery boxes"},
+          {"handle": "cf.product_bundles.bundle_types.sample_packs", "label": "Sample packs"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Attentive",
+          "Avalara",
+          "Gorgias",
+          "Klaviyo",
+          "Stripe",
+          "Triple Whale"
+        ]
+      },
+      "developer": {
+        "name": "Recharge",
+        "website_url": "https://rechargepayments.com/developers/",
+        "partner_url": "https://apps.shopify.com/partners/recharge",
+        "public_address": "1507 20th St, Santa Monica, CA, 90404, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/subscription-payments",
+        "canonical_app_store_url": "https://apps.shopify.com/subscription-payments",
+        "install_url": "https://apps.shopify.com/subscription-payments",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://rechargepayments.com/privacy-policy",
+          "Tutorial": "https://vimeo.com/752703956/e7372369df",
+          "App Documentation": "https://support.rechargepayments.com/hc/en-us",
+          "Recharge": "https://apps.shopify.com/partners/recharge",
+          "Website": "https://rechargepayments.com/developers/",
+          "Changelog": "https://changelog.rechargepayments.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/0009de8c024a6126315f5dcd4250fd61/icon/CK6otpbp4PwCEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/0009de8c024a6126315f5dcd4250fd61/promotional_image/CIbvt5DDh5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0009de8c024a6126315f5dcd4250fd61/desktop_screenshot/CJH5yO3IyJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0009de8c024a6126315f5dcd4250fd61/desktop_screenshot/CNeGy6zIyJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0009de8c024a6126315f5dcd4250fd61/desktop_screenshot/CP2p1KzIyJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0009de8c024a6126315f5dcd4250fd61/desktop_screenshot/CJW33azIyJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0009de8c024a6126315f5dcd4250fd61/desktop_screenshot/CJfh6KzIyJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0009de8c024a6126315f5dcd4250fd61/desktop_screenshot/CNr28qzIyJUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Recharge Subscriptions App free?",
+            "answer": "The pricing label retrieved from the listing is: From $25/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/subscription-payments"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/subscription-payments"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Attentive, Avalara, Gorgias, Klaviyo, Stripe, Triple Whale",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/subscription-payments"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/subscription-payments"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://vimeo.com/752703956/e7372369df", "https://support.rechargepayments.com/hc/en-us"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-comparison", "subscriptions"],
+        "primary_category_id": "product-comparison",
+        "seo": {
+          "title": "Recharge Subscriptions App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product comparison. Listed functions include curated subscriptions, replenishment subscriptions.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/subscription-payments",
+          "retrieved_at": "2026-10-04T05:18:08.998610+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Recharge helps brands drive growth & increase retention by optimizing the subscriber…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/subscription-payments"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

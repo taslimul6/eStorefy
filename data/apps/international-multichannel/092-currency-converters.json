@@ -1,0 +1,2207 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "currency-converters",
+    "number": 92,
+    "name": "Currency Converters",
+    "group": "International & Multichannel",
+    "slug": "currency-converters",
+    "url_path": "/apps/currency-converters",
+    "focus": "Serve different markets and coordinate sales channels.",
+    "description": "Compare Shopify apps for currency converters. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/store-design-internationalization-currency-and-translation/all"],
+    "seo": {
+      "title": "Shopify Currency Converters Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for currency converters: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 8,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a currency converters app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "orbe",
+      "name": "Orbe Geolocation",
+      "slug": "orbe",
+      "category_fit": {
+        "app_id": "orbe",
+        "selection_score": 6.0637,
+        "rating_evidence": {"value": 5.0, "reviews": 337},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["currency"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/orbe"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for store translation. Listed functions include ip address, country.",
+        "description_long": "Orbe Geolocation is developed by Orbe and listed for geolocation, currency and translation. Its structured listing identifies functions such as ip address, country, language, pop-up widget. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Store Translation", "Currency Converters", "Geolocation & Country Redirects", "Store Locators"],
+        "best_for": {
+          "use_cases": ["Store Translation", "Currency Converters", "Geolocation & Country Redirects", "Store Locators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 337,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/orbe",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 333},
+          {"stars": 4, "percentage": 1, "count": 3},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $261/year and save 25%"]
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 59.0,
+            "billing_period": "month",
+            "price_display": "$59 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $531/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://help.orbe.app/before-starting/pricing",
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "April 18, 2022 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Geolocation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-geolocation"
+          },
+          {
+            "name": "Currency and translation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-currency-and-translation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.geolocation.redirects.ip_address", "label": "IP address"},
+          {"handle": "cf.geolocation.redirects.country", "label": "Country"},
+          {"handle": "cf.geolocation.redirects.language", "label": "Language"},
+          {"handle": "cf.geolocation.redirects.pop_up_widget", "label": "Pop-up widget"},
+          {"handle": "cf.geolocation.redirects.auto_redirect", "label": "Auto-redirect"},
+          {"handle": "cf.geolocation.redirects.manual_redirect", "label": "Manual redirect"},
+          {"handle": "cf.geolocation.redirects.tracking", "label": "Tracking"},
+          {"handle": "cf.geolocation.redirects.analytics", "label": "Analytics"},
+          {"handle": "cf.geolocation.localization_settings.country_selector", "label": "Country selector"},
+          {"handle": "cf.geolocation.localization_settings.language_switcher", "label": "Language switcher"},
+          {"handle": "cf.currency_and_translation.currency_conversion.geo_location", "label": "Geolocation"},
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.local_currency_checkout",
+            "label": "Local currency checkout"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.country_selector",
+            "label": "Country selector"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.switcher_design",
+            "label": "Switcher design"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.auto_redirect",
+            "label": "Auto-redirect"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.language_switcher",
+            "label": "Language switcher"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.switcher_design",
+            "label": "Switcher design"
+          }
+        ],
+        "languages": [
+          "English",
+          " Danish",
+          " German",
+          " French",
+          " Italian",
+          " Dutch",
+          " Portuguese (Brazil)",
+          " Turkish",
+          " Swedish",
+          " and Spanish"
+        ],
+        "works_with": ["Shopify Admin", "Global-e", "Klaviyo", "Markets Pro", "Translate & Adapt"]
+      },
+      "developer": {
+        "name": "Orbe",
+        "website_url": "https://orbe.app/",
+        "partner_url": "https://apps.shopify.com/partners/orbeapp",
+        "public_address": "Paseo de la Castellana, 194, Madrid, M, 28046, ES"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/orbe",
+        "canonical_app_store_url": "https://apps.shopify.com/orbe",
+        "install_url": "https://apps.shopify.com/orbe",
+        "demo_store_url": "https://orbe.app",
+        "resources": {
+          "Privacy policy": "https://orbe.app/privacy-policy",
+          "FAQ": "https://help.orbe.app/before-starting/faqs",
+          "App Documentation": "https://help.orbe.app/",
+          "Orbe": "https://apps.shopify.com/partners/orbeapp",
+          "Website": "https://orbe.app/",
+          "Changelog": "https://orbe.app/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/300c7396da3de51b6c2a5df448979f2a/icon/CLjhpbvM95UDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/300c7396da3de51b6c2a5df448979f2a/desktop_screenshot/CM6blrDO95UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/300c7396da3de51b6c2a5df448979f2a/desktop_screenshot/CLKVobDO95UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/300c7396da3de51b6c2a5df448979f2a/desktop_screenshot/CJv5qrDO95UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/300c7396da3de51b6c2a5df448979f2a/desktop_screenshot/CMOWtLDO95UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/300c7396da3de51b6c2a5df448979f2a/desktop_screenshot/CKfgvbDO95UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/300c7396da3de51b6c2a5df448979f2a/desktop_screenshot/CNWXyLDO95UDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/M3ED2UCfvwI"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Orbe Geolocation free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/orbe"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Danish,  German,  French,  Italian,  Dutch,  Portuguese (Brazil),  Turkish,  Swedish,  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/orbe"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Global-e, Klaviyo, Markets Pro, Translate & Adapt",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/orbe"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/orbe"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.orbe.app/before-starting/faqs", "https://help.orbe.app/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the target market, language, currency or sales channel.",
+            "Preview the customer experience and verify a representative order or listing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["store-translation", "currency-converters", "geolocation-country-redirects", "store-locators"],
+        "primary_category_id": "store-translation",
+        "seo": {
+          "title": "Orbe Geolocation Shopify App | eStorefy",
+          "meta_description": "A Shopify app for store translation. Listed functions include ip address, country.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/orbe",
+          "retrieved_at": "2026-10-04T05:27:17.278426+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Boost your global sales with geolocation. Show the correct products, prices, language,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/orbe"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "bucks-currency-converter",
+      "name": "BUCKS Currency Converter PRO++",
+      "slug": "bucks-currency-converter",
+      "category_fit": {
+        "app_id": "bucks-currency-converter",
+        "selection_score": 6.0512,
+        "rating_evidence": {"value": 4.9, "reviews": 1271},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["currency", "currencies"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/bucks-currency-converter"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for currency converters. Listed functions include geolocation, local currency checkout.",
+        "description_long": "BUCKS Currency Converter PRO++ is developed by HUE – A Helixo Company and listed for currency and translation, geolocation. Its structured listing identifies functions such as geolocation, local currency checkout, real-time rates, multi-currency. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Currency Converters", "Geolocation & Country Redirects", "Store Locators"],
+        "best_for": {
+          "use_cases": ["Currency Converters", "Geolocation & Country Redirects", "Store Locators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1271,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/bucks-currency-converter",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 1},
+          {"stars": 4, "percentage": 3, "count": 38},
+          {"stars": 3, "percentage": 0, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 10}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro yearly",
+            "amount_usd": 95.9,
+            "billing_period": "year",
+            "price_display": "$95.90 / year",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 5, 2020",
+        "shopify_categories": [
+          {
+            "name": "Currency and translation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-currency-and-translation"
+          },
+          {
+            "name": "Geolocation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-geolocation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.currency_and_translation.currency_conversion.geo_location", "label": "Geolocation"},
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.local_currency_checkout",
+            "label": "Local currency checkout"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.real_time_rates",
+            "label": "Real-time rates"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.multi_currencies",
+            "label": "Multi-currency"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.switcher_design",
+            "label": "Switcher design"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.price_display",
+            "label": "Price display"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.auto_redirect",
+            "label": "Auto-redirect"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.switcher_design",
+            "label": "Switcher design"
+          },
+          {"handle": "cf.geolocation.blocking.countries", "label": "Countries"},
+          {"handle": "cf.geolocation.redirects.country", "label": "Country"},
+          {"handle": "cf.geolocation.redirects.auto_redirect", "label": "Auto-redirect"},
+          {"handle": "cf.geolocation.redirects.manual_redirect", "label": "Manual redirect"},
+          {"handle": "cf.geolocation.redirects.tracking", "label": "Tracking"},
+          {"handle": "cf.geolocation.localization_settings.currency_switcher", "label": "Currency switcher"},
+          {
+            "handle": "cf.geolocation.localization_settings.currency_conversion",
+            "label": "Currency conversion"
+          }
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "AOV.ai Bundles Upsell",
+          "GemPages Landing Page Builder",
+          "HUE Cart Drawer",
+          "HUE – Free Gift Upsell",
+          "Upsell Funnel Engine"
+        ]
+      },
+      "developer": {
+        "name": "HUE – A Helixo Company",
+        "website_url": "https://helixo.co",
+        "partner_url": "https://apps.shopify.com/partners/helixo-co",
+        "public_address": "Door No. 46/509A, Puthiya Road, Opp NH By Pass, Near Thaikkavu Junction, Vennala, Ernakulam, KL, 682028, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/bucks-currency-converter",
+        "canonical_app_store_url": "https://apps.shopify.com/bucks-currency-converter",
+        "install_url": "https://apps.shopify.com/bucks-currency-converter",
+        "demo_store_url": "https://buckscc-demo.myshopify.com/collections/all",
+        "resources": {
+          "Privacy policy": "https://helixo.co/apps-privacy-policy/",
+          "HUE – A Helixo Company": "https://apps.shopify.com/partners/helixo-co",
+          "Website": "https://helixo.co"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/711119d0bf4a6aaa500abe82a4c593af/icon/CL6H9rabmJcDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/711119d0bf4a6aaa500abe82a4c593af/promotional_image/CPSFrtK_4pIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/711119d0bf4a6aaa500abe82a4c593af/desktop_screenshot/COjcsLzR-5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/711119d0bf4a6aaa500abe82a4c593af/desktop_screenshot/CM7a5uDv-5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/711119d0bf4a6aaa500abe82a4c593af/desktop_screenshot/CNnlsKzH4pIDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BUCKS Currency Converter PRO++ free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/bucks-currency-converter"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bucks-currency-converter"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, AOV.ai Bundles Upsell, GemPages Landing Page Builder, HUE Cart Drawer, HUE – Free Gift Upsell, Upsell Funnel Engine",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bucks-currency-converter"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/bucks-currency-converter"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the target market, language, currency or sales channel.",
+            "Preview the customer experience and verify a representative order or listing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["currency-converters", "geolocation-country-redirects", "store-locators"],
+        "primary_category_id": "currency-converters",
+        "seo": {
+          "title": "BUCKS Currency Converter PRO++ Shopify App | eStorefy",
+          "meta_description": "A Shopify app for currency converters. Listed functions include geolocation, local currency checkout.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/bucks-currency-converter",
+          "retrieved_at": "2026-10-04T05:27:10.194620+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Boost global sales with BUCKS - the lightning-fast currency converter app for…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/bucks-currency-converter"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "content-translation",
+      "name": "T Lab ‑ AI Language Translate",
+      "slug": "content-translation",
+      "category_fit": {
+        "app_id": "content-translation",
+        "selection_score": 6.0403,
+        "rating_evidence": {"value": 4.9, "reviews": 1037},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["currencies", "currency"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/content-translation"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for store translation. Listed functions include local currency checkout, multi-currency.",
+        "description_long": "T Lab ‑ AI Language Translate is developed by Sherpas Design and listed for currency and translation. Its structured listing identifies functions such as local currency checkout, multi-currency, switcher design, price display. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Store Translation", "Currency Converters"],
+        "best_for": {
+          "use_cases": ["Store Translation", "Currency Converters"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1037,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/content-translation",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 1},
+          {"stars": 4, "percentage": 1, "count": 14},
+          {"stars": 3, "percentage": 0, "count": 5},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 1, "count": 8}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 11.99,
+            "billing_period": "month",
+            "price_display": "$11.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $119.90/year and save 17%"]
+          },
+          {
+            "name": "Business",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $299.90/year and save 17%"]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 59.99,
+            "billing_period": "month",
+            "price_display": "$59.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $599.90/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 11.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "December 23, 2019",
+        "shopify_categories": [
+          {
+            "name": "Currency and translation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-currency-and-translation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.local_currency_checkout",
+            "label": "Local currency checkout"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.multi_currencies",
+            "label": "Multi-currency"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.switcher_design",
+            "label": "Switcher design"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.price_display",
+            "label": "Price display"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.machine_translation",
+            "label": "Machine translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.auto_sync_translations",
+            "label": "Auto-sync translations"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.bulk_translation",
+            "label": "Bulk translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.image_translation",
+            "label": "Image translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.manual_translation",
+            "label": "Manual translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.metafields_translation",
+            "label": "Metafields translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.seo_translation",
+            "label": "SEO translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.url_translation",
+            "label": "URL translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.glossary_management",
+            "label": "Glossary management"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.auto_redirect",
+            "label": "Auto-redirect"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.language_switcher",
+            "label": "Language switcher"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.switcher_design",
+            "label": "Switcher design"
+          }
+        ],
+        "languages": [
+          "English",
+          " German",
+          " Italian",
+          " Portuguese (Brazil)",
+          " French",
+          " Japanese",
+          " Danish",
+          " Dutch",
+          " Swedish",
+          " and Spanish"
+        ],
+        "works_with": ["Shopify Admin", "GemPages", "Judge.me", "LayoutHub", "PageFly", "Shogun"]
+      },
+      "developer": {
+        "name": "Sherpas Design",
+        "website_url": "http://www.sherpas.design",
+        "partner_url": "https://apps.shopify.com/partners/sherpas-design",
+        "public_address": "38 Cvetna Gradina St., Sofia, 1407, BG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/content-translation",
+        "canonical_app_store_url": "https://apps.shopify.com/content-translation",
+        "install_url": "https://apps.shopify.com/content-translation",
+        "demo_store_url": "https://demo-translation-lab.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://sherpas.design/blogs/news/privacy-policy",
+          "FAQ": "https://sherpas.design/blogs/multi-language/translation-lab-faqs",
+          "Sherpas Design": "https://apps.shopify.com/partners/sherpas-design",
+          "Website": "http://www.sherpas.design"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/fdc796485b6462ec4b5071f81d2613bf/icon/CPDn58HO74cDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/fdc796485b6462ec4b5071f81d2613bf/desktop_screenshot/CPnIgsr2tI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fdc796485b6462ec4b5071f81d2613bf/desktop_screenshot/CPCI3_XWvo4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fdc796485b6462ec4b5071f81d2613bf/desktop_screenshot/CMbKm-vXvo4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fdc796485b6462ec4b5071f81d2613bf/desktop_screenshot/CNuaoMr2tI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fdc796485b6462ec4b5071f81d2613bf/desktop_screenshot/CJvbrMr2tI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fdc796485b6462ec4b5071f81d2613bf/desktop_screenshot/CNTvtcr2tI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fdc796485b6462ec4b5071f81d2613bf/mobile_screenshot/COPMv8r2tI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fdc796485b6462ec4b5071f81d2613bf/mobile_screenshot/CJX-yMr2tI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fdc796485b6462ec4b5071f81d2613bf/mobile_screenshot/CL-ApuvXvo4DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/hm7UZZsQDoM"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is T Lab ‑ AI Language Translate free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/content-translation"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  Italian,  Portuguese (Brazil),  French,  Japanese,  Danish,  Dutch,  Swedish,  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/content-translation"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, GemPages, Judge.me, LayoutHub, PageFly, Shogun",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/content-translation"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/content-translation"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://sherpas.design/blogs/multi-language/translation-lab-faqs"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the target market, language, currency or sales channel.",
+            "Preview the customer experience and verify a representative order or listing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["store-translation", "currency-converters"],
+        "primary_category_id": "store-translation",
+        "seo": {
+          "title": "T Lab ‑ AI Language Translate Shopify App | eStorefy",
+          "meta_description": "A Shopify app for store translation. Listed functions include local currency checkout, multi-currency.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/content-translation",
+          "retrieved_at": "2026-10-04T05:26:54.297866+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Use AI to translate your Shopify store into multiple languages, add local…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/content-translation"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "auto-currency-switcher-1",
+      "name": "Nova: Multi Currency Converter",
+      "slug": "auto-currency-switcher-1",
+      "category_fit": {
+        "app_id": "auto-currency-switcher-1",
+        "selection_score": 6.0234,
+        "rating_evidence": {"value": 4.9, "reviews": 769},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["currency", "currencies"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/auto-currency-switcher-1"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for currency converters. Listed functions include multi-currency.",
+        "description_long": "Nova: Multi Currency Converter is developed by Nova Apps and listed for currency and translation. Its structured listing identifies functions such as multi-currency. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Currency Converters"],
+        "best_for": {
+          "use_cases": ["Currency Converters"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 769,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/auto-currency-switcher-1",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 723},
+          {"stars": 4, "percentage": 3, "count": 25},
+          {"stars": 3, "percentage": 1, "count": 5},
+          {"stars": 2, "percentage": 0, "count": 3},
+          {"stars": 1, "percentage": 2, "count": 13}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "October 5, 2020",
+        "shopify_categories": [
+          {
+            "name": "Currency and translation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-currency-and-translation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.multi_currencies",
+            "label": "Multi-currency"
+          }
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "Nova Apps",
+        "website_url": "https://www.getnova.io/",
+        "partner_url": "https://apps.shopify.com/partners/nova-apps",
+        "public_address": "Block 3, Harcourt Centre, Harcourt Road, Dublin, D, D02 A339, IE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/auto-currency-switcher-1",
+        "canonical_app_store_url": "https://apps.shopify.com/auto-currency-switcher-1",
+        "install_url": "https://apps.shopify.com/auto-currency-switcher-1",
+        "demo_store_url": "https://returns-hero.myshopify.com/products/booster-apps-tee",
+        "resources": {
+          "Privacy policy": "https://nova-apps.webflow.io/privacy",
+          "FAQ": "https://help.boosterapps.net/article/1881-faq",
+          "Nova Apps": "https://apps.shopify.com/partners/nova-apps",
+          "Website": "https://www.getnova.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/51bb05171f0065bb7547ad3b05aa7c6f/icon/CLKFsaGtw_4CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/51bb05171f0065bb7547ad3b05aa7c6f/promotional_image/CL2PzrGDpI0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/51bb05171f0065bb7547ad3b05aa7c6f/desktop_screenshot/CLm92LGDpI0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/51bb05171f0065bb7547ad3b05aa7c6f/desktop_screenshot/CL3K5uCtw_4CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/51bb05171f0065bb7547ad3b05aa7c6f/desktop_screenshot/CNT48eCtw_4CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/51bb05171f0065bb7547ad3b05aa7c6f/desktop_screenshot/COfc_OCtw_4CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/51bb05171f0065bb7547ad3b05aa7c6f/desktop_screenshot/CJu8_uTCq4UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/51bb05171f0065bb7547ad3b05aa7c6f/desktop_screenshot/CNflkeGtw_4CEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Nova: Multi Currency Converter free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/auto-currency-switcher-1"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/auto-currency-switcher-1"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/auto-currency-switcher-1"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/auto-currency-switcher-1"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.boosterapps.net/article/1881-faq"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the target market, language, currency or sales channel.",
+            "Preview the customer experience and verify a representative order or listing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["currency-converters"],
+        "primary_category_id": "currency-converters",
+        "seo": {
+          "title": "Nova: Multi Currency Converter Shopify App | eStorefy",
+          "meta_description": "A Shopify app for currency converters. Listed functions include multi-currency.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/auto-currency-switcher-1",
+          "retrieved_at": "2026-10-04T05:27:10.234932+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Automatically change currency on your shop based on the customers location",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/auto-currency-switcher-1"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "google-shopping-feed",
+      "name": "Simprosys Google Shopping Feed",
+      "slug": "google-shopping-feed",
+      "category_fit": {
+        "app_id": "google-shopping-feed",
+        "selection_score": 5.9667,
+        "rating_evidence": {"value": 4.9, "reviews": 4908},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["currency"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/google-shopping-feed"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for google shopping feeds. Listed functions include feed automation, product feed.",
+        "description_long": "Simprosys Google Shopping Feed is developed by Simprosys InfoMedia and listed for marketplaces, product feeds. Its structured listing identifies functions such as feed automation, product feed, product sync, product selection. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Google Shopping Feeds",
+          "Meta Pixel & Conversion Tracking",
+          "Currency Converters",
+          "Geolocation & Country Redirects"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Google Shopping Feeds",
+            "Meta Pixel & Conversion Tracking",
+            "Currency Converters",
+            "Geolocation & Country Redirects"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 4908,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/google-shopping-feed",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 4},
+          {"stars": 4, "percentage": 1, "count": 65},
+          {"stars": 3, "percentage": 0, "count": 8},
+          {"stars": 2, "percentage": 0, "count": 13},
+          {"stars": 1, "percentage": 1, "count": 51}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $4.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Up to 500 Products",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $53.89/year and save 10%",
+              "AI Feed Optimisation: $1.00/25 products (One-time) | XML Feed: $1.75/M | Markets Feeds: 3 free, then $0.50/feed/M"
+            ]
+          },
+          {
+            "name": "501-1000 Products",
+            "amount_usd": 8.99,
+            "billing_period": "month",
+            "price_display": "$8.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $97.09/year and save 10%",
+              "AI Feed Optimisation: $1.00/25 products (One-time) | XML Feed: $3.15/M | Markets Feeds: 3 free, then $0.90/feed/M"
+            ]
+          },
+          {
+            "name": "1001-5000 Products",
+            "amount_usd": 13.99,
+            "billing_period": "month",
+            "price_display": "$13.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $151.09/year and save 10%",
+              "AI Feed Optimisation: $1.00/25 products (One-time) | XML Feed: $4.90/M | Markets Feeds: 3 free, then $1.40/feed/M"
+            ]
+          },
+          {
+            "name": "5001-10000 Product",
+            "amount_usd": 17.99,
+            "billing_period": "month",
+            "price_display": "$17.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $194.29/year and save 10%",
+              "AI Feed Optimisation: $1.00/25 products (One-time) | XML Feed: $6.30/M | Markets Feeds: 3 free, then $1.80/feed/M"
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://support.simprosys.com/faq/how-my-store-will-be-billed",
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "August 16, 2017",
+        "shopify_categories": [
+          {
+            "name": "Marketplaces",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-marketplaces"
+          },
+          {
+            "name": "Product feeds",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-product-feeds"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.marketplaces.listing_management.feed_automation", "label": "Feed automation"},
+          {"handle": "cf.marketplaces.listing_management.product_feed", "label": "Product feed"},
+          {"handle": "cf.marketplaces.listing_management.product_sync", "label": "Product sync"},
+          {"handle": "cf.marketplaces.listing_management.product_selection", "label": "Product selection"},
+          {"handle": "cf.marketplaces.listing_management.offer_sync", "label": "Offer sync"},
+          {"handle": "cf.marketplaces.listing_management.local_currency", "label": "Local currency"},
+          {"handle": "cf.marketplaces.listing_management.feed_translation", "label": "Feed translation"},
+          {"handle": "cf.marketplaces.listing_management.bulk_upload", "label": "Bulk upload"},
+          {"handle": "cf.marketplaces.listing_management.custom_listings", "label": "Custom listings"},
+          {"handle": "cf.marketplaces.listing_management.listing_analytics", "label": "Listing analytics"},
+          {
+            "handle": "cf.marketplaces.order_management.multi_location_fulfillment",
+            "label": "Multi-location fulfillment"
+          },
+          {"handle": "cf.marketplaces.order_management.bulk_orders", "label": "Bulk orders"},
+          {"handle": "cf.marketplaces.order_management.order_sync", "label": "Order sync"},
+          {"handle": "cf.marketplaces.order_management.tracking_sync", "label": "Tracking sync"},
+          {"handle": "cf.marketplaces.order_management.unified_dashboard", "label": "Unified dashboard"},
+          {"handle": "cf.marketplaces.order_management.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.marketplaces.order_management.custom_rules", "label": "Custom rules"},
+          {
+            "handle": "cf.product_feeds.feed_customization.attribute_filtering",
+            "label": "Attribute filtering"
+          },
+          {"handle": "cf.product_feeds.feed_customization.attribute_mapping", "label": "Attribute mapping"},
+          {"handle": "cf.product_feeds.feed_customization.metafields", "label": "Metafields"},
+          {"handle": "cf.product_feeds.feed_customization.ai_mapping", "label": "AI mapping"},
+          {"handle": "cf.product_feeds.feed_customization.custom_formulas", "label": "Custom formulas"},
+          {"handle": "cf.product_feeds.feed_customization.custom_labels", "label": "Custom labels"},
+          {"handle": "cf.product_feeds.feed_customization.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.product_feeds.feed_customization.remarketing_tags", "label": "Remarketing tags"},
+          {"handle": "cf.product_feeds.feed_customization.local_inventory", "label": "Local inventory"},
+          {"handle": "cf.product_feeds.feed_customization.localized_feeds", "label": "Localized feeds"},
+          {"handle": "cf.product_feeds.feed_customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.product_feeds.feed_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.product_feeds.feed_customization.variant_sync", "label": "Variant sync"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Google Ads Account",
+          "Google Analytics 4 (GA4)",
+          "Google Merchant Center",
+          "Meta Ads / Meta Business Suite",
+          "Microsoft Advertising",
+          "Pinterest For Business"
+        ]
+      },
+      "developer": {
+        "name": "Simprosys InfoMedia",
+        "website_url": "https://simprosys.com",
+        "partner_url": "https://apps.shopify.com/partners/simprosys",
+        "public_address": "B-303, Shapath Hexa, Opp Gujarat High Court, S. G. Highway, Ahmedabad, GJ, 380060, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/google-shopping-feed",
+        "canonical_app_store_url": "https://apps.shopify.com/google-shopping-feed",
+        "install_url": "https://apps.shopify.com/google-shopping-feed",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://support.simprosys.com/faq/google-shopping-feed-privacy-policy",
+          "FAQ": "https://support.simprosys.com/google-shopping-feed",
+          "Tutorial": "https://youtube.com/playlist?list=PLP8SfH94PvkuuC0lsAcMGaLw_Ynj9WdiG",
+          "App Documentation": "https://support.simprosys.com/google-shopping-feed",
+          "Simprosys InfoMedia": "https://apps.shopify.com/partners/simprosys",
+          "Website": "https://simprosys.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/02b5709becbcc8cb72e7853b282ccbec/icon/CLe36pCU6okDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/02b5709becbcc8cb72e7853b282ccbec/desktop_screenshot/CJW3kqLx_IoDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02b5709becbcc8cb72e7853b282ccbec/desktop_screenshot/CJDpjajw_IoDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02b5709becbcc8cb72e7853b282ccbec/desktop_screenshot/CPe9naLx_IoDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02b5709becbcc8cb72e7853b282ccbec/desktop_screenshot/CK2Goajw_IoDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02b5709becbcc8cb72e7853b282ccbec/desktop_screenshot/CKmuqaLx_IoDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02b5709becbcc8cb72e7853b282ccbec/desktop_screenshot/CK-wtaLx_IoDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/X55nRIYCvxo"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Simprosys Google Shopping Feed free?",
+            "answer": "The pricing label retrieved from the listing is: From $4.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/google-shopping-feed"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/google-shopping-feed"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Google Ads Account, Google Analytics 4 (GA4), Google Merchant Center, Meta Ads / Meta Business Suite, Microsoft Advertising, Pinterest For Business",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/google-shopping-feed"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/google-shopping-feed"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://support.simprosys.com/google-shopping-feed",
+            "https://youtube.com/playlist?list=PLP8SfH94PvkuuC0lsAcMGaLw_Ynj9WdiG",
+            "https://support.simprosys.com/google-shopping-feed"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "google-shopping-feeds",
+          "meta-pixel-conversion-tracking",
+          "currency-converters",
+          "geolocation-country-redirects"
+        ],
+        "primary_category_id": "google-shopping-feeds",
+        "seo": {
+          "title": "Simprosys Google Shopping Feed Shopify App | eStorefy",
+          "meta_description": "A Shopify app for google shopping feeds. Listed functions include feed automation, product feed.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/google-shopping-feed",
+          "retrieved_at": "2026-10-04T05:11:18.854727+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Auto-sync AI-optimized Feed for Google Shopping, Microsoft Advertising, Meta Ads, & Pinterest…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/google-shopping-feed"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "simple-google-shopping-feed",
+      "name": "AR: Google Shopping Feed Pro",
+      "slug": "simple-google-shopping-feed",
+      "category_fit": {
+        "app_id": "simple-google-shopping-feed",
+        "selection_score": 5.891,
+        "rating_evidence": {"value": 5.0, "reviews": 258},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["currency", "currencies"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/simple-google-shopping-feed"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for google shopping feeds. Listed functions include attribute filtering, attribute mapping.",
+        "description_long": "AR: Google Shopping Feed Pro is developed by Apps Robots and listed for product feeds, marketplaces. Its structured listing identifies functions such as attribute filtering, attribute mapping, metafields, custom labels. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Google Shopping Feeds", "Store Translation", "Currency Converters"],
+        "best_for": {
+          "use_cases": ["Google Shopping Feeds", "Store Translation", "Currency Converters"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 258,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/simple-google-shopping-feed",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 255},
+          {"stars": 4, "percentage": 1, "count": 3},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "$7/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Default plan",
+            "amount_usd": 7.0,
+            "billing_period": "month",
+            "price_display": "$7 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "The price is $1 per 1000 products (variants are free) per month. The minimum amount is $7 per month."
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.adwordsrobot.com/en/help/google-shopping-feed-pro-pricing",
+        "starting_paid_monthly_price_usd": 7.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "January 9, 2017",
+        "shopify_categories": [
+          {
+            "name": "Product feeds",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-product-feeds"
+          },
+          {
+            "name": "Marketplaces",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-marketplaces"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.product_feeds.feed_customization.attribute_filtering",
+            "label": "Attribute filtering"
+          },
+          {"handle": "cf.product_feeds.feed_customization.attribute_mapping", "label": "Attribute mapping"},
+          {"handle": "cf.product_feeds.feed_customization.metafields", "label": "Metafields"},
+          {"handle": "cf.product_feeds.feed_customization.custom_labels", "label": "Custom labels"},
+          {"handle": "cf.product_feeds.feed_customization.local_inventory", "label": "Local inventory"},
+          {"handle": "cf.product_feeds.feed_customization.localized_feeds", "label": "Localized feeds"},
+          {"handle": "cf.product_feeds.feed_customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.product_feeds.feed_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.product_feeds.feed_customization.variant_sync", "label": "Variant sync"},
+          {
+            "handle": "cf.product_feeds.feed_customization.collection_targeting",
+            "label": "Collection targeting"
+          },
+          {"handle": "cf.product_feeds.feed_management.product_sync", "label": "Product sync"},
+          {"handle": "cf.product_feeds.feed_management.bulk_editing", "label": "Bulk editing"},
+          {"handle": "cf.product_feeds.feed_management.store_updates", "label": "Store updates"},
+          {"handle": "cf.product_feeds.feed_management.scheduled_sync", "label": "Scheduled sync"},
+          {"handle": "cf.product_feeds.feed_management.product_selection", "label": "Product selection"},
+          {
+            "handle": "cf.product_feeds.feed_management.target_specific_feeds",
+            "label": "Target-specific feeds"
+          },
+          {"handle": "cf.product_feeds.feed_management.inventory_support", "label": "Inventory support"},
+          {"handle": "cf.product_feeds.feed_management.gtin_management", "label": "GTIN management"},
+          {"handle": "cf.product_feeds.feed_management.feed_optimization", "label": "Feed optimization"},
+          {"handle": "cf.product_feeds.feed_management.multi_format", "label": "Multi-format"},
+          {"handle": "cf.marketplaces.listing_management.feed_automation", "label": "Feed automation"},
+          {"handle": "cf.marketplaces.listing_management.product_feed", "label": "Product feed"},
+          {"handle": "cf.marketplaces.listing_management.product_sync", "label": "Product sync"},
+          {"handle": "cf.marketplaces.listing_management.product_selection", "label": "Product selection"},
+          {"handle": "cf.marketplaces.listing_management.local_currency", "label": "Local currency"},
+          {"handle": "cf.marketplaces.listing_management.bulk_upload", "label": "Bulk upload"}
+        ],
+        "languages": ["English"],
+        "works_with": ["AdWords", "Bing Shopping", "Facebook Product Ads", "Google Ads", "Google Merchant"]
+      },
+      "developer": {
+        "name": "Apps Robots",
+        "website_url": "http://www.adwordsrobot.com",
+        "partner_url": "https://apps.shopify.com/partners/adwordsrobot",
+        "public_address": "Brouwerijstraat 1, Enschede, 7523XC, NL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/simple-google-shopping-feed",
+        "canonical_app_store_url": "https://apps.shopify.com/simple-google-shopping-feed",
+        "install_url": "https://apps.shopify.com/simple-google-shopping-feed",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.adwordsrobot.com/xx/privacy/app-feed",
+          "FAQ": "https://www.adwordsrobot.com/en/help/simple-google-shopping-feed---frequent-asked-questions",
+          "Apps Robots": "https://apps.shopify.com/partners/adwordsrobot",
+          "Website": "http://www.adwordsrobot.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/d6c00c9b1dbc92927cd9f38b9ea9b562/icon/CIfyqY6GiYoDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/d6c00c9b1dbc92927cd9f38b9ea9b562/desktop_screenshot/CIypxaazkIoDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d6c00c9b1dbc92927cd9f38b9ea9b562/desktop_screenshot/COWq0qazkIoDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d6c00c9b1dbc92927cd9f38b9ea9b562/desktop_screenshot/CP7O3KazkIoDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d6c00c9b1dbc92927cd9f38b9ea9b562/desktop_screenshot/CPKZ6KazkIoDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/6-jc8vUJhTE"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is AR: Google Shopping Feed Pro free?",
+            "answer": "The pricing label retrieved from the listing is: $7/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/simple-google-shopping-feed"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/simple-google-shopping-feed"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "AdWords, Bing Shopping, Facebook Product Ads, Google Ads, Google Merchant",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/simple-google-shopping-feed"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/simple-google-shopping-feed"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://www.adwordsrobot.com/en/help/simple-google-shopping-feed---frequent-asked-questions"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["google-shopping-feeds", "store-translation", "currency-converters"],
+        "primary_category_id": "google-shopping-feeds",
+        "seo": {
+          "title": "AR: Google Shopping Feed Pro Shopify App | eStorefy",
+          "meta_description": "A Shopify app for google shopping feeds. Listed functions include attribute filtering, attribute mapping.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/simple-google-shopping-feed",
+          "retrieved_at": "2026-10-04T05:11:27.679176+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/simple-google-shopping-feed"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "translate-my-store",
+      "name": "Hextom AI Translate & Currency",
+      "slug": "translate-my-store",
+      "category_fit": {
+        "app_id": "translate-my-store",
+        "selection_score": 5.8529,
+        "rating_evidence": {"value": 4.7, "reviews": 1237},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["currency", "currencies"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/translate-my-store"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for store translation. Listed functions include geolocation, local currency checkout.",
+        "description_long": "Hextom AI Translate & Currency is developed by Hextom and listed for currency and translation, geolocation. Its structured listing identifies functions such as geolocation, local currency checkout, real-time rates, multi-currency. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Store Translation", "Currency Converters"],
+        "best_for": {
+          "use_cases": ["Store Translation", "Currency Converters"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.7,
+        "review_count": 1237,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/translate-my-store",
+        "distribution": [
+          {"stars": 5, "percentage": 89, "count": 1},
+          {"stars": 4, "percentage": 6, "count": 73},
+          {"stars": 3, "percentage": 1, "count": 10},
+          {"stars": 2, "percentage": 0, "count": 4},
+          {"stars": 1, "percentage": 4, "count": 47}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Business",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://hextom.com/application/translate-my-store/",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 7, 2020",
+        "shopify_categories": [
+          {
+            "name": "Currency and translation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-currency-and-translation"
+          },
+          {
+            "name": "Geolocation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-geolocation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.currency_and_translation.currency_conversion.geo_location", "label": "Geolocation"},
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.local_currency_checkout",
+            "label": "Local currency checkout"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.real_time_rates",
+            "label": "Real-time rates"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.multi_currencies",
+            "label": "Multi-currency"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.country_selector",
+            "label": "Country selector"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.switcher_design",
+            "label": "Switcher design"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.price_rounding",
+            "label": "Price rounding"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.price_display",
+            "label": "Price display"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.machine_translation",
+            "label": "Machine translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.auto_sync_translations",
+            "label": "Auto-sync translations"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.bulk_translation",
+            "label": "Bulk translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.image_translation",
+            "label": "Image translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.manual_translation",
+            "label": "Manual translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.metafields_translation",
+            "label": "Metafields translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.seo_translation",
+            "label": "SEO translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.professional_translation",
+            "label": "Professional translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.url_translation",
+            "label": "URL translation"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.glossary_management",
+            "label": "Glossary management"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.auto_redirect",
+            "label": "Auto-redirect"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.language_switcher",
+            "label": "Language switcher"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.switcher_design",
+            "label": "Switcher design"
+          },
+          {"handle": "cf.geolocation.redirects.ip_address", "label": "IP address"},
+          {"handle": "cf.geolocation.redirects.country", "label": "Country"},
+          {"handle": "cf.geolocation.redirects.language", "label": "Language"},
+          {"handle": "cf.geolocation.redirects.pop_up_widget", "label": "Pop-up widget"},
+          {"handle": "cf.geolocation.redirects.auto_redirect", "label": "Auto-redirect"},
+          {"handle": "cf.geolocation.redirects.error_redirect", "label": "Error redirect"},
+          {"handle": "cf.geolocation.redirects.manual_redirect", "label": "Manual redirect"},
+          {"handle": "cf.geolocation.redirects.tracking", "label": "Tracking"},
+          {"handle": "cf.geolocation.redirects.analytics", "label": "Analytics"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Spanish",
+          " Japanese",
+          " Italian",
+          " German",
+          " Portuguese (Brazil)",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": [
+          "Shopify Flow",
+          "Shopify Admin",
+          "GemPages",
+          "Judge.me Reviews",
+          "LayoutHub",
+          "PageFly",
+          "Shogun",
+          "Yotpo Product Review"
+        ]
+      },
+      "developer": {
+        "name": "Hextom",
+        "website_url": "https://hextom.com",
+        "partner_url": "https://apps.shopify.com/partners/hextom",
+        "public_address": "Richmond Hill, ON, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/translate-my-store",
+        "canonical_app_store_url": "https://apps.shopify.com/translate-my-store",
+        "install_url": "https://apps.shopify.com/translate-my-store",
+        "demo_store_url": "https://hextom-tms-demo.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://hextom.com/privacy-policy/",
+          "FAQ": "https://tms-help-center.hextom.com/",
+          "Tutorial": "https://tms-help-center.hextom.com/",
+          "Hextom": "https://apps.shopify.com/partners/hextom",
+          "Website": "https://hextom.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/12c9b1ae63fd3ed111295d72b162f548/icon/CPb84IGo2YYDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/12c9b1ae63fd3ed111295d72b162f548/desktop_screenshot/CN6mtI-I9YYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/12c9b1ae63fd3ed111295d72b162f548/desktop_screenshot/CLewv4-I9YYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/12c9b1ae63fd3ed111295d72b162f548/desktop_screenshot/CPfGyY-I9YYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/12c9b1ae63fd3ed111295d72b162f548/desktop_screenshot/COC504-I9YYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/12c9b1ae63fd3ed111295d72b162f548/desktop_screenshot/CNzp3Y-I9YYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/12c9b1ae63fd3ed111295d72b162f548/desktop_screenshot/CPm-3Ozc5okDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/12c9b1ae63fd3ed111295d72b162f548/mobile_screenshot/CIOx84-I9YYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/12c9b1ae63fd3ed111295d72b162f548/mobile_screenshot/CJbS_I-I9YYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/12c9b1ae63fd3ed111295d72b162f548/mobile_screenshot/CPra1qXuhIsDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/BOve7YBvxng"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Hextom AI Translate & Currency free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/translate-my-store"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Chinese (Simplified),  Chinese (Traditional),  Spanish,  Japanese,  Italian,  German,  Portuguese (Brazil),  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/translate-my-store"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Flow, Shopify Admin, GemPages, Judge.me Reviews, LayoutHub, PageFly, Shogun, Yotpo Product Review",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/translate-my-store"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/translate-my-store"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://tms-help-center.hextom.com/", "https://tms-help-center.hextom.com/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the target market, language, currency or sales channel.",
+            "Preview the customer experience and verify a representative order or listing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["store-translation", "currency-converters"],
+        "primary_category_id": "store-translation",
+        "seo": {
+          "title": "Hextom AI Translate & Currency Shopify App | eStorefy",
+          "meta_description": "A Shopify app for store translation. Listed functions include geolocation, local currency checkout.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/translate-my-store",
+          "retrieved_at": "2026-10-04T05:26:54.301692+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "The easy & seamless way for you to have multi-currency, multi-language in…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/translate-my-store"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "currency-converter-plus",
+      "name": "Currency Converter Plus",
+      "slug": "currency-converter-plus",
+      "category_fit": {
+        "app_id": "currency-converter-plus",
+        "selection_score": 5.7504,
+        "rating_evidence": {"value": 4.7, "reviews": 218},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["currency", "currencies"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/currency-converter-plus"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for currency converters. Listed functions include geolocation, real-time rates.",
+        "description_long": "Currency Converter Plus is developed by Code Black Belt and listed for currency and translation, geolocation. Its structured listing identifies functions such as geolocation, real-time rates, multi-currency, country selector. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Currency Converters"],
+        "best_for": {
+          "use_cases": ["Currency Converters"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.7,
+        "review_count": 218,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/currency-converter-plus",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 207},
+          {"stars": 4, "percentage": 3, "count": 7},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "$9.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Professional",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $99.90/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 13, 2015",
+        "shopify_categories": [
+          {
+            "name": "Currency and translation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-currency-and-translation"
+          },
+          {
+            "name": "Geolocation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-geolocation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.currency_and_translation.currency_conversion.geo_location", "label": "Geolocation"},
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.real_time_rates",
+            "label": "Real-time rates"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.multi_currencies",
+            "label": "Multi-currency"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.country_selector",
+            "label": "Country selector"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.price_rounding",
+            "label": "Price rounding"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.price_display",
+            "label": "Price display"
+          },
+          {"handle": "cf.geolocation.localization_settings.currency_switcher", "label": "Currency switcher"},
+          {
+            "handle": "cf.geolocation.localization_settings.currency_conversion",
+            "label": "Currency conversion"
+          }
+        ],
+        "languages": [
+          "English",
+          " German",
+          " Spanish",
+          " French",
+          " Italian",
+          " Dutch",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": [
+          "Shopify Admin",
+          "Also Bought",
+          "Frequently Bought Together",
+          "GTranslate",
+          "Langify",
+          "Sufio",
+          "WeGlot"
+        ]
+      },
+      "developer": {
+        "name": "Code Black Belt",
+        "website_url": "https://web.codeblackbelt.com/products/currency-converter-plus",
+        "partner_url": "https://apps.shopify.com/partners/codeblackbelt",
+        "public_address": "Paseo Independencia 3, 2 A, Zaragoza, Z, 50001, ES"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/currency-converter-plus",
+        "canonical_app_store_url": "https://apps.shopify.com/currency-converter-plus",
+        "install_url": "https://apps.shopify.com/currency-converter-plus",
+        "demo_store_url": "https://blue-dream.myshopify.com/pages/currency-converter-plus-demos",
+        "resources": {
+          "Privacy policy": "https://docs.codeblackbelt.com/article/2057-privacy-policy",
+          "FAQ": "https://docs.codeblackbelt.com/collection/10-currency-converter",
+          "Code Black Belt": "https://apps.shopify.com/partners/codeblackbelt",
+          "Website": "https://web.codeblackbelt.com/products/currency-converter-plus"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/e415e0786f63be8e176d3b037572ace8/icon/CP3ImrH0lu8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/e415e0786f63be8e176d3b037572ace8/promotional_image/CJSnmvOZjZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e415e0786f63be8e176d3b037572ace8/desktop_screenshot/CNerpvOZjZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e415e0786f63be8e176d3b037572ace8/desktop_screenshot/CO2jr_OZjZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e415e0786f63be8e176d3b037572ace8/desktop_screenshot/CMDwuPOZjZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e415e0786f63be8e176d3b037572ace8/desktop_screenshot/CNnfwfOZjZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e415e0786f63be8e176d3b037572ace8/desktop_screenshot/CMGgy_OZjZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e415e0786f63be8e176d3b037572ace8/desktop_screenshot/CJGI1POZjZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e415e0786f63be8e176d3b037572ace8/mobile_screenshot/CN3e3POZjZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e415e0786f63be8e176d3b037572ace8/mobile_screenshot/CIXk5fOZjZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e415e0786f63be8e176d3b037572ace8/mobile_screenshot/CKT47vOZjZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e415e0786f63be8e176d3b037572ace8/mobile_screenshot/COzD9_OZjZIDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Currency Converter Plus free?",
+            "answer": "The pricing label retrieved from the listing is: $9.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/currency-converter-plus"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  Spanish,  French,  Italian,  Dutch,  Portuguese (Brazil),  Portuguese (Portugal),  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/currency-converter-plus"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Also Bought, Frequently Bought Together, GTranslate, Langify, Sufio, WeGlot",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/currency-converter-plus"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/currency-converter-plus"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.codeblackbelt.com/collection/10-currency-converter"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the target market, language, currency or sales channel.",
+            "Preview the customer experience and verify a representative order or listing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["currency-converters"],
+        "primary_category_id": "currency-converters",
+        "seo": {
+          "title": "Currency Converter Plus Shopify App | eStorefy",
+          "meta_description": "A Shopify app for currency converters. Listed functions include geolocation, real-time rates.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/currency-converter-plus",
+          "retrieved_at": "2026-10-04T05:32:22.058642+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "The true professional Currency Converter for Shopify, with 222 currencies, tons of…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/currency-converter-plus"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

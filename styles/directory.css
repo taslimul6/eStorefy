@@ -49,11 +49,6 @@
   outline: 3px solid #78aa32;
   outline-offset: 4px;
 }
-.directory-page .wrap {
-  max-width: 1260px;
-  margin: auto;
-  padding: 0 36px;
-}
 .directory-page .announcement {
   text-align: center;
   background: var(--ink);
@@ -65,33 +60,6 @@
 .directory-page .announcement b {
   color: var(--lime);
 }
-.directory-page header {
-  height: 85px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-}
-.directory-page .logo {
-  font-size: 27px;
-  font-weight: 800;
-  letter-spacing: -1.5px;
-  display: flex;
-  align-items: center;
-  gap: 9px;
-}
-.directory-page .mark {
-  display: inline-grid;
-  place-items: center;
-  width: 31px;
-  height: 34px;
-  background: var(--green);
-  color: var(--lime);
-  border-radius: 8px 8px 11px 11px;
-  font-style: italic;
-  font-size: 24px;
-  transform: rotate(-7deg);
-}
 .directory-page nav {
   display: flex;
   gap: 30px;
@@ -99,11 +67,6 @@
 }
 .directory-page nav a:hover {
   color: #52962b;
-}
-.directory-page .navright {
-  display: flex;
-  gap: 12px;
-  align-items: center;
 }
 .directory-page .button {
   border: 1px solid var(--line);
@@ -704,19 +667,6 @@
   margin: 0;
   font-size: 12px;
 }
-.directory-page footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 35px 0;
-  font-size: 11px;
-  color: var(--muted);
-}
-.directory-page footer .logo {
-  color: var(--ink);
-  font-size: 20px;
-}
 .directory-page .demo-note {
   font-size: 10px;
   line-height: 1.6;
@@ -794,9 +744,6 @@
   display: none;
 }
 @media (min-width: 1500px) {
-  .directory-page .wrap {
-    max-width: 1340px;
-  }
   .directory-page .art {
     height: 175px;
   }
@@ -821,9 +768,6 @@
   .directory-page nav {
     gap: 15px;
   }
-  .directory-page .navright .button {
-    padding: 10px;
-  }
   .directory-page .citygrid {
     gap: 10px;
   }
@@ -832,24 +776,8 @@
   }
 }
 @media (max-width: 700px) {
-  .directory-page .wrap {
-    padding: 0 18px;
-  }
-  .directory-page header {
-    height: 72px;
-  }
-  .directory-page .logo {
-    font-size: 24px;
-  }
   .directory-page nav {
     display: none;
-  }
-  .directory-page .navright {
-    gap: 8px;
-  }
-  .directory-page .navright .button {
-    font-size: 11px;
-    padding: 10px;
   }
   .directory-page .hero {
     padding: 32px 22px 24px;
@@ -1023,11 +951,6 @@
   }
   .directory-page .cta .button {
     margin-top: 20px;
-  }
-  .directory-page footer {
-    align-items: start;
-    flex-direction: column;
-    padding: 28px 0;
   }
   .directory-page .demo-note {
     text-align: left;

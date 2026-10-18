@@ -1,0 +1,1433 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "cookie-consent-privacy",
+    "number": 97,
+    "name": "Cookie Consent & Privacy",
+    "group": "Security & Store Data",
+    "slug": "cookie-consent-privacy",
+    "url_path": "/apps/cookie-consent-privacy",
+    "focus": "Protect store operations and preserve or transfer store data.",
+    "description": "Compare Shopify apps for cookie consent & privacy. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/store-design-internationalization-cookie-consent/all"],
+    "seo": {
+      "title": "Shopify Cookie Consent & Privacy Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for cookie consent & privacy: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 5,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a cookie consent & privacy app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "gdpr-cookie-consent",
+      "name": "Pandectes GDPR Compliance",
+      "slug": "gdpr-cookie-consent",
+      "category_fit": {
+        "app_id": "gdpr-cookie-consent",
+        "selection_score": 6.1945,
+        "rating_evidence": {"value": 5.0, "reviews": 3092},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["gdpr", "consent", "cookie"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/gdpr-cookie-consent"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for announcement & shipping bars. Listed functions include policy link, custom css.",
+        "description_long": "Pandectes GDPR Compliance is developed by Pandectes and listed for cookie consent, accessibility. Its structured listing identifies functions such as policy link, custom css, preference selector, geolocation. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Announcement & Shipping Bars", "Cookie Consent & Privacy"],
+        "best_for": {
+          "use_cases": ["Announcement & Shipping Bars", "Cookie Consent & Privacy"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 3092,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/gdpr-cookie-consent",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 3},
+          {"stars": 4, "percentage": 1, "count": 32},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 0, "count": 10}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 9.0,
+            "billing_period": "month",
+            "price_display": "$9 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $90/year and save 17%"]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $290/year and save 17%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $490/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://pandectes.io/pricing/#comparison-table",
+        "starting_paid_monthly_price_usd": 9.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 26, 2018 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Cookie consent",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-cookie-consent"
+          },
+          {
+            "name": "Accessibility",
+            "url": "https://apps.shopify.com/categories/store-design-site-optimization-accessibility"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.cookie_consent.display_options.policy_link", "label": "Policy link"},
+          {"handle": "cf.cookie_consent.display_options.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.cookie_consent.display_options.preference_selector", "label": "Preference selector"},
+          {"handle": "cf.cookie_consent.display_options.geolocation", "label": "Geolocation"},
+          {"handle": "cf.cookie_consent.display_options.banner_design", "label": "Banner design"},
+          {"handle": "cf.cookie_consent.display_options.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.cookie_consent.display_options.custom_text", "label": "Custom text"},
+          {"handle": "cf.cookie_consent.display_options.multi_language", "label": "Multi-language"},
+          {"handle": "cf.cookie_consent.display_options.language_detection", "label": "Language detection"},
+          {"handle": "cf.cookie_consent.display_options.translations", "label": "Translation"},
+          {"handle": "cf.cookie_consent.display_options.mobile_responsive", "label": "Mobile responsive"},
+          {"handle": "cf.cookie_consent.display_options.a_b_testing", "label": "A/B testing"},
+          {"handle": "cf.cookie_consent.display_options.headless_support", "label": "Headless support"},
+          {
+            "handle": "cf.cookie_consent.privacy_compliance.accessibility_compliance",
+            "label": "Accessibility compliance"
+          },
+          {"handle": "cf.cookie_consent.privacy_compliance.auto_blocking", "label": "Auto-blocking"},
+          {"handle": "cf.cookie_consent.privacy_compliance.consent_logs", "label": "Consent logs"},
+          {"handle": "cf.cookie_consent.privacy_compliance.consent_expiration", "label": "Consent expiration"},
+          {"handle": "cf.cookie_consent.privacy_compliance.cookie_scanner", "label": "Cookie scanner"},
+          {"handle": "cf.cookie_consent.privacy_compliance.data_management", "label": "Data management"},
+          {"handle": "cf.cookie_consent.privacy_compliance.policy_generator", "label": "Policy generator"},
+          {"handle": "cf.cookie_consent.regulation.apa_nzpa", "label": "APA-NZPA"},
+          {"handle": "cf.cookie_consent.regulation.appi", "label": "APPI"},
+          {"handle": "cf.cookie_consent.regulation.ccpa", "label": "CCPA"},
+          {"handle": "cf.cookie_consent.regulation.cpra", "label": "CPRA"},
+          {"handle": "cf.cookie_consent.regulation.ctdpa", "label": "CTDPA"},
+          {"handle": "cf.cookie_consent.regulation.eprivacy", "label": "ePrivacy"},
+          {"handle": "cf.cookie_consent.regulation.fadp", "label": "FADP"},
+          {"handle": "cf.cookie_consent.regulation.gdpr", "label": "GDPR"},
+          {"handle": "cf.cookie_consent.regulation.lgpd", "label": "LGPD"},
+          {"handle": "cf.cookie_consent.regulation.pdpa", "label": "PDPA"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Italian",
+          " Spanish",
+          " German",
+          " Portuguese (Brazil)",
+          " Japanese",
+          " Dutch",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "EAA, ADA, WCAG, GPC",
+          "GA4, Adwords, Tag Manager",
+          "Markets, Microsoft Clarity",
+          "Microsoft Consent Mode (UET)",
+          "Sidekick, A11y, Microsoft Ads",
+          "TikTok, Meta Pixel, Klaviyo"
+        ]
+      },
+      "developer": {
+        "name": "Pandectes",
+        "website_url": "https://www.pandectes.io",
+        "partner_url": "https://apps.shopify.com/partners/pandectes-io",
+        "public_address": "Pudisoo küla, Männimäe/1, Kuusalu vald, 74626, EE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/gdpr-cookie-consent",
+        "canonical_app_store_url": "https://apps.shopify.com/gdpr-cookie-consent",
+        "install_url": "https://apps.shopify.com/gdpr-cookie-consent",
+        "demo_store_url": "https://pandectes.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.pandectes.io/privacy-policy/",
+          "FAQ": "https://help.pandectes.io/",
+          "Tutorial": "https://help.pandectes.io/",
+          "App Documentation": "https://help.pandectes.io/",
+          "Pandectes": "https://apps.shopify.com/partners/pandectes-io",
+          "Website": "https://www.pandectes.io",
+          "Changelog": "https://pandectes.io/blog/category/pandectes-updates/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/3f0b68db732b6704928d685690b753c8/icon/CNyiwYaTi_wCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/3f0b68db732b6704928d685690b753c8/promotional_image/COKJjuapkZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3f0b68db732b6704928d685690b753c8/desktop_screenshot/CNTcsvW1kZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3f0b68db732b6704928d685690b753c8/desktop_screenshot/CPqbvfW1kZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3f0b68db732b6704928d685690b753c8/desktop_screenshot/CJnuxfW1kZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3f0b68db732b6704928d685690b753c8/desktop_screenshot/CPDSzvW1kZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3f0b68db732b6704928d685690b753c8/desktop_screenshot/CMTL1_W1kZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3f0b68db732b6704928d685690b753c8/desktop_screenshot/CLPQ4PW1kZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3f0b68db732b6704928d685690b753c8/mobile_screenshot/CM3Ppsm2kZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3f0b68db732b6704928d685690b753c8/mobile_screenshot/CP_-r8m2kZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3f0b68db732b6704928d685690b753c8/mobile_screenshot/COL6uMm2kZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3f0b68db732b6704928d685690b753c8/mobile_screenshot/CPalwsm2kZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3f0b68db732b6704928d685690b753c8/mobile_screenshot/CNaCzMm2kZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3f0b68db732b6704928d685690b753c8/mobile_screenshot/CJvH1cm2kZQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Pandectes GDPR Compliance free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/gdpr-cookie-consent"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Italian,  Spanish,  German,  Portuguese (Brazil),  Japanese,  Dutch,  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/gdpr-cookie-consent"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, EAA, ADA, WCAG, GPC, GA4, Adwords, Tag Manager, Markets, Microsoft Clarity, Microsoft Consent Mode (UET), Sidekick, A11y, Microsoft Ads, TikTok, Meta Pixel, Klaviyo",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/gdpr-cookie-consent"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/gdpr-cookie-consent"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.pandectes.io/", "https://help.pandectes.io/", "https://help.pandectes.io/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["announcement-shipping-bars", "cookie-consent-privacy"],
+        "primary_category_id": "announcement-shipping-bars",
+        "seo": {
+          "title": "Pandectes GDPR Compliance Shopify App | eStorefy",
+          "meta_description": "A Shopify app for announcement & shipping bars. Listed functions include policy link, custom css.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/gdpr-cookie-consent",
+          "retrieved_at": "2026-10-04T05:28:08.923677+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Pandectes GDPR Compliance is a cookie consent banner that quickly helps your…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/gdpr-cookie-consent"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "gdpr-backpack",
+      "name": "Consentmo GDPR Compliance",
+      "slug": "gdpr-backpack",
+      "category_fit": {
+        "app_id": "gdpr-backpack",
+        "selection_score": 6.1736,
+        "rating_evidence": {"value": 5.0, "reviews": 2015},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["consent", "gdpr", "cookie"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/gdpr-backpack"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for announcement & shipping bars. Listed functions include policy link, custom css.",
+        "description_long": "Consentmo GDPR Compliance is developed by Consentmo and listed for cookie consent, accessibility. Its structured listing identifies functions such as policy link, custom css, preference selector, geolocation. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Announcement & Shipping Bars", "Cookie Consent & Privacy"],
+        "best_for": {
+          "use_cases": ["Announcement & Shipping Bars", "Cookie Consent & Privacy"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 2015,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/gdpr-backpack",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 2},
+          {"stars": 4, "percentage": 1, "count": 29},
+          {"stars": 3, "percentage": 0, "count": 5},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 1, "count": 13}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard Plan",
+            "amount_usd": 10.0,
+            "billing_period": "month",
+            "price_display": "$10 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $100/year and save 17%"]
+          },
+          {
+            "name": "Plus Plan",
+            "amount_usd": 37.0,
+            "billing_period": "month",
+            "price_display": "$37 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $370/year and save 17%"]
+          },
+          {
+            "name": "Enterprise Plan",
+            "amount_usd": 64.0,
+            "billing_period": "month",
+            "price_display": "$64 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $640/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.consentmo.com/pricing?utm_source=listing_page&utm_medium=see_pricing_options",
+        "starting_paid_monthly_price_usd": 10.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 3, 2019 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Cookie consent",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-cookie-consent"
+          },
+          {
+            "name": "Accessibility",
+            "url": "https://apps.shopify.com/categories/store-design-site-optimization-accessibility"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.cookie_consent.display_options.policy_link", "label": "Policy link"},
+          {"handle": "cf.cookie_consent.display_options.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.cookie_consent.display_options.preference_selector", "label": "Preference selector"},
+          {"handle": "cf.cookie_consent.display_options.geolocation", "label": "Geolocation"},
+          {"handle": "cf.cookie_consent.display_options.banner_design", "label": "Banner design"},
+          {"handle": "cf.cookie_consent.display_options.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.cookie_consent.display_options.custom_text", "label": "Custom text"},
+          {"handle": "cf.cookie_consent.display_options.multi_language", "label": "Multi-language"},
+          {"handle": "cf.cookie_consent.display_options.language_detection", "label": "Language detection"},
+          {"handle": "cf.cookie_consent.display_options.translations", "label": "Translation"},
+          {"handle": "cf.cookie_consent.display_options.mobile_responsive", "label": "Mobile responsive"},
+          {"handle": "cf.cookie_consent.display_options.a_b_testing", "label": "A/B testing"},
+          {"handle": "cf.cookie_consent.display_options.headless_support", "label": "Headless support"},
+          {
+            "handle": "cf.cookie_consent.privacy_compliance.accessibility_compliance",
+            "label": "Accessibility compliance"
+          },
+          {"handle": "cf.cookie_consent.privacy_compliance.auto_blocking", "label": "Auto-blocking"},
+          {"handle": "cf.cookie_consent.privacy_compliance.consent_logs", "label": "Consent logs"},
+          {"handle": "cf.cookie_consent.privacy_compliance.consent_expiration", "label": "Consent expiration"},
+          {"handle": "cf.cookie_consent.privacy_compliance.cookie_scanner", "label": "Cookie scanner"},
+          {"handle": "cf.cookie_consent.privacy_compliance.data_management", "label": "Data management"},
+          {"handle": "cf.cookie_consent.privacy_compliance.policy_generator", "label": "Policy generator"},
+          {"handle": "cf.cookie_consent.regulation.apa_nzpa", "label": "APA-NZPA"},
+          {"handle": "cf.cookie_consent.regulation.appi", "label": "APPI"},
+          {"handle": "cf.cookie_consent.regulation.ccpa", "label": "CCPA"},
+          {"handle": "cf.cookie_consent.regulation.cpra", "label": "CPRA"},
+          {"handle": "cf.cookie_consent.regulation.ctdpa", "label": "CTDPA"},
+          {"handle": "cf.cookie_consent.regulation.eprivacy", "label": "ePrivacy"},
+          {"handle": "cf.cookie_consent.regulation.fadp", "label": "FADP"},
+          {"handle": "cf.cookie_consent.regulation.gdpr", "label": "GDPR"},
+          {"handle": "cf.cookie_consent.regulation.lgpd", "label": "LGPD"},
+          {"handle": "cf.cookie_consent.regulation.pdpa", "label": "PDPA"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Japanese",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "Amazon, TikTok & Meta Pixel",
+          "Google Ads & Analytics / GTM",
+          "Google Consent Mode V2",
+          "Klaviyo,Judge.me, Loox, Okendo",
+          "Microsoft Consent Mode",
+          "Sidekick"
+        ]
+      },
+      "developer": {
+        "name": "Consentmo",
+        "website_url": "https://www.consentmo.com/",
+        "partner_url": "https://apps.shopify.com/partners/isenselabs1",
+        "public_address": "ul. Prof. Georgi Bradistilov 4 Sofia Bulgaria, g.k. Studentksi Grad, Sofia, 1712, BG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/gdpr-backpack",
+        "canonical_app_store_url": "https://apps.shopify.com/gdpr-backpack",
+        "install_url": "https://apps.shopify.com/gdpr-backpack",
+        "demo_store_url": "https://gdpr-store-2.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.consentmo.com/privacy-policy-terms-of-service/en",
+          "FAQ": "https://support.consentmo.com/",
+          "Tutorial": "https://www.youtube.com/watch?v=VXDW-9mwaBA&list=PLSOD4ta0-GEDsPQVnAIhRnrOEuWUQRcFH",
+          "App Documentation": "https://support.consentmo.com/",
+          "Consentmo": "https://apps.shopify.com/partners/isenselabs1",
+          "Website": "https://www.consentmo.com/",
+          "Changelog": "https://www.consentmo.com/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/63ef59b872952601351925e45905ae6e/icon/CPfuk--TuJEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/63ef59b872952601351925e45905ae6e/promotional_image/CJbGwberi5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/63ef59b872952601351925e45905ae6e/desktop_screenshot/CNya-6vpzpADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/63ef59b872952601351925e45905ae6e/desktop_screenshot/CMn_hb-ti5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/63ef59b872952601351925e45905ae6e/desktop_screenshot/CKPjlYX87ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/63ef59b872952601351925e45905ae6e/desktop_screenshot/CJ-NoIX87ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/63ef59b872952601351925e45905ae6e/desktop_screenshot/CKG5pKzpzpADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/63ef59b872952601351925e45905ae6e/desktop_screenshot/COK7qYX87ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/63ef59b872952601351925e45905ae6e/pos_screenshot/CIjus4X87ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/63ef59b872952601351925e45905ae6e/pos_screenshot/CL2Y96zpzpADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/63ef59b872952601351925e45905ae6e/pos_screenshot/CKfyyo7CxJEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/63ef59b872952601351925e45905ae6e/pos_screenshot/CN7K047CxJEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/63ef59b872952601351925e45905ae6e/pos_screenshot/CM_rvYX87ZYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Consentmo GDPR Compliance free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/gdpr-backpack"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Italian,  Portuguese (Brazil),  Portuguese (Portugal),  Japanese,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/gdpr-backpack"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, Amazon, TikTok & Meta Pixel, Google Ads & Analytics / GTM, Google Consent Mode V2, Klaviyo,Judge.me, Loox, Okendo, Microsoft Consent Mode, Sidekick",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/gdpr-backpack"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/gdpr-backpack"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://support.consentmo.com/",
+            "https://www.youtube.com/watch?v=VXDW-9mwaBA&list=PLSOD4ta0-GEDsPQVnAIhRnrOEuWUQRcFH",
+            "https://support.consentmo.com/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["announcement-shipping-bars", "cookie-consent-privacy"],
+        "primary_category_id": "announcement-shipping-bars",
+        "seo": {
+          "title": "Consentmo GDPR Compliance Shopify App | eStorefy",
+          "meta_description": "A Shopify app for announcement & shipping bars. Listed functions include policy link, custom css.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/gdpr-backpack",
+          "retrieved_at": "2026-10-04T05:28:00.989388+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "GDPR & CCPA cookie consent for Shopify: Google-certified Consent Mode v2, TCF…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/gdpr-backpack"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "avada-cookie-bar",
+      "name": "Avada GDPR Cookie Consent",
+      "slug": "avada-cookie-bar",
+      "category_fit": {
+        "app_id": "avada-cookie-bar",
+        "selection_score": 6.1303,
+        "rating_evidence": {"value": 5.0, "reviews": 900},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["gdpr", "cookie", "consent"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/avada-cookie-bar"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for announcement & shipping bars. Listed functions include policy link, custom css.",
+        "description_long": "Avada GDPR Cookie Consent is developed by Avada and listed for cookie consent, banners. Its structured listing identifies functions such as policy link, custom css, preference selector, geolocation. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Announcement & Shipping Bars", "Cookie Consent & Privacy"],
+        "best_for": {
+          "use_cases": ["Announcement & Shipping Bars", "Cookie Consent & Privacy"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 900,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/avada-cookie-bar",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 884},
+          {"stars": 4, "percentage": 2, "count": 14},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 9.95,
+            "billing_period": "month",
+            "price_display": "$9.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $99.50/year and save 17%"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 23.95,
+            "billing_period": "month",
+            "price_display": "$23.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $239.50/year and save 17%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 34.0,
+            "billing_period": "month",
+            "price_display": "$34 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $340/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.95,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "April 15, 2022",
+        "shopify_categories": [
+          {
+            "name": "Cookie consent",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-cookie-consent"
+          },
+          {"name": "Banners", "url": "https://apps.shopify.com/categories/store-design-notifications-banners"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.cookie_consent.display_options.policy_link", "label": "Policy link"},
+          {"handle": "cf.cookie_consent.display_options.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.cookie_consent.display_options.preference_selector", "label": "Preference selector"},
+          {"handle": "cf.cookie_consent.display_options.geolocation", "label": "Geolocation"},
+          {"handle": "cf.cookie_consent.display_options.banner_design", "label": "Banner design"},
+          {"handle": "cf.cookie_consent.display_options.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.cookie_consent.display_options.custom_text", "label": "Custom text"},
+          {"handle": "cf.cookie_consent.display_options.multi_language", "label": "Multi-language"},
+          {"handle": "cf.cookie_consent.display_options.language_detection", "label": "Language detection"},
+          {"handle": "cf.cookie_consent.display_options.translations", "label": "Translation"},
+          {"handle": "cf.cookie_consent.display_options.mobile_responsive", "label": "Mobile responsive"},
+          {"handle": "cf.cookie_consent.display_options.headless_support", "label": "Headless support"},
+          {
+            "handle": "cf.cookie_consent.privacy_compliance.accessibility_compliance",
+            "label": "Accessibility compliance"
+          },
+          {"handle": "cf.cookie_consent.privacy_compliance.auto_blocking", "label": "Auto-blocking"},
+          {"handle": "cf.cookie_consent.privacy_compliance.consent_logs", "label": "Consent logs"},
+          {"handle": "cf.cookie_consent.privacy_compliance.cookie_scanner", "label": "Cookie scanner"},
+          {"handle": "cf.cookie_consent.privacy_compliance.data_management", "label": "Data management"},
+          {"handle": "cf.cookie_consent.privacy_compliance.policy_generator", "label": "Policy generator"},
+          {"handle": "cf.cookie_consent.regulation.appi", "label": "APPI"},
+          {"handle": "cf.cookie_consent.regulation.ccpa", "label": "CCPA"},
+          {"handle": "cf.cookie_consent.regulation.cpra", "label": "CPRA"},
+          {"handle": "cf.cookie_consent.regulation.ctdpa", "label": "CTDPA"},
+          {"handle": "cf.cookie_consent.regulation.gdpr", "label": "GDPR"},
+          {"handle": "cf.cookie_consent.regulation.lgpd", "label": "LGPD"},
+          {"handle": "cf.cookie_consent.regulation.pdpa", "label": "PDPA"},
+          {"handle": "cf.cookie_consent.regulation.pipeda", "label": "PIPEDA"},
+          {"handle": "cf.cookie_consent.regulation.ucpa", "label": "UCPA"},
+          {"handle": "cf.cookie_consent.regulation.vcdpa", "label": "VCDPA"},
+          {"handle": "cf.banners.banner_type.announcement_bar", "label": "Announcement bar"},
+          {"handle": "cf.banners.banner_type.cookie_consent", "label": "Cookie consent"}
+        ],
+        "languages": ["English", " French", " German", " Italian", " Spanish", " and Japanese"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "Checkout Block Extensibility",
+          "GCM, GTM, UET, Hydrogen store",
+          "Google Certified CMP Partner",
+          "Meta, Tiktok Klaviyo Pinterest",
+          "Sidekick, OpenAI, Claude",
+          "TCF IAB v2.4, Google Analytics"
+        ]
+      },
+      "developer": {
+        "name": "Avada",
+        "website_url": "https://avada.io/",
+        "partner_url": "https://apps.shopify.com/partners/avada",
+        "public_address": "102 Tran Phu, Ha Dong, Hanoi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/avada-cookie-bar",
+        "canonical_app_store_url": "https://apps.shopify.com/avada-cookie-bar",
+        "install_url": "https://apps.shopify.com/avada-cookie-bar",
+        "demo_store_url": "https://hellocookie.io/",
+        "resources": {
+          "Privacy policy": "https://avada.io/privacy-policy/",
+          "FAQ": "https://docs.avada.io/cookie-help-center",
+          "Tutorial": "https://docs.avada.io/cookie-help-center",
+          "App Documentation": "https://docs.avada.io/cookie-help-center",
+          "Avada": "https://apps.shopify.com/partners/avada",
+          "Website": "https://avada.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/dbe1ee81b6f653d56dda3d95474bdb33/icon/CMbj4-nJ-ZQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/dbe1ee81b6f653d56dda3d95474bdb33/promotional_image/CNXF5sKJiY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dbe1ee81b6f653d56dda3d95474bdb33/desktop_screenshot/CK6kuoOBiocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dbe1ee81b6f653d56dda3d95474bdb33/desktop_screenshot/CL-2w4OBiocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dbe1ee81b6f653d56dda3d95474bdb33/desktop_screenshot/CLThzIOBiocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dbe1ee81b6f653d56dda3d95474bdb33/desktop_screenshot/CMeT1oOBiocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dbe1ee81b6f653d56dda3d95474bdb33/desktop_screenshot/CPT74IOBiocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dbe1ee81b6f653d56dda3d95474bdb33/mobile_screenshot/CPOR6oOBiocDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Avada GDPR Cookie Consent free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/avada-cookie-bar"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  German,  Italian,  Spanish,  and Japanese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/avada-cookie-bar"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, Checkout Block Extensibility, GCM, GTM, UET, Hydrogen store, Google Certified CMP Partner, Meta, Tiktok Klaviyo Pinterest, Sidekick, OpenAI, Claude, TCF IAB v2.4, Google Analytics",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/avada-cookie-bar"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/avada-cookie-bar"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.avada.io/cookie-help-center",
+            "https://docs.avada.io/cookie-help-center",
+            "https://docs.avada.io/cookie-help-center"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["announcement-shipping-bars", "cookie-consent-privacy"],
+        "primary_category_id": "announcement-shipping-bars",
+        "seo": {
+          "title": "Avada GDPR Cookie Consent Shopify App | eStorefy",
+          "meta_description": "A Shopify app for announcement & shipping bars. Listed functions include policy link, custom css.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/avada-cookie-bar",
+          "retrieved_at": "2026-10-04T05:28:09.009739+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Install Shopify Avada GDPR Cookie Bar App lifetime: EU Cookie banner, cookie…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/avada-cookie-bar"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "tinycookie",
+      "name": "TinyCookie GDPR Cookies Banner",
+      "slug": "tinycookie",
+      "category_fit": {
+        "app_id": "tinycookie",
+        "selection_score": 5.9481,
+        "rating_evidence": {"value": 5.0, "reviews": 111},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["cookie", "gdpr", "consent"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/tinycookie"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for cookie consent & privacy. Listed functions include policy link, custom css.",
+        "description_long": "TinyCookie GDPR Cookies Banner is developed by TinySEO (former TinyIMG) and listed for cookie consent, banners. Its structured listing identifies functions such as policy link, custom css, preference selector, geolocation. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Cookie Consent & Privacy"],
+        "best_for": {
+          "use_cases": ["Cookie Consent & Privacy"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 111,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/tinycookie",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 110},
+          {"stars": 4, "percentage": 1, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 7.0,
+            "billing_period": "month",
+            "price_display": "$7 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $63/year and save 25%"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 12.0,
+            "billing_period": "month",
+            "price_display": "$12 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $108/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://tinycookie.com/pricing/",
+        "starting_paid_monthly_price_usd": 7.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 9, 2019",
+        "shopify_categories": [
+          {
+            "name": "Cookie consent",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-cookie-consent"
+          },
+          {"name": "Banners", "url": "https://apps.shopify.com/categories/store-design-notifications-banners"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.cookie_consent.display_options.policy_link", "label": "Policy link"},
+          {"handle": "cf.cookie_consent.display_options.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.cookie_consent.display_options.preference_selector", "label": "Preference selector"},
+          {"handle": "cf.cookie_consent.display_options.geolocation", "label": "Geolocation"},
+          {"handle": "cf.cookie_consent.display_options.banner_design", "label": "Banner design"},
+          {"handle": "cf.cookie_consent.display_options.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.cookie_consent.display_options.custom_text", "label": "Custom text"},
+          {"handle": "cf.cookie_consent.display_options.multi_language", "label": "Multi-language"},
+          {"handle": "cf.cookie_consent.display_options.language_detection", "label": "Language detection"},
+          {"handle": "cf.cookie_consent.display_options.translations", "label": "Translation"},
+          {"handle": "cf.cookie_consent.display_options.mobile_responsive", "label": "Mobile responsive"},
+          {"handle": "cf.cookie_consent.privacy_compliance.auto_blocking", "label": "Auto-blocking"},
+          {"handle": "cf.cookie_consent.privacy_compliance.consent_logs", "label": "Consent logs"},
+          {"handle": "cf.cookie_consent.privacy_compliance.consent_expiration", "label": "Consent expiration"},
+          {"handle": "cf.cookie_consent.privacy_compliance.cookie_scanner", "label": "Cookie scanner"},
+          {"handle": "cf.cookie_consent.privacy_compliance.data_management", "label": "Data management"},
+          {"handle": "cf.cookie_consent.privacy_compliance.policy_generator", "label": "Policy generator"},
+          {"handle": "cf.cookie_consent.regulation.apa_nzpa", "label": "APA-NZPA"},
+          {"handle": "cf.cookie_consent.regulation.appi", "label": "APPI"},
+          {"handle": "cf.cookie_consent.regulation.ccpa", "label": "CCPA"},
+          {"handle": "cf.cookie_consent.regulation.cpra", "label": "CPRA"},
+          {"handle": "cf.cookie_consent.regulation.ctdpa", "label": "CTDPA"},
+          {"handle": "cf.cookie_consent.regulation.eprivacy", "label": "ePrivacy"},
+          {"handle": "cf.cookie_consent.regulation.fadp", "label": "FADP"},
+          {"handle": "cf.cookie_consent.regulation.gdpr", "label": "GDPR"},
+          {"handle": "cf.cookie_consent.regulation.lgpd", "label": "LGPD"},
+          {"handle": "cf.cookie_consent.regulation.pdpa", "label": "PDPA"},
+          {"handle": "cf.cookie_consent.regulation.pipeda", "label": "PIPEDA"},
+          {"handle": "cf.cookie_consent.regulation.popia", "label": "POPIA"},
+          {"handle": "cf.cookie_consent.regulation.ucpa", "label": "UCPA"}
+        ],
+        "languages": ["English", " German", " French", " Japanese", " Italian", " Spanish", " and Portuguese (Portugal)"],
+        "works_with": [
+          "Shopify Admin",
+          "Customer Privacy API",
+          "GDPR & CCPA",
+          "Google Analytics (UA & GA4)",
+          "Google Consent Mode V2",
+          "Meta (Facebook) Pixel",
+          "Microsoft UET & Clarity"
+        ]
+      },
+      "developer": {
+        "name": "TinySEO (former TinyIMG)",
+        "website_url": "https://tinycookie.com/",
+        "partner_url": "https://apps.shopify.com/partners/sales-squad",
+        "public_address": "93 fernside road, Poole, ENG, bh152jq, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/tinycookie",
+        "canonical_app_store_url": "https://apps.shopify.com/tinycookie",
+        "install_url": "https://apps.shopify.com/tinycookie",
+        "demo_store_url": "https://tinycookie.com",
+        "resources": {
+          "Privacy policy": "https://tinycookie.com/privacy-policy/",
+          "TinySEO (former TinyIMG)": "https://apps.shopify.com/partners/sales-squad",
+          "Website": "https://tinycookie.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/3edd7c253289f0a3ade7668fdefc4456/icon/CKzAj5iKr4MDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/3edd7c253289f0a3ade7668fdefc4456/promotional_image/CPHd2If8zIsDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3edd7c253289f0a3ade7668fdefc4456/desktop_screenshot/COyB7pb6zJQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3edd7c253289f0a3ade7668fdefc4456/desktop_screenshot/CPWr-s2D24gDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3edd7c253289f0a3ade7668fdefc4456/desktop_screenshot/CMzRhM6D24gDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3edd7c253289f0a3ade7668fdefc4456/desktop_screenshot/CP-Uj86D24gDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3edd7c253289f0a3ade7668fdefc4456/desktop_screenshot/COWPmc6D24gDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3edd7c253289f0a3ade7668fdefc4456/desktop_screenshot/CNH-os6D24gDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is TinyCookie GDPR Cookies Banner free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/tinycookie"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Japanese,  Italian,  Spanish,  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/tinycookie"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Customer Privacy API, GDPR & CCPA, Google Analytics (UA & GA4), Google Consent Mode V2, Meta (Facebook) Pixel, Microsoft UET & Clarity",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/tinycookie"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/tinycookie"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose a narrowly scoped protection, backup or import configuration.",
+            "Test the result on sample data before applying it to the whole store.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["cookie-consent-privacy"],
+        "primary_category_id": "cookie-consent-privacy",
+        "seo": {
+          "title": "TinyCookie GDPR Cookies Banner Shopify App | eStorefy",
+          "meta_description": "A Shopify app for cookie consent & privacy. Listed functions include policy link, custom css.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/tinycookie",
+          "retrieved_at": "2026-10-04T05:28:08.904948+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Install TinyCOOKIE for instant compliance with European GDPR laws. Use a customizable…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/tinycookie"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "eu-cookies-notification",
+      "name": "Consentik GPDR Cookie Banner",
+      "slug": "eu-cookies-notification",
+      "category_fit": {
+        "app_id": "eu-cookies-notification",
+        "selection_score": 5.8676,
+        "rating_evidence": {"value": 4.8, "reviews": 304},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["consent", "cookie", "gdpr"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/eu-cookies-notification"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for cookie consent & privacy. Listed functions include policy link, custom css.",
+        "description_long": "Consentik GPDR Cookie Banner is developed by Consentik and listed for cookie consent, accessibility. Its structured listing identifies functions such as policy link, custom css, preference selector, geolocation. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Cookie Consent & Privacy"],
+        "best_for": {
+          "use_cases": ["Cookie Consent & Privacy"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 304,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/eu-cookies-notification",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 288},
+          {"stars": 4, "percentage": 3, "count": 8},
+          {"stars": 3, "percentage": 1, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 2, "count": 5}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PLUS",
+            "amount_usd": 7.99,
+            "billing_period": "month",
+            "price_display": "$7.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $69.99/year and save 27%"]
+          },
+          {
+            "name": "ADVANCED",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $179.99/year and save 25%"]
+          },
+          {
+            "name": "UNLIMITED",
+            "amount_usd": 39.99,
+            "billing_period": "month",
+            "price_display": "$39.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $359.99/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://consentik.com/pricing/",
+        "starting_paid_monthly_price_usd": 7.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 19, 2018 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Cookie consent",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-cookie-consent"
+          },
+          {
+            "name": "Accessibility",
+            "url": "https://apps.shopify.com/categories/store-design-site-optimization-accessibility"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.cookie_consent.display_options.policy_link", "label": "Policy link"},
+          {"handle": "cf.cookie_consent.display_options.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.cookie_consent.display_options.preference_selector", "label": "Preference selector"},
+          {"handle": "cf.cookie_consent.display_options.geolocation", "label": "Geolocation"},
+          {"handle": "cf.cookie_consent.display_options.banner_design", "label": "Banner design"},
+          {"handle": "cf.cookie_consent.display_options.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.cookie_consent.display_options.custom_text", "label": "Custom text"},
+          {"handle": "cf.cookie_consent.display_options.multi_language", "label": "Multi-language"},
+          {"handle": "cf.cookie_consent.display_options.language_detection", "label": "Language detection"},
+          {"handle": "cf.cookie_consent.display_options.translations", "label": "Translation"},
+          {"handle": "cf.cookie_consent.display_options.mobile_responsive", "label": "Mobile responsive"},
+          {"handle": "cf.cookie_consent.display_options.headless_support", "label": "Headless support"},
+          {
+            "handle": "cf.cookie_consent.privacy_compliance.accessibility_compliance",
+            "label": "Accessibility compliance"
+          },
+          {"handle": "cf.cookie_consent.privacy_compliance.auto_blocking", "label": "Auto-blocking"},
+          {"handle": "cf.cookie_consent.privacy_compliance.consent_logs", "label": "Consent logs"},
+          {"handle": "cf.cookie_consent.privacy_compliance.consent_expiration", "label": "Consent expiration"},
+          {"handle": "cf.cookie_consent.privacy_compliance.cookie_scanner", "label": "Cookie scanner"},
+          {"handle": "cf.cookie_consent.privacy_compliance.data_management", "label": "Data management"},
+          {"handle": "cf.cookie_consent.privacy_compliance.policy_generator", "label": "Policy generator"},
+          {"handle": "cf.cookie_consent.regulation.apa_nzpa", "label": "APA-NZPA"},
+          {"handle": "cf.cookie_consent.regulation.appi", "label": "APPI"},
+          {"handle": "cf.cookie_consent.regulation.ccpa", "label": "CCPA"},
+          {"handle": "cf.cookie_consent.regulation.cpra", "label": "CPRA"},
+          {"handle": "cf.cookie_consent.regulation.ctdpa", "label": "CTDPA"},
+          {"handle": "cf.cookie_consent.regulation.eprivacy", "label": "ePrivacy"},
+          {"handle": "cf.cookie_consent.regulation.fadp", "label": "FADP"},
+          {"handle": "cf.cookie_consent.regulation.gdpr", "label": "GDPR"},
+          {"handle": "cf.cookie_consent.regulation.lgpd", "label": "LGPD"},
+          {"handle": "cf.cookie_consent.regulation.pdpa", "label": "PDPA"},
+          {"handle": "cf.cookie_consent.regulation.pipeda", "label": "PIPEDA"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Spanish",
+          " Italian",
+          " German",
+          " Japanese",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "Checkout Extensibility",
+          "Google Consent Mode V2, UET",
+          "IAB TCF v2.3",
+          "Meta Pixel, Tiktok Pixel",
+          "Web Accessibility",
+          "Web Pixel, GPC, Headless store"
+        ]
+      },
+      "developer": {
+        "name": "Consentik",
+        "website_url": "https://www.consentik.com/",
+        "partner_url": "https://apps.shopify.com/partners/consentik-omega",
+        "public_address": "18/11 Thai Ha, Ha Noi, 70000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/eu-cookies-notification",
+        "canonical_app_store_url": "https://apps.shopify.com/eu-cookies-notification",
+        "install_url": "https://apps.shopify.com/eu-cookies-notification",
+        "demo_store_url": "https://consentik.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://consentik.com/privacy-policy/",
+          "App Documentation": "https://docs.consentik.com/",
+          "Consentik": "https://apps.shopify.com/partners/consentik-omega",
+          "Website": "https://www.consentik.com/",
+          "Changelog": "https://consentik.com/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6b2b8ff7415c82eba60cc5446d15596c/icon/CNid8uGQp4wDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6b2b8ff7415c82eba60cc5446d15596c/promotional_image/CJKT_PumuJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b2b8ff7415c82eba60cc5446d15596c/desktop_screenshot/CIWqhe72sY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b2b8ff7415c82eba60cc5446d15596c/desktop_screenshot/CJPAke72sY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b2b8ff7415c82eba60cc5446d15596c/desktop_screenshot/CM6D-_bxnY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b2b8ff7415c82eba60cc5446d15596c/desktop_screenshot/COiKmu72sY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b2b8ff7415c82eba60cc5446d15596c/desktop_screenshot/CJCkj_fxnY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b2b8ff7415c82eba60cc5446d15596c/desktop_screenshot/CKbemvfxnY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b2b8ff7415c82eba60cc5446d15596c/mobile_screenshot/CN2sp_fxnY4DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Consentik GPDR Cookie Banner free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/eu-cookies-notification"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Spanish,  Italian,  German,  Japanese,  Portuguese (Brazil),  Portuguese (Portugal),  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/eu-cookies-notification"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, Checkout Extensibility, Google Consent Mode V2, UET, IAB TCF v2.3, Meta Pixel, Tiktok Pixel, Web Accessibility, Web Pixel, GPC, Headless store",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/eu-cookies-notification"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/eu-cookies-notification"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.consentik.com/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose a narrowly scoped protection, backup or import configuration.",
+            "Test the result on sample data before applying it to the whole store.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["cookie-consent-privacy"],
+        "primary_category_id": "cookie-consent-privacy",
+        "seo": {
+          "title": "Consentik GPDR Cookie Banner Shopify App | eStorefy",
+          "meta_description": "A Shopify app for cookie consent & privacy. Listed functions include policy link, custom css.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/eu-cookies-notification",
+          "retrieved_at": "2026-10-04T05:28:09.069651+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Consentik GDPR Cookie Banner helps Shopify stores stay compliant with GDPR &…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/eu-cookies-notification"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

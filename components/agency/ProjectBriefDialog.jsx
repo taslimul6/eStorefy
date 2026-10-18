@@ -1,4 +1,5 @@
 "use client";
+import PartnerLink from "@/components/shared/PartnerLink";
 import { useEffect, useState } from "react";
 import Modal from "@/components/shared/Modal";
 import { downloadText } from "@/lib/download";
@@ -14,14 +15,10 @@ export default function ProjectBriefDialog({ agency, open, services, onClose }) 
       `SHOPIFY PROJECT BRIEF\nAgency: ${agency.name}\n\nService: ${form.get("service")}\nCurrent website: ${form.get("website") || "Not supplied"}\nOur budget preference: ${form.get("budget")}\nTarget launch: ${form.get("timing")}\n\nGoals & requirements:\n${form.get("goals")}\n\nQuestions for your proposal:\n- Relevant projects and proposed delivery team\n- Deliverables, exclusions, milestones and pricing\n- Software and ongoing costs\n- Testing, handover and post-launch support\n\nPlease confirm availability and a realistic delivery timeline.\n\nPrepared with eStorefy. Budget preferences are not agency quotes.`,
     );
   }
-  const emailUrl = agency.contact.email
-    ? `mailto:${agency.contact.email}?subject=${encodeURIComponent("Shopify project inquiry")}&body=${encodeURIComponent(brief)}`
-    : null;
   return (
     <Modal open={open} onClose={onClose} title="Your project brief.">
       <p className="sub">
-        Create a brief to download or open in your email app. Nothing is submitted
-        automatically.
+        Create a brief to download. Nothing is submitted automatically.
       </p>
       {brief && (
         <div>
@@ -33,19 +30,14 @@ export default function ProjectBriefDialog({ agency, open, services, onClose }) 
             >
               Download brief
             </button>
-            {emailUrl && (
-              <a className="btn" href={emailUrl}>
-                Open email draft
-              </a>
-            )}
+            <PartnerLink className="btn">Contact this agency ↗</PartnerLink>
             <button className="text-link" onClick={() => setBrief("")}>
               Edit brief
             </button>
           </div>
           <p className="dialog-note">
-            {agency.contact.email
-              ? `Recipient: ${agency.contact.email}. Opening a draft does not send it.`
-              : "No confirmed inquiry email is available. Download your brief and use the published contact source."}
+            The contact button opens our partner redirect. Your brief is not sent;
+            download it to keep a copy.
           </p>
         </div>
       )}

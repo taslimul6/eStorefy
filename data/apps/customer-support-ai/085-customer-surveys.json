@@ -1,0 +1,2809 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "customer-surveys",
+    "number": 85,
+    "name": "Customer Surveys",
+    "group": "Customer Support & AI",
+    "slug": "customer-surveys",
+    "url_path": "/apps/customer-surveys",
+    "focus": "Answer shopper questions and organize customer service.",
+    "description": "Compare Shopify apps for customer surveys. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/store-management-support-surveys/all"],
+    "seo": {
+      "title": "Shopify Customer Surveys Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for customer surveys: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 10,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a customer surveys app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "zigpoll",
+      "name": "Zigpoll Customer Surveys",
+      "slug": "zigpoll",
+      "category_fit": {
+        "app_id": "zigpoll",
+        "selection_score": 6.1,
+        "rating_evidence": {"value": 5.0, "reviews": 554},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["poll", "survey", "feedback"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/zigpoll"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for email marketing. Listed functions include conditional logic, custom styles.",
+        "description_long": "Zigpoll Customer Surveys is developed by Argonautic Labs and listed for surveys, analytics. Its structured listing identifies functions such as conditional logic, custom styles, drag-and-drop editor, embedded forms. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Email Marketing",
+          "SMS Marketing",
+          "Product Comparison",
+          "Customer Surveys",
+          "Marketing Attribution"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Email Marketing",
+            "SMS Marketing",
+            "Product Comparison",
+            "Customer Surveys",
+            "Marketing Attribution"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 554,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/zigpoll",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 544},
+          {"stars": 4, "percentage": 1, "count": 8},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Lite",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $348/year and save 26%"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 129.0,
+            "billing_period": "month",
+            "price_display": "$129 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,164/year and save 25%"]
+          },
+          {
+            "name": "Premier",
+            "amount_usd": 399.0,
+            "billing_period": "month",
+            "price_display": "$399 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $3,588/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.zigpoll.com/pricing",
+        "starting_paid_monthly_price_usd": 39.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "April 23, 2019",
+        "shopify_categories": [
+          {"name": "Surveys", "url": "https://apps.shopify.com/categories/store-management-support-surveys"},
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.surveys.form_customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.surveys.form_customization.custom_styles", "label": "Custom styles"},
+          {"handle": "cf.surveys.form_customization.drag_and_drop_editor", "label": "Drag-and-drop editor"},
+          {"handle": "cf.surveys.form_customization.embedded_forms", "label": "Embedded forms"},
+          {"handle": "cf.surveys.form_customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.surveys.form_customization.templates", "label": "Templates"},
+          {"handle": "cf.surveys.form_customization.multi_page", "label": "Multi-page"},
+          {"handle": "cf.surveys.form_customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.surveys.form_customization.real_time_edits", "label": "Real-time editing"},
+          {"handle": "cf.surveys.form_customization.scheduling", "label": "Scheduling"},
+          {"handle": "cf.surveys.form_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.surveys.survey_types.customer_satisfaction", "label": "Customer satisfaction"},
+          {"handle": "cf.surveys.survey_types.market_research", "label": "Market research"},
+          {"handle": "cf.surveys.survey_types.net_promoter_score_nps", "label": "Net Promoter Score (NPS)"},
+          {"handle": "cf.surveys.survey_types.product_feedback", "label": "Product feedback"},
+          {"handle": "cf.surveys.survey_types.post_purchase", "label": "Post-purchase"},
+          {"handle": "cf.surveys.survey_types.attribution", "label": "Attribution"},
+          {"handle": "cf.surveys.submission_management.sms", "label": "SMS"},
+          {"handle": "cf.surveys.submission_management.email", "label": "Email"},
+          {"handle": "cf.surveys.submission_management.data_export", "label": "Data export"},
+          {"handle": "cf.surveys.submission_management.analytics", "label": "Analytics"},
+          {"handle": "cf.surveys.submission_management.customer_segments", "label": "Customer segments"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.event_tracking", "label": "Event tracking"},
+          {"handle": "cf.analytics.customer_behavior.segmentation", "label": "Segmentation"},
+          {"handle": "cf.analytics.customer_behavior.visitor_ip", "label": "Visitor IP"},
+          {"handle": "cf.analytics.marketing_and_sales.ai_insights", "label": "AI insights"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "ActiveCampaign",
+          "Google Analytics",
+          "Google Sheets",
+          "Gorgias",
+          "Klaviyo",
+          "Mailchimp"
+        ]
+      },
+      "developer": {
+        "name": "Argonautic Labs",
+        "website_url": "https://www.zigpoll.com",
+        "partner_url": "https://apps.shopify.com/partners/jason-zigelbaum",
+        "public_address": "400 E 67th Street, New York, NY, 10065, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/zigpoll",
+        "canonical_app_store_url": "https://apps.shopify.com/zigpoll",
+        "install_url": "https://apps.shopify.com/zigpoll",
+        "demo_store_url": "https://www.zigpoll.com/demo/post-purchase",
+        "resources": {
+          "Privacy policy": "https://www.zigpoll.com/terms-and-policies",
+          "FAQ": "https://www.zigpoll.com/faq",
+          "Argonautic Labs": "https://apps.shopify.com/partners/jason-zigelbaum",
+          "Website": "https://www.zigpoll.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/icon/CN6KptDZyJYDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/promotional_image/CMDTmKrb8JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CMDy76HVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CICe-qHVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CIaRhKLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CMXHjqLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CNbMmKLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/mobile_screenshot/CNfjoqLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/pos_screenshot/CKjirKLVyJYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Zigpoll Customer Surveys free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, ActiveCampaign, Google Analytics, Google Sheets, Gorgias, Klaviyo, Mailchimp",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://www.zigpoll.com/faq"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "email-marketing",
+          "sms-marketing",
+          "product-comparison",
+          "customer-surveys",
+          "marketing-attribution"
+        ],
+        "primary_category_id": "email-marketing",
+        "seo": {
+          "title": "Zigpoll Customer Surveys Shopify App | eStorefy",
+          "meta_description": "A Shopify app for email marketing. Listed functions include conditional logic, custom styles.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/zigpoll",
+          "retrieved_at": "2026-10-04T05:25:58.246372+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Post-purchase, attribution, NPS, exit-intent, email and SMS surveys for Shopify. See how…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/zigpoll"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "grapevine",
+      "name": "Grapevine Post Purchase Survey",
+      "slug": "grapevine",
+      "category_fit": {
+        "app_id": "grapevine",
+        "selection_score": 6.0295,
+        "rating_evidence": {"value": 5.0, "reviews": 228},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["survey"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/grapevine"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for customer surveys. Listed functions include conditional logic, custom styles.",
+        "description_long": "Grapevine Post Purchase Survey is developed by Union Works Apps and listed for surveys, analytics. Its structured listing identifies functions such as conditional logic, custom styles, drag-and-drop editor, embedded forms. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Customer Surveys", "Marketing Attribution"],
+        "best_for": {
+          "use_cases": ["Customer Surveys", "Marketing Attribution"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 228,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/grapevine",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 221},
+          {"stars": 4, "percentage": 3, "count": 7},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "$25/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Complete",
+            "amount_usd": 25.0,
+            "billing_period": "month",
+            "price_display": "$25 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://grapevine-surveys.com/pages/pricing",
+        "starting_paid_monthly_price_usd": 25.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 17, 2017 · Changelog",
+        "shopify_categories": [
+          {"name": "Surveys", "url": "https://apps.shopify.com/categories/store-management-support-surveys"},
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.surveys.form_customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.surveys.form_customization.custom_styles", "label": "Custom styles"},
+          {"handle": "cf.surveys.form_customization.drag_and_drop_editor", "label": "Drag-and-drop editor"},
+          {"handle": "cf.surveys.form_customization.embedded_forms", "label": "Embedded forms"},
+          {"handle": "cf.surveys.form_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.surveys.survey_types.customer_satisfaction", "label": "Customer satisfaction"},
+          {"handle": "cf.surveys.survey_types.market_research", "label": "Market research"},
+          {"handle": "cf.surveys.survey_types.net_promoter_score_nps", "label": "Net Promoter Score (NPS)"},
+          {"handle": "cf.surveys.survey_types.product_feedback", "label": "Product feedback"},
+          {"handle": "cf.surveys.survey_types.post_purchase", "label": "Post-purchase"},
+          {"handle": "cf.surveys.survey_types.attribution", "label": "Attribution"},
+          {"handle": "cf.surveys.submission_management.data_export", "label": "Data export"},
+          {"handle": "cf.surveys.submission_management.analytics", "label": "Analytics"},
+          {"handle": "cf.surveys.submission_management.customer_segments", "label": "Customer segments"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.segmentation", "label": "Segmentation"},
+          {"handle": "cf.analytics.customer_behavior.loyalty_analysis", "label": "Loyalty analysis"},
+          {"handle": "cf.analytics.customer_behavior.cohort_analysis", "label": "Cohort analysis"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.funnel_analysis", "label": "Funnel analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.abandoned_carts", "label": "Abandoned cart"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"},
+          {"handle": "cf.analytics.visuals_and_reports.benchmarking", "label": "Benchmarking"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_reports", "label": "Custom reports"},
+          {"handle": "cf.analytics.visuals_and_reports.data_export", "label": "Data export"},
+          {"handle": "cf.analytics.visuals_and_reports.historical_analysis", "label": "Historical analysis"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Spanish",
+          " German",
+          " Italian",
+          " Portuguese (Brazil)",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": [
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Checkout Extensions",
+          "Google Analytics",
+          "Google Sheets",
+          "Klaviyo",
+          "POS",
+          "Thank you & Order Status Page"
+        ]
+      },
+      "developer": {
+        "name": "Union Works Apps",
+        "website_url": "https://grapevine-surveys.com/",
+        "partner_url": "https://apps.shopify.com/partners/unionworks",
+        "public_address": "86-90 Paul Street, London, EC2A 4NE, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/grapevine",
+        "canonical_app_store_url": "https://apps.shopify.com/grapevine",
+        "install_url": "https://apps.shopify.com/grapevine",
+        "demo_store_url": "https://grapevine-surveys.com/",
+        "resources": {
+          "Privacy policy": "https://grapevine-surveys.com/pages/legal",
+          "FAQ": "https://docs.grapevine-surveys.com/en/collections/624454-faqs-and-privacy",
+          "Tutorial": "https://grapevine-surveys.com/products/grapevine-demo-product",
+          "Union Works Apps": "https://apps.shopify.com/partners/unionworks",
+          "Website": "https://grapevine-surveys.com/",
+          "Changelog": "https://grapevine-surveys.com/pages/grapevine-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/icon/CMLS7OaBsZIDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/promotional_image/CJDs15yLopUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/desktop_screenshot/CJLR292LopUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/desktop_screenshot/CM6t592LopUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/desktop_screenshot/CJGpoqe4pJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/desktop_screenshot/CICaq6e4pJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/desktop_screenshot/CMTqs6e4pJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/desktop_screenshot/CLDxvKe4pJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/pos_screenshot/CIr1jonvj5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/pos_screenshot/CJj0l4nvj5EDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Grapevine Post Purchase Survey free?",
+            "answer": "The pricing label retrieved from the listing is: $25/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/grapevine"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Spanish,  German,  Italian,  Portuguese (Brazil),  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/grapevine"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Checkout Extensions, Google Analytics, Google Sheets, Klaviyo, POS, Thank you & Order Status Page",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/grapevine"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/grapevine"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.grapevine-surveys.com/en/collections/624454-faqs-and-privacy",
+            "https://grapevine-surveys.com/products/grapevine-demo-product"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant communication channel and add the approved support content.",
+            "Test common questions and handover behaviour before enabling it for customers.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["customer-surveys", "marketing-attribution"],
+        "primary_category_id": "customer-surveys",
+        "seo": {
+          "title": "Grapevine Post Purchase Survey Shopify App | eStorefy",
+          "meta_description": "A Shopify app for customer surveys. Listed functions include conditional logic, custom styles.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/grapevine",
+          "retrieved_at": "2026-10-04T05:26:06.631645+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Run post purchase, NPS, CSAT and attribution surveys on Shopify with unlimited…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/grapevine"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "fairing",
+      "name": "Fairing Post Purchase Surveys",
+      "slug": "fairing",
+      "category_fit": {
+        "app_id": "fairing",
+        "selection_score": 6.0146,
+        "rating_evidence": {"value": 5.0, "reviews": 196},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["survey"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/fairing"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for order tracking. Listed functions include conditional logic, custom styles.",
+        "description_long": "Fairing Post Purchase Surveys is developed by Fairing and listed for surveys, analytics. Its structured listing identifies functions such as conditional logic, custom styles, drag-and-drop editor, embedded forms. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Order Tracking", "Customer Surveys", "Marketing Attribution"],
+        "best_for": {
+          "use_cases": ["Order Tracking", "Customer Surveys", "Marketing Attribution"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 196,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/fairing",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 194},
+          {"stars": 4, "percentage": 1, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Up to 200 orders",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "201 to 500 Orders",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "501 to 1k Orders",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "1,001 to 5k Orders",
+            "amount_usd": 149.0,
+            "billing_period": "month",
+            "price_display": "$149 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://fairing.co/pricing/",
+        "starting_paid_monthly_price_usd": 49.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "May 7, 2018 · Changelog",
+        "shopify_categories": [
+          {"name": "Surveys", "url": "https://apps.shopify.com/categories/store-management-support-surveys"},
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.surveys.form_customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.surveys.form_customization.custom_styles", "label": "Custom styles"},
+          {"handle": "cf.surveys.form_customization.drag_and_drop_editor", "label": "Drag-and-drop editor"},
+          {"handle": "cf.surveys.form_customization.embedded_forms", "label": "Embedded forms"},
+          {"handle": "cf.surveys.form_customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.surveys.form_customization.templates", "label": "Templates"},
+          {"handle": "cf.surveys.form_customization.multi_page", "label": "Multi-page"},
+          {"handle": "cf.surveys.form_customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.surveys.form_customization.real_time_edits", "label": "Real-time editing"},
+          {"handle": "cf.surveys.form_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.surveys.survey_types.customer_satisfaction", "label": "Customer satisfaction"},
+          {"handle": "cf.surveys.survey_types.market_research", "label": "Market research"},
+          {"handle": "cf.surveys.survey_types.net_promoter_score_nps", "label": "Net Promoter Score (NPS)"},
+          {"handle": "cf.surveys.survey_types.product_feedback", "label": "Product feedback"},
+          {"handle": "cf.surveys.survey_types.post_purchase", "label": "Post-purchase"},
+          {"handle": "cf.surveys.survey_types.attribution", "label": "Attribution"},
+          {"handle": "cf.surveys.submission_management.data_export", "label": "Data export"},
+          {"handle": "cf.surveys.submission_management.analytics", "label": "Analytics"},
+          {"handle": "cf.surveys.submission_management.customer_segments", "label": "Customer segments"},
+          {"handle": "cf.analytics.customer_behavior.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.segmentation", "label": "Segmentation"},
+          {"handle": "cf.analytics.customer_behavior.visitor_ip", "label": "Visitor IP"},
+          {"handle": "cf.analytics.customer_behavior.lifetime_value_ltv", "label": "Lifetime value (LTV)"},
+          {"handle": "cf.analytics.customer_behavior.loyalty_analysis", "label": "Loyalty analysis"},
+          {"handle": "cf.analytics.customer_behavior.cohort_analysis", "label": "Cohort analysis"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.checkout_analytics", "label": "Checkout analytics"},
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.profit_insights", "label": "Profit insights"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Analytics",
+          "Checkout Extensions",
+          "Flow",
+          "Google Sheets",
+          "Klaviyo",
+          "Triple Whale"
+        ]
+      },
+      "developer": {
+        "name": "Fairing",
+        "website_url": "https://fairing.co/?utm_source=shpfy_app_store&utm_medium=listing_link",
+        "partner_url": "https://apps.shopify.com/partners/hodi-inc",
+        "public_address": "1460 Broadway, New York, NY, 10036, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/fairing",
+        "canonical_app_store_url": "https://apps.shopify.com/fairing",
+        "install_url": "https://apps.shopify.com/fairing",
+        "demo_store_url": "https://fairingdemo.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://fairing.co/privacy",
+          "FAQ": "http://docs.fairing.co/docs/",
+          "Fairing": "https://apps.shopify.com/partners/hodi-inc",
+          "Website": "https://fairing.co/",
+          "Changelog": "https://fairing.canny.io/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/b012f4ba86663a72ddc26dcdfe1f9ffe/icon/CKLB_tKX_ZUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/b012f4ba86663a72ddc26dcdfe1f9ffe/promotional_image/CJ2uxZa97JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b012f4ba86663a72ddc26dcdfe1f9ffe/desktop_screenshot/CKz12aes-5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b012f4ba86663a72ddc26dcdfe1f9ffe/desktop_screenshot/COH05Kes-5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b012f4ba86663a72ddc26dcdfe1f9ffe/desktop_screenshot/CK2x76es-5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b012f4ba86663a72ddc26dcdfe1f9ffe/desktop_screenshot/CLu6-aes-5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b012f4ba86663a72ddc26dcdfe1f9ffe/pos_screenshot/CNPQsPK57ZADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Fairing Post Purchase Surveys free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/fairing"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/fairing"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify POS, Shopify Flow, Analytics, Checkout Extensions, Flow, Google Sheets, Klaviyo, Triple Whale",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/fairing"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/fairing"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["http://docs.fairing.co/docs/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["order-tracking", "customer-surveys", "marketing-attribution"],
+        "primary_category_id": "order-tracking",
+        "seo": {
+          "title": "Fairing Post Purchase Surveys Shopify App | eStorefy",
+          "meta_description": "A Shopify app for order tracking. Listed functions include conditional logic, custom styles.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/fairing",
+          "retrieved_at": "2026-10-04T05:26:06.646623+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Post-purchase surveys for Shopify. Solve marketing attribution, CRO, personalization, and more. Trusted…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/fairing"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "form-builder-by-hulkapps",
+      "name": "Hulk Contact Form Builder ",
+      "slug": "form-builder-by-hulkapps",
+      "category_fit": {
+        "app_id": "form-builder-by-hulkapps",
+        "selection_score": 5.9758,
+        "rating_evidence": {"value": 4.8, "reviews": 2026},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["survey"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/form-builder-by-hulkapps"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for customer surveys. Listed functions include applications, bookings.",
+        "description_long": "Hulk Contact Form Builder  is developed by HulkApps and listed for forms, surveys. Its structured listing identifies functions such as applications, bookings, contacts, custom. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Customer Surveys"],
+        "best_for": {
+          "use_cases": ["Customer Surveys"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 2026,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/form-builder-by-hulkapps",
+        "distribution": [
+          {"stars": 5, "percentage": 91, "count": 1},
+          {"stars": 4, "percentage": 5, "count": 104},
+          {"stars": 3, "percentage": 1, "count": 14},
+          {"stars": 2, "percentage": 0, "count": 8},
+          {"stars": 1, "percentage": 2, "count": 50}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic Plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro Plan",
+            "amount_usd": 12.9,
+            "billing_period": "month",
+            "price_display": "$12.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $129/year and save 17%"]
+          },
+          {
+            "name": "Pro+ Plan",
+            "amount_usd": 24.9,
+            "billing_period": "month",
+            "price_display": "$24.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $249/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.hulkapps.com/products/form-builder-app?utm_source=appstore&utm_medium=applisting&utm_campaign=pricinglist#app-pricing",
+        "starting_paid_monthly_price_usd": 12.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 11, 2017",
+        "shopify_categories": [
+          {"name": "Forms", "url": "https://apps.shopify.com/categories/store-design-notifications-forms"},
+          {"name": "Surveys", "url": "https://apps.shopify.com/categories/store-management-support-surveys"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.forms.form_types.applications", "label": "Applications"},
+          {"handle": "cf.forms.form_types.bookings", "label": "Bookings"},
+          {"handle": "cf.forms.form_types.contacts", "label": "Contacts"},
+          {"handle": "cf.forms.form_types.custom", "label": "Custom"},
+          {"handle": "cf.forms.form_types.feedback", "label": "Feedback"},
+          {"handle": "cf.forms.form_types.file_uploads", "label": "File upload"},
+          {"handle": "cf.forms.form_types.multi_step", "label": "Multi-step"},
+          {"handle": "cf.forms.form_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.forms.form_types.registrations", "label": "Registrations"},
+          {"handle": "cf.forms.form_types.surveys", "label": "Surveys"},
+          {"handle": "cf.forms.form_types.wholesale", "label": "Wholesale"},
+          {"handle": "cf.forms.customization.fonts_and_colors", "label": "Font and color"},
+          {"handle": "cf.forms.customization.custom_fields", "label": "Custom fields"},
+          {"handle": "cf.forms.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.forms.customization.custom_javascript", "label": "Custom JavaScript"},
+          {"handle": "cf.forms.customization.embedded_forms", "label": "Embedded forms"},
+          {"handle": "cf.forms.customization.email_templates", "label": "Email templates"},
+          {"handle": "cf.forms.customization.dynamic_logic", "label": "Dynamic logic"},
+          {"handle": "cf.forms.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.forms.customization.gdpr_checkbox", "label": "GDPR checkbox"},
+          {"handle": "cf.forms.data_management.email_responses", "label": "Email responses"},
+          {"handle": "cf.forms.data_management.data_export", "label": "Data export"},
+          {"handle": "cf.forms.data_management.dashboard", "label": "Dashboard"},
+          {"handle": "cf.forms.data_management.form_limits", "label": "Form limits"},
+          {"handle": "cf.forms.data_management.history", "label": "History"},
+          {"handle": "cf.forms.data_management.analytics", "label": "Analytics"},
+          {"handle": "cf.forms.data_management.captcha", "label": "CAPTCHA"},
+          {"handle": "cf.surveys.form_customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.surveys.form_customization.custom_styles", "label": "Custom styles"},
+          {"handle": "cf.surveys.form_customization.embedded_forms", "label": "Embedded forms"}
+        ],
+        "languages": [
+          "Danish",
+          " German",
+          " English",
+          " Spanish",
+          " Finnish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Portuguese (Brazil)",
+          " Swedish",
+          " Thai",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Czech",
+          " Polish",
+          " Portuguese (Portugal)",
+          " and Turkish"
+        ],
+        "works_with": [
+          "Shopify Flow",
+          "Shopify Admin",
+          "Google Sheets",
+          "Klaviyo",
+          "MailChimp",
+          "Slack",
+          "Stripe, PayPal",
+          "Zapier, ZeroBounce"
+        ]
+      },
+      "developer": {
+        "name": "HulkApps",
+        "website_url": "https://www.hulkapps.com/?utm_source=appstore&utm_medium=listing&utm_campaign=websiteURL",
+        "partner_url": "https://apps.shopify.com/partners/hulk-code",
+        "public_address": "1 Kingdom Street, Paddington Central, London, ENG, W2 6BD, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/form-builder-by-hulkapps",
+        "canonical_app_store_url": "https://apps.shopify.com/form-builder-by-hulkapps",
+        "install_url": "https://apps.shopify.com/form-builder-by-hulkapps",
+        "demo_store_url": "https://formbuilder.hulkapps.store/pages/examples",
+        "resources": {
+          "Privacy policy": "https://shopcircle.co/pages/privacy-policy-hulk-form-builder",
+          "App Documentation": "https://support.hulkthemes.com/support/solutions/19000106384",
+          "HulkApps": "https://apps.shopify.com/partners/hulk-code",
+          "Website": "https://www.hulkapps.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/5f594019010246ebf55d691bd099265f/icon/CPLUib3Tpv0CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/5f594019010246ebf55d691bd099265f/desktop_screenshot/CN7zj67-iJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5f594019010246ebf55d691bd099265f/desktop_screenshot/CP2sma7-iJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5f594019010246ebf55d691bd099265f/desktop_screenshot/CIr3qq7-iJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5f594019010246ebf55d691bd099265f/desktop_screenshot/CLaLtK7-iJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5f594019010246ebf55d691bd099265f/desktop_screenshot/CN_LvK7-iJMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/dsoSytKNeRY"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Hulk Contact Form Builder  free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/form-builder-by-hulkapps"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "Danish,  German,  English,  Spanish,  Finnish,  French,  Italian,  Japanese,  Korean,  Norwegian (Bokmål),  Dutch,  Portuguese (Brazil),  Swedish,  Thai,  Chinese (Simplified),  Chinese (Traditional),  Czech,  Polish,  Portuguese (Portugal),  and Turkish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/form-builder-by-hulkapps"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Flow, Shopify Admin, Google Sheets, Klaviyo, MailChimp, Slack, Stripe, PayPal, Zapier, ZeroBounce",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/form-builder-by-hulkapps"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/form-builder-by-hulkapps"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://support.hulkthemes.com/support/solutions/19000106384"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant communication channel and add the approved support content.",
+            "Test common questions and handover behaviour before enabling it for customers.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["customer-surveys"],
+        "primary_category_id": "customer-surveys",
+        "seo": {
+          "title": "Hulk Contact Form Builder  Shopify App | eStorefy",
+          "meta_description": "A Shopify app for customer surveys. Listed functions include applications, bookings.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/form-builder-by-hulkapps",
+          "retrieved_at": "2026-10-04T05:25:58.108549+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "With the help of the Hulk Form Builder, you'll be able to…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/form-builder-by-hulkapps"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "sea-survey",
+      "name": "SEA Post Purchase Survey Quiz",
+      "slug": "sea-survey",
+      "category_fit": {
+        "app_id": "sea-survey",
+        "selection_score": 5.9174,
+        "rating_evidence": {"value": 4.9, "reviews": 183},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["survey"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/sea-survey"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for product recommendation quizzes. Listed functions include conditional logic, custom styles.",
+        "description_long": "SEA Post Purchase Survey Quiz is developed by SEA Commerce by Avada and listed for surveys, pop-ups. Its structured listing identifies functions such as conditional logic, custom styles, drag-and-drop editor, embedded forms. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Recommendation Quizzes", "Customer Surveys"],
+        "best_for": {
+          "use_cases": ["Product Recommendation Quizzes", "Customer Surveys"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 183,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/sea-survey",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 176},
+          {"stars": 4, "percentage": 2, "count": 4},
+          {"stars": 3, "percentage": 2, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "December 10, 2024",
+        "shopify_categories": [
+          {"name": "Surveys", "url": "https://apps.shopify.com/categories/store-management-support-surveys"},
+          {"name": "Pop-ups", "url": "https://apps.shopify.com/categories/store-design-notifications-pop-ups"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.surveys.form_customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.surveys.form_customization.custom_styles", "label": "Custom styles"},
+          {"handle": "cf.surveys.form_customization.drag_and_drop_editor", "label": "Drag-and-drop editor"},
+          {"handle": "cf.surveys.form_customization.embedded_forms", "label": "Embedded forms"},
+          {"handle": "cf.surveys.form_customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.surveys.form_customization.templates", "label": "Templates"},
+          {"handle": "cf.surveys.form_customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.surveys.form_customization.real_time_edits", "label": "Real-time editing"},
+          {"handle": "cf.surveys.form_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.surveys.survey_types.customer_satisfaction", "label": "Customer satisfaction"},
+          {"handle": "cf.surveys.survey_types.market_research", "label": "Market research"},
+          {"handle": "cf.surveys.survey_types.net_promoter_score_nps", "label": "Net Promoter Score (NPS)"},
+          {"handle": "cf.surveys.survey_types.product_feedback", "label": "Product feedback"},
+          {"handle": "cf.surveys.survey_types.post_purchase", "label": "Post-purchase"},
+          {"handle": "cf.surveys.survey_types.attribution", "label": "Attribution"},
+          {"handle": "cf.surveys.submission_management.email", "label": "Email"},
+          {"handle": "cf.surveys.submission_management.data_export", "label": "Data export"},
+          {"handle": "cf.surveys.submission_management.analytics", "label": "Analytics"},
+          {"handle": "cf.surveys.submission_management.customer_segments", "label": "Customer segments"},
+          {"handle": "cf.pop_ups.pop_up_types.exit_intent", "label": "Exit intent"},
+          {"handle": "cf.pop_ups.pop_up_types.discounts", "label": "Discounts"},
+          {"handle": "cf.pop_ups.pop_up_types.forms", "label": "Forms"},
+          {"handle": "cf.pop_ups.pop_up_types.surveys", "label": "Surveys"},
+          {"handle": "cf.pop_ups.pop_up_types.quizzes", "label": "Quizzes"},
+          {"handle": "cf.pop_ups.pop_up_types.reviews_pop_up", "label": "Reviews pop-up"},
+          {"handle": "cf.pop_ups.pop_up_types.custom_pop_ups", "label": "Custom pop-ups"},
+          {"handle": "cf.pop_ups.managing_pop_ups.templates", "label": "Templates"},
+          {"handle": "cf.pop_ups.managing_pop_ups.translation", "label": "Translation"},
+          {"handle": "cf.pop_ups.managing_pop_ups.campaigns", "label": "Campaigns"},
+          {"handle": "cf.pop_ups.managing_pop_ups.triggers_and_rules", "label": "Triggers and rules"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " German",
+          " Japanese",
+          " Spanish",
+          " Chinese (Simplified)",
+          " Italian",
+          " Portuguese (Brazil)",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Flow",
+          "Gemini",
+          "Google analytics",
+          "Google Sheets",
+          "Klaviyo",
+          "Zapier"
+        ]
+      },
+      "developer": {
+        "name": "SEA Commerce by Avada",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/air8",
+        "public_address": "Peace Centre, SG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/sea-survey",
+        "canonical_app_store_url": "https://apps.shopify.com/sea-survey",
+        "install_url": "https://apps.shopify.com/sea-survey",
+        "demo_store_url": "https://survey-demo-store.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://help.seacommerce.io/privacy-policy",
+          "SEA Commerce by Avada": "https://apps.shopify.com/partners/air8"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/bf3e2226fa53b6c8a983d1d689961067/icon/CIejiYbi_pMDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/bf3e2226fa53b6c8a983d1d689961067/promotional_image/COu7wu3doZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bf3e2226fa53b6c8a983d1d689961067/desktop_screenshot/CLi2kuzj-5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bf3e2226fa53b6c8a983d1d689961067/desktop_screenshot/CICs1u3doZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bf3e2226fa53b6c8a983d1d689961067/desktop_screenshot/CKLh3-3doZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bf3e2226fa53b6c8a983d1d689961067/desktop_screenshot/CKru6O3doZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bf3e2226fa53b6c8a983d1d689961067/desktop_screenshot/CLCa8u3doZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bf3e2226fa53b6c8a983d1d689961067/desktop_screenshot/CJGk--3doZMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is SEA Post Purchase Survey Quiz free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/sea-survey"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  German,  Japanese,  Spanish,  Chinese (Simplified),  Italian,  Portuguese (Brazil),  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/sea-survey"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Flow, Gemini, Google analytics, Google Sheets, Klaviyo, Zapier",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/sea-survey"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/sea-survey"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-recommendation-quizzes", "customer-surveys"],
+        "primary_category_id": "product-recommendation-quizzes",
+        "seo": {
+          "title": "SEA Post Purchase Survey Quiz Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product recommendation quizzes. Listed functions include conditional logic, custom styles.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/sea-survey",
+          "retrieved_at": "2026-10-04T05:26:06.589380+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "SEA Post Purchase Survey & Quiz is an easy-to-use app that helps…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/sea-survey"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "ai-form-builder-custom-forms",
+      "name": "FormCRM Contact Form Builder",
+      "slug": "ai-form-builder-custom-forms",
+      "category_fit": {
+        "app_id": "ai-form-builder-custom-forms",
+        "selection_score": 5.9101,
+        "rating_evidence": {"value": 5.0, "reviews": 85},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["survey", "feedback"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/ai-form-builder-custom-forms"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for customer file uploads. Listed functions include applications, bookings.",
+        "description_long": "FormCRM Contact Form Builder is developed by Axilweb Limited and listed for forms, surveys. Its structured listing identifies functions such as applications, bookings, contacts, custom. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Customer File Uploads", "Wholesale Catalogs & Order Forms", "Customer Surveys"],
+        "best_for": {
+          "use_cases": ["Customer File Uploads", "Wholesale Catalogs & Order Forms", "Customer Surveys"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 85,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/ai-form-builder-custom-forms",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 85},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Forever",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "BASIC (WAS $9.90)",
+            "amount_usd": 6.99,
+            "billing_period": "month",
+            "price_display": "$6.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["BASIC (WAS $9.90)", "or $58.72/year and save 30%"]
+          },
+          {
+            "name": "PRO (WAS $19.90)",
+            "amount_usd": 14.99,
+            "billing_period": "month",
+            "price_display": "$14.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["PRO (WAS $19.90)", "or $125.92/year and save 30%"]
+          },
+          {
+            "name": "BUSINESS",
+            "amount_usd": 24.99,
+            "billing_period": "month",
+            "price_display": "$24.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $209.92/year and save 30%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 6.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 16, 2024",
+        "shopify_categories": [
+          {"name": "Forms", "url": "https://apps.shopify.com/categories/store-design-notifications-forms"},
+          {"name": "Surveys", "url": "https://apps.shopify.com/categories/store-management-support-surveys"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.forms.form_types.applications", "label": "Applications"},
+          {"handle": "cf.forms.form_types.bookings", "label": "Bookings"},
+          {"handle": "cf.forms.form_types.contacts", "label": "Contacts"},
+          {"handle": "cf.forms.form_types.custom", "label": "Custom"},
+          {"handle": "cf.forms.form_types.feedback", "label": "Feedback"},
+          {"handle": "cf.forms.form_types.file_uploads", "label": "File upload"},
+          {"handle": "cf.forms.form_types.multi_step", "label": "Multi-step"},
+          {"handle": "cf.forms.form_types.newsletters", "label": "Newsletters"},
+          {"handle": "cf.forms.form_types.orders", "label": "Orders"},
+          {"handle": "cf.forms.form_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.forms.form_types.pricing_quotes", "label": "Pricing quotes"},
+          {"handle": "cf.forms.form_types.registrations", "label": "Registrations"},
+          {"handle": "cf.forms.form_types.surveys", "label": "Surveys"},
+          {"handle": "cf.forms.form_types.wholesale", "label": "Wholesale"},
+          {"handle": "cf.forms.customization.drag_and_drop_editor", "label": "Drag-and-drop editor"},
+          {"handle": "cf.forms.customization.fonts_and_colors", "label": "Font and color"},
+          {"handle": "cf.forms.customization.custom_fields", "label": "Custom fields"},
+          {"handle": "cf.forms.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.forms.customization.embedded_forms", "label": "Embedded forms"},
+          {"handle": "cf.forms.customization.email_templates", "label": "Email templates"},
+          {"handle": "cf.forms.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.forms.customization.dynamic_logic", "label": "Dynamic logic"},
+          {"handle": "cf.forms.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.forms.customization.gdpr_checkbox", "label": "GDPR checkbox"},
+          {"handle": "cf.forms.data_management.email_responses", "label": "Email responses"},
+          {"handle": "cf.forms.data_management.auto_sync", "label": "Auto-sync"},
+          {"handle": "cf.forms.data_management.data_export", "label": "Data export"},
+          {"handle": "cf.forms.data_management.dashboard", "label": "Dashboard"},
+          {"handle": "cf.forms.data_management.form_limits", "label": "Form limits"},
+          {"handle": "cf.forms.data_management.status_tracking", "label": "Status tracking"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " Portuguese (Brazil)",
+          " German",
+          " Italian",
+          " Bangla",
+          " Hindi",
+          " Arabic",
+          " Chinese (Simplified)",
+          " Russian",
+          " Turkish",
+          " and Japanese"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Customer accounts, Slack",
+          "Google reCaptcha",
+          "Google Sheets, Google Drive",
+          "Google SMTP, SendGrid, Zoho",
+          "Mailchimp, Klaviyo, HubSpot",
+          "Zapier"
+        ]
+      },
+      "developer": {
+        "name": "Axilweb Limited",
+        "website_url": "https://www.axilweb.com",
+        "partner_url": "https://apps.shopify.com/partners/axilweb-limited",
+        "public_address": "Level 2, House 61, Block C, Road 17 Banani, Dhaka, 1213, BD"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/ai-form-builder-custom-forms",
+        "canonical_app_store_url": "https://apps.shopify.com/ai-form-builder-custom-forms",
+        "install_url": "https://apps.shopify.com/ai-form-builder-custom-forms",
+        "demo_store_url": "https://demo-formcrm.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.axilweb.com/AI-Form-Builder-Privacy-Policy",
+          "Axilweb Limited": "https://apps.shopify.com/partners/axilweb-limited",
+          "Website": "https://www.axilweb.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/df4674ab9a13a7f2ade8b8aa891d53b4/icon/CObujsqvqYgDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/df4674ab9a13a7f2ade8b8aa891d53b4/promotional_image/CPLxpoCeh5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/df4674ab9a13a7f2ade8b8aa891d53b4/desktop_screenshot/CObDs4Ceh5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/df4674ab9a13a7f2ade8b8aa891d53b4/desktop_screenshot/CO65v4Ceh5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/df4674ab9a13a7f2ade8b8aa891d53b4/desktop_screenshot/CJa3y4Ceh5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/df4674ab9a13a7f2ade8b8aa891d53b4/desktop_screenshot/CNuz1oCeh5cDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is FormCRM Contact Form Builder free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/ai-form-builder-custom-forms"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  Portuguese (Brazil),  German,  Italian,  Bangla,  Hindi,  Arabic,  Chinese (Simplified),  Russian,  Turkish,  and Japanese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ai-form-builder-custom-forms"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Flow, Shopify Admin, Customer accounts, Slack, Google reCaptcha, Google Sheets, Google Drive, Google SMTP, SendGrid, Zoho, Mailchimp, Klaviyo, HubSpot, Zapier",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ai-form-builder-custom-forms"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/ai-form-builder-custom-forms"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create the options, personalization fields or sizing content required for a sample product.",
+            "Place a test order and check that the selected details are captured correctly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["customer-file-uploads", "wholesale-catalogs-order-forms", "customer-surveys"],
+        "primary_category_id": "customer-file-uploads",
+        "seo": {
+          "title": "FormCRM Contact Form Builder Shopify App | eStorefy",
+          "meta_description": "A Shopify app for customer file uploads. Listed functions include applications, bookings.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/ai-form-builder-custom-forms",
+          "retrieved_at": "2026-10-04T05:14:58.784770+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Enhance your online store with FormCRM: AI Form Builder & CRM! Design…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/ai-form-builder-custom-forms"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "reputon-store-reviews",
+      "name": "Reputon Customer Reviews App",
+      "slug": "reputon-store-reviews",
+      "category_fit": {
+        "app_id": "reputon-store-reviews",
+        "selection_score": 5.8965,
+        "rating_evidence": {"value": 4.9, "reviews": 1165},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["feedback"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/reputon-store-reviews"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for product reviews. Listed functions include star ratings, badges.",
+        "description_long": "Reputon Customer Reviews App is developed by Reputon and listed for product reviews, social proof. Its structured listing identifies functions such as star ratings, badges, email requests, push notifications. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Product Reviews",
+          "Meta Pixel & Conversion Tracking",
+          "Customer Surveys",
+          "Geolocation & Country Redirects"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Product Reviews",
+            "Meta Pixel & Conversion Tracking",
+            "Customer Surveys",
+            "Geolocation & Country Redirects"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1165,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/reputon-store-reviews",
+        "distribution": [
+          {"stars": 5, "percentage": 91, "count": 1},
+          {"stars": 4, "percentage": 7, "count": 79},
+          {"stars": 3, "percentage": 2, "count": 19},
+          {"stars": 2, "percentage": 0, "count": 3},
+          {"stars": 1, "percentage": 1, "count": 7}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Beginner",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Lite",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$1 per 15 extra emails"]
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 24.99,
+            "billing_period": "month",
+            "price_display": "$24.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$5 per 100 extra emails"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$5 per 150 extra emails"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://reputon.com/apps/customer-reviews-booster#pricing-plan",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 26, 2018 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Product reviews",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews"
+          },
+          {
+            "name": "Social proof",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-social-proof"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_reviews.display_options.star_ratings", "label": "Star ratings"},
+          {"handle": "cf.product_reviews.display_options.badges", "label": "Badges"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.email_requests", "label": "Email requests"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.push_notifications",
+            "label": "Push notifications"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.surveys", "label": "Surveys"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.qr_codes", "label": "QR codes"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.automations", "label": "Automations"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.custom_requests", "label": "Custom requests"},
+          {"handle": "cf.social_proof.content_types.reviews", "label": "Reviews"},
+          {"handle": "cf.social_proof.display_options.review_count", "label": "Review count"},
+          {"handle": "cf.social_proof.display_options.social_links", "label": "Social links"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Chinese (Simplified)",
+          " Japanese",
+          " Russian",
+          " Polish",
+          " Turkish",
+          " Swedish",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "AfterShip",
+          "email",
+          "facebook reviews",
+          "google reviews",
+          "Trustpilot"
+        ]
+      },
+      "developer": {
+        "name": "Reputon",
+        "website_url": "https://reputon.com",
+        "partner_url": "https://apps.shopify.com/partners/reputon",
+        "public_address": "CLAYMONT, DE, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/reputon-store-reviews",
+        "canonical_app_store_url": "https://apps.shopify.com/reputon-store-reviews",
+        "install_url": "https://apps.shopify.com/reputon-store-reviews",
+        "demo_store_url": "https://customer-reviews-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://reputon.com/privacy-policy",
+          "FAQ": "https://reputon.gitbook.io/reputon-help/customer-reviews-app",
+          "Reputon": "https://apps.shopify.com/partners/reputon",
+          "Website": "https://reputon.com",
+          "Changelog": "https://headwayapp.co/reputon-customer-reviews-app-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/icon/CJ7T19_0lu8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/promotional_image/CNicyZzOrpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/desktop_screenshot/CLrl05zOrpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/desktop_screenshot/CP62rpOQ3JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/desktop_screenshot/CN6DztCQ3JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/desktop_screenshot/CI7t19CQ3JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/desktop_screenshot/CIDq-pzOrpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/mobile_screenshot/CJn2g53OrpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/mobile_screenshot/CKbKjJ3OrpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/pos_screenshot/CPXA4dCQ3JQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Reputon Customer Reviews App free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/reputon-store-reviews"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Italian,  Portuguese (Brazil),  Chinese (Simplified),  Japanese,  Russian,  Polish,  Turkish,  Swedish,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/reputon-store-reviews"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Flow, Shopify Admin, AfterShip, email, facebook reviews, google reviews, Trustpilot",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/reputon-store-reviews"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/reputon-store-reviews"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://reputon.gitbook.io/reputon-help/customer-reviews-app"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "product-reviews",
+          "meta-pixel-conversion-tracking",
+          "customer-surveys",
+          "geolocation-country-redirects"
+        ],
+        "primary_category_id": "product-reviews",
+        "seo": {
+          "title": "Reputon Customer Reviews App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product reviews. Listed functions include star ratings, badges.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/reputon-store-reviews",
+          "retrieved_at": "2026-10-04T05:09:31.101748+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Collect reviews on Facebook, Etsy, Trustpilot and Google reviews. Send automated AI…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/reputon-store-reviews"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "session-recording-now",
+      "name": "Propel Replay, Survey, Heatmap",
+      "slug": "session-recording-now",
+      "category_fit": {
+        "app_id": "session-recording-now",
+        "selection_score": 5.8678,
+        "rating_evidence": {"value": 4.9, "reviews": 699},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["survey"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/session-recording-now"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for customer surveys. Listed functions include real-time tracking, activity tracking.",
+        "description_long": "Propel Replay, Survey, Heatmap is developed by Propel Commerce and listed for analytics, site optimization - other. Its structured listing identifies functions such as real-time tracking, activity tracking, event tracking, session replay. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Customer Surveys", "Marketing Attribution", "Heatmaps & Session Recordings"],
+        "best_for": {
+          "use_cases": ["Customer Surveys", "Marketing Attribution", "Heatmaps & Session Recordings"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 699,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/session-recording-now",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 668},
+          {"stars": 4, "percentage": 2, "count": 15},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 1, "count": 4},
+          {"stars": 1, "percentage": 2, "count": 11}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Sampler",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 9.9,
+            "billing_period": "month",
+            "price_display": "$9.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $89.10/year and save 25%"]
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 19.9,
+            "billing_period": "month",
+            "price_display": "$19.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $179.10/year and save 25%"]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 39.9,
+            "billing_period": "month",
+            "price_display": "$39.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $359.10/year and save 25%",
+              "For Shopify Plus merchants, Enterprise plans with checkout recording start at $59.90/mo."
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://propelcommerce.io/#pricing",
+        "starting_paid_monthly_price_usd": 9.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 17, 2021",
+        "shopify_categories": [
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          },
+          {
+            "name": "Site optimization - Other",
+            "url": "https://apps.shopify.com/categories/store-design-site-optimization-site-optimization-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.analytics.customer_behavior.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.event_tracking", "label": "Event tracking"},
+          {"handle": "cf.analytics.customer_behavior.session_replay", "label": "Session replay"},
+          {"handle": "cf.analytics.customer_behavior.replay_filtering", "label": "Replay filtering"},
+          {"handle": "cf.analytics.customer_behavior.segmentation", "label": "Segmentation"},
+          {"handle": "cf.analytics.customer_behavior.page_views", "label": "Page views"},
+          {"handle": "cf.analytics.customer_behavior.visitor_ip", "label": "Visitor IP"},
+          {"handle": "cf.analytics.customer_behavior.lifetime_value_ltv", "label": "Lifetime value (LTV)"},
+          {"handle": "cf.analytics.customer_behavior.broken_links", "label": "Broken links"},
+          {"handle": "cf.analytics.customer_behavior.loyalty_analysis", "label": "Loyalty analysis"},
+          {"handle": "cf.analytics.customer_behavior.cohort_analysis", "label": "Cohort analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.ai_insights", "label": "AI insights"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.checkout_analytics", "label": "Checkout analytics"},
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.profit_insights", "label": "Profit insights"},
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.funnel_analysis", "label": "Funnel analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.abandoned_carts", "label": "Abandoned cart"},
+          {"handle": "cf.analytics.marketing_and_sales.pixel_tracking", "label": "Pixel tracking"},
+          {"handle": "cf.analytics.visuals_and_reports.heatmaps", "label": "Heatmaps"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_dashboard", "label": "Custom dashboards"},
+          {"handle": "cf.analytics.visuals_and_reports.benchmarking", "label": "Benchmarking"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_reports", "label": "Custom reports"},
+          {"handle": "cf.analytics.visuals_and_reports.data_export", "label": "Data export"},
+          {"handle": "cf.analytics.visuals_and_reports.historical_analysis", "label": "Historical analysis"},
+          {"handle": "cf.analytics.visuals_and_reports.forecasting", "label": "Forecasting"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Admin", "Google Ads", "Meta Ads", "Microsoft Ads", "TikTok Ads"]
+      },
+      "developer": {
+        "name": "Propel Commerce",
+        "website_url": "https://propelcommerce.io/",
+        "partner_url": "https://apps.shopify.com/partners/propel-commerce",
+        "public_address": "170-422 Richards St, Vancouver, BC, V6B2Z4, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/session-recording-now",
+        "canonical_app_store_url": "https://apps.shopify.com/session-recording-now",
+        "install_url": "https://apps.shopify.com/session-recording-now",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://propelcommerce.io/privacy/replays",
+          "FAQ": "https://docs.propelcommerce.io/replays/",
+          "Propel Commerce": "https://apps.shopify.com/partners/propel-commerce",
+          "Website": "https://propelcommerce.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/icon/CNyTub_73JIDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/promotional_image/CIrXy7DU_ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/desktop_screenshot/CKKDz-fgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/desktop_screenshot/CJ_qtrqPsJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/desktop_screenshot/CND14-fgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/desktop_screenshot/CLmi7ufgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/desktop_screenshot/CInt9-fgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/desktop_screenshot/CJzCgujgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/mobile_screenshot/CJiujejgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/mobile_screenshot/CLXslujgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/mobile_screenshot/CNGaoOjgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/mobile_screenshot/CLKGqejgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/mobile_screenshot/CJHtsejgqpYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Propel Replay, Survey, Heatmap free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/session-recording-now"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/session-recording-now"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Google Ads, Meta Ads, Microsoft Ads, TikTok Ads",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/session-recording-now"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/session-recording-now"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.propelcommerce.io/replays/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant communication channel and add the approved support content.",
+            "Test common questions and handover behaviour before enabling it for customers.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["customer-surveys", "marketing-attribution", "heatmaps-session-recordings"],
+        "primary_category_id": "customer-surveys",
+        "seo": {
+          "title": "Propel Replay, Survey, Heatmap Shopify App | eStorefy",
+          "meta_description": "A Shopify app for customer surveys. Listed functions include real-time tracking, activity tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/session-recording-now",
+          "retrieved_at": "2026-10-04T05:26:16.083447+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/session-recording-now"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "checkoutplus",
+      "name": "Checkout Plus",
+      "slug": "checkoutplus",
+      "category_fit": {
+        "app_id": "checkoutplus",
+        "selection_score": 5.8061,
+        "rating_evidence": {"value": 5.0, "reviews": 118},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["survey"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/checkoutplus"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for checkout customization. Listed functions include checkout upsell, announcement bar.",
+        "description_long": "Checkout Plus is developed by Plus Apps and listed for checkout - other, upsell and cross-sell. Its structured listing identifies functions such as checkout upsell, announcement bar, progress bar, thank you page upsell. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Checkout Customization", "Customer Surveys"],
+        "best_for": {
+          "use_cases": ["Checkout Customization", "Customer Surveys"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 118,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/checkoutplus",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 116},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 1, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Staging & Dev",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": 7,
+            "additional_charge_notes": ["or $168/year and save 26%"]
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": 7,
+            "additional_charge_notes": ["or $432/year and save 27%"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 89.0,
+            "billing_period": "month",
+            "price_display": "$89 / month",
+            "trial_days": 7,
+            "additional_charge_notes": ["or $798/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 26, 2022 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Checkout - Other",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-checkout-checkout-other"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.upsell_and_cross_sell.customization.checkout_upsell", "label": "Checkout upsell"},
+          {"handle": "cf.upsell_and_cross_sell.customization.announcement_bar", "label": "Announcement bar"},
+          {"handle": "cf.upsell_and_cross_sell.customization.progress_bar", "label": "Progress bar"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.thank_you_page_upsell",
+            "label": "Thank you page upsell"
+          },
+          {"handle": "cf.upsell_and_cross_sell.customization.one_click_add_ons", "label": "One-click add-ons"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.drag_and_drop_editor",
+            "label": "Drag-and-drop editor"
+          },
+          {"handle": "cf.upsell_and_cross_sell.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.upsell_and_cross_sell.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.upsell_and_cross_sell.customization.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.upsell_and_cross_sell.offers_and_recommendations.warranties", "label": "Warranties"},
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.shipping_protection",
+            "label": "Shipping protection"
+          },
+          {"handle": "cf.upsell_and_cross_sell.offers_and_recommendations.free_gift", "label": "Free gifts"},
+          {"handle": "cf.upsell_and_cross_sell.offers_and_recommendations.gift_wrap", "label": "Gift wrap"},
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.free_shipping",
+            "label": "Free shipping"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.product_add_ons",
+            "label": "Product add-ons"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.product_recommendations",
+            "label": "Product recommendations"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.frequently_bought_together",
+            "label": "Frequently bought together"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.ai_recommendations",
+            "label": "AI recommendations"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.subscription_upgrade",
+            "label": "Subscription upgrade"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.priority_processing",
+            "label": "Priority processing"
+          },
+          {"handle": "cf.upsell_and_cross_sell.analytics.click_through_rates", "label": "Click-through rates"},
+          {"handle": "cf.upsell_and_cross_sell.analytics.conversion_rates", "label": "Conversion rates"},
+          {
+            "handle": "cf.upsell_and_cross_sell.analytics.recommendation_performance",
+            "label": "Recommendation performance"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.analytics.optimization_suggestions",
+            "label": "Optimization suggestions"
+          },
+          {"handle": "cf.upsell_and_cross_sell.analytics.funnel_performance", "label": "Funnel performance"}
+        ],
+        "languages": [
+          "English",
+          " Czech",
+          " Danish",
+          " German",
+          " Spanish",
+          " Finnish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Norwegian",
+          " Dutch",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Vietnamese",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Discount Plus",
+          "Judge.me",
+          "Okendo",
+          "Yotpo Reviews"
+        ]
+      },
+      "developer": {
+        "name": "Plus Apps",
+        "website_url": "https://www.tryplusapps.com",
+        "partner_url": "https://apps.shopify.com/partners/94m",
+        "public_address": "3444 Pringle St, Unit 11, San Diego, CA, 92110, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/checkoutplus",
+        "canonical_app_store_url": "https://apps.shopify.com/checkoutplus",
+        "install_url": "https://apps.shopify.com/checkoutplus",
+        "demo_store_url": "https://checkout94m.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.tryplusapps.com/privacy",
+          "FAQ": "https://www.tryplusapps.com/faq",
+          "Tutorial": "https://www.youtube.com/watch?v=EeW0iUqUa2g",
+          "App Documentation": "https://checkoutplus.crisp.help/en/category/tutorials-1ayy5rm/",
+          "Plus Apps": "https://apps.shopify.com/partners/94m",
+          "Website": "https://www.tryplusapps.com",
+          "Changelog": "https://www.tryplusapps.com/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/17729b1d93bcbfb68e0b45d207a72695/icon/CPXJ7Lvg6vkCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/17729b1d93bcbfb68e0b45d207a72695/promotional_image/COPXmL3t5o8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17729b1d93bcbfb68e0b45d207a72695/desktop_screenshot/CK2ZtYzO3o8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17729b1d93bcbfb68e0b45d207a72695/desktop_screenshot/CNm8h8S0gZEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17729b1d93bcbfb68e0b45d207a72695/desktop_screenshot/CLTKs8jX5o8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17729b1d93bcbfb68e0b45d207a72695/desktop_screenshot/CMS8gZLD0JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17729b1d93bcbfb68e0b45d207a72695/mobile_screenshot/CNv5nYrt5o8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17729b1d93bcbfb68e0b45d207a72695/mobile_screenshot/CIHm4azs5o8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17729b1d93bcbfb68e0b45d207a72695/mobile_screenshot/CKb3q5Dv5o8DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Checkout Plus free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/checkoutplus"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Czech,  Danish,  German,  Spanish,  Finnish,  French,  Italian,  Japanese,  Korean,  Norwegian,  Dutch,  Polish,  Portuguese (Brazil),  Portuguese (Portugal),  Swedish,  Thai,  Turkish,  Vietnamese,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/checkoutplus"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Discount Plus, Judge.me, Okendo, Yotpo Reviews",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/checkoutplus"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/checkoutplus"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://www.tryplusapps.com/faq",
+            "https://www.youtube.com/watch?v=EeW0iUqUa2g",
+            "https://checkoutplus.crisp.help/en/category/tutorials-1ayy5rm/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the cart or checkout conditions in a draft or test configuration.",
+            "Test an eligible and an ineligible cart to confirm the rule behaviour.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["checkout-customization", "customer-surveys"],
+        "primary_category_id": "checkout-customization",
+        "seo": {
+          "title": "Checkout Plus Shopify App | eStorefy",
+          "meta_description": "A Shopify app for checkout customization. Listed functions include checkout upsell, announcement bar.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/checkoutplus",
+          "retrieved_at": "2026-10-04T05:17:28.131989+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "The most effective Shopify App for increasing sales and customer checkout experience…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/checkoutplus"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "form-builder-contact-form",
+      "name": "Powerful Contact Form Builder",
+      "slug": "form-builder-contact-form",
+      "category_fit": {
+        "app_id": "form-builder-contact-form",
+        "selection_score": 5.3857,
+        "rating_evidence": {"value": 4.9, "reviews": 2534},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["feedback"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/form-builder-contact-form"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for customer surveys. Listed functions include applications, bookings.",
+        "description_long": "Powerful Contact Form Builder is developed by Powerful Form  and listed for forms, surveys. Its structured listing identifies functions such as applications, bookings, contacts, custom. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Customer Surveys"],
+        "best_for": {
+          "use_cases": ["Customer Surveys"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 2534,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/form-builder-contact-form",
+        "distribution": [
+          {"stars": 5, "percentage": 93, "count": 2},
+          {"stars": 4, "percentage": 4, "count": 108},
+          {"stars": 3, "percentage": 1, "count": 19},
+          {"stars": 2, "percentage": 1, "count": 14},
+          {"stars": 1, "percentage": 1, "count": 29}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PREMIUM",
+            "amount_usd": 14.9,
+            "billing_period": "month",
+            "price_display": "$14.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $149/year and save 17%"]
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 24.9,
+            "billing_period": "month",
+            "price_display": "$24.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $249/year and save 17%"]
+          },
+          {
+            "name": "ADVANCED",
+            "amount_usd": 49.9,
+            "billing_period": "month",
+            "price_display": "$49.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $499/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://powerfulform.com/pages/pricing",
+        "starting_paid_monthly_price_usd": 14.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 12, 2017",
+        "shopify_categories": [
+          {"name": "Forms", "url": "https://apps.shopify.com/categories/store-design-notifications-forms"},
+          {"name": "Surveys", "url": "https://apps.shopify.com/categories/store-management-support-surveys"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.forms.form_types.applications", "label": "Applications"},
+          {"handle": "cf.forms.form_types.bookings", "label": "Bookings"},
+          {"handle": "cf.forms.form_types.contacts", "label": "Contacts"},
+          {"handle": "cf.forms.form_types.custom", "label": "Custom"},
+          {"handle": "cf.forms.form_types.feedback", "label": "Feedback"},
+          {"handle": "cf.forms.form_types.file_uploads", "label": "File upload"},
+          {"handle": "cf.forms.form_types.multi_step", "label": "Multi-step"},
+          {"handle": "cf.forms.form_types.newsletters", "label": "Newsletters"},
+          {"handle": "cf.forms.form_types.orders", "label": "Orders"},
+          {"handle": "cf.forms.form_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.forms.form_types.pricing_quotes", "label": "Pricing quotes"},
+          {"handle": "cf.forms.form_types.registrations", "label": "Registrations"},
+          {"handle": "cf.forms.form_types.surveys", "label": "Surveys"},
+          {"handle": "cf.forms.form_types.wholesale", "label": "Wholesale"},
+          {"handle": "cf.forms.customization.fonts_and_colors", "label": "Font and color"},
+          {"handle": "cf.forms.customization.custom_fields", "label": "Custom fields"},
+          {"handle": "cf.forms.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.forms.customization.embedded_forms", "label": "Embedded forms"},
+          {"handle": "cf.forms.customization.email_templates", "label": "Email templates"},
+          {"handle": "cf.forms.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.forms.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.forms.customization.gdpr_checkbox", "label": "GDPR checkbox"},
+          {"handle": "cf.forms.data_management.email_responses", "label": "Email responses"},
+          {"handle": "cf.forms.data_management.auto_sync", "label": "Auto-sync"},
+          {"handle": "cf.forms.data_management.data_export", "label": "Data export"},
+          {"handle": "cf.forms.data_management.dashboard", "label": "Dashboard"},
+          {"handle": "cf.forms.data_management.form_limits", "label": "Form limits"},
+          {"handle": "cf.forms.data_management.history", "label": "History"},
+          {"handle": "cf.forms.data_management.analytics", "label": "Analytics"},
+          {"handle": "cf.forms.data_management.captcha", "label": "CAPTCHA"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Japanese",
+          " Italian",
+          " German",
+          " Chinese (Simplified)",
+          " Spanish",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "ActiveCampaign & Zapier",
+          "Campaign Monitor & reCaptcha",
+          "GetResponse & Sendinblue",
+          "Google Calendar / Google Sheet",
+          "Hubspot & Omnisend",
+          "Mailchimp & Klaviyo"
+        ]
+      },
+      "developer": {
+        "name": "Powerful Form ",
+        "website_url": "https://powerfulform.com/",
+        "partner_url": "https://apps.shopify.com/partners/powerful-form",
+        "public_address": "Hanoi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/form-builder-contact-form",
+        "canonical_app_store_url": "https://apps.shopify.com/form-builder-contact-form",
+        "install_url": "https://apps.shopify.com/form-builder-contact-form",
+        "demo_store_url": "https://demo-powerful-form.myshopify.com/pages/contact-forms",
+        "resources": {
+          "Privacy policy": "https://powerfulform.com/pages/privacy-policy",
+          "FAQ": "https://docs.powerfulform.com",
+          "Powerful Form": "https://apps.shopify.com/partners/powerful-form",
+          "Website": "https://powerfulform.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/7919647ec002bc41691875d798fc4339/icon/COmlwLH0lu8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/7919647ec002bc41691875d798fc4339/promotional_image/CJiy0sasqJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7919647ec002bc41691875d798fc4339/desktop_screenshot/CNqb16eEt4UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7919647ec002bc41691875d798fc4339/desktop_screenshot/CIGiupGOl5IDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7919647ec002bc41691875d798fc4339/desktop_screenshot/CMOZ3casqJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7919647ec002bc41691875d798fc4339/desktop_screenshot/CKG_9aeEt4UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7919647ec002bc41691875d798fc4339/desktop_screenshot/CIaX_6eEt4UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7919647ec002bc41691875d798fc4339/desktop_screenshot/CND-wpGOl5IDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7919647ec002bc41691875d798fc4339/mobile_screenshot/CK2nk6iEt4UDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Powerful Contact Form Builder free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/form-builder-contact-form"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Japanese,  Italian,  German,  Chinese (Simplified),  Spanish,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/form-builder-contact-form"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Flow, Shopify Admin, ActiveCampaign & Zapier, Campaign Monitor & reCaptcha, GetResponse & Sendinblue, Google Calendar / Google Sheet, Hubspot & Omnisend, Mailchimp & Klaviyo",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/form-builder-contact-form"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/form-builder-contact-form"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.powerfulform.com"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant communication channel and add the approved support content.",
+            "Test common questions and handover behaviour before enabling it for customers.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["customer-surveys"],
+        "primary_category_id": "customer-surveys",
+        "seo": {
+          "title": "Powerful Contact Form Builder Shopify App | eStorefy",
+          "meta_description": "A Shopify app for customer surveys. Listed functions include applications, bookings.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/form-builder-contact-form",
+          "retrieved_at": "2026-10-04T05:14:52.569285+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/form-builder-contact-form"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

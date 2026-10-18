@@ -1,0 +1,3560 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "influencer-marketing",
+    "number": 22,
+    "name": "Influencer Marketing",
+    "group": "Advertising & Affiliates",
+    "slug": "influencer-marketing",
+    "url_path": "/apps/influencer-marketing",
+    "focus": "Manage acquisition campaigns, partner programs and conversion measurement.",
+    "description": "Compare Shopify apps for influencer marketing. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/marketing-and-conversion-advertising-affiliate-programs/all"],
+    "seo": {
+      "title": "Shopify Influencer Marketing Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for influencer marketing: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a influencer marketing app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "affiliatery",
+      "name": "Affiliate Marketing ReferrLy",
+      "slug": "affiliatery",
+      "category_fit": {
+        "app_id": "affiliatery",
+        "selection_score": 6.1416,
+        "rating_evidence": {"value": 5.0, "reviews": 1099},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["ambassador", "influencer"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/affiliatery"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for referral programs. Listed functions include automated rules, maturation periods.",
+        "description_long": "Affiliate Marketing ReferrLy is developed by DEVSQUAT SOLUTIONS and listed for affiliate programs, loyalty and rewards. Its structured listing identifies functions such as automated rules, maturation periods, tracking, custom commission. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Referral Programs", "Affiliate Program Management", "Influencer Marketing"],
+        "best_for": {
+          "use_cases": ["Referral Programs", "Affiliate Program Management", "Influencer Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 1099,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/affiliatery",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 1},
+          {"stars": 4, "percentage": 1, "count": 11},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "December 22, 2020",
+        "shopify_categories": [
+          {
+            "name": "Affiliate programs",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-advertising-affiliate-programs"
+          },
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.affiliate_programs.commission_options.automated_rules", "label": "Automated rules"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.maturation_periods",
+            "label": "Maturation periods"
+          },
+          {"handle": "cf.affiliate_programs.commission_options.tracking", "label": "Tracking"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.custom_commission",
+            "label": "Custom commission"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.multi_level_marketing",
+            "label": "Multi-level marketing"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.performance_bonuses",
+            "label": "Performance bonuses"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.product_commission",
+            "label": "Product commission"
+          },
+          {"handle": "cf.affiliate_programs.commission_options.royalties", "label": "Royalties"},
+          {"handle": "cf.affiliate_programs.commission_options.tiered_benefits", "label": "Tiered benefits"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.achievement_tracking",
+            "label": "Achievement tracking"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.affiliate_links", "label": "Affiliate links"},
+          {"handle": "cf.affiliate_programs.referral_management.analytics", "label": "Analytics"},
+          {"handle": "cf.affiliate_programs.referral_management.auto_tracking", "label": "Auto-tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.bulk_link_generation",
+            "label": "Bulk link generation"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.collection_links",
+            "label": "Collection links"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.discounts", "label": "Discounts"},
+          {"handle": "cf.affiliate_programs.referral_management.email_tracking", "label": "Email tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.multi_level_tracking",
+            "label": "Multi-level tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.post_purchase_pop_ups",
+            "label": "Post-purchase pop-ups"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.product_tracking",
+            "label": "Product tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.fraud_protection",
+            "label": "Fraud protection"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.real_time_tracking",
+            "label": "Real-time tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_dashboard",
+            "label": "Custom dashboards"
+          },
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_registration",
+            "label": "Custom registration"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.branded_portal", "label": "Branded portal"},
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_links_and_discounts",
+            "label": "Custom links and discounts"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_domain", "label": "Custom domain"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_forms", "label": "Custom forms"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.affiliate_programs.payments.tax_forms", "label": "Tax forms"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " French",
+          " Italian",
+          " Danish",
+          " Dutch",
+          " Japanese",
+          " Korean",
+          " Norwegian",
+          " Swedish",
+          " Turkish",
+          " Finnish",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Polish",
+          " Russian",
+          " Czech",
+          " Hungarian",
+          " Indonesian",
+          " Romanian",
+          " and German"
+        ],
+        "works_with": ["Checkout", "Customer accounts", "Shopify Admin", "Appstle", "PayPal", "Recharge"]
+      },
+      "developer": {
+        "name": "DEVSQUAT SOLUTIONS",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/staqlab",
+        "public_address": "First Floor, Plot No. 31, Kh. No. 26/7 Ambika Enclave, Evoli Avenue, Kakrola, New Delhi, New Delhi, DL, 110078, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/affiliatery",
+        "canonical_app_store_url": "https://apps.shopify.com/affiliatery",
+        "install_url": "https://apps.shopify.com/affiliatery",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://affiliatery.staqlab.com/privacy",
+          "DEVSQUAT SOLUTIONS": "https://apps.shopify.com/partners/staqlab"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/81d5461cdaa83ee1a75842581fcdc904/icon/COeu_qfG4v0CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/81d5461cdaa83ee1a75842581fcdc904/promotional_image/CLPY6NOssZIDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/81d5461cdaa83ee1a75842581fcdc904/desktop_screenshot/CMifrdPM14kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/81d5461cdaa83ee1a75842581fcdc904/desktop_screenshot/CKyl2YbP14kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/81d5461cdaa83ee1a75842581fcdc904/desktop_screenshot/CIHAw9PM14kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/81d5461cdaa83ee1a75842581fcdc904/desktop_screenshot/CN-IzdPM14kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/81d5461cdaa83ee1a75842581fcdc904/desktop_screenshot/CL6i19PM14kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/81d5461cdaa83ee1a75842581fcdc904/desktop_screenshot/CITT4tPM14kDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Affiliate Marketing ReferrLy free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/affiliatery"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  Portuguese (Brazil),  Portuguese (Portugal),  French,  Italian,  Danish,  Dutch,  Japanese,  Korean,  Norwegian,  Swedish,  Turkish,  Finnish,  Chinese (Simplified),  Chinese (Traditional),  Polish,  Russian,  Czech,  Hungarian,  Indonesian,  Romanian,  and German",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/affiliatery"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, Appstle, PayPal, Recharge",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/affiliatery"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/affiliatery"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["referral-programs", "affiliate-program-management", "influencer-marketing"],
+        "primary_category_id": "referral-programs",
+        "seo": {
+          "title": "Affiliate Marketing ReferrLy Shopify App | eStorefy",
+          "meta_description": "A Shopify app for referral programs. Listed functions include automated rules, maturation periods.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/affiliatery",
+          "retrieved_at": "2026-10-04T05:10:20.130100+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Set up referral and affiliate marketing programs to increase sales, attract new…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/affiliatery"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "affliate-by-secomapp",
+      "name": "UpPromote Affiliate Marketing",
+      "slug": "affliate-by-secomapp",
+      "category_fit": {
+        "app_id": "affliate-by-secomapp",
+        "selection_score": 6.1055,
+        "rating_evidence": {"value": 4.9, "reviews": 3852},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["influencer", "creator", "ambassador"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/affliate-by-secomapp"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for affiliate program management. Listed functions include automated rules, maturation periods.",
+        "description_long": "UpPromote Affiliate Marketing is developed by UpPromote and listed for affiliate programs, loyalty and rewards. Its structured listing identifies functions such as automated rules, maturation periods, tracking, custom commission. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Affiliate Program Management", "Influencer Marketing"],
+        "best_for": {
+          "use_cases": ["Affiliate Program Management", "Influencer Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 3852,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/affliate-by-secomapp",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 3},
+          {"stars": 4, "percentage": 2, "count": 85},
+          {"stars": 3, "percentage": 1, "count": 20},
+          {"stars": 2, "percentage": 0, "count": 13},
+          {"stars": 1, "percentage": 1, "count": 44}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $299.90/year and save 17%"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 89.99,
+            "billing_period": "month",
+            "price_display": "$89.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $899.90/year and save 17%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 199.99,
+            "billing_period": "month",
+            "price_display": "$199.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,999.90/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://uppromote.com/pricing?utm_source=app-store&utm_medium=pricing-details&utm_campaign=app-store-pricing&go-to=plus-banner",
+        "starting_paid_monthly_price_usd": 29.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 15, 2019 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Affiliate programs",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-advertising-affiliate-programs"
+          },
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.affiliate_programs.commission_options.automated_rules", "label": "Automated rules"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.maturation_periods",
+            "label": "Maturation periods"
+          },
+          {"handle": "cf.affiliate_programs.commission_options.tracking", "label": "Tracking"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.custom_commission",
+            "label": "Custom commission"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.multi_level_marketing",
+            "label": "Multi-level marketing"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.performance_bonuses",
+            "label": "Performance bonuses"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.product_commission",
+            "label": "Product commission"
+          },
+          {"handle": "cf.affiliate_programs.commission_options.royalties", "label": "Royalties"},
+          {"handle": "cf.affiliate_programs.commission_options.tiered_benefits", "label": "Tiered benefits"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.achievement_tracking",
+            "label": "Achievement tracking"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.affiliate_links", "label": "Affiliate links"},
+          {"handle": "cf.affiliate_programs.referral_management.analytics", "label": "Analytics"},
+          {"handle": "cf.affiliate_programs.referral_management.auto_tracking", "label": "Auto-tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.bulk_link_generation",
+            "label": "Bulk link generation"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.collection_links",
+            "label": "Collection links"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.discounts", "label": "Discounts"},
+          {"handle": "cf.affiliate_programs.referral_management.email_tracking", "label": "Email tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.multi_level_tracking",
+            "label": "Multi-level tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.post_purchase_pop_ups",
+            "label": "Post-purchase pop-ups"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.product_tracking",
+            "label": "Product tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.fraud_protection",
+            "label": "Fraud protection"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.real_time_tracking",
+            "label": "Real-time tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_dashboard",
+            "label": "Custom dashboards"
+          },
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_registration",
+            "label": "Custom registration"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.branded_portal", "label": "Branded portal"},
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_links_and_discounts",
+            "label": "Custom links and discounts"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_domain", "label": "Custom domain"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_forms", "label": "Custom forms"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.affiliate_programs.payments.tax_forms", "label": "Tax forms"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " French",
+          " Danish",
+          " Spanish",
+          " Finnish",
+          " Indonesian",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Malay",
+          " Dutch",
+          " Russian",
+          " Thai",
+          " Turkish",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "Facebook pixel",
+          "Hydrogen - Headless",
+          "Klaviyo, Mailchimp, Omnisend",
+          "Pagefly, EComposer",
+          "PayPal",
+          "Recharge, Appstle subscription"
+        ]
+      },
+      "developer": {
+        "name": "UpPromote",
+        "website_url": "https://uppromote.com/?utm_source=aff-appstore&utm_medium=click&utm_campaign=appstore",
+        "partner_url": "https://apps.shopify.com/partners/uppromote8",
+        "public_address": "Phuong Yen Hoa, Thanh pho Ha Noi, Hanoi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/affliate-by-secomapp",
+        "canonical_app_store_url": "https://apps.shopify.com/affliate-by-secomapp",
+        "install_url": "https://apps.shopify.com/affliate-by-secomapp",
+        "demo_store_url": "https://uppromotedemo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://docs.uppromote.com/privacy-policy/privacy-policy",
+          "FAQ": "https://docs.uppromote.com",
+          "UpPromote": "https://apps.shopify.com/partners/uppromote8",
+          "Website": "https://uppromote.com/",
+          "Changelog": "https://docs.uppromote.com/uppromote-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/icon/CMjv-JmUpv0CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/desktop_screenshot/CKOkh5fI6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/desktop_screenshot/CMrdkJfI6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/desktop_screenshot/CLyszcOklZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/desktop_screenshot/CKy-2MOklZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/desktop_screenshot/COfP5MOklZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/desktop_screenshot/CPSi78OklZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/mobile_screenshot/CJnX-sOklZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/mobile_screenshot/CPXehcSklZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/mobile_screenshot/CKfdkMSklZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/mobile_screenshot/CPOym8SklZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/pos_screenshot/CM-OpcSklZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/pos_screenshot/CNyLsMSklZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/pos_screenshot/CODYusSklZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/pos_screenshot/CPHvxMSklZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c2f67b482aeae04937fd544c0bfe6a8/pos_screenshot/CPnrzsSklZcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/bFfZ5eLDymM"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is UpPromote Affiliate Marketing free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/affliate-by-secomapp"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Danish,  Spanish,  Finnish,  Indonesian,  Italian,  Japanese,  Korean,  Malay,  Dutch,  Russian,  Thai,  Turkish,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/affliate-by-secomapp"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, Facebook pixel, Hydrogen - Headless, Klaviyo, Mailchimp, Omnisend, Pagefly, EComposer, PayPal, Recharge, Appstle subscription",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/affliate-by-secomapp"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/affliate-by-secomapp"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.uppromote.com"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["affiliate-program-management", "influencer-marketing"],
+        "primary_category_id": "affiliate-program-management",
+        "seo": {
+          "title": "UpPromote Affiliate Marketing Shopify App | eStorefy",
+          "meta_description": "A Shopify app for affiliate program management. Listed functions include automated rules, maturation periods.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/affliate-by-secomapp",
+          "retrieved_at": "2026-10-04T05:10:20.197656+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Build. Manage. Succeed with Affiliate Marketing - Referral Programs",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/affliate-by-secomapp"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "referralcandy",
+      "name": "Referral Candy & Affiliate",
+      "slug": "referralcandy",
+      "category_fit": {
+        "app_id": "referralcandy",
+        "selection_score": 6.0591,
+        "rating_evidence": {"value": 4.9, "reviews": 1481},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["influencer", "creator"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/referralcandy"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for referral programs. Listed functions include automated rules, tracking.",
+        "description_long": "Referral Candy & Affiliate is developed by ReferralCandy and listed for affiliate programs, loyalty and rewards. Its structured listing identifies functions such as automated rules, tracking, custom commission, performance bonuses. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Referral Programs", "Affiliate Program Management", "Influencer Marketing"],
+        "best_for": {
+          "use_cases": ["Referral Programs", "Affiliate Program Management", "Influencer Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1481,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/referralcandy",
+        "distribution": [
+          {"stars": 5, "percentage": 90, "count": 1},
+          {"stars": 4, "percentage": 8, "count": 113},
+          {"stars": 3, "percentage": 1, "count": 10},
+          {"stars": 2, "percentage": 0, "count": 6},
+          {"stars": 1, "percentage": 1, "count": 12}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $9/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic",
+            "amount_usd": 9.0,
+            "billing_period": "month",
+            "price_display": "$9 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Grow",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Scale",
+            "amount_usd": 249.0,
+            "billing_period": "month",
+            "price_display": "$249 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 799.0,
+            "billing_period": "month",
+            "price_display": "$799 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.referralcandy.com/pricing/",
+        "starting_paid_monthly_price_usd": 9.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 28, 2010",
+        "shopify_categories": [
+          {
+            "name": "Affiliate programs",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-advertising-affiliate-programs"
+          },
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.affiliate_programs.commission_options.automated_rules", "label": "Automated rules"},
+          {"handle": "cf.affiliate_programs.commission_options.tracking", "label": "Tracking"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.custom_commission",
+            "label": "Custom commission"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.performance_bonuses",
+            "label": "Performance bonuses"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.product_commission",
+            "label": "Product commission"
+          },
+          {"handle": "cf.affiliate_programs.commission_options.royalties", "label": "Royalties"},
+          {"handle": "cf.affiliate_programs.commission_options.tiered_benefits", "label": "Tiered benefits"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.achievement_tracking",
+            "label": "Achievement tracking"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.affiliate_links", "label": "Affiliate links"},
+          {"handle": "cf.affiliate_programs.referral_management.analytics", "label": "Analytics"},
+          {"handle": "cf.affiliate_programs.referral_management.auto_tracking", "label": "Auto-tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.bulk_link_generation",
+            "label": "Bulk link generation"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.discounts", "label": "Discounts"},
+          {"handle": "cf.affiliate_programs.referral_management.email_tracking", "label": "Email tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.post_purchase_pop_ups",
+            "label": "Post-purchase pop-ups"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.fraud_protection",
+            "label": "Fraud protection"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.real_time_tracking",
+            "label": "Real-time tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_dashboard",
+            "label": "Custom dashboards"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.page_creation", "label": "Page creation"},
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_registration",
+            "label": "Custom registration"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.branded_portal", "label": "Branded portal"},
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_links_and_discounts",
+            "label": "Custom links and discounts"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_forms", "label": "Custom forms"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.affiliate_programs.payments.ach_payments", "label": "ACH payments"},
+          {"handle": "cf.affiliate_programs.payments.bank_transfers", "label": "Bank transfers"},
+          {"handle": "cf.affiliate_programs.payments.card_payouts", "label": "Card payouts"},
+          {"handle": "cf.affiliate_programs.payments.gift_card_payouts", "label": "Gift card payouts"},
+          {"handle": "cf.affiliate_programs.payments.paypal", "label": "PayPal"},
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"}
+        ],
+        "languages": ["English and Spanish"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Admin",
+          "Appstle",
+          "Klaviyo",
+          "Loop",
+          "Omnisend",
+          "ReCharge",
+          "Skio"
+        ]
+      },
+      "developer": {
+        "name": "ReferralCandy",
+        "website_url": "http://www.referralcandy.com/",
+        "partner_url": "https://apps.shopify.com/partners/anafore",
+        "public_address": "28 Kovan Road, #01-05, Singapore, 544694, SG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/referralcandy",
+        "canonical_app_store_url": "https://apps.shopify.com/referralcandy",
+        "install_url": "https://apps.shopify.com/referralcandy",
+        "demo_store_url": "https://acmesupplements.co/",
+        "resources": {
+          "Privacy policy": "https://www.referralcandy.com/privacy/",
+          "FAQ": "http://help.referralcandy.com",
+          "ReferralCandy": "https://apps.shopify.com/partners/anafore",
+          "Website": "http://www.referralcandy.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/79887e6752b8e806cc8490d1878d7807/icon/CLakyeb9p5YDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/79887e6752b8e806cc8490d1878d7807/desktop_screenshot/COSIgdHaipUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/79887e6752b8e806cc8490d1878d7807/desktop_screenshot/CJXditHaipUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/79887e6752b8e806cc8490d1878d7807/desktop_screenshot/COz5k9HaipUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/79887e6752b8e806cc8490d1878d7807/desktop_screenshot/CN_BndHaipUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/79887e6752b8e806cc8490d1878d7807/desktop_screenshot/CJHpptHaipUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/79887e6752b8e806cc8490d1878d7807/desktop_screenshot/CPmTpMmI6pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/79887e6752b8e806cc8490d1878d7807/pos_screenshot/CLWK2NCQ6pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/79887e6752b8e806cc8490d1878d7807/pos_screenshot/CK-B4tCQ6pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/79887e6752b8e806cc8490d1878d7807/pos_screenshot/CLOA7dCQ6pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/79887e6752b8e806cc8490d1878d7807/pos_screenshot/CLTW99CQ6pYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/2GefAYnEIvI"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Referral Candy & Affiliate free?",
+            "answer": "The pricing label retrieved from the listing is: From $9/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/referralcandy"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/referralcandy"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Admin, Appstle, Klaviyo, Loop, Omnisend, ReCharge, Skio",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/referralcandy"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/referralcandy"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["http://help.referralcandy.com"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["referral-programs", "affiliate-program-management", "influencer-marketing"],
+        "primary_category_id": "referral-programs",
+        "seo": {
+          "title": "Referral Candy & Affiliate Shopify App | eStorefy",
+          "meta_description": "A Shopify app for referral programs. Listed functions include automated rules, tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/referralcandy",
+          "retrieved_at": "2026-10-04T05:10:49.706662+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Effortlessly run referral & affiliate programs with ReferralCandy. Automate rewards, track performance,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/referralcandy"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "bixgrow-affiliate-marketing",
+      "name": "BixGrow Affiliate Marketing",
+      "slug": "bixgrow-affiliate-marketing",
+      "category_fit": {
+        "app_id": "bixgrow-affiliate-marketing",
+        "selection_score": 6.0533,
+        "rating_evidence": {"value": 4.9, "reviews": 1325},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["influencer", "ambassador"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/bixgrow-affiliate-marketing"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for referral programs. Listed functions include automated rules, tracking.",
+        "description_long": "BixGrow Affiliate Marketing is developed by BixGrow and listed for affiliate programs, loyalty and rewards. Its structured listing identifies functions such as automated rules, tracking, custom commission, multi-level marketing. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Referral Programs", "Affiliate Program Management", "Influencer Marketing"],
+        "best_for": {
+          "use_cases": ["Referral Programs", "Affiliate Program Management", "Influencer Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1325,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/bixgrow-affiliate-marketing",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 1},
+          {"stars": 4, "percentage": 2, "count": 24},
+          {"stars": 3, "percentage": 0, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 8}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "STARTER",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "SCALE",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $215.88/year and save 10%"]
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $323.88/year and save 10%"]
+          },
+          {
+            "name": "ADVANCED",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $509.88/year and save 15%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://bixgrow.com/pricing",
+        "starting_paid_monthly_price_usd": 19.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 2, 2021",
+        "shopify_categories": [
+          {
+            "name": "Affiliate programs",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-advertising-affiliate-programs"
+          },
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.affiliate_programs.commission_options.automated_rules", "label": "Automated rules"},
+          {"handle": "cf.affiliate_programs.commission_options.tracking", "label": "Tracking"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.custom_commission",
+            "label": "Custom commission"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.multi_level_marketing",
+            "label": "Multi-level marketing"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.performance_bonuses",
+            "label": "Performance bonuses"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.product_commission",
+            "label": "Product commission"
+          },
+          {"handle": "cf.affiliate_programs.commission_options.royalties", "label": "Royalties"},
+          {"handle": "cf.affiliate_programs.commission_options.tiered_benefits", "label": "Tiered benefits"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.achievement_tracking",
+            "label": "Achievement tracking"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.affiliate_links", "label": "Affiliate links"},
+          {"handle": "cf.affiliate_programs.referral_management.analytics", "label": "Analytics"},
+          {"handle": "cf.affiliate_programs.referral_management.auto_tracking", "label": "Auto-tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.bulk_link_generation",
+            "label": "Bulk link generation"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.collection_links",
+            "label": "Collection links"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.discounts", "label": "Discounts"},
+          {"handle": "cf.affiliate_programs.referral_management.email_tracking", "label": "Email tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.multi_level_tracking",
+            "label": "Multi-level tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.post_purchase_pop_ups",
+            "label": "Post-purchase pop-ups"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.product_tracking",
+            "label": "Product tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.fraud_protection",
+            "label": "Fraud protection"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.real_time_tracking",
+            "label": "Real-time tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_dashboard",
+            "label": "Custom dashboards"
+          },
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_registration",
+            "label": "Custom registration"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.branded_portal", "label": "Branded portal"},
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_links_and_discounts",
+            "label": "Custom links and discounts"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_domain", "label": "Custom domain"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_forms", "label": "Custom forms"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.affiliate_programs.payments.tax_forms", "label": "Tax forms"},
+          {"handle": "cf.affiliate_programs.payments.bank_transfers", "label": "Bank transfers"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " Chinese (Simplified)",
+          " German",
+          " French",
+          " Portuguese (Brazil)",
+          " Italian",
+          " Arabic",
+          " Korean",
+          " Chinese (Traditional)",
+          " Japanese",
+          " Polish",
+          " Thai",
+          " Turkish",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "Appstle",
+          "Klaviyo",
+          "Mailchimp",
+          "PayPal",
+          "Seal Subscriptions"
+        ]
+      },
+      "developer": {
+        "name": "BixGrow",
+        "website_url": "https://bixgrow.com",
+        "partner_url": "https://apps.shopify.com/partners/bixgrow1",
+        "public_address": "3 Coleman Street, #03-24, Peninsula Shopping Complex, Singapore, 179804, SG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/bixgrow-affiliate-marketing",
+        "canonical_app_store_url": "https://apps.shopify.com/bixgrow-affiliate-marketing",
+        "install_url": "https://apps.shopify.com/bixgrow-affiliate-marketing",
+        "demo_store_url": "https://bixgrow-demo-store.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://bixgrow.com/privacy",
+          "FAQ": "https://bixgrow.crisp.help/en",
+          "Tutorial": "https://docs.bixgrow.com",
+          "BixGrow": "https://apps.shopify.com/partners/bixgrow1",
+          "Website": "https://bixgrow.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/652129686e0fe8128d9f8a6a06d551de/icon/CLGXzPGdoZQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/652129686e0fe8128d9f8a6a06d551de/promotional_image/CKaUmcmToZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/652129686e0fe8128d9f8a6a06d551de/desktop_screenshot/CMzbkLSToZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/652129686e0fe8128d9f8a6a06d551de/desktop_screenshot/CO2gmbSToZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/652129686e0fe8128d9f8a6a06d551de/desktop_screenshot/COjLorSToZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/652129686e0fe8128d9f8a6a06d551de/desktop_screenshot/CLGS-LPNgZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/652129686e0fe8128d9f8a6a06d551de/desktop_screenshot/CL7WhsXXgZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/652129686e0fe8128d9f8a6a06d551de/desktop_screenshot/CN_Ei7TNgZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/652129686e0fe8128d9f8a6a06d551de/mobile_screenshot/CNq15e_NgZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/652129686e0fe8128d9f8a6a06d551de/mobile_screenshot/CNukn7TNgZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/652129686e0fe8128d9f8a6a06d551de/mobile_screenshot/CJnnp7TNgZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/652129686e0fe8128d9f8a6a06d551de/mobile_screenshot/CLr0sLTNgZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/652129686e0fe8128d9f8a6a06d551de/mobile_screenshot/CKLJurTNgZcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BixGrow Affiliate Marketing free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/bixgrow-affiliate-marketing"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  Chinese (Simplified),  German,  French,  Portuguese (Brazil),  Italian,  Arabic,  Korean,  Chinese (Traditional),  Japanese,  Polish,  Thai,  Turkish,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bixgrow-affiliate-marketing"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, Appstle, Klaviyo, Mailchimp, PayPal, Seal Subscriptions",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bixgrow-affiliate-marketing"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/bixgrow-affiliate-marketing"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://bixgrow.crisp.help/en", "https://docs.bixgrow.com"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["referral-programs", "affiliate-program-management", "influencer-marketing"],
+        "primary_category_id": "referral-programs",
+        "seo": {
+          "title": "BixGrow Affiliate Marketing Shopify App | eStorefy",
+          "meta_description": "A Shopify app for referral programs. Listed functions include automated rules, tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/bixgrow-affiliate-marketing",
+          "retrieved_at": "2026-10-04T05:10:27.893020+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Boost referral sales with BixGrow! Run your affiliate marketing & referral programs…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/bixgrow-affiliate-marketing"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "simple-affiliate",
+      "name": "Simple Affiliate",
+      "slug": "simple-affiliate",
+      "category_fit": {
+        "app_id": "simple-affiliate",
+        "selection_score": 5.8764,
+        "rating_evidence": {"value": 4.9, "reviews": 124},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["influencer"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/simple-affiliate"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for affiliate program management. Listed functions include automated rules, tracking.",
+        "description_long": "Simple Affiliate is developed by SA Inc. and listed for affiliate programs, loyalty and rewards. Its structured listing identifies functions such as automated rules, tracking, custom commission, product commission. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Affiliate Program Management", "Influencer Marketing"],
+        "best_for": {
+          "use_cases": ["Affiliate Program Management", "Influencer Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 124,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/simple-affiliate",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 119},
+          {"stars": 4, "percentage": 2, "count": 3},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 1, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 59.0,
+            "billing_period": "month",
+            "price_display": "$59 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 23, 2018 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Affiliate programs",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-advertising-affiliate-programs"
+          },
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.affiliate_programs.commission_options.automated_rules", "label": "Automated rules"},
+          {"handle": "cf.affiliate_programs.commission_options.tracking", "label": "Tracking"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.custom_commission",
+            "label": "Custom commission"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.product_commission",
+            "label": "Product commission"
+          },
+          {"handle": "cf.affiliate_programs.commission_options.tiered_benefits", "label": "Tiered benefits"},
+          {"handle": "cf.affiliate_programs.referral_management.affiliate_links", "label": "Affiliate links"},
+          {"handle": "cf.affiliate_programs.referral_management.analytics", "label": "Analytics"},
+          {"handle": "cf.affiliate_programs.referral_management.auto_tracking", "label": "Auto-tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.bulk_link_generation",
+            "label": "Bulk link generation"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.collection_links",
+            "label": "Collection links"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.discounts", "label": "Discounts"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.product_tracking",
+            "label": "Product tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.fraud_protection",
+            "label": "Fraud protection"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.real_time_tracking",
+            "label": "Real-time tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_dashboard",
+            "label": "Custom dashboards"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.page_creation", "label": "Page creation"},
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_registration",
+            "label": "Custom registration"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.branded_portal", "label": "Branded portal"},
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_links_and_discounts",
+            "label": "Custom links and discounts"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_domain", "label": "Custom domain"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_forms", "label": "Custom forms"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.affiliate_programs.payments.tax_forms", "label": "Tax forms"},
+          {"handle": "cf.affiliate_programs.payments.ach_payments", "label": "ACH payments"},
+          {"handle": "cf.affiliate_programs.payments.bank_transfers", "label": "Bank transfers"},
+          {"handle": "cf.affiliate_programs.payments.auto_payments", "label": "Auto-payments"},
+          {"handle": "cf.affiliate_programs.payments.bulk_payouts", "label": "Bulk payouts"},
+          {"handle": "cf.affiliate_programs.payments.card_payouts", "label": "Card payouts"},
+          {"handle": "cf.affiliate_programs.payments.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.affiliate_programs.payments.scheduled_payouts", "label": "Scheduled payouts"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " French",
+          " Spanish",
+          " Dutch",
+          " Swedish",
+          " Portuguese (Portugal)",
+          " Portuguese (Brazil)",
+          " Polish",
+          " Italian",
+          " Japanese",
+          " and Chinese (Simplified)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Klaviyo",
+          "PayPal",
+          "Store credit"
+        ]
+      },
+      "developer": {
+        "name": "SA Inc.",
+        "website_url": "https://simple-affiliate.com",
+        "partner_url": "https://apps.shopify.com/partners/simple-affiliate",
+        "public_address": "511 Lacolle Way, 5-1073, Ottawa, ON, K4A 5B6, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/simple-affiliate",
+        "canonical_app_store_url": "https://apps.shopify.com/simple-affiliate",
+        "install_url": "https://apps.shopify.com/simple-affiliate",
+        "demo_store_url": "https://demo.simple-affiliate.com",
+        "resources": {
+          "Privacy policy": "https://help.simple-affiliate.com/en/articles/8007914-privacy-policy",
+          "FAQ": "https://help.simple-affiliate.com/en",
+          "SA Inc.": "https://apps.shopify.com/partners/simple-affiliate",
+          "Website": "https://simple-affiliate.com",
+          "Changelog": "https://simple-affiliate.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/e314b0ded401b1ee997a05300f1fc9b5/icon/CJCandC1spYDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/e314b0ded401b1ee997a05300f1fc9b5/promotional_image/CLyr6ea6spYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e314b0ded401b1ee997a05300f1fc9b5/desktop_screenshot/CNvD8-a6spYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e314b0ded401b1ee997a05300f1fc9b5/desktop_screenshot/CICX_ua6spYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e314b0ded401b1ee997a05300f1fc9b5/desktop_screenshot/CIS4h-e6spYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e314b0ded401b1ee997a05300f1fc9b5/desktop_screenshot/CKGgkee6spYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e314b0ded401b1ee997a05300f1fc9b5/desktop_screenshot/CPmy5bS1j5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e314b0ded401b1ee997a05300f1fc9b5/desktop_screenshot/CMy9hp3-vpYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Simple Affiliate free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/simple-affiliate"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Spanish,  Dutch,  Swedish,  Portuguese (Portugal),  Portuguese (Brazil),  Polish,  Italian,  Japanese,  and Chinese (Simplified)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/simple-affiliate"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Klaviyo, PayPal, Store credit",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/simple-affiliate"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/simple-affiliate"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.simple-affiliate.com/en"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["affiliate-program-management", "influencer-marketing"],
+        "primary_category_id": "affiliate-program-management",
+        "seo": {
+          "title": "Simple Affiliate Shopify App | eStorefy",
+          "meta_description": "A Shopify app for affiliate program management. Listed functions include automated rules, tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/simple-affiliate",
+          "retrieved_at": "2026-10-04T05:11:04.010164+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Launch and scale your influencer marketing and affiliate marketing programs. Track referrals…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/simple-affiliate"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "goaffpro",
+      "name": "GOAFFPRO ‑ Affiliate Marketing",
+      "slug": "goaffpro",
+      "category_fit": {
+        "app_id": "goaffpro",
+        "selection_score": 5.7417,
+        "rating_evidence": {"value": 4.6, "reviews": 951},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["influencer"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/goaffpro"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for influencer marketing. Listed functions include automated rules, maturation periods.",
+        "description_long": "GOAFFPRO ‑ Affiliate Marketing is developed by GoAffPro and listed for affiliate programs. Its structured listing identifies functions such as automated rules, maturation periods, tracking, custom commission. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Influencer Marketing"],
+        "best_for": {
+          "use_cases": ["Influencer Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.6,
+        "review_count": 951,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/goaffpro",
+        "distribution": [
+          {"stars": 5, "percentage": 90, "count": 858},
+          {"stars": 4, "percentage": 4, "count": 36},
+          {"stars": 3, "percentage": 1, "count": 8},
+          {"stars": 2, "percentage": 1, "count": 11},
+          {"stars": 1, "percentage": 4, "count": 38}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Premium Plan",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 49.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "April 1, 2019",
+        "shopify_categories": [
+          {
+            "name": "Affiliate programs",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-advertising-affiliate-programs"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.affiliate_programs.commission_options.automated_rules", "label": "Automated rules"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.maturation_periods",
+            "label": "Maturation periods"
+          },
+          {"handle": "cf.affiliate_programs.commission_options.tracking", "label": "Tracking"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.custom_commission",
+            "label": "Custom commission"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.multi_level_marketing",
+            "label": "Multi-level marketing"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.performance_bonuses",
+            "label": "Performance bonuses"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.product_commission",
+            "label": "Product commission"
+          },
+          {"handle": "cf.affiliate_programs.commission_options.royalties", "label": "Royalties"},
+          {"handle": "cf.affiliate_programs.commission_options.tiered_benefits", "label": "Tiered benefits"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.achievement_tracking",
+            "label": "Achievement tracking"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.affiliate_links", "label": "Affiliate links"},
+          {"handle": "cf.affiliate_programs.referral_management.analytics", "label": "Analytics"},
+          {"handle": "cf.affiliate_programs.referral_management.auto_tracking", "label": "Auto-tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.bulk_link_generation",
+            "label": "Bulk link generation"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.collection_links",
+            "label": "Collection links"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.discounts", "label": "Discounts"},
+          {"handle": "cf.affiliate_programs.referral_management.email_tracking", "label": "Email tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.multi_level_tracking",
+            "label": "Multi-level tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.post_purchase_pop_ups",
+            "label": "Post-purchase pop-ups"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.product_tracking",
+            "label": "Product tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.fraud_protection",
+            "label": "Fraud protection"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.real_time_tracking",
+            "label": "Real-time tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_dashboard",
+            "label": "Custom dashboards"
+          },
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_registration",
+            "label": "Custom registration"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.branded_portal", "label": "Branded portal"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_domain", "label": "Custom domain"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.affiliate_programs.payments.ach_payments", "label": "ACH payments"},
+          {"handle": "cf.affiliate_programs.payments.bank_transfers", "label": "Bank transfers"},
+          {"handle": "cf.affiliate_programs.payments.auto_payments", "label": "Auto-payments"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Klaviyo",
+          "Mailchimp",
+          "Omnisend",
+          "PayPal",
+          "ReCharge Payments",
+          "shiprocket"
+        ]
+      },
+      "developer": {
+        "name": "GoAffPro",
+        "website_url": "https://goaffpro.com",
+        "partner_url": "https://apps.shopify.com/partners/anuj-tenani",
+        "public_address": "16, Sector 20, Part 1, HUDA, Sirsa, HR, 125055, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/goaffpro",
+        "canonical_app_store_url": "https://apps.shopify.com/goaffpro",
+        "install_url": "https://apps.shopify.com/goaffpro",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://goaffpro.com/privacy",
+          "FAQ": "https://docs.goaffpro.com",
+          "App Documentation": "https://docs.goaffpro.com",
+          "GoAffPro": "https://apps.shopify.com/partners/anuj-tenani",
+          "Website": "https://goaffpro.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/eda11fcd576a556494594ddd4660db71/icon/CLXQoaeknv0CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/eda11fcd576a556494594ddd4660db71/desktop_screenshot/COGKzcGq8ocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/eda11fcd576a556494594ddd4660db71/desktop_screenshot/CPCo1sGq8ocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/eda11fcd576a556494594ddd4660db71/desktop_screenshot/COyEp6iX8YcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/eda11fcd576a556494594ddd4660db71/desktop_screenshot/CPyv38Gq8ocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/eda11fcd576a556494594ddd4660db71/mobile_screenshot/CP3E6MGq8ocDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/3z9n4oaW6Jk"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is GOAFFPRO ‑ Affiliate Marketing free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/goaffpro"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/goaffpro"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify POS, Shopify Flow, Shopify Admin, Klaviyo, Mailchimp, Omnisend, PayPal, ReCharge Payments, shiprocket",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/goaffpro"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/goaffpro"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.goaffpro.com", "https://docs.goaffpro.com"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["influencer-marketing"],
+        "primary_category_id": "influencer-marketing",
+        "seo": {
+          "title": "GOAFFPRO ‑ Affiliate Marketing Shopify App | eStorefy",
+          "meta_description": "A Shopify app for influencer marketing. Listed functions include automated rules, maturation periods.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/goaffpro",
+          "retrieved_at": "2026-10-04T05:10:56.949605+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/goaffpro"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "modash",
+      "name": "Modash Influencer Marketing",
+      "slug": "modash",
+      "category_fit": {
+        "app_id": "modash",
+        "selection_score": 5.5971,
+        "rating_evidence": {"value": 5.0, "reviews": 17},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["influencer"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/modash"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for influencer marketing. Listed functions include tracking, product commission.",
+        "description_long": "Modash Influencer Marketing is developed by Modash and listed for social trust - other, affiliate programs. Its structured listing identifies functions such as tracking, product commission. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Influencer Marketing"],
+        "best_for": {
+          "use_cases": ["Influencer Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 17,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/modash",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 17},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $299/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Essentials",
+            "amount_usd": 299.0,
+            "billing_period": "month",
+            "price_display": "$299 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $2,388/year and save 33%"]
+          },
+          {
+            "name": "Performance",
+            "amount_usd": 599.0,
+            "billing_period": "month",
+            "price_display": "$599 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $5,988/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.modash.io/pricing",
+        "starting_paid_monthly_price_usd": 299.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "December 6, 2023",
+        "shopify_categories": [
+          {
+            "name": "Social trust - Other",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-social-trust-other"
+          },
+          {
+            "name": "Affiliate programs",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-advertising-affiliate-programs"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.affiliate_programs.commission_options.tracking", "label": "Tracking"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.product_commission",
+            "label": "Product commission"
+          }
+        ],
+        "languages": ["English"],
+        "works_with": []
+      },
+      "developer": {
+        "name": "Modash",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/modash4",
+        "public_address": "Aia 10A-9/2 10111 Tallinn Estonia, Tallinn, 10111, EE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/modash",
+        "canonical_app_store_url": "https://apps.shopify.com/modash",
+        "install_url": "https://apps.shopify.com/modash",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.modash.io/legal/privacy-policy",
+          "Modash": "https://apps.shopify.com/partners/modash4"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/847a7917be8d8cebecb6ae97b7e11609/icon/CIjIkbWj-I0DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/847a7917be8d8cebecb6ae97b7e11609/promotional_image/CLWC5_qLpo8DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/847a7917be8d8cebecb6ae97b7e11609/desktop_screenshot/CPLr7_qLpo8DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/847a7917be8d8cebecb6ae97b7e11609/desktop_screenshot/CNLZ-fqLpo8DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/847a7917be8d8cebecb6ae97b7e11609/desktop_screenshot/CNr1gvuLpo8DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/847a7917be8d8cebecb6ae97b7e11609/desktop_screenshot/CNfSjPuLpo8DEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Modash Influencer Marketing free?",
+            "answer": "The pricing label retrieved from the listing is: From $299/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/modash"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/modash"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "No integrations were extracted; this does not prove there are none.",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/modash"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/modash"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["influencer-marketing"],
+        "primary_category_id": "influencer-marketing",
+        "seo": {
+          "title": "Modash Influencer Marketing Shopify App | eStorefy",
+          "meta_description": "A Shopify app for influencer marketing. Listed functions include tracking, product commission.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/modash",
+          "retrieved_at": "2026-10-04T05:11:12.231831+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/modash"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "bloop-referral-program",
+      "name": "BLOOP Referral & Affiliate",
+      "slug": "bloop-referral-program",
+      "category_fit": {
+        "app_id": "bloop-referral-program",
+        "selection_score": 5.2332,
+        "rating_evidence": {"value": 4.9, "reviews": 217},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["influencer", "ambassador"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/bloop-referral-program"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for affiliate program management. Listed functions include automated rules, tracking.",
+        "description_long": "BLOOP Referral & Affiliate is developed by BLOOP and listed for affiliate programs, discounts. Its structured listing identifies functions such as automated rules, tracking, custom commission, product commission. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Affiliate Program Management", "Influencer Marketing"],
+        "best_for": {
+          "use_cases": ["Affiliate Program Management", "Influencer Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 217,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/bloop-referral-program",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 206},
+          {"stars": 4, "percentage": 2, "count": 5},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 1, "count": 3},
+          {"stars": 1, "percentage": 1, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 59.9,
+            "billing_period": "month",
+            "price_display": "$59.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 59.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "July 6, 2021",
+        "shopify_categories": [
+          {
+            "name": "Affiliate programs",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-advertising-affiliate-programs"
+          },
+          {
+            "name": "Discounts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-promotions-discounts"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.affiliate_programs.commission_options.automated_rules", "label": "Automated rules"},
+          {"handle": "cf.affiliate_programs.commission_options.tracking", "label": "Tracking"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.custom_commission",
+            "label": "Custom commission"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.product_commission",
+            "label": "Product commission"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.affiliate_links", "label": "Affiliate links"},
+          {"handle": "cf.affiliate_programs.referral_management.analytics", "label": "Analytics"},
+          {"handle": "cf.affiliate_programs.referral_management.auto_tracking", "label": "Auto-tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.collection_links",
+            "label": "Collection links"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.discounts", "label": "Discounts"},
+          {"handle": "cf.affiliate_programs.referral_management.email_tracking", "label": "Email tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.post_purchase_pop_ups",
+            "label": "Post-purchase pop-ups"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.product_tracking",
+            "label": "Product tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.fraud_protection",
+            "label": "Fraud protection"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.real_time_tracking",
+            "label": "Real-time tracking"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.page_creation", "label": "Page creation"},
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_registration",
+            "label": "Custom registration"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.branded_portal", "label": "Branded portal"},
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_links_and_discounts",
+            "label": "Custom links and discounts"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_domain", "label": "Custom domain"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_forms", "label": "Custom forms"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.affiliate_programs.payments.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.discounts.discount_types.discount_codes", "label": "Discount codes"},
+          {"handle": "cf.discounts.discount_types.flat_discounts", "label": "Flat discounts"},
+          {"handle": "cf.discounts.discount_types.percentage_discounts", "label": "Percentage discounts"},
+          {"handle": "cf.discounts.discount_types.cart_discounts", "label": "Cart discounts"},
+          {"handle": "cf.discounts.discount_types.checkout_discounts", "label": "Checkout discounts"},
+          {"handle": "cf.discounts.discount_types.rewards", "label": "Rewards"},
+          {"handle": "cf.discounts.discount_types.subscriptions", "label": "Subscriptions"},
+          {"handle": "cf.discounts.discount_types.custom_discounts", "label": "Custom discounts"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " French",
+          " Italian",
+          " Spanish",
+          " Japanese",
+          " Danish",
+          " Finnish",
+          " Polish",
+          " Portuguese (Portugal)",
+          " Korean",
+          " Dutch",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Swedish",
+          " Czech",
+          " Hungarian",
+          " Turkish",
+          " Romanian",
+          " and Thai"
+        ],
+        "works_with": ["Checkout", "Customer accounts", "Shopify Admin", "BLOY", "Klaviyo", "Mailchimp"]
+      },
+      "developer": {
+        "name": "BLOOP",
+        "website_url": "https://bloop.plus/",
+        "partner_url": "https://apps.shopify.com/partners/bloop4",
+        "public_address": "18F, Viwaseen Tower, 48 To Huu Str., Trung Van Ward, Ha Noi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/bloop-referral-program",
+        "canonical_app_store_url": "https://apps.shopify.com/bloop-referral-program",
+        "install_url": "https://apps.shopify.com/bloop-referral-program",
+        "demo_store_url": "https://bloop-demo-store.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://docs.bloop.plus/legal/privacy-policy",
+          "FAQ": "https://docs.bloop.plus/help/faqs",
+          "App Documentation": "https://docs.bloop.plus/help/referral-marketing-strategies",
+          "BLOOP": "https://apps.shopify.com/partners/bloop4",
+          "Website": "https://bloop.plus/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/1caae36788f0203983fb4fdd352f147a/icon/CMjFjsXk3owDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/1caae36788f0203983fb4fdd352f147a/desktop_screenshot/CMfilNGqk5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1caae36788f0203983fb4fdd352f147a/desktop_screenshot/COPYntGqk5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1caae36788f0203983fb4fdd352f147a/desktop_screenshot/CMi3qNGqk5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1caae36788f0203983fb4fdd352f147a/desktop_screenshot/CI7WstGqk5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1caae36788f0203983fb4fdd352f147a/desktop_screenshot/CJTrvNGqk5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1caae36788f0203983fb4fdd352f147a/desktop_screenshot/CJyAyNGqk5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1caae36788f0203983fb4fdd352f147a/mobile_screenshot/CIq-0tGqk5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1caae36788f0203983fb4fdd352f147a/mobile_screenshot/CJKC3dGqk5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1caae36788f0203983fb4fdd352f147a/mobile_screenshot/CI615tGqk5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1caae36788f0203983fb4fdd352f147a/mobile_screenshot/CPCW8NGqk5cDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/ugVhFnXCYa0"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BLOOP Referral & Affiliate free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/bloop-referral-program"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Italian,  Spanish,  Japanese,  Danish,  Finnish,  Polish,  Portuguese (Portugal),  Korean,  Dutch,  Chinese (Simplified),  Chinese (Traditional),  Swedish,  Czech,  Hungarian,  Turkish,  Romanian,  and Thai",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bloop-referral-program"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, BLOY, Klaviyo, Mailchimp",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bloop-referral-program"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/bloop-referral-program"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.bloop.plus/help/faqs", "https://docs.bloop.plus/help/referral-marketing-strategies"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["affiliate-program-management", "influencer-marketing"],
+        "primary_category_id": "affiliate-program-management",
+        "seo": {
+          "title": "BLOOP Referral & Affiliate Shopify App | eStorefy",
+          "meta_description": "A Shopify app for affiliate program management. Listed functions include automated rules, tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/bloop-referral-program",
+          "retrieved_at": "2026-10-04T05:10:56.931561+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Launch a referral and affiliate program in minutes. Reward referrers, pay affiliate…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/bloop-referral-program"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "essential-seo-ai-blog-writer",
+      "name": "Essential AI SEO: AI Blog Post",
+      "slug": "essential-seo-ai-blog-writer",
+      "category_fit": {
+        "app_id": "essential-seo-ai-blog-writer",
+        "selection_score": 5.231,
+        "rating_evidence": {"value": 5.0, "reviews": 422},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["creator"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/essential-seo-ai-blog-writer"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for influencer marketing. Listed functions include ai generation, recommended topics.",
+        "description_long": "Essential AI SEO: AI Blog Post is developed by Essential Apps and listed for blogs, seo. Its structured listing identifies functions such as ai generation, recommended topics, bulk creation, multi-language. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Influencer Marketing", "SEO Optimization", "Blog & AI Content Tools", "Shipping Rate Calculators"],
+        "best_for": {
+          "use_cases": ["Influencer Marketing", "SEO Optimization", "Blog & AI Content Tools", "Shipping Rate Calculators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 422,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/essential-seo-ai-blog-writer",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 412},
+          {"stars": 4, "percentage": 2, "count": 7},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.88/year and save 20%"]
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $287.88/year and save 20%"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 99.99,
+            "billing_period": "month",
+            "price_display": "$99.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $959.88/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "April 12, 2024",
+        "shopify_categories": [
+          {"name": "Blogs", "url": "https://apps.shopify.com/categories/store-design-content-blogs"},
+          {"name": "SEO", "url": "https://apps.shopify.com/categories/store-design-site-optimization-seo"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.blogs.content_creation.ai_generation", "label": "AI generation"},
+          {"handle": "cf.blogs.content_creation.recommended_topics", "label": "Recommended topics"},
+          {"handle": "cf.blogs.content_creation.bulk_creation", "label": "Bulk creation"},
+          {"handle": "cf.blogs.content_creation.multi_language", "label": "Multi-language"},
+          {"handle": "cf.blogs.content_creation.translation", "label": "Translation"},
+          {"handle": "cf.blogs.content_creation.images", "label": "Images"},
+          {"handle": "cf.blogs.seo.keyword_optimization", "label": "Keyword optimization"},
+          {"handle": "cf.blogs.seo.seo_analysis", "label": "SEO analysis"},
+          {"handle": "cf.seo.seo_tools.ai_generation", "label": "AI generation"},
+          {"handle": "cf.seo.seo_tools.local_seo", "label": "Local SEO"},
+          {"handle": "cf.seo.seo_tools.content_optimization", "label": "Content optimization"},
+          {"handle": "cf.seo.monitoring_performance.seo_score", "label": "SEO score"},
+          {"handle": "cf.seo.monitoring_performance.website_traffic", "label": "Website traffic"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Admin",
+          "Avada SEO & Image Optimizer",
+          "Bloggle Powerful Blog Builder",
+          "Chat GPT",
+          "DropInBlog ‑ SEO Friendly Blog",
+          "SEOAnt ‑ AI SEO Optimizer"
+        ]
+      },
+      "developer": {
+        "name": "Essential Apps",
+        "website_url": "https://essential-apps.com",
+        "partner_url": "https://apps.shopify.com/partners/essentials25",
+        "public_address": "Baltupio g. 45 - 27, Vilnius, 08324, LT"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/essential-seo-ai-blog-writer",
+        "canonical_app_store_url": "https://apps.shopify.com/essential-seo-ai-blog-writer",
+        "install_url": "https://apps.shopify.com/essential-seo-ai-blog-writer",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://essential-apps.com/essential-seo-ai-blog-writer-privacy-policy-terms-and-conditions",
+          "FAQ": "https://essential-apps.com/ai-blog-writer",
+          "App Documentation": "https://essentials-docs.helpscoutdocs.com/collection/104-essential-ai-seo-ai-blog-post",
+          "Essential Apps": "https://apps.shopify.com/partners/essentials25",
+          "Website": "https://essential-apps.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/icon/CNXcrsjNqIUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/promotional_image/CNKV2uXFlYkDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/desktop_screenshot/CNm74-XFlYkDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/desktop_screenshot/CPLI7OXFlYkDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/desktop_screenshot/CLzR9eXFlYkDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/desktop_screenshot/CKL0_uXFlYkDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/desktop_screenshot/CIWKiebFlYkDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/desktop_screenshot/CImLk-bFlYkDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Essential AI SEO: AI Blog Post free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/essential-seo-ai-blog-writer"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/essential-seo-ai-blog-writer"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Avada SEO & Image Optimizer, Bloggle Powerful Blog Builder, Chat GPT, DropInBlog ‑ SEO Friendly Blog, SEOAnt ‑ AI SEO Optimizer",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/essential-seo-ai-blog-writer"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/essential-seo-ai-blog-writer"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://essential-apps.com/ai-blog-writer",
+            "https://essentials-docs.helpscoutdocs.com/collection/104-essential-ai-seo-ai-blog-post"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["influencer-marketing", "seo-optimization", "blog-ai-content-tools", "shipping-rate-calculators"],
+        "primary_category_id": "influencer-marketing",
+        "seo": {
+          "title": "Essential AI SEO: AI Blog Post Shopify App | eStorefy",
+          "meta_description": "A Shopify app for influencer marketing. Listed functions include ai generation, recommended topics.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/essential-seo-ai-blog-writer",
+          "retrieved_at": "2026-10-04T05:12:49.395281+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Boost your Shopify store’s SEO with Essential SEO ‑ AI Blog Post,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/essential-seo-ai-blog-writer"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "kite-free-gift",
+      "name": "Kite Discount, Free Gift, BOGO",
+      "slug": "kite-free-gift",
+      "category_fit": {
+        "app_id": "kite-free-gift",
+        "selection_score": 5.2007,
+        "rating_evidence": {"value": 4.9, "reviews": 1259},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["influencer"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/kite-free-gift"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for volume discounts. Listed functions include discount codes, coupons.",
+        "description_long": "Kite Discount, Free Gift, BOGO is developed by Skai Lama and listed for discounts, promotions - other. Its structured listing identifies functions such as discount codes, coupons, bogo, fixed pricing. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Volume Discounts", "Free Gifts with Purchase", "Influencer Marketing"],
+        "best_for": {
+          "use_cases": ["Volume Discounts", "Free Gifts with Purchase", "Influencer Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1259,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/kite-free-gift",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 1},
+          {"stars": 4, "percentage": 4, "count": 46},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 6}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Plan",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": ["First 50 discount orders free each month. $29/mo billed only if you go over 50 orders."]
+          },
+          {
+            "name": "Starter Plan",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $299/year and save 14%"]
+          },
+          {
+            "name": "Growth Plan",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $499/year and save 15%"]
+          },
+          {
+            "name": "Pro Plan",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $999/year and save 16%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 28, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Discounts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-promotions-discounts"
+          },
+          {
+            "name": "Promotions - Other",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-promotions-promotions-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.discounts.discount_types.discount_codes", "label": "Discount codes"},
+          {"handle": "cf.discounts.discount_types.coupons", "label": "Coupons"},
+          {"handle": "cf.discounts.discount_types.bogo", "label": "BOGO"},
+          {"handle": "cf.discounts.discount_types.fixed_pricing", "label": "Fixed pricing"},
+          {"handle": "cf.discounts.discount_types.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.discounts.discount_types.volume_discounts", "label": "Volume discounts"},
+          {"handle": "cf.discounts.discount_types.quantity_breaks", "label": "Quantity breaks"},
+          {"handle": "cf.discounts.discount_types.flat_discounts", "label": "Flat discounts"},
+          {"handle": "cf.discounts.discount_types.percentage_discounts", "label": "Percentage discounts"},
+          {"handle": "cf.discounts.discount_types.bulk_discounts", "label": "Bulk discounts"},
+          {"handle": "cf.discounts.discount_types.wholesale_pricing", "label": "Wholesale pricing"},
+          {"handle": "cf.discounts.discount_types.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.discounts.discount_types.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.discounts.discount_types.cart_discounts", "label": "Cart discounts"},
+          {"handle": "cf.discounts.discount_types.checkout_discounts", "label": "Checkout discounts"},
+          {"handle": "cf.discounts.discount_types.gifts", "label": "Gifts"},
+          {"handle": "cf.discounts.discount_types.rewards", "label": "Rewards"},
+          {"handle": "cf.discounts.discount_types.product_bundles", "label": "Product bundles"},
+          {"handle": "cf.discounts.discount_types.limited_time_offers", "label": "Limited time offers"},
+          {"handle": "cf.discounts.discount_types.upsell_discounts", "label": "Upsell discounts"},
+          {"handle": "cf.discounts.discount_types.cross_sell_discounts", "label": "Cross-sell discounts"},
+          {"handle": "cf.discounts.discount_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.discounts.discount_types.banners", "label": "Banners"},
+          {"handle": "cf.discounts.discount_types.dynamic_pricing", "label": "Dynamic pricing"},
+          {"handle": "cf.discounts.discount_types.custom_discounts", "label": "Custom discounts"},
+          {"handle": "cf.discounts.managing_discounts.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.discounts.managing_discounts.templates", "label": "Templates"},
+          {"handle": "cf.discounts.managing_discounts.custom_code", "label": "Custom code"},
+          {"handle": "cf.discounts.managing_discounts.custom_fonts", "label": "Custom fonts"},
+          {"handle": "cf.discounts.managing_discounts.currency_conversion", "label": "Currency conversion"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "All Slide Carts",
+          "Checkout Wizard",
+          "Easy Bundles",
+          "Gem pages",
+          "iCart",
+          "UpCart"
+        ]
+      },
+      "developer": {
+        "name": "Skai Lama",
+        "website_url": "https://www.skailama.com/",
+        "partner_url": "https://apps.shopify.com/partners/skai-lama",
+        "public_address": "Indore, MP, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/kite-free-gift",
+        "canonical_app_store_url": "https://apps.shopify.com/kite-free-gift",
+        "install_url": "https://apps.shopify.com/kite-free-gift",
+        "demo_store_url": "https://kite-app-demo-store.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.skailama.com/privacy-policy",
+          "FAQ": "https://kite.skailama.app/",
+          "Skai Lama": "https://apps.shopify.com/partners/skai-lama",
+          "Website": "https://www.skailama.com/",
+          "Changelog": "https://kite.features.vote/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/icon/CNij94fx7o0DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/promotional_image/CL2v6ZLuupQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/desktop_screenshot/CKeLsoedu5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/desktop_screenshot/CJnEuoedu5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/desktop_screenshot/CKqaxIedu5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/desktop_screenshot/CPbQzoedu5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/desktop_screenshot/CLid3MCXu5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/desktop_screenshot/CP_U5cCXu5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/mobile_screenshot/CNCM78CXu5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/mobile_screenshot/CMyZ-MCXu5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/mobile_screenshot/CMmJgcGXu5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/mobile_screenshot/COv-icGXu5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/mobile_screenshot/CLrqksGXu5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/mobile_screenshot/CIWXnMGXu5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e51a4e2686c9072bb405bf25837fe8f7/pos_screenshot/CNbFpcGXu5QDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Kite Discount, Free Gift, BOGO free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/kite-free-gift"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/kite-free-gift"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, All Slide Carts, Checkout Wizard, Easy Bundles, Gem pages, iCart, UpCart",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/kite-free-gift"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/kite-free-gift"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://kite.skailama.app/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select eligible products and set the offer conditions.",
+            "Preview the offer and test cart totals on a sample order.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["volume-discounts", "free-gifts-with-purchase", "influencer-marketing"],
+        "primary_category_id": "volume-discounts",
+        "seo": {
+          "title": "Kite Discount, Free Gift, BOGO Shopify App | eStorefy",
+          "meta_description": "A Shopify app for volume discounts. Listed functions include discount codes, coupons.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/kite-free-gift",
+          "retrieved_at": "2026-10-04T05:08:51.490035+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Create offers with the best Shopify discount app. Set up Buy X…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/kite-free-gift"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "refersion",
+      "name": "Refersion Affiliate Marketing",
+      "slug": "refersion",
+      "category_fit": {
+        "app_id": "refersion",
+        "selection_score": 5.2,
+        "rating_evidence": {"value": 4.8, "reviews": 494},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["influencer", "creator"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/refersion"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for affiliate program management. Listed functions include automated rules, maturation periods.",
+        "description_long": "Refersion Affiliate Marketing is developed by Refersion, Inc. and listed for affiliate programs, marketing - other. Its structured listing identifies functions such as automated rules, maturation periods, tracking, custom commission. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Affiliate Program Management", "Influencer Marketing"],
+        "best_for": {
+          "use_cases": ["Affiliate Program Management", "Influencer Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 494,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/refersion",
+        "distribution": [
+          {"stars": 5, "percentage": 88, "count": 433},
+          {"stars": 4, "percentage": 7, "count": 33},
+          {"stars": 3, "percentage": 1, "count": 5},
+          {"stars": 2, "percentage": 1, "count": 5},
+          {"stars": 1, "percentage": 4, "count": 18}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Marketplace",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Launch",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $348/year and save 26%"]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 199.0,
+            "billing_period": "month",
+            "price_display": "$199 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,908/year and save 20%"]
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": "https://www.refersion.com/pricing/?utm_source=shpfy&utm_medium=landing-page&utm_campaign=shopfy-listing",
+        "starting_paid_monthly_price_usd": 39.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "April 30, 2013",
+        "shopify_categories": [
+          {
+            "name": "Affiliate programs",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-advertising-affiliate-programs"
+          },
+          {
+            "name": "Marketing - Other",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-marketing-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.affiliate_programs.commission_options.automated_rules", "label": "Automated rules"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.maturation_periods",
+            "label": "Maturation periods"
+          },
+          {"handle": "cf.affiliate_programs.commission_options.tracking", "label": "Tracking"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.custom_commission",
+            "label": "Custom commission"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.multi_level_marketing",
+            "label": "Multi-level marketing"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.performance_bonuses",
+            "label": "Performance bonuses"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.product_commission",
+            "label": "Product commission"
+          },
+          {"handle": "cf.affiliate_programs.commission_options.royalties", "label": "Royalties"},
+          {"handle": "cf.affiliate_programs.commission_options.tiered_benefits", "label": "Tiered benefits"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.achievement_tracking",
+            "label": "Achievement tracking"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.affiliate_links", "label": "Affiliate links"},
+          {"handle": "cf.affiliate_programs.referral_management.analytics", "label": "Analytics"},
+          {"handle": "cf.affiliate_programs.referral_management.auto_tracking", "label": "Auto-tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.bulk_link_generation",
+            "label": "Bulk link generation"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.collection_links",
+            "label": "Collection links"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.discounts", "label": "Discounts"},
+          {"handle": "cf.affiliate_programs.referral_management.email_tracking", "label": "Email tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.multi_level_tracking",
+            "label": "Multi-level tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.post_purchase_pop_ups",
+            "label": "Post-purchase pop-ups"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.product_tracking",
+            "label": "Product tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.real_time_tracking",
+            "label": "Real-time tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_dashboard",
+            "label": "Custom dashboards"
+          },
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_registration",
+            "label": "Custom registration"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.branded_portal", "label": "Branded portal"},
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_links_and_discounts",
+            "label": "Custom links and discounts"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_domain", "label": "Custom domain"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_forms", "label": "Custom forms"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.affiliate_programs.payments.tax_forms", "label": "Tax forms"},
+          {"handle": "cf.affiliate_programs.payments.ach_payments", "label": "ACH payments"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Google Analytics", "Klaviyo", "Mailchimp", "Paypal", "Stripe", "Yotpo"]
+      },
+      "developer": {
+        "name": "Refersion, Inc.",
+        "website_url": "https://www.refersion.com/",
+        "partner_url": "https://apps.shopify.com/partners/aleksandr",
+        "public_address": "3000-F Danville Blvd., #417, Alamo, CA, 94507, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/refersion",
+        "canonical_app_store_url": "https://apps.shopify.com/refersion",
+        "install_url": "https://apps.shopify.com/refersion",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.refersion.com/privacy",
+          "FAQ": "https://support.refersion.com/faq",
+          "Refersion, Inc.": "https://apps.shopify.com/partners/aleksandr",
+          "Website": "https://www.refersion.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/b021799cb411d24623b60612a6228f1b/icon/CNifi_rFxZIDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/b021799cb411d24623b60612a6228f1b/desktop_screenshot/CLH586fzmJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b021799cb411d24623b60612a6228f1b/desktop_screenshot/CPme_afzmJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b021799cb411d24623b60612a6228f1b/desktop_screenshot/COrghqjzmJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b021799cb411d24623b60612a6228f1b/desktop_screenshot/CM-Wj6jzmJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b021799cb411d24623b60612a6228f1b/desktop_screenshot/CJ3FmKjzmJQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/Jzzhx38xI8c"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Refersion Affiliate Marketing free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/refersion"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/refersion"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Google Analytics, Klaviyo, Mailchimp, Paypal, Stripe, Yotpo",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/refersion"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/refersion"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://support.refersion.com/faq"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["affiliate-program-management", "influencer-marketing"],
+        "primary_category_id": "affiliate-program-management",
+        "seo": {
+          "title": "Refersion Affiliate Marketing Shopify App | eStorefy",
+          "meta_description": "A Shopify app for affiliate program management. Listed functions include automated rules, maturation periods.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/refersion",
+          "retrieved_at": "2026-10-04T05:10:56.944153+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Refersion makes affiliate, referral, and influencer programs easy. Track sales with first-party…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/refersion"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "referral-and-affiliates",
+      "name": "Referral Program ‑ Shopjar",
+      "slug": "referral-and-affiliates",
+      "category_fit": {
+        "app_id": "referral-and-affiliates",
+        "selection_score": 5.1966,
+        "rating_evidence": {"value": 4.9, "reviews": 149},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["influencer"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/referral-and-affiliates"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for referral programs. Listed functions include automated rules, maturation periods.",
+        "description_long": "Referral Program ‑ Shopjar is developed by Shopjar and listed for affiliate programs, loyalty and rewards. Its structured listing identifies functions such as automated rules, maturation periods, tracking, custom commission. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Referral Programs", "Affiliate Program Management", "Influencer Marketing"],
+        "best_for": {
+          "use_cases": ["Referral Programs", "Affiliate Program Management", "Influencer Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 149,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/referral-and-affiliates",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 142},
+          {"stars": 4, "percentage": 3, "count": 4},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 1, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 7.0,
+            "billing_period": "month",
+            "price_display": "$7 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 12.0,
+            "billing_period": "month",
+            "price_display": "$12 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 7.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 27, 2022",
+        "shopify_categories": [
+          {
+            "name": "Affiliate programs",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-advertising-affiliate-programs"
+          },
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.affiliate_programs.commission_options.automated_rules", "label": "Automated rules"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.maturation_periods",
+            "label": "Maturation periods"
+          },
+          {"handle": "cf.affiliate_programs.commission_options.tracking", "label": "Tracking"},
+          {
+            "handle": "cf.affiliate_programs.commission_options.custom_commission",
+            "label": "Custom commission"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.performance_bonuses",
+            "label": "Performance bonuses"
+          },
+          {
+            "handle": "cf.affiliate_programs.commission_options.product_commission",
+            "label": "Product commission"
+          },
+          {"handle": "cf.affiliate_programs.commission_options.tiered_benefits", "label": "Tiered benefits"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.achievement_tracking",
+            "label": "Achievement tracking"
+          },
+          {"handle": "cf.affiliate_programs.referral_management.affiliate_links", "label": "Affiliate links"},
+          {"handle": "cf.affiliate_programs.referral_management.analytics", "label": "Analytics"},
+          {"handle": "cf.affiliate_programs.referral_management.auto_tracking", "label": "Auto-tracking"},
+          {"handle": "cf.affiliate_programs.referral_management.discounts", "label": "Discounts"},
+          {"handle": "cf.affiliate_programs.referral_management.email_tracking", "label": "Email tracking"},
+          {
+            "handle": "cf.affiliate_programs.referral_management.post_purchase_pop_ups",
+            "label": "Post-purchase pop-ups"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.product_tracking",
+            "label": "Product tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.fraud_protection",
+            "label": "Fraud protection"
+          },
+          {
+            "handle": "cf.affiliate_programs.referral_management.real_time_tracking",
+            "label": "Real-time tracking"
+          },
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_dashboard",
+            "label": "Custom dashboards"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.page_creation", "label": "Page creation"},
+          {
+            "handle": "cf.affiliate_programs.affiliate_experience.custom_registration",
+            "label": "Custom registration"
+          },
+          {"handle": "cf.affiliate_programs.affiliate_experience.branded_portal", "label": "Branded portal"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_domain", "label": "Custom domain"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_forms", "label": "Custom forms"},
+          {"handle": "cf.affiliate_programs.affiliate_experience.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.affiliate_programs.payments.bank_transfers", "label": "Bank transfers"},
+          {"handle": "cf.affiliate_programs.payments.auto_payments", "label": "Auto-payments"},
+          {"handle": "cf.affiliate_programs.payments.bulk_payouts", "label": "Bulk payouts"},
+          {"handle": "cf.affiliate_programs.payments.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.affiliate_programs.payments.paypal", "label": "PayPal"},
+          {"handle": "cf.affiliate_programs.payments.scheduled_payouts", "label": "Scheduled payouts"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Italian",
+          " Russian",
+          " Hungarian",
+          " Danish",
+          " Czech",
+          " Finnish",
+          " Dutch",
+          " Polish",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Norwegian",
+          " Norwegian (Bokmål)",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Japanese",
+          " and Korean"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Klaviyo",
+          "PayPal",
+          "Tremendous",
+          "Wise"
+        ]
+      },
+      "developer": {
+        "name": "Shopjar",
+        "website_url": "https://shopjar.co/",
+        "partner_url": "https://apps.shopify.com/partners/checkoutful",
+        "public_address": "160 Robinson Road, 14-04, Singapore, 068914, SG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/referral-and-affiliates",
+        "canonical_app_store_url": "https://apps.shopify.com/referral-and-affiliates",
+        "install_url": "https://apps.shopify.com/referral-and-affiliates",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://shopjar.co/privacy-policy/",
+          "Tutorial": "https://docs.shopjar.co/",
+          "App Documentation": "https://docs.shopjar.co/",
+          "Shopjar": "https://apps.shopify.com/partners/checkoutful",
+          "Website": "https://shopjar.co/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6b989f70f0e36b3d892f675339291d10/icon/CNzq08nTxv0CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6b989f70f0e36b3d892f675339291d10/promotional_image/CJKTxPj71ZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b989f70f0e36b3d892f675339291d10/desktop_screenshot/COTtz7ef1pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b989f70f0e36b3d892f675339291d10/desktop_screenshot/CPajp77_1ZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b989f70f0e36b3d892f675339291d10/desktop_screenshot/CNWUsr7_1ZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b989f70f0e36b3d892f675339291d10/desktop_screenshot/CNuhoKOO55ADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b989f70f0e36b3d892f675339291d10/desktop_screenshot/CK6NxL7_1ZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b989f70f0e36b3d892f675339291d10/desktop_screenshot/CLS_h9qA1pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b989f70f0e36b3d892f675339291d10/mobile_screenshot/COnIkNqA1pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b989f70f0e36b3d892f675339291d10/mobile_screenshot/CLiimdqA1pADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Referral Program ‑ Shopjar free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/referral-and-affiliates"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Italian,  Russian,  Hungarian,  Danish,  Czech,  Finnish,  Dutch,  Polish,  Swedish,  Thai,  Turkish,  Norwegian,  Norwegian (Bokmål),  Portuguese (Brazil),  Portuguese (Portugal),  Chinese (Simplified),  Chinese (Traditional),  Japanese,  and Korean",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/referral-and-affiliates"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Klaviyo, PayPal, Tremendous, Wise",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/referral-and-affiliates"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/referral-and-affiliates"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.shopjar.co/", "https://docs.shopjar.co/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["referral-programs", "affiliate-program-management", "influencer-marketing"],
+        "primary_category_id": "referral-programs",
+        "seo": {
+          "title": "Referral Program ‑ Shopjar Shopify App | eStorefy",
+          "meta_description": "A Shopify app for referral programs. Listed functions include automated rules, maturation periods.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/referral-and-affiliates",
+          "retrieved_at": "2026-10-04T05:11:03.930281+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Create and launch referral programs in Shopify with the all-in-one Referral and…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/referral-and-affiliates"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1393 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "workflow-automation",
+    "number": 89,
+    "name": "Workflow Automation",
+    "group": "Analytics & Automation",
+    "slug": "workflow-automation",
+    "url_path": "/apps/workflow-automation",
+    "focus": "Understand business activity and automate repetitive work.",
+    "description": "Compare Shopify apps for workflow automation. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/store-management-operations-workflow-automation/all"],
+    "seo": {
+      "title": "Shopify Workflow Automation Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for workflow automation: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 5,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a workflow automation app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "mechanic",
+      "name": "Mechanic",
+      "slug": "mechanic",
+      "category_fit": {
+        "app_id": "mechanic",
+        "selection_score": 5.984,
+        "rating_evidence": {"value": 5.0, "reviews": 148},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["workflow", "automat"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/mechanic"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for erp & warehouse integrations. Listed functions include customer segments, customer tags.",
+        "description_long": "Mechanic is developed by Lightward and listed for workflow automation, orders - other. Its structured listing identifies functions such as customer segments, customer tags, email responses, fraud detection. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["ERP & Warehouse Integrations", "Workflow Automation"],
+        "best_for": {
+          "use_cases": ["ERP & Warehouse Integrations", "Workflow Automation"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 148,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/mechanic",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 146},
+          {"stars": 4, "percentage": 1, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $16/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic Shopify",
+            "amount_usd": 16.0,
+            "billing_period": "month",
+            "price_display": "$16 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Grow Shopify",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced Shopify",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Shopify Plus",
+            "amount_usd": 199.0,
+            "billing_period": "month",
+            "price_display": "$199 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://lightward.com/pricing",
+        "starting_paid_monthly_price_usd": 16.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 7, 2018 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Workflow automation",
+            "url": "https://apps.shopify.com/categories/store-management-operations-workflow-automation"
+          },
+          {
+            "name": "Orders - Other",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-orders-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.workflow_automation.automation_tasks.customer_segments",
+            "label": "Customer segments"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.customer_tags", "label": "Customer tags"},
+          {"handle": "cf.workflow_automation.automation_tasks.email_responses", "label": "Email responses"},
+          {"handle": "cf.workflow_automation.automation_tasks.fraud_detection", "label": "Fraud detection"},
+          {"handle": "cf.workflow_automation.automation_tasks.inventory_levels", "label": "Inventory levels"},
+          {
+            "handle": "cf.workflow_automation.automation_tasks.order_fulfillment",
+            "label": "Order fulfillment"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.order_tags", "label": "Order tags"},
+          {"handle": "cf.workflow_automation.automation_tasks.payment_status", "label": "Payment status"},
+          {"handle": "cf.workflow_automation.automation_tasks.product_tags", "label": "Product tags"},
+          {
+            "handle": "cf.workflow_automation.automation_tasks.return_processing",
+            "label": "Return processing"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.sales_thresholds", "label": "Sales thresholds"},
+          {
+            "handle": "cf.workflow_automation.automation_tasks.stock_replenishment",
+            "label": "Stock replenishment"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.time_based", "label": "Time-based"},
+          {"handle": "cf.workflow_automation.automation_tasks.order_processing", "label": "Order processing"},
+          {"handle": "cf.workflow_automation.customization.apis", "label": "APIs"},
+          {"handle": "cf.workflow_automation.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.workflow_automation.customization.custom_triggers", "label": "Custom triggers"},
+          {"handle": "cf.workflow_automation.customization.templates", "label": "Templates"},
+          {"handle": "cf.workflow_automation.customization.auto_data_sync", "label": "Auto-sync data"},
+          {"handle": "cf.workflow_automation.customization.scheduled_tasks", "label": "Scheduled tasks"},
+          {"handle": "cf.workflow_automation.customization.custom_workflows", "label": "Custom workflows"},
+          {"handle": "cf.workflow_automation.customization.multi_store", "label": "Multi-store"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Flow",
+          "Shopify Admin",
+          "Airtable",
+          "Email",
+          "Flow",
+          "Google Drive",
+          "Google Sheets",
+          "Webhooks"
+        ]
+      },
+      "developer": {
+        "name": "Lightward",
+        "website_url": "https://lightward.com/",
+        "partner_url": "https://apps.shopify.com/partners/lightward",
+        "public_address": "Chicago, IL, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/mechanic",
+        "canonical_app_store_url": "https://apps.shopify.com/mechanic",
+        "install_url": "https://apps.shopify.com/mechanic",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://learn.mechanic.dev/platform/policies/privacy",
+          "FAQ": "https://learn.mechanic.dev/faq",
+          "Tutorial": "https://learn.mechanic.dev/",
+          "App Documentation": "https://learn.mechanic.dev/",
+          "Lightward": "https://apps.shopify.com/partners/lightward",
+          "Website": "https://lightward.com/",
+          "Changelog": "https://mechanic.canny.io/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/e9f7304f320df1ee017af1d0bf9c64f4/icon/CKmEoL2ng_sCEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/e9f7304f320df1ee017af1d0bf9c64f4/desktop_screenshot/CILr9KGZ-fgCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e9f7304f320df1ee017af1d0bf9c64f4/desktop_screenshot/CJD5ht6W-fgCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e9f7304f320df1ee017af1d0bf9c64f4/desktop_screenshot/CJSKuJSY-fgCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e9f7304f320df1ee017af1d0bf9c64f4/desktop_screenshot/CP_eouqZ-fgCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e9f7304f320df1ee017af1d0bf9c64f4/desktop_screenshot/CMaqxJSY-fgCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e9f7304f320df1ee017af1d0bf9c64f4/desktop_screenshot/CN-N88CY-fgCEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/QitSqzfBovg"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Mechanic free?",
+            "answer": "The pricing label retrieved from the listing is: From $16/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/mechanic"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/mechanic"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Flow, Shopify Admin, Airtable, Email, Flow, Google Drive, Google Sheets, Webhooks",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/mechanic"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/mechanic"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://learn.mechanic.dev/faq", "https://learn.mechanic.dev/", "https://learn.mechanic.dev/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["erp-warehouse-integrations", "workflow-automation"],
+        "primary_category_id": "erp-warehouse-integrations",
+        "seo": {
+          "title": "Mechanic Shopify App | eStorefy",
+          "meta_description": "A Shopify app for erp & warehouse integrations. Listed functions include customer segments, customer tags.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/mechanic",
+          "retrieved_at": "2026-10-04T05:26:25.079910+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Automate anything in your Shopify store. Choose from hundreds of automations or…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/mechanic"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "flow",
+      "name": "Shopify Flow",
+      "slug": "flow",
+      "category_fit": {
+        "app_id": "flow",
+        "selection_score": 5.9494,
+        "rating_evidence": {"value": 4.7, "reviews": 14473},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["automat", "workflow"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/flow"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for workflow automation. Listed functions include customer segments, customer tags.",
+        "description_long": "Shopify Flow is developed by Shopify and listed for workflow automation, email marketing. Its structured listing identifies functions such as customer segments, customer tags, email responses, fraud detection. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Workflow Automation"],
+        "best_for": {
+          "use_cases": ["Workflow Automation"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.7,
+        "review_count": 14473,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/flow",
+        "distribution": [
+          {"stars": 5, "percentage": 84, "count": 12},
+          {"stars": 4, "percentage": 9, "count": 1},
+          {"stars": 3, "percentage": 4, "count": 554},
+          {"stars": 2, "percentage": 1, "count": 157},
+          {"stars": 1, "percentage": 2, "count": 251}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "September 18, 2017 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Workflow automation",
+            "url": "https://apps.shopify.com/categories/store-management-operations-workflow-automation"
+          },
+          {
+            "name": "Email marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-email-marketing"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.workflow_automation.automation_tasks.customer_segments",
+            "label": "Customer segments"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.customer_tags", "label": "Customer tags"},
+          {"handle": "cf.workflow_automation.automation_tasks.email_responses", "label": "Email responses"},
+          {"handle": "cf.workflow_automation.automation_tasks.fraud_detection", "label": "Fraud detection"},
+          {"handle": "cf.workflow_automation.automation_tasks.inventory_levels", "label": "Inventory levels"},
+          {
+            "handle": "cf.workflow_automation.automation_tasks.order_fulfillment",
+            "label": "Order fulfillment"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.order_tags", "label": "Order tags"},
+          {"handle": "cf.workflow_automation.automation_tasks.payment_status", "label": "Payment status"},
+          {"handle": "cf.workflow_automation.automation_tasks.product_tags", "label": "Product tags"},
+          {
+            "handle": "cf.workflow_automation.automation_tasks.return_processing",
+            "label": "Return processing"
+          },
+          {
+            "handle": "cf.workflow_automation.automation_tasks.stock_replenishment",
+            "label": "Stock replenishment"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.time_based", "label": "Time-based"},
+          {"handle": "cf.workflow_automation.automation_tasks.order_processing", "label": "Order processing"},
+          {"handle": "cf.workflow_automation.customization.apis", "label": "APIs"},
+          {"handle": "cf.workflow_automation.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.workflow_automation.customization.custom_triggers", "label": "Custom triggers"},
+          {"handle": "cf.workflow_automation.customization.templates", "label": "Templates"},
+          {"handle": "cf.workflow_automation.customization.scheduled_tasks", "label": "Scheduled tasks"},
+          {"handle": "cf.workflow_automation.customization.custom_workflows", "label": "Custom workflows"},
+          {"handle": "cf.workflow_automation.customization.multi_store", "label": "Multi-store"},
+          {"handle": "cf.email_marketing.campaign_types.email_campaigns", "label": "Email campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.newsletters", "label": "Newsletters"},
+          {"handle": "cf.email_marketing.campaign_types.forms", "label": "Forms"},
+          {"handle": "cf.email_marketing.campaign_types.discounts", "label": "Discounts"},
+          {"handle": "cf.email_marketing.campaign_types.upsell_emails", "label": "Upsell emails"},
+          {"handle": "cf.email_marketing.campaign_types.cross_sell_emails", "label": "Cross-sell emails"},
+          {"handle": "cf.email_marketing.campaign_types.abandoned_cart", "label": "Abandoned cart"},
+          {"handle": "cf.email_marketing.campaign_types.browse_abandonment", "label": "Browse abandonment"},
+          {"handle": "cf.email_marketing.campaign_types.welcome_emails", "label": "Welcome emails"},
+          {"handle": "cf.email_marketing.campaign_types.follow_up_emails", "label": "Follow-up emails"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin", "Asana", "Email", "Google Sheets", "Klaviyo", "Slack", "Trello"]
+      },
+      "developer": {
+        "name": "Shopify",
+        "website_url": "https://www.shopify.com/plus?itterm=flow_app&itcat=app_store",
+        "partner_url": "https://apps.shopify.com/partners/shopify",
+        "public_address": "151 O’Connor St, Ottawa, ON, ON, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/flow",
+        "canonical_app_store_url": "https://apps.shopify.com/flow",
+        "install_url": "https://apps.shopify.com/flow",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.shopify.com/legal/privacy",
+          "Tutorial": "https://www.shopifyacademy.com/path/shopify-flow-fundamentals-building-powerful-automation-for-a-store",
+          "App Documentation": "https://help.shopify.com/en/manual/shopify-flow",
+          "Shopify": "https://apps.shopify.com/partners/shopify",
+          "Website": "https://www.shopify.com/plus?itterm=flow_app&itcat=app_store",
+          "Changelog": "https://changelog.shopify.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/15100ebca4d221b650a7671125cd1444/icon/CO25r7-jh4ADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/15100ebca4d221b650a7671125cd1444/desktop_screenshot/CPez8NCdyY0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/15100ebca4d221b650a7671125cd1444/desktop_screenshot/CM6A-9CdyY0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/15100ebca4d221b650a7671125cd1444/desktop_screenshot/CNfyhdGdyY0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/15100ebca4d221b650a7671125cd1444/desktop_screenshot/CK3yj9GdyY0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/15100ebca4d221b650a7671125cd1444/desktop_screenshot/CKH5mdGdyY0DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/je6vfmO6Hp0"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Shopify Flow free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/flow"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/flow"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Asana, Email, Google Sheets, Klaviyo, Slack, Trello",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/flow"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/flow"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://www.shopifyacademy.com/path/shopify-flow-fundamentals-building-powerful-automation-for-a-store",
+            "https://help.shopify.com/en/manual/shopify-flow"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the required data sources and configure a sample report or automation.",
+            "Validate event or report output against a known transaction.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["workflow-automation"],
+        "primary_category_id": "workflow-automation",
+        "seo": {
+          "title": "Shopify Flow Shopify App | eStorefy",
+          "meta_description": "A Shopify app for workflow automation. Listed functions include customer segments, customer tags.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/flow",
+          "retrieved_at": "2026-10-04T05:04:50.006697+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/flow"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "mesa",
+      "name": "MESA: Workflow Automation",
+      "slug": "mesa",
+      "category_fit": {
+        "app_id": "mesa",
+        "selection_score": 5.9078,
+        "rating_evidence": {"value": 4.9, "reviews": 166},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["workflow", "automat"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/mesa"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for workflow automation. Listed functions include customer segments, customer tags.",
+        "description_long": "MESA: Workflow Automation is developed by ShopPad Inc. and listed for workflow automation, staff notifications. Its structured listing identifies functions such as customer segments, customer tags, email responses, fraud detection. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Workflow Automation"],
+        "best_for": {
+          "use_cases": ["Workflow Automation"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 166,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/mesa",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 158},
+          {"stars": 4, "percentage": 2, "count": 3},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 3, "count": 5}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 12.0,
+            "billing_period": "month",
+            "price_display": "$12 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $101/year and save 30%"]
+          },
+          {
+            "name": "Flex",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $245/year and save 30%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $830/year and save 30%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.getmesa.com/pricing",
+        "starting_paid_monthly_price_usd": 12.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 24, 2019 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Workflow automation",
+            "url": "https://apps.shopify.com/categories/store-management-operations-workflow-automation"
+          },
+          {
+            "name": "Staff notifications",
+            "url": "https://apps.shopify.com/categories/store-management-operations-staff-notifications"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.workflow_automation.automation_tasks.customer_segments",
+            "label": "Customer segments"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.customer_tags", "label": "Customer tags"},
+          {"handle": "cf.workflow_automation.automation_tasks.email_responses", "label": "Email responses"},
+          {"handle": "cf.workflow_automation.automation_tasks.fraud_detection", "label": "Fraud detection"},
+          {"handle": "cf.workflow_automation.automation_tasks.inventory_levels", "label": "Inventory levels"},
+          {
+            "handle": "cf.workflow_automation.automation_tasks.order_fulfillment",
+            "label": "Order fulfillment"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.order_tags", "label": "Order tags"},
+          {"handle": "cf.workflow_automation.automation_tasks.payment_status", "label": "Payment status"},
+          {"handle": "cf.workflow_automation.automation_tasks.product_tags", "label": "Product tags"},
+          {
+            "handle": "cf.workflow_automation.automation_tasks.return_processing",
+            "label": "Return processing"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.sales_thresholds", "label": "Sales thresholds"},
+          {
+            "handle": "cf.workflow_automation.automation_tasks.stock_replenishment",
+            "label": "Stock replenishment"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.time_based", "label": "Time-based"},
+          {"handle": "cf.workflow_automation.automation_tasks.order_processing", "label": "Order processing"},
+          {"handle": "cf.workflow_automation.customization.apis", "label": "APIs"},
+          {"handle": "cf.workflow_automation.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.workflow_automation.customization.custom_triggers", "label": "Custom triggers"},
+          {"handle": "cf.workflow_automation.customization.templates", "label": "Templates"},
+          {"handle": "cf.workflow_automation.customization.auto_data_sync", "label": "Auto-sync data"},
+          {"handle": "cf.workflow_automation.customization.scheduled_tasks", "label": "Scheduled tasks"},
+          {"handle": "cf.workflow_automation.customization.custom_workflows", "label": "Custom workflows"},
+          {"handle": "cf.workflow_automation.customization.multi_store", "label": "Multi-store"},
+          {"handle": "cf.staff_notifications.notification_types.order_creation", "label": "Order creation"},
+          {
+            "handle": "cf.staff_notifications.notification_types.order_cancellations",
+            "label": "Order cancellations"
+          },
+          {"handle": "cf.staff_notifications.notification_types.order_status", "label": "Order status"},
+          {"handle": "cf.staff_notifications.notification_types.abandoned_carts", "label": "Abandoned cart"},
+          {
+            "handle": "cf.staff_notifications.notification_types.shipping_updates",
+            "label": "Shipping updates"
+          },
+          {"handle": "cf.staff_notifications.notification_types.refunds", "label": "Refunds"},
+          {
+            "handle": "cf.staff_notifications.notification_types.returns_and_exchanges",
+            "label": "Returns and exchanges"
+          },
+          {"handle": "cf.staff_notifications.notification_types.fraud_alerts", "label": "Fraud alerts"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Flow", "130+ ecommerce apps", "ChatGPT", "Etsy", "Google Sheets", "Odoo", "Salesforce"]
+      },
+      "developer": {
+        "name": "ShopPad Inc.",
+        "website_url": "https://www.getmesa.com",
+        "partner_url": "https://apps.shopify.com/partners/shoppad",
+        "public_address": "548 Market St #91031, San Francisco, CA, 94104, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/mesa",
+        "canonical_app_store_url": "https://apps.shopify.com/mesa",
+        "install_url": "https://apps.shopify.com/mesa",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.getmesa.com/privacy",
+          "FAQ": "https://docs.getmesa.com/frequently-asked-questions",
+          "Tutorial": "https://docs.getmesa.com/welcome/installing-mesa",
+          "App Documentation": "https://docs.getmesa.com",
+          "ShopPad Inc.": "https://apps.shopify.com/partners/shoppad",
+          "Website": "https://www.getmesa.com",
+          "Changelog": "https://www.getmesa.com/blog/category/product-news/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/528c1281e9db8370d4d874fab20a656f/icon/CKXH5uPW7YUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/528c1281e9db8370d4d874fab20a656f/desktop_screenshot/CPS7yt265YQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/528c1281e9db8370d4d874fab20a656f/desktop_screenshot/COiPwfbD1oYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/528c1281e9db8370d4d874fab20a656f/desktop_screenshot/CNXL1OuX2IoDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/528c1281e9db8370d4d874fab20a656f/desktop_screenshot/CLXa8b7b24QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/528c1281e9db8370d4d874fab20a656f/desktop_screenshot/CLmOnqaX2IoDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/528c1281e9db8370d4d874fab20a656f/desktop_screenshot/CNyWsOTY24QDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/nuVxcc4hO50"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is MESA: Workflow Automation free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/mesa"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/mesa"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Flow, 130+ ecommerce apps, ChatGPT, Etsy, Google Sheets, Odoo, Salesforce",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/mesa"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/mesa"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.getmesa.com/frequently-asked-questions",
+            "https://docs.getmesa.com/welcome/installing-mesa",
+            "https://docs.getmesa.com"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the required data sources and configure a sample report or automation.",
+            "Validate event or report output against a known transaction.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["workflow-automation"],
+        "primary_category_id": "workflow-automation",
+        "seo": {
+          "title": "MESA: Workflow Automation Shopify App | eStorefy",
+          "meta_description": "A Shopify app for workflow automation. Listed functions include customer segments, customer tags.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/mesa",
+          "retrieved_at": "2026-10-04T05:26:25.171015+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "For Shopify merchants buried in repetitive store operations, MESA turns plain-English requests…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/mesa"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "seo-master",
+      "name": "SEOWILL: AI SEO & AI Blog Post",
+      "slug": "seo-master",
+      "category_fit": {
+        "app_id": "seo-master",
+        "selection_score": 5.8203,
+        "rating_evidence": {"value": 4.8, "reviews": 1810},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["workflow"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/seo-master"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for blog & ai content tools. Listed functions include image compression, alt text.",
+        "description_long": "SEOWILL: AI SEO & AI Blog Post is developed by CWILL and listed for seo, blogs. Its structured listing identifies functions such as image compression, alt text, preloading, lazy loading. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Blog & AI Content Tools", "Workflow Automation"],
+        "best_for": {
+          "use_cases": ["Blog & AI Content Tools", "Workflow Automation"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 1810,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/seo-master",
+        "distribution": [
+          {"stars": 5, "percentage": 91, "count": 1},
+          {"stars": 4, "percentage": 5, "count": 93},
+          {"stars": 3, "percentage": 1, "count": 16},
+          {"stars": 2, "percentage": 0, "count": 5},
+          {"stars": 1, "percentage": 3, "count": 51}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro Plan",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $287.90/year and save 20%"]
+          },
+          {
+            "name": "Premium Plan",
+            "amount_usd": 59.99,
+            "billing_period": "month",
+            "price_display": "$59.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $575.90/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 29.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "March 19, 2019",
+        "shopify_categories": [
+          {"name": "SEO", "url": "https://apps.shopify.com/categories/store-design-site-optimization-seo"},
+          {"name": "Blogs", "url": "https://apps.shopify.com/categories/store-design-content-blogs"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.seo.seo_tools.image_compression", "label": "Image compression"},
+          {"handle": "cf.seo.seo_tools.alt_text", "label": "ALT text"},
+          {"handle": "cf.seo.seo_tools.preloading", "label": "Preloading"},
+          {"handle": "cf.seo.seo_tools.lazy_loading", "label": "Lazy loading"},
+          {"handle": "cf.seo.seo_tools.broken_links", "label": "Broken links"},
+          {"handle": "cf.seo.seo_tools.backlinks", "label": "Backlinks"},
+          {"handle": "cf.seo.seo_tools.redirects", "label": "Redirects"},
+          {"handle": "cf.seo.seo_tools.404_pages", "label": "404 pages"},
+          {"handle": "cf.seo.seo_tools.sitemaps", "label": "Sitemaps"},
+          {"handle": "cf.seo.seo_tools.meta_tags", "label": "Meta tags"},
+          {"handle": "cf.seo.seo_tools.json_ld", "label": "JSON-LD"},
+          {"handle": "cf.seo.seo_tools.schemas", "label": "Schemas"},
+          {"handle": "cf.seo.seo_tools.robots_txt", "label": "Robots.txt"},
+          {"handle": "cf.seo.seo_tools.bulk_editing", "label": "Bulk editing"},
+          {"handle": "cf.seo.seo_tools.ai_generation", "label": "AI generation"},
+          {"handle": "cf.seo.seo_tools.local_seo", "label": "Local SEO"},
+          {"handle": "cf.seo.seo_tools.amp_pages", "label": "AMP pages"},
+          {"handle": "cf.seo.seo_tools.url_optimization", "label": "URL optimization"},
+          {"handle": "cf.seo.seo_tools.image_optimization", "label": "Image optimization"},
+          {"handle": "cf.seo.seo_tools.speed_optimization", "label": "Speed optimization"},
+          {"handle": "cf.seo.seo_tools.content_optimization", "label": "Content optimization"},
+          {"handle": "cf.seo.seo_tools.metadata_optimization", "label": "Metadata optimization"},
+          {"handle": "cf.seo.monitoring_performance.seo_score", "label": "SEO score"},
+          {"handle": "cf.seo.monitoring_performance.audits", "label": "Audits"},
+          {"handle": "cf.seo.monitoring_performance.insights_and_tips", "label": "Insights and tips"},
+          {"handle": "cf.seo.monitoring_performance.analytics", "label": "Analytics"},
+          {"handle": "cf.seo.monitoring_performance.competitor_analysis", "label": "Competitor analysis"},
+          {"handle": "cf.seo.monitoring_performance.keyword_analysis", "label": "Keyword analysis"},
+          {"handle": "cf.seo.monitoring_performance.content_analysis", "label": "Content analysis"},
+          {"handle": "cf.seo.monitoring_performance.tracking", "label": "Tracking"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " Portuguese (Brazil)",
+          " French",
+          " German",
+          " Italian",
+          " Spanish",
+          " Dutch",
+          " Czech",
+          " Danish",
+          " Finnish",
+          " Japanese",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Norwegian",
+          " Polish",
+          " Turkish",
+          " Thai",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": [
+          "Shopify Flow",
+          "Shopify Admin",
+          "ChatGPT",
+          "Claude",
+          "Google Search Console",
+          "judge.me",
+          "PageFly",
+          "sidekick"
+        ]
+      },
+      "developer": {
+        "name": "CWILL",
+        "website_url": "https://www.seowill.com/",
+        "partner_url": "https://apps.shopify.com/partners/giraffly",
+        "public_address": "201 Commonwealth Ct, Ste 220, Cary, NC, 27511-4471, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/seo-master",
+        "canonical_app_store_url": "https://apps.shopify.com/seo-master",
+        "install_url": "https://apps.shopify.com/seo-master",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.cwill.com/privacy-policy/",
+          "FAQ": "https://help.seowill.com/",
+          "Tutorial": "https://www.youtube.com/@seowill",
+          "CWILL": "https://apps.shopify.com/partners/giraffly",
+          "Website": "https://www.seowill.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/89f080b72a27e71e4d48c9ad2493e78d/icon/CJe604Pr8ZUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/89f080b72a27e71e4d48c9ad2493e78d/promotional_image/CJPrrrXc_JUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/89f080b72a27e71e4d48c9ad2493e78d/desktop_screenshot/CJGJ57TDx5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/89f080b72a27e71e4d48c9ad2493e78d/desktop_screenshot/CMWctdO785EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/89f080b72a27e71e4d48c9ad2493e78d/desktop_screenshot/CIWqvtO785EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/89f080b72a27e71e4d48c9ad2493e78d/desktop_screenshot/CIqhx9O785EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/89f080b72a27e71e4d48c9ad2493e78d/desktop_screenshot/CN3tz9O785EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/89f080b72a27e71e4d48c9ad2493e78d/desktop_screenshot/CNHB2NO785EDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is SEOWILL: AI SEO & AI Blog Post free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/seo-master"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  Portuguese (Brazil),  French,  German,  Italian,  Spanish,  Dutch,  Czech,  Danish,  Finnish,  Japanese,  Korean,  Norwegian (Bokmål),  Norwegian,  Polish,  Turkish,  Thai,  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/seo-master"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Flow, Shopify Admin, ChatGPT, Claude, Google Search Console, judge.me, PageFly, sidekick",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/seo-master"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/seo-master"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.seowill.com/", "https://www.youtube.com/@seowill"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the pages or assets to optimize and review the suggested changes.",
+            "Preview and validate changes before applying them across the store.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["blog-ai-content-tools", "workflow-automation"],
+        "primary_category_id": "blog-ai-content-tools",
+        "seo": {
+          "title": "SEOWILL: AI SEO & AI Blog Post Shopify App | eStorefy",
+          "meta_description": "A Shopify app for blog & ai content tools. Listed functions include image compression, alt text.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/seo-master",
+          "retrieved_at": "2026-10-04T05:12:49.361609+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "SEOWILL (formerly SEOAnt) is an AI SEO & GEO workflow to create,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/seo-master"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "flowmail",
+      "name": "WorkflowMail Emails",
+      "slug": "flowmail",
+      "category_fit": {
+        "app_id": "flowmail",
+        "selection_score": 5.8131,
+        "rating_evidence": {"value": 5.0, "reviews": 48},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["workflow", "automat"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/flowmail"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for workflow automation. Listed functions include email responses, templates.",
+        "description_long": "WorkflowMail Emails is developed by Intelli-ua and listed for workflow automation. Its structured listing identifies functions such as email responses, templates, custom workflows. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Workflow Automation"],
+        "best_for": {
+          "use_cases": ["Workflow Automation"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 48,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/flowmail",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 47},
+          {"stars": 4, "percentage": 2, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["500 monthly Flow actions included + $1 per 100 Flow actions after that"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["2500 monthly Flow actions included + $1 per 100 Flow actions after that"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "February 8, 2024",
+        "shopify_categories": [
+          {
+            "name": "Workflow automation",
+            "url": "https://apps.shopify.com/categories/store-management-operations-workflow-automation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.workflow_automation.automation_tasks.email_responses", "label": "Email responses"},
+          {"handle": "cf.workflow_automation.customization.templates", "label": "Templates"},
+          {"handle": "cf.workflow_automation.customization.custom_workflows", "label": "Custom workflows"}
+        ],
+        "languages": [
+          "English",
+          " Arabic",
+          " Czech",
+          " Danish",
+          " German",
+          " Greek",
+          " Spanish",
+          " Finnish",
+          " Hindi",
+          " Indonesian",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Norwegian",
+          " Dutch",
+          " Polish",
+          " Portuguese (Portugal)",
+          " Slovak",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Ukrainian",
+          " Vietnamese",
+          " Chinese (Simplified)",
+          " Afrikaans",
+          " Azerbaijani",
+          " Bulgarian",
+          " Persian",
+          " Filipino",
+          " French",
+          " Irish",
+          " Hebrew",
+          " Croatian",
+          " Armenian",
+          " Icelandic",
+          " Georgian",
+          " Kazakh",
+          " Kannada",
+          " Lithuanian",
+          " Latvian",
+          " Malayalam",
+          " Marathi",
+          " Malay",
+          " Maltese",
+          " Nepali",
+          " Punjabi",
+          " Portuguese (Brazil)",
+          " Romanian",
+          " Slovenian",
+          " Albanian",
+          " Serbian",
+          " Swahili",
+          " Tamil",
+          " Telugu",
+          " Urdu",
+          " Uzbek",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": ["Shopify Flow", "Shopify Admin", "Flow", "Gmail", "Microsoft 365 Graph API", "Sidekick", "SMTP"]
+      },
+      "developer": {
+        "name": "Intelli-ua",
+        "website_url": "https://intelli-ua.com/",
+        "partner_url": "https://apps.shopify.com/partners/intelli-ua",
+        "public_address": "Bogdana Khmeltinskogo boulevard 10, ap. 39, Kharkiv, 61099, UA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/flowmail",
+        "canonical_app_store_url": "https://apps.shopify.com/flowmail",
+        "install_url": "https://apps.shopify.com/flowmail",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://intelli-ua.com/privacy/",
+          "Intelli-ua": "https://apps.shopify.com/partners/intelli-ua",
+          "Website": "https://intelli-ua.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/fc4ae89d24c1812dbe615ad96eb2dd1f/icon/COLb6PTLmYQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/fc4ae89d24c1812dbe615ad96eb2dd1f/promotional_image/CNuIyvTbxZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fc4ae89d24c1812dbe615ad96eb2dd1f/desktop_screenshot/CO6Ot57fxZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fc4ae89d24c1812dbe615ad96eb2dd1f/desktop_screenshot/CJ2x45SanIQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fc4ae89d24c1812dbe615ad96eb2dd1f/desktop_screenshot/CKjHw6blxZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fc4ae89d24c1812dbe615ad96eb2dd1f/desktop_screenshot/CK7uq4ivw44DEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is WorkflowMail Emails free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/flowmail"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Arabic,  Czech,  Danish,  German,  Greek,  Spanish,  Finnish,  Hindi,  Indonesian,  Italian,  Japanese,  Korean,  Norwegian,  Dutch,  Polish,  Portuguese (Portugal),  Slovak,  Swedish,  Thai,  Turkish,  Ukrainian,  Vietnamese,  Chinese (Simplified),  Afrikaans,  Azerbaijani,  Bulgarian,  Persian,  Filipino,  French,  Irish,  Hebrew,  Croatian,  Armenian,  Icelandic,  Georgian,  Kazakh,  Kannada,  Lithuanian,  Latvian,  Malayalam,  Marathi,  Malay,  Maltese,  Nepali,  Punjabi,  Portuguese (Brazil),  Romanian,  Slovenian,  Albanian,  Serbian,  Swahili,  Tamil,  Telugu,  Urdu,  Uzbek,  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/flowmail"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Flow, Shopify Admin, Flow, Gmail, Microsoft 365 Graph API, Sidekick, SMTP",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/flowmail"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/flowmail"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the required data sources and configure a sample report or automation.",
+            "Validate event or report output against a known transaction.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["workflow-automation"],
+        "primary_category_id": "workflow-automation",
+        "seo": {
+          "title": "WorkflowMail Emails Shopify App | eStorefy",
+          "meta_description": "A Shopify app for workflow automation. Listed functions include email responses, templates.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/flowmail",
+          "retrieved_at": "2026-10-04T05:26:25.123759+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Send transactional emails directly from Shopify Flow. Automate emails for orders, customers,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/flowmail"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

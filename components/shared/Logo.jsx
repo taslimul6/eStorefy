@@ -1,11 +1,13 @@
 import Link from "next/link";
+
+/** One brand mark, shared by the site header and footer. */
 export default function Logo() {
   return (
-    <Link className="logo" href="/" aria-label="eStorefy home">
-      <span className="mark" aria-hidden="true">
+    <Link className="brand-logo" href="/" aria-label="eStorefy home">
+      <span className="brand-mark" aria-hidden="true">
         e
       </span>
-      eStorefy.
+      <span>eStorefy.</span>
     </Link>
   );
 }

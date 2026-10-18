@@ -1,0 +1,3298 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "sms-marketing",
+    "number": 7,
+    "name": "SMS Marketing",
+    "group": "Email & Messaging",
+    "slug": "sms-marketing",
+    "url_path": "/apps/sms-marketing",
+    "focus": "Reach customers through relevant messages and recover interrupted purchases.",
+    "description": "Compare Shopify apps for sms marketing. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/marketing-and-conversion-marketing-sms-marketing/all"],
+    "seo": {
+      "title": "Shopify SMS Marketing Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for sms marketing: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a sms marketing app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "shopify-messaging",
+      "name": "Shopify Messaging",
+      "slug": "shopify-messaging",
+      "category_fit": {
+        "app_id": "shopify-messaging",
+        "selection_score": 6.0141,
+        "rating_evidence": {"value": 4.8, "reviews": 4597},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sms"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/shopify-messaging"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for email marketing. Listed functions include email campaigns, sms campaigns.",
+        "description_long": "Shopify Messaging is developed by Shopify and listed for email marketing, sms marketing. Its structured listing identifies functions such as email campaigns, sms campaigns, newsletters, discounts. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Email Marketing", "SMS Marketing", "WhatsApp Marketing"],
+        "best_for": {
+          "use_cases": ["Email Marketing", "SMS Marketing", "WhatsApp Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 4597,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/shopify-messaging",
+        "distribution": [
+          {"stars": 5, "percentage": 81, "count": 3},
+          {"stars": 4, "percentage": 13, "count": 598},
+          {"stars": 3, "percentage": 3, "count": 119},
+          {"stars": 2, "percentage": 1, "count": 48},
+          {"stars": 1, "percentage": 3, "count": 119}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "Your first 10,000 emails each month are free. After, pricing starts at $1/1000 emails per month."
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "April 14, 2020",
+        "shopify_categories": [
+          {
+            "name": "Email marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-email-marketing"
+          },
+          {
+            "name": "SMS marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-sms-marketing"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.email_marketing.campaign_types.email_campaigns", "label": "Email campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.sms_campaigns", "label": "SMS campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.newsletters", "label": "Newsletters"},
+          {"handle": "cf.email_marketing.campaign_types.discounts", "label": "Discounts"},
+          {"handle": "cf.email_marketing.campaign_types.promotions", "label": "Promotions"},
+          {"handle": "cf.email_marketing.campaign_types.upsell_emails", "label": "Upsell emails"},
+          {"handle": "cf.email_marketing.campaign_types.cart_emails", "label": "Cart emails"},
+          {"handle": "cf.email_marketing.campaign_types.checkout_emails", "label": "Checkout emails"},
+          {"handle": "cf.email_marketing.campaign_types.abandoned_cart", "label": "Abandoned cart"},
+          {"handle": "cf.email_marketing.campaign_types.browse_abandonment", "label": "Browse abandonment"},
+          {"handle": "cf.email_marketing.campaign_types.welcome_emails", "label": "Welcome emails"},
+          {"handle": "cf.email_marketing.campaign_types.follow_up_emails", "label": "Follow-up emails"},
+          {"handle": "cf.email_marketing.campaign_types.win_back_emails", "label": "Win-back emails"},
+          {"handle": "cf.email_marketing.campaign_types.drip_campaigns", "label": "Drip campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.custom_campaigns", "label": "Custom campaigns"},
+          {"handle": "cf.email_marketing.managing_campaigns.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.email_marketing.managing_campaigns.templates", "label": "Templates"},
+          {"handle": "cf.email_marketing.managing_campaigns.ai_generation", "label": "AI generation"},
+          {"handle": "cf.email_marketing.managing_campaigns.custom_code", "label": "Custom code"},
+          {"handle": "cf.email_marketing.managing_campaigns.import_and_export", "label": "Import and export"},
+          {"handle": "cf.email_marketing.managing_campaigns.email_domains", "label": "Email domains"},
+          {
+            "handle": "cf.email_marketing.managing_campaigns.triggers_and_rules",
+            "label": "Triggers and rules"
+          },
+          {"handle": "cf.email_marketing.managing_campaigns.automations", "label": "Automations"},
+          {"handle": "cf.email_marketing.managing_campaigns.targeting", "label": "Targeting"},
+          {"handle": "cf.email_marketing.managing_campaigns.segmentation", "label": "Segmentation"},
+          {"handle": "cf.email_marketing.managing_campaigns.tagging", "label": "Tagging"},
+          {"handle": "cf.email_marketing.managing_campaigns.tracking", "label": "Tracking"},
+          {"handle": "cf.email_marketing.managing_campaigns.reporting", "label": "Reporting"},
+          {"handle": "cf.email_marketing.managing_campaigns.insights_and_tips", "label": "Insights and tips"},
+          {"handle": "cf.email_marketing.managing_campaigns.analytics", "label": "Analytics"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " French",
+          " Dutch",
+          " German",
+          " Italian",
+          " Japanese",
+          " Portuguese (Brazil)",
+          " Spanish",
+          " Chinese (Traditional)",
+          " Czech",
+          " Danish",
+          " Finnish",
+          " Korean",
+          " Norwegian",
+          " Polish",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " and Vietnamese"
+        ],
+        "works_with": ["Shopify Flow", "Shopify Admin", "Shopify Forms"]
+      },
+      "developer": {
+        "name": "Shopify",
+        "website_url": "https://www.shopify.com/email-marketing",
+        "partner_url": "https://apps.shopify.com/partners/shopify",
+        "public_address": "151 O’Connor St, Ottawa, ON, ON, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/shopify-messaging",
+        "canonical_app_store_url": "https://apps.shopify.com/shopify-messaging",
+        "install_url": "https://apps.shopify.com/shopify-messaging",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.shopify.com/legal/privacy",
+          "Shopify": "https://apps.shopify.com/partners/shopify",
+          "Website": "https://www.shopify.com/email-marketing"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/14711ad7477a3d0211488990623ad24c/icon/COHnkub2sZEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/14711ad7477a3d0211488990623ad24c/promotional_image/CN-CntyW-JUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/14711ad7477a3d0211488990623ad24c/desktop_screenshot/CJuojtC_ypEDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/14711ad7477a3d0211488990623ad24c/desktop_screenshot/CIOZqdyW-JUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/14711ad7477a3d0211488990623ad24c/desktop_screenshot/CPW_oNC_ypEDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/14711ad7477a3d0211488990623ad24c/desktop_screenshot/CO3ZqNC_ypEDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/14711ad7477a3d0211488990623ad24c/desktop_screenshot/CI3Qs9yW-JUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Shopify Messaging free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/shopify-messaging"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  French,  Dutch,  German,  Italian,  Japanese,  Portuguese (Brazil),  Spanish,  Chinese (Traditional),  Czech,  Danish,  Finnish,  Korean,  Norwegian,  Polish,  Portuguese (Portugal),  Swedish,  Thai,  Turkish,  and Vietnamese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/shopify-messaging"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Flow, Shopify Admin, Shopify Forms",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/shopify-messaging"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/shopify-messaging"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["email-marketing", "sms-marketing", "whatsapp-marketing"],
+        "primary_category_id": "email-marketing",
+        "seo": {
+          "title": "Shopify Messaging Shopify App | eStorefy",
+          "meta_description": "A Shopify app for email marketing. Listed functions include email campaigns, sms campaigns.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/shopify-messaging",
+          "retrieved_at": "2026-10-04T05:06:03.875046+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/shopify-messaging"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "txtcart-plus",
+      "name": "TxtCart AI: SMS Marketing",
+      "slug": "txtcart-plus",
+      "category_fit": {
+        "app_id": "txtcart-plus",
+        "selection_score": 6.0021,
+        "rating_evidence": {"value": 4.9, "reviews": 542},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sms", "text messag"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/txtcart-plus"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for sms marketing. Listed functions include exit pop-ups, personalized campaigns.",
+        "description_long": "TxtCart AI: SMS Marketing is developed by TxtCart and listed for abandoned cart, sms marketing. Its structured listing identifies functions such as exit pop-ups, personalized campaigns, retargeting ads, sms notifications. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["SMS Marketing", "Abandoned Cart Recovery"],
+        "best_for": {
+          "use_cases": ["SMS Marketing", "Abandoned Cart Recovery"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 542,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/txtcart-plus",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 516},
+          {"stars": 4, "percentage": 2, "count": 12},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 12}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "$29/mo min. $500 free trial credits. SMS/MMS + carrier fees. AI Agent: $0.99/resolution. Other usage extra."
+            ]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $790/year and save 17%",
+              "$500 free trial credits. SMS/MMS + carrier fees. AI Agent: $0.99/resolution. Other usage/add-ons extra."
+            ]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 399.0,
+            "billing_period": "month",
+            "price_display": "$399 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $3,990/year and save 17%",
+              "$500 free trial credits. SMS/MMS + carrier fees. AI Agent: $0.99/resolution. Other usage/add-ons extra."
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 79.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "February 2, 2021 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Abandoned cart",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-abandoned-cart"
+          },
+          {
+            "name": "SMS marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-sms-marketing"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.abandoned_cart.cart_recovery.exit_pop_ups", "label": "Exit pop-ups"},
+          {
+            "handle": "cf.abandoned_cart.cart_recovery.personalized_campaigns",
+            "label": "Personalized campaigns"
+          },
+          {"handle": "cf.abandoned_cart.cart_recovery.retargeting_ads", "label": "Retargeting ads"},
+          {"handle": "cf.abandoned_cart.cart_recovery.sms_notifications", "label": "SMS notifications"},
+          {
+            "handle": "cf.abandoned_cart.cart_recovery.multi_channel_messaging",
+            "label": "Multi-channel messaging"
+          },
+          {"handle": "cf.abandoned_cart.cart_recovery.cross_device_carts", "label": "Cross-device carts"},
+          {"handle": "cf.abandoned_cart.cart_recovery.opt_in_pop_ups", "label": "Opt-in pop-ups"},
+          {"handle": "cf.abandoned_cart.cart_recovery.discount_offers", "label": "Discount offers"},
+          {"handle": "cf.abandoned_cart.cart_recovery.time_limited_offers", "label": "Time-limited offers"},
+          {"handle": "cf.abandoned_cart.cart_recovery.games_and_contests", "label": "Games and contests"},
+          {"handle": "cf.abandoned_cart.cart_recovery.conversion_tracking", "label": "Conversion tracking"},
+          {"handle": "cf.abandoned_cart.cart_recovery.automated_workflows", "label": "Automated workflows"},
+          {"handle": "cf.abandoned_cart.display_options.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.abandoned_cart.display_options.pop_up_builder", "label": "Pop-up builder"},
+          {
+            "handle": "cf.abandoned_cart.display_options.custom_discount_codes",
+            "label": "Custom discount codes"
+          },
+          {"handle": "cf.abandoned_cart.display_options.triggers", "label": "Triggers"},
+          {"handle": "cf.abandoned_cart.display_options.templates", "label": "Templates"},
+          {
+            "handle": "cf.abandoned_cart.display_options.customizable_widgets",
+            "label": "Customizable widgets"
+          },
+          {"handle": "cf.abandoned_cart.display_options.multi_language", "label": "Multi-language"},
+          {"handle": "cf.abandoned_cart.display_options.a_b_testing", "label": "A/B testing"},
+          {"handle": "cf.abandoned_cart.display_options.targeting_rules", "label": "Targeting rules"},
+          {"handle": "cf.abandoned_cart.display_options.behavior_tracking", "label": "Behavior tracking"},
+          {"handle": "cf.sms_marketing.campaign_management.a_b_testing", "label": "A/B testing"},
+          {"handle": "cf.sms_marketing.campaign_management.bulk_messaging", "label": "Bulk messaging"},
+          {"handle": "cf.sms_marketing.campaign_management.compliance", "label": "Compliance"},
+          {"handle": "cf.sms_marketing.campaign_management.custom_sender_id", "label": "Custom sender ID"},
+          {"handle": "cf.sms_marketing.campaign_management.translation", "label": "Translation"},
+          {
+            "handle": "cf.sms_marketing.campaign_management.personalized_messages",
+            "label": "Personalized messages"
+          },
+          {"handle": "cf.sms_marketing.campaign_management.scheduled_messages", "label": "Scheduled messages"},
+          {"handle": "cf.sms_marketing.campaign_management.templates", "label": "Templates"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " French",
+          " German",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Spanish",
+          " Japanese",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Checkout",
+          "CartHook Post Purchase Upsell",
+          "Gorgias: AI, Helpdesk & Chat",
+          "Judge.me Product Reviews App",
+          "Klaviyo: Email Marketing & SMS",
+          "Privy - Email, SMS & Pop Ups",
+          "Recharge Subscriptions App"
+        ]
+      },
+      "developer": {
+        "name": "TxtCart",
+        "website_url": "https://txtcart.ai/",
+        "partner_url": "https://apps.shopify.com/partners/txtcart",
+        "public_address": "80 Broad Street, New York, NY, 10004, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/txtcart-plus",
+        "canonical_app_store_url": "https://apps.shopify.com/txtcart-plus",
+        "install_url": "https://apps.shopify.com/txtcart-plus",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://txtcart.ai/privacy-policy/",
+          "FAQ": "https://help.txtcart.ai/en/",
+          "Tutorial": "https://help.txtcart.ai/en/articles/4597435-intro-to-sms",
+          "App Documentation": "https://help.txtcart.ai/en/",
+          "TxtCart": "https://apps.shopify.com/partners/txtcart",
+          "Website": "https://txtcart.ai/",
+          "Changelog": "https://txtcart.featurebase.app/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/44807fc52b5b3e6f24ce355c02dc90a9/icon/CJ3R0a77n5UDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/44807fc52b5b3e6f24ce355c02dc90a9/promotional_image/CNTZ6OeRiJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/44807fc52b5b3e6f24ce355c02dc90a9/desktop_screenshot/COHy8-eRiJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/44807fc52b5b3e6f24ce355c02dc90a9/desktop_screenshot/CPfwgeiRiJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/44807fc52b5b3e6f24ce355c02dc90a9/desktop_screenshot/CO7SjOiRiJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/44807fc52b5b3e6f24ce355c02dc90a9/desktop_screenshot/CKGxmOiRiJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/44807fc52b5b3e6f24ce355c02dc90a9/desktop_screenshot/CLjjo-iRiJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/44807fc52b5b3e6f24ce355c02dc90a9/desktop_screenshot/CLW2ruiRiJcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is TxtCart AI: SMS Marketing free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/txtcart-plus"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  Chinese (Traditional),  French,  German,  Italian,  Portuguese (Brazil),  Portuguese (Portugal),  Spanish,  Japanese,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/txtcart-plus"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, CartHook Post Purchase Upsell, Gorgias: AI, Helpdesk & Chat, Judge.me Product Reviews App, Klaviyo: Email Marketing & SMS, Privy - Email, SMS & Pop Ups, Recharge Subscriptions App",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/txtcart-plus"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/txtcart-plus"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.txtcart.ai/en/",
+            "https://help.txtcart.ai/en/articles/4597435-intro-to-sms",
+            "https://help.txtcart.ai/en/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["sms-marketing", "abandoned-cart-recovery"],
+        "primary_category_id": "sms-marketing",
+        "seo": {
+          "title": "TxtCart AI: SMS Marketing Shopify App | eStorefy",
+          "meta_description": "A Shopify app for sms marketing. Listed functions include exit pop-ups, personalized campaigns.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/txtcart-plus",
+          "retrieved_at": "2026-10-04T05:06:11.183278+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Grow sales with TxtCart for Shopify. Recover abandoned carts, send SMS campaigns,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/txtcart-plus"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "pushowl",
+      "name": "Brevo PushOwl: Email,Push,SMS",
+      "slug": "pushowl",
+      "category_fit": {
+        "app_id": "pushowl",
+        "selection_score": 5.9814,
+        "rating_evidence": {"value": 4.8, "reviews": 2279},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sms"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/pushowl"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for email marketing. Listed functions include email campaigns, sms campaigns.",
+        "description_long": "Brevo PushOwl: Email,Push,SMS is developed by Brevo PushOwl and listed for email marketing, sms marketing. Its structured listing identifies functions such as email campaigns, sms campaigns, push notifications, newsletters. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Email Marketing", "SMS Marketing", "Web Push Notifications"],
+        "best_for": {
+          "use_cases": ["Email Marketing", "SMS Marketing", "Web Push Notifications"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 2279,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/pushowl",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 2},
+          {"stars": 4, "percentage": 3, "count": 72},
+          {"stars": 3, "percentage": 0, "count": 7},
+          {"stars": 2, "percentage": 0, "count": 7},
+          {"stars": 1, "percentage": 2, "count": 36}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Basic Bundle",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Plus Bundle",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $180/year and save 21%"]
+          },
+          {
+            "name": "Power Bundle",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $852/year and save 10%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://pushowl.com/pricing?utm_source=app_store&utm_medium=referral&utm_campaign=see-all-pricing-options",
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 31, 2017 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Email marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-email-marketing"
+          },
+          {
+            "name": "SMS marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-sms-marketing"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.email_marketing.campaign_types.email_campaigns", "label": "Email campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.sms_campaigns", "label": "SMS campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.push_notifications", "label": "Push notifications"},
+          {"handle": "cf.email_marketing.campaign_types.newsletters", "label": "Newsletters"},
+          {"handle": "cf.email_marketing.campaign_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.email_marketing.campaign_types.forms", "label": "Forms"},
+          {"handle": "cf.email_marketing.campaign_types.discounts", "label": "Discounts"},
+          {"handle": "cf.email_marketing.campaign_types.promotions", "label": "Promotions"},
+          {"handle": "cf.email_marketing.campaign_types.upsell_emails", "label": "Upsell emails"},
+          {"handle": "cf.email_marketing.campaign_types.cross_sell_emails", "label": "Cross-sell emails"},
+          {"handle": "cf.email_marketing.campaign_types.cart_emails", "label": "Cart emails"},
+          {"handle": "cf.email_marketing.campaign_types.checkout_emails", "label": "Checkout emails"},
+          {"handle": "cf.email_marketing.campaign_types.exit_intent", "label": "Exit intent"},
+          {"handle": "cf.email_marketing.campaign_types.abandoned_cart", "label": "Abandoned cart"},
+          {"handle": "cf.email_marketing.campaign_types.browse_abandonment", "label": "Browse abandonment"},
+          {"handle": "cf.email_marketing.campaign_types.welcome_emails", "label": "Welcome emails"},
+          {"handle": "cf.email_marketing.campaign_types.follow_up_emails", "label": "Follow-up emails"},
+          {"handle": "cf.email_marketing.campaign_types.price_drop_emails", "label": "Price drop emails"},
+          {
+            "handle": "cf.email_marketing.campaign_types.back_in_stock_emails",
+            "label": "Back-in-stock emails"
+          },
+          {"handle": "cf.email_marketing.campaign_types.win_back_emails", "label": "Win-back emails"},
+          {
+            "handle": "cf.email_marketing.campaign_types.product_recommendations",
+            "label": "Product recommendations"
+          },
+          {"handle": "cf.email_marketing.campaign_types.drip_campaigns", "label": "Drip campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.subscriptions", "label": "Subscriptions"},
+          {"handle": "cf.email_marketing.campaign_types.surveys", "label": "Surveys"},
+          {"handle": "cf.email_marketing.campaign_types.custom_campaigns", "label": "Custom campaigns"},
+          {"handle": "cf.email_marketing.managing_campaigns.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.email_marketing.managing_campaigns.templates", "label": "Templates"},
+          {"handle": "cf.email_marketing.managing_campaigns.ai_generation", "label": "AI generation"},
+          {"handle": "cf.email_marketing.managing_campaigns.localization", "label": "Localization"},
+          {"handle": "cf.email_marketing.managing_campaigns.custom_code", "label": "Custom code"}
+        ],
+        "languages": ["English", " French", " Spanish", " German", " Portuguese (Brazil)", " and Italian"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Brevo",
+          "Growave",
+          "Judge.me",
+          "Klaviyo",
+          "Loox - Photo Reviews",
+          "TrustReviews"
+        ]
+      },
+      "developer": {
+        "name": "Brevo PushOwl",
+        "website_url": "https://pushowl.com?utm_source=app_store&utm_medium=referral&utm_campaign=developer-website",
+        "partner_url": "https://apps.shopify.com/partners/pushowl",
+        "public_address": "2nd Floor, 421/J, Binnamangala, Sri Krishna Temple Road, Indiranagar, Bengaluru, KA, 560038, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/pushowl",
+        "canonical_app_store_url": "https://apps.shopify.com/pushowl",
+        "install_url": "https://apps.shopify.com/pushowl",
+        "demo_store_url": "http://playground.pushowl.com",
+        "resources": {
+          "Privacy policy": "https://pushowl.com/privacy",
+          "FAQ": "http://docs.pushowl.com",
+          "Tutorial": "https://docs.pushowl.com/collections/1339905-getting-started",
+          "App Documentation": "https://docs.pushowl.com/",
+          "Brevo PushOwl": "https://apps.shopify.com/partners/pushowl",
+          "Website": "https://pushowl.com",
+          "Changelog": "https://pushowl.com/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/62a4f829cd277d0296259f678226ae19/icon/CMTe68iT-5EDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/62a4f829cd277d0296259f678226ae19/promotional_image/CNKzrdHqkpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a4f829cd277d0296259f678226ae19/desktop_screenshot/CI_jttHqkpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a4f829cd277d0296259f678226ae19/desktop_screenshot/CLKtvubElZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a4f829cd277d0296259f678226ae19/desktop_screenshot/CNSexeSLnpEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a4f829cd277d0296259f678226ae19/desktop_screenshot/CNPHvJra24kDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Brevo PushOwl: Email,Push,SMS free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/pushowl"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Spanish,  German,  Portuguese (Brazil),  and Italian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/pushowl"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Brevo, Growave, Judge.me, Klaviyo, Loox - Photo Reviews, TrustReviews",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/pushowl"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/pushowl"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "http://docs.pushowl.com",
+            "https://docs.pushowl.com/collections/1339905-getting-started",
+            "https://docs.pushowl.com/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["email-marketing", "sms-marketing", "web-push-notifications"],
+        "primary_category_id": "email-marketing",
+        "seo": {
+          "title": "Brevo PushOwl: Email,Push,SMS Shopify App | eStorefy",
+          "meta_description": "A Shopify app for email marketing. Listed functions include email campaigns, sms campaigns.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/pushowl",
+          "retrieved_at": "2026-10-04T05:04:49.958712+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Get Brevo’s Email Marketing, Web Push Notifications, & SMS Marketing Suite for…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/pushowl"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "mailchimp",
+      "name": "Mailchimp Email SMS Marketing",
+      "slug": "mailchimp",
+      "category_fit": {
+        "app_id": "mailchimp",
+        "selection_score": 5.9611,
+        "rating_evidence": {"value": 4.8, "reviews": 1502},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sms"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/mailchimp"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for email marketing. Listed functions include email campaigns, sms campaigns.",
+        "description_long": "Mailchimp Email SMS Marketing is developed by Intuit Mailchimp and listed for email marketing, sms marketing. Its structured listing identifies functions such as email campaigns, sms campaigns, social media, newsletters. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Email Marketing", "SMS Marketing"],
+        "best_for": {
+          "use_cases": ["Email Marketing", "SMS Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 1502,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/mailchimp",
+        "distribution": [
+          {"stars": 5, "percentage": 83, "count": 1},
+          {"stars": 4, "percentage": 5, "count": 82},
+          {"stars": 3, "percentage": 3, "count": 40},
+          {"stars": 2, "percentage": 2, "count": 25},
+          {"stars": 1, "percentage": 7, "count": 106}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essentials",
+            "amount_usd": 13.0,
+            "billing_period": "month",
+            "price_display": "$13 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Starts at $13 per month."]
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 20.0,
+            "billing_period": "month",
+            "price_display": "$20 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Starts at $20 per month."]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 350.0,
+            "billing_period": "month",
+            "price_display": "$350 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Starts at $350 per month."]
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": "https://mailchimp.com/pricing",
+        "starting_paid_monthly_price_usd": 13.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "November 28, 2018",
+        "shopify_categories": [
+          {
+            "name": "Email marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-email-marketing"
+          },
+          {
+            "name": "SMS marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-sms-marketing"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.email_marketing.campaign_types.email_campaigns", "label": "Email campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.sms_campaigns", "label": "SMS campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.social_media", "label": "Social media"},
+          {"handle": "cf.email_marketing.campaign_types.newsletters", "label": "Newsletters"},
+          {"handle": "cf.email_marketing.campaign_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.email_marketing.campaign_types.forms", "label": "Forms"},
+          {"handle": "cf.email_marketing.campaign_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.email_marketing.campaign_types.discounts", "label": "Discounts"},
+          {"handle": "cf.email_marketing.campaign_types.promotions", "label": "Promotions"},
+          {"handle": "cf.email_marketing.campaign_types.upsell_emails", "label": "Upsell emails"},
+          {"handle": "cf.email_marketing.campaign_types.cross_sell_emails", "label": "Cross-sell emails"},
+          {"handle": "cf.email_marketing.campaign_types.cart_emails", "label": "Cart emails"},
+          {"handle": "cf.email_marketing.campaign_types.checkout_emails", "label": "Checkout emails"},
+          {"handle": "cf.email_marketing.campaign_types.abandoned_cart", "label": "Abandoned cart"},
+          {"handle": "cf.email_marketing.campaign_types.browse_abandonment", "label": "Browse abandonment"},
+          {"handle": "cf.email_marketing.campaign_types.welcome_emails", "label": "Welcome emails"},
+          {"handle": "cf.email_marketing.campaign_types.follow_up_emails", "label": "Follow-up emails"},
+          {"handle": "cf.email_marketing.campaign_types.price_drop_emails", "label": "Price drop emails"},
+          {
+            "handle": "cf.email_marketing.campaign_types.back_in_stock_emails",
+            "label": "Back-in-stock emails"
+          },
+          {"handle": "cf.email_marketing.campaign_types.win_back_emails", "label": "Win-back emails"},
+          {
+            "handle": "cf.email_marketing.campaign_types.product_recommendations",
+            "label": "Product recommendations"
+          },
+          {"handle": "cf.email_marketing.campaign_types.drip_campaigns", "label": "Drip campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.surveys", "label": "Surveys"},
+          {"handle": "cf.email_marketing.campaign_types.custom_campaigns", "label": "Custom campaigns"},
+          {"handle": "cf.email_marketing.managing_campaigns.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.email_marketing.managing_campaigns.templates", "label": "Templates"},
+          {"handle": "cf.email_marketing.managing_campaigns.ai_generation", "label": "AI generation"},
+          {"handle": "cf.email_marketing.managing_campaigns.translation", "label": "Translation"},
+          {"handle": "cf.email_marketing.managing_campaigns.localization", "label": "Localization"},
+          {"handle": "cf.email_marketing.managing_campaigns.custom_code", "label": "Custom code"}
+        ],
+        "languages": ["English", " Spanish", " French", " German", " and Portuguese (Brazil)"],
+        "works_with": [
+          "Checkout",
+          "Shopify Flow",
+          "Shopify Admin",
+          "2048 Variants",
+          "judge.me",
+          "QuickBooks Online",
+          "Smile.io",
+          "Yotpo"
+        ]
+      },
+      "developer": {
+        "name": "Intuit Mailchimp",
+        "website_url": "https://mailchimp.com",
+        "partner_url": "https://apps.shopify.com/partners/jessdev",
+        "public_address": "405 N Angier Ave NE, Atlanta, GA, 30308, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/mailchimp",
+        "canonical_app_store_url": "https://apps.shopify.com/mailchimp",
+        "install_url": "https://apps.shopify.com/mailchimp",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.intuit.com/privacy/statement/",
+          "FAQ": "https://eepurl.com/dNIM8U",
+          "Intuit Mailchimp": "https://apps.shopify.com/partners/jessdev",
+          "Website": "https://mailchimp.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/5a5385cf8a756c3fc55c4fb80706f9f6/icon/CLa98_yf6PMCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/5a5385cf8a756c3fc55c4fb80706f9f6/desktop_screenshot/CP_vzMjOl5ADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5a5385cf8a756c3fc55c4fb80706f9f6/desktop_screenshot/CPGflZv8qZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5a5385cf8a756c3fc55c4fb80706f9f6/desktop_screenshot/CIKfn5v8qZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5a5385cf8a756c3fc55c4fb80706f9f6/desktop_screenshot/CIzMp5v8qZIDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/gnBYClZK9a8"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Mailchimp Email SMS Marketing free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/mailchimp"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  and Portuguese (Brazil)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/mailchimp"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Flow, Shopify Admin, 2048 Variants, judge.me, QuickBooks Online, Smile.io, Yotpo",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/mailchimp"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/mailchimp"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://eepurl.com/dNIM8U"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["email-marketing", "sms-marketing"],
+        "primary_category_id": "email-marketing",
+        "seo": {
+          "title": "Mailchimp Email SMS Marketing Shopify App | eStorefy",
+          "meta_description": "A Shopify app for email marketing. Listed functions include email campaigns, sms campaigns.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/mailchimp",
+          "retrieved_at": "2026-10-04T05:06:03.965208+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Sync customers, products, and order data to grow customers with Mailchimp automated…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/mailchimp"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "zigpoll",
+      "name": "Zigpoll Customer Surveys",
+      "slug": "zigpoll",
+      "category_fit": {
+        "app_id": "zigpoll",
+        "selection_score": 5.95,
+        "rating_evidence": {"value": 5.0, "reviews": 554},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sms"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/zigpoll"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for email marketing. Listed functions include conditional logic, custom styles.",
+        "description_long": "Zigpoll Customer Surveys is developed by Argonautic Labs and listed for surveys, analytics. Its structured listing identifies functions such as conditional logic, custom styles, drag-and-drop editor, embedded forms. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Email Marketing",
+          "SMS Marketing",
+          "Product Comparison",
+          "Customer Surveys",
+          "Marketing Attribution"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Email Marketing",
+            "SMS Marketing",
+            "Product Comparison",
+            "Customer Surveys",
+            "Marketing Attribution"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 554,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/zigpoll",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 544},
+          {"stars": 4, "percentage": 1, "count": 8},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Lite",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $348/year and save 26%"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 129.0,
+            "billing_period": "month",
+            "price_display": "$129 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,164/year and save 25%"]
+          },
+          {
+            "name": "Premier",
+            "amount_usd": 399.0,
+            "billing_period": "month",
+            "price_display": "$399 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $3,588/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.zigpoll.com/pricing",
+        "starting_paid_monthly_price_usd": 39.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "April 23, 2019",
+        "shopify_categories": [
+          {"name": "Surveys", "url": "https://apps.shopify.com/categories/store-management-support-surveys"},
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.surveys.form_customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.surveys.form_customization.custom_styles", "label": "Custom styles"},
+          {"handle": "cf.surveys.form_customization.drag_and_drop_editor", "label": "Drag-and-drop editor"},
+          {"handle": "cf.surveys.form_customization.embedded_forms", "label": "Embedded forms"},
+          {"handle": "cf.surveys.form_customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.surveys.form_customization.templates", "label": "Templates"},
+          {"handle": "cf.surveys.form_customization.multi_page", "label": "Multi-page"},
+          {"handle": "cf.surveys.form_customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.surveys.form_customization.real_time_edits", "label": "Real-time editing"},
+          {"handle": "cf.surveys.form_customization.scheduling", "label": "Scheduling"},
+          {"handle": "cf.surveys.form_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.surveys.survey_types.customer_satisfaction", "label": "Customer satisfaction"},
+          {"handle": "cf.surveys.survey_types.market_research", "label": "Market research"},
+          {"handle": "cf.surveys.survey_types.net_promoter_score_nps", "label": "Net Promoter Score (NPS)"},
+          {"handle": "cf.surveys.survey_types.product_feedback", "label": "Product feedback"},
+          {"handle": "cf.surveys.survey_types.post_purchase", "label": "Post-purchase"},
+          {"handle": "cf.surveys.survey_types.attribution", "label": "Attribution"},
+          {"handle": "cf.surveys.submission_management.sms", "label": "SMS"},
+          {"handle": "cf.surveys.submission_management.email", "label": "Email"},
+          {"handle": "cf.surveys.submission_management.data_export", "label": "Data export"},
+          {"handle": "cf.surveys.submission_management.analytics", "label": "Analytics"},
+          {"handle": "cf.surveys.submission_management.customer_segments", "label": "Customer segments"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.event_tracking", "label": "Event tracking"},
+          {"handle": "cf.analytics.customer_behavior.segmentation", "label": "Segmentation"},
+          {"handle": "cf.analytics.customer_behavior.visitor_ip", "label": "Visitor IP"},
+          {"handle": "cf.analytics.marketing_and_sales.ai_insights", "label": "AI insights"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "ActiveCampaign",
+          "Google Analytics",
+          "Google Sheets",
+          "Gorgias",
+          "Klaviyo",
+          "Mailchimp"
+        ]
+      },
+      "developer": {
+        "name": "Argonautic Labs",
+        "website_url": "https://www.zigpoll.com",
+        "partner_url": "https://apps.shopify.com/partners/jason-zigelbaum",
+        "public_address": "400 E 67th Street, New York, NY, 10065, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/zigpoll",
+        "canonical_app_store_url": "https://apps.shopify.com/zigpoll",
+        "install_url": "https://apps.shopify.com/zigpoll",
+        "demo_store_url": "https://www.zigpoll.com/demo/post-purchase",
+        "resources": {
+          "Privacy policy": "https://www.zigpoll.com/terms-and-policies",
+          "FAQ": "https://www.zigpoll.com/faq",
+          "Argonautic Labs": "https://apps.shopify.com/partners/jason-zigelbaum",
+          "Website": "https://www.zigpoll.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/icon/CN6KptDZyJYDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/promotional_image/CMDTmKrb8JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CMDy76HVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CICe-qHVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CIaRhKLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CMXHjqLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CNbMmKLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/mobile_screenshot/CNfjoqLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/pos_screenshot/CKjirKLVyJYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Zigpoll Customer Surveys free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, ActiveCampaign, Google Analytics, Google Sheets, Gorgias, Klaviyo, Mailchimp",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://www.zigpoll.com/faq"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "email-marketing",
+          "sms-marketing",
+          "product-comparison",
+          "customer-surveys",
+          "marketing-attribution"
+        ],
+        "primary_category_id": "email-marketing",
+        "seo": {
+          "title": "Zigpoll Customer Surveys Shopify App | eStorefy",
+          "meta_description": "A Shopify app for email marketing. Listed functions include conditional logic, custom styles.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/zigpoll",
+          "retrieved_at": "2026-10-04T05:25:58.246372+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Post-purchase, attribution, NPS, exit-intent, email and SMS surveys for Shopify. See how…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/zigpoll"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "klaviyo-email-marketing",
+      "name": "Klaviyo: Email Marketing & SMS",
+      "slug": "klaviyo-email-marketing",
+      "category_fit": {
+        "app_id": "klaviyo-email-marketing",
+        "selection_score": 5.9002,
+        "rating_evidence": {"value": 4.7, "reviews": 3351},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sms"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/klaviyo-email-marketing"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for sms marketing. Listed functions include email campaigns, sms campaigns.",
+        "description_long": "Klaviyo: Email Marketing & SMS is developed by Klaviyo and listed for email marketing, sms marketing. Its structured listing identifies functions such as email campaigns, sms campaigns, push notifications, newsletters. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["SMS Marketing"],
+        "best_for": {
+          "use_cases": ["SMS Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.7,
+        "review_count": 3351,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/klaviyo-email-marketing",
+        "distribution": [
+          {"stars": 5, "percentage": 88, "count": 2},
+          {"stars": 4, "percentage": 2, "count": 83},
+          {"stars": 3, "percentage": 1, "count": 31},
+          {"stars": 2, "percentage": 1, "count": 37},
+          {"stars": 1, "percentage": 8, "count": 263}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "SMS",
+            "amount_usd": 15.0,
+            "billing_period": "month",
+            "price_display": "$15 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Email",
+            "amount_usd": 20.0,
+            "billing_period": "month",
+            "price_display": "$20 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": "https://www.klaviyo.com/pricing",
+        "starting_paid_monthly_price_usd": 15.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "September 20, 2012 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Email marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-email-marketing"
+          },
+          {
+            "name": "SMS marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-sms-marketing"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.email_marketing.campaign_types.email_campaigns", "label": "Email campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.sms_campaigns", "label": "SMS campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.push_notifications", "label": "Push notifications"},
+          {"handle": "cf.email_marketing.campaign_types.newsletters", "label": "Newsletters"},
+          {"handle": "cf.email_marketing.campaign_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.email_marketing.campaign_types.forms", "label": "Forms"},
+          {"handle": "cf.email_marketing.campaign_types.discounts", "label": "Discounts"},
+          {"handle": "cf.email_marketing.campaign_types.promotions", "label": "Promotions"},
+          {"handle": "cf.email_marketing.campaign_types.upsell_emails", "label": "Upsell emails"},
+          {"handle": "cf.email_marketing.campaign_types.cross_sell_emails", "label": "Cross-sell emails"},
+          {"handle": "cf.email_marketing.campaign_types.cart_emails", "label": "Cart emails"},
+          {"handle": "cf.email_marketing.campaign_types.checkout_emails", "label": "Checkout emails"},
+          {"handle": "cf.email_marketing.campaign_types.exit_intent", "label": "Exit intent"},
+          {"handle": "cf.email_marketing.campaign_types.abandoned_cart", "label": "Abandoned cart"},
+          {"handle": "cf.email_marketing.campaign_types.browse_abandonment", "label": "Browse abandonment"},
+          {"handle": "cf.email_marketing.campaign_types.welcome_emails", "label": "Welcome emails"},
+          {"handle": "cf.email_marketing.campaign_types.follow_up_emails", "label": "Follow-up emails"},
+          {"handle": "cf.email_marketing.campaign_types.price_drop_emails", "label": "Price drop emails"},
+          {
+            "handle": "cf.email_marketing.campaign_types.back_in_stock_emails",
+            "label": "Back-in-stock emails"
+          },
+          {"handle": "cf.email_marketing.campaign_types.win_back_emails", "label": "Win-back emails"},
+          {
+            "handle": "cf.email_marketing.campaign_types.product_recommendations",
+            "label": "Product recommendations"
+          },
+          {"handle": "cf.email_marketing.campaign_types.drip_campaigns", "label": "Drip campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.subscriptions", "label": "Subscriptions"},
+          {"handle": "cf.email_marketing.campaign_types.product_reviews", "label": "Product reviews"},
+          {"handle": "cf.email_marketing.campaign_types.custom_campaigns", "label": "Custom campaigns"},
+          {"handle": "cf.email_marketing.managing_campaigns.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.email_marketing.managing_campaigns.templates", "label": "Templates"},
+          {"handle": "cf.email_marketing.managing_campaigns.ai_generation", "label": "AI generation"},
+          {"handle": "cf.email_marketing.managing_campaigns.localization", "label": "Localization"},
+          {"handle": "cf.email_marketing.managing_campaigns.custom_code", "label": "Custom code"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Spanish",
+          " German",
+          " Portuguese (Brazil)",
+          " Korean",
+          " Italian",
+          " Polish",
+          " Swedish",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Aftership",
+          "Gorgias",
+          "Meta Advertising",
+          "Recharge",
+          "TikTok Advertising",
+          "Typeform"
+        ]
+      },
+      "developer": {
+        "name": "Klaviyo",
+        "website_url": "https://developers.klaviyo.com/en",
+        "partner_url": "https://apps.shopify.com/partners/klaviyo",
+        "public_address": "125 Summer St, Floor 7, Boston, MA, 02111, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/klaviyo-email-marketing",
+        "canonical_app_store_url": "https://apps.shopify.com/klaviyo-email-marketing",
+        "install_url": "https://apps.shopify.com/klaviyo-email-marketing",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.klaviyo.com/privacy",
+          "FAQ": "https://help.klaviyo.com/hc/en-us/articles/115005080407",
+          "Tutorial": "https://www.klaviyo.com/customer-resources",
+          "App Documentation": "https://academy.klaviyo.com/en-us",
+          "Klaviyo": "https://apps.shopify.com/partners/klaviyo",
+          "Website": "https://developers.klaviyo.com/en",
+          "Changelog": "https://developers.klaviyo.com/en/docs/changelog_"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/5edd9000b933a8fa88c152d1e498531f/icon/CP6B2OOv3PYCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/5edd9000b933a8fa88c152d1e498531f/desktop_screenshot/CJa736LdpJEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5edd9000b933a8fa88c152d1e498531f/desktop_screenshot/CNHU6KLdpJEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5edd9000b933a8fa88c152d1e498531f/desktop_screenshot/CPb686LdpJEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5edd9000b933a8fa88c152d1e498531f/desktop_screenshot/CNGT_KLdpJEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5edd9000b933a8fa88c152d1e498531f/desktop_screenshot/CJLvhKPdpJEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5edd9000b933a8fa88c152d1e498531f/desktop_screenshot/CKjijKPdpJEDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/iJoev3QtygI"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Klaviyo: Email Marketing & SMS free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/klaviyo-email-marketing"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Spanish,  German,  Portuguese (Brazil),  Korean,  Italian,  Polish,  Swedish,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/klaviyo-email-marketing"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Aftership, Gorgias, Meta Advertising, Recharge, TikTok Advertising, Typeform",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/klaviyo-email-marketing"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/klaviyo-email-marketing"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.klaviyo.com/hc/en-us/articles/115005080407",
+            "https://www.klaviyo.com/customer-resources",
+            "https://academy.klaviyo.com/en-us"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["sms-marketing"],
+        "primary_category_id": "sms-marketing",
+        "seo": {
+          "title": "Klaviyo: Email Marketing & SMS Shopify App | eStorefy",
+          "meta_description": "A Shopify app for sms marketing. Listed functions include email campaigns, sms campaigns.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/klaviyo-email-marketing",
+          "retrieved_at": "2026-10-04T05:04:50.017311+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Klaviyo is a leading email and sms marketing app for Shopify. Improve…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/klaviyo-email-marketing"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "omnisend",
+      "name": "Omnisend Email Marketing & SMS",
+      "slug": "omnisend",
+      "category_fit": {
+        "app_id": "omnisend",
+        "selection_score": 5.8978,
+        "rating_evidence": {"value": 4.7, "reviews": 3182},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sms"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/omnisend"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for sms marketing. Listed functions include email campaigns, sms campaigns.",
+        "description_long": "Omnisend Email Marketing & SMS is developed by Omnisend and listed for email marketing, sms marketing. Its structured listing identifies functions such as email campaigns, sms campaigns, push notifications, newsletters. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["SMS Marketing"],
+        "best_for": {
+          "use_cases": ["SMS Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.7,
+        "review_count": 3182,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/omnisend",
+        "distribution": [
+          {"stars": 5, "percentage": 89, "count": 2},
+          {"stars": 4, "percentage": 4, "count": 135},
+          {"stars": 3, "percentage": 1, "count": 18},
+          {"stars": 2, "percentage": 1, "count": 24},
+          {"stars": 1, "percentage": 5, "count": 163}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "STANDARD",
+            "amount_usd": 16.0,
+            "billing_period": "month",
+            "price_display": "$16 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 59.0,
+            "billing_period": "month",
+            "price_display": "$59 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": "https://www.omnisend.com/pricing?utm_source=apps.shopif.com&utm_medium=referral&utm_campaign=shopif_appstore_omnisend_pricing_link",
+        "starting_paid_monthly_price_usd": 16.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "March 10, 2014",
+        "shopify_categories": [
+          {
+            "name": "Email marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-email-marketing"
+          },
+          {
+            "name": "SMS marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-sms-marketing"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.email_marketing.campaign_types.email_campaigns", "label": "Email campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.sms_campaigns", "label": "SMS campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.push_notifications", "label": "Push notifications"},
+          {"handle": "cf.email_marketing.campaign_types.newsletters", "label": "Newsletters"},
+          {"handle": "cf.email_marketing.campaign_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.email_marketing.campaign_types.forms", "label": "Forms"},
+          {"handle": "cf.email_marketing.campaign_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.email_marketing.campaign_types.discounts", "label": "Discounts"},
+          {"handle": "cf.email_marketing.campaign_types.promotions", "label": "Promotions"},
+          {"handle": "cf.email_marketing.campaign_types.upsell_emails", "label": "Upsell emails"},
+          {"handle": "cf.email_marketing.campaign_types.cross_sell_emails", "label": "Cross-sell emails"},
+          {"handle": "cf.email_marketing.campaign_types.cart_emails", "label": "Cart emails"},
+          {"handle": "cf.email_marketing.campaign_types.checkout_emails", "label": "Checkout emails"},
+          {"handle": "cf.email_marketing.campaign_types.exit_intent", "label": "Exit intent"},
+          {"handle": "cf.email_marketing.campaign_types.abandoned_cart", "label": "Abandoned cart"},
+          {"handle": "cf.email_marketing.campaign_types.browse_abandonment", "label": "Browse abandonment"},
+          {"handle": "cf.email_marketing.campaign_types.welcome_emails", "label": "Welcome emails"},
+          {"handle": "cf.email_marketing.campaign_types.price_drop_emails", "label": "Price drop emails"},
+          {
+            "handle": "cf.email_marketing.campaign_types.back_in_stock_emails",
+            "label": "Back-in-stock emails"
+          },
+          {"handle": "cf.email_marketing.campaign_types.win_back_emails", "label": "Win-back emails"},
+          {
+            "handle": "cf.email_marketing.campaign_types.product_recommendations",
+            "label": "Product recommendations"
+          },
+          {"handle": "cf.email_marketing.campaign_types.drip_campaigns", "label": "Drip campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.subscriptions", "label": "Subscriptions"},
+          {"handle": "cf.email_marketing.campaign_types.product_reviews", "label": "Product reviews"},
+          {"handle": "cf.email_marketing.campaign_types.custom_campaigns", "label": "Custom campaigns"},
+          {"handle": "cf.email_marketing.managing_campaigns.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.email_marketing.managing_campaigns.templates", "label": "Templates"},
+          {"handle": "cf.email_marketing.managing_campaigns.ai_generation", "label": "AI generation"},
+          {"handle": "cf.email_marketing.managing_campaigns.translation", "label": "Translation"},
+          {"handle": "cf.email_marketing.managing_campaigns.localization", "label": "Localization"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Flow", "Aftership", "Gorgias", "Justuno", "Loox", "Recharge", "Yotpo"]
+      },
+      "developer": {
+        "name": "Omnisend",
+        "website_url": "https://www.omnisend.com",
+        "partner_url": "https://apps.shopify.com/partners/omnisend",
+        "public_address": "Verkiu 25C, Vilnius, 08223, LT"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/omnisend",
+        "canonical_app_store_url": "https://apps.shopify.com/omnisend",
+        "install_url": "https://apps.shopify.com/omnisend",
+        "demo_store_url": "https://omnisend-demo-store.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://www.omnisend.com/privacy/",
+          "FAQ": "https://support.omnisend.com/",
+          "Omnisend": "https://apps.shopify.com/partners/omnisend",
+          "Website": "https://www.omnisend.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9b0c952ebdfd9d278f559665ecf48f5c/icon/CI_zwN7rmpYDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9b0c952ebdfd9d278f559665ecf48f5c/desktop_screenshot/CJ2VqebKjpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b0c952ebdfd9d278f559665ecf48f5c/desktop_screenshot/CPfXtObKjpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b0c952ebdfd9d278f559665ecf48f5c/desktop_screenshot/CK6iwObKjpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b0c952ebdfd9d278f559665ecf48f5c/desktop_screenshot/CLzPyubKjpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b0c952ebdfd9d278f559665ecf48f5c/desktop_screenshot/COrl1ebKjpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b0c952ebdfd9d278f559665ecf48f5c/desktop_screenshot/CLuO6eLZrpYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/G4bDna4s8fw"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Omnisend Email Marketing & SMS free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/omnisend"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/omnisend"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Flow, Aftership, Gorgias, Justuno, Loox, Recharge, Yotpo",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/omnisend"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/omnisend"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://support.omnisend.com/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["sms-marketing"],
+        "primary_category_id": "sms-marketing",
+        "seo": {
+          "title": "Omnisend Email Marketing & SMS Shopify App | eStorefy",
+          "meta_description": "A Shopify app for sms marketing. Listed functions include email campaigns, sms campaigns.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/omnisend",
+          "retrieved_at": "2026-10-04T05:06:04.017255+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Omnisend is the Shopify email marketing app for email, SMS & popups,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/omnisend"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "bik-marketing",
+      "name": "BIK Instagram, Whatsapp, Email",
+      "slug": "bik-marketing",
+      "category_fit": {
+        "app_id": "bik-marketing",
+        "selection_score": 5.8891,
+        "rating_evidence": {"value": 4.9, "reviews": 139},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sms"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/bik-marketing"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for sms marketing. Listed functions include email campaigns, sms campaigns.",
+        "description_long": "BIK Instagram, Whatsapp, Email is developed by Manifest AI and listed for email marketing, sms marketing. Its structured listing identifies functions such as email campaigns, sms campaigns, social media, newsletters. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["SMS Marketing"],
+        "best_for": {
+          "use_cases": ["SMS Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 139,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/bik-marketing",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 133},
+          {"stars": 4, "percentage": 1, "count": 2},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 1, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://bik.ai",
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "May 9, 2023",
+        "shopify_categories": [
+          {
+            "name": "Email marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-email-marketing"
+          },
+          {
+            "name": "SMS marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-sms-marketing"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.email_marketing.campaign_types.email_campaigns", "label": "Email campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.sms_campaigns", "label": "SMS campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.social_media", "label": "Social media"},
+          {"handle": "cf.email_marketing.campaign_types.newsletters", "label": "Newsletters"},
+          {"handle": "cf.email_marketing.campaign_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.email_marketing.campaign_types.forms", "label": "Forms"},
+          {"handle": "cf.email_marketing.campaign_types.discounts", "label": "Discounts"},
+          {"handle": "cf.email_marketing.campaign_types.promotions", "label": "Promotions"},
+          {"handle": "cf.email_marketing.campaign_types.upsell_emails", "label": "Upsell emails"},
+          {"handle": "cf.email_marketing.campaign_types.cross_sell_emails", "label": "Cross-sell emails"},
+          {"handle": "cf.email_marketing.campaign_types.cart_emails", "label": "Cart emails"},
+          {"handle": "cf.email_marketing.campaign_types.checkout_emails", "label": "Checkout emails"},
+          {"handle": "cf.email_marketing.campaign_types.abandoned_cart", "label": "Abandoned cart"},
+          {"handle": "cf.email_marketing.campaign_types.browse_abandonment", "label": "Browse abandonment"},
+          {"handle": "cf.email_marketing.campaign_types.welcome_emails", "label": "Welcome emails"},
+          {"handle": "cf.email_marketing.campaign_types.follow_up_emails", "label": "Follow-up emails"},
+          {"handle": "cf.email_marketing.campaign_types.price_drop_emails", "label": "Price drop emails"},
+          {
+            "handle": "cf.email_marketing.campaign_types.back_in_stock_emails",
+            "label": "Back-in-stock emails"
+          },
+          {"handle": "cf.email_marketing.campaign_types.win_back_emails", "label": "Win-back emails"},
+          {"handle": "cf.email_marketing.campaign_types.drip_campaigns", "label": "Drip campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.custom_campaigns", "label": "Custom campaigns"},
+          {"handle": "cf.email_marketing.managing_campaigns.ai_generation", "label": "AI generation"},
+          {"handle": "cf.email_marketing.managing_campaigns.bulk_editing", "label": "Bulk editing"},
+          {"handle": "cf.email_marketing.managing_campaigns.email_domains", "label": "Email domains"},
+          {
+            "handle": "cf.email_marketing.managing_campaigns.consent_collection",
+            "label": "Consent collection"
+          },
+          {
+            "handle": "cf.email_marketing.managing_campaigns.email_capture_list",
+            "label": "Email capture list"
+          },
+          {"handle": "cf.email_marketing.managing_campaigns.sms_capture_list", "label": "SMS capture list"},
+          {"handle": "cf.email_marketing.managing_campaigns.automations", "label": "Automations"},
+          {"handle": "cf.sms_marketing.campaign_management.bulk_messaging", "label": "Bulk messaging"},
+          {"handle": "cf.sms_marketing.workflow_automation.cart_recovery", "label": "Cart recovery"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Instagram", "judgeme", "manifest", "razorpay", "Whatsapp"]
+      },
+      "developer": {
+        "name": "Manifest AI",
+        "website_url": "https://bik.ai/",
+        "partner_url": "https://apps.shopify.com/partners/bik-ai",
+        "public_address": "3260 Hillview Avenue, Palo Alto, CA, 94304, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/bik-marketing",
+        "canonical_app_store_url": "https://apps.shopify.com/bik-marketing",
+        "install_url": "https://apps.shopify.com/bik-marketing",
+        "demo_store_url": "https://bik.ai",
+        "resources": {
+          "Privacy policy": "https://bik.ai/bik-privacy-policy",
+          "FAQ": "https://help.bik.ai/en/",
+          "Tutorial": "https://help.bik.ai/en/",
+          "App Documentation": "https://help.bik.ai/en/",
+          "Manifest AI": "https://apps.shopify.com/partners/bik-ai",
+          "Website": "https://bik.ai/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/fd2efccb28f54a4cd194e550196e5f7a/icon/CNPg2bzwt_oCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/fd2efccb28f54a4cd194e550196e5f7a/desktop_screenshot/CNThtOSh6P8CEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fd2efccb28f54a4cd194e550196e5f7a/desktop_screenshot/CLfMveSh6P8CEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fd2efccb28f54a4cd194e550196e5f7a/desktop_screenshot/CPLaubqN_4kDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fd2efccb28f54a4cd194e550196e5f7a/desktop_screenshot/CMqxz-Sh6P8CEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fd2efccb28f54a4cd194e550196e5f7a/desktop_screenshot/CMuf2OSh6P8CEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fd2efccb28f54a4cd194e550196e5f7a/desktop_screenshot/CNa34eSh6P8CEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/HI2FsHz0wxk"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BIK Instagram, Whatsapp, Email free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/bik-marketing"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bik-marketing"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Instagram, judgeme, manifest, razorpay, Whatsapp",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bik-marketing"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/bik-marketing"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.bik.ai/en/", "https://help.bik.ai/en/", "https://help.bik.ai/en/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["sms-marketing"],
+        "primary_category_id": "sms-marketing",
+        "seo": {
+          "title": "BIK Instagram, Whatsapp, Email Shopify App | eStorefy",
+          "meta_description": "A Shopify app for sms marketing. Listed functions include email campaigns, sms campaigns.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/bik-marketing",
+          "retrieved_at": "2026-10-04T05:08:14.026501+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Whatsapp, Email, SMS, Instagram marketing, automation, helpdesk for Shopify brands under 1…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/bik-marketing"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "postscript-sms-marketing",
+      "name": "Postscript SMS Marketing",
+      "slug": "postscript-sms-marketing",
+      "category_fit": {
+        "app_id": "postscript-sms-marketing",
+        "selection_score": 5.8517,
+        "rating_evidence": {"value": 4.7, "reviews": 1207},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sms", "text messag"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/postscript-sms-marketing"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for sms marketing. Listed functions include sms notifications, pop-up builder.",
+        "description_long": "Postscript SMS Marketing is developed by Postscript and listed for abandoned cart, sms marketing. Its structured listing identifies functions such as sms notifications, pop-up builder, triggers, templates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["SMS Marketing"],
+        "best_for": {
+          "use_cases": ["SMS Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.7,
+        "review_count": 1207,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/postscript-sms-marketing",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 1},
+          {"stars": 4, "percentage": 2, "count": 22},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 3},
+          {"stars": 1, "percentage": 3, "count": 34}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "$49 monthly minimum spend. $100 credit for your first 30 days. Then $0.009/SMS, $0.045/MMS + Carrier fees."
+            ]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 100.0,
+            "billing_period": "month",
+            "price_display": "$100 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "$100 credit for your first 30 days. Then $0.008/SMS, $0.03/MMS + Carrier fees. See pricing page for further details."
+            ]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 500.0,
+            "billing_period": "month",
+            "price_display": "$500 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "$100 credit for your first 30 days. Then $0.007/SMS, $0.024/MMS + Carrier fees. See pricing page for further details."
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.postscript.io/pricing",
+        "starting_paid_monthly_price_usd": 100.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "September 26, 2018",
+        "shopify_categories": [
+          {
+            "name": "Abandoned cart",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-abandoned-cart"
+          },
+          {
+            "name": "SMS marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-sms-marketing"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.abandoned_cart.cart_recovery.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.abandoned_cart.display_options.pop_up_builder", "label": "Pop-up builder"},
+          {"handle": "cf.abandoned_cart.display_options.triggers", "label": "Triggers"},
+          {"handle": "cf.abandoned_cart.display_options.templates", "label": "Templates"},
+          {"handle": "cf.abandoned_cart.display_options.a_b_testing", "label": "A/B testing"},
+          {"handle": "cf.sms_marketing.campaign_management.a_b_testing", "label": "A/B testing"},
+          {"handle": "cf.sms_marketing.campaign_management.compliance", "label": "Compliance"},
+          {
+            "handle": "cf.sms_marketing.campaign_management.personalized_messages",
+            "label": "Personalized messages"
+          },
+          {"handle": "cf.sms_marketing.campaign_management.scheduled_messages", "label": "Scheduled messages"},
+          {"handle": "cf.sms_marketing.campaign_management.templates", "label": "Templates"},
+          {"handle": "cf.sms_marketing.campaign_management.two_way_messaging", "label": "Two-way messaging"},
+          {"handle": "cf.sms_marketing.campaign_management.segmentation", "label": "Segmentation"},
+          {"handle": "cf.sms_marketing.campaign_management.opt_in", "label": "Opt-in"},
+          {"handle": "cf.sms_marketing.workflow_automation.cart_recovery", "label": "Cart recovery"},
+          {"handle": "cf.sms_marketing.workflow_automation.welcome_messages", "label": "Welcome messages"},
+          {"handle": "cf.sms_marketing.workflow_automation.otp", "label": "One-time password (OTP)"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "and more",
+          "Gorgias",
+          "Klaviyo",
+          "Privy",
+          "Sumo",
+          "Zapier"
+        ]
+      },
+      "developer": {
+        "name": "Postscript",
+        "website_url": "https://postscript.io",
+        "partner_url": "https://apps.shopify.com/partners/stodge-inc",
+        "public_address": "8136 East Sheridan Street, Phoenix, AZ, 85257, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/postscript-sms-marketing",
+        "canonical_app_store_url": "https://apps.shopify.com/postscript-sms-marketing",
+        "install_url": "https://apps.shopify.com/postscript-sms-marketing",
+        "demo_store_url": "https://www.postscript.io/features/",
+        "resources": {
+          "Privacy policy": "https://postscript.io/privacy",
+          "FAQ": "https://help.postscript.io/hc/en-us",
+          "Postscript": "https://apps.shopify.com/partners/stodge-inc",
+          "Website": "https://postscript.io"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/54fb9eb4e59e94fa0e3b1b173de78ca4/icon/CPDanN66poUDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/54fb9eb4e59e94fa0e3b1b173de78ca4/desktop_screenshot/CLKshs2Mqv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/54fb9eb4e59e94fa0e3b1b173de78ca4/desktop_screenshot/CKTCks2Mqv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/54fb9eb4e59e94fa0e3b1b173de78ca4/desktop_screenshot/CIDyoc2Mqv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/54fb9eb4e59e94fa0e3b1b173de78ca4/desktop_screenshot/CJOXrs2Mqv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/54fb9eb4e59e94fa0e3b1b173de78ca4/desktop_screenshot/CNGtyM2Mqv0CEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/-Ldv31LjUcg"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Postscript SMS Marketing free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/postscript-sms-marketing"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/postscript-sms-marketing"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, and more, Gorgias, Klaviyo, Privy, Sumo, Zapier",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/postscript-sms-marketing"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/postscript-sms-marketing"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.postscript.io/hc/en-us"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["sms-marketing"],
+        "primary_category_id": "sms-marketing",
+        "seo": {
+          "title": "Postscript SMS Marketing Shopify App | eStorefy",
+          "meta_description": "A Shopify app for sms marketing. Listed functions include sms notifications, pop-up builder.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/postscript-sms-marketing",
+          "retrieved_at": "2026-10-04T05:08:08.116859+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/postscript-sms-marketing"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "firepush",
+      "name": "Firepush ‑ SMS & Web Push",
+      "slug": "firepush",
+      "category_fit": {
+        "app_id": "firepush",
+        "selection_score": 5.8349,
+        "rating_evidence": {"value": 4.8, "reviews": 200},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sms", "text messag"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/firepush"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for sms marketing. Listed functions include cart recovery, back in stock.",
+        "description_long": "Firepush ‑ SMS & Web Push is developed by Firepush Ltd and listed for web push, sms marketing. Its structured listing identifies functions such as cart recovery, back in stock, flash sales, order updates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["SMS Marketing", "Web Push Notifications"],
+        "best_for": {
+          "use_cases": ["SMS Marketing", "Web Push Notifications"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 200,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/firepush",
+        "distribution": [
+          {"stars": 5, "percentage": 89, "count": 177},
+          {"stars": 4, "percentage": 8, "count": 15},
+          {"stars": 3, "percentage": 1, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 3, "count": 6}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 13.0,
+            "billing_period": "month",
+            "price_display": "$13 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://getfirepush.com/pricing/",
+        "starting_paid_monthly_price_usd": 13.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "February 17, 2016",
+        "shopify_categories": [
+          {
+            "name": "Web push",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-web-push"
+          },
+          {
+            "name": "SMS marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-sms-marketing"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.web_push.notification_types.cart_recovery", "label": "Cart recovery"},
+          {"handle": "cf.web_push.notification_types.back_in_stock", "label": "Back in stock"},
+          {"handle": "cf.web_push.notification_types.flash_sales", "label": "Flash sales"},
+          {"handle": "cf.web_push.notification_types.order_updates", "label": "Order updates"},
+          {"handle": "cf.web_push.notification_types.price_alerts", "label": "Price alerts"},
+          {"handle": "cf.web_push.notification_types.promotions", "label": "Promotions"},
+          {"handle": "cf.web_push.notification_types.welcome_messages", "label": "Welcome messages"},
+          {"handle": "cf.web_push.notification_types.retargeting", "label": "Retargeting"},
+          {"handle": "cf.web_push.subscriber_management.auto_notifications", "label": "Auto-notifications"},
+          {"handle": "cf.web_push.subscriber_management.subscriber_list", "label": "Subscriber list"},
+          {"handle": "cf.web_push.subscriber_management.opt_in", "label": "Opt-in"},
+          {"handle": "cf.web_push.subscriber_management.list_cleanup", "label": "List cleanup"},
+          {"handle": "cf.web_push.subscriber_management.segments", "label": "Segments"},
+          {"handle": "cf.web_push.subscriber_management.conversion_tracking", "label": "Conversion tracking"},
+          {"handle": "cf.web_push.subscriber_management.engagement_tracking", "label": "Engagement tracking"},
+          {"handle": "cf.sms_marketing.campaign_management.a_b_testing", "label": "A/B testing"},
+          {"handle": "cf.sms_marketing.campaign_management.bulk_messaging", "label": "Bulk messaging"},
+          {"handle": "cf.sms_marketing.campaign_management.custom_sender_id", "label": "Custom sender ID"},
+          {
+            "handle": "cf.sms_marketing.campaign_management.personalized_messages",
+            "label": "Personalized messages"
+          },
+          {"handle": "cf.sms_marketing.campaign_management.scheduled_messages", "label": "Scheduled messages"},
+          {"handle": "cf.sms_marketing.campaign_management.templates", "label": "Templates"},
+          {
+            "handle": "cf.sms_marketing.campaign_management.real_time_analytics",
+            "label": "Real-time analytics"
+          },
+          {"handle": "cf.sms_marketing.campaign_management.roi_tracking", "label": "ROI tracking"},
+          {"handle": "cf.sms_marketing.campaign_management.segmentation", "label": "Segmentation"},
+          {"handle": "cf.sms_marketing.campaign_management.custom_segments", "label": "Custom segments"},
+          {"handle": "cf.sms_marketing.campaign_management.opt_in", "label": "Opt-in"},
+          {"handle": "cf.sms_marketing.workflow_automation.cart_recovery", "label": "Cart recovery"},
+          {
+            "handle": "cf.sms_marketing.workflow_automation.order_confirmation",
+            "label": "Order confirmations"
+          },
+          {"handle": "cf.sms_marketing.workflow_automation.order_tracking", "label": "Order tracking"},
+          {"handle": "cf.sms_marketing.workflow_automation.welcome_messages", "label": "Welcome messages"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin", "sms"]
+      },
+      "developer": {
+        "name": "Firepush Ltd",
+        "website_url": "https://getfirepush.com/",
+        "partner_url": "https://apps.shopify.com/partners/kitoks-com",
+        "public_address": "93 Fernside road, Poole, ENG, BH152JQ, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/firepush",
+        "canonical_app_store_url": "https://apps.shopify.com/firepush",
+        "install_url": "https://apps.shopify.com/firepush",
+        "demo_store_url": "https://getfirepush.com/push-notification-preview-tool/",
+        "resources": {
+          "Privacy policy": "https://getfirepush.com/app-privacy-policy",
+          "FAQ": "https://getfirepush.com/help/",
+          "Firepush Ltd": "https://apps.shopify.com/partners/kitoks-com",
+          "Website": "https://getfirepush.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/4b539239b447ba3a783ec53f49272014/icon/CO3A66X0lu8CEAE=.jpg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/4b539239b447ba3a783ec53f49272014/desktop_screenshot/CLGSlL_k65ADEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4b539239b447ba3a783ec53f49272014/desktop_screenshot/CInj68nripIDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4b539239b447ba3a783ec53f49272014/desktop_screenshot/CKXnlKfsipIDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4b539239b447ba3a783ec53f49272014/desktop_screenshot/CIOf7qykm_QCEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4b539239b447ba3a783ec53f49272014/desktop_screenshot/COau96ykm_QCEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4b539239b447ba3a783ec53f49272014/mobile_screenshot/CK-tm8L0lu8CEAE=.jpg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4b539239b447ba3a783ec53f49272014/mobile_screenshot/CNzjysT0lu8CEAE=.jpg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4b539239b447ba3a783ec53f49272014/mobile_screenshot/CO6KgL70lu8CEAE=.jpg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4b539239b447ba3a783ec53f49272014/mobile_screenshot/CIioldr0lu8CEAE=.jpg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/gLXW1QWauqQ"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Firepush ‑ SMS & Web Push free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/firepush"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/firepush"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, sms",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/firepush"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/firepush"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://getfirepush.com/help/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["sms-marketing", "web-push-notifications"],
+        "primary_category_id": "sms-marketing",
+        "seo": {
+          "title": "Firepush ‑ SMS & Web Push Shopify App | eStorefy",
+          "meta_description": "A Shopify app for sms marketing. Listed functions include cart recovery, back in stock.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/firepush",
+          "retrieved_at": "2026-10-04T05:06:26.364243+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Firepush is a Shopify marketing app for SMS and web push notifications.…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/firepush"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "sendvio-email-marketing-sms",
+      "name": "Sendvio: Email Marketing & SMS",
+      "slug": "sendvio-email-marketing-sms",
+      "category_fit": {
+        "app_id": "sendvio-email-marketing-sms",
+        "selection_score": 5.8238,
+        "rating_evidence": {"value": 4.8, "reviews": 176},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sms"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/sendvio-email-marketing-sms"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for sms marketing. Listed functions include email campaigns, sms campaigns.",
+        "description_long": "Sendvio: Email Marketing & SMS is developed by Sendvio and listed for email marketing, sms marketing. Its structured listing identifies functions such as email campaigns, sms campaigns, social media, newsletters. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["SMS Marketing"],
+        "best_for": {
+          "use_cases": ["SMS Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 176,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/sendvio-email-marketing-sms",
+        "distribution": [
+          {"stars": 5, "percentage": 88, "count": 155},
+          {"stars": 4, "percentage": 9, "count": 15},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 1, "count": 2},
+          {"stars": 1, "percentage": 2, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "EMAIL",
+            "amount_usd": 16.0,
+            "billing_period": "month",
+            "price_display": "$16 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $144/year and save 25%"]
+          },
+          {
+            "name": "EMAIL + SMS",
+            "amount_usd": 23.0,
+            "billing_period": "month",
+            "price_display": "$23 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $207/year and save 25%",
+              "Up to 5,000 emails/mo + $3 SMS credits/mo for 500 contacts. Unlimited list size. Upgrade as you grow / Pay As You Go"
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://ap.sendvio.com/#pricing",
+        "starting_paid_monthly_price_usd": 16.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 15, 2013",
+        "shopify_categories": [
+          {
+            "name": "Email marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-email-marketing"
+          },
+          {
+            "name": "SMS marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-sms-marketing"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.email_marketing.campaign_types.email_campaigns", "label": "Email campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.sms_campaigns", "label": "SMS campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.social_media", "label": "Social media"},
+          {"handle": "cf.email_marketing.campaign_types.newsletters", "label": "Newsletters"},
+          {"handle": "cf.email_marketing.campaign_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.email_marketing.campaign_types.forms", "label": "Forms"},
+          {"handle": "cf.email_marketing.campaign_types.discounts", "label": "Discounts"},
+          {"handle": "cf.email_marketing.campaign_types.rewards", "label": "Rewards"},
+          {"handle": "cf.email_marketing.campaign_types.promotions", "label": "Promotions"},
+          {"handle": "cf.email_marketing.campaign_types.upsell_emails", "label": "Upsell emails"},
+          {"handle": "cf.email_marketing.campaign_types.cross_sell_emails", "label": "Cross-sell emails"},
+          {"handle": "cf.email_marketing.campaign_types.cart_emails", "label": "Cart emails"},
+          {"handle": "cf.email_marketing.campaign_types.checkout_emails", "label": "Checkout emails"},
+          {"handle": "cf.email_marketing.campaign_types.exit_intent", "label": "Exit intent"},
+          {"handle": "cf.email_marketing.campaign_types.abandoned_cart", "label": "Abandoned cart"},
+          {"handle": "cf.email_marketing.campaign_types.welcome_emails", "label": "Welcome emails"},
+          {"handle": "cf.email_marketing.campaign_types.follow_up_emails", "label": "Follow-up emails"},
+          {"handle": "cf.email_marketing.campaign_types.price_drop_emails", "label": "Price drop emails"},
+          {
+            "handle": "cf.email_marketing.campaign_types.back_in_stock_emails",
+            "label": "Back-in-stock emails"
+          },
+          {"handle": "cf.email_marketing.campaign_types.win_back_emails", "label": "Win-back emails"},
+          {
+            "handle": "cf.email_marketing.campaign_types.product_recommendations",
+            "label": "Product recommendations"
+          },
+          {"handle": "cf.email_marketing.campaign_types.drip_campaigns", "label": "Drip campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.subscriptions", "label": "Subscriptions"},
+          {"handle": "cf.email_marketing.campaign_types.product_reviews", "label": "Product reviews"},
+          {"handle": "cf.email_marketing.campaign_types.custom_campaigns", "label": "Custom campaigns"},
+          {"handle": "cf.email_marketing.managing_campaigns.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.email_marketing.managing_campaigns.templates", "label": "Templates"},
+          {"handle": "cf.email_marketing.managing_campaigns.ai_generation", "label": "AI generation"},
+          {"handle": "cf.email_marketing.managing_campaigns.translation", "label": "Translation"},
+          {"handle": "cf.email_marketing.managing_campaigns.localization", "label": "Localization"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " Japanese",
+          " German",
+          " Italian",
+          " Dutch",
+          " Korean",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Arabic",
+          " Hebrew",
+          " Persian",
+          " Urdu",
+          " Hindi",
+          " Turkish",
+          " Indonesian",
+          " Malay",
+          " Filipino",
+          " Thai",
+          " Vietnamese",
+          " Polish",
+          " Romanian",
+          " Czech",
+          " Slovak",
+          " Slovenian",
+          " Croatian",
+          " Bulgarian",
+          " Greek",
+          " Hungarian",
+          " Lithuanian",
+          " Russian",
+          " Ukrainian",
+          " Swedish",
+          " Danish",
+          " Norwegian",
+          " and Finnish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Flow",
+          "Shopify Admin",
+          "All Email and Popup Apps",
+          "Canva",
+          "ChatGPT (MCP)",
+          "Claude (MCP)",
+          "Sidekick",
+          "Theme editor"
+        ]
+      },
+      "developer": {
+        "name": "Sendvio",
+        "website_url": "https://www.sendvio.com",
+        "partner_url": "https://apps.shopify.com/partners/sendvio",
+        "public_address": "5256 S. Mission Road, Bonsall, CA, 92003, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/sendvio-email-marketing-sms",
+        "canonical_app_store_url": "https://apps.shopify.com/sendvio-email-marketing-sms",
+        "install_url": "https://apps.shopify.com/sendvio-email-marketing-sms",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://ap.sendvio.com/privacy",
+          "Sendvio": "https://apps.shopify.com/partners/sendvio",
+          "Website": "https://www.sendvio.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f5d3c32a744a07515d8ffd5d0d266a8c/icon/COWokpbLgJcDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f5d3c32a744a07515d8ffd5d0d266a8c/promotional_image/CPnR6oumkJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f5d3c32a744a07515d8ffd5d0d266a8c/desktop_screenshot/CIvu_d2oqZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f5d3c32a744a07515d8ffd5d0d266a8c/desktop_screenshot/CLmih96oqZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f5d3c32a744a07515d8ffd5d0d266a8c/desktop_screenshot/CJjskd6oqZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f5d3c32a744a07515d8ffd5d0d266a8c/desktop_screenshot/CJv_ku-mq5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f5d3c32a744a07515d8ffd5d0d266a8c/desktop_screenshot/CO3-pN6oqZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f5d3c32a744a07515d8ffd5d0d266a8c/desktop_screenshot/CJDjrt6oqZYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Sendvio: Email Marketing & SMS free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/sendvio-email-marketing-sms"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  Japanese,  German,  Italian,  Dutch,  Korean,  Portuguese (Brazil),  Portuguese (Portugal),  Chinese (Simplified),  Chinese (Traditional),  Arabic,  Hebrew,  Persian,  Urdu,  Hindi,  Turkish,  Indonesian,  Malay,  Filipino,  Thai,  Vietnamese,  Polish,  Romanian,  Czech,  Slovak,  Slovenian,  Croatian,  Bulgarian,  Greek,  Hungarian,  Lithuanian,  Russian,  Ukrainian,  Swedish,  Danish,  Norwegian,  and Finnish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/sendvio-email-marketing-sms"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Flow, Shopify Admin, All Email and Popup Apps, Canva, ChatGPT (MCP), Claude (MCP), Sidekick, Theme editor",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/sendvio-email-marketing-sms"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/sendvio-email-marketing-sms"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["sms-marketing"],
+        "primary_category_id": "sms-marketing",
+        "seo": {
+          "title": "Sendvio: Email Marketing & SMS Shopify App | eStorefy",
+          "meta_description": "A Shopify app for sms marketing. Listed functions include email campaigns, sms campaigns.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/sendvio-email-marketing-sms",
+          "retrieved_at": "2026-10-04T05:06:19.058726+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Create multilingual email campaigns and advanced automations with Sendvio AI, Sidekick, ChatGPT,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/sendvio-email-marketing-sms"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "one-click-popup-by-wcs",
+      "name": "1CP: Email Popup & Spin Wheel",
+      "slug": "one-click-popup-by-wcs",
+      "category_fit": {
+        "app_id": "one-click-popup-by-wcs",
+        "selection_score": 5.7876,
+        "rating_evidence": {"value": 4.9, "reviews": 228},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sms"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/one-click-popup-by-wcs"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for email marketing. Listed functions include email pop-ups, sms pop-ups.",
+        "description_long": "1CP: Email Popup & Spin Wheel is developed by 1Click Labs and listed for pop-ups, email marketing. Its structured listing identifies functions such as email pop-ups, sms pop-ups, cart pop-ups, exit intent. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Email Marketing", "SMS Marketing"],
+        "best_for": {
+          "use_cases": ["Email Marketing", "SMS Marketing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 228,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/one-click-popup-by-wcs",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 221},
+          {"stars": 4, "percentage": 1, "count": 3},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Always Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Launch",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 14.99,
+            "billing_period": "month",
+            "price_display": "$14.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 34.99,
+            "billing_period": "month",
+            "price_display": "$34.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://popup.1clicklabs.io/pricing",
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 5, 2021 · Changelog",
+        "shopify_categories": [
+          {"name": "Pop-ups", "url": "https://apps.shopify.com/categories/store-design-notifications-pop-ups"},
+          {
+            "name": "Email marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-email-marketing"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pop_ups.pop_up_types.email_pop_ups", "label": "Email pop-ups"},
+          {"handle": "cf.pop_ups.pop_up_types.sms_pop_ups", "label": "SMS pop-ups"},
+          {"handle": "cf.pop_ups.pop_up_types.cart_pop_ups", "label": "Cart pop-ups"},
+          {"handle": "cf.pop_ups.pop_up_types.exit_intent", "label": "Exit intent"},
+          {"handle": "cf.pop_ups.pop_up_types.discounts", "label": "Discounts"},
+          {"handle": "cf.pop_ups.pop_up_types.spin_the_wheel", "label": "Spin the wheel"},
+          {"handle": "cf.pop_ups.pop_up_types.countdown_timers", "label": "Countdown timers"},
+          {"handle": "cf.pop_ups.pop_up_types.newsletters", "label": "Newsletters"},
+          {"handle": "cf.pop_ups.pop_up_types.forms", "label": "Forms"},
+          {"handle": "cf.pop_ups.pop_up_types.announcements", "label": "Announcements"},
+          {"handle": "cf.pop_ups.pop_up_types.games", "label": "Games"},
+          {"handle": "cf.pop_ups.pop_up_types.surveys", "label": "Surveys"},
+          {"handle": "cf.pop_ups.pop_up_types.warning_pop_ups", "label": "Warning pop-ups"},
+          {"handle": "cf.pop_ups.pop_up_types.custom_pop_ups", "label": "Custom pop-ups"},
+          {"handle": "cf.pop_ups.managing_pop_ups.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.pop_ups.managing_pop_ups.templates", "label": "Templates"},
+          {"handle": "cf.pop_ups.managing_pop_ups.translation", "label": "Translation"},
+          {"handle": "cf.pop_ups.managing_pop_ups.localization", "label": "Localization"},
+          {"handle": "cf.pop_ups.managing_pop_ups.email_capture_list", "label": "Email capture list"},
+          {"handle": "cf.pop_ups.managing_pop_ups.sms_capture_list", "label": "SMS capture list"},
+          {"handle": "cf.pop_ups.managing_pop_ups.campaigns", "label": "Campaigns"},
+          {"handle": "cf.pop_ups.managing_pop_ups.triggers_and_rules", "label": "Triggers and rules"},
+          {"handle": "cf.pop_ups.managing_pop_ups.automations", "label": "Automations"},
+          {"handle": "cf.pop_ups.managing_pop_ups.targeting", "label": "Targeting"},
+          {"handle": "cf.pop_ups.managing_pop_ups.geo_location", "label": "Geolocation"},
+          {"handle": "cf.pop_ups.managing_pop_ups.segmentation", "label": "Segmentation"},
+          {"handle": "cf.pop_ups.managing_pop_ups.tagging", "label": "Tagging"},
+          {"handle": "cf.pop_ups.managing_pop_ups.reporting", "label": "Reporting"},
+          {"handle": "cf.pop_ups.managing_pop_ups.analytics", "label": "Analytics"},
+          {"handle": "cf.pop_ups.managing_pop_ups.tracking", "label": "Tracking"}
+        ],
+        "languages": ["English", " French", " and Spanish"],
+        "works_with": [
+          "Checkout",
+          "Shopify Flow",
+          "Shopify Admin",
+          "ActiveCampaign",
+          "Google Analytics 4 (GA4)",
+          "Klaviyo",
+          "Mailchimp",
+          "Meta Pixel",
+          "Shop Email and Automations"
+        ]
+      },
+      "developer": {
+        "name": "1Click Labs",
+        "website_url": "https://www.1clickpopup.com/",
+        "partner_url": "https://apps.shopify.com/partners/turbo-biz",
+        "public_address": "Sandy, UT, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/one-click-popup-by-wcs",
+        "canonical_app_store_url": "https://apps.shopify.com/one-click-popup-by-wcs",
+        "install_url": "https://apps.shopify.com/one-click-popup-by-wcs",
+        "demo_store_url": "https://oneclickpopup-demo.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://popup.1clicklabs.io/privacy",
+          "FAQ": "https://support-popup.1clicklabs.io/",
+          "Tutorial": "https://support-popup.1clicklabs.io/article/13-how-to-create-and-activate-your-first-campaign",
+          "1Click Labs": "https://apps.shopify.com/partners/turbo-biz",
+          "Website": "https://www.1clickpopup.com/",
+          "Changelog": "https://headwayapp.co/1clickpopup-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/a10ce9eed6b44f3f59aa2c2d9ce255e3/icon/CIPI-OXI0v4CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/a10ce9eed6b44f3f59aa2c2d9ce255e3/promotional_image/CLrEoJyVr44DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a10ce9eed6b44f3f59aa2c2d9ce255e3/desktop_screenshot/CL3ag6mVr44DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a10ce9eed6b44f3f59aa2c2d9ce255e3/desktop_screenshot/CPnXuaiSr44DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a10ce9eed6b44f3f59aa2c2d9ce255e3/desktop_screenshot/CNnAx6iSr44DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a10ce9eed6b44f3f59aa2c2d9ce255e3/desktop_screenshot/CLWE0aiSr44DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a10ce9eed6b44f3f59aa2c2d9ce255e3/desktop_screenshot/CL3J26iSr44DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a10ce9eed6b44f3f59aa2c2d9ce255e3/desktop_screenshot/CMnE56iSr44DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a10ce9eed6b44f3f59aa2c2d9ce255e3/mobile_screenshot/CKu98qiSr44DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a10ce9eed6b44f3f59aa2c2d9ce255e3/mobile_screenshot/CLi8-6iSr44DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a10ce9eed6b44f3f59aa2c2d9ce255e3/mobile_screenshot/CLaWhqmSr44DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is 1CP: Email Popup & Spin Wheel free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/one-click-popup-by-wcs"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/one-click-popup-by-wcs"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Flow, Shopify Admin, ActiveCampaign, Google Analytics 4 (GA4), Klaviyo, Mailchimp, Meta Pixel, Shop Email and Automations",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/one-click-popup-by-wcs"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/one-click-popup-by-wcs"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://support-popup.1clicklabs.io/",
+            "https://support-popup.1clicklabs.io/article/13-how-to-create-and-activate-your-first-campaign"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["email-marketing", "sms-marketing"],
+        "primary_category_id": "email-marketing",
+        "seo": {
+          "title": "1CP: Email Popup & Spin Wheel Shopify App | eStorefy",
+          "meta_description": "A Shopify app for email marketing. Listed functions include email pop-ups, sms pop-ups.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/one-click-popup-by-wcs",
+          "retrieved_at": "2026-10-04T05:08:08.270627+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Shopify popups, embedded forms, spin wheel and discount pop ups that grow…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/one-click-popup-by-wcs"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

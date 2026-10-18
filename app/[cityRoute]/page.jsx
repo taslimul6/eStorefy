@@ -12,10 +12,17 @@ export async function generateMetadata({ params }) {
   const city = getCity(cityRoute);
   if (!city) return {};
   return pageMetadata({
-    title: `Shopify Agencies in ${city.name}`,
+    title: `Shopify Agencies in ${city.fullName}`,
     description: city.description,
     path: `/${city.route}`,
-    image: `/images/social/${city.id}.png`,
+    keywords: [
+      `Shopify agencies in ${city.name}`,
+      `Shopify developers ${city.name}`,
+      `Shopify experts ${city.country}`,
+      ...city.insights.serviceCounts
+        .slice(0, 3)
+        .map(([service]) => `${service} ${city.name}`),
+    ],
   });
 }
 export default async function CityPage({ params }) {

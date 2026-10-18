@@ -1,0 +1,1291 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "sku-barcode-generators",
+    "number": 79,
+    "name": "SKU & Barcode Generators",
+    "group": "Inventory & Operations",
+    "slug": "sku-barcode-generators",
+    "url_path": "/apps/sku-barcode-generators",
+    "focus": "Coordinate stock availability and operational systems.",
+    "description": "Compare Shopify apps for sku & barcode generators. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/sales-channels-selling-in-person-sku-and-barcodes/all"],
+    "seo": {
+      "title": "Shopify SKU & Barcode Generators Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for sku & barcode generators: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 5,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a sku & barcode generators app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "delta-retail-barcode",
+      "name": "RF—Barcode Labels Generator",
+      "slug": "delta-retail-barcode",
+      "category_fit": {
+        "app_id": "delta-retail-barcode",
+        "selection_score": 6.0936,
+        "rating_evidence": {"value": 5.0, "reviews": 504},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["barcode", "sku"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/delta-retail-barcode"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for cash on delivery. Listed functions include barcode scanning, auto-generation.",
+        "description_long": "RF—Barcode Labels Generator is developed by Retail Force and listed for retail, sku and barcodes. Its structured listing identifies functions such as barcode scanning, auto-generation, bulk generation, custom templates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Cash on Delivery", "Order Printer & Packing Slips", "SKU & Barcode Generators"],
+        "best_for": {
+          "use_cases": ["Cash on Delivery", "Order Printer & Packing Slips", "SKU & Barcode Generators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 504,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/delta-retail-barcode",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 484},
+          {"stars": 4, "percentage": 3, "count": 15},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 24, 2025",
+        "shopify_categories": [
+          {
+            "name": "Retail",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-in-person-retail"
+          },
+          {
+            "name": "SKU and barcodes",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-in-person-sku-and-barcodes"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.retail.pos.barcode_scanning", "label": "Barcode scanning"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.auto_generation", "label": "Auto-generation"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.bulk_generation", "label": "Bulk generation"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.custom_templates", "label": "Custom templates"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.qr_codes", "label": "QR codes"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.gtin", "label": "GTIN"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.upc", "label": "UPC"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.scanning", "label": "Scanning"},
+          {"handle": "cf.sku_and_barcodes.sku_management.auto_generation", "label": "Auto-generation"},
+          {"handle": "cf.sku_and_barcodes.sku_management.bulk_generation", "label": "Bulk generation"},
+          {"handle": "cf.sku_and_barcodes.sku_management.custom_templates", "label": "Custom templates"},
+          {"handle": "cf.sku_and_barcodes.sku_management.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.sku_and_barcodes.sku_management.prefix_and_suffix", "label": "Prefix and suffix"},
+          {"handle": "cf.sku_and_barcodes.sku_management.barcode_integration", "label": "Barcode integration"},
+          {"handle": "cf.sku_and_barcodes.sku_management.variants", "label": "Variants"},
+          {"handle": "cf.sku_and_barcodes.label_printing.auto_printing", "label": "Auto-printing"},
+          {"handle": "cf.sku_and_barcodes.label_printing.bulk_printing", "label": "Bulk printing"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_templates", "label": "Custom templates"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_elements", "label": "Custom elements"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_layouts", "label": "Custom layouts"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_size", "label": "Custom size"},
+          {"handle": "cf.sku_and_barcodes.label_printing.bin_locations", "label": "Bin locations"},
+          {"handle": "cf.sku_and_barcodes.label_printing.packing_slips", "label": "Packing slips"},
+          {"handle": "cf.sku_and_barcodes.label_printing.multi_language", "label": "Multi-language"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " German",
+          " French",
+          " Italian",
+          " Spanish",
+          " Japanese",
+          " Turkish",
+          " Portuguese (Brazil)",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Shopify POS",
+          "Shopify Admin",
+          "2000 printers & paper brands",
+          "POS Scaning",
+          "Zebra/Dymo/Brother/Rollo"
+        ]
+      },
+      "developer": {
+        "name": "Retail Force",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/orderediting",
+        "public_address": "Mississauga, ON, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/delta-retail-barcode",
+        "canonical_app_store_url": "https://apps.shopify.com/delta-retail-barcode",
+        "install_url": "https://apps.shopify.com/delta-retail-barcode",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.retailforce.agency/pages/privacy-policy",
+          "FAQ": "https://help.wikiguide.link/en/category/retail-force-barcodes-labels-1ow69u/",
+          "Tutorial": "https://www.youtube.com/playlist?list=PLh56DjmOPn46jZobe1JhJhnnPk73tynfU",
+          "App Documentation": "https://help.wikiguide.link/en/category/retail-force-barcodes-labels-1ow69u/",
+          "Retail Force": "https://apps.shopify.com/partners/orderediting"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/02d45606f7d73301811421d888b071f1/icon/CLen4dGEmpIDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/02d45606f7d73301811421d888b071f1/promotional_image/CITk1PPKmZIDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02d45606f7d73301811421d888b071f1/desktop_screenshot/CMnA3fPKmZIDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02d45606f7d73301811421d888b071f1/desktop_screenshot/CN-U5vPKmZIDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02d45606f7d73301811421d888b071f1/desktop_screenshot/CNKZ7_PKmZIDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is RF—Barcode Labels Generator free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/delta-retail-barcode"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  German,  French,  Italian,  Spanish,  Japanese,  Turkish,  Portuguese (Brazil),  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/delta-retail-barcode"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify POS, Shopify Admin, 2000 printers & paper brands, POS Scaning, Zebra/Dymo/Brother/Rollo",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/delta-retail-barcode"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/delta-retail-barcode"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.wikiguide.link/en/category/retail-force-barcodes-labels-1ow69u/",
+            "https://www.youtube.com/playlist?list=PLh56DjmOPn46jZobe1JhJhnnPk73tynfU",
+            "https://help.wikiguide.link/en/category/retail-force-barcodes-labels-1ow69u/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Define the payment, subscription or pre-order rules and eligible products.",
+            "Verify supported payment methods and test the purchase lifecycle.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["cash-on-delivery", "order-printer-packing-slips", "sku-barcode-generators"],
+        "primary_category_id": "cash-on-delivery",
+        "seo": {
+          "title": "RF—Barcode Labels Generator Shopify App | eStorefy",
+          "meta_description": "A Shopify app for cash on delivery. Listed functions include barcode scanning, auto-generation.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/delta-retail-barcode",
+          "retrieved_at": "2026-10-04T05:24:43.385844+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Generate professional barcodes and SKUs for your products, design custom labels, and…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/delta-retail-barcode"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "easyscan-inventory-and-order",
+      "name": "EasyScan Inventory & Barcode",
+      "slug": "easyscan-inventory-and-order",
+      "category_fit": {
+        "app_id": "easyscan-inventory-and-order",
+        "selection_score": 6.0717,
+        "rating_evidence": {"value": 5.0, "reviews": 373},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["barcode", "sku"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/easyscan-inventory-and-order"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for cash on delivery. Listed functions include auto-generation, bulk generation.",
+        "description_long": "EasyScan Inventory & Barcode is developed by 506 and listed for sku and barcodes, inventory optimization. Its structured listing identifies functions such as auto-generation, bulk generation, custom templates, qr codes. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Cash on Delivery",
+          "Stock Forecasting & Purchase Orders",
+          "Back-in-stock Alerts",
+          "SKU & Barcode Generators"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Cash on Delivery",
+            "Stock Forecasting & Purchase Orders",
+            "Back-in-stock Alerts",
+            "SKU & Barcode Generators"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 373,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/easyscan-inventory-and-order",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 370},
+          {"stars": 4, "percentage": 0, "count": 1},
+          {"stars": 3, "percentage": 1, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $9.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $99.90/year and save 17%"]
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 39.99,
+            "billing_period": "month",
+            "price_display": "$39.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $399.90/year and save 17%"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 79.99,
+            "billing_period": "month",
+            "price_display": "$79.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $799.90/year and save 17%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 129.99,
+            "billing_period": "month",
+            "price_display": "$129.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,299.90/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://506.io/easyscan/pricing",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 24, 2020 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "SKU and barcodes",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-in-person-sku-and-barcodes"
+          },
+          {
+            "name": "Inventory optimization",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-optimization"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.sku_and_barcodes.barcode_management.auto_generation", "label": "Auto-generation"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.bulk_generation", "label": "Bulk generation"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.custom_templates", "label": "Custom templates"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.qr_codes", "label": "QR codes"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.gtin", "label": "GTIN"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.upc", "label": "UPC"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.scanning", "label": "Scanning"},
+          {"handle": "cf.sku_and_barcodes.sku_management.auto_generation", "label": "Auto-generation"},
+          {"handle": "cf.sku_and_barcodes.sku_management.bulk_generation", "label": "Bulk generation"},
+          {"handle": "cf.sku_and_barcodes.sku_management.custom_templates", "label": "Custom templates"},
+          {"handle": "cf.sku_and_barcodes.sku_management.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.sku_and_barcodes.sku_management.prefix_and_suffix", "label": "Prefix and suffix"},
+          {"handle": "cf.sku_and_barcodes.sku_management.duplicate_check", "label": "Duplicate check"},
+          {"handle": "cf.sku_and_barcodes.sku_management.barcode_integration", "label": "Barcode integration"},
+          {"handle": "cf.sku_and_barcodes.sku_management.data_abbreviation", "label": "Data abbreviation"},
+          {"handle": "cf.sku_and_barcodes.sku_management.variants", "label": "Variants"},
+          {"handle": "cf.sku_and_barcodes.sku_management.inventory_transfer", "label": "Inventory transfer"},
+          {"handle": "cf.sku_and_barcodes.label_printing.auto_printing", "label": "Auto-printing"},
+          {"handle": "cf.sku_and_barcodes.label_printing.bulk_printing", "label": "Bulk printing"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_templates", "label": "Custom templates"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_elements", "label": "Custom elements"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_layouts", "label": "Custom layouts"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_size", "label": "Custom size"},
+          {"handle": "cf.sku_and_barcodes.label_printing.bin_locations", "label": "Bin locations"},
+          {"handle": "cf.sku_and_barcodes.label_printing.images", "label": "Images"},
+          {"handle": "cf.sku_and_barcodes.label_printing.packing_slips", "label": "Packing slips"},
+          {"handle": "cf.sku_and_barcodes.label_printing.pick_lists", "label": "Pick lists"},
+          {"handle": "cf.sku_and_barcodes.label_printing.multi_language", "label": "Multi-language"},
+          {
+            "handle": "cf.inventory_optimization.inventory_management.inventory_tracking",
+            "label": "Inventory tracking"
+          },
+          {"handle": "cf.inventory_optimization.inventory_management.auto_restock", "label": "Auto-restock"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Barcode Scanner",
+          "Dymo",
+          "Mobile",
+          "POS",
+          "Slack",
+          "Zebra"
+        ]
+      },
+      "developer": {
+        "name": "506",
+        "website_url": "https://506.io",
+        "partner_url": "https://apps.shopify.com/partners/fiftypoint6",
+        "public_address": "One Kingdom Street, Paddington Central, London, ENG, W2 6BD, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/easyscan-inventory-and-order",
+        "canonical_app_store_url": "https://apps.shopify.com/easyscan-inventory-and-order",
+        "install_url": "https://apps.shopify.com/easyscan-inventory-and-order",
+        "demo_store_url": "https://easyscan-test.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.506.io/easyscan/privacy",
+          "FAQ": "https://easyscan.506.io/doc/easyscan-faqs",
+          "Tutorial": "https://easyscan.506.io/doc/getting-started-with-easyscan",
+          "App Documentation": "https://easyscan.506.io/",
+          "506": "https://apps.shopify.com/partners/fiftypoint6",
+          "Website": "https://506.io",
+          "Changelog": "https://easyscan.506.io/doc/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/2608db50f9b29c58b9a6231ba55b8804/icon/CJ2zoqeB-e8CEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/2608db50f9b29c58b9a6231ba55b8804/desktop_screenshot/CKLU7uP0spADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2608db50f9b29c58b9a6231ba55b8804/desktop_screenshot/CPDk9-P0spADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2608db50f9b29c58b9a6231ba55b8804/desktop_screenshot/CMuRgeT0spADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2608db50f9b29c58b9a6231ba55b8804/desktop_screenshot/CO3jieT0spADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2608db50f9b29c58b9a6231ba55b8804/desktop_screenshot/CP_XkuT0spADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2608db50f9b29c58b9a6231ba55b8804/desktop_screenshot/CN-9m-T0spADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/6Jm6YGbSxTs"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is EasyScan Inventory & Barcode free?",
+            "answer": "The pricing label retrieved from the listing is: From $9.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/easyscan-inventory-and-order"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/easyscan-inventory-and-order"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify POS, Shopify Flow, Shopify Admin, Barcode Scanner, Dymo, Mobile, POS, Slack, Zebra",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/easyscan-inventory-and-order"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/easyscan-inventory-and-order"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://easyscan.506.io/doc/easyscan-faqs",
+            "https://easyscan.506.io/doc/getting-started-with-easyscan",
+            "https://easyscan.506.io/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Define the payment, subscription or pre-order rules and eligible products.",
+            "Verify supported payment methods and test the purchase lifecycle.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "cash-on-delivery",
+          "stock-forecasting-purchase-orders",
+          "back-in-stock-alerts",
+          "sku-barcode-generators"
+        ],
+        "primary_category_id": "cash-on-delivery",
+        "seo": {
+          "title": "EasyScan Inventory & Barcode Shopify App | eStorefy",
+          "meta_description": "A Shopify app for cash on delivery. Listed functions include auto-generation, bulk generation.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/easyscan-inventory-and-order",
+          "retrieved_at": "2026-10-04T05:24:20.375558+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "EasyScan for Shopify: forecast demand, auto-generate purchase orders, get low stock alerts,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/easyscan-inventory-and-order"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "yanet-barcode-labels",
+      "name": "Yanet Retail Barcode Labels",
+      "slug": "yanet-barcode-labels",
+      "category_fit": {
+        "app_id": "yanet-barcode-labels",
+        "selection_score": 5.9911,
+        "rating_evidence": {"value": 4.9, "reviews": 458},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["barcode", "sku"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/yanet-barcode-labels"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for order printer & packing slips. Listed functions include auto-generation, bulk generation.",
+        "description_long": "Yanet Retail Barcode Labels is developed by Yanet and listed for sku and barcodes, retail. Its structured listing identifies functions such as auto-generation, bulk generation, custom templates, qr codes. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Order Printer & Packing Slips", "SKU & Barcode Generators"],
+        "best_for": {
+          "use_cases": ["Order Printer & Packing Slips", "SKU & Barcode Generators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 458,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/yanet-barcode-labels",
+        "distribution": [
+          {"stars": 5, "percentage": 93, "count": 427},
+          {"stars": 4, "percentage": 3, "count": 15},
+          {"stars": 3, "percentage": 1, "count": 6},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 2, "count": 9}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "$15 for 2000 extra labels, $30 for 5000 extra labels, $60 for 20000 extra labels, $300 for 200000 extra labels"
+            ]
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 7.99,
+            "billing_period": "month",
+            "price_display": "$7.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $79.90/year and save 17%",
+              "$15 for 2000 extra labels, $30 for 5000 extra labels, $60 for 20000 extra labels, $300 for 200000 extra labels"
+            ]
+          },
+          {
+            "name": "ULTIMATE",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $299.90/year and save 17%",
+              "$15 for 2000 extra labels, $30 for 5000 extra labels, $60 for 20000 extra labels, $300 for 200000 extra labels"
+            ]
+          },
+          {
+            "name": "UNLIMITED",
+            "amount_usd": 69.99,
+            "billing_period": "month",
+            "price_display": "$69.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $699.90/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 7.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 9, 2022",
+        "shopify_categories": [
+          {
+            "name": "SKU and barcodes",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-in-person-sku-and-barcodes"
+          },
+          {
+            "name": "Retail",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-in-person-retail"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.sku_and_barcodes.barcode_management.auto_generation", "label": "Auto-generation"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.bulk_generation", "label": "Bulk generation"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.custom_templates", "label": "Custom templates"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.qr_codes", "label": "QR codes"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.gtin", "label": "GTIN"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.upc", "label": "UPC"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.scanning", "label": "Scanning"},
+          {"handle": "cf.sku_and_barcodes.sku_management.bulk_generation", "label": "Bulk generation"},
+          {"handle": "cf.sku_and_barcodes.sku_management.custom_templates", "label": "Custom templates"},
+          {"handle": "cf.sku_and_barcodes.sku_management.prefix_and_suffix", "label": "Prefix and suffix"},
+          {"handle": "cf.sku_and_barcodes.sku_management.barcode_integration", "label": "Barcode integration"},
+          {"handle": "cf.sku_and_barcodes.sku_management.data_abbreviation", "label": "Data abbreviation"},
+          {"handle": "cf.sku_and_barcodes.sku_management.variants", "label": "Variants"},
+          {"handle": "cf.sku_and_barcodes.label_printing.bulk_printing", "label": "Bulk printing"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_templates", "label": "Custom templates"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_elements", "label": "Custom elements"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_layouts", "label": "Custom layouts"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_size", "label": "Custom size"},
+          {"handle": "cf.sku_and_barcodes.label_printing.images", "label": "Images"},
+          {"handle": "cf.sku_and_barcodes.label_printing.multi_language", "label": "Multi-language"},
+          {"handle": "cf.retail.pos.barcode_scanning", "label": "Barcode scanning"},
+          {"handle": "cf.retail.pos.qr_codes", "label": "QR codes"},
+          {"handle": "cf.retail.inventory_management.real_time_sync", "label": "Real-time sync"},
+          {"handle": "cf.retail.inventory_management.auto_update", "label": "Auto-updates"},
+          {"handle": "cf.retail.inventory_management.multi_location", "label": "Multi-location"}
+        ],
+        "languages": ["English", " German", " French", " Japanese", " Portuguese (Brazil)", " and Chinese (Simplified)"],
+        "works_with": ["Shopify Flow", "Shopify Admin", "Stocky"]
+      },
+      "developer": {
+        "name": "Yanet",
+        "website_url": "https://yanet.io/",
+        "partner_url": "https://apps.shopify.com/partners/yanet",
+        "public_address": "Tu Hiep, Thanh Tri, Hanoi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/yanet-barcode-labels",
+        "canonical_app_store_url": "https://apps.shopify.com/yanet-barcode-labels",
+        "install_url": "https://apps.shopify.com/yanet-barcode-labels",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://yanet.io/privacy-policies/",
+          "Yanet": "https://apps.shopify.com/partners/yanet",
+          "Website": "https://yanet.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/ab16c393b1e5044fbdf7ed14523974b9/icon/CLeKiJ7z8owDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/ab16c393b1e5044fbdf7ed14523974b9/promotional_image/CIzSkp7z8owDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ab16c393b1e5044fbdf7ed14523974b9/desktop_screenshot/CIC9np7z8owDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ab16c393b1e5044fbdf7ed14523974b9/desktop_screenshot/CO3QqZ7z8owDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ab16c393b1e5044fbdf7ed14523974b9/desktop_screenshot/CKX7tJ7z8owDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ab16c393b1e5044fbdf7ed14523974b9/desktop_screenshot/CP-gv57z8owDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ab16c393b1e5044fbdf7ed14523974b9/desktop_screenshot/CI-Zy57z8owDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ab16c393b1e5044fbdf7ed14523974b9/desktop_screenshot/CLvo1J7z8owDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Yanet Retail Barcode Labels free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/yanet-barcode-labels"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Japanese,  Portuguese (Brazil),  and Chinese (Simplified)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/yanet-barcode-labels"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Flow, Shopify Admin, Stocky",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/yanet-barcode-labels"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/yanet-barcode-labels"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["order-printer-packing-slips", "sku-barcode-generators"],
+        "primary_category_id": "order-printer-packing-slips",
+        "seo": {
+          "title": "Yanet Retail Barcode Labels Shopify App | eStorefy",
+          "meta_description": "A Shopify app for order printer & packing slips. Listed functions include auto-generation, bulk generation.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/yanet-barcode-labels",
+          "retrieved_at": "2026-10-04T05:24:43.422102+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/yanet-barcode-labels"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "barcode-management",
+      "name": "MS Barcode Labels & Generator",
+      "slug": "barcode-management",
+      "category_fit": {
+        "app_id": "barcode-management",
+        "selection_score": 5.9812,
+        "rating_evidence": {"value": 4.9, "reviews": 397},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["barcode", "sku"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/barcode-management"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for order printer & packing slips. Listed functions include auto-generation, bulk generation.",
+        "description_long": "MS Barcode Labels & Generator is developed by Magestore and listed for sku and barcodes, retail. Its structured listing identifies functions such as auto-generation, bulk generation, custom templates, qr codes. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Order Printer & Packing Slips", "SKU & Barcode Generators"],
+        "best_for": {
+          "use_cases": ["Order Printer & Packing Slips", "SKU & Barcode Generators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 397,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/barcode-management",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 386},
+          {"stars": 4, "percentage": 2, "count": 6},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "STANDARD",
+            "amount_usd": 7.99,
+            "billing_period": "month",
+            "price_display": "$7.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $79.90/year and save 17%"]
+          },
+          {
+            "name": "Pay as you Go",
+            "amount_usd": 11.99,
+            "billing_period": null,
+            "price_display": "$11.99 one-time charge",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 27.99,
+            "billing_period": "month",
+            "price_display": "$27.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $279.90/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://magestore-service.atlassian.net/l/cp/q2huj2WE",
+        "starting_paid_monthly_price_usd": 7.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 8, 2023",
+        "shopify_categories": [
+          {
+            "name": "SKU and barcodes",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-in-person-sku-and-barcodes"
+          },
+          {
+            "name": "Retail",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-in-person-retail"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.sku_and_barcodes.barcode_management.auto_generation", "label": "Auto-generation"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.bulk_generation", "label": "Bulk generation"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.custom_templates", "label": "Custom templates"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.qr_codes", "label": "QR codes"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.gtin", "label": "GTIN"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.upc", "label": "UPC"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.scanning", "label": "Scanning"},
+          {"handle": "cf.sku_and_barcodes.sku_management.auto_generation", "label": "Auto-generation"},
+          {"handle": "cf.sku_and_barcodes.sku_management.bulk_generation", "label": "Bulk generation"},
+          {"handle": "cf.sku_and_barcodes.sku_management.custom_templates", "label": "Custom templates"},
+          {"handle": "cf.sku_and_barcodes.sku_management.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.sku_and_barcodes.sku_management.prefix_and_suffix", "label": "Prefix and suffix"},
+          {"handle": "cf.sku_and_barcodes.sku_management.variants", "label": "Variants"},
+          {"handle": "cf.sku_and_barcodes.label_printing.bulk_printing", "label": "Bulk printing"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_templates", "label": "Custom templates"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_elements", "label": "Custom elements"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_layouts", "label": "Custom layouts"},
+          {"handle": "cf.sku_and_barcodes.label_printing.custom_size", "label": "Custom size"},
+          {"handle": "cf.sku_and_barcodes.label_printing.images", "label": "Images"},
+          {"handle": "cf.sku_and_barcodes.label_printing.multi_language", "label": "Multi-language"},
+          {"handle": "cf.retail.pos.barcode_scanning", "label": "Barcode scanning"},
+          {"handle": "cf.retail.pos.qr_codes", "label": "QR codes"},
+          {"handle": "cf.retail.inventory_management.real_time_sync", "label": "Real-time sync"},
+          {"handle": "cf.retail.inventory_management.auto_update", "label": "Auto-updates"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " German",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Japanese",
+          " Spanish",
+          " Italian",
+          " and Swedish"
+        ],
+        "works_with": ["Shopify Admin", "POS", "Stocky"]
+      },
+      "developer": {
+        "name": "Magestore",
+        "website_url": "https://www.magestore.com/",
+        "partner_url": "https://apps.shopify.com/partners/magestore3",
+        "public_address": "Hanoi, Hanoi, Hanoi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/barcode-management",
+        "canonical_app_store_url": "https://apps.shopify.com/barcode-management",
+        "install_url": "https://apps.shopify.com/barcode-management",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.magestore.com/privacy-policy/",
+          "Tutorial": "https://magestore-service.atlassian.net/wiki/spaces/MSDFS/pages/437026817/Barcode+Management+app",
+          "Magestore": "https://apps.shopify.com/partners/magestore3",
+          "Website": "https://www.magestore.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/7eb93b3f46a498866b5da73707988e3d/icon/COnm4vzBn40DEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/7eb93b3f46a498866b5da73707988e3d/promotional_image/COPlx9rN5IsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7eb93b3f46a498866b5da73707988e3d/desktop_screenshot/CJre1r7niJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7eb93b3f46a498866b5da73707988e3d/desktop_screenshot/CK3GxKqf2YoDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7eb93b3f46a498866b5da73707988e3d/desktop_screenshot/CKSyrJ2bs4oDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7eb93b3f46a498866b5da73707988e3d/desktop_screenshot/CIDytP2n2YoDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7eb93b3f46a498866b5da73707988e3d/desktop_screenshot/CN_o377niJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7eb93b3f46a498866b5da73707988e3d/desktop_screenshot/CLXQjL2AwJMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is MS Barcode Labels & Generator free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/barcode-management"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  German,  Chinese (Simplified),  Chinese (Traditional),  Japanese,  Spanish,  Italian,  and Swedish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/barcode-management"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, POS, Stocky",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/barcode-management"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/barcode-management"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://magestore-service.atlassian.net/wiki/spaces/MSDFS/pages/437026817/Barcode+Management+app"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["order-printer-packing-slips", "sku-barcode-generators"],
+        "primary_category_id": "order-printer-packing-slips",
+        "seo": {
+          "title": "MS Barcode Labels & Generator Shopify App | eStorefy",
+          "meta_description": "A Shopify app for order printer & packing slips. Listed functions include auto-generation, bulk generation.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/barcode-management",
+          "retrieved_at": "2026-10-04T05:24:43.480675+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Magestore's barcode generator for Shopify simplifies and speeds up the process of…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/barcode-management"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "get-gtin-ean-upc-barcodes",
+      "name": "AR: Buy GTINs/UPC/EAN barcodes",
+      "slug": "get-gtin-ean-upc-barcodes",
+      "category_fit": {
+        "app_id": "get-gtin-ean-upc-barcodes",
+        "selection_score": 5.8698,
+        "rating_evidence": {"value": 5.0, "reviews": 66},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["barcode"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/get-gtin-ean-upc-barcodes"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for sku & barcode generators. Listed functions include auto-generation, bulk generation.",
+        "description_long": "AR: Buy GTINs/UPC/EAN barcodes is developed by Apps Robots and listed for sku and barcodes. Its structured listing identifies functions such as auto-generation, bulk generation, gtin, upc. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["SKU & Barcode Generators", "Marketplace Integrations"],
+        "best_for": {
+          "use_cases": ["SKU & Barcode Generators", "Marketplace Integrations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 66,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/get-gtin-ean-upc-barcodes",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 64},
+          {"stars": 4, "percentage": 2, "count": 1},
+          {"stars": 3, "percentage": 2, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": ["Additional GTINS starting from $0.01 - $0.28 per GTIN depending on the volume."]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "August 25, 2022",
+        "shopify_categories": [
+          {
+            "name": "SKU and barcodes",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-in-person-sku-and-barcodes"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.sku_and_barcodes.barcode_management.auto_generation", "label": "Auto-generation"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.bulk_generation", "label": "Bulk generation"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.gtin", "label": "GTIN"},
+          {"handle": "cf.sku_and_barcodes.barcode_management.upc", "label": "UPC"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Facebook", "Google Shopping", "Instagram", "Other marketplaces", "Performance Max"]
+      },
+      "developer": {
+        "name": "Apps Robots",
+        "website_url": "http://www.adwordsrobot.com",
+        "partner_url": "https://apps.shopify.com/partners/adwordsrobot",
+        "public_address": "Brouwerijstraat 1, Enschede, 7523XC, NL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/get-gtin-ean-upc-barcodes",
+        "canonical_app_store_url": "https://apps.shopify.com/get-gtin-ean-upc-barcodes",
+        "install_url": "https://apps.shopify.com/get-gtin-ean-upc-barcodes",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.adwordsrobot.com/xx/privacy/app-gtins",
+          "Apps Robots": "https://apps.shopify.com/partners/adwordsrobot",
+          "Website": "http://www.adwordsrobot.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/434a5da7f2d24bcb596dfe09be105724/icon/CKLynZ6BiYoDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/434a5da7f2d24bcb596dfe09be105724/desktop_screenshot/CL281O-Lo4oDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/434a5da7f2d24bcb596dfe09be105724/desktop_screenshot/CP6V3--Lo4oDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/434a5da7f2d24bcb596dfe09be105724/desktop_screenshot/COiMzK-R0PoCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/434a5da7f2d24bcb596dfe09be105724/desktop_screenshot/CNfQ2K-R0PoCEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/Z7xU0rBRWQI"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is AR: Buy GTINs/UPC/EAN barcodes free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/get-gtin-ean-upc-barcodes"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/get-gtin-ean-upc-barcodes"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Facebook, Google Shopping, Instagram, Other marketplaces, Performance Max",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/get-gtin-ean-upc-barcodes"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/get-gtin-ean-upc-barcodes"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["sku-barcode-generators", "marketplace-integrations"],
+        "primary_category_id": "sku-barcode-generators",
+        "seo": {
+          "title": "AR: Buy GTINs/UPC/EAN barcodes Shopify App | eStorefy",
+          "meta_description": "A Shopify app for sku & barcode generators. Listed functions include auto-generation, bulk generation.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/get-gtin-ean-upc-barcodes",
+          "retrieved_at": "2026-10-04T05:24:50.320606+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Buy unique GTIN barcodes from a bulk supplier. GTINs are barcodes (also…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/get-gtin-ean-upc-barcodes"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

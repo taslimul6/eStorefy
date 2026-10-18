@@ -1,4 +1,3 @@
-import Footer from "@/components/shared/Footer";
 import {
   getAllAgencies,
   getAllCityAgencies,
@@ -7,7 +6,7 @@ import {
   serviceGroups,
 } from "@/lib/agencies";
 import { DirectoryProvider } from "./DirectoryContext";
-import DirectoryChrome from "./DirectoryChrome";
+import ListingRequest from "./ListingRequest";
 import DirectoryHero from "./DirectoryHero";
 import DirectoryProof from "./DirectoryProof";
 import ServiceTiles from "./ServiceTiles";
@@ -21,15 +20,24 @@ import HiringChecklist from "./HiringChecklist";
 import SavedBoard from "./SavedBoard";
 import DirectoryGuides from "./DirectoryGuides";
 import DirectoryFaq from "./DirectoryFaq";
-import CompareDock from "./CompareDock";
+import DirectoryTools from "./DirectoryTools";
 
 /** Server composition preserves crawlable content; only interactive islands hydrate. */
 export default function DirectoryPage({ agencies, city }) {
   const cards = agencies.map(toDirectoryCard);
-  const allCards = getAllCityAgencies().map(toDirectoryCard);
-  const cities = getCities().map(({ dataset, ...item }) => ({
-    ...item,
-    count: dataset.agencies.length,
+  const cities = getCities().map((item) => ({
+    id: item.id,
+    route: item.route,
+    name: item.name,
+    fullName: item.fullName,
+    country: item.country,
+    countryCode: item.countryCode,
+    count: item.dataset.agencies.length,
+    insights: item.insights,
+    locationNote: item.locationNote,
+    ...(city?.id === item.id
+      ? { content: item.content, description: item.description }
+      : {}),
   }));
   const citySummary = city ? cities.find((item) => item.id === city.id) : null;
   const spotlight = cards.find((agency) => agency.id === "blueswitch") || cards[0];
@@ -40,9 +48,9 @@ export default function DirectoryPage({ agencies, city }) {
         independent experts.
       </div>
       <DirectoryProvider>
-        <div className="wrap">
-          <DirectoryChrome />
-          <main>
+        <div className="page-group">
+          <ListingRequest />
+          <div>
             <DirectoryHero city={citySummary} spotlight={spotlight} />
             <DirectoryProof
               agencyCount={cards.length}
@@ -55,7 +63,7 @@ export default function DirectoryPage({ agencies, city }) {
               cities={city ? [citySummary] : cities}
               cityName={city?.name}
             />
-            <CityExplorer cities={cities} agencies={allCards} currentCity={citySummary} />
+            <CityExplorer cities={cities} currentCity={citySummary} />
             <ProjectCollections collections={citySummary?.content.collections} />
             <AgencySpotlight agency={spotlight} />
             <MoreAgencies
@@ -68,13 +76,11 @@ export default function DirectoryPage({ agencies, city }) {
                 storageKey={city?.id}
               />
             </section>
-            <SavedBoard agencies={allCards} />
+            <DirectoryTools agencies={cards} />
             <DirectoryGuides guides={citySummary?.content.guides} />
             <DirectoryFaq city={citySummary} count={cards.length} />
-          </main>
-          <Footer />
+          </div>
         </div>
-        <CompareDock agencies={allCards} />
       </DirectoryProvider>
     </div>
   );

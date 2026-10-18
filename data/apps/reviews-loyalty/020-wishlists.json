@@ -1,0 +1,2720 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "wishlists",
+    "number": 20,
+    "name": "Wishlists",
+    "group": "Reviews & Loyalty",
+    "slug": "wishlists",
+    "url_path": "/apps/wishlists",
+    "focus": "Collect customer feedback and support repeat purchasing.",
+    "description": "Compare Shopify apps for wishlists. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-wishlists/all"],
+    "seo": {
+      "title": "Shopify Wishlists Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for wishlists: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 10,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a wishlists app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "customer-accounts",
+      "name": "Froonze VIP Loyalty & Wishlist",
+      "slug": "customer-accounts",
+      "category_fit": {
+        "app_id": "customer-accounts",
+        "selection_score": 6.0463,
+        "rating_evidence": {"value": 5.0, "reviews": 274},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["wishlist"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/customer-accounts"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+        "description_long": "Froonze VIP Loyalty & Wishlist is developed by Froonze Limited and listed for loyalty and rewards, wishlists. Its structured listing identifies functions such as reward programs, memberships, vip tiers, affiliate programs. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards", "Wishlists"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards", "Wishlists"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 274,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/customer-accounts",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 270},
+          {"stars": 4, "percentage": 1, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free to install",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 10.0,
+            "billing_period": "month",
+            "price_display": "$10 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 30.0,
+            "billing_period": "month",
+            "price_display": "$30 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Unlimited",
+            "amount_usd": 60.0,
+            "billing_period": "month",
+            "price_display": "$60 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.froonze.com/pricing/",
+        "starting_paid_monthly_price_usd": 10.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "December 1, 2021",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          },
+          {
+            "name": "Wishlists",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-wishlists"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.affiliate_programs", "label": "Affiliate programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.program_types.wishlists", "label": "Wishlists"},
+          {"handle": "cf.loyalty_and_rewards.program_types.cash_back_programs", "label": "Cash back programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.digital_wallets", "label": "Digital wallets"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.cash_back", "label": "Cash back"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.store_credit", "label": "Store credit"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.commission", "label": "Commission"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.early_access", "label": "Early access"},
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.exclusive_access",
+            "label": "Exclusive access"
+          },
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.membership_perks",
+            "label": "Membership perks"
+          },
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"},
+          {"handle": "cf.wishlists.list_types.public_wishlist", "label": "Public wishlist"},
+          {"handle": "cf.wishlists.list_types.favorites", "label": "Favorites"},
+          {"handle": "cf.wishlists.list_types.save_for_later", "label": "Save for later"},
+          {"handle": "cf.wishlists.list_types.guest_wishlist", "label": "Guest wishlist"},
+          {"handle": "cf.wishlists.list_management.email_sharing", "label": "Email sharing"},
+          {"handle": "cf.wishlists.list_management.social_sharing", "label": "Social sharing"},
+          {"handle": "cf.wishlists.list_management.share_links", "label": "Share links"}
+        ],
+        "languages": ["English", " Spanish", " Portuguese (Brazil)", " French", " Italian", " and German"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Facebook Pixel",
+          "Google Analytics",
+          "Judge.me",
+          "Klaviyo",
+          "PushOwl"
+        ]
+      },
+      "developer": {
+        "name": "Froonze Limited",
+        "website_url": "https://www.froonze.com/",
+        "partner_url": "https://apps.shopify.com/partners/froonze-company",
+        "public_address": "Unit 2A, 17/F, Glenealy Tower, No.1 Glenealy Central, Hong Kong, HK, 0000, HK"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/customer-accounts",
+        "canonical_app_store_url": "https://apps.shopify.com/customer-accounts",
+        "install_url": "https://apps.shopify.com/customer-accounts",
+        "demo_store_url": "https://demo.froonze.com/account",
+        "resources": {
+          "Privacy policy": "https://www.froonze.com/privacy/",
+          "FAQ": "https://froonze.tawk.help/",
+          "Froonze Limited": "https://apps.shopify.com/partners/froonze-company",
+          "Website": "https://www.froonze.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/39667e1b914fcca4e73731f12966de2f/icon/CN_T2salmfQCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/39667e1b914fcca4e73731f12966de2f/promotional_image/CMCC3de_i5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/39667e1b914fcca4e73731f12966de2f/desktop_screenshot/CPztpJba5o0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/39667e1b914fcca4e73731f12966de2f/desktop_screenshot/CIqWi43Z5o0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/39667e1b914fcca4e73731f12966de2f/desktop_screenshot/CJ702PSsqJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/39667e1b914fcca4e73731f12966de2f/desktop_screenshot/CM_H4vSsqJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/39667e1b914fcca4e73731f12966de2f/desktop_screenshot/CJnd6_SsqJMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Froonze VIP Loyalty & Wishlist free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/customer-accounts"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  Portuguese (Brazil),  French,  Italian,  and German",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/customer-accounts"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Facebook Pixel, Google Analytics, Judge.me, Klaviyo, PushOwl",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/customer-accounts"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/customer-accounts"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://froonze.tawk.help/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards", "wishlists"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "Froonze VIP Loyalty & Wishlist Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/customer-accounts",
+          "retrieved_at": "2026-10-04T05:10:34.849647+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Create your own loyalty & rewards program to turn first-time customers into…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/customer-accounts"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "wishlist-by-square",
+      "name": "Wishlist by Square",
+      "slug": "wishlist-by-square",
+      "category_fit": {
+        "app_id": "wishlist-by-square",
+        "selection_score": 5.9645,
+        "rating_evidence": {"value": 5.0, "reviews": 126},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["wishlist", "wish list"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/wishlist-by-square"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for wishlists. Listed functions include favorites, save for later.",
+        "description_long": "Wishlist by Square is developed by Square Apps and listed for wishlists. Its structured listing identifies functions such as favorites, save for later, dashboard, add to cart. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wishlists"],
+        "best_for": {
+          "use_cases": ["Wishlists"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 126,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/wishlist-by-square",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 125},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 24, 2025",
+        "shopify_categories": [
+          {
+            "name": "Wishlists",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-wishlists"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.wishlists.list_types.favorites", "label": "Favorites"},
+          {"handle": "cf.wishlists.list_types.save_for_later", "label": "Save for later"},
+          {"handle": "cf.wishlists.list_management.dashboard", "label": "Dashboard"},
+          {"handle": "cf.wishlists.list_management.add_to_cart", "label": "Add to cart"},
+          {"handle": "cf.wishlists.list_management.conversion_analytics", "label": "Conversion analytics"},
+          {"handle": "cf.wishlists.customization.multi_language", "label": "Multi-language"}
+        ],
+        "languages": [
+          "Arabic",
+          " Danish",
+          " German",
+          " English",
+          " Spanish",
+          " Finnish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Portuguese (Brazil)",
+          " Romanian",
+          " Swedish",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "Square Apps",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/square-apps",
+        "public_address": "Beaverton, OR, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/wishlist-by-square",
+        "canonical_app_store_url": "https://apps.shopify.com/wishlist-by-square",
+        "install_url": "https://apps.shopify.com/wishlist-by-square",
+        "demo_store_url": "https://demostore-wishlist.myshopify.com/products/voltflux-retro-runners-chunky-street-sneakers-for-daily-motion",
+        "resources": {
+          "Privacy policy": "https://www.square-apps.com/privacy-policy",
+          "App Documentation": "https://help.square-apps.com/collection/506-wishlist",
+          "Square Apps": "https://apps.shopify.com/partners/square-apps"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/17967d7dfd249524bc089d97a9903fd5/icon/CJ_V0-CBsI4DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/17967d7dfd249524bc089d97a9903fd5/promotional_image/CKKu4ae1kY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17967d7dfd249524bc089d97a9903fd5/desktop_screenshot/CIPil5m47o0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17967d7dfd249524bc089d97a9903fd5/desktop_screenshot/CMiooZm47o0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17967d7dfd249524bc089d97a9903fd5/desktop_screenshot/CJ_Nqpm47o0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17967d7dfd249524bc089d97a9903fd5/desktop_screenshot/CPD3opGF9o0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17967d7dfd249524bc089d97a9903fd5/desktop_screenshot/CJO_rZGF9o0DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Wishlist by Square free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/wishlist-by-square"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "Arabic,  Danish,  German,  English,  Spanish,  Finnish,  French,  Italian,  Japanese,  Norwegian (Bokmål),  Dutch,  Portuguese (Brazil),  Romanian,  Swedish,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/wishlist-by-square"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/wishlist-by-square"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/wishlist-by-square"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.square-apps.com/collection/506-wishlist"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wishlists"],
+        "primary_category_id": "wishlists",
+        "seo": {
+          "title": "Wishlist by Square Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wishlists. Listed functions include favorites, save for later.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/wishlist-by-square",
+          "retrieved_at": "2026-10-04T05:10:41.454225+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Add a Wishlist to your store in seconds. Let customers save products,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/wishlist-by-square"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "wishlist-king",
+      "name": "Swish (Wishlist King)",
+      "slug": "wishlist-king",
+      "category_fit": {
+        "app_id": "wishlist-king",
+        "selection_score": 5.9574,
+        "rating_evidence": {"value": 4.9, "reviews": 289},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["wishlist"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/wishlist-king"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for wishlists. Listed functions include public wishlist, favorites.",
+        "description_long": "Swish (Wishlist King) is developed by Swish and listed for wishlists. Its structured listing identifies functions such as public wishlist, favorites, save for later, guest wishlist. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wishlists"],
+        "best_for": {
+          "use_cases": ["Wishlists"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 289,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/wishlist-king",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 280},
+          {"stars": 4, "percentage": 2, "count": 5},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Basic",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Shopify",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $290/year and save 17%"]
+          },
+          {
+            "name": "Advanced Shopify",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $490/year and save 17%"]
+          },
+          {
+            "name": "Shopify Plus",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $990/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://swish.app/pricing",
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "November 30, 2015",
+        "shopify_categories": [
+          {
+            "name": "Wishlists",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-wishlists"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.wishlists.list_types.public_wishlist", "label": "Public wishlist"},
+          {"handle": "cf.wishlists.list_types.favorites", "label": "Favorites"},
+          {"handle": "cf.wishlists.list_types.save_for_later", "label": "Save for later"},
+          {"handle": "cf.wishlists.list_types.guest_wishlist", "label": "Guest wishlist"},
+          {"handle": "cf.wishlists.list_management.email_sharing", "label": "Email sharing"},
+          {"handle": "cf.wishlists.list_management.social_sharing", "label": "Social sharing"},
+          {"handle": "cf.wishlists.list_management.share_links", "label": "Share links"},
+          {"handle": "cf.wishlists.list_management.dashboard", "label": "Dashboard"},
+          {"handle": "cf.wishlists.list_management.multiple_lists", "label": "Multiple lists"},
+          {"handle": "cf.wishlists.list_management.import_and_export", "label": "Import and export"},
+          {"handle": "cf.wishlists.list_management.add_to_cart", "label": "Add to cart"},
+          {"handle": "cf.wishlists.list_management.conversion_analytics", "label": "Conversion analytics"},
+          {"handle": "cf.wishlists.customization.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.wishlists.customization.custom_layout", "label": "Custom layouts"},
+          {"handle": "cf.wishlists.customization.custom_icons", "label": "Custom icons"},
+          {"handle": "cf.wishlists.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.wishlists.customization.email_templates", "label": "Email templates"},
+          {"handle": "cf.wishlists.customization.purchase_alerts", "label": "Purchase alerts"},
+          {"handle": "cf.wishlists.customization.price_alerts", "label": "Price alerts"},
+          {"handle": "cf.wishlists.customization.stock_alerts", "label": "Stock alerts"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Customer Accounts",
+          "Hydrogen",
+          "Klaviyo",
+          "Markets",
+          "Search + Recommendations",
+          "Tapcart"
+        ]
+      },
+      "developer": {
+        "name": "Swish",
+        "website_url": "https://swish.app/",
+        "partner_url": "https://apps.shopify.com/partners/appmate",
+        "public_address": "13 Adelaide Rd, Dublin, D, D02 P950, IE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/wishlist-king",
+        "canonical_app_store_url": "https://apps.shopify.com/wishlist-king",
+        "install_url": "https://apps.shopify.com/wishlist-king",
+        "demo_store_url": "https://demo.swish.app/",
+        "resources": {
+          "Privacy policy": "https://www.appmate.io/legal/privacy-policy",
+          "App Documentation": "https://docs.swish.app/",
+          "Swish": "https://apps.shopify.com/partners/appmate",
+          "Website": "https://swish.app/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/4d45c9492efce6b4965d75eb55be0252/icon/CNiSneKHvY0DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/4d45c9492efce6b4965d75eb55be0252/promotional_image/CLWUuKPbrYwDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d45c9492efce6b4965d75eb55be0252/desktop_screenshot/CJjk75O_i40DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d45c9492efce6b4965d75eb55be0252/desktop_screenshot/CJq3iObzsowDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d45c9492efce6b4965d75eb55be0252/desktop_screenshot/COPakubzsowDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d45c9492efce6b4965d75eb55be0252/desktop_screenshot/COXKo__zsowDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d45c9492efce6b4965d75eb55be0252/desktop_screenshot/CIqlytqHs4wDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d45c9492efce6b4965d75eb55be0252/desktop_screenshot/CI3au6z0sowDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d45c9492efce6b4965d75eb55be0252/mobile_screenshot/CNTlk-f0sowDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d45c9492efce6b4965d75eb55be0252/mobile_screenshot/CLaenef0sowDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d45c9492efce6b4965d75eb55be0252/mobile_screenshot/CIn7p-f0sowDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d45c9492efce6b4965d75eb55be0252/pos_screenshot/CJbV25X5sowDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Swish (Wishlist King) free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/wishlist-king"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/wishlist-king"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Customer Accounts, Hydrogen, Klaviyo, Markets, Search + Recommendations, Tapcart",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/wishlist-king"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/wishlist-king"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.swish.app/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wishlists"],
+        "primary_category_id": "wishlists",
+        "seo": {
+          "title": "Swish (Wishlist King) Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wishlists. Listed functions include public wishlist, favorites.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/wishlist-king",
+          "retrieved_at": "2026-10-04T05:10:34.842535+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Swish is the leading Wishlist solution for Shopify brands with ambition. Capture…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/wishlist-king"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "preorder-back-in-stock",
+      "name": "Notify Me! Back in Stock Alert",
+      "slug": "preorder-back-in-stock",
+      "category_fit": {
+        "app_id": "preorder-back-in-stock",
+        "selection_score": 5.9556,
+        "rating_evidence": {"value": 4.9, "reviews": 3865},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["wishlist", "wish list"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/preorder-back-in-stock"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for wishlists. Listed functions include back orders, out of stock.",
+        "description_long": "Notify Me! Back in Stock Alert is developed by Notify Me! and listed for pre-orders, stock alerts. Its structured listing identifies functions such as back orders, out of stock, product drops, pre-sales. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wishlists", "Back-in-stock Alerts"],
+        "best_for": {
+          "use_cases": ["Wishlists", "Back-in-stock Alerts"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 3865,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/preorder-back-in-stock",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 3},
+          {"stars": 4, "percentage": 2, "count": 65},
+          {"stars": 3, "percentage": 0, "count": 10},
+          {"stars": 2, "percentage": 0, "count": 11},
+          {"stars": 1, "percentage": 1, "count": 28}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Lite",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Kickstart",
+            "amount_usd": 9.9,
+            "billing_period": "month",
+            "price_display": "$9.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $95/year and save 20%",
+              "Exclusive plan for growth-stage shops - $0.20 per preorder above limit"
+            ]
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 19.9,
+            "billing_period": "month",
+            "price_display": "$19.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $191/year and save 20%", "SMS prices depend on country - $0.20 per preorder above limit"]
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 39.9,
+            "billing_period": "month",
+            "price_display": "$39.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $383/year and save 20%", "SMS prices depend on country - $0.15 per preorder above limit"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://notify-me.io/pricing/",
+        "starting_paid_monthly_price_usd": 9.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 19, 2020 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Pre-orders",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-pre-orders"
+          },
+          {
+            "name": "Stock alerts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-stock-alerts"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pre_orders.order_type.back_orders", "label": "Back orders"},
+          {"handle": "cf.pre_orders.order_type.out_of_stock", "label": "Out of stock"},
+          {"handle": "cf.pre_orders.order_type.product_drops", "label": "Product drops"},
+          {"handle": "cf.pre_orders.order_type.pre_sales", "label": "Pre-sales"},
+          {"handle": "cf.pre_orders.customization.button", "label": "Buttons"},
+          {"handle": "cf.pre_orders.customization.badges", "label": "Badges"},
+          {"handle": "cf.pre_orders.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.pre_orders.customization.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.pre_orders.customization.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.pre_orders.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.pre_orders.customization.order_limit", "label": "Order limits"},
+          {"handle": "cf.pre_orders.customization.availability_date", "label": "Availability date"},
+          {"handle": "cf.pre_orders.customization.variants", "label": "Variants"},
+          {"handle": "cf.pre_orders.payment_options.partial_payments", "label": "Partial payments"},
+          {"handle": "cf.pre_orders.payment_options.split_payments", "label": "Split payments"},
+          {"handle": "cf.pre_orders.payment_options.payment_schedules", "label": "Payment schedules"},
+          {"handle": "cf.pre_orders.payment_options.discounts", "label": "Discounts"},
+          {"handle": "cf.pre_orders.payment_options.mixed_cart", "label": "Mixed cart"},
+          {"handle": "cf.stock_alerts.notifications.auto_alerts", "label": "Auto-alerts"},
+          {"handle": "cf.stock_alerts.notifications.manual_alerts", "label": "Manual alerts"},
+          {"handle": "cf.stock_alerts.notifications.batch_send", "label": "Batch send"},
+          {"handle": "cf.stock_alerts.notifications.low_stock", "label": "Low stock"},
+          {"handle": "cf.stock_alerts.notifications.back_in_stock", "label": "Back in stock"},
+          {"handle": "cf.stock_alerts.notifications.pre_order", "label": "Pre-orders"},
+          {"handle": "cf.stock_alerts.notifications.multi_language", "label": "Multi-language"},
+          {"handle": "cf.stock_alerts.notifications.web_push", "label": "Web push"},
+          {"handle": "cf.stock_alerts.notifications.email", "label": "Email"},
+          {"handle": "cf.stock_alerts.notifications.sms", "label": "SMS"},
+          {"handle": "cf.stock_alerts.notifications.out_of_stock", "label": "Out of stock"},
+          {"handle": "cf.stock_alerts.notifications.custom_alerts", "label": "Custom alerts"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Dutch",
+          " Finnish",
+          " Japanese",
+          " Norwegian",
+          " Swedish",
+          " Turkish",
+          " and Chinese (Simplified)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Flow, Nosto, MCP",
+          "Klaviyo",
+          "Omnisend, MailChimp",
+          "PageFly",
+          "PushOwl",
+          "Sidekick"
+        ]
+      },
+      "developer": {
+        "name": "Notify Me!",
+        "website_url": "https://notify-me.io/",
+        "partner_url": "https://apps.shopify.com/partners/notify-me-app",
+        "public_address": "Richmond, BC, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/preorder-back-in-stock",
+        "canonical_app_store_url": "https://apps.shopify.com/preorder-back-in-stock",
+        "install_url": "https://apps.shopify.com/preorder-back-in-stock",
+        "demo_store_url": "https://demo.notify-me.io/",
+        "resources": {
+          "Privacy policy": "https://notify-me.io/privacy-policy/",
+          "FAQ": "https://help.notify-me.io/en/articles/8050453-notify-me-faqs",
+          "Tutorial": "https://youtu.be/Dnblf6c-TSc?si=JYZozW7nG3Iq0sdA",
+          "Notify Me!": "https://apps.shopify.com/partners/notify-me-app",
+          "Website": "https://notify-me.io/",
+          "Changelog": "https://notify-me.io/change-log"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9216cd5dd17ab1a38de2641bae109159/icon/CIXG7rjj4JUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9216cd5dd17ab1a38de2641bae109159/desktop_screenshot/CLiwks3NvJEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9216cd5dd17ab1a38de2641bae109159/desktop_screenshot/CPbgmYCYnpEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9216cd5dd17ab1a38de2641bae109159/desktop_screenshot/CL-QooCYnpEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9216cd5dd17ab1a38de2641bae109159/desktop_screenshot/CPr4qoCYnpEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9216cd5dd17ab1a38de2641bae109159/desktop_screenshot/CNyUs4CYnpEDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/Hj0B6Wp8e6E"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Notify Me! Back in Stock Alert free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/preorder-back-in-stock"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Italian,  Portuguese (Brazil),  Dutch,  Finnish,  Japanese,  Norwegian,  Swedish,  Turkish,  and Chinese (Simplified)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/preorder-back-in-stock"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Flow, Nosto, MCP, Klaviyo, Omnisend, MailChimp, PageFly, PushOwl, Sidekick",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/preorder-back-in-stock"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/preorder-back-in-stock"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.notify-me.io/en/articles/8050453-notify-me-faqs",
+            "https://youtu.be/Dnblf6c-TSc?si=JYZozW7nG3Iq0sdA"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wishlists", "back-in-stock-alerts"],
+        "primary_category_id": "wishlists",
+        "seo": {
+          "title": "Notify Me! Back in Stock Alert Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wishlists. Listed functions include back orders, out of stock.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/preorder-back-in-stock",
+          "retrieved_at": "2026-10-04T05:18:39.995509+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Download the official Notify Me!™ app on Shopify. Shopify stores love our…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/preorder-back-in-stock"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "growave",
+      "name": "Growave: Loyalty & Wishlist",
+      "slug": "growave",
+      "category_fit": {
+        "app_id": "growave",
+        "selection_score": 5.9537,
+        "rating_evidence": {"value": 4.8, "reviews": 1295},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["wishlist"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/growave"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for referral programs. Listed functions include reward programs, memberships.",
+        "description_long": "Growave: Loyalty & Wishlist is developed by Growave and listed for loyalty and rewards, wishlists. Its structured listing identifies functions such as reward programs, memberships, vip tiers, affiliate programs. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Referral Programs", "Wishlists"],
+        "best_for": {
+          "use_cases": ["Referral Programs", "Wishlists"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 1295,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/growave",
+        "distribution": [
+          {"stars": 5, "percentage": 93, "count": 1},
+          {"stars": 4, "percentage": 3, "count": 36},
+          {"stars": 3, "percentage": 1, "count": 8},
+          {"stars": 2, "percentage": 1, "count": 12},
+          {"stars": 1, "percentage": 2, "count": 30}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "100% FREE FOREVER",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "ENTRY",
+            "amount_usd": 15.0,
+            "billing_period": "month",
+            "price_display": "$15 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Includes 500 monthly orders. $20 for every 100 additional orders"]
+          },
+          {
+            "name": "GROWTH",
+            "amount_usd": 199.0,
+            "billing_period": "month",
+            "price_display": "$199 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Includes 1500 monthly orders. $15 for every 100 additional orders"]
+          },
+          {
+            "name": "PLUS",
+            "amount_usd": 499.0,
+            "billing_period": "month",
+            "price_display": "$499 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Includes 3000 monthly orders. $10 for every 100 additional orders"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.growave.io/pricing?utm_source=app%20listing&utm_medium=pricing&utm_campaign=english",
+        "starting_paid_monthly_price_usd": 15.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "July 14, 2014 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          },
+          {
+            "name": "Wishlists",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-wishlists"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.affiliate_programs", "label": "Affiliate programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.program_types.wishlists", "label": "Wishlists"},
+          {
+            "handle": "cf.loyalty_and_rewards.program_types.stamp_or_punch_cards",
+            "label": "Stamp or punch cards"
+          },
+          {"handle": "cf.loyalty_and_rewards.program_types.gift_card_programs", "label": "Gift card programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.cash_back_programs", "label": "Cash back programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.digital_wallets", "label": "Digital wallets"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gifts", "label": "Gifts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gift_cards", "label": "Gift cards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.cash_back", "label": "Cash back"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.store_credit", "label": "Store credit"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.early_access", "label": "Early access"},
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.membership_perks",
+            "label": "Membership perks"
+          },
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.badges", "label": "Badges"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.donations", "label": "Donations"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"},
+          {"handle": "cf.wishlists.list_types.custom_registry", "label": "Custom registry"},
+          {"handle": "cf.wishlists.list_types.gift_registry", "label": "Gift registry"},
+          {"handle": "cf.wishlists.list_types.in_store_registry", "label": "In-store registry"},
+          {"handle": "cf.wishlists.list_types.online_registry", "label": "Online registry"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Japanese",
+          " Portuguese (Brazil)",
+          " German",
+          " Italian",
+          " Spanish",
+          " Hindi",
+          " Indonesian",
+          " Malay",
+          " Korean",
+          " Dutch",
+          " Turkish",
+          " Vietnamese",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "GemPages - Shopney",
+          "Gorgias - Attentive",
+          "Klaviyo - Omnisend",
+          "Pagefly - LayoutHub",
+          "Postscript - Recharge",
+          "TikTok Shop - PushOwl"
+        ]
+      },
+      "developer": {
+        "name": "Growave",
+        "website_url": "https://www.growave.io/?utm_source=app%20listing&utm_medium=dev%20website&utm_campaign=english",
+        "partner_url": "https://apps.shopify.com/partners/growave-io",
+        "public_address": "8 The Green, STE R, Dover, DE, 19901, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/growave",
+        "canonical_app_store_url": "https://apps.shopify.com/growave",
+        "install_url": "https://apps.shopify.com/growave",
+        "demo_store_url": "https://www.growave.io/customers/inspiration",
+        "resources": {
+          "Privacy policy": "https://www.growave.io/legal/privacy-app",
+          "FAQ": "https://help.growave.io/article/474-growave-faq",
+          "Tutorial": "https://help.growave.io/article/141-getting-started-with-growave",
+          "App Documentation": "https://api.growave.io/v2/docs",
+          "Growave": "https://apps.shopify.com/partners/growave-io",
+          "Website": "https://www.growave.io/",
+          "Changelog": "https://www.growave.io/editions/summer2026"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/59da3ad107e08fd5430db47cc4e0a75c/icon/CP6GuOOMn4sDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/59da3ad107e08fd5430db47cc4e0a75c/promotional_image/CNSm_fmQkJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59da3ad107e08fd5430db47cc4e0a75c/desktop_screenshot/CNCa14XX05QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59da3ad107e08fd5430db47cc4e0a75c/desktop_screenshot/COiY6qXX05QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59da3ad107e08fd5430db47cc4e0a75c/desktop_screenshot/CK3WnKDTlJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59da3ad107e08fd5430db47cc4e0a75c/desktop_screenshot/CInmovrX05QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59da3ad107e08fd5430db47cc4e0a75c/desktop_screenshot/CKeWq_rX05QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59da3ad107e08fd5430db47cc4e0a75c/desktop_screenshot/CKuimLK6uJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59da3ad107e08fd5430db47cc4e0a75c/mobile_screenshot/CMXBqfexwpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59da3ad107e08fd5430db47cc4e0a75c/mobile_screenshot/CKet7OeW7ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59da3ad107e08fd5430db47cc4e0a75c/mobile_screenshot/CJyWuNOHzJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59da3ad107e08fd5430db47cc4e0a75c/mobile_screenshot/CN2gmce3x5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59da3ad107e08fd5430db47cc4e0a75c/pos_screenshot/CM-A1qb3y5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59da3ad107e08fd5430db47cc4e0a75c/pos_screenshot/CKeMudv1y5QDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Growave: Loyalty & Wishlist free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/growave"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Japanese,  Portuguese (Brazil),  German,  Italian,  Spanish,  Hindi,  Indonesian,  Malay,  Korean,  Dutch,  Turkish,  Vietnamese,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/growave"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, GemPages - Shopney, Gorgias - Attentive, Klaviyo - Omnisend, Pagefly - LayoutHub, Postscript - Recharge, TikTok Shop - PushOwl",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/growave"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/growave"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.growave.io/article/474-growave-faq",
+            "https://help.growave.io/article/141-getting-started-with-growave",
+            "https://api.growave.io/v2/docs"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["referral-programs", "wishlists"],
+        "primary_category_id": "referral-programs",
+        "seo": {
+          "title": "Growave: Loyalty & Wishlist Shopify App | eStorefy",
+          "meta_description": "A Shopify app for referral programs. Listed functions include reward programs, memberships.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/growave",
+          "retrieved_at": "2026-10-04T05:10:27.915711+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "We're experts in providing loyalty programs, referrals, wishlists, and product reviews to…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/growave"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "my-wishlist-share-remind",
+      "name": "Hulk AI Wishlist & Favorites",
+      "slug": "my-wishlist-share-remind",
+      "category_fit": {
+        "app_id": "my-wishlist-share-remind",
+        "selection_score": 5.8907,
+        "rating_evidence": {"value": 4.9, "reviews": 141},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["wishlist"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/my-wishlist-share-remind"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for wishlists. Listed functions include public wishlist, favorites.",
+        "description_long": "Hulk AI Wishlist & Favorites is developed by HulkApps and listed for wishlists, stock alerts. Its structured listing identifies functions such as public wishlist, favorites, save for later, guest wishlist. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wishlists", "Product Recommendations"],
+        "best_for": {
+          "use_cases": ["Wishlists", "Product Recommendations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 141,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/my-wishlist-share-remind",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 130},
+          {"stars": 4, "percentage": 4, "count": 6},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 1, "count": 2},
+          {"stars": 1, "percentage": 1, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "GROWTH",
+            "amount_usd": 9.9,
+            "billing_period": "month",
+            "price_display": "$9.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $99.99/year and save 16%"]
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 24.9,
+            "billing_period": "month",
+            "price_display": "$24.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $258.99/year and save 13%"]
+          },
+          {
+            "name": "SCALE",
+            "amount_usd": 49.9,
+            "billing_period": "month",
+            "price_display": "$49.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $499.90/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.hulkapps.com/products/advanced-wishlist-app?utm_source=appstore&utm_medium=applisting&utm_campaign=pricinglist",
+        "starting_paid_monthly_price_usd": 9.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 15, 2020 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Wishlists",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-wishlists"
+          },
+          {
+            "name": "Stock alerts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-stock-alerts"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.wishlists.list_types.public_wishlist", "label": "Public wishlist"},
+          {"handle": "cf.wishlists.list_types.favorites", "label": "Favorites"},
+          {"handle": "cf.wishlists.list_types.save_for_later", "label": "Save for later"},
+          {"handle": "cf.wishlists.list_types.guest_wishlist", "label": "Guest wishlist"},
+          {"handle": "cf.wishlists.list_management.email_sharing", "label": "Email sharing"},
+          {"handle": "cf.wishlists.list_management.social_sharing", "label": "Social sharing"},
+          {"handle": "cf.wishlists.list_management.share_links", "label": "Share links"},
+          {"handle": "cf.wishlists.list_management.dashboard", "label": "Dashboard"},
+          {"handle": "cf.wishlists.list_management.multiple_lists", "label": "Multiple lists"},
+          {"handle": "cf.wishlists.list_management.import_and_export", "label": "Import and export"},
+          {"handle": "cf.wishlists.list_management.add_to_cart", "label": "Add to cart"},
+          {"handle": "cf.wishlists.list_management.conversion_analytics", "label": "Conversion analytics"},
+          {"handle": "cf.wishlists.customization.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.wishlists.customization.custom_layout", "label": "Custom layouts"},
+          {"handle": "cf.wishlists.customization.custom_icons", "label": "Custom icons"},
+          {"handle": "cf.wishlists.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.wishlists.customization.email_templates", "label": "Email templates"},
+          {"handle": "cf.wishlists.customization.price_alerts", "label": "Price alerts"},
+          {"handle": "cf.wishlists.customization.stock_alerts", "label": "Stock alerts"},
+          {"handle": "cf.stock_alerts.notifications.auto_alerts", "label": "Auto-alerts"},
+          {"handle": "cf.stock_alerts.notifications.low_stock", "label": "Low stock"},
+          {"handle": "cf.stock_alerts.notifications.back_in_stock", "label": "Back in stock"},
+          {"handle": "cf.stock_alerts.notifications.multi_language", "label": "Multi-language"},
+          {"handle": "cf.stock_alerts.notifications.email", "label": "Email"},
+          {"handle": "cf.stock_alerts.notifications.out_of_stock", "label": "Out of stock"},
+          {"handle": "cf.stock_alerts.notifications.price_drop", "label": "Price drop"},
+          {"handle": "cf.stock_alerts.customization.alert_settings", "label": "Alert settings"},
+          {
+            "handle": "cf.stock_alerts.customization.notification_templates",
+            "label": "Notification templates"
+          },
+          {"handle": "cf.stock_alerts.customization.waitlists", "label": "Waitlists"},
+          {"handle": "cf.stock_alerts.analytics_and_reporting.customer_demand", "label": "Customer demand"}
+        ],
+        "languages": [
+          "English",
+          " Czech",
+          " Danish",
+          " German",
+          " Spanish",
+          " Finnish",
+          " French",
+          " Japanese",
+          " Italian",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Currency Converter Bear",
+          "Hulk Mobile App Builder",
+          "Klaviyo, Zapier, Google Sheets",
+          "Markets, POS, Flow",
+          "Wholesale Pricing Discount B2B",
+          "Zapier, Pagefly, Search Filter"
+        ]
+      },
+      "developer": {
+        "name": "HulkApps",
+        "website_url": "https://www.hulkapps.com/?utm_source=appstore&utm_medium=listing&utm_campaign=websiteURL",
+        "partner_url": "https://apps.shopify.com/partners/hulk-code",
+        "public_address": "1 Kingdom Street, Paddington Central, London, ENG, W2 6BD, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/my-wishlist-share-remind",
+        "canonical_app_store_url": "https://apps.shopify.com/my-wishlist-share-remind",
+        "install_url": "https://apps.shopify.com/my-wishlist-share-remind",
+        "demo_store_url": "https://wishlists.hulkapps.store",
+        "resources": {
+          "Privacy policy": "https://www.hulkapps.com/pages/privacy-policy/",
+          "FAQ": "https://support.hulkthemes.com/support/solutions/folders/19000177983",
+          "Tutorial": "https://support.hulkthemes.com/support/solutions/folders/19000177981",
+          "App Documentation": "https://support.hulkthemes.com/support/solutions/19000106468",
+          "HulkApps": "https://apps.shopify.com/partners/hulk-code",
+          "Website": "https://www.hulkapps.com/",
+          "Changelog": "https://support.hulkthemes.com/en/support/solutions/articles/19000171626-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/25792e54b72a0e029bf14e8b2806a85f/icon/CIGzjf_Bkv4CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/25792e54b72a0e029bf14e8b2806a85f/desktop_screenshot/COLehczY8pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/25792e54b72a0e029bf14e8b2806a85f/desktop_screenshot/CLnO4d_LgZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/25792e54b72a0e029bf14e8b2806a85f/desktop_screenshot/CN_v7N_LgZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/25792e54b72a0e029bf14e8b2806a85f/desktop_screenshot/CKDk99_LgZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/25792e54b72a0e029bf14e8b2806a85f/desktop_screenshot/CIH3geDLgZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/25792e54b72a0e029bf14e8b2806a85f/desktop_screenshot/CNz2i-DLgZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/25792e54b72a0e029bf14e8b2806a85f/mobile_screenshot/CPqjl-DLgZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/25792e54b72a0e029bf14e8b2806a85f/mobile_screenshot/CNmMoeDLgZcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/Zb-4UZAdTyA"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Hulk AI Wishlist & Favorites free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/my-wishlist-share-remind"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Czech,  Danish,  German,  Spanish,  Finnish,  French,  Japanese,  Italian,  Korean,  Norwegian (Bokmål),  Dutch,  Polish,  Portuguese (Brazil),  Portuguese (Portugal),  Swedish,  Thai,  Turkish,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/my-wishlist-share-remind"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Currency Converter Bear, Hulk Mobile App Builder, Klaviyo, Zapier, Google Sheets, Markets, POS, Flow, Wholesale Pricing Discount B2B, Zapier, Pagefly, Search Filter",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/my-wishlist-share-remind"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/my-wishlist-share-remind"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://support.hulkthemes.com/support/solutions/folders/19000177983",
+            "https://support.hulkthemes.com/support/solutions/folders/19000177981",
+            "https://support.hulkthemes.com/support/solutions/19000106468"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wishlists", "product-recommendations"],
+        "primary_category_id": "wishlists",
+        "seo": {
+          "title": "Hulk AI Wishlist & Favorites Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wishlists. Listed functions include public wishlist, favorites.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/my-wishlist-share-remind",
+          "retrieved_at": "2026-10-04T05:10:49.716891+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Save time with one-click setup customizable wishlist page to share wishlists on…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/my-wishlist-share-remind"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "back-in-stock",
+      "name": "Amp Back in Stock & Preorder +",
+      "slug": "back-in-stock",
+      "category_fit": {
+        "app_id": "back-in-stock",
+        "selection_score": 5.8857,
+        "rating_evidence": {"value": 4.9, "reviews": 954},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["wishlist"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/back-in-stock"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for wishlists. Listed functions include auto-alerts, back in stock.",
+        "description_long": "Amp Back in Stock & Preorder + is developed by HEL SG PTE LTD and listed for stock alerts, pre-orders. Its structured listing identifies functions such as auto-alerts, back in stock, pre-orders, web push. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wishlists", "Pre-orders", "Back-in-stock Alerts"],
+        "best_for": {
+          "use_cases": ["Wishlists", "Pre-orders", "Back-in-stock Alerts"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 954,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/back-in-stock",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 882},
+          {"stars": 4, "percentage": 4, "count": 40},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 1, "count": 7},
+          {"stars": 1, "percentage": 2, "count": 22}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://backinstock.org/pricing",
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 18, 2011",
+        "shopify_categories": [
+          {
+            "name": "Stock alerts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-stock-alerts"
+          },
+          {
+            "name": "Pre-orders",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-pre-orders"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.stock_alerts.notifications.auto_alerts", "label": "Auto-alerts"},
+          {"handle": "cf.stock_alerts.notifications.back_in_stock", "label": "Back in stock"},
+          {"handle": "cf.stock_alerts.notifications.pre_order", "label": "Pre-orders"},
+          {"handle": "cf.stock_alerts.notifications.web_push", "label": "Web push"},
+          {"handle": "cf.stock_alerts.notifications.email", "label": "Email"},
+          {"handle": "cf.stock_alerts.notifications.sms", "label": "SMS"},
+          {"handle": "cf.stock_alerts.notifications.out_of_stock", "label": "Out of stock"},
+          {"handle": "cf.stock_alerts.customization.alert_settings", "label": "Alert settings"},
+          {
+            "handle": "cf.stock_alerts.customization.notification_templates",
+            "label": "Notification templates"
+          },
+          {"handle": "cf.stock_alerts.customization.notification_button", "label": "Notification button"},
+          {"handle": "cf.stock_alerts.customization.waitlists", "label": "Waitlists"},
+          {"handle": "cf.stock_alerts.analytics_and_reporting.customer_demand", "label": "Customer demand"},
+          {
+            "handle": "cf.stock_alerts.analytics_and_reporting.performance_reports",
+            "label": "Performance reports"
+          },
+          {
+            "handle": "cf.stock_alerts.analytics_and_reporting.inventory_tracking",
+            "label": "Inventory tracking"
+          },
+          {"handle": "cf.pre_orders.order_type.coming_soon", "label": "Coming soon"},
+          {"handle": "cf.pre_orders.order_type.back_orders", "label": "Back orders"},
+          {"handle": "cf.pre_orders.order_type.out_of_stock", "label": "Out of stock"},
+          {"handle": "cf.pre_orders.order_type.product_drops", "label": "Product drops"},
+          {"handle": "cf.pre_orders.order_type.pre_sales", "label": "Pre-sales"},
+          {"handle": "cf.pre_orders.customization.button", "label": "Buttons"},
+          {"handle": "cf.pre_orders.customization.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.pre_orders.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.pre_orders.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.pre_orders.payment_options.partial_payments", "label": "Partial payments"},
+          {"handle": "cf.pre_orders.payment_options.discounts", "label": "Discounts"},
+          {"handle": "cf.pre_orders.payment_options.manual_payment", "label": "Manual payment"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Flow", "Shopify Admin", "Flow", "Klaviyo", "MailChimp", "Zapier"]
+      },
+      "developer": {
+        "name": "HEL SG PTE LTD",
+        "website_url": "https://useamp.com/products/back-in-stock",
+        "partner_url": "https://apps.shopify.com/partners/yellow-robot",
+        "public_address": "202A SOUTH BRIDGE ROAD, Singapore, 058751, SG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/back-in-stock",
+        "canonical_app_store_url": "https://apps.shopify.com/back-in-stock",
+        "install_url": "https://apps.shopify.com/back-in-stock",
+        "demo_store_url": "https://back-in-stock-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://useamp.com/legal#privacy-policy",
+          "FAQ": "https://help.useamp.com/",
+          "Tutorial": "https://help.useamp.com/category/706-getting-started",
+          "HEL SG PTE LTD": "https://apps.shopify.com/partners/yellow-robot",
+          "Website": "https://useamp.com/products/back-in-stock"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/08346a36a0a313120feec14003bedbc3/icon/CJbKmrvYgYwDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/08346a36a0a313120feec14003bedbc3/promotional_image/CKD4zYq5rpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/08346a36a0a313120feec14003bedbc3/desktop_screenshot/CPSJ2Iq5rpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/08346a36a0a313120feec14003bedbc3/desktop_screenshot/COXN4oq5rpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/08346a36a0a313120feec14003bedbc3/desktop_screenshot/CIO57Iq5rpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/08346a36a0a313120feec14003bedbc3/desktop_screenshot/CMPH9oq5rpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/08346a36a0a313120feec14003bedbc3/desktop_screenshot/COCRgYu5rpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/08346a36a0a313120feec14003bedbc3/desktop_screenshot/CLTIiou5rpYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Amp Back in Stock & Preorder + free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/back-in-stock"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/back-in-stock"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Flow, Shopify Admin, Flow, Klaviyo, MailChimp, Zapier",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/back-in-stock"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/back-in-stock"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.useamp.com/", "https://help.useamp.com/category/706-getting-started"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wishlists", "pre-orders", "back-in-stock-alerts"],
+        "primary_category_id": "wishlists",
+        "seo": {
+          "title": "Amp Back in Stock & Preorder + Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wishlists. Listed functions include auto-alerts, back in stock.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/back-in-stock",
+          "retrieved_at": "2026-10-04T05:18:40.058988+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Turn out-of-stock moments into waitlists. Auto-send restock alerts via email, SMS &…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/back-in-stock"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "swym-relay",
+      "name": "Swym Wishlist Plus",
+      "slug": "swym-relay",
+      "category_fit": {
+        "app_id": "swym-relay",
+        "selection_score": 5.8618,
+        "rating_evidence": {"value": 4.7, "reviews": 1481},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["wishlist"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/swym-relay"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for wishlists. Listed functions include custom registry, gift registry.",
+        "description_long": "Swym Wishlist Plus is developed by Swym Corporation and listed for wishlists, selling in person - other. Its structured listing identifies functions such as custom registry, gift registry, in-store registry, online registry. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wishlists"],
+        "best_for": {
+          "use_cases": ["Wishlists"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.7,
+        "review_count": 1481,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/swym-relay",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 1},
+          {"stars": 4, "percentage": 4, "count": 61},
+          {"stars": 3, "percentage": 1, "count": 9},
+          {"stars": 2, "percentage": 1, "count": 8},
+          {"stars": 1, "percentage": 3, "count": 42}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $29.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $299.99/year and save 17%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 59.99,
+            "billing_period": "month",
+            "price_display": "$59.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $599.99/year and save 17%"]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 99.99,
+            "billing_period": "month",
+            "price_display": "$99.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $999.99/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://swym.it/pricing/",
+        "starting_paid_monthly_price_usd": 29.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "July 29, 2016",
+        "shopify_categories": [
+          {
+            "name": "Wishlists",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-wishlists"
+          },
+          {
+            "name": "Selling in person - Other",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-in-person-selling-in-person-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.wishlists.list_types.custom_registry", "label": "Custom registry"},
+          {"handle": "cf.wishlists.list_types.gift_registry", "label": "Gift registry"},
+          {"handle": "cf.wishlists.list_types.in_store_registry", "label": "In-store registry"},
+          {"handle": "cf.wishlists.list_types.online_registry", "label": "Online registry"},
+          {"handle": "cf.wishlists.list_types.public_wishlist", "label": "Public wishlist"},
+          {"handle": "cf.wishlists.list_types.favorites", "label": "Favorites"},
+          {"handle": "cf.wishlists.list_types.save_for_later", "label": "Save for later"},
+          {"handle": "cf.wishlists.list_types.guest_wishlist", "label": "Guest wishlist"},
+          {"handle": "cf.wishlists.list_management.email_sharing", "label": "Email sharing"},
+          {"handle": "cf.wishlists.list_management.social_sharing", "label": "Social sharing"},
+          {"handle": "cf.wishlists.list_management.share_links", "label": "Share links"},
+          {"handle": "cf.wishlists.list_management.dashboard", "label": "Dashboard"},
+          {"handle": "cf.wishlists.list_management.multiple_lists", "label": "Multiple lists"},
+          {"handle": "cf.wishlists.list_management.import_and_export", "label": "Import and export"},
+          {"handle": "cf.wishlists.list_management.add_to_cart", "label": "Add to cart"},
+          {"handle": "cf.wishlists.list_management.conversion_analytics", "label": "Conversion analytics"},
+          {"handle": "cf.wishlists.customization.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.wishlists.customization.custom_layout", "label": "Custom layouts"},
+          {"handle": "cf.wishlists.customization.custom_icons", "label": "Custom icons"},
+          {"handle": "cf.wishlists.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.wishlists.customization.email_templates", "label": "Email templates"},
+          {"handle": "cf.wishlists.customization.purchase_alerts", "label": "Purchase alerts"},
+          {"handle": "cf.wishlists.customization.price_alerts", "label": "Price alerts"},
+          {"handle": "cf.wishlists.customization.stock_alerts", "label": "Stock alerts"}
+        ],
+        "languages": ["English", " German", " French", " Italian", " Spanish", " Japanese", " and Polish"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "BlueCore-Bloomreach-Ometria",
+          "Klaviyo - Yotpo - Mailchimp",
+          "Listrak - ReSci - DotDigital",
+          "Postscript-Attentive-Twillio",
+          "Sailthru-Omnisend-Hubspot",
+          "Tapcart - Stikky - PageFly"
+        ]
+      },
+      "developer": {
+        "name": "Swym Corporation",
+        "website_url": "http://getswym.com",
+        "partner_url": "https://apps.shopify.com/partners/developer-ca6a967f09890f68",
+        "public_address": "Seattle, WA, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/swym-relay",
+        "canonical_app_store_url": "https://apps.shopify.com/swym-relay",
+        "install_url": "https://apps.shopify.com/swym-relay",
+        "demo_store_url": "https://wishlistdemo.getswym.com",
+        "resources": {
+          "Privacy policy": "https://www.getswym.com/terms-policies/swym-privacy-policy",
+          "FAQ": "https://help.getswym.com/",
+          "App Documentation": "https://developers.getswym.com",
+          "Swym Corporation": "https://apps.shopify.com/partners/developer-ca6a967f09890f68",
+          "Website": "http://getswym.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/d612f58ce0decfaba38849af3396fb5b/icon/CKKXmdzFx_MCEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/d612f58ce0decfaba38849af3396fb5b/desktop_screenshot/CPHM18C_8IsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d612f58ce0decfaba38849af3396fb5b/desktop_screenshot/CJnS4cC_8IsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d612f58ce0decfaba38849af3396fb5b/desktop_screenshot/CIuy68C_8IsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d612f58ce0decfaba38849af3396fb5b/desktop_screenshot/CJqk9cC_8IsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d612f58ce0decfaba38849af3396fb5b/desktop_screenshot/CLec_8C_8IsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d612f58ce0decfaba38849af3396fb5b/desktop_screenshot/CMmc1ITog5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d612f58ce0decfaba38849af3396fb5b/pos_screenshot/CPyuzIyr-ZADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/3C2o99OoHVA"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Swym Wishlist Plus free?",
+            "answer": "The pricing label retrieved from the listing is: From $29.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/swym-relay"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Italian,  Spanish,  Japanese,  and Polish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/swym-relay"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, BlueCore-Bloomreach-Ometria, Klaviyo - Yotpo - Mailchimp, Listrak - ReSci - DotDigital, Postscript-Attentive-Twillio, Sailthru-Omnisend-Hubspot, Tapcart - Stikky - PageFly",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/swym-relay"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/swym-relay"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.getswym.com/", "https://developers.getswym.com"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wishlists"],
+        "primary_category_id": "wishlists",
+        "seo": {
+          "title": "Swym Wishlist Plus Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wishlists. Listed functions include custom registry, gift registry.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/swym-relay",
+          "retrieved_at": "2026-10-04T05:10:34.799237+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Enables customers to bookmark their favorite products and pick up where they…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/swym-relay"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "wishlist-engine",
+      "name": "SE Wishlist Engine",
+      "slug": "wishlist-engine",
+      "category_fit": {
+        "app_id": "wishlist-engine",
+        "selection_score": 5.8607,
+        "rating_evidence": {"value": 4.8, "reviews": 277},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["wishlist"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/wishlist-engine"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for wishlists. Listed functions include in-store registry, online registry.",
+        "description_long": "SE Wishlist Engine is developed by Script Engine and listed for wishlists, stock alerts. Its structured listing identifies functions such as in-store registry, online registry, public wishlist, favorites. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wishlists"],
+        "best_for": {
+          "use_cases": ["Wishlists"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 277,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/wishlist-engine",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 264},
+          {"stars": 4, "percentage": 4, "count": 10},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic Plan",
+            "amount_usd": 7.99,
+            "billing_period": "month",
+            "price_display": "$7.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $79.99/year and save 17%"]
+          },
+          {
+            "name": "Advanced Plan",
+            "amount_usd": 14.99,
+            "billing_period": "month",
+            "price_display": "$14.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $149.99/year and save 17%"]
+          },
+          {
+            "name": "Premium Plan",
+            "amount_usd": 21.99,
+            "billing_period": "month",
+            "price_display": "$21.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $219.99/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 7.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 18, 2022",
+        "shopify_categories": [
+          {
+            "name": "Wishlists",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-wishlists"
+          },
+          {
+            "name": "Stock alerts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-stock-alerts"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.wishlists.list_types.in_store_registry", "label": "In-store registry"},
+          {"handle": "cf.wishlists.list_types.online_registry", "label": "Online registry"},
+          {"handle": "cf.wishlists.list_types.public_wishlist", "label": "Public wishlist"},
+          {"handle": "cf.wishlists.list_types.favorites", "label": "Favorites"},
+          {"handle": "cf.wishlists.list_types.save_for_later", "label": "Save for later"},
+          {"handle": "cf.wishlists.list_types.guest_wishlist", "label": "Guest wishlist"},
+          {"handle": "cf.wishlists.list_management.email_sharing", "label": "Email sharing"},
+          {"handle": "cf.wishlists.list_management.social_sharing", "label": "Social sharing"},
+          {"handle": "cf.wishlists.list_management.share_links", "label": "Share links"},
+          {"handle": "cf.wishlists.list_management.dashboard", "label": "Dashboard"},
+          {"handle": "cf.wishlists.list_management.import_and_export", "label": "Import and export"},
+          {"handle": "cf.wishlists.list_management.add_to_cart", "label": "Add to cart"},
+          {"handle": "cf.wishlists.list_management.conversion_analytics", "label": "Conversion analytics"},
+          {"handle": "cf.wishlists.customization.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.wishlists.customization.custom_icons", "label": "Custom icons"},
+          {"handle": "cf.wishlists.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.wishlists.customization.email_templates", "label": "Email templates"},
+          {"handle": "cf.wishlists.customization.purchase_alerts", "label": "Purchase alerts"},
+          {"handle": "cf.wishlists.customization.price_alerts", "label": "Price alerts"},
+          {"handle": "cf.wishlists.customization.stock_alerts", "label": "Stock alerts"},
+          {"handle": "cf.stock_alerts.notifications.auto_alerts", "label": "Auto-alerts"},
+          {"handle": "cf.stock_alerts.notifications.low_stock", "label": "Low stock"},
+          {"handle": "cf.stock_alerts.notifications.back_in_stock", "label": "Back in stock"},
+          {"handle": "cf.stock_alerts.notifications.multi_language", "label": "Multi-language"},
+          {"handle": "cf.stock_alerts.notifications.email", "label": "Email"},
+          {"handle": "cf.stock_alerts.notifications.out_of_stock", "label": "Out of stock"},
+          {"handle": "cf.stock_alerts.notifications.price_drop", "label": "Price drop"},
+          {"handle": "cf.stock_alerts.customization.alert_settings", "label": "Alert settings"},
+          {
+            "handle": "cf.stock_alerts.customization.notification_templates",
+            "label": "Notification templates"
+          },
+          {"handle": "cf.stock_alerts.customization.waitlists", "label": "Waitlists"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Customer accounts", "Shopify Flow", "Shopify Admin", "Klaviyo", "PageFly"]
+      },
+      "developer": {
+        "name": "Script Engine",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/script-engine",
+        "public_address": "G-65 Shree Krishna Ac Mall, Dindoli, Surat, GJ, 395010, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/wishlist-engine",
+        "canonical_app_store_url": "https://apps.shopify.com/wishlist-engine",
+        "install_url": "https://apps.shopify.com/wishlist-engine",
+        "demo_store_url": "https://wishlist-engine.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://scriptengine.net/pages/privacy-policy",
+          "App Documentation": "https://scriptengine.helpscoutdocs.com/collection/1-wishlist-engine",
+          "Script Engine": "https://apps.shopify.com/partners/script-engine"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/987a9e2ba434637682021cb1219893e0/icon/CKP_rcWbkPsCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/987a9e2ba434637682021cb1219893e0/promotional_image/CKfL8oWbkvoCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/987a9e2ba434637682021cb1219893e0/desktop_screenshot/CPiPuu-vxPkCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/987a9e2ba434637682021cb1219893e0/desktop_screenshot/COvExu-vxPkCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/987a9e2ba434637682021cb1219893e0/desktop_screenshot/CK2M0u-vxPkCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/987a9e2ba434637682021cb1219893e0/desktop_screenshot/COTJqc3w6ooDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/987a9e2ba434637682021cb1219893e0/desktop_screenshot/CNaEmf_90fkCEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is SE Wishlist Engine free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/wishlist-engine"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/wishlist-engine"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Klaviyo, PageFly",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/wishlist-engine"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/wishlist-engine"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://scriptengine.helpscoutdocs.com/collection/1-wishlist-engine"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wishlists"],
+        "primary_category_id": "wishlists",
+        "seo": {
+          "title": "SE Wishlist Engine Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wishlists. Listed functions include in-store registry, online registry.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/wishlist-engine",
+          "retrieved_at": "2026-10-04T05:10:41.472328+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Advanced insights into your most engaged customers and their favorite products. Auto…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/wishlist-engine"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "wishlist-plus-my-wishlist",
+      "name": "Wishlist Fade ‑ My Wishlists",
+      "slug": "wishlist-plus-my-wishlist",
+      "category_fit": {
+        "app_id": "wishlist-plus-my-wishlist",
+        "selection_score": 5.817,
+        "rating_evidence": {"value": 5.0, "reviews": 49},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["wishlist"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/wishlist-plus-my-wishlist"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for wishlists. Listed functions include public wishlist, favorites.",
+        "description_long": "Wishlist Fade ‑ My Wishlists is developed by Fade Commerce and listed for wishlists, customer loyalty - other. Its structured listing identifies functions such as public wishlist, favorites, save for later, guest wishlist. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wishlists"],
+        "best_for": {
+          "use_cases": ["Wishlists"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 49,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/wishlist-plus-my-wishlist",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 48},
+          {"stars": 4, "percentage": 2, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 3.99,
+            "billing_period": "month",
+            "price_display": "$3.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Grow",
+            "amount_usd": 7.99,
+            "billing_period": "month",
+            "price_display": "$7.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 15.99,
+            "billing_period": "month",
+            "price_display": "$15.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 3.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 11, 2026",
+        "shopify_categories": [
+          {
+            "name": "Wishlists",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-wishlists"
+          },
+          {
+            "name": "Customer loyalty - Other",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-customer-loyalty-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.wishlists.list_types.public_wishlist", "label": "Public wishlist"},
+          {"handle": "cf.wishlists.list_types.favorites", "label": "Favorites"},
+          {"handle": "cf.wishlists.list_types.save_for_later", "label": "Save for later"},
+          {"handle": "cf.wishlists.list_types.guest_wishlist", "label": "Guest wishlist"},
+          {"handle": "cf.wishlists.list_management.social_sharing", "label": "Social sharing"},
+          {"handle": "cf.wishlists.list_management.share_links", "label": "Share links"},
+          {"handle": "cf.wishlists.list_management.dashboard", "label": "Dashboard"},
+          {"handle": "cf.wishlists.list_management.multiple_lists", "label": "Multiple lists"},
+          {"handle": "cf.wishlists.list_management.add_to_cart", "label": "Add to cart"},
+          {"handle": "cf.wishlists.list_management.conversion_analytics", "label": "Conversion analytics"},
+          {"handle": "cf.wishlists.customization.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.wishlists.customization.custom_layout", "label": "Custom layouts"},
+          {"handle": "cf.wishlists.customization.custom_icons", "label": "Custom icons"},
+          {"handle": "cf.wishlists.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.wishlists.customization.price_alerts", "label": "Price alerts"},
+          {"handle": "cf.wishlists.customization.stock_alerts", "label": "Stock alerts"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Czech",
+          " German",
+          " Danish",
+          " Spanish",
+          " Finnish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Hindi",
+          " Malay",
+          " Slovenian",
+          " Vietnamese",
+          " and Arabic"
+        ],
+        "works_with": ["Customer accounts", "flow", "Shopify Admin", "Klaviyo"]
+      },
+      "developer": {
+        "name": "Fade Commerce",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/fade-commerce",
+        "public_address": "UL Cyberpark, Calicut, KL, 673016, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/wishlist-plus-my-wishlist",
+        "canonical_app_store_url": "https://apps.shopify.com/wishlist-plus-my-wishlist",
+        "install_url": "https://apps.shopify.com/wishlist-plus-my-wishlist",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://fadecommerce.com/privacy-policy",
+          "Fade Commerce": "https://apps.shopify.com/partners/fade-commerce"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/3dbcc8f57f47e59d8abaeceb8b94097b/icon/CJ-K-eOmpZQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/3dbcc8f57f47e59d8abaeceb8b94097b/promotional_image/CMSYoaD1ppUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3dbcc8f57f47e59d8abaeceb8b94097b/desktop_screenshot/CJ_3qqD1ppUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3dbcc8f57f47e59d8abaeceb8b94097b/desktop_screenshot/CM-7t6D1ppUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3dbcc8f57f47e59d8abaeceb8b94097b/desktop_screenshot/CN2ywaD1ppUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Wishlist Fade ‑ My Wishlists free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/wishlist-plus-my-wishlist"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  Chinese (Traditional),  Czech,  German,  Danish,  Spanish,  Finnish,  French,  Italian,  Japanese,  Korean,  Norwegian (Bokmål),  Dutch,  Polish,  Portuguese (Brazil),  Portuguese (Portugal),  Swedish,  Thai,  Turkish,  Hindi,  Malay,  Slovenian,  Vietnamese,  and Arabic",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/wishlist-plus-my-wishlist"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, flow, Shopify Admin, Klaviyo",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/wishlist-plus-my-wishlist"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/wishlist-plus-my-wishlist"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wishlists"],
+        "primary_category_id": "wishlists",
+        "seo": {
+          "title": "Wishlist Fade ‑ My Wishlists Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wishlists. Listed functions include public wishlist, favorites.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/wishlist-plus-my-wishlist",
+          "retrieved_at": "2026-10-04T05:10:41.427495+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/wishlist-plus-my-wishlist"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

@@ -2,14 +2,22 @@ import AgencyImage from "@/components/shared/AgencyImage";
 import SaveButton from "@/components/shared/SaveButton";
 import ShareButton from "./ShareButton";
 import { absoluteUrl } from "@/lib/site";
-import { initials, primaryRating, formatDate, locationLabel } from "@/lib/format";
+import {
+  initials,
+  primaryRating,
+  formatDate,
+  locationLabel,
+  providerTypeLabel,
+} from "@/lib/format";
 export default function AgencyHero({ agency }) {
   const rating = primaryRating(agency);
   const since = agency.experience?.operatingSinceYear || agency.foundedYear;
   return (
     <section className="hero" aria-labelledby="agencyName">
       <div className="hero-top">
-        <div className="eyebrow">{agency.cityName} · Shopify agency</div>
+        <div className="eyebrow">
+          {agency.cityName} · {providerTypeLabel(agency.entityType)}
+        </div>
         <div className="actions">
           <SaveButton agency={agency} className="btn ghost small" />
           <ShareButton url={absoluteUrl(agency.profilePath)} />
@@ -41,7 +49,7 @@ export default function AgencyHero({ agency }) {
             <strong>{rating ? `${rating.value} ★` : "Not rated"}</strong>
             <small>
               {rating
-                ? `${rating.reviewCount} reviews on ${rating.platform === "Clutch" ? "Clutch" : "Shopify"}`
+                ? `${rating.reviewCount} reviews on ${rating.platform.includes("Shopify") ? "Shopify" : rating.platform}`
                 : "No published score captured"}
             </small>
           </div>

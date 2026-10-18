@@ -1,0 +1,3255 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "delivery-date-time-slots",
+    "number": 69,
+    "name": "Delivery Date & Time Slots",
+    "group": "Shipping & Delivery",
+    "slug": "delivery-date-time-slots",
+    "url_path": "/apps/delivery-date-time-slots",
+    "focus": "Configure delivery options and shipping operations.",
+    "description": "Compare Shopify apps for delivery date & time slots. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup/all"],
+    "seo": {
+      "title": "Shopify Delivery Date & Time Slots Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for delivery date & time slots: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a delivery date & time slots app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "order-delivery-date-time",
+      "name": "Pickup Delivery Date Pickeasy",
+      "slug": "order-delivery-date-time",
+      "category_fit": {
+        "app_id": "order-delivery-date-time",
+        "selection_score": 6.1517,
+        "rating_evidence": {"value": 5.0, "reviews": 1322},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["date", "time", "slot"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/order-delivery-date-time"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for minimum & maximum order limits. Listed functions include block dates, cutoff times.",
+        "description_long": "Pickup Delivery Date Pickeasy is developed by Logbase and listed for delivery and pickup, event booking. Its structured listing identifies functions such as block dates, cutoff times, date picker, dynamic rates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Minimum & Maximum Order Limits", "Delivery Date & Time Slots", "Local Delivery & Store Pickup"],
+        "best_for": {
+          "use_cases": ["Minimum & Maximum Order Limits", "Delivery Date & Time Slots", "Local Delivery & Store Pickup"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 1322,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/order-delivery-date-time",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 1},
+          {"stars": 4, "percentage": 1, "count": 15},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 4},
+          {"stars": 1, "percentage": 1, "count": 8}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $107.99/year and save 10%"]
+          },
+          {
+            "name": "Smart",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $215.99/year and save 10%"]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $323.99/year and save 10%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.logbase.io/pickeasy-pricing-plan",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 29, 2020",
+        "shopify_categories": [
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          },
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.delivery_and_pickup.delivery_options.block_dates", "label": "Block dates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.cutoff_times", "label": "Cutoff times"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.dynamic_rates", "label": "Dynamic rates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.minimum_values", "label": "Minimum values"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.multi_location", "label": "Multi-location"},
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.preparation_times",
+            "label": "Preparation times"
+          },
+          {"handle": "cf.delivery_and_pickup.delivery_options.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.curbside", "label": "Curbside"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.in_store", "label": "In-store"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.multi_location", "label": "Multi-location"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.preparation_times", "label": "Preparation times"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.scheduling", "label": "Scheduling"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.time_slots", "label": "Time slots"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.event_type.appointments", "label": "Appointments"},
+          {"handle": "cf.event_booking.event_type.classes", "label": "Classes"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.online", "label": "Online"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.time_slots", "label": "Time slots"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.cancel_booking", "label": "Cancel booking"},
+          {"handle": "cf.event_booking.booking_management.capacity_limits", "label": "Capacity limits"}
+        ],
+        "languages": ["English", " Spanish", " German", " French", " Portuguese (Brazil)", " and Italian"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Appstle Subscriptions App",
+          "Google Calendar",
+          "Hulk Apps",
+          "ShipX ‑ Shipping Rates & Rules"
+        ]
+      },
+      "developer": {
+        "name": "Logbase",
+        "website_url": "https://www.logbase.io/",
+        "partner_url": "https://apps.shopify.com/partners/logbase1",
+        "public_address": "Logbase Technologies LLP, PSG STEP E-Lab, PSG College of Technology, Peelamedu, Coimbatore, TN, 641004, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/order-delivery-date-time",
+        "canonical_app_store_url": "https://apps.shopify.com/order-delivery-date-time",
+        "install_url": "https://apps.shopify.com/order-delivery-date-time",
+        "demo_store_url": "https://pickeasy-demo-store.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://logbase.io/privacy-policy/",
+          "App Documentation": "https://pickeasy.helpkit.so",
+          "Logbase": "https://apps.shopify.com/partners/logbase1",
+          "Website": "https://www.logbase.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/ffb8ff71052b49a683519d83cc498da0/icon/COKo_KnXuIADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/ffb8ff71052b49a683519d83cc498da0/desktop_screenshot/CNyGvo3B444DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ffb8ff71052b49a683519d83cc498da0/desktop_screenshot/CLGGyI3B444DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ffb8ff71052b49a683519d83cc498da0/desktop_screenshot/CIT20I3B444DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ffb8ff71052b49a683519d83cc498da0/desktop_screenshot/CO6I243B444DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ffb8ff71052b49a683519d83cc498da0/desktop_screenshot/COGx5I3B444DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ffb8ff71052b49a683519d83cc498da0/desktop_screenshot/CMap7o3B444DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ffb8ff71052b49a683519d83cc498da0/mobile_screenshot/CN_vkY6supMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ffb8ff71052b49a683519d83cc498da0/pos_screenshot/CKHr1ZmjupMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/viRXLrexXuA"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Pickup Delivery Date Pickeasy free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/order-delivery-date-time"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  German,  French,  Portuguese (Brazil),  and Italian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/order-delivery-date-time"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Appstle Subscriptions App, Google Calendar, Hulk Apps, ShipX ‑ Shipping Rates & Rules",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/order-delivery-date-time"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/order-delivery-date-time"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://pickeasy.helpkit.so"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the cart or checkout conditions in a draft or test configuration.",
+            "Test an eligible and an ineligible cart to confirm the rule behaviour.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["minimum-maximum-order-limits", "delivery-date-time-slots", "local-delivery-store-pickup"],
+        "primary_category_id": "minimum-maximum-order-limits",
+        "seo": {
+          "title": "Pickup Delivery Date Pickeasy Shopify App | eStorefy",
+          "meta_description": "A Shopify app for minimum & maximum order limits. Listed functions include block dates, cutoff times.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/order-delivery-date-time",
+          "retrieved_at": "2026-10-04T05:22:26.233725+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Let customers choose delivery date, time slots & store pickup on your…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/order-delivery-date-time"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "essential-estimated-delivery",
+      "name": "Essent Estimated Delivery Date",
+      "slug": "essential-estimated-delivery",
+      "category_fit": {
+        "app_id": "essential-estimated-delivery",
+        "selection_score": 6.1376,
+        "rating_evidence": {"value": 5.0, "reviews": 1023},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["date", "time"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/essential-estimated-delivery"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for delivery date & time slots. Listed functions include block dates, countdown timers.",
+        "description_long": "Essent Estimated Delivery Date is developed by Essential Apps and listed for delivery and pickup, shipping rates. Its structured listing identifies functions such as block dates, countdown timers, delivery date, delivery time. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Delivery Date & Time Slots"],
+        "best_for": {
+          "use_cases": ["Delivery Date & Time Slots"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 1023,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/essential-estimated-delivery",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 1},
+          {"stars": 4, "percentage": 1, "count": 12},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $3.99/year and save 93%"]
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $7.99/year and save 93%"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 24.99,
+            "billing_period": "month",
+            "price_display": "$24.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $19.99/year and save 93%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 6, 2025",
+        "shopify_categories": [
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          },
+          {
+            "name": "Shipping rates",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping-rates"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.delivery_and_pickup.delivery_options.block_dates", "label": "Block dates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.countdown_timer", "label": "Countdown timers"},
+          {"handle": "cf.shipping_rates.customization.delivery_date", "label": "Delivery date"},
+          {"handle": "cf.shipping_rates.customization.delivery_time", "label": "Delivery time"},
+          {"handle": "cf.shipping_rates.customization.geolocation", "label": "Geolocation"},
+          {"handle": "cf.shipping_rates.customization.multi_language", "label": "Multi-language"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Admin"]
+      },
+      "developer": {
+        "name": "Essential Apps",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/essentials25",
+        "public_address": "Baltupio g. 45 - 27, Vilnius, 08324, LT"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/essential-estimated-delivery",
+        "canonical_app_store_url": "https://apps.shopify.com/essential-estimated-delivery",
+        "install_url": "https://apps.shopify.com/essential-estimated-delivery",
+        "demo_store_url": "https://testing-delivery-date.myshopify.com/products/lip-liner-lip-butter-set",
+        "resources": {
+          "Privacy policy": "https://essential-apps.com/terms-and-conditions/",
+          "Essential Apps": "https://apps.shopify.com/partners/essentials25"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/97089442a254f35710d0da2b67611985/icon/CPCFj5rT2o0DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/97089442a254f35710d0da2b67611985/promotional_image/CP_EnJrT2o0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/97089442a254f35710d0da2b67611985/desktop_screenshot/CNbYpprT2o0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/97089442a254f35710d0da2b67611985/desktop_screenshot/CM6vsJrT2o0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/97089442a254f35710d0da2b67611985/desktop_screenshot/CO-Eu5rT2o0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/97089442a254f35710d0da2b67611985/desktop_screenshot/COn1xZrT2o0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/97089442a254f35710d0da2b67611985/desktop_screenshot/CO3_0JrT2o0DEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Essent Estimated Delivery Date free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/essential-estimated-delivery"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/essential-estimated-delivery"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/essential-estimated-delivery"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/essential-estimated-delivery"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["delivery-date-time-slots"],
+        "primary_category_id": "delivery-date-time-slots",
+        "seo": {
+          "title": "Essent Estimated Delivery Date Shopify App | eStorefy",
+          "meta_description": "A Shopify app for delivery date & time slots. Listed functions include block dates, countdown timers.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/essential-estimated-delivery",
+          "retrieved_at": "2026-10-04T05:22:26.151446+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/essential-estimated-delivery"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "estimated-delivery-days",
+      "name": "Estimated Delivery Date ‑ ETA",
+      "slug": "estimated-delivery-days",
+      "category_fit": {
+        "app_id": "estimated-delivery-days",
+        "selection_score": 5.9982,
+        "rating_evidence": {"value": 4.9, "reviews": 510},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["date", "time"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/estimated-delivery-days"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for delivery date & time slots. Listed functions include block dates, cutoff times.",
+        "description_long": "Estimated Delivery Date ‑ ETA is developed by SetuBridge and listed for delivery and pickup, order tracking. Its structured listing identifies functions such as block dates, cutoff times, dynamic rates, multi-location. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Delivery Date & Time Slots"],
+        "best_for": {
+          "use_cases": ["Delivery Date & Time Slots"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 510,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/estimated-delivery-days",
+        "distribution": [
+          {"stars": 5, "percentage": 91, "count": 464},
+          {"stars": 4, "percentage": 5, "count": 27},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 2, "count": 8},
+          {"stars": 1, "percentage": 2, "count": 10}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Lite",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "STARTUP",
+            "amount_usd": 6.99,
+            "billing_period": "month",
+            "price_display": "$6.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $75.50/year and save 10%"]
+          },
+          {
+            "name": "GROWTH",
+            "amount_usd": 14.99,
+            "billing_period": "month",
+            "price_display": "$14.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $149.99/year and save 17%"]
+          },
+          {
+            "name": "PREMIUM",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $199.99/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://setubridgeapps.com/pricing-plan/apps/?app_code=EDD&utm_source=EDD&utm_medium=App_Store&utm_campaign=EDD_Price",
+        "starting_paid_monthly_price_usd": 6.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "August 4, 2020 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          },
+          {
+            "name": "Order tracking",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-order-tracking"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.delivery_and_pickup.delivery_options.block_dates", "label": "Block dates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.cutoff_times", "label": "Cutoff times"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.dynamic_rates", "label": "Dynamic rates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.multi_location", "label": "Multi-location"},
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.preparation_times",
+            "label": "Preparation times"
+          },
+          {"handle": "cf.delivery_and_pickup.delivery_options.countdown_timer", "label": "Countdown timers"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.in_store", "label": "In-store"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.multi_location", "label": "Multi-location"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.preparation_times", "label": "Preparation times"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.etas", "label": "ETAs"},
+          {"handle": "cf.order_tracking.tracking.estimated_delivery_date", "label": "Estimated delivery date"},
+          {"handle": "cf.order_tracking.tracking.dashboards", "label": "Dashboards"},
+          {"handle": "cf.order_tracking.tracking.analytics", "label": "Analytics"},
+          {"handle": "cf.order_tracking.notifications.translation", "label": "Translation"},
+          {"handle": "cf.order_tracking.notifications.automation", "label": "Automations"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Dutch",
+          " French",
+          " German",
+          " Italian",
+          " Japanese",
+          " Portuguese (Brazil)",
+          " Spanish",
+          " and Vietnamese"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Delivery Automation",
+          "Delivery Information",
+          "Judge.me, Loox, Trustoo",
+          "Sidekick AI"
+        ]
+      },
+      "developer": {
+        "name": "SetuBridge",
+        "website_url": "https://www.setubridge.com/",
+        "partner_url": "https://apps.shopify.com/partners/setubridge3",
+        "public_address": "603 Samruddhi Complex, opp Sakar-3, Ahmedabad, GJ, 380014, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/estimated-delivery-days",
+        "canonical_app_store_url": "https://apps.shopify.com/estimated-delivery-days",
+        "install_url": "https://apps.shopify.com/estimated-delivery-days",
+        "demo_store_url": "https://kitchen-king-uk-plus.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.setubridge.com/privacy-policy/",
+          "FAQ": "https://setubridge.crisp.help/en-in/category/estimated-delivery-date-time-cy9fn8/",
+          "App Documentation": "https://setubridge.crisp.help/en-in/article/estimated-delivery-date-app-documentation-1vkphp2/",
+          "SetuBridge": "https://apps.shopify.com/partners/setubridge3",
+          "Website": "https://www.setubridge.com/",
+          "Changelog": "https://estimated-delivery-date.features.vote/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/e3b7aee03bcf207be58b4fd628ff6de5/icon/CLeZx63e_ogDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/e3b7aee03bcf207be58b4fd628ff6de5/promotional_image/COagu_WizZYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e3b7aee03bcf207be58b4fd628ff6de5/desktop_screenshot/CNvlo5fMrJUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e3b7aee03bcf207be58b4fd628ff6de5/desktop_screenshot/CKf5rZfMrJUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e3b7aee03bcf207be58b4fd628ff6de5/desktop_screenshot/CJjHuJfMrJUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e3b7aee03bcf207be58b4fd628ff6de5/desktop_screenshot/CNfrubrMrJUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e3b7aee03bcf207be58b4fd628ff6de5/desktop_screenshot/CO-4w7rMrJUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e3b7aee03bcf207be58b4fd628ff6de5/desktop_screenshot/CNbezLrMrJUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e3b7aee03bcf207be58b4fd628ff6de5/mobile_screenshot/CN_ol-DMrJUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e3b7aee03bcf207be58b4fd628ff6de5/mobile_screenshot/COif_svlq5UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e3b7aee03bcf207be58b4fd628ff6de5/mobile_screenshot/CJG7oeDMrJUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e3b7aee03bcf207be58b4fd628ff6de5/mobile_screenshot/CMfxquDMrJUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e3b7aee03bcf207be58b4fd628ff6de5/mobile_screenshot/CJHMtLWdmJQDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Estimated Delivery Date ‑ ETA free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/estimated-delivery-days"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  Chinese (Traditional),  Dutch,  French,  German,  Italian,  Japanese,  Portuguese (Brazil),  Spanish,  and Vietnamese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/estimated-delivery-days"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Delivery Automation, Delivery Information, Judge.me, Loox, Trustoo, Sidekick AI",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/estimated-delivery-days"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/estimated-delivery-days"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://setubridge.crisp.help/en-in/category/estimated-delivery-date-time-cy9fn8/",
+            "https://setubridge.crisp.help/en-in/article/estimated-delivery-date-app-documentation-1vkphp2/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["delivery-date-time-slots"],
+        "primary_category_id": "delivery-date-time-slots",
+        "seo": {
+          "title": "Estimated Delivery Date ‑ ETA Shopify App | eStorefy",
+          "meta_description": "A Shopify app for delivery date & time slots. Listed functions include block dates, cutoff times.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/estimated-delivery-days",
+          "retrieved_at": "2026-10-04T05:22:35.970774+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Show estimated delivery date by product, country & shipping rules. Boost trust…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/estimated-delivery-days"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "store-pickup-and-delivery-date",
+      "name": "Bird Pickup Delivery Date",
+      "slug": "store-pickup-and-delivery-date",
+      "category_fit": {
+        "app_id": "store-pickup-and-delivery-date",
+        "selection_score": 5.9968,
+        "rating_evidence": {"value": 4.9, "reviews": 499},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["date", "time", "slot"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/store-pickup-and-delivery-date"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for delivery date & time slots. Listed functions include block dates, cutoff times.",
+        "description_long": "Bird Pickup Delivery Date is developed by BirdChime and listed for delivery and pickup, shipping. Its structured listing identifies functions such as block dates, cutoff times, date picker, dynamic rates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Delivery Date & Time Slots", "Local Delivery & Store Pickup"],
+        "best_for": {
+          "use_cases": ["Delivery Date & Time Slots", "Local Delivery & Store Pickup"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 499,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/store-pickup-and-delivery-date",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 485},
+          {"stars": 4, "percentage": 2, "count": 8},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 5}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $215.89/year and save 10%"]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $539.89/year and save 10%"]
+          },
+          {
+            "name": "Scale",
+            "amount_usd": 99.99,
+            "billing_period": "month",
+            "price_display": "$99.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,079.89/year and save 10%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.birdchime.com/pricing",
+        "starting_paid_monthly_price_usd": 19.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 30, 2022 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          },
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.delivery_and_pickup.delivery_options.block_dates", "label": "Block dates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.cutoff_times", "label": "Cutoff times"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.dynamic_rates", "label": "Dynamic rates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.minimum_values", "label": "Minimum values"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.multi_location", "label": "Multi-location"},
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.preparation_times",
+            "label": "Preparation times"
+          },
+          {"handle": "cf.delivery_and_pickup.delivery_options.route_planning", "label": "Route planning"},
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.driver_assignment",
+            "label": "Driver assignment"
+          },
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.address_validation",
+            "label": "Address validation"
+          },
+          {"handle": "cf.delivery_and_pickup.delivery_options.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.curbside", "label": "Curbside"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.in_store", "label": "In-store"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.multi_location", "label": "Multi-location"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.preparation_times", "label": "Preparation times"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.scheduling", "label": "Scheduling"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.time_slots", "label": "Time slots"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.sms_notifications",
+            "label": "SMS notifications"
+          },
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.delivery_map", "label": "Delivery map"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.etas", "label": "ETAs"},
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.order_tracking", "label": "Order tracking"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.proof_of_delivery",
+            "label": "Proof of delivery"
+          },
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.route_optimization",
+            "label": "Route optimization"
+          },
+          {"handle": "cf.shipping.labels_and_packaging.label_creation", "label": "Label creation"},
+          {"handle": "cf.shipping.labels_and_packaging.label_customization", "label": "Label customization"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Appstle Subscriptions",
+          "EasyRoutes",
+          "Google Calendar",
+          "Order Printer",
+          "Recharge",
+          "Stuart"
+        ]
+      },
+      "developer": {
+        "name": "BirdChime",
+        "website_url": "https://birdchime.com",
+        "partner_url": "https://apps.shopify.com/partners/atin",
+        "public_address": "Chandigarh, PB, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/store-pickup-and-delivery-date",
+        "canonical_app_store_url": "https://apps.shopify.com/store-pickup-and-delivery-date",
+        "install_url": "https://apps.shopify.com/store-pickup-and-delivery-date",
+        "demo_store_url": "https://demo-store-pickup-order-date.myshopify.com/cart/add",
+        "resources": {
+          "Privacy policy": "https://birdchime.com/privacy-policy",
+          "FAQ": "https://help.birdchime.com/en/collection/faqs",
+          "Tutorial": "https://youtu.be/YwMGhU9xj9c",
+          "App Documentation": "https://help.birdchime.com/en",
+          "BirdChime": "https://apps.shopify.com/partners/atin",
+          "Website": "https://birdchime.com",
+          "Changelog": "https://help.birdchime.com/en/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/ecdc9eb087e7b9812c2192f5850f2811/icon/CMPssIPihJQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/ecdc9eb087e7b9812c2192f5850f2811/desktop_screenshot/CP3MopjZ5pQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ecdc9eb087e7b9812c2192f5850f2811/desktop_screenshot/CLiWrJjZ5pQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ecdc9eb087e7b9812c2192f5850f2811/desktop_screenshot/CKWLtZjZ5pQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ecdc9eb087e7b9812c2192f5850f2811/desktop_screenshot/CL_GvZjZ5pQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ecdc9eb087e7b9812c2192f5850f2811/desktop_screenshot/CPHY7sDI_ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ecdc9eb087e7b9812c2192f5850f2811/pos_screenshot/CPSt0ZjZ5pQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/hLEVTtJsnP0"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Bird Pickup Delivery Date free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/store-pickup-and-delivery-date"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/store-pickup-and-delivery-date"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Appstle Subscriptions, EasyRoutes, Google Calendar, Order Printer, Recharge, Stuart",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/store-pickup-and-delivery-date"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/store-pickup-and-delivery-date"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.birdchime.com/en/collection/faqs",
+            "https://youtu.be/YwMGhU9xj9c",
+            "https://help.birdchime.com/en"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["delivery-date-time-slots", "local-delivery-store-pickup"],
+        "primary_category_id": "delivery-date-time-slots",
+        "seo": {
+          "title": "Bird Pickup Delivery Date Shopify App | eStorefy",
+          "meta_description": "A Shopify app for delivery date & time slots. Listed functions include block dates, cutoff times.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/store-pickup-and-delivery-date",
+          "retrieved_at": "2026-10-04T05:22:36.056059+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Bird: Built for Shopify date picker for store pickup, click & collect,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/store-pickup-and-delivery-date"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "omega-estimated-shipping-date",
+      "name": "S Estimated Delivery Date Plus",
+      "slug": "omega-estimated-shipping-date",
+      "category_fit": {
+        "app_id": "omega-estimated-shipping-date",
+        "selection_score": 5.9891,
+        "rating_evidence": {"value": 4.9, "reviews": 445},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["date", "time"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/omega-estimated-shipping-date"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for delivery date & time slots. Listed functions include block dates, cutoff times.",
+        "description_long": "S Estimated Delivery Date Plus is developed by Synctrack and listed for delivery and pickup, shipping rates. Its structured listing identifies functions such as block dates, cutoff times, dynamic rates, multi-location. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Delivery Date & Time Slots"],
+        "best_for": {
+          "use_cases": ["Delivery Date & Time Slots"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 445,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/omega-estimated-shipping-date",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 425},
+          {"stars": 4, "percentage": 2, "count": 11},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 9}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free to install",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "STANDARD",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $53.88/year and save 10%"]
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $107.88/year and save 10%"]
+          },
+          {
+            "name": "PLUS",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $287.90/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://synctrack.io/pricing/?app=estimated",
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 22, 2018 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          },
+          {
+            "name": "Shipping rates",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping-rates"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.delivery_and_pickup.delivery_options.block_dates", "label": "Block dates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.cutoff_times", "label": "Cutoff times"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.dynamic_rates", "label": "Dynamic rates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.multi_location", "label": "Multi-location"},
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.preparation_times",
+            "label": "Preparation times"
+          },
+          {"handle": "cf.delivery_and_pickup.delivery_options.countdown_timer", "label": "Countdown timers"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.custom_messages", "label": "Custom messages"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.etas", "label": "ETAs"},
+          {"handle": "cf.shipping_rates.rate_calculation.carrier_based", "label": "Carrier-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.product_based", "label": "Product-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.zip_post_code", "label": "ZIP/post code"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_zone", "label": "Multi-zone"},
+          {"handle": "cf.shipping_rates.customization.delivery_date", "label": "Delivery date"},
+          {"handle": "cf.shipping_rates.customization.delivery_time", "label": "Delivery time"},
+          {"handle": "cf.shipping_rates.customization.rename_options", "label": "Rename options"},
+          {"handle": "cf.shipping_rates.customization.geolocation", "label": "Geolocation"},
+          {"handle": "cf.shipping_rates.customization.custom_rules", "label": "Custom rules"}
+        ],
+        "languages": ["English", " Hindi", " French", " Chinese (Simplified)", " German", " and Spanish"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "cart/checkout protection",
+          "delivery date",
+          "delivery time",
+          "Estimated delivery date",
+          "ETA",
+          "Shiprocket"
+        ]
+      },
+      "developer": {
+        "name": "Synctrack",
+        "website_url": "https://synctrack.io/estimated-delivery-date/",
+        "partner_url": "https://apps.shopify.com/partners/synctrack",
+        "public_address": "18/11 Thai Ha, Ha Noi, 70000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/omega-estimated-shipping-date",
+        "canonical_app_store_url": "https://apps.shopify.com/omega-estimated-shipping-date",
+        "install_url": "https://apps.shopify.com/omega-estimated-shipping-date",
+        "demo_store_url": "https://omega-estimated-delivery-date.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.omegatheme.com/privacy-policy-app",
+          "App Documentation": "https://synctrack.io/knowledge-base/edd/",
+          "Synctrack": "https://apps.shopify.com/partners/synctrack",
+          "Website": "https://synctrack.io/estimated-delivery-date/",
+          "Changelog": "https://estimated.canny.io/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/c8b114a1e7f36661cad123dac2c63dce/icon/CJWzmvHx-ZUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/c8b114a1e7f36661cad123dac2c63dce/promotional_image/CP-6kInM95YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c8b114a1e7f36661cad123dac2c63dce/desktop_screenshot/CNbrmYnM95YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c8b114a1e7f36661cad123dac2c63dce/desktop_screenshot/CP76oIm7hpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c8b114a1e7f36661cad123dac2c63dce/desktop_screenshot/CLD44LzFhpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c8b114a1e7f36661cad123dac2c63dce/desktop_screenshot/CJKLtIm7hpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c8b114a1e7f36661cad123dac2c63dce/desktop_screenshot/COvYvom7hpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c8b114a1e7f36661cad123dac2c63dce/desktop_screenshot/COaRyIm7hpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c8b114a1e7f36661cad123dac2c63dce/mobile_screenshot/CI7E0Ym7hpYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is S Estimated Delivery Date Plus free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/omega-estimated-shipping-date"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Hindi,  French,  Chinese (Simplified),  German,  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/omega-estimated-shipping-date"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, cart/checkout protection, delivery date, delivery time, Estimated delivery date, ETA, Shiprocket",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/omega-estimated-shipping-date"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/omega-estimated-shipping-date"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://synctrack.io/knowledge-base/edd/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["delivery-date-time-slots"],
+        "primary_category_id": "delivery-date-time-slots",
+        "seo": {
+          "title": "S Estimated Delivery Date Plus Shopify App | eStorefy",
+          "meta_description": "A Shopify app for delivery date & time slots. Listed functions include block dates, cutoff times.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/omega-estimated-shipping-date",
+          "retrieved_at": "2026-10-04T05:22:36.001634+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Boost conversion rate with estimated delivery date EDD and time on your…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/omega-estimated-shipping-date"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "delivery-date-omega",
+      "name": "D: Local Delivery Date Picker",
+      "slug": "delivery-date-omega",
+      "category_fit": {
+        "app_id": "delivery-date-omega",
+        "selection_score": 5.9619,
+        "rating_evidence": {"value": 4.9, "reviews": 306},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["date", "time", "slot"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/delivery-date-omega"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for delivery date & time slots. Listed functions include block dates, cutoff times.",
+        "description_long": "D: Local Delivery Date Picker is developed by DingDoong and listed for delivery and pickup, event booking. Its structured listing identifies functions such as block dates, cutoff times, date picker, dynamic rates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Delivery Date & Time Slots", "Local Delivery & Store Pickup"],
+        "best_for": {
+          "use_cases": ["Delivery Date & Time Slots", "Local Delivery & Store Pickup"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 306,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/delivery-date-omega",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 288},
+          {"stars": 4, "percentage": 4, "count": 12},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 5}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free to install",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 6.99,
+            "billing_period": "month",
+            "price_display": "$6.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $59.88/year and save 29%"]
+          },
+          {
+            "name": "Smart",
+            "amount_usd": 16.99,
+            "billing_period": "month",
+            "price_display": "$16.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $131.88/year and save 35%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $251.88/year and save 30%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://dingdoong.io/#pricing-plans",
+        "starting_paid_monthly_price_usd": 6.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 28, 2018 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          },
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.delivery_and_pickup.delivery_options.block_dates", "label": "Block dates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.cutoff_times", "label": "Cutoff times"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.dynamic_rates", "label": "Dynamic rates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.minimum_values", "label": "Minimum values"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.multi_location", "label": "Multi-location"},
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.preparation_times",
+            "label": "Preparation times"
+          },
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.address_validation",
+            "label": "Address validation"
+          },
+          {"handle": "cf.delivery_and_pickup.delivery_options.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.curbside", "label": "Curbside"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.in_store", "label": "In-store"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.multi_location", "label": "Multi-location"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.preparation_times", "label": "Preparation times"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.scheduling", "label": "Scheduling"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.time_slots", "label": "Time slots"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.event_type.appointments", "label": "Appointments"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.online", "label": "Online"},
+          {"handle": "cf.event_booking.event_type.custom_event", "label": "Custom events"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.time_slots", "label": "Time slots"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.capacity_limits", "label": "Capacity limits"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Delivery Date",
+          "Flow automation",
+          "Google calendar",
+          "Mobile screen",
+          "Point of Sale (POS)"
+        ]
+      },
+      "developer": {
+        "name": "DingDoong",
+        "website_url": "https://dingdoong.io",
+        "partner_url": "https://apps.shopify.com/partners/dingdoong4",
+        "public_address": "18/11 Thai Ha, Ha Noi, 70000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/delivery-date-omega",
+        "canonical_app_store_url": "https://apps.shopify.com/delivery-date-omega",
+        "install_url": "https://apps.shopify.com/delivery-date-omega",
+        "demo_store_url": "https://dingdoong-demo-pw-123.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://dingdoong.io/privacy",
+          "FAQ": "https://docs.dingdoong.io/",
+          "App Documentation": "https://dingdoong.io/delivery-pickup",
+          "DingDoong": "https://apps.shopify.com/partners/dingdoong4",
+          "Website": "https://dingdoong.io",
+          "Changelog": "https://dingdoong.io/changelog/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/32acb355119836c1d4cf245b88ab534c/icon/CLOumMHamZIDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/32acb355119836c1d4cf245b88ab534c/promotional_image/CJqMwNzcxZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32acb355119836c1d4cf245b88ab534c/desktop_screenshot/CP2RxfHmmZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32acb355119836c1d4cf245b88ab534c/desktop_screenshot/COXq5pfYuIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32acb355119836c1d4cf245b88ab534c/desktop_screenshot/CPuJloX7uIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32acb355119836c1d4cf245b88ab534c/desktop_screenshot/CMv0-pfYuIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32acb355119836c1d4cf245b88ab534c/desktop_screenshot/COjnhJjYuIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32acb355119836c1d4cf245b88ab534c/pos_screenshot/CL__7rzYuIwDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is D: Local Delivery Date Picker free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/delivery-date-omega"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/delivery-date-omega"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Delivery Date, Flow automation, Google calendar, Mobile screen, Point of Sale (POS)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/delivery-date-omega"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/delivery-date-omega"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.dingdoong.io/", "https://dingdoong.io/delivery-pickup"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["delivery-date-time-slots", "local-delivery-store-pickup"],
+        "primary_category_id": "delivery-date-time-slots",
+        "seo": {
+          "title": "D: Local Delivery Date Picker Shopify App | eStorefy",
+          "meta_description": "A Shopify app for delivery date & time slots. Listed functions include block dates, cutoff times.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/delivery-date-omega",
+          "retrieved_at": "2026-10-04T05:22:36.151081+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Offer a professional Shopify experience with local delivery date, delivery time, and…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/delivery-date-omega"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "store-pickup-by-genie-apps",
+      "name": "Genie Store Pickup & Delivery",
+      "slug": "store-pickup-by-genie-apps",
+      "category_fit": {
+        "app_id": "store-pickup-by-genie-apps",
+        "selection_score": 5.9368,
+        "rating_evidence": {"value": 4.9, "reviews": 226},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["date", "time", "slot"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/store-pickup-by-genie-apps"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for delivery date & time slots. Listed functions include curbside, in-store.",
+        "description_long": "Genie Store Pickup & Delivery is developed by Genie1214 and listed for delivery and pickup. Its structured listing identifies functions such as curbside, in-store, multi-location, preparation times. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Delivery Date & Time Slots", "Local Delivery & Store Pickup"],
+        "best_for": {
+          "use_cases": ["Delivery Date & Time Slots", "Local Delivery & Store Pickup"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 226,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/store-pickup-by-genie-apps",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 218},
+          {"stars": 4, "percentage": 2, "count": 4},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 27, 2020",
+        "shopify_categories": [
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.delivery_and_pickup.pickup_options.curbside", "label": "Curbside"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.in_store", "label": "In-store"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.multi_location", "label": "Multi-location"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.preparation_times", "label": "Preparation times"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.scheduling", "label": "Scheduling"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.time_slots", "label": "Time slots"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify POS", "Shopify Admin", "Admin", "Google Calendar", "Google Maps", "POS"]
+      },
+      "developer": {
+        "name": "Genie1214",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/genieapps",
+        "public_address": "3B3 Windsir Park Ichra, Lahore, 54500, PK"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/store-pickup-by-genie-apps",
+        "canonical_app_store_url": "https://apps.shopify.com/store-pickup-by-genie-apps",
+        "install_url": "https://apps.shopify.com/store-pickup-by-genie-apps",
+        "demo_store_url": "https://storepickup-admin.myshopify.com/collections/all",
+        "resources": {
+          "Privacy policy": "https://www.genieapps.io/privacy-policy",
+          "FAQ": "https://www.genieapps.io/category/faq",
+          "Tutorial": "https://www.genieapps.io",
+          "Genie1214": "https://apps.shopify.com/partners/genieapps"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/20f30310b2bd7016335893ae21a3803a/icon/CLaYp630lu8CEAE=.jpg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/20f30310b2bd7016335893ae21a3803a/promotional_image/CPDpyb78rJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/20f30310b2bd7016335893ae21a3803a/desktop_screenshot/COXzvOrhwJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/20f30310b2bd7016335893ae21a3803a/desktop_screenshot/COed9vniwJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/20f30310b2bd7016335893ae21a3803a/desktop_screenshot/CJ3e__niwJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/20f30310b2bd7016335893ae21a3803a/desktop_screenshot/COflifriwJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/20f30310b2bd7016335893ae21a3803a/desktop_screenshot/CNqvk_riwJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/20f30310b2bd7016335893ae21a3803a/desktop_screenshot/CNnOn_riwJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/20f30310b2bd7016335893ae21a3803a/mobile_screenshot/CNu5qvriwJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/20f30310b2bd7016335893ae21a3803a/mobile_screenshot/CJa8s_riwJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/20f30310b2bd7016335893ae21a3803a/mobile_screenshot/CN3rvPriwJYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Genie Store Pickup & Delivery free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/store-pickup-by-genie-apps"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/store-pickup-by-genie-apps"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify POS, Shopify Admin, Admin, Google Calendar, Google Maps, POS",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/store-pickup-by-genie-apps"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/store-pickup-by-genie-apps"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://www.genieapps.io/category/faq", "https://www.genieapps.io"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["delivery-date-time-slots", "local-delivery-store-pickup"],
+        "primary_category_id": "delivery-date-time-slots",
+        "seo": {
+          "title": "Genie Store Pickup & Delivery Shopify App | eStorefy",
+          "meta_description": "A Shopify app for delivery date & time slots. Listed functions include curbside, in-store.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/store-pickup-by-genie-apps",
+          "retrieved_at": "2026-10-04T05:22:52.241205+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/store-pickup-by-genie-apps"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "ds-delivery-pickup-shipping",
+      "name": "DS Pickup Delivery Date & Time",
+      "slug": "ds-delivery-pickup-shipping",
+      "category_fit": {
+        "app_id": "ds-delivery-pickup-shipping",
+        "selection_score": 5.8907,
+        "rating_evidence": {"value": 5.0, "reviews": 75},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["date", "time", "slot"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/ds-delivery-pickup-shipping"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for delivery date & time slots. Listed functions include block dates, cutoff times.",
+        "description_long": "DS Pickup Delivery Date & Time is developed by Devesha Solution and listed for delivery and pickup, shipping. Its structured listing identifies functions such as block dates, cutoff times, date picker, dynamic rates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Delivery Date & Time Slots", "Local Delivery & Store Pickup"],
+        "best_for": {
+          "use_cases": ["Delivery Date & Time Slots", "Local Delivery & Store Pickup"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 75,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/ds-delivery-pickup-shipping",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 73},
+          {"stars": 4, "percentage": 3, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Shopify Basic",
+            "amount_usd": 5.99,
+            "billing_period": "month",
+            "price_display": "$5.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $65.99/year and save 8%"]
+          },
+          {
+            "name": "Shopify Grow",
+            "amount_usd": 7.99,
+            "billing_period": "month",
+            "price_display": "$7.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $87.99/year and save 8%"]
+          },
+          {
+            "name": "Advanced / Plus",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $109.99/year and save 8%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 5.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 10, 2025",
+        "shopify_categories": [
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          },
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.delivery_and_pickup.delivery_options.block_dates", "label": "Block dates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.cutoff_times", "label": "Cutoff times"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.dynamic_rates", "label": "Dynamic rates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.minimum_values", "label": "Minimum values"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.multi_location", "label": "Multi-location"},
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.preparation_times",
+            "label": "Preparation times"
+          },
+          {"handle": "cf.delivery_and_pickup.delivery_options.route_planning", "label": "Route planning"},
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.driver_assignment",
+            "label": "Driver assignment"
+          },
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.address_validation",
+            "label": "Address validation"
+          },
+          {"handle": "cf.delivery_and_pickup.delivery_options.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.in_store", "label": "In-store"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.multi_location", "label": "Multi-location"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.preparation_times", "label": "Preparation times"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.scheduling", "label": "Scheduling"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.time_slots", "label": "Time slots"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.sms_notifications",
+            "label": "SMS notifications"
+          },
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.delivery_map", "label": "Delivery map"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.driver_tracking", "label": "Driver tracking"},
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.order_tracking", "label": "Order tracking"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.proof_of_delivery",
+            "label": "Proof of delivery"
+          },
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.tracking_pages", "label": "Tracking pages"},
+          {"handle": "cf.shipping.labels_and_packaging.address_validation", "label": "Address validation"},
+          {"handle": "cf.shipping.labels_and_packaging.packaging", "label": "Packaging"},
+          {"handle": "cf.shipping.labels_and_packaging.barcode_scanning", "label": "Barcode scanning"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Admin",
+          "Delivery and Pickup",
+          "Delivery Solutions",
+          "E-commerce shipping Scheduling",
+          "Holiday Block for Delivery",
+          "Order Time Slot Availability",
+          "Shipping Delivery Date & time"
+        ]
+      },
+      "developer": {
+        "name": "Devesha Solution",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/deveshasolution",
+        "public_address": "205, Angel Business Center 2, Near Sudama Chowk, Mota Varachha, Surat, GJ, 394101, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/ds-delivery-pickup-shipping",
+        "canonical_app_store_url": "https://apps.shopify.com/ds-delivery-pickup-shipping",
+        "install_url": "https://apps.shopify.com/ds-delivery-pickup-shipping",
+        "demo_store_url": "https://ds-delivery-pickup-shipping.myshopify.com/cart/add",
+        "resources": {
+          "Privacy policy": "https://ds-delivery.deveshasolution.com/privacy-policy",
+          "Devesha Solution": "https://apps.shopify.com/partners/deveshasolution"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/7c9d6ad54884ed20532bf0f2c45df4ef/icon/COTpp8-F8pQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/7c9d6ad54884ed20532bf0f2c45df4ef/desktop_screenshot/CKH51qO77ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7c9d6ad54884ed20532bf0f2c45df4ef/desktop_screenshot/CNij4KO77ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7c9d6ad54884ed20532bf0f2c45df4ef/desktop_screenshot/CMnb6KO77ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7c9d6ad54884ed20532bf0f2c45df4ef/desktop_screenshot/CPPFzf7a75QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7c9d6ad54884ed20532bf0f2c45df4ef/desktop_screenshot/CL7R1v7a75QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7c9d6ad54884ed20532bf0f2c45df4ef/desktop_screenshot/CIbOi9nn75QDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/ztMUPICvR9U"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is DS Pickup Delivery Date & Time free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/ds-delivery-pickup-shipping"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ds-delivery-pickup-shipping"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Admin, Delivery and Pickup, Delivery Solutions, E-commerce shipping Scheduling, Holiday Block for Delivery, Order Time Slot Availability, Shipping Delivery Date & time",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ds-delivery-pickup-shipping"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/ds-delivery-pickup-shipping"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["delivery-date-time-slots", "local-delivery-store-pickup"],
+        "primary_category_id": "delivery-date-time-slots",
+        "seo": {
+          "title": "DS Pickup Delivery Date & Time Shopify App | eStorefy",
+          "meta_description": "A Shopify app for delivery date & time slots. Listed functions include block dates, cutoff times.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/ds-delivery-pickup-shipping",
+          "retrieved_at": "2026-10-04T05:22:45.118351+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Block holidays, schedule local delivery or pickup, set time slots, date ranges,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/ds-delivery-pickup-shipping"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "aftership",
+      "name": "AfterShip Order Tracking",
+      "slug": "aftership",
+      "category_fit": {
+        "app_id": "aftership",
+        "selection_score": 5.6137,
+        "rating_evidence": {"value": 4.6, "reviews": 1499},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["date", "time"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/aftership"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for delivery date & time slots. Listed functions include branded tracking page, order lookup page.",
+        "description_long": "AfterShip Order Tracking is developed by AfterShip and listed for order tracking, shipping. Its structured listing identifies functions such as branded tracking page, order lookup page, real-time tracking, custom tracking link. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Delivery Date & Time Slots"],
+        "best_for": {
+          "use_cases": ["Delivery Date & Time Slots"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.6,
+        "review_count": 1499,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/aftership",
+        "distribution": [
+          {"stars": 5, "percentage": 85, "count": 1},
+          {"stars": 4, "percentage": 6, "count": 93},
+          {"stars": 3, "percentage": 1, "count": 17},
+          {"stars": 2, "percentage": 1, "count": 9},
+          {"stars": 1, "percentage": 7, "count": 109}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essentials",
+            "amount_usd": 11.0,
+            "billing_period": "month",
+            "price_display": "$11 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $108/year and save 18%",
+              "$1 for the first month, includes 100 shipments/month; $0.08 per extrashipment; Free first import: up to 500 shipments*"
+            ]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 70.0,
+            "billing_period": "month",
+            "price_display": "$70 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $708/year and save 16%",
+              "$1 for the first month, includes 500 shipments/month; $0.12 per extrashipment; Free first import: up to 500 shipments*"
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.aftership.com/pricing/?utm_source=sp-app-store-tracking",
+        "starting_paid_monthly_price_usd": 11.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 9, 2012",
+        "shopify_categories": [
+          {
+            "name": "Order tracking",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-order-tracking"
+          },
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.order_tracking.tracking.branded_tracking_page", "label": "Branded tracking page"},
+          {"handle": "cf.order_tracking.tracking.order_lookup_page", "label": "Order lookup page"},
+          {"handle": "cf.order_tracking.tracking.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.order_tracking.tracking.custom_tracking_link", "label": "Custom tracking link"},
+          {"handle": "cf.order_tracking.tracking.translation", "label": "Translation"},
+          {"handle": "cf.order_tracking.tracking.estimated_delivery_date", "label": "Estimated delivery date"},
+          {"handle": "cf.order_tracking.tracking.global_tracking", "label": "Global tracking"},
+          {"handle": "cf.order_tracking.tracking.dashboards", "label": "Dashboards"},
+          {"handle": "cf.order_tracking.tracking.multi_carrier", "label": "Multi-carrier"},
+          {"handle": "cf.order_tracking.tracking.api", "label": "API"},
+          {"handle": "cf.order_tracking.tracking.analytics", "label": "Analytics"},
+          {"handle": "cf.order_tracking.notifications.email", "label": "Email"},
+          {
+            "handle": "cf.order_tracking.notifications.real_time_notifications",
+            "label": "Real-time notifications"
+          },
+          {"handle": "cf.order_tracking.notifications.sms", "label": "SMS"},
+          {"handle": "cf.order_tracking.notifications.translation", "label": "Translation"},
+          {"handle": "cf.order_tracking.notifications.custom_notifications", "label": "Custom notifications"},
+          {"handle": "cf.order_tracking.notifications.automation", "label": "Automations"},
+          {"handle": "cf.shipping.labels_and_packaging.address_validation", "label": "Address validation"},
+          {"handle": "cf.shipping.labels_and_packaging.delivery_dates", "label": "Delivery date"},
+          {"handle": "cf.shipping.labels_and_packaging.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.labels_and_packaging.multi_language", "label": "Multi-language"},
+          {"handle": "cf.shipping.labels_and_packaging.carrier_selection", "label": "Carrier selection"},
+          {"handle": "cf.shipping.managing_shipments.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.managing_shipments.real_time_tracking", "label": "Real-time tracking"},
+          {
+            "handle": "cf.shipping.managing_shipments.branded_tracking_pages",
+            "label": "Branded tracking page"
+          },
+          {"handle": "cf.shipping.managing_shipments.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.shipping.managing_shipments.order_updates", "label": "Order updates"},
+          {"handle": "cf.shipping.managing_shipments.shipping_analytics", "label": "Shipping analytics"}
+        ],
+        "languages": ["English", " German", " French", " Spanish", " and Italian"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Attentive",
+          "Gorgias",
+          "Klaviyo",
+          "Loox",
+          "Shipstation",
+          "Zendesk"
+        ]
+      },
+      "developer": {
+        "name": "AfterShip",
+        "website_url": "https://www.aftership.com/?utm_source=sp-app-store-tracking",
+        "partner_url": "https://apps.shopify.com/partners/aftership",
+        "public_address": "120 Robinson Road #13-01 Singapore 068913, Singapore, Singapore, 068913, SG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/aftership",
+        "canonical_app_store_url": "https://apps.shopify.com/aftership",
+        "install_url": "https://apps.shopify.com/aftership",
+        "demo_store_url": "https://aftership-demo-store.myshopify.com/pages/track-your-order-aftership",
+        "resources": {
+          "Privacy policy": "https://www.aftership.com/privacy/",
+          "FAQ": "https://support.aftership.com/en/",
+          "AfterShip": "https://apps.shopify.com/partners/aftership",
+          "Website": "https://www.aftership.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/2b1e15082bfdc3b29c516461be6bd261/icon/CL6z7PWxkv8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/2b1e15082bfdc3b29c516461be6bd261/desktop_screenshot/CO_B9teNkY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2b1e15082bfdc3b29c516461be6bd261/desktop_screenshot/CNH_idiNkY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2b1e15082bfdc3b29c516461be6bd261/desktop_screenshot/CMis-s-73JADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2b1e15082bfdc3b29c516461be6bd261/desktop_screenshot/CIOtpdiNkY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2b1e15082bfdc3b29c516461be6bd261/desktop_screenshot/CLKnm9799Y8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2b1e15082bfdc3b29c516461be6bd261/desktop_screenshot/CPblpN799Y8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2b1e15082bfdc3b29c516461be6bd261/mobile_screenshot/CO3hrtiNkY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2b1e15082bfdc3b29c516461be6bd261/mobile_screenshot/CKjnt9iNkY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2b1e15082bfdc3b29c516461be6bd261/mobile_screenshot/CLPCwdiNkY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2b1e15082bfdc3b29c516461be6bd261/mobile_screenshot/CIKdytiNkY4DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/VML49PNi7iQ"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is AfterShip Order Tracking free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/aftership"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Spanish,  and Italian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/aftership"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Attentive, Gorgias, Klaviyo, Loox, Shipstation, Zendesk",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/aftership"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/aftership"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://support.aftership.com/en/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["delivery-date-time-slots"],
+        "primary_category_id": "delivery-date-time-slots",
+        "seo": {
+          "title": "AfterShip Order Tracking Shopify App | eStorefy",
+          "meta_description": "A Shopify app for delivery date & time slots. Listed functions include branded tracking page, order lookup page.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/aftership",
+          "retrieved_at": "2026-10-04T05:22:16.283284+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "AfterShip Tracking is an order tracking app with branded tracking pages, delivery…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/aftership"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "intuitive-shipping",
+      "name": "Intuitive Shipping",
+      "slug": "intuitive-shipping",
+      "category_fit": {
+        "app_id": "intuitive-shipping",
+        "selection_score": 5.3915,
+        "rating_evidence": {"value": 5.0, "reviews": 489},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["time"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/intuitive-shipping"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for checkout customization. Listed functions include flat fee, carrier-based.",
+        "description_long": "Intuitive Shipping is developed by Intuitive Shipping Inc and listed for shipping rates, delivery and pickup. Its structured listing identifies functions such as flat fee, carrier-based, customer-based, dimension-based. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Checkout Customization", "Delivery Date & Time Slots"],
+        "best_for": {
+          "use_cases": ["Checkout Customization", "Delivery Date & Time Slots"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 489,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/intuitive-shipping",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 478},
+          {"stars": 4, "percentage": 1, "count": 6},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 0, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Sandbox",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 70.0,
+            "billing_period": "month",
+            "price_display": "$70 / month",
+            "trial_days": 15,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Business",
+            "amount_usd": 150.0,
+            "billing_period": "month",
+            "price_display": "$150 / month",
+            "trial_days": 15,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 300.0,
+            "billing_period": "month",
+            "price_display": "$300 / month",
+            "trial_days": 15,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://intuitiveshipping.com/pricing",
+        "starting_paid_monthly_price_usd": 70.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "November 15, 2017",
+        "shopify_categories": [
+          {
+            "name": "Shipping rates",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping-rates"
+          },
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.shipping_rates.rate_calculation.flat_fee", "label": "Flat fee"},
+          {"handle": "cf.shipping_rates.rate_calculation.carrier_based", "label": "Carrier-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.customer_based", "label": "Customer-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.dimension_based", "label": "Dimension-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.distance_based", "label": "Distance-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.product_based", "label": "Product-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.quantity_based", "label": "Quantity-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.weight_based", "label": "Weight-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.zip_post_code", "label": "ZIP/post code"},
+          {"handle": "cf.shipping_rates.rate_calculation.rate_blending", "label": "Rate blending"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_zone", "label": "Multi-zone"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_origin", "label": "Multi-origin"},
+          {"handle": "cf.shipping_rates.customization.po_box_restrictions", "label": "PO Box restrictions"},
+          {"handle": "cf.shipping_rates.customization.delivery_date", "label": "Delivery date"},
+          {"handle": "cf.shipping_rates.customization.delivery_time", "label": "Delivery time"},
+          {"handle": "cf.shipping_rates.customization.order_limits", "label": "Order limits"},
+          {"handle": "cf.shipping_rates.customization.rename_options", "label": "Rename options"},
+          {"handle": "cf.shipping_rates.customization.hide_rates", "label": "Hide rates"},
+          {"handle": "cf.shipping_rates.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.shipping_rates.customization.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.block_dates", "label": "Block dates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.cutoff_times", "label": "Cutoff times"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.dynamic_rates", "label": "Dynamic rates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.minimum_values", "label": "Minimum values"},
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.preparation_times",
+            "label": "Preparation times"
+          },
+          {"handle": "cf.delivery_and_pickup.delivery_options.custom_messages", "label": "Custom messages"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Australia Post", "Canada Post", "Other Major Carriers", "ShipStation", "UPS", "USPS"]
+      },
+      "developer": {
+        "name": "Intuitive Shipping Inc",
+        "website_url": "https://intuitiveshipping.com",
+        "partner_url": "https://apps.shopify.com/partners/developer-0acaf3295272d329",
+        "public_address": "261 Martindale Rd, Unit 9, St. Catharines, ON, L2W 1A2, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/intuitive-shipping",
+        "canonical_app_store_url": "https://apps.shopify.com/intuitive-shipping",
+        "install_url": "https://apps.shopify.com/intuitive-shipping",
+        "demo_store_url": "https://intuitiveshipping.com/demo",
+        "resources": {
+          "Privacy policy": "https://intuitiveshipping.com/legal/eula",
+          "FAQ": "https://www.help.intuitiveshipping.com/faq",
+          "Tutorial": "https://www.help.intuitiveshipping.com/article-categories/get-started-v2/",
+          "App Documentation": "https://www.help.intuitiveshipping.com",
+          "Intuitive Shipping Inc": "https://apps.shopify.com/partners/developer-0acaf3295272d329",
+          "Website": "https://intuitiveshipping.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/d14589d7fbf19f9e2ec152f61fe0f081/icon/CI-MvsCGrYgDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/d14589d7fbf19f9e2ec152f61fe0f081/desktop_screenshot/CIHX7Kbm4f8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d14589d7fbf19f9e2ec152f61fe0f081/desktop_screenshot/CJuA-vGS5P8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d14589d7fbf19f9e2ec152f61fe0f081/desktop_screenshot/COa8kYaFgoEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d14589d7fbf19f9e2ec152f61fe0f081/desktop_screenshot/CJvG_qi75P8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d14589d7fbf19f9e2ec152f61fe0f081/desktop_screenshot/CP-DyLPi_4ADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d14589d7fbf19f9e2ec152f61fe0f081/desktop_screenshot/CMe9lvKS5P8CEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/yg8OM313P7U"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Intuitive Shipping free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/intuitive-shipping"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/intuitive-shipping"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Australia Post, Canada Post, Other Major Carriers, ShipStation, UPS, USPS",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/intuitive-shipping"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/intuitive-shipping"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://www.help.intuitiveshipping.com/faq",
+            "https://www.help.intuitiveshipping.com/article-categories/get-started-v2/",
+            "https://www.help.intuitiveshipping.com"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the cart or checkout conditions in a draft or test configuration.",
+            "Test an eligible and an ineligible cart to confirm the rule behaviour.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["checkout-customization", "delivery-date-time-slots"],
+        "primary_category_id": "checkout-customization",
+        "seo": {
+          "title": "Intuitive Shipping Shopify App | eStorefy",
+          "meta_description": "A Shopify app for checkout customization. Listed functions include flat fee, carrier-based.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/intuitive-shipping",
+          "retrieved_at": "2026-10-04T05:21:47.880726+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Forget cookie cutter. Intuitive Shipping gives you unrivalled control of your checkout.…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/intuitive-shipping"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "smart-shipping-rates-rules",
+      "name": "SMART Shipping Rates & Rules",
+      "slug": "smart-shipping-rates-rules",
+      "category_fit": {
+        "app_id": "smart-shipping-rates-rules",
+        "selection_score": 5.384,
+        "rating_evidence": {"value": 5.0, "reviews": 440},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["date"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include flat fee, carrier-based.",
+        "description_long": "SMART Shipping Rates & Rules is developed by SMART Shipping Rates and listed for shipping rates, delivery and pickup. Its structured listing identifies functions such as flat fee, carrier-based, customer-based, dimension-based. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Collection Sorting & Merchandising",
+          "Checkout Customization",
+          "Cash on Delivery",
+          "Shipping Rate Calculators",
+          "Delivery Date & Time Slots"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Collection Sorting & Merchandising",
+            "Checkout Customization",
+            "Cash on Delivery",
+            "Shipping Rate Calculators",
+            "Delivery Date & Time Slots"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 440,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/smart-shipping-rates-rules",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 428},
+          {"stars": 4, "percentage": 2, "count": 8},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Development stores",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Lite",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.88/year and save 20%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $191.88/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 14, 2024",
+        "shopify_categories": [
+          {
+            "name": "Shipping rates",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping-rates"
+          },
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.shipping_rates.rate_calculation.flat_fee", "label": "Flat fee"},
+          {"handle": "cf.shipping_rates.rate_calculation.carrier_based", "label": "Carrier-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.customer_based", "label": "Customer-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.dimension_based", "label": "Dimension-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.product_based", "label": "Product-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.quantity_based", "label": "Quantity-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.weight_based", "label": "Weight-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.zip_post_code", "label": "ZIP/post code"},
+          {"handle": "cf.shipping_rates.rate_calculation.rate_blending", "label": "Rate blending"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_zone", "label": "Multi-zone"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_origin", "label": "Multi-origin"},
+          {"handle": "cf.shipping_rates.customization.po_box_restrictions", "label": "PO Box restrictions"},
+          {"handle": "cf.shipping_rates.customization.delivery_date", "label": "Delivery date"},
+          {"handle": "cf.shipping_rates.customization.delivery_time", "label": "Delivery time"},
+          {"handle": "cf.shipping_rates.customization.scheduling", "label": "Scheduling"},
+          {"handle": "cf.shipping_rates.customization.order_limits", "label": "Order limits"},
+          {"handle": "cf.shipping_rates.customization.address_validation", "label": "Address validation"},
+          {"handle": "cf.shipping_rates.customization.rename_options", "label": "Rename options"},
+          {"handle": "cf.shipping_rates.customization.hide_rates", "label": "Hide rates"},
+          {"handle": "cf.shipping_rates.customization.reorder_rates", "label": "Reorder rates"},
+          {"handle": "cf.shipping_rates.customization.geolocation", "label": "Geolocation"},
+          {"handle": "cf.shipping_rates.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.shipping_rates.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.shipping_rates.customization.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.block_dates", "label": "Block dates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.cutoff_times", "label": "Cutoff times"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.dynamic_rates", "label": "Dynamic rates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.minimum_values", "label": "Minimum values"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Carrier Service (CCS)",
+          "Delivery Customizations",
+          "Functions",
+          "Shipping",
+          "Shipping Options",
+          "Shipping Rates"
+        ]
+      },
+      "developer": {
+        "name": "SMART Shipping Rates",
+        "website_url": "https://etradepartner.io/",
+        "partner_url": "https://apps.shopify.com/partners/smart-shipping-rates",
+        "public_address": "Hoża 86/410, Warszawa, 00-682, PL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/smart-shipping-rates-rules",
+        "canonical_app_store_url": "https://apps.shopify.com/smart-shipping-rates-rules",
+        "install_url": "https://apps.shopify.com/smart-shipping-rates-rules",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://etradepartner.io/privacy-policy",
+          "FAQ": "https://smart-shipping-rates.com/faq",
+          "Tutorial": "https://smart-shipping-rates.com/docs/get-started",
+          "App Documentation": "https://smart-shipping-rates.com/docs",
+          "SMART Shipping Rates": "https://apps.shopify.com/partners/smart-shipping-rates",
+          "Website": "https://etradepartner.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/icon/CNaU79-pgpQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/promotional_image/CLqztarKspYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/desktop_screenshot/CMnE_PmCiJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/desktop_screenshot/COeQh_qCiJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/desktop_screenshot/CJbekPqCiJYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is SMART Shipping Rates & Rules free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Carrier Service (CCS), Delivery Customizations, Functions, Shipping, Shipping Options, Shipping Rates",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://smart-shipping-rates.com/faq",
+            "https://smart-shipping-rates.com/docs/get-started",
+            "https://smart-shipping-rates.com/docs"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "collection-sorting-merchandising",
+          "checkout-customization",
+          "cash-on-delivery",
+          "shipping-rate-calculators",
+          "delivery-date-time-slots"
+        ],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "SMART Shipping Rates & Rules Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include flat fee, carrier-based.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/smart-shipping-rates-rules",
+          "retrieved_at": "2026-10-04T05:21:47.848629+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "click-and-collect",
+      "name": "Zapiet ‑ Pickup + Delivery",
+      "slug": "click-and-collect",
+      "category_fit": {
+        "app_id": "click-and-collect",
+        "selection_score": 5.3711,
+        "rating_evidence": {"value": 4.9, "reviews": 1881},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["time", "slot", "date"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/click-and-collect"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for delivery date & time slots. Listed functions include block dates, cutoff times.",
+        "description_long": "Zapiet ‑ Pickup + Delivery is developed by Zapiet and listed for delivery and pickup, shipping. Its structured listing identifies functions such as block dates, cutoff times, date picker, dynamic rates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Delivery Date & Time Slots", "Local Delivery & Store Pickup"],
+        "best_for": {
+          "use_cases": ["Delivery Date & Time Slots", "Local Delivery & Store Pickup"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1881,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/click-and-collect",
+        "distribution": [
+          {"stars": 5, "percentage": 93, "count": 1},
+          {"stars": 4, "percentage": 3, "count": 58},
+          {"stars": 3, "percentage": 1, "count": 11},
+          {"stars": 2, "percentage": 1, "count": 10},
+          {"stars": 1, "percentage": 2, "count": 44}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $49.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Essential",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $539.89/year and save 10%"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 79.99,
+            "billing_period": "month",
+            "price_display": "$79.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $815.90/year and save 15%"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 179.99,
+            "billing_period": "month",
+            "price_display": "$179.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,835.90/year and save 15%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.zapiet.com/store-pickup-delivery#pricing",
+        "starting_paid_monthly_price_usd": 49.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "February 17, 2015 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          },
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.delivery_and_pickup.delivery_options.block_dates", "label": "Block dates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.cutoff_times", "label": "Cutoff times"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.dynamic_rates", "label": "Dynamic rates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.minimum_values", "label": "Minimum values"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.multi_location", "label": "Multi-location"},
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.preparation_times",
+            "label": "Preparation times"
+          },
+          {"handle": "cf.delivery_and_pickup.delivery_options.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.curbside", "label": "Curbside"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.in_store", "label": "In-store"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.multi_location", "label": "Multi-location"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.preparation_times", "label": "Preparation times"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.scheduling", "label": "Scheduling"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.time_slots", "label": "Time slots"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.sms_notifications",
+            "label": "SMS notifications"
+          },
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.etas", "label": "ETAs"},
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.order_tracking", "label": "Order tracking"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.route_optimization",
+            "label": "Route optimization"
+          },
+          {"handle": "cf.shipping.labels_and_packaging.address_validation", "label": "Address validation"},
+          {"handle": "cf.shipping.labels_and_packaging.pick_lists", "label": "Pick lists"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_rules", "label": "Shipping rules"},
+          {"handle": "cf.shipping.labels_and_packaging.delivery_dates", "label": "Delivery date"},
+          {"handle": "cf.shipping.labels_and_packaging.multi_language", "label": "Multi-language"},
+          {"handle": "cf.shipping.labels_and_packaging.carrier_selection", "label": "Carrier selection"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.shipping.managing_shipments.real_time_tracking", "label": "Real-time tracking"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Spanish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Czech",
+          " Danish",
+          " Dutch",
+          " German",
+          " Italian",
+          " Chinese (Simplified)",
+          " and Swedish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Exportify",
+          "Google Calendar",
+          "Recharge",
+          "Roadie",
+          "Zapier"
+        ]
+      },
+      "developer": {
+        "name": "Zapiet",
+        "website_url": "https://www.zapiet.com/store-pickup-delivery",
+        "partner_url": "https://apps.shopify.com/partners/shopifyextras",
+        "public_address": "14-16 Cornmarket, Louth, ENG, LN11 9PY, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/click-and-collect",
+        "canonical_app_store_url": "https://apps.shopify.com/click-and-collect",
+        "install_url": "https://apps.shopify.com/click-and-collect",
+        "demo_store_url": "https://zapiet-florist-demo-store.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://www.zapiet.com/legal/privacy",
+          "FAQ": "https://www.zapiet.com/faq-store-pickup-delivery",
+          "Tutorial": "https://www.youtube.com/watch?v=Lg8N5AI6vZU",
+          "App Documentation": "https://support.zapiet.com/",
+          "Zapiet": "https://apps.shopify.com/partners/shopifyextras",
+          "Website": "https://www.zapiet.com/store-pickup-delivery",
+          "Changelog": "https://changelog.zapiet.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/1347d3b5d3487e69248c874bad357fd4/icon/CIbDhvDnhY4DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/1347d3b5d3487e69248c874bad357fd4/desktop_screenshot/CKOC9qO7-ZIDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1347d3b5d3487e69248c874bad357fd4/desktop_screenshot/CLeDvN6q_ZADEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1347d3b5d3487e69248c874bad357fd4/desktop_screenshot/CPvT-pir_ZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1347d3b5d3487e69248c874bad357fd4/desktop_screenshot/CNLqg5mr_ZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1347d3b5d3487e69248c874bad357fd4/desktop_screenshot/CP73kt6k3pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1347d3b5d3487e69248c874bad357fd4/desktop_screenshot/COjUu8Ot_ZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1347d3b5d3487e69248c874bad357fd4/pos_screenshot/CI7Qs46A_o8DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/kySN8B7SeNA"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Zapiet ‑ Pickup + Delivery free?",
+            "answer": "The pricing label retrieved from the listing is: From $49.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/click-and-collect"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Spanish,  Portuguese (Brazil),  Portuguese (Portugal),  Czech,  Danish,  Dutch,  German,  Italian,  Chinese (Simplified),  and Swedish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/click-and-collect"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Exportify, Google Calendar, Recharge, Roadie, Zapier",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/click-and-collect"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/click-and-collect"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://www.zapiet.com/faq-store-pickup-delivery",
+            "https://www.youtube.com/watch?v=Lg8N5AI6vZU",
+            "https://support.zapiet.com/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["delivery-date-time-slots", "local-delivery-store-pickup"],
+        "primary_category_id": "delivery-date-time-slots",
+        "seo": {
+          "title": "Zapiet ‑ Pickup + Delivery Shopify App | eStorefy",
+          "meta_description": "A Shopify app for delivery date & time slots. Listed functions include block dates, cutoff times.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/click-and-collect",
+          "retrieved_at": "2026-10-04T05:22:45.134684+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Optimize your Shopify store with our app for local pickup, store pickup,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/click-and-collect"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

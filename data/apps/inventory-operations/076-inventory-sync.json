@@ -1,0 +1,3236 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "inventory-sync",
+    "number": 76,
+    "name": "Inventory Sync",
+    "group": "Inventory & Operations",
+    "slug": "inventory-sync",
+    "url_path": "/apps/inventory-sync",
+    "focus": "Coordinate stock availability and operational systems.",
+    "description": "Compare Shopify apps for inventory sync. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync/all"],
+    "seo": {
+      "title": "Shopify Inventory Sync Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for inventory sync: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a inventory sync app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "ebay-integration-dpl",
+      "name": "eBay Integration ‑ DPL",
+      "slug": "ebay-integration-dpl",
+      "category_fit": {
+        "app_id": "ebay-integration-dpl",
+        "selection_score": 6.0506,
+        "rating_evidence": {"value": 4.9, "reviews": 1257},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sync"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for inventory sync. Listed functions include orders, prices.",
+        "description_long": "eBay Integration ‑ DPL is developed by Digital Product Labs and listed for inventory sync. Its structured listing identifies functions such as orders, prices, product details, variants. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Inventory Sync", "Marketplace Integrations", "Fraud Prevention", "Store Migration & Data Import"],
+        "best_for": {
+          "use_cases": ["Inventory Sync", "Marketplace Integrations", "Fraud Prevention", "Store Migration & Data Import"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1257,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/ebay-integration-dpl",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 1},
+          {"stars": 4, "percentage": 1, "count": 16},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 5},
+          {"stars": 1, "percentage": 1, "count": 12}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $19.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Silver Plan",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Gold Plan",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Platinum Plan",
+            "amount_usd": 69.99,
+            "billing_period": "month",
+            "price_display": "$69.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Enterprise S Plan",
+            "amount_usd": 199.99,
+            "billing_period": "month",
+            "price_display": "$199.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://dpl.company/ebay-integration-and-sync/#pricing",
+        "starting_paid_monthly_price_usd": 19.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 10, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"},
+          {"handle": "cf.inventory_sync.sync_type.variants", "label": "Variants"},
+          {"handle": "cf.inventory_sync.sync_type.skus", "label": "SKUs"},
+          {"handle": "cf.inventory_sync.sync_type.barcodes", "label": "Barcodes"},
+          {"handle": "cf.inventory_sync.sync_type.automatic", "label": "Automatic"},
+          {"handle": "cf.inventory_sync.sync_type.manual", "label": "Manual"},
+          {"handle": "cf.inventory_sync.sync_type.bulk", "label": "Bulk"},
+          {"handle": "cf.inventory_sync.sync_type.real_time", "label": "Real-time"},
+          {"handle": "cf.inventory_sync.sync_type.scheduled", "label": "Scheduled"},
+          {"handle": "cf.inventory_sync.sync_type.custom", "label": "Custom"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.automated_alerts",
+            "label": "Automated alerts"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.custom_notifications",
+            "label": "Custom notifications"
+          },
+          {"handle": "cf.inventory_sync.notifications_and_reports.order_updates", "label": "Order updates"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.email_alerts", "label": "Email alerts"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.error_reports", "label": "Error reports"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.inventory_alerts",
+            "label": "Inventory alerts"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.data_import_and_export",
+            "label": "Data import and export"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.real_time_status",
+            "label": "Real-time status"
+          },
+          {"handle": "cf.inventory_sync.notifications_and_reports.detailed_logs", "label": "Detailed logs"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin", "deliverr", "ebay", "ebaymag", "ebaymotors", "Printful", "Shipstation"]
+      },
+      "developer": {
+        "name": "Digital Product Labs",
+        "website_url": "https://dpl.company/ebay-integration-and-import/",
+        "partner_url": "https://apps.shopify.com/partners/digital-product-labs",
+        "public_address": "2035 Sunset Lake RoadSuite B-2, Newark, DE, 19702, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/ebay-integration-dpl",
+        "canonical_app_store_url": "https://apps.shopify.com/ebay-integration-dpl",
+        "install_url": "https://apps.shopify.com/ebay-integration-dpl",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://dpl.company/dpl-ebay-integration-and-import-privacy-policy/",
+          "FAQ": "https://exportfeed.helpscoutdocs.com/collection/471-ebay",
+          "Digital Product Labs": "https://apps.shopify.com/partners/digital-product-labs",
+          "Website": "https://dpl.company/ebay-integration-and-import/",
+          "Changelog": "https://dpl.company/changelog/ebay-integration/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/icon/CNH03LzPrfwCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/promotional_image/CMfs-J-InZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CNXhp77jkI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CM2htembnZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CP-_hbXkwIsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CKfIv8bSmosDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CIL79azLnJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CL7w98nh8YcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is eBay Integration ‑ DPL free?",
+            "answer": "The pricing label retrieved from the listing is: From $19.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, deliverr, ebay, ebaymag, ebaymotors, Printful, Shipstation",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://exportfeed.helpscoutdocs.com/collection/471-ebay"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["inventory-sync", "marketplace-integrations", "fraud-prevention", "store-migration-data-import"],
+        "primary_category_id": "inventory-sync",
+        "seo": {
+          "title": "eBay Integration ‑ DPL Shopify App | eStorefy",
+          "meta_description": "A Shopify app for inventory sync. Listed functions include orders, prices.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/ebay-integration-dpl",
+          "retrieved_at": "2026-10-04T05:24:04.829209+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Shopify eBay Integration app. Sync Products, Inventory, and Orders between the Shopify…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "etsy-integration-dpl",
+      "name": "Etsy Integration ‑ DPL",
+      "slug": "etsy-integration-dpl",
+      "category_fit": {
+        "app_id": "etsy-integration-dpl",
+        "selection_score": 6.0359,
+        "rating_evidence": {"value": 4.9, "reviews": 957},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sync"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/etsy-integration-dpl"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for inventory sync. Listed functions include feed automation, product feed.",
+        "description_long": "Etsy Integration ‑ DPL is developed by Digital Product Labs and listed for marketplaces, inventory sync. Its structured listing identifies functions such as feed automation, product feed, product sync, product selection. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Inventory Sync", "Live Chat", "Marketplace Integrations"],
+        "best_for": {
+          "use_cases": ["Inventory Sync", "Live Chat", "Marketplace Integrations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 957,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/etsy-integration-dpl",
+        "distribution": [
+          {"stars": 5, "percentage": 93, "count": 888},
+          {"stars": 4, "percentage": 3, "count": 27},
+          {"stars": 3, "percentage": 1, "count": 9},
+          {"stars": 2, "percentage": 1, "count": 6},
+          {"stars": 1, "percentage": 3, "count": 27}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $19.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Silver Plan",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Gold Plan",
+            "amount_usd": 28.99,
+            "billing_period": "month",
+            "price_display": "$28.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Diamond Plan",
+            "amount_usd": 59.99,
+            "billing_period": "month",
+            "price_display": "$59.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://dpl.company/etsy-integration-and-sync/#pricing",
+        "starting_paid_monthly_price_usd": 19.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 14, 2014 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Marketplaces",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-marketplaces"
+          },
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.marketplaces.listing_management.feed_automation", "label": "Feed automation"},
+          {"handle": "cf.marketplaces.listing_management.product_feed", "label": "Product feed"},
+          {"handle": "cf.marketplaces.listing_management.product_sync", "label": "Product sync"},
+          {"handle": "cf.marketplaces.listing_management.product_selection", "label": "Product selection"},
+          {"handle": "cf.marketplaces.listing_management.offer_sync", "label": "Offer sync"},
+          {"handle": "cf.marketplaces.listing_management.local_currency", "label": "Local currency"},
+          {"handle": "cf.marketplaces.listing_management.bulk_upload", "label": "Bulk upload"},
+          {"handle": "cf.marketplaces.listing_management.custom_listings", "label": "Custom listings"},
+          {"handle": "cf.marketplaces.order_management.bulk_orders", "label": "Bulk orders"},
+          {"handle": "cf.marketplaces.order_management.order_sync", "label": "Order sync"},
+          {"handle": "cf.marketplaces.order_management.tracking_sync", "label": "Tracking sync"},
+          {"handle": "cf.marketplaces.order_management.unified_dashboard", "label": "Unified dashboard"},
+          {"handle": "cf.marketplaces.order_management.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.marketplaces.order_management.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"},
+          {"handle": "cf.inventory_sync.sync_type.variants", "label": "Variants"},
+          {"handle": "cf.inventory_sync.sync_type.skus", "label": "SKUs"},
+          {"handle": "cf.inventory_sync.sync_type.barcodes", "label": "Barcodes"},
+          {"handle": "cf.inventory_sync.sync_type.multi_channel", "label": "Multi-channel"},
+          {"handle": "cf.inventory_sync.sync_type.automatic", "label": "Automatic"},
+          {"handle": "cf.inventory_sync.sync_type.manual", "label": "Manual"},
+          {"handle": "cf.inventory_sync.sync_type.bulk", "label": "Bulk"},
+          {"handle": "cf.inventory_sync.sync_type.real_time", "label": "Real-time"},
+          {"handle": "cf.inventory_sync.sync_type.scheduled", "label": "Scheduled"},
+          {"handle": "cf.inventory_sync.sync_type.custom", "label": "Custom"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.automated_alerts",
+            "label": "Automated alerts"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.custom_notifications",
+            "label": "Custom notifications"
+          },
+          {"handle": "cf.inventory_sync.notifications_and_reports.order_updates", "label": "Order updates"}
+        ],
+        "languages": ["English", " Dutch", " French", " German", " and Spanish"],
+        "works_with": ["Shopify Admin", "Deliverr", "Etsy", "Printful", "Shipstation", "Shipwork"]
+      },
+      "developer": {
+        "name": "Digital Product Labs",
+        "website_url": "https://dpl.company/etsy-integration-and-sync/",
+        "partner_url": "https://apps.shopify.com/partners/digital-product-labs",
+        "public_address": "2035 Sunset Lake RoadSuite B-2, Newark, DE, 19702, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/etsy-integration-dpl",
+        "canonical_app_store_url": "https://apps.shopify.com/etsy-integration-dpl",
+        "install_url": "https://apps.shopify.com/etsy-integration-dpl",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://dpl.company/etsy-integration-dpl-privacy-policy/",
+          "FAQ": "https://help.exportfeed.com/collection/183-etsy-integration",
+          "Digital Product Labs": "https://apps.shopify.com/partners/digital-product-labs",
+          "Website": "https://dpl.company/etsy-integration-and-sync/",
+          "Changelog": "https://dpl.company/changelog/etsy-integration/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/97fb42e2ff631069c368ce7545d780de/icon/CN2KweHDpYIDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/97fb42e2ff631069c368ce7545d780de/promotional_image/CL32o6LXn5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/97fb42e2ff631069c368ce7545d780de/desktop_screenshot/CNqeh6nmg5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/97fb42e2ff631069c368ce7545d780de/desktop_screenshot/CO6IvMHIsIcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/97fb42e2ff631069c368ce7545d780de/desktop_screenshot/CLqTst7fkI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/97fb42e2ff631069c368ce7545d780de/desktop_screenshot/CLXErKLXn5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/97fb42e2ff631069c368ce7545d780de/desktop_screenshot/CP_VwpmIoI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/97fb42e2ff631069c368ce7545d780de/desktop_screenshot/CNaq24HC54cDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Etsy Integration ‑ DPL free?",
+            "answer": "The pricing label retrieved from the listing is: From $19.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/etsy-integration-dpl"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Dutch,  French,  German,  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/etsy-integration-dpl"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Deliverr, Etsy, Printful, Shipstation, Shipwork",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/etsy-integration-dpl"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/etsy-integration-dpl"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.exportfeed.com/collection/183-etsy-integration"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["inventory-sync", "live-chat", "marketplace-integrations"],
+        "primary_category_id": "inventory-sync",
+        "seo": {
+          "title": "Etsy Integration ‑ DPL Shopify App | eStorefy",
+          "meta_description": "A Shopify app for inventory sync. Listed functions include feed automation, product feed.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/etsy-integration-dpl",
+          "retrieved_at": "2026-10-04T05:24:04.803653+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Shopify Etsy Integration app - Best way to sync your online Shopify…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/etsy-integration-dpl"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "ecc-quickbooks-integration-for-shopify",
+      "name": "Webgility ‑ QuickBooks Online ",
+      "slug": "ecc-quickbooks-integration-for-shopify",
+      "category_fit": {
+        "app_id": "ecc-quickbooks-integration-for-shopify",
+        "selection_score": 6.0332,
+        "rating_evidence": {"value": 4.9, "reviews": 913},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sync"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/ecc-quickbooks-integration-for-shopify"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for inventory sync. Listed functions include income and balance, cash flow.",
+        "description_long": "Webgility ‑ QuickBooks Online  is developed by Webgility and listed for accounting, inventory sync. Its structured listing identifies functions such as income and balance, cash flow, sales and refunds, sales tax. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Inventory Sync"],
+        "best_for": {
+          "use_cases": ["Inventory Sync"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 913,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/ecc-quickbooks-integration-for-shopify",
+        "distribution": [
+          {"stars": 5, "percentage": 93, "count": 845},
+          {"stars": 4, "percentage": 5, "count": 50},
+          {"stars": 3, "percentage": 1, "count": 8},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 9}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $79/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Pro",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Order Overages: $15 per 500 orders"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 149.0,
+            "billing_period": "month",
+            "price_display": "$149 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Order Overages: $15 per 500 orders"]
+          },
+          {
+            "name": "Complete",
+            "amount_usd": 349.0,
+            "billing_period": "month",
+            "price_display": "$349 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Order Overages: $15 per 500 orders"]
+          },
+          {
+            "name": "CompleteEnterprise",
+            "amount_usd": 749.0,
+            "billing_period": "month",
+            "price_display": "$749 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Order Overages: $15 per 500 orders"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.webgility.com/pricing-options?webgilityPlan=online&utm_medium=referral&utm_source=sh0pify&utm_campaign=sh0pify+app+store+WO",
+        "starting_paid_monthly_price_usd": 79.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "May 17, 2013 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Accounting",
+            "url": "https://apps.shopify.com/categories/store-management-finances-accounting"
+          },
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.accounting.financial_reports.income_and_balance", "label": "Income and balance"},
+          {"handle": "cf.accounting.financial_reports.cash_flow", "label": "Cash flow"},
+          {"handle": "cf.accounting.financial_reports.sales_and_refunds", "label": "Sales and refunds"},
+          {"handle": "cf.accounting.financial_reports.sales_tax", "label": "Sales tax"},
+          {"handle": "cf.accounting.financial_reports.expense_tracking", "label": "Expense tracking"},
+          {
+            "handle": "cf.accounting.financial_reports.returns_and_exchanges",
+            "label": "Returns and exchanges"
+          },
+          {"handle": "cf.accounting.financial_reports.cogs_tracking", "label": "COGS tracking"},
+          {"handle": "cf.accounting.financial_reports.custom_reports", "label": "Custom reports"},
+          {
+            "handle": "cf.accounting.financial_reports.performance_dashboard",
+            "label": "Performance dashboard"
+          },
+          {"handle": "cf.accounting.financial_operations.stock_updates", "label": "Stock updates"},
+          {"handle": "cf.accounting.financial_operations.multi_store", "label": "Multi-store"},
+          {"handle": "cf.accounting.financial_operations.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.accounting.financial_operations.multi_channel", "label": "Multi-channel"},
+          {"handle": "cf.accounting.automated_data_sync.daily_sales_summary", "label": "Daily sales summary"},
+          {"handle": "cf.accounting.automated_data_sync.order_details", "label": "Order details"},
+          {"handle": "cf.accounting.automated_data_sync.transactions", "label": "Transactions"},
+          {"handle": "cf.accounting.automated_data_sync.payouts", "label": "Payouts"},
+          {"handle": "cf.accounting.automated_data_sync.customers", "label": "Customers"},
+          {
+            "handle": "cf.accounting.automated_data_sync.inventory_and_product",
+            "label": "Inventory and product"
+          },
+          {
+            "handle": "cf.accounting.automated_data_sync.real_time_inventory_sync",
+            "label": "Real-time inventory sync"
+          },
+          {"handle": "cf.accounting.automated_data_sync.pricing", "label": "Pricing"},
+          {"handle": "cf.accounting.automated_data_sync.sales_tax_mapping", "label": "Sales tax mapping"},
+          {
+            "handle": "cf.accounting.automated_data_sync.historical_data_import",
+            "label": "Historical data import"
+          },
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"},
+          {"handle": "cf.inventory_sync.sync_type.variants", "label": "Variants"},
+          {"handle": "cf.inventory_sync.sync_type.skus", "label": "SKUs"},
+          {"handle": "cf.inventory_sync.sync_type.multi_channel", "label": "Multi-channel"},
+          {"handle": "cf.inventory_sync.sync_type.multi_store", "label": "Multi-store"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Amazon", "eBay", "QuickBooks", "Quickbooks online", "Walmart", "Xero"]
+      },
+      "developer": {
+        "name": "Webgility",
+        "website_url": "https://www.webgility.com/",
+        "partner_url": "https://apps.shopify.com/partners/webgility-inc",
+        "public_address": "1111 6th Ave, STE 550, San Diego, CA, 92121, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/ecc-quickbooks-integration-for-shopify",
+        "canonical_app_store_url": "https://apps.shopify.com/ecc-quickbooks-integration-for-shopify",
+        "install_url": "https://apps.shopify.com/ecc-quickbooks-integration-for-shopify",
+        "demo_store_url": "https://www.webgility.com/webgility-demo-video",
+        "resources": {
+          "Privacy policy": "https://www.webgility.com/privacy-policy",
+          "FAQ": "https://helpcenter.webgility.com/",
+          "Tutorial": "https://www.webgility.com/webgility-demo-video",
+          "App Documentation": "https://helpcenter.webgility.com/en/?q=Webgility+Online",
+          "Webgility": "https://apps.shopify.com/partners/webgility-inc",
+          "Website": "https://www.webgility.com/",
+          "Changelog": "https://helpcenter.webgility.com/en/articles/7233553-release-notes-for-webgility-online-v7-4-0"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f10497a13c8411312b2de2736fb1e5a9/icon/CL-Wst7r7JEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f10497a13c8411312b2de2736fb1e5a9/desktop_screenshot/CIbblNyzsJADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f10497a13c8411312b2de2736fb1e5a9/desktop_screenshot/CM_rndyzsJADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f10497a13c8411312b2de2736fb1e5a9/desktop_screenshot/COu7ptyzsJADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f10497a13c8411312b2de2736fb1e5a9/desktop_screenshot/CKSqr9yzsJADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f10497a13c8411312b2de2736fb1e5a9/desktop_screenshot/CKSo-Mye5ZEDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/UIk2GTiMnJs"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Webgility ‑ QuickBooks Online  free?",
+            "answer": "The pricing label retrieved from the listing is: From $79/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/ecc-quickbooks-integration-for-shopify"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ecc-quickbooks-integration-for-shopify"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Amazon, eBay, QuickBooks, Quickbooks online, Walmart, Xero",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ecc-quickbooks-integration-for-shopify"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/ecc-quickbooks-integration-for-shopify"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://helpcenter.webgility.com/",
+            "https://www.webgility.com/webgility-demo-video",
+            "https://helpcenter.webgility.com/en/?q=Webgility+Online"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["inventory-sync"],
+        "primary_category_id": "inventory-sync",
+        "seo": {
+          "title": "Webgility ‑ QuickBooks Online  Shopify App | eStorefy",
+          "meta_description": "A Shopify app for inventory sync. Listed functions include income and balance, cash flow.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/ecc-quickbooks-integration-for-shopify",
+          "retrieved_at": "2026-10-04T05:04:27.211483+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Webgility connects Shopify to QuickBooks Online & Xero, so orders, expenses, inventory,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/ecc-quickbooks-integration-for-shopify"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "google-reviews-trust-badge",
+      "name": "Reputon Google Reviews",
+      "slug": "google-reviews-trust-badge",
+      "category_fit": {
+        "app_id": "google-reviews-trust-badge",
+        "selection_score": 6.0096,
+        "rating_evidence": {"value": 5.0, "reviews": 1535},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sync"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/google-reviews-trust-badge"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for product reviews. Listed functions include testimonials, photo reviews.",
+        "description_long": "Reputon Google Reviews is developed by Reputon and listed for product reviews, social proof. Its structured listing identifies functions such as testimonials, photo reviews, star ratings, badges. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Reviews", "Inventory Sync", "Store Translation"],
+        "best_for": {
+          "use_cases": ["Product Reviews", "Inventory Sync", "Store Translation"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 1535,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/google-reviews-trust-badge",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 1},
+          {"stars": 4, "percentage": 4, "count": 65},
+          {"stars": 3, "percentage": 1, "count": 20},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 1, "count": 8}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Development stores",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 6.99,
+            "billing_period": "month",
+            "price_display": "$6.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $71.88/year and save 14%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 6.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 10, 2020 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Product reviews",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews"
+          },
+          {
+            "name": "Social proof",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-social-proof"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_reviews.display_options.testimonials", "label": "Testimonials"},
+          {"handle": "cf.product_reviews.display_options.photo_reviews", "label": "Photo reviews"},
+          {"handle": "cf.product_reviews.display_options.star_ratings", "label": "Star ratings"},
+          {"handle": "cf.product_reviews.display_options.badges", "label": "Badges"},
+          {"handle": "cf.product_reviews.display_options.carousels", "label": "Carousels"},
+          {"handle": "cf.product_reviews.display_options.media_galleries", "label": "Media galleries"},
+          {"handle": "cf.product_reviews.display_options.grid_layout", "label": "Grid layout"},
+          {"handle": "cf.product_reviews.display_options.all_reviews_page", "label": "All reviews page"},
+          {"handle": "cf.product_reviews.display_options.top_reviews", "label": "Top reviews"},
+          {"handle": "cf.product_reviews.display_options.review_highlights", "label": "Review highlights"},
+          {"handle": "cf.product_reviews.display_options.review_summaries", "label": "Review summaries"},
+          {"handle": "cf.product_reviews.display_options.filtering", "label": "Filtering"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.forms", "label": "Forms"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.surveys", "label": "Surveys"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.qr_codes", "label": "QR codes"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.import_and_export",
+            "label": "Import and export"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_migration",
+            "label": "Review migration"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.automations", "label": "Automations"},
+          {"handle": "cf.social_proof.content_types.ugc", "label": "UGC"},
+          {"handle": "cf.social_proof.content_types.photos", "label": "Photos"},
+          {"handle": "cf.social_proof.content_types.reviews", "label": "Reviews"},
+          {"handle": "cf.social_proof.display_options.review_count", "label": "Review count"},
+          {"handle": "cf.social_proof.display_options.multi_language", "label": "Multi-language"},
+          {"handle": "cf.social_proof.display_options.custom_layouts", "label": "Custom layouts"},
+          {"handle": "cf.social_proof.display_options.social_links", "label": "Social links"},
+          {"handle": "cf.social_proof.analytics.engagement_tracking", "label": "Engagement tracking"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Chinese (Simplified)",
+          " Japanese",
+          " Russian",
+          " Polish",
+          " Turkish",
+          " Swedish",
+          " Dutch",
+          " Ukrainian",
+          " Bulgarian",
+          " Greek",
+          " Slovenian",
+          " Arabic",
+          " Hungarian",
+          " Lithuanian",
+          " Icelandic",
+          " Hebrew",
+          " Romanian",
+          " Latvian",
+          " Slovak",
+          " Czech",
+          " Danish",
+          " Norwegian",
+          " Finnish",
+          " Korean",
+          " Croatian",
+          " Chinese (Traditional)",
+          " Estonian",
+          " Indonesian",
+          " Norwegian (Bokmål)",
+          " Portuguese (Portugal)",
+          " Serbian",
+          " Thai",
+          " Uzbek",
+          " and Vietnamese"
+        ],
+        "works_with": [
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Google",
+          "Google Customer Reviews opt-in",
+          "Google Map",
+          "Google Merchant Center",
+          "Google My Business",
+          "Google Reviews"
+        ]
+      },
+      "developer": {
+        "name": "Reputon",
+        "website_url": "https://reputon.com",
+        "partner_url": "https://apps.shopify.com/partners/reputon",
+        "public_address": "CLAYMONT, DE, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/google-reviews-trust-badge",
+        "canonical_app_store_url": "https://apps.shopify.com/google-reviews-trust-badge",
+        "install_url": "https://apps.shopify.com/google-reviews-trust-badge",
+        "demo_store_url": "https://reputon-google-reviews-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://reputon.com/privacy-policy",
+          "FAQ": "https://reputon.gitbook.io/reputon-help/google-reviews-app",
+          "Tutorial": "https://reputon.gitbook.io/reputon-help/google-reviews-app",
+          "Reputon": "https://apps.shopify.com/partners/reputon",
+          "Website": "https://reputon.com",
+          "Changelog": "https://headwayapp.co/reputon-google-reviews-app-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/02390e57cc10c164770a62f5ff798ec9/icon/CNytmoeEjooDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/02390e57cc10c164770a62f5ff798ec9/promotional_image/CILsk-L65ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02390e57cc10c164770a62f5ff798ec9/desktop_screenshot/CMD2muP75ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02390e57cc10c164770a62f5ff798ec9/desktop_screenshot/CLmhpOP75ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02390e57cc10c164770a62f5ff798ec9/desktop_screenshot/COrkqfLC95QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02390e57cc10c164770a62f5ff798ec9/desktop_screenshot/CM_xuryS6JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02390e57cc10c164770a62f5ff798ec9/desktop_screenshot/COHJwOP75ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02390e57cc10c164770a62f5ff798ec9/desktop_screenshot/CIPjyuP75ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02390e57cc10c164770a62f5ff798ec9/mobile_screenshot/CL6gxLyS6JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02390e57cc10c164770a62f5ff798ec9/mobile_screenshot/CPD_3OP75ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02390e57cc10c164770a62f5ff798ec9/mobile_screenshot/CNqQ5uP75ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02390e57cc10c164770a62f5ff798ec9/pos_screenshot/COPizbyS6JQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Reputon Google Reviews free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/google-reviews-trust-badge"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Italian,  Portuguese (Brazil),  Chinese (Simplified),  Japanese,  Russian,  Polish,  Turkish,  Swedish,  Dutch,  Ukrainian,  Bulgarian,  Greek,  Slovenian,  Arabic,  Hungarian,  Lithuanian,  Icelandic,  Hebrew,  Romanian,  Latvian,  Slovak,  Czech,  Danish,  Norwegian,  Finnish,  Korean,  Croatian,  Chinese (Traditional),  Estonian,  Indonesian,  Norwegian (Bokmål),  Portuguese (Portugal),  Serbian,  Thai,  Uzbek,  and Vietnamese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/google-reviews-trust-badge"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Flow, Shopify Admin, Google, Google Customer Reviews opt-in, Google Map, Google Merchant Center, Google My Business, Google Reviews",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/google-reviews-trust-badge"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/google-reviews-trust-badge"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://reputon.gitbook.io/reputon-help/google-reviews-app",
+            "https://reputon.gitbook.io/reputon-help/google-reviews-app"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-reviews", "inventory-sync", "store-translation"],
+        "primary_category_id": "product-reviews",
+        "seo": {
+          "title": "Reputon Google Reviews Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product reviews. Listed functions include testimonials, photo reviews.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/google-reviews-trust-badge",
+          "retrieved_at": "2026-10-04T05:09:30.989031+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Add Google Reviews to Shopify. Auto-sync from Google Maps & Merchant. 30+…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/google-reviews-trust-badge"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "ecc-cloud-quickbooks-online-integration",
+      "name": "Webgility x QuickBooks Desktop",
+      "slug": "ecc-cloud-quickbooks-online-integration",
+      "category_fit": {
+        "app_id": "ecc-cloud-quickbooks-online-integration",
+        "selection_score": 5.9979,
+        "rating_evidence": {"value": 4.9, "reviews": 508},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sync"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/ecc-cloud-quickbooks-online-integration"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for accounting integrations. Listed functions include income and balance, cash flow.",
+        "description_long": "Webgility x QuickBooks Desktop is developed by Webgility and listed for accounting, inventory sync. Its structured listing identifies functions such as income and balance, cash flow, sales and refunds, sales tax. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Accounting Integrations", "Inventory Sync"],
+        "best_for": {
+          "use_cases": ["Accounting Integrations", "Inventory Sync"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 508,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/ecc-cloud-quickbooks-online-integration",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 483},
+          {"stars": 4, "percentage": 3, "count": 15},
+          {"stars": 3, "percentage": 1, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 1, "count": 5}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $139/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Plus",
+            "amount_usd": 139.0,
+            "billing_period": "month",
+            "price_display": "$139 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Order Overages: $15 per 500 orders"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 249.0,
+            "billing_period": "month",
+            "price_display": "$249 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Order Overages: $15 per 500 orders"]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 499.0,
+            "billing_period": "month",
+            "price_display": "$499 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Order Overages: $15 per 500 orders"]
+          },
+          {
+            "name": "Complete",
+            "amount_usd": 749.0,
+            "billing_period": "month",
+            "price_display": "$749 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Order Overages: $15 per 500 orders"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.webgility.com/pricing-options?webgilityPlan=desktop&utm_source=Referral&utm_medium=sh0pifi&utm_campaign=App%20Listing&utm_content=Pricing%20-%20Webgility%20sh0pifi&lead_channel=Partner%20Referrals",
+        "starting_paid_monthly_price_usd": 139.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "May 30, 2013",
+        "shopify_categories": [
+          {
+            "name": "Accounting",
+            "url": "https://apps.shopify.com/categories/store-management-finances-accounting"
+          },
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.accounting.financial_reports.income_and_balance", "label": "Income and balance"},
+          {"handle": "cf.accounting.financial_reports.cash_flow", "label": "Cash flow"},
+          {"handle": "cf.accounting.financial_reports.sales_and_refunds", "label": "Sales and refunds"},
+          {"handle": "cf.accounting.financial_reports.sales_tax", "label": "Sales tax"},
+          {"handle": "cf.accounting.financial_reports.expense_tracking", "label": "Expense tracking"},
+          {
+            "handle": "cf.accounting.financial_reports.returns_and_exchanges",
+            "label": "Returns and exchanges"
+          },
+          {"handle": "cf.accounting.financial_reports.cogs_tracking", "label": "COGS tracking"},
+          {"handle": "cf.accounting.financial_reports.custom_reports", "label": "Custom reports"},
+          {
+            "handle": "cf.accounting.financial_reports.performance_dashboard",
+            "label": "Performance dashboard"
+          },
+          {
+            "handle": "cf.accounting.financial_operations.billing_and_invoicing",
+            "label": "Billing and invoicing"
+          },
+          {"handle": "cf.accounting.financial_operations.accounts_receivable", "label": "Accounts receivable"},
+          {"handle": "cf.accounting.financial_operations.net_terms", "label": "Net terms"},
+          {"handle": "cf.accounting.financial_operations.stock_updates", "label": "Stock updates"},
+          {"handle": "cf.accounting.financial_operations.multi_store", "label": "Multi-store"},
+          {"handle": "cf.accounting.financial_operations.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.accounting.financial_operations.multi_channel", "label": "Multi-channel"},
+          {"handle": "cf.accounting.automated_data_sync.daily_sales_summary", "label": "Daily sales summary"},
+          {"handle": "cf.accounting.automated_data_sync.order_details", "label": "Order details"},
+          {"handle": "cf.accounting.automated_data_sync.transactions", "label": "Transactions"},
+          {"handle": "cf.accounting.automated_data_sync.payouts", "label": "Payouts"},
+          {"handle": "cf.accounting.automated_data_sync.customers", "label": "Customers"},
+          {
+            "handle": "cf.accounting.automated_data_sync.inventory_and_product",
+            "label": "Inventory and product"
+          },
+          {
+            "handle": "cf.accounting.automated_data_sync.real_time_inventory_sync",
+            "label": "Real-time inventory sync"
+          },
+          {"handle": "cf.accounting.automated_data_sync.pricing", "label": "Pricing"},
+          {"handle": "cf.accounting.automated_data_sync.sales_tax_mapping", "label": "Sales tax mapping"},
+          {"handle": "cf.accounting.automated_data_sync.bank_reconciliation", "label": "Bank reconciliation"},
+          {
+            "handle": "cf.accounting.automated_data_sync.historical_data_import",
+            "label": "Historical data import"
+          },
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Amazon", "eBay", "Magento", "QuickBooks", "Walmart", "WooCommerce"]
+      },
+      "developer": {
+        "name": "Webgility",
+        "website_url": "https://www.webgility.com/integrations/",
+        "partner_url": "https://apps.shopify.com/partners/webgility-inc",
+        "public_address": "1111 6th Ave, STE 550, San Diego, CA, 92121, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/ecc-cloud-quickbooks-online-integration",
+        "canonical_app_store_url": "https://apps.shopify.com/ecc-cloud-quickbooks-online-integration",
+        "install_url": "https://apps.shopify.com/ecc-cloud-quickbooks-online-integration",
+        "demo_store_url": "https://go.webgility.com/book-a-demo",
+        "resources": {
+          "Privacy policy": "https://www.webgility.com/privacy-policy",
+          "Webgility": "https://apps.shopify.com/partners/webgility-inc",
+          "Website": "https://www.webgility.com/integrations/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/ff3b3f7f717719b04a2138d1ce7c88a8/icon/CPLL8vnr7JEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/ff3b3f7f717719b04a2138d1ce7c88a8/promotional_image/CIrIjIrGz5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff3b3f7f717719b04a2138d1ce7c88a8/desktop_screenshot/CK7xl4rGz5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff3b3f7f717719b04a2138d1ce7c88a8/desktop_screenshot/COWzoYrGz5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff3b3f7f717719b04a2138d1ce7c88a8/desktop_screenshot/CIr9qorGz5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff3b3f7f717719b04a2138d1ce7c88a8/desktop_screenshot/COKDtIrGz5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff3b3f7f717719b04a2138d1ce7c88a8/desktop_screenshot/CN-QvYrGz5MDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Webgility x QuickBooks Desktop free?",
+            "answer": "The pricing label retrieved from the listing is: From $139/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/ecc-cloud-quickbooks-online-integration"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ecc-cloud-quickbooks-online-integration"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Amazon, eBay, Magento, QuickBooks, Walmart, WooCommerce",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ecc-cloud-quickbooks-online-integration"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/ecc-cloud-quickbooks-online-integration"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the supported jurisdictions and check the relevant tax or invoice settings.",
+            "Review a sample transaction and document before enabling automation.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["accounting-integrations", "inventory-sync"],
+        "primary_category_id": "accounting-integrations",
+        "seo": {
+          "title": "Webgility x QuickBooks Desktop Shopify App | eStorefy",
+          "meta_description": "A Shopify app for accounting integrations. Listed functions include income and balance, cash flow.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/ecc-cloud-quickbooks-online-integration",
+          "retrieved_at": "2026-10-04T05:04:27.364896+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Webgility connects Shopify to QuickBooks Desktop, so orders, expenses, payouts and inventory…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/ecc-cloud-quickbooks-online-integration"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "epi",
+      "name": "InfoShore eBay Integration",
+      "slug": "epi",
+      "category_fit": {
+        "app_id": "epi",
+        "selection_score": 5.9836,
+        "rating_evidence": {"value": 4.9, "reviews": 411},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sync"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/epi"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for inventory sync. Listed functions include orders, prices.",
+        "description_long": "InfoShore eBay Integration is developed by InfoShore  and listed for inventory sync, store data importer. Its structured listing identifies functions such as orders, prices, product details, variants. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Inventory Sync", "Marketplace Integrations"],
+        "best_for": {
+          "use_cases": ["Inventory Sync", "Marketplace Integrations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 411,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/epi",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 378},
+          {"stars": 4, "percentage": 2, "count": 8},
+          {"stars": 3, "percentage": 1, "count": 4},
+          {"stars": 2, "percentage": 1, "count": 3},
+          {"stars": 1, "percentage": 4, "count": 18}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Bronze",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $199/year and save 17%"]
+          },
+          {
+            "name": "SILVER",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $299/year and save 17%"]
+          },
+          {
+            "name": "GOLD",
+            "amount_usd": 69.99,
+            "billing_period": "month",
+            "price_display": "$69.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $699/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.infoshoreapps.com/ebay-integration.php#pricingsecondrow",
+        "starting_paid_monthly_price_usd": 19.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 20, 2017",
+        "shopify_categories": [
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          },
+          {
+            "name": "Store data importer",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-store-data-importer"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"},
+          {"handle": "cf.inventory_sync.sync_type.variants", "label": "Variants"},
+          {"handle": "cf.inventory_sync.sync_type.skus", "label": "SKUs"},
+          {"handle": "cf.inventory_sync.sync_type.barcodes", "label": "Barcodes"},
+          {"handle": "cf.inventory_sync.sync_type.automatic", "label": "Automatic"},
+          {"handle": "cf.inventory_sync.sync_type.manual", "label": "Manual"},
+          {"handle": "cf.inventory_sync.sync_type.bulk", "label": "Bulk"},
+          {"handle": "cf.inventory_sync.sync_type.real_time", "label": "Real-time"},
+          {"handle": "cf.inventory_sync.sync_type.scheduled", "label": "Scheduled"},
+          {"handle": "cf.inventory_sync.sync_type.custom", "label": "Custom"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.automated_alerts",
+            "label": "Automated alerts"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.custom_notifications",
+            "label": "Custom notifications"
+          },
+          {"handle": "cf.inventory_sync.notifications_and_reports.order_updates", "label": "Order updates"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.email_alerts", "label": "Email alerts"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.error_reports", "label": "Error reports"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.inventory_alerts",
+            "label": "Inventory alerts"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.low_stock_alerts",
+            "label": "Low stock alerts"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.data_import_and_export",
+            "label": "Data import and export"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.real_time_status",
+            "label": "Real-time status"
+          },
+          {"handle": "cf.inventory_sync.notifications_and_reports.detailed_logs", "label": "Detailed logs"},
+          {"handle": "cf.store_data_importer.data_sync.auto_updates", "label": "Auto-update"},
+          {"handle": "cf.store_data_importer.data_sync.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.store_data_importer.data_sync.order_sync", "label": "Order sync"},
+          {"handle": "cf.store_data_importer.data_sync.price_sync", "label": "Price sync"},
+          {"handle": "cf.store_data_importer.data_sync.product_sync", "label": "Product sync"},
+          {"handle": "cf.store_data_importer.data_sync.two_way_sync", "label": "Two-way sync"},
+          {"handle": "cf.store_data_importer.data_sync.real_time_sync", "label": "Real-time sync"},
+          {"handle": "cf.store_data_importer.data_sync.scheduled_sync", "label": "Scheduled sync"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin", "ebay"]
+      },
+      "developer": {
+        "name": "InfoShore ",
+        "website_url": "http://www.infoshore.biz",
+        "partner_url": "https://apps.shopify.com/partners/infoshore",
+        "public_address": "IT 2002, IT ZONE RAMCHANDRAPURA INDUS. AREA, SITAPURA, Jaipur, RJ, 302022, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/epi",
+        "canonical_app_store_url": "https://apps.shopify.com/epi",
+        "install_url": "https://apps.shopify.com/epi",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://apps.infoshoreapps.com/epi/privacy-policy.html",
+          "InfoShore": "https://apps.shopify.com/partners/infoshore",
+          "Website": "http://www.infoshore.biz"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/2a201c1e8d8a4dfa803489bb35946533/icon/CPj9prL0lu8CEAE=.jpg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/2a201c1e8d8a4dfa803489bb35946533/promotional_image/CPzjs-mr2pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2a201c1e8d8a4dfa803489bb35946533/desktop_screenshot/CO-wvemr2pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2a201c1e8d8a4dfa803489bb35946533/desktop_screenshot/CKmryOmr2pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2a201c1e8d8a4dfa803489bb35946533/desktop_screenshot/CIrZ0emr2pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2a201c1e8d8a4dfa803489bb35946533/desktop_screenshot/CK_s2-mr2pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2a201c1e8d8a4dfa803489bb35946533/desktop_screenshot/CLDh5emr2pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2a201c1e8d8a4dfa803489bb35946533/desktop_screenshot/CKeP7-mr2pUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is InfoShore eBay Integration free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/epi"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/epi"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, ebay",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/epi"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/epi"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["inventory-sync", "marketplace-integrations"],
+        "primary_category_id": "inventory-sync",
+        "seo": {
+          "title": "InfoShore eBay Integration Shopify App | eStorefy",
+          "meta_description": "A Shopify app for inventory sync. Listed functions include orders, prices.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/epi",
+          "retrieved_at": "2026-10-04T05:24:12.690434+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Shopify eBay Integration to import and export products, with automatic bidirectional sync…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/epi"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "quicksync-etsy",
+      "name": "Etsy Integration by QuickSync",
+      "slug": "quicksync-etsy",
+      "category_fit": {
+        "app_id": "quicksync-etsy",
+        "selection_score": 5.975,
+        "rating_evidence": {"value": 4.8, "reviews": 1993},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sync"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/quicksync-etsy"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for inventory sync. Listed functions include inventory tracking, inventory sync.",
+        "description_long": "Etsy Integration by QuickSync is developed by R. I. T. N. S. and listed for inventory optimization, inventory sync. Its structured listing identifies functions such as inventory tracking, inventory sync, multi-location, real-time updates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Inventory Sync", "Marketplace Integrations"],
+        "best_for": {
+          "use_cases": ["Inventory Sync", "Marketplace Integrations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 1993,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/quicksync-etsy",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 1},
+          {"stars": 4, "percentage": 1, "count": 24},
+          {"stars": 3, "percentage": 0, "count": 7},
+          {"stars": 2, "percentage": 1, "count": 11},
+          {"stars": 1, "percentage": 2, "count": 40}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $19/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Lite Plan",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $205/year and save 10%", "$19 Per extra integration"]
+          },
+          {
+            "name": "Pro Plan",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $313/year and save 10%", "$29 Per extra integration"]
+          },
+          {
+            "name": "Ultra Plan",
+            "amount_usd": 69.0,
+            "billing_period": "month",
+            "price_display": "$69 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $745/year and save 10%", "$69 Per extra integration"]
+          },
+          {
+            "name": "Ultra+ Plan",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,069/year and save 10%", "$99 Per extra integration"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://quicksync.pro/pricing",
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "December 16, 2020",
+        "shopify_categories": [
+          {
+            "name": "Inventory optimization",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-optimization"
+          },
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.inventory_optimization.inventory_management.inventory_tracking",
+            "label": "Inventory tracking"
+          },
+          {
+            "handle": "cf.inventory_optimization.inventory_management.inventory_sync",
+            "label": "Inventory sync"
+          },
+          {
+            "handle": "cf.inventory_optimization.inventory_management.multi_location",
+            "label": "Multi-location"
+          },
+          {
+            "handle": "cf.inventory_optimization.inventory_management.real_time_updates",
+            "label": "Real-time updates"
+          },
+          {"handle": "cf.inventory_optimization.inventory_management.skus", "label": "SKUs"},
+          {
+            "handle": "cf.inventory_optimization.inventory_management.import_and_export",
+            "label": "Import and export"
+          },
+          {
+            "handle": "cf.inventory_optimization.inventory_management.inventory_planning",
+            "label": "Inventory planning"
+          },
+          {
+            "handle": "cf.inventory_optimization.inventory_management.workflow_automation",
+            "label": "Workflow automation"
+          },
+          {"handle": "cf.inventory_optimization.inventory_management.multi_channel", "label": "Multi-channel"},
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"},
+          {"handle": "cf.inventory_sync.sync_type.variants", "label": "Variants"},
+          {"handle": "cf.inventory_sync.sync_type.skus", "label": "SKUs"},
+          {"handle": "cf.inventory_sync.sync_type.barcodes", "label": "Barcodes"},
+          {"handle": "cf.inventory_sync.sync_type.multi_channel", "label": "Multi-channel"},
+          {"handle": "cf.inventory_sync.sync_type.multi_store", "label": "Multi-store"},
+          {"handle": "cf.inventory_sync.sync_type.automatic", "label": "Automatic"},
+          {"handle": "cf.inventory_sync.sync_type.manual", "label": "Manual"},
+          {"handle": "cf.inventory_sync.sync_type.bulk", "label": "Bulk"},
+          {"handle": "cf.inventory_sync.sync_type.real_time", "label": "Real-time"},
+          {"handle": "cf.inventory_sync.sync_type.custom", "label": "Custom"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.order_updates", "label": "Order updates"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.data_import_and_export",
+            "label": "Data import and export"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.real_time_status",
+            "label": "Real-time status"
+          }
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin", "Etsy", "Etsy Marketplace"]
+      },
+      "developer": {
+        "name": "R. I. T. N. S.",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/tanishqandmac",
+        "public_address": "Dubai, DU, AE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/quicksync-etsy",
+        "canonical_app_store_url": "https://apps.shopify.com/quicksync-etsy",
+        "install_url": "https://apps.shopify.com/quicksync-etsy",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://quicksync.pro/privacy-policy/",
+          "FAQ": "https://quicksync.pro/docs/what-is-quicksync/",
+          "App Documentation": "https://quicksync.pro/docs/",
+          "R. I. T. N. S.": "https://apps.shopify.com/partners/tanishqandmac"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/538632972d80dab2c8bc713bc6fb1b8d/icon/CLWys-eM8IMDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/538632972d80dab2c8bc713bc6fb1b8d/desktop_screenshot/CPn5kNmc2YkDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/538632972d80dab2c8bc713bc6fb1b8d/desktop_screenshot/CM2a9qGD_ocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/538632972d80dab2c8bc713bc6fb1b8d/desktop_screenshot/CKjW_6GD_ocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/538632972d80dab2c8bc713bc6fb1b8d/desktop_screenshot/CPSc25LN2YkDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/IoearFyzjnM"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Etsy Integration by QuickSync free?",
+            "answer": "The pricing label retrieved from the listing is: From $19/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/quicksync-etsy"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/quicksync-etsy"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Etsy, Etsy Marketplace",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/quicksync-etsy"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/quicksync-etsy"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://quicksync.pro/docs/what-is-quicksync/", "https://quicksync.pro/docs/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["inventory-sync", "marketplace-integrations"],
+        "primary_category_id": "inventory-sync",
+        "seo": {
+          "title": "Etsy Integration by QuickSync Shopify App | eStorefy",
+          "meta_description": "A Shopify app for inventory sync. Listed functions include inventory tracking, inventory sync.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/quicksync-etsy",
+          "retrieved_at": "2026-10-04T05:24:12.747762+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Easily connect Etsy to Shopify. Sync products, inventory, and orders in real-time…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/quicksync-etsy"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "google-review-plus-by-entangle-1",
+      "name": "Google Reviews Rocket",
+      "slug": "google-review-plus-by-entangle-1",
+      "category_fit": {
+        "app_id": "google-review-plus-by-entangle-1",
+        "selection_score": 5.9544,
+        "rating_evidence": {"value": 5.0, "reviews": 592},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sync"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/google-review-plus-by-entangle-1"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for product reviews. Listed functions include testimonials, photo reviews.",
+        "description_long": "Google Reviews Rocket is developed by Entangle Commerce and listed for product reviews, social proof. Its structured listing identifies functions such as testimonials, photo reviews, video reviews, star ratings. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Reviews", "Inventory Sync"],
+        "best_for": {
+          "use_cases": ["Product Reviews", "Inventory Sync"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 592,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/google-review-plus-by-entangle-1",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 579},
+          {"stars": 4, "percentage": 2, "count": 9},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Platinum",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $47.90/year and save 20%", "Limited-time offer: First month for just $1"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.90/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "July 18, 2023",
+        "shopify_categories": [
+          {
+            "name": "Product reviews",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews"
+          },
+          {
+            "name": "Social proof",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-social-proof"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_reviews.display_options.testimonials", "label": "Testimonials"},
+          {"handle": "cf.product_reviews.display_options.photo_reviews", "label": "Photo reviews"},
+          {"handle": "cf.product_reviews.display_options.video_reviews", "label": "Video reviews"},
+          {"handle": "cf.product_reviews.display_options.star_ratings", "label": "Star ratings"},
+          {"handle": "cf.product_reviews.display_options.badges", "label": "Badges"},
+          {"handle": "cf.product_reviews.display_options.carousels", "label": "Carousels"},
+          {"handle": "cf.product_reviews.display_options.media_galleries", "label": "Media galleries"},
+          {"handle": "cf.product_reviews.display_options.grid_layout", "label": "Grid layout"},
+          {"handle": "cf.product_reviews.display_options.all_reviews_page", "label": "All reviews page"},
+          {"handle": "cf.product_reviews.display_options.top_reviews", "label": "Top reviews"},
+          {"handle": "cf.product_reviews.display_options.review_highlights", "label": "Review highlights"},
+          {"handle": "cf.product_reviews.display_options.review_summaries", "label": "Review summaries"},
+          {"handle": "cf.product_reviews.display_options.filtering", "label": "Filtering"},
+          {"handle": "cf.product_reviews.display_options.rich_snippets", "label": "Rich snippets"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.email_requests", "label": "Email requests"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.forms", "label": "Forms"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.qr_codes", "label": "QR codes"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.import_and_export",
+            "label": "Import and export"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.automations", "label": "Automations"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.custom_requests", "label": "Custom requests"},
+          {"handle": "cf.social_proof.content_types.photos", "label": "Photos"},
+          {"handle": "cf.social_proof.content_types.videos", "label": "Videos"},
+          {"handle": "cf.social_proof.content_types.reviews", "label": "Reviews"},
+          {"handle": "cf.social_proof.display_options.product_views", "label": "Product views"},
+          {"handle": "cf.social_proof.display_options.review_count", "label": "Review count"},
+          {"handle": "cf.social_proof.display_options.multi_language", "label": "Multi-language"},
+          {"handle": "cf.social_proof.display_options.custom_layouts", "label": "Custom layouts"},
+          {"handle": "cf.social_proof.analytics.engagement_tracking", "label": "Engagement tracking"}
+        ],
+        "languages": ["English", " French", " German", " Italian", " Japanese", " Spanish", " and Portuguese (Portugal)"],
+        "works_with": ["Customer accounts", "Shopify Admin", "Google Map", "Google My Business", "Google Reviews"]
+      },
+      "developer": {
+        "name": "Entangle Commerce",
+        "website_url": "https://googlereviewsrocket.com/",
+        "partner_url": "https://apps.shopify.com/partners/entangle-commerce",
+        "public_address": "Toronto, ON, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/google-review-plus-by-entangle-1",
+        "canonical_app_store_url": "https://apps.shopify.com/google-review-plus-by-entangle-1",
+        "install_url": "https://apps.shopify.com/google-review-plus-by-entangle-1",
+        "demo_store_url": "https://entangle-commerce-google-review.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://entanglecommerce.com/privacy-policy/",
+          "FAQ": "https://entanglecommerce.com/google-review-plus-by-entangle/faq-google-review-plus/",
+          "Tutorial": "https://www.youtube.com/watch?v=rZedIOTofB0",
+          "Entangle Commerce": "https://apps.shopify.com/partners/entangle-commerce",
+          "Website": "https://googlereviewsrocket.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/5304bcb9e74f9f49b0e22d99aeccb521/icon/CKXqkpjjoJIDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/5304bcb9e74f9f49b0e22d99aeccb521/promotional_image/CL__u7Wp15UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5304bcb9e74f9f49b0e22d99aeccb521/desktop_screenshot/CI7Yt-HYt5QDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5304bcb9e74f9f49b0e22d99aeccb521/desktop_screenshot/CIXukMup15UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5304bcb9e74f9f49b0e22d99aeccb521/desktop_screenshot/CL_ji-XXt5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5304bcb9e74f9f49b0e22d99aeccb521/desktop_screenshot/CKq0wrf_hJcDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5304bcb9e74f9f49b0e22d99aeccb521/desktop_screenshot/CI_9y7f_hJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5304bcb9e74f9f49b0e22d99aeccb521/desktop_screenshot/COWY1rf_hJcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Google Reviews Rocket free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/google-review-plus-by-entangle-1"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  German,  Italian,  Japanese,  Spanish,  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/google-review-plus-by-entangle-1"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Admin, Google Map, Google My Business, Google Reviews",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/google-review-plus-by-entangle-1"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/google-review-plus-by-entangle-1"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://entanglecommerce.com/google-review-plus-by-entangle/faq-google-review-plus/",
+            "https://www.youtube.com/watch?v=rZedIOTofB0"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-reviews", "inventory-sync"],
+        "primary_category_id": "product-reviews",
+        "seo": {
+          "title": "Google Reviews Rocket Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product reviews. Listed functions include testimonials, photo reviews.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/google-review-plus-by-entangle-1",
+          "retrieved_at": "2026-10-04T05:09:42.311386+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Google Reviews widget for Shopify — display Google Business Profile reviews, collect…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/google-review-plus-by-entangle-1"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "lionz-apps-sync",
+      "name": "Lionz ‑ eBay Sync & Importer",
+      "slug": "lionz-apps-sync",
+      "category_fit": {
+        "app_id": "lionz-apps-sync",
+        "selection_score": 5.9504,
+        "rating_evidence": {"value": 4.9, "reviews": 265},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sync"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/lionz-apps-sync"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for inventory sync. Listed functions include feed automation, product feed.",
+        "description_long": "Lionz ‑ eBay Sync & Importer is developed by Lionz GmbH and listed for marketplaces, inventory sync. Its structured listing identifies functions such as feed automation, product feed, product sync, product selection. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Inventory Sync", "Marketplace Integrations", "Store Migration & Data Import"],
+        "best_for": {
+          "use_cases": ["Inventory Sync", "Marketplace Integrations", "Store Migration & Data Import"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 265,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/lionz-apps-sync",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 254},
+          {"stars": 4, "percentage": 1, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 2, "count": 4},
+          {"stars": 1, "percentage": 2, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "$9.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Fair Plan",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "March 23, 2023",
+        "shopify_categories": [
+          {
+            "name": "Marketplaces",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-marketplaces"
+          },
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.marketplaces.listing_management.feed_automation", "label": "Feed automation"},
+          {"handle": "cf.marketplaces.listing_management.product_feed", "label": "Product feed"},
+          {"handle": "cf.marketplaces.listing_management.product_sync", "label": "Product sync"},
+          {"handle": "cf.marketplaces.listing_management.product_selection", "label": "Product selection"},
+          {"handle": "cf.marketplaces.listing_management.offer_sync", "label": "Offer sync"},
+          {"handle": "cf.marketplaces.listing_management.local_currency", "label": "Local currency"},
+          {"handle": "cf.marketplaces.listing_management.bulk_upload", "label": "Bulk upload"},
+          {"handle": "cf.marketplaces.listing_management.custom_listings", "label": "Custom listings"},
+          {
+            "handle": "cf.marketplaces.order_management.multi_location_fulfillment",
+            "label": "Multi-location fulfillment"
+          },
+          {"handle": "cf.marketplaces.order_management.order_sync", "label": "Order sync"},
+          {"handle": "cf.marketplaces.order_management.tracking_sync", "label": "Tracking sync"},
+          {"handle": "cf.marketplaces.order_management.unified_dashboard", "label": "Unified dashboard"},
+          {"handle": "cf.marketplaces.order_management.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.marketplaces.order_management.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"},
+          {"handle": "cf.inventory_sync.sync_type.variants", "label": "Variants"},
+          {"handle": "cf.inventory_sync.sync_type.skus", "label": "SKUs"},
+          {"handle": "cf.inventory_sync.sync_type.barcodes", "label": "Barcodes"},
+          {"handle": "cf.inventory_sync.sync_type.automatic", "label": "Automatic"},
+          {"handle": "cf.inventory_sync.sync_type.real_time", "label": "Real-time"},
+          {"handle": "cf.inventory_sync.sync_type.custom", "label": "Custom"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.order_updates", "label": "Order updates"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.email_alerts", "label": "Email alerts"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.error_reports", "label": "Error reports"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.data_import_and_export",
+            "label": "Data import and export"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.performance_metrics",
+            "label": "Performance metrics"
+          }
+        ],
+        "languages": [
+          "German",
+          " English",
+          " French",
+          " Spanish",
+          " Italian",
+          " Polish",
+          " Dutch",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " and Czech"
+        ],
+        "works_with": ["Shopify Admin", "eBay"]
+      },
+      "developer": {
+        "name": "Lionz GmbH",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/lionz-gmbh",
+        "public_address": "Markgrafenstr. 21, Bötzingen, 79268, DE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/lionz-apps-sync",
+        "canonical_app_store_url": "https://apps.shopify.com/lionz-apps-sync",
+        "install_url": "https://apps.shopify.com/lionz-apps-sync",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "http://lionz-studio.com/datenschutz/",
+          "Lionz GmbH": "https://apps.shopify.com/partners/lionz-gmbh"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/adcc8e91aa24747de07f221d9fc80fac/icon/CM_0gL7foYYDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/adcc8e91aa24747de07f221d9fc80fac/promotional_image/COCt_v-EnosDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/adcc8e91aa24747de07f221d9fc80fac/desktop_screenshot/CKaOn5yjmYsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/adcc8e91aa24747de07f221d9fc80fac/desktop_screenshot/CKinqpyjmYsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/adcc8e91aa24747de07f221d9fc80fac/desktop_screenshot/CJrts5yjmYsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/adcc8e91aa24747de07f221d9fc80fac/desktop_screenshot/CKa5r-Clq5EDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Lionz ‑ eBay Sync & Importer free?",
+            "answer": "The pricing label retrieved from the listing is: $9.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/lionz-apps-sync"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "German,  English,  French,  Spanish,  Italian,  Polish,  Dutch,  Portuguese (Brazil),  Portuguese (Portugal),  and Czech",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/lionz-apps-sync"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, eBay",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/lionz-apps-sync"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/lionz-apps-sync"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["inventory-sync", "marketplace-integrations", "store-migration-data-import"],
+        "primary_category_id": "inventory-sync",
+        "seo": {
+          "title": "Lionz ‑ eBay Sync & Importer Shopify App | eStorefy",
+          "meta_description": "A Shopify app for inventory sync. Listed functions include feed automation, product feed.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/lionz-apps-sync",
+          "retrieved_at": "2026-10-04T05:24:20.373533+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Seamlessly export your Shopify products to eBay, sync orders effortlessly, and keep…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/lionz-apps-sync"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "litcommerce",
+      "name": "LitCommerce eBay Etsy Amazon +",
+      "slug": "litcommerce",
+      "category_fit": {
+        "app_id": "litcommerce",
+        "selection_score": 5.9387,
+        "rating_evidence": {"value": 4.8, "reviews": 971},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sync"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/litcommerce"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for inventory sync. Listed functions include product feed, product sync.",
+        "description_long": "LitCommerce eBay Etsy Amazon + is developed by LitCommerce and listed for marketplaces, inventory sync. Its structured listing identifies functions such as product feed, product sync, local currency, bulk upload. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Inventory Sync", "Marketplace Integrations"],
+        "best_for": {
+          "use_cases": ["Inventory Sync", "Marketplace Integrations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 971,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/litcommerce",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 892},
+          {"stars": 4, "percentage": 3, "count": 31},
+          {"stars": 3, "percentage": 1, "count": 8},
+          {"stars": 2, "percentage": 1, "count": 12},
+          {"stars": 1, "percentage": 3, "count": 28}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "$29/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Pay as you go",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $278/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://litcommerce.com/pricing/#multichannel?utm_source=sappstore&utm_medium=link&utm_campaign=applisting",
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "May 18, 2022 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Marketplaces",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-marketplaces"
+          },
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.marketplaces.listing_management.product_feed", "label": "Product feed"},
+          {"handle": "cf.marketplaces.listing_management.product_sync", "label": "Product sync"},
+          {"handle": "cf.marketplaces.listing_management.local_currency", "label": "Local currency"},
+          {"handle": "cf.marketplaces.listing_management.bulk_upload", "label": "Bulk upload"},
+          {"handle": "cf.marketplaces.listing_management.custom_listings", "label": "Custom listings"},
+          {"handle": "cf.marketplaces.listing_management.listing_analytics", "label": "Listing analytics"},
+          {
+            "handle": "cf.marketplaces.order_management.multi_location_fulfillment",
+            "label": "Multi-location fulfillment"
+          },
+          {"handle": "cf.marketplaces.order_management.bulk_orders", "label": "Bulk orders"},
+          {"handle": "cf.marketplaces.order_management.order_sync", "label": "Order sync"},
+          {"handle": "cf.marketplaces.order_management.tracking_sync", "label": "Tracking sync"},
+          {"handle": "cf.marketplaces.order_management.unified_dashboard", "label": "Unified dashboard"},
+          {"handle": "cf.marketplaces.order_management.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.marketplaces.order_management.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"},
+          {"handle": "cf.inventory_sync.sync_type.variants", "label": "Variants"},
+          {"handle": "cf.inventory_sync.sync_type.skus", "label": "SKUs"},
+          {"handle": "cf.inventory_sync.sync_type.multi_channel", "label": "Multi-channel"},
+          {"handle": "cf.inventory_sync.sync_type.multi_store", "label": "Multi-store"},
+          {"handle": "cf.inventory_sync.sync_type.real_time", "label": "Real-time"},
+          {"handle": "cf.inventory_sync.sync_type.custom", "label": "Custom"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.automated_alerts",
+            "label": "Automated alerts"
+          },
+          {"handle": "cf.inventory_sync.notifications_and_reports.order_updates", "label": "Order updates"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.error_reports", "label": "Error reports"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.inventory_alerts",
+            "label": "Inventory alerts"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.low_stock_alerts",
+            "label": "Low stock alerts"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.data_import_and_export",
+            "label": "Data import and export"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.performance_metrics",
+            "label": "Performance metrics"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.real_time_status",
+            "label": "Real-time status"
+          }
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Etsy, Ebay, Amazon, Walmart",
+          "Facebook, Meta, Shopee",
+          "Google Shopping, Square",
+          "Temu, Faire, Reverb",
+          "TikTok Shop",
+          "WooCommerce, BigCommerce, WIX"
+        ]
+      },
+      "developer": {
+        "name": "LitCommerce",
+        "website_url": "https://litcommerce.com/",
+        "partner_url": "https://apps.shopify.com/partners/litcommerce1",
+        "public_address": "56 To Huu, Ha Noi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/litcommerce",
+        "canonical_app_store_url": "https://apps.shopify.com/litcommerce",
+        "install_url": "https://apps.shopify.com/litcommerce",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://litcommerce.com/privacy-policy/",
+          "Tutorial": "https://help.litcommerce.com/en/",
+          "LitCommerce": "https://apps.shopify.com/partners/litcommerce1",
+          "Website": "https://litcommerce.com/",
+          "Changelog": "https://litcommerce.com/product-updates/#marketplace"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/d98dc3455024dc58f881a5cc157a5ae9/icon/CLnm3Jffn4IDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/d98dc3455024dc58f881a5cc157a5ae9/desktop_screenshot/CMKMx_2IiY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d98dc3455024dc58f881a5cc157a5ae9/desktop_screenshot/CK2ysOmMiY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d98dc3455024dc58f881a5cc157a5ae9/desktop_screenshot/CPPfjeew6v4CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d98dc3455024dc58f881a5cc157a5ae9/desktop_screenshot/CJjxxrTAovoCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d98dc3455024dc58f881a5cc157a5ae9/desktop_screenshot/CMb-luew6v4CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d98dc3455024dc58f881a5cc157a5ae9/desktop_screenshot/CJPooeew6v4CEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/RYvQRCz_ewY"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is LitCommerce eBay Etsy Amazon + free?",
+            "answer": "The pricing label retrieved from the listing is: $29/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/litcommerce"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/litcommerce"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Etsy, Ebay, Amazon, Walmart, Facebook, Meta, Shopee, Google Shopping, Square, Temu, Faire, Reverb, TikTok Shop, WooCommerce, BigCommerce, WIX",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/litcommerce"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/litcommerce"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.litcommerce.com/en/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["inventory-sync", "marketplace-integrations"],
+        "primary_category_id": "inventory-sync",
+        "seo": {
+          "title": "LitCommerce eBay Etsy Amazon + Shopify App | eStorefy",
+          "meta_description": "A Shopify app for inventory sync. Listed functions include product feed, product sync.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/litcommerce",
+          "retrieved_at": "2026-10-04T05:27:25.987545+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Seamlessly sync Shopify inventory to Etsy, eBay, Amazon, TikTok Shop, and 20+…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/litcommerce"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "synctrack",
+      "name": "Synctrack PayPal Tracking Sync",
+      "slug": "synctrack",
+      "category_fit": {
+        "app_id": "synctrack",
+        "selection_score": 5.9345,
+        "rating_evidence": {"value": 5.0, "reviews": 443},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sync"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/synctrack"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for event tickets. Listed functions include real-time tracking, translation.",
+        "description_long": "Synctrack PayPal Tracking Sync is developed by Synctrack and listed for order tracking, fraud. Its structured listing identifies functions such as real-time tracking, translation, dashboards, multi-carrier. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Event Tickets", "Order Tracking", "Inventory Sync"],
+        "best_for": {
+          "use_cases": ["Event Tickets", "Order Tracking", "Inventory Sync"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 443,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/synctrack",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 439},
+          {"stars": 4, "percentage": 1, "count": 3},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "BASIC",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.88/year and save 20%"]
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $191.88/year and save 20%"]
+          },
+          {
+            "name": "ENTERPRISE",
+            "amount_usd": 59.99,
+            "billing_period": "month",
+            "price_display": "$59.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $575.88/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://synctrack.io/pricing/?app=paypal",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "December 16, 2020",
+        "shopify_categories": [
+          {
+            "name": "Order tracking",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-order-tracking"
+          },
+          {"name": "Fraud", "url": "https://apps.shopify.com/categories/store-management-security-fraud"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.order_tracking.tracking.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.order_tracking.tracking.translation", "label": "Translation"},
+          {"handle": "cf.order_tracking.tracking.dashboards", "label": "Dashboards"},
+          {"handle": "cf.order_tracking.tracking.multi_carrier", "label": "Multi-carrier"},
+          {"handle": "cf.order_tracking.tracking.analytics", "label": "Analytics"},
+          {"handle": "cf.order_tracking.notifications.email", "label": "Email"},
+          {
+            "handle": "cf.order_tracking.notifications.real_time_notifications",
+            "label": "Real-time notifications"
+          },
+          {"handle": "cf.order_tracking.notifications.translation", "label": "Translation"},
+          {"handle": "cf.order_tracking.notifications.custom_notifications", "label": "Custom notifications"},
+          {"handle": "cf.order_tracking.notifications.automation", "label": "Automations"}
+        ],
+        "languages": [
+          "English",
+          " Dutch",
+          " German",
+          " French",
+          " Spanish",
+          " Chinese (Simplified)",
+          " Japanese",
+          " and Italian"
+        ],
+        "works_with": [
+          "Shopify Flow",
+          "Shopify Admin",
+          "ClickFunnel",
+          "Facebook & Instagram Channels",
+          "Payflow",
+          "PayPal & Stripe",
+          "PayPal Dispute Resolution",
+          "PayPal Express Checkout"
+        ]
+      },
+      "developer": {
+        "name": "Synctrack",
+        "website_url": "https://synctrack.io/paypal-tracking/",
+        "partner_url": "https://apps.shopify.com/partners/synctrack",
+        "public_address": "18/11 Thai Ha, Ha Noi, 70000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/synctrack",
+        "canonical_app_store_url": "https://apps.shopify.com/synctrack",
+        "install_url": "https://apps.shopify.com/synctrack",
+        "demo_store_url": "https://demo.synctrack.io",
+        "resources": {
+          "Privacy policy": "https://www.omegatheme.com/privacy-policy-app",
+          "FAQ": "https://synctrack.gitbook.io/welcome-to-synctrack/",
+          "Tutorial": "https://synctrack.io/knowledge-base/paypal-tracking/",
+          "App Documentation": "https://synctrack.io/knowledge-base/paypal-tracking/",
+          "Synctrack": "https://apps.shopify.com/partners/synctrack",
+          "Website": "https://synctrack.io/paypal-tracking/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/icon/CNnN08C8-ZUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/promotional_image/CIHy_MedhJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/desktop_screenshot/CLamo6LE-ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/desktop_screenshot/CI23rKLE-ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/desktop_screenshot/CLS5uKLE-ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/desktop_screenshot/COnHwaLE-ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/desktop_screenshot/CLity6LE-ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/desktop_screenshot/COas1KLE-ZUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Synctrack PayPal Tracking Sync free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/synctrack"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Dutch,  German,  French,  Spanish,  Chinese (Simplified),  Japanese,  and Italian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/synctrack"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Flow, Shopify Admin, ClickFunnel, Facebook & Instagram Channels, Payflow, PayPal & Stripe, PayPal Dispute Resolution, PayPal Express Checkout",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/synctrack"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/synctrack"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://synctrack.gitbook.io/welcome-to-synctrack/",
+            "https://synctrack.io/knowledge-base/paypal-tracking/",
+            "https://synctrack.io/knowledge-base/paypal-tracking/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["event-tickets", "order-tracking", "inventory-sync"],
+        "primary_category_id": "event-tickets",
+        "seo": {
+          "title": "Synctrack PayPal Tracking Sync Shopify App | eStorefy",
+          "meta_description": "A Shopify app for event tickets. Listed functions include real-time tracking, translation.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/synctrack",
+          "retrieved_at": "2026-10-04T05:22:26.278487+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Real-time sync Stripe and PayPal tracking info. Remove PayPal holds, get PayPal…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/synctrack"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "a2x",
+      "name": "A2X Sync for QuickBooks & Xero",
+      "slug": "a2x",
+      "category_fit": {
+        "app_id": "a2x",
+        "selection_score": 5.9189,
+        "rating_evidence": {"value": 5.0, "reviews": 360},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sync"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/a2x"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for accounting integrations. Listed functions include income and balance, sales and refunds.",
+        "description_long": "A2X Sync for QuickBooks & Xero is developed by A2X Software Limited and listed for accounting. Its structured listing identifies functions such as income and balance, sales and refunds, sales tax, returns and exchanges. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Accounting Integrations", "Shipping Rate Calculators", "Inventory Sync"],
+        "best_for": {
+          "use_cases": ["Accounting Integrations", "Shipping Rate Calculators", "Inventory Sync"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 360,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/a2x",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 345},
+          {"stars": 4, "percentage": 3, "count": 10},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $29/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Mini",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 45.0,
+            "billing_period": "month",
+            "price_display": "$45 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 115.0,
+            "billing_period": "month",
+            "price_display": "$115 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": "https://www.a2xaccounting.com/pricing",
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 12, 2019 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Accounting",
+            "url": "https://apps.shopify.com/categories/store-management-finances-accounting"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.accounting.financial_reports.income_and_balance", "label": "Income and balance"},
+          {"handle": "cf.accounting.financial_reports.sales_and_refunds", "label": "Sales and refunds"},
+          {"handle": "cf.accounting.financial_reports.sales_tax", "label": "Sales tax"},
+          {
+            "handle": "cf.accounting.financial_reports.returns_and_exchanges",
+            "label": "Returns and exchanges"
+          },
+          {"handle": "cf.accounting.financial_reports.cogs_tracking", "label": "COGS tracking"},
+          {"handle": "cf.accounting.financial_reports.custom_reports", "label": "Custom reports"},
+          {
+            "handle": "cf.accounting.financial_reports.performance_dashboard",
+            "label": "Performance dashboard"
+          },
+          {"handle": "cf.accounting.financial_operations.accounts_receivable", "label": "Accounts receivable"},
+          {"handle": "cf.accounting.financial_operations.multi_store", "label": "Multi-store"},
+          {"handle": "cf.accounting.financial_operations.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.accounting.financial_operations.multi_channel", "label": "Multi-channel"},
+          {"handle": "cf.accounting.automated_data_sync.daily_sales_summary", "label": "Daily sales summary"},
+          {"handle": "cf.accounting.automated_data_sync.order_details", "label": "Order details"},
+          {"handle": "cf.accounting.automated_data_sync.transactions", "label": "Transactions"},
+          {"handle": "cf.accounting.automated_data_sync.payouts", "label": "Payouts"},
+          {"handle": "cf.accounting.automated_data_sync.sales_tax_mapping", "label": "Sales tax mapping"},
+          {"handle": "cf.accounting.automated_data_sync.bank_reconciliation", "label": "Bank reconciliation"},
+          {
+            "handle": "cf.accounting.automated_data_sync.historical_data_import",
+            "label": "Historical data import"
+          }
+        ],
+        "languages": ["English"],
+        "works_with": ["Amazon", "NetSuite", "PayPal", "QuickBooks", "Sage", "Xero"]
+      },
+      "developer": {
+        "name": "A2X Software Limited",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/a2x-accounting",
+        "public_address": "2100 - 2 Bloor Street E, Toronto, ON, M4W 1A8, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/a2x",
+        "canonical_app_store_url": "https://apps.shopify.com/a2x",
+        "install_url": "https://apps.shopify.com/a2x",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.a2xaccounting.com/privacy",
+          "A2X Software Limited": "https://apps.shopify.com/partners/a2x-accounting",
+          "Changelog": "https://www.a2xaccounting.com/whats-new"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6572a569975f89dd622407fff4b64aba/icon/CIqJsczd-fsCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6572a569975f89dd622407fff4b64aba/desktop_screenshot/CM7F35vQ_P0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6572a569975f89dd622407fff4b64aba/desktop_screenshot/CMio7JvQ_P0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6572a569975f89dd622407fff4b64aba/desktop_screenshot/CMHTj6_g-fsCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6572a569975f89dd622407fff4b64aba/desktop_screenshot/CMTTmq_g-fsCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6572a569975f89dd622407fff4b64aba/desktop_screenshot/CObjpa_g-fsCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6572a569975f89dd622407fff4b64aba/desktop_screenshot/CM2wsP7LjooDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/QnhnQ-XyCo8"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is A2X Sync for QuickBooks & Xero free?",
+            "answer": "The pricing label retrieved from the listing is: From $29/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/a2x"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/a2x"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Amazon, NetSuite, PayPal, QuickBooks, Sage, Xero",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/a2x"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/a2x"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the supported jurisdictions and check the relevant tax or invoice settings.",
+            "Review a sample transaction and document before enabling automation.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["accounting-integrations", "shipping-rate-calculators", "inventory-sync"],
+        "primary_category_id": "accounting-integrations",
+        "seo": {
+          "title": "A2X Sync for QuickBooks & Xero Shopify App | eStorefy",
+          "meta_description": "A Shopify app for accounting integrations. Listed functions include income and balance, sales and refunds.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/a2x",
+          "retrieved_at": "2026-10-04T05:04:11.267989+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Join the thousands of merchants, accountants, and bookkeepers that trust A2X to…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/a2x"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

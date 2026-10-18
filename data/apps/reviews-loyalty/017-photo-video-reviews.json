@@ -1,0 +1,2302 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "photo-video-reviews",
+    "number": 17,
+    "name": "Photo & Video Reviews",
+    "group": "Reviews & Loyalty",
+    "slug": "photo-video-reviews",
+    "url_path": "/apps/photo-video-reviews",
+    "focus": "Collect customer feedback and support repeat purchasing.",
+    "description": "Compare Shopify apps for photo & video reviews. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews/all"],
+    "seo": {
+      "title": "Shopify Photo & Video Reviews Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for photo & video reviews: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 8,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a photo & video reviews app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "loox",
+      "name": "Loox ‑ Product Reviews App",
+      "slug": "loox",
+      "category_fit": {
+        "app_id": "loox",
+        "selection_score": 6.1477,
+        "rating_evidence": {"value": 4.9, "reviews": 9759},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["visual", "photo", "video"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/loox"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for product reviews. Listed functions include testimonials, photo reviews.",
+        "description_long": "Loox ‑ Product Reviews App is developed by Loox and listed for product reviews, social proof. Its structured listing identifies functions such as testimonials, photo reviews, video reviews, star ratings. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Reviews", "Photo & Video Reviews", "ERP & Warehouse Integrations"],
+        "best_for": {
+          "use_cases": ["Product Reviews", "Photo & Video Reviews", "ERP & Warehouse Integrations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 9759,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/loox",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 9},
+          {"stars": 4, "percentage": 3, "count": 334},
+          {"stars": 3, "percentage": 0, "count": 44},
+          {"stars": 2, "percentage": 0, "count": 27},
+          {"stars": 1, "percentage": 2, "count": 161}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Beginner",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Convert",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["300 orders included in base price + $50 per additional 300 orders"]
+          },
+          {
+            "name": "Unlimited",
+            "amount_usd": 299.99,
+            "billing_period": "month",
+            "price_display": "$299.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://loox.app/pricing?&utm_medium=pricing_link&utm_source=loox_app_store_listing&utm_campaign=loox_pricing",
+        "starting_paid_monthly_price_usd": 49.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 16, 2015",
+        "shopify_categories": [
+          {
+            "name": "Product reviews",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews"
+          },
+          {
+            "name": "Social proof",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-social-proof"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_reviews.display_options.testimonials", "label": "Testimonials"},
+          {"handle": "cf.product_reviews.display_options.photo_reviews", "label": "Photo reviews"},
+          {"handle": "cf.product_reviews.display_options.video_reviews", "label": "Video reviews"},
+          {"handle": "cf.product_reviews.display_options.star_ratings", "label": "Star ratings"},
+          {"handle": "cf.product_reviews.display_options.badges", "label": "Badges"},
+          {"handle": "cf.product_reviews.display_options.carousels", "label": "Carousels"},
+          {"handle": "cf.product_reviews.display_options.media_galleries", "label": "Media galleries"},
+          {"handle": "cf.product_reviews.display_options.grid_layout", "label": "Grid layout"},
+          {"handle": "cf.product_reviews.display_options.tabs_or_sidebars", "label": "Tabs or sidebars"},
+          {"handle": "cf.product_reviews.display_options.all_reviews_page", "label": "All reviews page"},
+          {"handle": "cf.product_reviews.display_options.top_reviews", "label": "Top reviews"},
+          {"handle": "cf.product_reviews.display_options.review_highlights", "label": "Review highlights"},
+          {"handle": "cf.product_reviews.display_options.review_summaries", "label": "Review summaries"},
+          {"handle": "cf.product_reviews.display_options.product_grouping", "label": "Product grouping"},
+          {"handle": "cf.product_reviews.display_options.filtering", "label": "Filtering"},
+          {"handle": "cf.product_reviews.display_options.rich_snippets", "label": "Rich snippets"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.email_requests", "label": "Email requests"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.social_media_ugc",
+            "label": "Social media UGC"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.forms", "label": "Forms"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.promotions", "label": "Promotions"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.referrals", "label": "Referrals"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.import_and_export",
+            "label": "Import and export"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_migration",
+            "label": "Review migration"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_syndication",
+            "label": "Review syndication"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.automations", "label": "Automations"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.custom_requests", "label": "Custom requests"},
+          {"handle": "cf.social_proof.content_types.ugc", "label": "UGC"},
+          {"handle": "cf.social_proof.content_types.photos", "label": "Photos"},
+          {"handle": "cf.social_proof.content_types.videos", "label": "Videos"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Google Shopping and SEO",
+          "Klaviyo Email Marketing & SMS",
+          "Loyalty Lion Rewards Referrals",
+          "Meta Shops Facebook Instagram",
+          "Omnisend Email Marketing & SMS",
+          "Shop App"
+        ]
+      },
+      "developer": {
+        "name": "Loox",
+        "website_url": "https://loox.app?utm_source=appstore&utm_medium=listing&utm_campaign=listing",
+        "partner_url": "https://apps.shopify.com/partners/loox",
+        "public_address": "40 Tuval St., Floor 14, Ramat Gan, 5252247, IL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/loox",
+        "canonical_app_store_url": "https://apps.shopify.com/loox",
+        "install_url": "https://apps.shopify.com/loox",
+        "demo_store_url": "https://loox-demo-store.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://loox.app/legal/privacy-policy-merchants",
+          "FAQ": "http://help.loox.io",
+          "Loox": "https://apps.shopify.com/partners/loox",
+          "Website": "https://loox.app"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/icon/CPLp1Kb0lu8CEAE=.jpg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/desktop_screenshot/CPeYoq_rlJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/desktop_screenshot/CJvmqq_rlJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/desktop_screenshot/COums6_rlJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/desktop_screenshot/CLa_u6_rlJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/desktop_screenshot/CIrnw6_rlJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/desktop_screenshot/CKj9jO3k7ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/mobile_screenshot/CKrhl-3k7ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/mobile_screenshot/CJHjoO3k7ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/mobile_screenshot/CKPrqe3k7ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/mobile_screenshot/CI3xsu3k7ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/mobile_screenshot/CKLku-3k7ZQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/ESfZrL_EW6M"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Loox ‑ Product Reviews App free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/loox"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/loox"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Google Shopping and SEO, Klaviyo Email Marketing & SMS, Loyalty Lion Rewards Referrals, Meta Shops Facebook Instagram, Omnisend Email Marketing & SMS, Shop App",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/loox"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/loox"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["http://help.loox.io"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-reviews", "photo-video-reviews", "erp-warehouse-integrations"],
+        "primary_category_id": "product-reviews",
+        "seo": {
+          "title": "Loox ‑ Product Reviews App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product reviews. Listed functions include testimonials, photo reviews.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/loox",
+          "retrieved_at": "2026-10-04T05:09:31.043063+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Turn customer love into sales. Product reviews, referrals and social proof upsells…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/loox"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "sealapps-product-review",
+      "name": "CWILL(Trustoo) Product Reviews",
+      "slug": "sealapps-product-review",
+      "category_fit": {
+        "app_id": "sealapps-product-review",
+        "selection_score": 6.0622,
+        "rating_evidence": {"value": 4.9, "reviews": 1575},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["photo", "video"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/sealapps-product-review"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for product reviews. Listed functions include email campaigns, discounts.",
+        "description_long": "CWILL(Trustoo) Product Reviews is developed by CWILL and listed for email marketing, product reviews. Its structured listing identifies functions such as email campaigns, discounts, rewards, promotions. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Reviews", "Photo & Video Reviews"],
+        "best_for": {
+          "use_cases": ["Product Reviews", "Photo & Video Reviews"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1575,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/sealapps-product-review",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 1},
+          {"stars": 4, "percentage": 2, "count": 25},
+          {"stars": 3, "percentage": 0, "count": 5},
+          {"stars": 2, "percentage": 0, "count": 6},
+          {"stars": 1, "percentage": 1, "count": 19}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 11.99,
+            "billing_period": "month",
+            "price_display": "$11.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $115.10/year and save 20%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $287.90/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 11.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 13, 2022 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Email marketing",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-marketing-email-marketing"
+          },
+          {
+            "name": "Product reviews",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.email_marketing.campaign_types.email_campaigns", "label": "Email campaigns"},
+          {"handle": "cf.email_marketing.campaign_types.discounts", "label": "Discounts"},
+          {"handle": "cf.email_marketing.campaign_types.rewards", "label": "Rewards"},
+          {"handle": "cf.email_marketing.campaign_types.promotions", "label": "Promotions"},
+          {"handle": "cf.email_marketing.campaign_types.product_reviews", "label": "Product reviews"},
+          {"handle": "cf.email_marketing.managing_campaigns.templates", "label": "Templates"},
+          {"handle": "cf.email_marketing.managing_campaigns.translation", "label": "Translation"},
+          {"handle": "cf.email_marketing.managing_campaigns.automations", "label": "Automations"},
+          {"handle": "cf.email_marketing.managing_campaigns.reporting", "label": "Reporting"},
+          {"handle": "cf.email_marketing.managing_campaigns.analytics", "label": "Analytics"},
+          {"handle": "cf.product_reviews.display_options.testimonials", "label": "Testimonials"},
+          {"handle": "cf.product_reviews.display_options.photo_reviews", "label": "Photo reviews"},
+          {"handle": "cf.product_reviews.display_options.video_reviews", "label": "Video reviews"},
+          {"handle": "cf.product_reviews.display_options.star_ratings", "label": "Star ratings"},
+          {"handle": "cf.product_reviews.display_options.voting", "label": "Voting"},
+          {"handle": "cf.product_reviews.display_options.badges", "label": "Badges"},
+          {"handle": "cf.product_reviews.display_options.carousels", "label": "Carousels"},
+          {"handle": "cf.product_reviews.display_options.media_galleries", "label": "Media galleries"},
+          {"handle": "cf.product_reviews.display_options.grid_layout", "label": "Grid layout"},
+          {"handle": "cf.product_reviews.display_options.tabs_or_sidebars", "label": "Tabs or sidebars"},
+          {"handle": "cf.product_reviews.display_options.all_reviews_page", "label": "All reviews page"},
+          {"handle": "cf.product_reviews.display_options.top_reviews", "label": "Top reviews"},
+          {"handle": "cf.product_reviews.display_options.review_highlights", "label": "Review highlights"},
+          {"handle": "cf.product_reviews.display_options.review_summaries", "label": "Review summaries"},
+          {"handle": "cf.product_reviews.display_options.q_and_a", "label": "Q&A"},
+          {"handle": "cf.product_reviews.display_options.product_grouping", "label": "Product grouping"},
+          {"handle": "cf.product_reviews.display_options.filtering", "label": "Filtering"},
+          {"handle": "cf.product_reviews.display_options.rich_snippets", "label": "Rich snippets"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.email_requests", "label": "Email requests"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.social_media_ugc",
+            "label": "Social media UGC"
+          }
+        ],
+        "languages": [
+          "French",
+          " English",
+          " Spanish",
+          " Italian",
+          " Japanese",
+          " Portuguese (Brazil)",
+          " Chinese (Simplified)",
+          " German",
+          " Dutch",
+          " Portuguese (Portugal)",
+          " Czech",
+          " Danish",
+          " Norwegian (Bokmål)",
+          " Polish",
+          " Finnish",
+          " Swedish",
+          " Turkish",
+          " Thai",
+          " Chinese (Traditional)",
+          " and Korean"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Aliexpress",
+          "DSers",
+          "LOOX",
+          "Pagefly",
+          "product reviews gratis",
+          "reviews.io"
+        ]
+      },
+      "developer": {
+        "name": "CWILL",
+        "website_url": "https://www.cwill.com/products/product-reviews/",
+        "partner_url": "https://apps.shopify.com/partners/sealapps",
+        "public_address": "201 Commonwealth Ct, Ste 220, Cary, NC, 27511-4471, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/sealapps-product-review",
+        "canonical_app_store_url": "https://apps.shopify.com/sealapps-product-review",
+        "install_url": "https://apps.shopify.com/sealapps-product-review",
+        "demo_store_url": "https://vstar-listing-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.cwill.com/privacy-policy",
+          "FAQ": "https://help.trustwill-reviews.cwill.com/en",
+          "CWILL": "https://apps.shopify.com/partners/sealapps",
+          "Website": "https://www.cwill.com/products/product-reviews/",
+          "Changelog": "https://trustwillreviews.canny.io/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/88d8c68b44115c8ca0ed9eba8c945b2c/icon/CIKMvsf97ZUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/88d8c68b44115c8ca0ed9eba8c945b2c/promotional_image/COfw2vDhi5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/88d8c68b44115c8ca0ed9eba8c945b2c/desktop_screenshot/CM-gifPki5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/88d8c68b44115c8ca0ed9eba8c945b2c/desktop_screenshot/CNGHtOnsi5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/88d8c68b44115c8ca0ed9eba8c945b2c/desktop_screenshot/CO_p5pLDjZYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is CWILL(Trustoo) Product Reviews free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/sealapps-product-review"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "French,  English,  Spanish,  Italian,  Japanese,  Portuguese (Brazil),  Chinese (Simplified),  German,  Dutch,  Portuguese (Portugal),  Czech,  Danish,  Norwegian (Bokmål),  Polish,  Finnish,  Swedish,  Turkish,  Thai,  Chinese (Traditional),  and Korean",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/sealapps-product-review"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Aliexpress, DSers, LOOX, Pagefly, product reviews gratis, reviews.io",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/sealapps-product-review"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/sealapps-product-review"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.trustwill-reviews.cwill.com/en"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-reviews", "photo-video-reviews"],
+        "primary_category_id": "product-reviews",
+        "seo": {
+          "title": "CWILL(Trustoo) Product Reviews Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product reviews. Listed functions include email campaigns, discounts.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/sealapps-product-review",
+          "retrieved_at": "2026-10-04T05:09:31.027925+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "product reviews shopify, shopify reviews app, best review app for shopify, shopify…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/sealapps-product-review"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "doran-reviews-questions",
+      "name": "Doran Product Reviews App & QA",
+      "slug": "doran-reviews-questions",
+      "category_fit": {
+        "app_id": "doran-reviews-questions",
+        "selection_score": 6.0184,
+        "rating_evidence": {"value": 4.9, "reviews": 706},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["photo", "video"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/doran-reviews-questions"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for product reviews. Listed functions include testimonials, photo reviews.",
+        "description_long": "Doran Product Reviews App & QA is developed by Doran and listed for product reviews, social proof. Its structured listing identifies functions such as testimonials, photo reviews, video reviews, star ratings. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Reviews", "Photo & Video Reviews"],
+        "best_for": {
+          "use_cases": ["Product Reviews", "Photo & Video Reviews"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 706,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/doran-reviews-questions",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 681},
+          {"stars": 4, "percentage": 2, "count": 16},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 1, "count": 4},
+          {"stars": 1, "percentage": 1, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 29, 2024",
+        "shopify_categories": [
+          {
+            "name": "Product reviews",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews"
+          },
+          {
+            "name": "Social proof",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-social-proof"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_reviews.display_options.testimonials", "label": "Testimonials"},
+          {"handle": "cf.product_reviews.display_options.photo_reviews", "label": "Photo reviews"},
+          {"handle": "cf.product_reviews.display_options.video_reviews", "label": "Video reviews"},
+          {"handle": "cf.product_reviews.display_options.star_ratings", "label": "Star ratings"},
+          {"handle": "cf.product_reviews.display_options.voting", "label": "Voting"},
+          {"handle": "cf.product_reviews.display_options.badges", "label": "Badges"},
+          {"handle": "cf.product_reviews.display_options.carousels", "label": "Carousels"},
+          {"handle": "cf.product_reviews.display_options.media_galleries", "label": "Media galleries"},
+          {"handle": "cf.product_reviews.display_options.grid_layout", "label": "Grid layout"},
+          {"handle": "cf.product_reviews.display_options.tabs_or_sidebars", "label": "Tabs or sidebars"},
+          {"handle": "cf.product_reviews.display_options.all_reviews_page", "label": "All reviews page"},
+          {"handle": "cf.product_reviews.display_options.top_reviews", "label": "Top reviews"},
+          {"handle": "cf.product_reviews.display_options.review_highlights", "label": "Review highlights"},
+          {"handle": "cf.product_reviews.display_options.review_summaries", "label": "Review summaries"},
+          {"handle": "cf.product_reviews.display_options.q_and_a", "label": "Q&A"},
+          {"handle": "cf.product_reviews.display_options.product_grouping", "label": "Product grouping"},
+          {"handle": "cf.product_reviews.display_options.filtering", "label": "Filtering"},
+          {"handle": "cf.product_reviews.display_options.rich_snippets", "label": "Rich snippets"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.email_requests", "label": "Email requests"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.social_media_ugc",
+            "label": "Social media UGC"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.forms", "label": "Forms"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.surveys", "label": "Surveys"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.qr_codes", "label": "QR codes"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.promotions", "label": "Promotions"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.import_and_export",
+            "label": "Import and export"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_migration",
+            "label": "Review migration"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_syndication",
+            "label": "Review syndication"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.automations", "label": "Automations"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.custom_requests", "label": "Custom requests"}
+        ],
+        "languages": [
+          "English",
+          " Afrikaans",
+          " Amharic",
+          " Arabic",
+          " Azerbaijani",
+          " Belarusian",
+          " Bulgarian",
+          " Bosnian",
+          " Catalan",
+          " Czech",
+          " Danish",
+          " German",
+          " Greek",
+          " Esperanto",
+          " Spanish",
+          " Estonian",
+          " Basque",
+          " Persian",
+          " Finnish",
+          " French",
+          " Irish",
+          " Scottish Gaelic",
+          " Galician",
+          " Gujarati",
+          " Hausa",
+          " Hebrew",
+          " Hindi",
+          " Croatian",
+          " Hungarian",
+          " Armenian",
+          " Indonesian",
+          " Igbo",
+          " Icelandic",
+          " Italian",
+          " Japanese",
+          " Javanese",
+          " Khmer",
+          " Kannada",
+          " Korean",
+          " Kyrgyz",
+          " Luxembourgish",
+          " Latvian",
+          " Malagasy",
+          " Malayalam",
+          " Mongolian",
+          " Marathi",
+          " Malay",
+          " Maltese",
+          " Dutch",
+          " Norwegian",
+          " Punjabi",
+          " Polish",
+          " Pashto",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Romanian",
+          " Russian",
+          " Slovak",
+          " Slovenian",
+          " Sundanese",
+          " Swedish",
+          " Swahili",
+          " Tamil",
+          " Telugu",
+          " Thai",
+          " Ukrainian",
+          " Urdu",
+          " Uzbek",
+          " Vietnamese",
+          " Chinese (Traditional)",
+          " and Chinese (Simplified)"
+        ],
+        "works_with": [
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "AfterShip Order Tracking",
+          "Amazon, Esty, AliExpress",
+          "Flow, Flipkart, Meesho",
+          "Klaviyo: Email Marketing & SMS",
+          "Omnisend Email Marketing & SMS",
+          "Trustpilot, Chrome Extension"
+        ]
+      },
+      "developer": {
+        "name": "Doran",
+        "website_url": "https://s.doran.app",
+        "partner_url": "https://apps.shopify.com/partners/doranapp",
+        "public_address": "Ha Dong, Hanoi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/doran-reviews-questions",
+        "canonical_app_store_url": "https://apps.shopify.com/doran-reviews-questions",
+        "install_url": "https://apps.shopify.com/doran-reviews-questions",
+        "demo_store_url": "https://shopify.doran.app/apps/product-reviews/demo",
+        "resources": {
+          "Privacy policy": "https://s.doran.app/privacy",
+          "FAQ": "https://h.doran.app/categories/pr",
+          "Tutorial": "https://h.doran.app/categories/pr",
+          "App Documentation": "https://h.doran.app/categories/pr",
+          "Doran": "https://apps.shopify.com/partners/doranapp",
+          "Website": "https://s.doran.app"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/5c4247256eb693905c11ca79b23d4547/icon/CNn_4uiCw44DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/5c4247256eb693905c11ca79b23d4547/promotional_image/CMSz75v-jYkDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5c4247256eb693905c11ca79b23d4547/desktop_screenshot/CJOvmMz-jYkDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5c4247256eb693905c11ca79b23d4547/desktop_screenshot/CNjYosz-jYkDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5c4247256eb693905c11ca79b23d4547/desktop_screenshot/CJu8rMz-jYkDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5c4247256eb693905c11ca79b23d4547/desktop_screenshot/CL6et8z-jYkDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5c4247256eb693905c11ca79b23d4547/desktop_screenshot/CMWywcz-jYkDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5c4247256eb693905c11ca79b23d4547/desktop_screenshot/COzCy8z-jYkDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Doran Product Reviews App & QA free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/doran-reviews-questions"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Afrikaans,  Amharic,  Arabic,  Azerbaijani,  Belarusian,  Bulgarian,  Bosnian,  Catalan,  Czech,  Danish,  German,  Greek,  Esperanto,  Spanish,  Estonian,  Basque,  Persian,  Finnish,  French,  Irish,  Scottish Gaelic,  Galician,  Gujarati,  Hausa,  Hebrew,  Hindi,  Croatian,  Hungarian,  Armenian,  Indonesian,  Igbo,  Icelandic,  Italian,  Japanese,  Javanese,  Khmer,  Kannada,  Korean,  Kyrgyz,  Luxembourgish,  Latvian,  Malagasy,  Malayalam,  Mongolian,  Marathi,  Malay,  Maltese,  Dutch,  Norwegian,  Punjabi,  Polish,  Pashto,  Portuguese (Brazil),  Portuguese (Portugal),  Romanian,  Russian,  Slovak,  Slovenian,  Sundanese,  Swedish,  Swahili,  Tamil,  Telugu,  Thai,  Ukrainian,  Urdu,  Uzbek,  Vietnamese,  Chinese (Traditional),  and Chinese (Simplified)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/doran-reviews-questions"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Flow, Shopify Admin, AfterShip Order Tracking, Amazon, Esty, AliExpress, Flow, Flipkart, Meesho, Klaviyo: Email Marketing & SMS, Omnisend Email Marketing & SMS, Trustpilot, Chrome Extension",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/doran-reviews-questions"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/doran-reviews-questions"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://h.doran.app/categories/pr",
+            "https://h.doran.app/categories/pr",
+            "https://h.doran.app/categories/pr"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-reviews", "photo-video-reviews"],
+        "primary_category_id": "product-reviews",
+        "seo": {
+          "title": "Doran Product Reviews App & QA Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product reviews. Listed functions include testimonials, photo reviews.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/doran-reviews-questions",
+          "retrieved_at": "2026-10-04T05:09:42.320683+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/doran-reviews-questions"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "reviews-co-uk-product-and-merchant-review-collection",
+      "name": "REVIEWS.io Product Reviews App",
+      "slug": "reviews-co-uk-product-and-merchant-review-collection",
+      "category_fit": {
+        "app_id": "reviews-co-uk-product-and-merchant-review-collection",
+        "selection_score": 5.8286,
+        "rating_evidence": {"value": 4.7, "reviews": 770},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["photo", "video"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/reviews-co-uk-product-and-merchant-review-collection"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for photo & video reviews. Listed functions include testimonials, photo reviews.",
+        "description_long": "REVIEWS.io Product Reviews App is developed by Reviews.io and listed for product reviews, seo. Its structured listing identifies functions such as testimonials, photo reviews, video reviews, star ratings. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Photo & Video Reviews"],
+        "best_for": {
+          "use_cases": ["Photo & Video Reviews"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.7,
+        "review_count": 770,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/reviews-co-uk-product-and-merchant-review-collection",
+        "distribution": [
+          {"stars": 5, "percentage": 91, "count": 698},
+          {"stars": 4, "percentage": 3, "count": 22},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 1, "count": 7},
+          {"stars": 1, "percentage": 5, "count": 40}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "LAUNCH",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "LAUNCH PLUS",
+            "amount_usd": 45.0,
+            "billing_period": "month",
+            "price_display": "$45 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": "https://www.reviews.io/front/pricingplans",
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "August 6, 2014 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Product reviews",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews"
+          },
+          {"name": "SEO", "url": "https://apps.shopify.com/categories/store-design-site-optimization-seo"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_reviews.display_options.testimonials", "label": "Testimonials"},
+          {"handle": "cf.product_reviews.display_options.photo_reviews", "label": "Photo reviews"},
+          {"handle": "cf.product_reviews.display_options.video_reviews", "label": "Video reviews"},
+          {"handle": "cf.product_reviews.display_options.star_ratings", "label": "Star ratings"},
+          {"handle": "cf.product_reviews.display_options.voting", "label": "Voting"},
+          {"handle": "cf.product_reviews.display_options.badges", "label": "Badges"},
+          {"handle": "cf.product_reviews.display_options.carousels", "label": "Carousels"},
+          {"handle": "cf.product_reviews.display_options.media_galleries", "label": "Media galleries"},
+          {"handle": "cf.product_reviews.display_options.grid_layout", "label": "Grid layout"},
+          {"handle": "cf.product_reviews.display_options.all_reviews_page", "label": "All reviews page"},
+          {"handle": "cf.product_reviews.display_options.top_reviews", "label": "Top reviews"},
+          {"handle": "cf.product_reviews.display_options.review_highlights", "label": "Review highlights"},
+          {"handle": "cf.product_reviews.display_options.review_summaries", "label": "Review summaries"},
+          {"handle": "cf.product_reviews.display_options.q_and_a", "label": "Q&A"},
+          {"handle": "cf.product_reviews.display_options.product_grouping", "label": "Product grouping"},
+          {"handle": "cf.product_reviews.display_options.filtering", "label": "Filtering"},
+          {"handle": "cf.product_reviews.display_options.rich_snippets", "label": "Rich snippets"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.email_requests", "label": "Email requests"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.sms_requests", "label": "SMS requests"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.social_media_ugc",
+            "label": "Social media UGC"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.forms", "label": "Forms"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.surveys", "label": "Surveys"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.promotions", "label": "Promotions"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.import_and_export",
+            "label": "Import and export"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_migration",
+            "label": "Review migration"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_syndication",
+            "label": "Review syndication"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.automations", "label": "Automations"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.custom_requests", "label": "Custom requests"},
+          {"handle": "cf.seo.seo_tools.alt_text", "label": "ALT text"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Flow", "Attentive", "Google", "Gorgias", "Klaviyo", "Shop app", "TikTok Shop"]
+      },
+      "developer": {
+        "name": "Reviews.io",
+        "website_url": "https://developer.reviews.io/",
+        "partner_url": "https://apps.shopify.com/partners/reviewsshopifyapp",
+        "public_address": "29 St Nicholas Place, Leicester, ENG, LE1 4LD, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/reviews-co-uk-product-and-merchant-review-collection",
+        "canonical_app_store_url": "https://apps.shopify.com/reviews-co-uk-product-and-merchant-review-collection",
+        "install_url": "https://apps.shopify.com/reviews-co-uk-product-and-merchant-review-collection",
+        "demo_store_url": "https://reviews-io-demo-store.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://www.reviews.io/front/business-user-privacy-policy",
+          "Reviews.io": "https://apps.shopify.com/partners/reviewsshopifyapp",
+          "Website": "https://developer.reviews.io/",
+          "Changelog": "https://www.reviews.io/updates"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/44cb5bd17e364d5ee92d03477c740756/icon/CKf_rrmo9IcDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/44cb5bd17e364d5ee92d03477c740756/promotional_image/CI60r5rJwo4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/44cb5bd17e364d5ee92d03477c740756/desktop_screenshot/COjSvZrJwo4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/44cb5bd17e364d5ee92d03477c740756/desktop_screenshot/CMKjx5rJwo4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/44cb5bd17e364d5ee92d03477c740756/desktop_screenshot/CL7F0prJwo4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/44cb5bd17e364d5ee92d03477c740756/desktop_screenshot/CJe43prJwo4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/44cb5bd17e364d5ee92d03477c740756/desktop_screenshot/CK7M6ZrJwo4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/44cb5bd17e364d5ee92d03477c740756/desktop_screenshot/CLWn9JrJwo4DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is REVIEWS.io Product Reviews App free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/reviews-co-uk-product-and-merchant-review-collection"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/reviews-co-uk-product-and-merchant-review-collection"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Flow, Attentive, Google, Gorgias, Klaviyo, Shop app, TikTok Shop",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/reviews-co-uk-product-and-merchant-review-collection"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/reviews-co-uk-product-and-merchant-review-collection"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["photo-video-reviews"],
+        "primary_category_id": "photo-video-reviews",
+        "seo": {
+          "title": "REVIEWS.io Product Reviews App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for photo & video reviews. Listed functions include testimonials, photo reviews.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/reviews-co-uk-product-and-merchant-review-collection",
+          "retrieved_at": "2026-10-04T05:09:50.317833+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Upgrade your Shopify experience with Reviews.io. Trusted product reviews app to elevate…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/reviews-co-uk-product-and-merchant-review-collection"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "judgeme",
+      "name": "Judge.me Product Reviews App",
+      "slug": "judgeme",
+      "category_fit": {
+        "app_id": "judgeme",
+        "selection_score": 5.5497,
+        "rating_evidence": {"value": 5.0, "reviews": 47959},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["photo", "video"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/judgeme"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for product reviews. Listed functions include testimonials, photo reviews.",
+        "description_long": "Judge.me Product Reviews App is developed by Judge.me and listed for product reviews, seo. Its structured listing identifies functions such as testimonials, photo reviews, video reviews, star ratings. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Reviews", "Photo & Video Reviews"],
+        "best_for": {
+          "use_cases": ["Product Reviews", "Photo & Video Reviews"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 47959,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/judgeme",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 47},
+          {"stars": 4, "percentage": 2, "count": 796},
+          {"stars": 3, "percentage": 0, "count": 71},
+          {"stars": 2, "percentage": 0, "count": 37},
+          {"stars": 1, "percentage": 0, "count": 156}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Forever Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Awesome",
+            "amount_usd": 15.0,
+            "billing_period": "month",
+            "price_display": "$15 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://judge.me/pricing?utm_source=core_app&utm_medium=app_store",
+        "starting_paid_monthly_price_usd": 15.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 25, 2015 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Product reviews",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews"
+          },
+          {"name": "SEO", "url": "https://apps.shopify.com/categories/store-design-site-optimization-seo"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_reviews.display_options.testimonials", "label": "Testimonials"},
+          {"handle": "cf.product_reviews.display_options.photo_reviews", "label": "Photo reviews"},
+          {"handle": "cf.product_reviews.display_options.video_reviews", "label": "Video reviews"},
+          {"handle": "cf.product_reviews.display_options.star_ratings", "label": "Star ratings"},
+          {"handle": "cf.product_reviews.display_options.badges", "label": "Badges"},
+          {"handle": "cf.product_reviews.display_options.carousels", "label": "Carousels"},
+          {"handle": "cf.product_reviews.display_options.media_galleries", "label": "Media galleries"},
+          {"handle": "cf.product_reviews.display_options.grid_layout", "label": "Grid layout"},
+          {"handle": "cf.product_reviews.display_options.tabs_or_sidebars", "label": "Tabs or sidebars"},
+          {"handle": "cf.product_reviews.display_options.all_reviews_page", "label": "All reviews page"},
+          {"handle": "cf.product_reviews.display_options.top_reviews", "label": "Top reviews"},
+          {"handle": "cf.product_reviews.display_options.review_summaries", "label": "Review summaries"},
+          {"handle": "cf.product_reviews.display_options.q_and_a", "label": "Q&A"},
+          {"handle": "cf.product_reviews.display_options.product_grouping", "label": "Product grouping"},
+          {"handle": "cf.product_reviews.display_options.filtering", "label": "Filtering"},
+          {"handle": "cf.product_reviews.display_options.rich_snippets", "label": "Rich snippets"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.email_requests", "label": "Email requests"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.sms_requests", "label": "SMS requests"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.push_notifications",
+            "label": "Push notifications"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.social_media_ugc",
+            "label": "Social media UGC"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.forms", "label": "Forms"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.surveys", "label": "Surveys"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.qr_codes", "label": "QR codes"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.promotions", "label": "Promotions"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.referrals", "label": "Referrals"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.import_and_export",
+            "label": "Import and export"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_migration",
+            "label": "Review migration"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_syndication",
+            "label": "Review syndication"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.automations", "label": "Automations"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.custom_requests", "label": "Custom requests"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " Italian",
+          " Portuguese (Brazil)",
+          " German",
+          " Dutch",
+          " Japanese",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Turkish",
+          " Polish",
+          " Swedish",
+          " Danish",
+          " and Romanian"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "AfterShip: Order Tracking",
+          "Gorgias: Chat/Support",
+          "Klaviyo: Email Marketing",
+          "LoyaltyLion: Loyalty & Rewards",
+          "PageFly Landing Page Builder",
+          "PushOwl: Push Notifications"
+        ]
+      },
+      "developer": {
+        "name": "Judge.me",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/judge-me",
+        "public_address": "C/O Buckworths 2nd Floor, 1-3 Worship Street, London, ENG, EC2A 2AB, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/judgeme",
+        "canonical_app_store_url": "https://apps.shopify.com/judgeme",
+        "install_url": "https://apps.shopify.com/judgeme",
+        "demo_store_url": "https://judge-me-demo-store-sorelle.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://judge.me/privacy",
+          "FAQ": "https://judge.me/help/en/articles/8389728-getting-started-with-judge-me",
+          "Tutorial": "https://judge.me/help/en/articles/8389728-getting-started-with-judge-me",
+          "App Documentation": "https://judge.me/help/en/",
+          "Judge.me": "https://apps.shopify.com/partners/judge-me",
+          "Changelog": "https://judge.me/app/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/8cada0f5da411a64e756606bb036f1ed/icon/CIfp9fWd34sDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/8cada0f5da411a64e756606bb036f1ed/promotional_image/CLKC7ZOSpJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8cada0f5da411a64e756606bb036f1ed/desktop_screenshot/CJ3w-uC_140DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8cada0f5da411a64e756606bb036f1ed/desktop_screenshot/CPWYhuG_140DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8cada0f5da411a64e756606bb036f1ed/desktop_screenshot/COzMkOG_140DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8cada0f5da411a64e756606bb036f1ed/desktop_screenshot/CJKhmuG_140DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8cada0f5da411a64e756606bb036f1ed/desktop_screenshot/CP7so-G_140DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8cada0f5da411a64e756606bb036f1ed/desktop_screenshot/CNLDrOG_140DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Judge.me Product Reviews App free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/judgeme"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  Italian,  Portuguese (Brazil),  German,  Dutch,  Japanese,  Chinese (Simplified),  Chinese (Traditional),  Turkish,  Polish,  Swedish,  Danish,  and Romanian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/judgeme"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, AfterShip: Order Tracking, Gorgias: Chat/Support, Klaviyo: Email Marketing, LoyaltyLion: Loyalty & Rewards, PageFly Landing Page Builder, PushOwl: Push Notifications",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/judgeme"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/judgeme"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://judge.me/help/en/articles/8389728-getting-started-with-judge-me",
+            "https://judge.me/help/en/articles/8389728-getting-started-with-judge-me",
+            "https://judge.me/help/en/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-reviews", "photo-video-reviews"],
+        "primary_category_id": "product-reviews",
+        "seo": {
+          "title": "Judge.me Product Reviews App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product reviews. Listed functions include testimonials, photo reviews.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/judgeme",
+          "retrieved_at": "2026-10-04T05:09:19.969839+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Send unlimited, automatic review requests via email, SMS, and push. Display stars…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/judgeme"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "vitals",
+      "name": "Vitals: Reviews, Bundles & 40+",
+      "slug": "vitals",
+      "category_fit": {
+        "app_id": "vitals",
+        "selection_score": 5.3932,
+        "rating_evidence": {"value": 4.9, "reviews": 2968},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["photo", "video"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/vitals"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for product bundles. Listed functions include testimonials, photo reviews.",
+        "description_long": "Vitals: Reviews, Bundles & 40+ is developed by Vitals and listed for product reviews, product bundles. Its structured listing identifies functions such as testimonials, photo reviews, video reviews, star ratings. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Product Bundles",
+          "Product Reviews",
+          "Photo & Video Reviews",
+          "Theme Sections",
+          "Heatmaps & Session Recordings",
+          "Store Locators"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Product Bundles",
+            "Product Reviews",
+            "Photo & Video Reviews",
+            "Theme Sections",
+            "Heatmaps & Session Recordings",
+            "Store Locators"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 2968,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/vitals",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 2},
+          {"stars": 4, "percentage": 1, "count": 36},
+          {"stars": 3, "percentage": 0, "count": 8},
+          {"stars": 2, "percentage": 0, "count": 3},
+          {"stars": 1, "percentage": 1, "count": 26}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "$29.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "All-in-One",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "Usage fees start after ~$1,000/mo in Vitals-attributed sales (from $10/mo) and for Visitor Recordings volume."
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://vitals.app/pricing",
+        "starting_paid_monthly_price_usd": 29.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 16, 2018 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Product reviews",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews"
+          },
+          {
+            "name": "Product bundles",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-product-bundles"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_reviews.display_options.testimonials", "label": "Testimonials"},
+          {"handle": "cf.product_reviews.display_options.photo_reviews", "label": "Photo reviews"},
+          {"handle": "cf.product_reviews.display_options.video_reviews", "label": "Video reviews"},
+          {"handle": "cf.product_reviews.display_options.star_ratings", "label": "Star ratings"},
+          {"handle": "cf.product_reviews.display_options.badges", "label": "Badges"},
+          {"handle": "cf.product_reviews.display_options.carousels", "label": "Carousels"},
+          {"handle": "cf.product_reviews.display_options.media_galleries", "label": "Media galleries"},
+          {"handle": "cf.product_reviews.display_options.grid_layout", "label": "Grid layout"},
+          {"handle": "cf.product_reviews.display_options.tabs_or_sidebars", "label": "Tabs or sidebars"},
+          {"handle": "cf.product_reviews.display_options.all_reviews_page", "label": "All reviews page"},
+          {"handle": "cf.product_reviews.display_options.top_reviews", "label": "Top reviews"},
+          {"handle": "cf.product_reviews.display_options.review_highlights", "label": "Review highlights"},
+          {"handle": "cf.product_reviews.display_options.review_summaries", "label": "Review summaries"},
+          {"handle": "cf.product_reviews.display_options.product_grouping", "label": "Product grouping"},
+          {"handle": "cf.product_reviews.display_options.filtering", "label": "Filtering"},
+          {"handle": "cf.product_reviews.display_options.rich_snippets", "label": "Rich snippets"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.email_requests", "label": "Email requests"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.social_media_ugc",
+            "label": "Social media UGC"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.forms", "label": "Forms"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.import_and_export",
+            "label": "Import and export"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_migration",
+            "label": "Review migration"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.automations", "label": "Automations"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.custom_requests", "label": "Custom requests"},
+          {"handle": "cf.product_bundles.bundle_types.fixed_bundles", "label": "Fixed bundles"},
+          {
+            "handle": "cf.product_bundles.bundle_types.mix_and_match_bundles",
+            "label": "Mix-and-match bundles"
+          },
+          {"handle": "cf.product_bundles.bundle_types.variant_bundles", "label": "Variant bundles"},
+          {"handle": "cf.product_bundles.bundle_types.upsell_bundles", "label": "Upsell bundles"},
+          {"handle": "cf.product_bundles.bundle_types.cross_sell_bundles", "label": "Cross-sell bundles"},
+          {
+            "handle": "cf.product_bundles.bundle_types.frequently_bought_together",
+            "label": "Frequently bought together"
+          },
+          {"handle": "cf.product_bundles.bundle_types.related_products", "label": "Related products"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Arabic",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Danish",
+          " Dutch",
+          " Italian",
+          " Japanese",
+          " Norwegian (Bokmål)",
+          " Portuguese (Brazil)",
+          " Romanian",
+          " and Swedish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "AliExpress",
+          "Facebook Messenger, Whatsapp",
+          "Facebook Pixel",
+          "Geolocation",
+          "Instagram",
+          "Omnisend, PageFly, Klaviyo"
+        ]
+      },
+      "developer": {
+        "name": "Vitals",
+        "website_url": "https://vitals.app/?utm_source=appstore&utm_medium=listing&utm_campaign=listing",
+        "partner_url": "https://apps.shopify.com/partners/appsolve",
+        "public_address": "str. Grigore Mora, Nr. 11, Camera 1, Etaj 3, Bucharest, B, 011885, RO"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/vitals",
+        "canonical_app_store_url": "https://apps.shopify.com/vitals",
+        "install_url": "https://apps.shopify.com/vitals",
+        "demo_store_url": "https://shop.vitals.co/collections/frontpage/products/ladies-short-sleeve-t-shirt",
+        "resources": {
+          "Privacy policy": "https://vitals.app/legal/privacy-policy",
+          "FAQ": "https://help.vitals.app",
+          "App Documentation": "https://help.vitals.app",
+          "Vitals": "https://apps.shopify.com/partners/appsolve",
+          "Website": "https://vitals.app/",
+          "Changelog": "https://www.notion.so/vitals/d0394414dc944ca88cc77ac1a8534105?v=3406a0182e434d55ba2c07140cbe30e3"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/icon/CPGxj-7H6IcDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/desktop_screenshot/CP2N8v_s5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/desktop_screenshot/CPPa_P_s5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/desktop_screenshot/CM-UhoDt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/desktop_screenshot/CPfmj4Dt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/desktop_screenshot/CJGhmYDt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/desktop_screenshot/CI7rooDt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/mobile_screenshot/CPqMrIDt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/mobile_screenshot/CIeptYDt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/mobile_screenshot/CIOqwIDt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/mobile_screenshot/CJ-TyoDt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/mobile_screenshot/COqk04Dt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/mobile_screenshot/CMbMvJv31I4DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/5rICXeSr_yY"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Vitals: Reviews, Bundles & 40+ free?",
+            "answer": "The pricing label retrieved from the listing is: $29.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/vitals"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Arabic,  Chinese (Simplified),  Chinese (Traditional),  Danish,  Dutch,  Italian,  Japanese,  Norwegian (Bokmål),  Portuguese (Brazil),  Romanian,  and Swedish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/vitals"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, AliExpress, Facebook Messenger, Whatsapp, Facebook Pixel, Geolocation, Instagram, Omnisend, PageFly, Klaviyo",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/vitals"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/vitals"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.vitals.app", "https://help.vitals.app"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select eligible products and set the offer conditions.",
+            "Preview the offer and test cart totals on a sample order.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "product-bundles",
+          "product-reviews",
+          "photo-video-reviews",
+          "theme-sections",
+          "heatmaps-session-recordings",
+          "store-locators"
+        ],
+        "primary_category_id": "product-bundles",
+        "seo": {
+          "title": "Vitals: Reviews, Bundles & 40+ Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product bundles. Listed functions include testimonials, photo reviews.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/vitals",
+          "retrieved_at": "2026-10-04T05:08:36.479997+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Improve your store's conversion rates. Features include product reviews, upsells, bundles, visitor…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/vitals"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "lai-reviews",
+      "name": "LAI Product Reviews App",
+      "slug": "lai-reviews",
+      "category_fit": {
+        "app_id": "lai-reviews",
+        "selection_score": 5.3043,
+        "rating_evidence": {"value": 4.9, "reviews": 561},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["photo", "video"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/lai-reviews"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for product reviews. Listed functions include testimonials, photo reviews.",
+        "description_long": "LAI Product Reviews App is developed by Vegahub Technology Inc and listed for product reviews, social proof. Its structured listing identifies functions such as testimonials, photo reviews, video reviews, star ratings. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Reviews", "Photo & Video Reviews"],
+        "best_for": {
+          "use_cases": ["Product Reviews", "Photo & Video Reviews"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 561,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/lai-reviews",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 548},
+          {"stars": 4, "percentage": 1, "count": 7},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 6}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 4, 2020",
+        "shopify_categories": [
+          {
+            "name": "Product reviews",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews"
+          },
+          {
+            "name": "Social proof",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-social-proof"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_reviews.display_options.testimonials", "label": "Testimonials"},
+          {"handle": "cf.product_reviews.display_options.photo_reviews", "label": "Photo reviews"},
+          {"handle": "cf.product_reviews.display_options.video_reviews", "label": "Video reviews"},
+          {"handle": "cf.product_reviews.display_options.star_ratings", "label": "Star ratings"},
+          {"handle": "cf.product_reviews.display_options.voting", "label": "Voting"},
+          {"handle": "cf.product_reviews.display_options.carousels", "label": "Carousels"},
+          {"handle": "cf.product_reviews.display_options.media_galleries", "label": "Media galleries"},
+          {"handle": "cf.product_reviews.display_options.grid_layout", "label": "Grid layout"},
+          {"handle": "cf.product_reviews.display_options.all_reviews_page", "label": "All reviews page"},
+          {"handle": "cf.product_reviews.display_options.review_highlights", "label": "Review highlights"},
+          {"handle": "cf.product_reviews.display_options.review_summaries", "label": "Review summaries"},
+          {"handle": "cf.product_reviews.display_options.q_and_a", "label": "Q&A"},
+          {"handle": "cf.product_reviews.display_options.product_grouping", "label": "Product grouping"},
+          {"handle": "cf.product_reviews.display_options.filtering", "label": "Filtering"},
+          {"handle": "cf.product_reviews.display_options.rich_snippets", "label": "Rich snippets"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.email_requests", "label": "Email requests"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.forms", "label": "Forms"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.promotions", "label": "Promotions"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.import_and_export",
+            "label": "Import and export"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_migration",
+            "label": "Review migration"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_syndication",
+            "label": "Review syndication"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.automations", "label": "Automations"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.custom_requests", "label": "Custom requests"},
+          {"handle": "cf.social_proof.content_types.photos", "label": "Photos"},
+          {"handle": "cf.social_proof.content_types.videos", "label": "Videos"},
+          {"handle": "cf.social_proof.content_types.reviews", "label": "Reviews"},
+          {"handle": "cf.social_proof.display_options.review_count", "label": "Review count"},
+          {"handle": "cf.social_proof.display_options.liked_products", "label": "Liked products"},
+          {"handle": "cf.social_proof.display_options.multi_language", "label": "Multi-language"}
+        ],
+        "languages": [
+          "English",
+          " Portuguese (Brazil)",
+          " French",
+          " Chinese (Simplified)",
+          " Swedish",
+          " Spanish",
+          " and Turkish"
+        ],
+        "works_with": [
+          "Shopify Flow",
+          "Shopify Admin",
+          "BON Loyalty Program & Rewards",
+          "GemPages Landing Page Builder",
+          "Klaviyo: Email Marketing & SMS",
+          "PageFly Landing Page Builder"
+        ]
+      },
+      "developer": {
+        "name": "Vegahub Technology Inc",
+        "website_url": "https://laireviews.io",
+        "partner_url": "https://apps.shopify.com/partners/vegahub-technology-inc",
+        "public_address": "Oakville, ON, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/lai-reviews",
+        "canonical_app_store_url": "https://apps.shopify.com/lai-reviews",
+        "install_url": "https://apps.shopify.com/lai-reviews",
+        "demo_store_url": "https://laireview-demo-store.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://laireviews.io/privacy-policy",
+          "FAQ": "https://laireviews.io/docs/",
+          "Vegahub Technology Inc": "https://apps.shopify.com/partners/vegahub-technology-inc",
+          "Website": "https://laireviews.io"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/c2fde25432c44d6aeefb31ba06bbb974/icon/CMry4dSL_YIDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/c2fde25432c44d6aeefb31ba06bbb974/promotional_image/CJaF-dKBjpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c2fde25432c44d6aeefb31ba06bbb974/desktop_screenshot/COPhgdOBjpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c2fde25432c44d6aeefb31ba06bbb974/desktop_screenshot/CJKri9OBjpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c2fde25432c44d6aeefb31ba06bbb974/desktop_screenshot/CKemksCCjpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c2fde25432c44d6aeefb31ba06bbb974/desktop_screenshot/CMTrpNOBjpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c2fde25432c44d6aeefb31ba06bbb974/desktop_screenshot/CNK6rtOBjpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c2fde25432c44d6aeefb31ba06bbb974/desktop_screenshot/CLayuNOBjpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c2fde25432c44d6aeefb31ba06bbb974/mobile_screenshot/COeCwdOBjpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c2fde25432c44d6aeefb31ba06bbb974/mobile_screenshot/CLTUm8CCjpYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is LAI Product Reviews App free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/lai-reviews"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Portuguese (Brazil),  French,  Chinese (Simplified),  Swedish,  Spanish,  and Turkish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/lai-reviews"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Flow, Shopify Admin, BON Loyalty Program & Rewards, GemPages Landing Page Builder, Klaviyo: Email Marketing & SMS, PageFly Landing Page Builder",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/lai-reviews"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/lai-reviews"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://laireviews.io/docs/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-reviews", "photo-video-reviews"],
+        "primary_category_id": "product-reviews",
+        "seo": {
+          "title": "LAI Product Reviews App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product reviews. Listed functions include testimonials, photo reviews.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/lai-reviews",
+          "retrieved_at": "2026-10-04T05:09:50.271276+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "LAI Product Reviews helps you collect photo and video reviews quickly. Increase…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/lai-reviews"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "junip",
+      "name": "Junip Product Reviews App & AI",
+      "slug": "junip",
+      "category_fit": {
+        "app_id": "junip",
+        "selection_score": 5.2478,
+        "rating_evidence": {"value": 4.8, "reviews": 1156},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["photo"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/junip"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for product reviews. Listed functions include photo reviews, video reviews.",
+        "description_long": "Junip Product Reviews App & AI is developed by Junip Inc. and listed for product reviews, social proof. Its structured listing identifies functions such as photo reviews, video reviews, star ratings, voting. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Reviews", "Photo & Video Reviews"],
+        "best_for": {
+          "use_cases": ["Product Reviews", "Photo & Video Reviews"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 1156,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/junip",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 1},
+          {"stars": 4, "percentage": 5, "count": 63},
+          {"stars": 3, "percentage": 2, "count": 19},
+          {"stars": 2, "percentage": 0, "count": 4},
+          {"stars": 1, "percentage": 0, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Core",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 299.0,
+            "billing_period": "month",
+            "price_display": "$299 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.junip.co/pricing",
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "November 19, 2019",
+        "shopify_categories": [
+          {
+            "name": "Product reviews",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews"
+          },
+          {
+            "name": "Social proof",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-social-proof"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_reviews.display_options.photo_reviews", "label": "Photo reviews"},
+          {"handle": "cf.product_reviews.display_options.video_reviews", "label": "Video reviews"},
+          {"handle": "cf.product_reviews.display_options.star_ratings", "label": "Star ratings"},
+          {"handle": "cf.product_reviews.display_options.voting", "label": "Voting"},
+          {"handle": "cf.product_reviews.display_options.badges", "label": "Badges"},
+          {"handle": "cf.product_reviews.display_options.carousels", "label": "Carousels"},
+          {"handle": "cf.product_reviews.display_options.media_galleries", "label": "Media galleries"},
+          {"handle": "cf.product_reviews.display_options.grid_layout", "label": "Grid layout"},
+          {"handle": "cf.product_reviews.display_options.all_reviews_page", "label": "All reviews page"},
+          {"handle": "cf.product_reviews.display_options.top_reviews", "label": "Top reviews"},
+          {"handle": "cf.product_reviews.display_options.review_summaries", "label": "Review summaries"},
+          {"handle": "cf.product_reviews.display_options.q_and_a", "label": "Q&A"},
+          {"handle": "cf.product_reviews.display_options.product_grouping", "label": "Product grouping"},
+          {"handle": "cf.product_reviews.display_options.filtering", "label": "Filtering"},
+          {"handle": "cf.product_reviews.display_options.rich_snippets", "label": "Rich snippets"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.email_requests", "label": "Email requests"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.sms_requests", "label": "SMS requests"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.forms", "label": "Forms"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.surveys", "label": "Surveys"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.qr_codes", "label": "QR codes"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.import_and_export",
+            "label": "Import and export"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_migration",
+            "label": "Review migration"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_syndication",
+            "label": "Review syndication"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.automations", "label": "Automations"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.custom_requests", "label": "Custom requests"},
+          {"handle": "cf.social_proof.content_types.ugc", "label": "UGC"},
+          {"handle": "cf.social_proof.content_types.photos", "label": "Photos"},
+          {"handle": "cf.social_proof.content_types.videos", "label": "Videos"},
+          {"handle": "cf.social_proof.content_types.reviews", "label": "Reviews"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Facebook & Instagram Shops",
+          "Google Shopping (Reviews)",
+          "Klaviyo: Email Marketing & SMS",
+          "Rivo Loyalty Rewards Referrals",
+          "Shop App Product Reviews Sync",
+          "TikTok Shop Review Syndication"
+        ]
+      },
+      "developer": {
+        "name": "Junip Inc.",
+        "website_url": "https://junip.co",
+        "partner_url": "https://apps.shopify.com/partners/junip-inc",
+        "public_address": "204-100 Ahrens St. W., Kitchener, ON, N2H 4C3, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/junip",
+        "canonical_app_store_url": "https://apps.shopify.com/junip",
+        "install_url": "https://apps.shopify.com/junip",
+        "demo_store_url": "https://junip-merch.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://junip.co/legal/privacy_policy.pdf",
+          "Junip Inc.": "https://apps.shopify.com/partners/junip-inc",
+          "Website": "https://junip.co"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/96f1afce30a67cdc7d9ac627db24ff70/icon/CKbw46nFy_YCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/96f1afce30a67cdc7d9ac627db24ff70/promotional_image/CP6FqvzB_pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96f1afce30a67cdc7d9ac627db24ff70/desktop_screenshot/CMTnsvzB_pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96f1afce30a67cdc7d9ac627db24ff70/desktop_screenshot/CJmIpsDE_pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96f1afce30a67cdc7d9ac627db24ff70/desktop_screenshot/CMWcscDE_pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96f1afce30a67cdc7d9ac627db24ff70/desktop_screenshot/COOqusDE_pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96f1afce30a67cdc7d9ac627db24ff70/mobile_screenshot/CIT1xMDE_pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96f1afce30a67cdc7d9ac627db24ff70/mobile_screenshot/CJqYmJ3_hpMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96f1afce30a67cdc7d9ac627db24ff70/mobile_screenshot/CJKn5fzB_pADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Junip Product Reviews App & AI free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/junip"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/junip"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Facebook & Instagram Shops, Google Shopping (Reviews), Klaviyo: Email Marketing & SMS, Rivo Loyalty Rewards Referrals, Shop App Product Reviews Sync, TikTok Shop Review Syndication",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/junip"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/junip"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-reviews", "photo-video-reviews"],
+        "primary_category_id": "product-reviews",
+        "seo": {
+          "title": "Junip Product Reviews App & AI Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product reviews. Listed functions include photo reviews, video reviews.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/junip",
+          "retrieved_at": "2026-10-04T05:09:42.191051+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/junip"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

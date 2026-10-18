@@ -1,0 +1,2121 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "shipping-labels",
+    "number": 67,
+    "name": "Shipping Labels",
+    "group": "Shipping & Delivery",
+    "slug": "shipping-labels",
+    "url_path": "/apps/shipping-labels",
+    "focus": "Configure delivery options and shipping operations.",
+    "description": "Compare Shopify apps for shipping labels. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping/all"],
+    "seo": {
+      "title": "Shopify Shipping Labels Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for shipping labels: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 8,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a shipping labels app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "ez-label",
+      "name": "EZLabel: Australia Post Ship",
+      "slug": "ez-label",
+      "category_fit": {
+        "app_id": "ez-label",
+        "selection_score": 6.1274,
+        "rating_evidence": {"value": 5.0, "reviews": 857},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["label"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/ez-label"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for shipping labels. Listed functions include label creation, bulk printing.",
+        "description_long": "EZLabel: Australia Post Ship is developed by Bitnext and listed for shipping, invoices and receipts. Its structured listing identifies functions such as label creation, bulk printing, address validation, packing slips. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Shipping Labels"],
+        "best_for": {
+          "use_cases": ["Shipping Labels"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 857,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/ez-label",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 831},
+          {"stars": 4, "percentage": 3, "count": 23},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "eParcel [BETA]",
+            "amount_usd": 9.95,
+            "billing_period": "month",
+            "price_display": "$9.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.95,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 28, 2023",
+        "shopify_categories": [
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          },
+          {
+            "name": "Invoices and receipts",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-invoices-and-receipts"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.shipping.labels_and_packaging.label_creation", "label": "Label creation"},
+          {"handle": "cf.shipping.labels_and_packaging.bulk_printing", "label": "Bulk printing"},
+          {"handle": "cf.shipping.labels_and_packaging.address_validation", "label": "Address validation"},
+          {"handle": "cf.shipping.labels_and_packaging.packing_slips", "label": "Packing slips"},
+          {"handle": "cf.shipping.labels_and_packaging.packaging", "label": "Packaging"},
+          {"handle": "cf.shipping.labels_and_packaging.pick_lists", "label": "Pick lists"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_insurance", "label": "Shipping insurance"},
+          {"handle": "cf.shipping.labels_and_packaging.carrier_selection", "label": "Carrier selection"},
+          {"handle": "cf.shipping.managing_shipments.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.invoices_and_receipts.document_types.packing_slips", "label": "Packing slips"},
+          {"handle": "cf.invoices_and_receipts.document_types.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.invoices_and_receipts.customization.branding", "label": "Branding"},
+          {"handle": "cf.invoices_and_receipts.file_management.pdf_generation", "label": "PDF generation"},
+          {"handle": "cf.invoices_and_receipts.file_management.print_and_export", "label": "Print and export"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "Bitnext",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/bitnext-pty-ltd",
+        "public_address": "Melbourne, VIC, AU"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/ez-label",
+        "canonical_app_store_url": "https://apps.shopify.com/ez-label",
+        "install_url": "https://apps.shopify.com/ez-label",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.privacypolicies.com/generic/",
+          "Bitnext": "https://apps.shopify.com/partners/bitnext-pty-ltd"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/a8179813553a809d9b3663850b9e7c8a/icon/CKSp9u3C-_8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/a8179813553a809d9b3663850b9e7c8a/promotional_image/CN7n4Kaql4ADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a8179813553a809d9b3663850b9e7c8a/desktop_screenshot/CJjZ6aaql4ADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a8179813553a809d9b3663850b9e7c8a/desktop_screenshot/CO2Xtt_pzoADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a8179813553a809d9b3663850b9e7c8a/desktop_screenshot/CPT5lNfNhYADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a8179813553a809d9b3663850b9e7c8a/desktop_screenshot/CKHx8qaql4ADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a8179813553a809d9b3663850b9e7c8a/desktop_screenshot/COrT-6aql4ADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is EZLabel: Australia Post Ship free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/ez-label"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ez-label"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ez-label"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/ez-label"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["shipping-labels"],
+        "primary_category_id": "shipping-labels",
+        "seo": {
+          "title": "EZLabel: Australia Post Ship Shopify App | eStorefy",
+          "meta_description": "A Shopify app for shipping labels. Listed functions include label creation, bulk printing.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/ez-label",
+          "retrieved_at": "2026-10-04T05:21:56.642585+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Save time by automating manual shipping label creation for Australia Post MyPost…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/ez-label"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "multi-carrier-shipping-label",
+      "name": "PH MultiCarrier Shipping Label",
+      "slug": "multi-carrier-shipping-label",
+      "category_fit": {
+        "app_id": "multi-carrier-shipping-label",
+        "selection_score": 6.0132,
+        "rating_evidence": {"value": 4.9, "reviews": 647},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["label"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/multi-carrier-shipping-label"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for shipping rate calculators. Listed functions include label creation, bulk printing.",
+        "description_long": "PH MultiCarrier Shipping Label is developed by PluginHive and listed for shipping, shipping rates. Its structured listing identifies functions such as label creation, bulk printing, address validation, packing slips. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Shipping Rate Calculators", "Shipping Labels", "Order Tracking", "Marketplace Integrations"],
+        "best_for": {
+          "use_cases": ["Shipping Rate Calculators", "Shipping Labels", "Order Tracking", "Marketplace Integrations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 647,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/multi-carrier-shipping-label",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 609},
+          {"stars": 4, "percentage": 3, "count": 21},
+          {"stars": 3, "percentage": 1, "count": 4},
+          {"stars": 2, "percentage": 1, "count": 6},
+          {"stars": 1, "percentage": 1, "count": 7}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $9/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic Plan",
+            "amount_usd": 9.0,
+            "billing_period": "month",
+            "price_display": "$9 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter Plan",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Popular Plan",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Premium Plan",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.pluginhive.com/multi-carrier-shipping-label-app/#wss_pricing_plans",
+        "starting_paid_monthly_price_usd": 9.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "September 3, 2019",
+        "shopify_categories": [
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          },
+          {
+            "name": "Shipping rates",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping-rates"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.shipping.labels_and_packaging.label_creation", "label": "Label creation"},
+          {"handle": "cf.shipping.labels_and_packaging.bulk_printing", "label": "Bulk printing"},
+          {"handle": "cf.shipping.labels_and_packaging.address_validation", "label": "Address validation"},
+          {"handle": "cf.shipping.labels_and_packaging.packing_slips", "label": "Packing slips"},
+          {"handle": "cf.shipping.labels_and_packaging.customs_documents", "label": "Customs documents"},
+          {"handle": "cf.shipping.labels_and_packaging.return_labels", "label": "Return labels"},
+          {"handle": "cf.shipping.labels_and_packaging.packaging", "label": "Packaging"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_insurance", "label": "Shipping insurance"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_rules", "label": "Shipping rules"},
+          {"handle": "cf.shipping.labels_and_packaging.delivery_dates", "label": "Delivery date"},
+          {"handle": "cf.shipping.labels_and_packaging.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.labels_and_packaging.carrier_selection", "label": "Carrier selection"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.shipping.managing_shipments.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.managing_shipments.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.shipping.managing_shipments.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.shipping.managing_shipments.order_updates", "label": "Order updates"},
+          {"handle": "cf.shipping_rates.rate_calculation.flat_fee", "label": "Flat fee"},
+          {"handle": "cf.shipping_rates.rate_calculation.carrier_based", "label": "Carrier-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.customer_based", "label": "Customer-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.dimension_based", "label": "Dimension-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.distance_based", "label": "Distance-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.product_based", "label": "Product-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.quantity_based", "label": "Quantity-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.weight_based", "label": "Weight-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.zip_post_code", "label": "ZIP/post code"},
+          {"handle": "cf.shipping_rates.rate_calculation.rate_blending", "label": "Rate blending"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_zone", "label": "Multi-zone"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_origin", "label": "Multi-origin"},
+          {"handle": "cf.shipping_rates.customization.custom_notifications", "label": "Custom notifications"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Admin",
+          "Amazon Shipping",
+          "Canada Post",
+          "FedEx",
+          "PostNord",
+          "UPS",
+          "USPS, DHL Express & India Post"
+        ]
+      },
+      "developer": {
+        "name": "PluginHive",
+        "website_url": "https://www.pluginhive.com/",
+        "partner_url": "https://apps.shopify.com/partners/pluginhive",
+        "public_address": "#214, 1st Floor, 1st AA Cross Road,, 2nd Main Road, Kasturi Nagar,, Bangalore, KA, 560043, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/multi-carrier-shipping-label",
+        "canonical_app_store_url": "https://apps.shopify.com/multi-carrier-shipping-label",
+        "install_url": "https://apps.shopify.com/multi-carrier-shipping-label",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.pluginhive.com/privacy-policy/",
+          "PluginHive": "https://apps.shopify.com/partners/pluginhive",
+          "Website": "https://www.pluginhive.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/icon/CJOvx86JyfsCEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/desktop_screenshot/CMScsqj5rpUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/desktop_screenshot/CM77-86JyfsCEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/desktop_screenshot/CLKOiM-JyfsCEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/desktop_screenshot/CKKTpPfMkIMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/desktop_screenshot/CInlvPzXnYIDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/desktop_screenshot/CMv0xvzXnYIDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/mobile_screenshot/CNuN0s-JyfsCEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/2lHjZJWcjeM"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is PH MultiCarrier Shipping Label free?",
+            "answer": "The pricing label retrieved from the listing is: From $9/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/multi-carrier-shipping-label"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/multi-carrier-shipping-label"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Amazon Shipping, Canada Post, FedEx, PostNord, UPS, USPS, DHL Express & India Post",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/multi-carrier-shipping-label"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/multi-carrier-shipping-label"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["shipping-rate-calculators", "shipping-labels", "order-tracking", "marketplace-integrations"],
+        "primary_category_id": "shipping-rate-calculators",
+        "seo": {
+          "title": "PH MultiCarrier Shipping Label Shopify App | eStorefy",
+          "meta_description": "A Shopify app for shipping rate calculators. Listed functions include label creation, bulk printing.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/multi-carrier-shipping-label",
+          "retrieved_at": "2026-10-04T05:21:47.862050+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Carrier calculated shipping rates at checkout, print shipping labels, live order tracking…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/multi-carrier-shipping-label"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "globe",
+      "name": "Globe Pickup Points & Shipping",
+      "slug": "globe",
+      "category_fit": {
+        "app_id": "globe",
+        "selection_score": 5.9721,
+        "rating_evidence": {"value": 5.0, "reviews": 134},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["label"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/globe"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for shipping labels. Listed functions include multi-location, route planning.",
+        "description_long": "Globe Pickup Points & Shipping is developed by Appfleece and listed for delivery and pickup, shipping. Its structured listing identifies functions such as multi-location, route planning, address validation, shipping labels. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Shipping Labels", "Local Delivery & Store Pickup"],
+        "best_for": {
+          "use_cases": ["Shipping Labels", "Local Delivery & Store Pickup"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 134,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/globe",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 133},
+          {"stars": 4, "percentage": 1, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $15/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "ADVANCED",
+            "amount_usd": 15.0,
+            "billing_period": "month",
+            "price_display": "$15 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $150/year and save 17%"]
+          },
+          {
+            "name": "SHOPIFY PLUS",
+            "amount_usd": 30.0,
+            "billing_period": "month",
+            "price_display": "$30 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $300/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 15.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "February 28, 2024 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          },
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.delivery_and_pickup.delivery_options.multi_location", "label": "Multi-location"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.route_planning", "label": "Route planning"},
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.address_validation",
+            "label": "Address validation"
+          },
+          {"handle": "cf.delivery_and_pickup.delivery_options.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.curbside", "label": "Curbside"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.in_store", "label": "In-store"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.multi_location", "label": "Multi-location"},
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.delivery_map", "label": "Delivery map"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.driver_tracking", "label": "Driver tracking"},
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.order_tracking", "label": "Order tracking"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.proof_of_delivery",
+            "label": "Proof of delivery"
+          },
+          {"handle": "cf.shipping.labels_and_packaging.label_creation", "label": "Label creation"},
+          {"handle": "cf.shipping.labels_and_packaging.label_customization", "label": "Label customization"},
+          {"handle": "cf.shipping.labels_and_packaging.bulk_printing", "label": "Bulk printing"},
+          {"handle": "cf.shipping.labels_and_packaging.address_validation", "label": "Address validation"},
+          {"handle": "cf.shipping.labels_and_packaging.return_labels", "label": "Return labels"},
+          {"handle": "cf.shipping.labels_and_packaging.packaging", "label": "Packaging"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_rules", "label": "Shipping rules"},
+          {"handle": "cf.shipping.labels_and_packaging.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.labels_and_packaging.multi_language", "label": "Multi-language"},
+          {"handle": "cf.shipping.labels_and_packaging.carrier_selection", "label": "Carrier selection"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.shipping.managing_shipments.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.managing_shipments.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.shipping.managing_shipments.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.shipping.managing_shipments.order_updates", "label": "Order updates"}
+        ],
+        "languages": ["English", " Czech", " German", " Polish", " French", " Spanish", " and Hungarian"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Baselinker",
+          "GLS",
+          "MetaKocka",
+          "Packeta",
+          "Picqer",
+          "PPL"
+        ]
+      },
+      "developer": {
+        "name": "Appfleece",
+        "website_url": "https://globe.appfleece.com",
+        "partner_url": "https://apps.shopify.com/partners/appfleece",
+        "public_address": "Jana Palacha 363, Zelené Předměstí, Pardubice, 530 02, CZ"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/globe",
+        "canonical_app_store_url": "https://apps.shopify.com/globe",
+        "install_url": "https://apps.shopify.com/globe",
+        "demo_store_url": "https://globe-app.myshopify.com/cart/49468888219922:1",
+        "resources": {
+          "Privacy policy": "https://appfleece.com/privacy",
+          "FAQ": "https://globe.appfleece.com/pickup-points",
+          "Tutorial": "https://docs.globe.appfleece.com/adding-pickup-points",
+          "App Documentation": "https://docs.globe.appfleece.com",
+          "Appfleece": "https://apps.shopify.com/partners/appfleece",
+          "Website": "https://globe.appfleece.com",
+          "Changelog": "https://globe.appfleece.com/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/4551997756600ccac2e01d603219e5a2/icon/CIThqYy_rY4DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/4551997756600ccac2e01d603219e5a2/promotional_image/CMHC9NvOvJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4551997756600ccac2e01d603219e5a2/desktop_screenshot/CLa0iIfK0pMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4551997756600ccac2e01d603219e5a2/desktop_screenshot/CI6kkYfK0pMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4551997756600ccac2e01d603219e5a2/desktop_screenshot/CPyy3ffIso4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4551997756600ccac2e01d603219e5a2/desktop_screenshot/CIrlmofK0pMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Globe Pickup Points & Shipping free?",
+            "answer": "The pricing label retrieved from the listing is: From $15/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/globe"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Czech,  German,  Polish,  French,  Spanish,  and Hungarian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/globe"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Baselinker, GLS, MetaKocka, Packeta, Picqer, PPL",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/globe"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/globe"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://globe.appfleece.com/pickup-points",
+            "https://docs.globe.appfleece.com/adding-pickup-points",
+            "https://docs.globe.appfleece.com"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["shipping-labels", "local-delivery-store-pickup"],
+        "primary_category_id": "shipping-labels",
+        "seo": {
+          "title": "Globe Pickup Points & Shipping Shopify App | eStorefy",
+          "meta_description": "A Shopify app for shipping labels. Listed functions include multi-location, route planning.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/globe",
+          "retrieved_at": "2026-10-04T05:22:06.097550+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Let customers select pickup points at checkout from 65+ carriers, print shipping…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/globe"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "yanet-return-and-exchange",
+      "name": "Yanet Returns & Exchanges",
+      "slug": "yanet-return-and-exchange",
+      "category_fit": {
+        "app_id": "yanet-return-and-exchange",
+        "selection_score": 5.8594,
+        "rating_evidence": {"value": 4.8, "reviews": 272},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["label"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/yanet-return-and-exchange"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for shipping labels. Listed functions include manual refunds, exchanges.",
+        "description_long": "Yanet Returns & Exchanges is developed by Yanet and listed for returns and exchanges, shipping. Its structured listing identifies functions such as manual refunds, exchanges, replacements, in-store returns. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Shipping Labels"],
+        "best_for": {
+          "use_cases": ["Shipping Labels"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 272,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/yanet-return-and-exchange",
+        "distribution": [
+          {"stars": 5, "percentage": 93, "count": 254},
+          {"stars": 4, "percentage": 3, "count": 8},
+          {"stars": 3, "percentage": 1, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 3, "count": 7}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["80 free requests per month, only $0.2 per extra request"]
+          },
+          {
+            "name": "Ultimate",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "April 7, 2023",
+        "shopify_categories": [
+          {
+            "name": "Returns and exchanges",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges"
+          },
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.returns_and_exchanges.return_options.manual_refunds", "label": "Manual refunds"},
+          {"handle": "cf.returns_and_exchanges.return_options.exchanges", "label": "Exchanges"},
+          {"handle": "cf.returns_and_exchanges.return_options.replacements", "label": "Replacements"},
+          {"handle": "cf.returns_and_exchanges.return_options.in_store_returns", "label": "In-store returns"},
+          {"handle": "cf.returns_and_exchanges.return_options.gift_cards", "label": "Gift cards"},
+          {"handle": "cf.returns_and_exchanges.return_options.store_credit", "label": "Store credit"},
+          {"handle": "cf.returns_and_exchanges.return_options.discount_code", "label": "Discount codes"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.automated_approvals",
+            "label": "Automated approvals"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.return_portal", "label": "Return portal"},
+          {"handle": "cf.returns_and_exchanges.return_management.custom_policies", "label": "Custom policies"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.non_returnable_items",
+            "label": "Non-returnable items"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.return_windows", "label": "Return windows"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_reasons", "label": "Return reasons"},
+          {"handle": "cf.returns_and_exchanges.return_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.returns_and_exchanges.return_management.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_tracking", "label": "Return tracking"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.custom_branding", "label": "Custom branding"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.refund_management",
+            "label": "Refund management"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.stock_updates", "label": "Stock updates"},
+          {"handle": "cf.shipping.labels_and_packaging.return_labels", "label": "Return labels"},
+          {"handle": "cf.shipping.labels_and_packaging.carrier_selection", "label": "Carrier selection"},
+          {"handle": "cf.shipping.managing_shipments.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.shipping.managing_shipments.order_updates", "label": "Order updates"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " Finnish",
+          " German",
+          " Italian",
+          " Hindi",
+          " Japanese",
+          " Dutch",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Romanian",
+          " Russian",
+          " Turkish",
+          " Vietnamese",
+          " Chinese (Simplified)",
+          " and French"
+        ],
+        "works_with": ["Customer accounts", "Shopify Admin", "EasyPost", "FedEx", "Shippo"]
+      },
+      "developer": {
+        "name": "Yanet",
+        "website_url": "https://yanet.io/",
+        "partner_url": "https://apps.shopify.com/partners/yanet",
+        "public_address": "Tu Hiep, Thanh Tri, Hanoi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/yanet-return-and-exchange",
+        "canonical_app_store_url": "https://apps.shopify.com/yanet-return-and-exchange",
+        "install_url": "https://apps.shopify.com/yanet-return-and-exchange",
+        "demo_store_url": "https://yanet-05.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://yanet.io/privacy-policies/",
+          "Yanet": "https://apps.shopify.com/partners/yanet",
+          "Website": "https://yanet.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/b7526c91f1f73e87ba06bef5236e4b7e/icon/CJOdjYTjiIwDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/b7526c91f1f73e87ba06bef5236e4b7e/promotional_image/CKDOl4TjiIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b7526c91f1f73e87ba06bef5236e4b7e/desktop_screenshot/CMjVoYTjiIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b7526c91f1f73e87ba06bef5236e4b7e/desktop_screenshot/CLGjroTjiIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b7526c91f1f73e87ba06bef5236e4b7e/desktop_screenshot/COCXuoTjiIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b7526c91f1f73e87ba06bef5236e4b7e/desktop_screenshot/CPjIx4TjiIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b7526c91f1f73e87ba06bef5236e4b7e/desktop_screenshot/CJf304TjiIwDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Yanet Returns & Exchanges free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/yanet-return-and-exchange"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  Finnish,  German,  Italian,  Hindi,  Japanese,  Dutch,  Polish,  Portuguese (Brazil),  Romanian,  Russian,  Turkish,  Vietnamese,  Chinese (Simplified),  and French",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/yanet-return-and-exchange"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Admin, EasyPost, FedEx, Shippo",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/yanet-return-and-exchange"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/yanet-return-and-exchange"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["shipping-labels"],
+        "primary_category_id": "shipping-labels",
+        "seo": {
+          "title": "Yanet Returns & Exchanges Shopify App | eStorefy",
+          "meta_description": "A Shopify app for shipping labels. Listed functions include manual refunds, exchanges.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/yanet-return-and-exchange",
+          "retrieved_at": "2026-10-04T05:23:36.786484+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/yanet-return-and-exchange"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "shipandco",
+      "name": "Shipandco",
+      "slug": "shipandco",
+      "category_fit": {
+        "app_id": "shipandco",
+        "selection_score": 5.8128,
+        "rating_evidence": {"value": 4.8, "reviews": 156},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["label"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/shipandco"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for shipping labels. Listed functions include label creation, order sync.",
+        "description_long": "Shipandco is developed by Ship&co and listed for shipping. Its structured listing identifies functions such as label creation, order sync, email notifications, order updates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Shipping Labels"],
+        "best_for": {
+          "use_cases": ["Shipping Labels"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 156,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/shipandco",
+        "distribution": [
+          {"stars": 5, "percentage": 87, "count": 135},
+          {"stars": 4, "percentage": 8, "count": 12},
+          {"stars": 3, "percentage": 5, "count": 8},
+          {"stars": 2, "percentage": 1, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Usage based",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": 30,
+            "additional_charge_notes": [
+              "Usage-based: starts at $8/mo + pay per label. Manage billing at shipandco.com. 30-day free trial available."
+            ]
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": "https://www.shipandco.com/en/pricing",
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "April 7, 2017 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.shipping.labels_and_packaging.label_creation", "label": "Label creation"},
+          {"handle": "cf.shipping.managing_shipments.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.managing_shipments.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.shipping.managing_shipments.order_updates", "label": "Order updates"}
+        ],
+        "languages": ["English", " French", " and Japanese"],
+        "works_with": ["Checkout", "DHL", "FedEx", "Japan Post", "Sagawa", "UPS", "Yamato"]
+      },
+      "developer": {
+        "name": "Ship&co",
+        "website_url": "https://www.shipandco.com",
+        "partner_url": "https://apps.shopify.com/partners/shipandco",
+        "public_address": "Nakagyoku Yaoyacho 117, KYOTO, JP-26, 604-8072, JP"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/shipandco",
+        "canonical_app_store_url": "https://apps.shopify.com/shipandco",
+        "install_url": "https://apps.shopify.com/shipandco",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.shipandco.com/en/privacy-policy",
+          "FAQ": "https://support.shipandco.com/hc/en-us/sections/205817727",
+          "Tutorial": "https://youtu.be/rzK6a7m3X3M",
+          "App Documentation": "https://youtu.be/_Lqt6Hyzb1s",
+          "Ship&co": "https://apps.shopify.com/partners/shipandco",
+          "Website": "https://www.shipandco.com",
+          "Changelog": "https://www.shipandco.com/en/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/b0b79285c85318c77464283441bcd660/icon/CLmTvMj0lu8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/b0b79285c85318c77464283441bcd660/desktop_screenshot/CNLkrsrJ6okDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b0b79285c85318c77464283441bcd660/desktop_screenshot/CPG3ucrJ6okDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b0b79285c85318c77464283441bcd660/desktop_screenshot/CJCv-YHA4osDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b0b79285c85318c77464283441bcd660/desktop_screenshot/CN-RzsrJ6okDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/y_RZ--64FHY"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Shipandco free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/shipandco"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  and Japanese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/shipandco"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, DHL, FedEx, Japan Post, Sagawa, UPS, Yamato",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/shipandco"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/shipandco"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://support.shipandco.com/hc/en-us/sections/205817727",
+            "https://youtu.be/rzK6a7m3X3M",
+            "https://youtu.be/_Lqt6Hyzb1s"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["shipping-labels"],
+        "primary_category_id": "shipping-labels",
+        "seo": {
+          "title": "Shipandco Shopify App | eStorefy",
+          "meta_description": "A Shopify app for shipping labels. Listed functions include label creation, order sync.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/shipandco",
+          "retrieved_at": "2026-10-04T05:22:06.083359+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Save time to ship & fulfill orders - regardless of your location.…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/shipandco"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "pickupbird-pickup-delivery",
+      "name": "PickupBird Pickup Points",
+      "slug": "pickupbird-pickup-delivery",
+      "category_fit": {
+        "app_id": "pickupbird-pickup-delivery",
+        "selection_score": 5.8118,
+        "rating_evidence": {"value": 4.9, "reviews": 75},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["label"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/pickupbird-pickup-delivery"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for shipping labels. Listed functions include label creation, bulk printing.",
+        "description_long": "PickupBird Pickup Points is developed by Digiloop  and listed for shipping, delivery and pickup. Its structured listing identifies functions such as label creation, bulk printing, packing slips, packaging. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Shipping Labels"],
+        "best_for": {
+          "use_cases": ["Shipping Labels"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 75,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/pickupbird-pickup-delivery",
+        "distribution": [
+          {"stars": 5, "percentage": 93, "count": 70},
+          {"stars": 4, "percentage": 5, "count": 4},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 1, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $14.99/month. Usage charges apply. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "STARTER",
+            "amount_usd": 14.99,
+            "billing_period": "month",
+            "price_display": "$14.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $89.94/year and save 50%"]
+          },
+          {
+            "name": "BASIC",
+            "amount_usd": 24.99,
+            "billing_period": "month",
+            "price_display": "$24.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.12"]
+          },
+          {
+            "name": "GROW",
+            "amount_usd": 39.99,
+            "billing_period": "month",
+            "price_display": "$39.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.11"]
+          },
+          {
+            "name": "PLUS",
+            "amount_usd": 59.99,
+            "billing_period": "month",
+            "price_display": "$59.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.10"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 14.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 24, 2023",
+        "shopify_categories": [
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          },
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.shipping.labels_and_packaging.label_creation", "label": "Label creation"},
+          {"handle": "cf.shipping.labels_and_packaging.bulk_printing", "label": "Bulk printing"},
+          {"handle": "cf.shipping.labels_and_packaging.packing_slips", "label": "Packing slips"},
+          {"handle": "cf.shipping.labels_and_packaging.packaging", "label": "Packaging"},
+          {"handle": "cf.shipping.labels_and_packaging.pick_lists", "label": "Pick lists"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_insurance", "label": "Shipping insurance"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_rules", "label": "Shipping rules"},
+          {"handle": "cf.shipping.labels_and_packaging.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.labels_and_packaging.multi_language", "label": "Multi-language"},
+          {"handle": "cf.shipping.labels_and_packaging.carrier_selection", "label": "Carrier selection"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.shipping.managing_shipments.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.managing_shipments.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.shipping.managing_shipments.order_updates", "label": "Order updates"},
+          {"handle": "cf.shipping.managing_shipments.shipping_analytics", "label": "Shipping analytics"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.dynamic_rates", "label": "Dynamic rates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.order_limits", "label": "Order limits"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.sms_notifications",
+            "label": "SMS notifications"
+          },
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.delivery_map", "label": "Delivery map"},
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.order_tracking", "label": "Order tracking"},
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.tracking_pages", "label": "Tracking pages"}
+        ],
+        "languages": [
+          "English",
+          " Hungarian",
+          " Romanian",
+          " Slovak",
+          " Czech",
+          " Polish",
+          " Danish",
+          " Finnish",
+          " Norwegian (Bokmål)",
+          " and Swedish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "DPD",
+          "FAN Courier",
+          "GLS",
+          "MPL Magyar Posta",
+          "Packeta Foxpost",
+          "Sameday"
+        ]
+      },
+      "developer": {
+        "name": "Digiloop ",
+        "website_url": "https://pickupbird.com/",
+        "partner_url": "https://apps.shopify.com/partners/digiloop",
+        "public_address": "Furedi ut 98., Debrecen, 4032, HU"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/pickupbird-pickup-delivery",
+        "canonical_app_store_url": "https://apps.shopify.com/pickupbird-pickup-delivery",
+        "install_url": "https://apps.shopify.com/pickupbird-pickup-delivery",
+        "demo_store_url": "https://pickupbird-cart-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://digiloop.hu/adatvedelmi-es-adatkezelesi-tajekoztato/",
+          "FAQ": "https://help.pickupbird.com/en/collections/5757164-faq",
+          "Tutorial": "https://help.pickupbird.com/en/collections/5833774-getting-started",
+          "Digiloop": "https://apps.shopify.com/partners/digiloop",
+          "Website": "https://pickupbird.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/d9573f0103fb34d9612d81a5ff127ece/icon/CJ_O_-m78pUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/d9573f0103fb34d9612d81a5ff127ece/desktop_screenshot/CNimvb6-8pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d9573f0103fb34d9612d81a5ff127ece/desktop_screenshot/CMzHx76-8pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d9573f0103fb34d9612d81a5ff127ece/desktop_screenshot/CPqX0r6-8pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d9573f0103fb34d9612d81a5ff127ece/desktop_screenshot/CPOg276-8pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d9573f0103fb34d9612d81a5ff127ece/desktop_screenshot/COCT5b6-8pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d9573f0103fb34d9612d81a5ff127ece/desktop_screenshot/CKvC776-8pUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/2HPT9bMGfn4"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is PickupBird Pickup Points free?",
+            "answer": "The pricing label retrieved from the listing is: From $14.99/month. Usage charges apply. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/pickupbird-pickup-delivery"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Hungarian,  Romanian,  Slovak,  Czech,  Polish,  Danish,  Finnish,  Norwegian (Bokmål),  and Swedish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/pickupbird-pickup-delivery"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, DPD, FAN Courier, GLS, MPL Magyar Posta, Packeta Foxpost, Sameday",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/pickupbird-pickup-delivery"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/pickupbird-pickup-delivery"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.pickupbird.com/en/collections/5757164-faq",
+            "https://help.pickupbird.com/en/collections/5833774-getting-started"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["shipping-labels"],
+        "primary_category_id": "shipping-labels",
+        "seo": {
+          "title": "PickupBird Pickup Points Shopify App | eStorefy",
+          "meta_description": "A Shopify app for shipping labels. Listed functions include label creation, bulk printing.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/pickupbird-pickup-delivery",
+          "retrieved_at": "2026-10-04T05:22:06.186685+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Unlock a multi-carrier pickup point network with international delivery & built-in label…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/pickupbird-pickup-delivery"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "buckydrop",
+      "name": "BuckyDrop‑Branded Dropshipping",
+      "slug": "buckydrop",
+      "category_fit": {
+        "app_id": "buckydrop",
+        "selection_score": 5.7583,
+        "rating_evidence": {"value": 5.0, "reviews": 84},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["label"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/buckydrop"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for print on demand. Listed functions include clothing and accessories, bags and luggage.",
+        "description_long": "BuckyDrop‑Branded Dropshipping is developed by BuckyDrop and listed for dropshipping, print on demand (pod). Its structured listing identifies functions such as clothing and accessories, bags and luggage, home and garden, health and beauty. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Print on Demand", "Shipping Labels"],
+        "best_for": {
+          "use_cases": ["Print on Demand", "Shipping Labels"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 84,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/buckydrop",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 81},
+          {"stars": 4, "percentage": 2, "count": 2},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 29.9,
+            "billing_period": "month",
+            "price_display": "$29.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": "https://www.buckydrop.com/en/services/pricing/?pr=5XFWE&prc=B3X6A",
+        "starting_paid_monthly_price_usd": 29.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "March 30, 2021",
+        "shopify_categories": [
+          {
+            "name": "Dropshipping",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-dropshipping"
+          },
+          {
+            "name": "Print on demand (POD)",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-print-on-demand-pod"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.clothing_and_accessories",
+            "label": "Clothing and accessories"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.bags_and_luggages", "label": "Bags and luggage"},
+          {"handle": "cf.dropshipping.products_you_can_sell.home_and_garden", "label": "Home and garden"},
+          {"handle": "cf.dropshipping.products_you_can_sell.health_and_beauty", "label": "Health and beauty"},
+          {"handle": "cf.dropshipping.products_you_can_sell.food_and_drinks", "label": "Food and drinks"},
+          {"handle": "cf.dropshipping.products_you_can_sell.electronics", "label": "Electronics"},
+          {"handle": "cf.dropshipping.products_you_can_sell.arts_and_crafts", "label": "Arts and crafts"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.entertainment_and_media",
+            "label": "Entertainment and media"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.toys_and_games", "label": "Toys and games"},
+          {"handle": "cf.dropshipping.products_you_can_sell.baby_products", "label": "Baby products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.sports_products", "label": "Sports products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.pet_products", "label": "Pet products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.furniture", "label": "Furniture"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.business_and_office",
+            "label": "Business and office"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.hardware", "label": "Hardware"},
+          {"handle": "cf.dropshipping.products_you_can_sell.automotive", "label": "Automotive"},
+          {"handle": "cf.dropshipping.products_you_can_sell.mature_products", "label": "Mature products"},
+          {"handle": "cf.dropshipping.sourcing_locations.cn", "label": "China"},
+          {"handle": "cf.print_on_demand_pod.product_customization.private_labels", "label": "Private labels"},
+          {
+            "handle": "cf.print_on_demand_pod.product_customization.custom_packaging",
+            "label": "Custom packaging"
+          },
+          {"handle": "cf.print_on_demand_pod.product_customization.pack_ins", "label": "Pack-ins"},
+          {
+            "handle": "cf.print_on_demand_pod.product_customization.personalization",
+            "label": "Personalization"
+          },
+          {
+            "handle": "cf.print_on_demand_pod.product_customization.custom_templates",
+            "label": "Custom templates"
+          },
+          {"handle": "cf.print_on_demand_pod.products.all_over_print", "label": "All-over-print"},
+          {"handle": "cf.print_on_demand_pod.products.bags", "label": "Bags"},
+          {"handle": "cf.print_on_demand_pod.products.blankets", "label": "Blankets"},
+          {"handle": "cf.print_on_demand_pod.products.apparel", "label": "Apparel"},
+          {"handle": "cf.print_on_demand_pod.products.embroidery", "label": "Embroidery"},
+          {"handle": "cf.print_on_demand_pod.products.hats", "label": "Hats"},
+          {"handle": "cf.print_on_demand_pod.products.shoes", "label": "Shoes"}
+        ],
+        "languages": ["English", " Japanese", " Spanish", " Portuguese (Portugal)", " and Chinese (Simplified)"],
+        "works_with": [
+          "PayPal Wise Credit Cards",
+          "POD Custom Product & Packaging",
+          "Taobao 1688 Alibaba AliExpress",
+          "Tmall Weidian Xianyu Pinduoduo",
+          "WooCommerce API Integration",
+          "YunExpress Duty-Free Express"
+        ]
+      },
+      "developer": {
+        "name": "BuckyDrop",
+        "website_url": "https://www.buckydrop.com/en/?pr=5XFWE&prc=QUQJL",
+        "partner_url": "https://apps.shopify.com/partners/starit1",
+        "public_address": "14F, Yunsong Building, Futian District, SHENZHEN, GD, 518000, CN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/buckydrop",
+        "canonical_app_store_url": "https://apps.shopify.com/buckydrop",
+        "install_url": "https://apps.shopify.com/buckydrop",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://cdn.buckydrop.com/starit-privacy/buckydrop-shop-privacy-policy.html",
+          "FAQ": "https://www.buckydrop.com/en/help/?pr=5XFWE&prc=QUQJL",
+          "Tutorial": "https://www.buckydrop.com/en/how-it-works/?pr=5XFWE&prc=QUQJL",
+          "BuckyDrop": "https://apps.shopify.com/partners/starit1",
+          "Website": "https://www.buckydrop.com/en/?pr=5XFWE&prc=QUQJL"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6b0d7a08816efa2b42f40ec4c851b12a/icon/CKDWuaf0lu8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6b0d7a08816efa2b42f40ec4c851b12a/promotional_image/CNq_3cL32ZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b0d7a08816efa2b42f40ec4c851b12a/desktop_screenshot/COWix9ag7JADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b0d7a08816efa2b42f40ec4c851b12a/desktop_screenshot/CO7m0Nag7JADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b0d7a08816efa2b42f40ec4c851b12a/desktop_screenshot/CLvg2dag7JADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b0d7a08816efa2b42f40ec4c851b12a/desktop_screenshot/CJGs49ag7JADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b0d7a08816efa2b42f40ec4c851b12a/desktop_screenshot/CMDFtpOf7JADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6b0d7a08816efa2b42f40ec4c851b12a/desktop_screenshot/CPy5v5Of7JADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BuckyDrop‑Branded Dropshipping free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/buckydrop"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Japanese,  Spanish,  Portuguese (Portugal),  and Chinese (Simplified)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/buckydrop"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "PayPal Wise Credit Cards, POD Custom Product & Packaging, Taobao 1688 Alibaba AliExpress, Tmall Weidian Xianyu Pinduoduo, WooCommerce API Integration, YunExpress Duty-Free Express",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/buckydrop"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/buckydrop"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://www.buckydrop.com/en/help/?pr=5XFWE&prc=QUQJL",
+            "https://www.buckydrop.com/en/how-it-works/?pr=5XFWE&prc=QUQJL"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["print-on-demand", "shipping-labels"],
+        "primary_category_id": "print-on-demand",
+        "seo": {
+          "title": "BuckyDrop‑Branded Dropshipping Shopify App | eStorefy",
+          "meta_description": "A Shopify app for print on demand. Listed functions include clothing and accessories, bags and luggage.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/buckydrop",
+          "retrieved_at": "2026-10-04T05:20:48.515003+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Find China suppliers on 1688, Taobao, Alibaba & AliExpress. Build your brand…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/buckydrop"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "easyroutes",
+      "name": "EasyRoutes Local Delivery",
+      "slug": "easyroutes",
+      "category_fit": {
+        "app_id": "easyroutes",
+        "selection_score": 5.2569,
+        "rating_evidence": {"value": 4.9, "reviews": 287},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["label"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/easyroutes"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for shipping labels. Listed functions include cutoff times, date picker.",
+        "description_long": "EasyRoutes Local Delivery is developed by Roundtrip.ai and listed for delivery and pickup, shipping. Its structured listing identifies functions such as cutoff times, date picker, order limits, minimum values. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Shipping Labels", "Order Tracking", "Local Delivery & Store Pickup"],
+        "best_for": {
+          "use_cases": ["Shipping Labels", "Order Tracking", "Local Delivery & Store Pickup"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 287,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/easyroutes",
+        "distribution": [
+          {"stars": 5, "percentage": 91, "count": 262},
+          {"stars": 4, "percentage": 7, "count": 20},
+          {"stars": 3, "percentage": 1, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Add additional driver seats for $39/seat/month"]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 59.0,
+            "billing_period": "month",
+            "price_display": "$59 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Add additional driver seats for $59/seat/month, usage-based SMS notifications."]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 1125.0,
+            "billing_period": "month",
+            "price_display": "$1,125 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "Add additional driver seats for $75/seat/month. Usage-based SMS notifications. Contact sales for custom plan + pricing."
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.roundtrip.ai/easyroutes/pricing",
+        "starting_paid_monthly_price_usd": 39.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 22, 2020 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          },
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.delivery_and_pickup.delivery_options.cutoff_times", "label": "Cutoff times"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.minimum_values", "label": "Minimum values"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.multi_location", "label": "Multi-location"},
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.preparation_times",
+            "label": "Preparation times"
+          },
+          {"handle": "cf.delivery_and_pickup.delivery_options.route_planning", "label": "Route planning"},
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.driver_assignment",
+            "label": "Driver assignment"
+          },
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.address_validation",
+            "label": "Address validation"
+          },
+          {"handle": "cf.delivery_and_pickup.delivery_options.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.curbside", "label": "Curbside"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.in_store", "label": "In-store"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.multi_location", "label": "Multi-location"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.scheduling", "label": "Scheduling"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.time_slots", "label": "Time slots"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.sms_notifications",
+            "label": "SMS notifications"
+          },
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.delivery_map", "label": "Delivery map"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.etas", "label": "ETAs"},
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.driver_tracking", "label": "Driver tracking"},
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.order_tracking", "label": "Order tracking"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.proof_of_delivery",
+            "label": "Proof of delivery"
+          },
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.web_push_notifications",
+            "label": "Web push notifications"
+          },
+          {"handle": "cf.delivery_and_pickup.real_time_tracking.tracking_pages", "label": "Tracking pages"},
+          {
+            "handle": "cf.delivery_and_pickup.real_time_tracking.route_optimization",
+            "label": "Route optimization"
+          },
+          {"handle": "cf.shipping.labels_and_packaging.label_creation", "label": "Label creation"},
+          {"handle": "cf.shipping.labels_and_packaging.label_customization", "label": "Label customization"},
+          {"handle": "cf.shipping.labels_and_packaging.bulk_printing", "label": "Bulk printing"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Admin",
+          "Android/iOS",
+          "Delivery and Pickup Order Apps",
+          "Delivery Dates and Times",
+          "Delivery Route Planner",
+          "Local Delivery",
+          "Recharge, Bold, Zapiet"
+        ]
+      },
+      "developer": {
+        "name": "Roundtrip.ai",
+        "website_url": "https://www.roundtrip.ai",
+        "partner_url": "https://apps.shopify.com/partners/roundtrip",
+        "public_address": "Roundtrip Systems Inc., 50 Carroll Street, Toronto, ON, M4M 3G3, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/easyroutes",
+        "canonical_app_store_url": "https://apps.shopify.com/easyroutes",
+        "install_url": "https://apps.shopify.com/easyroutes",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://roundtrip.ai/privacy/",
+          "FAQ": "https://support.roundtrip.ai/article/396-questions-about-easyroutes",
+          "Tutorial": "https://www.roundtrip.ai/demo",
+          "App Documentation": "https://support.roundtrip.ai/",
+          "Roundtrip.ai": "https://apps.shopify.com/partners/roundtrip",
+          "Website": "https://www.roundtrip.ai",
+          "Changelog": "https://www.roundtrip.ai/updates/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/a50c529bb46df2d6dfe0663f4c0f6670/icon/CJLDxPSZ_voCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/a50c529bb46df2d6dfe0663f4c0f6670/desktop_screenshot/CM73xbah2ZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a50c529bb46df2d6dfe0663f4c0f6670/desktop_screenshot/CMKDpeCg2ZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a50c529bb46df2d6dfe0663f4c0f6670/desktop_screenshot/CJXr0Lah2ZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a50c529bb46df2d6dfe0663f4c0f6670/desktop_screenshot/CLiWuuCg2ZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a50c529bb46df2d6dfe0663f4c0f6670/desktop_screenshot/COf_wuCg2ZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a50c529bb46df2d6dfe0663f4c0f6670/desktop_screenshot/CLzN7dy625ADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a50c529bb46df2d6dfe0663f4c0f6670/mobile_screenshot/CLjy9ty625ADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a50c529bb46df2d6dfe0663f4c0f6670/mobile_screenshot/CLiinoCi2ZADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/4zKFkDStHGM"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is EasyRoutes Local Delivery free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/easyroutes"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/easyroutes"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Android/iOS, Delivery and Pickup Order Apps, Delivery Dates and Times, Delivery Route Planner, Local Delivery, Recharge, Bold, Zapiet",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/easyroutes"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/easyroutes"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://support.roundtrip.ai/article/396-questions-about-easyroutes",
+            "https://www.roundtrip.ai/demo",
+            "https://support.roundtrip.ai/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["shipping-labels", "order-tracking", "local-delivery-store-pickup"],
+        "primary_category_id": "shipping-labels",
+        "seo": {
+          "title": "EasyRoutes Local Delivery Shopify App | eStorefy",
+          "meta_description": "A Shopify app for shipping labels. Listed functions include cutoff times, date picker.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/easyroutes",
+          "retrieved_at": "2026-10-04T05:22:45.059285+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Optimize delivery routes, dispatch drivers & track orders in real time with…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/easyroutes"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

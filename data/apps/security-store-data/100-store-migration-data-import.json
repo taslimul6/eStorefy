@@ -1,0 +1,3214 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "store-migration-data-import",
+    "number": 100,
+    "name": "Store Migration & Data Import",
+    "group": "Security & Store Data",
+    "slug": "store-migration-data-import",
+    "url_path": "/apps/store-migration-data-import",
+    "focus": "Protect store operations and preserve or transfer store data.",
+    "description": "Compare Shopify apps for store migration & data import. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/sales-channels-selling-online-store-data-importer/all"],
+    "seo": {
+      "title": "Shopify Store Migration & Data Import Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for store migration & data import: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a store migration & data import app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "dsers",
+      "name": "DSers: Dropship+AliExpress+AI",
+      "slug": "dsers",
+      "category_fit": {
+        "app_id": "dsers",
+        "selection_score": 6.0779,
+        "rating_evidence": {"value": 5.0, "reviews": 6321},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["import"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/dsers"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for product recommendations. Listed functions include clothing and accessories, bags and luggage.",
+        "description_long": "DSers: Dropship+AliExpress+AI is developed by DSers and listed for dropshipping. Its structured listing identifies functions such as clothing and accessories, bags and luggage, home and garden, health and beauty. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Recommendations", "Dropshipping", "Store Migration & Data Import"],
+        "best_for": {
+          "use_cases": ["Product Recommendations", "Dropshipping", "Store Migration & Data Import"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 6321,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/dsers",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 6},
+          {"stars": 4, "percentage": 1, "count": 48},
+          {"stars": 3, "percentage": 0, "count": 10},
+          {"stars": 2, "percentage": 0, "count": 7},
+          {"stars": 1, "percentage": 1, "count": 58}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 19.9,
+            "billing_period": "month",
+            "price_display": "$19.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $190.80/year and save 20%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 49.9,
+            "billing_period": "month",
+            "price_display": "$49.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $478.80/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.dsers.com/pricing",
+        "starting_paid_monthly_price_usd": 19.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "October 26, 2018 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Dropshipping",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-dropshipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.clothing_and_accessories",
+            "label": "Clothing and accessories"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.bags_and_luggages", "label": "Bags and luggage"},
+          {"handle": "cf.dropshipping.products_you_can_sell.home_and_garden", "label": "Home and garden"},
+          {"handle": "cf.dropshipping.products_you_can_sell.health_and_beauty", "label": "Health and beauty"},
+          {"handle": "cf.dropshipping.products_you_can_sell.food_and_drinks", "label": "Food and drinks"},
+          {"handle": "cf.dropshipping.products_you_can_sell.electronics", "label": "Electronics"},
+          {"handle": "cf.dropshipping.products_you_can_sell.arts_and_crafts", "label": "Arts and crafts"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.entertainment_and_media",
+            "label": "Entertainment and media"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.toys_and_games", "label": "Toys and games"},
+          {"handle": "cf.dropshipping.products_you_can_sell.baby_products", "label": "Baby products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.sports_products", "label": "Sports products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.pet_products", "label": "Pet products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.furniture", "label": "Furniture"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.business_and_office",
+            "label": "Business and office"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.hardware", "label": "Hardware"},
+          {"handle": "cf.dropshipping.products_you_can_sell.automotive", "label": "Automotive"},
+          {"handle": "cf.dropshipping.products_you_can_sell.mature_products", "label": "Mature products"},
+          {"handle": "cf.dropshipping.sourcing_locations.ar", "label": "Argentina"},
+          {"handle": "cf.dropshipping.sourcing_locations.au", "label": "Australia"},
+          {"handle": "cf.dropshipping.sourcing_locations.be", "label": "Belgium"},
+          {"handle": "cf.dropshipping.sourcing_locations.br", "label": "Brazil"},
+          {"handle": "cf.dropshipping.sourcing_locations.ca", "label": "Canada"},
+          {"handle": "cf.dropshipping.sourcing_locations.cl", "label": "Chile"},
+          {"handle": "cf.dropshipping.sourcing_locations.cn", "label": "China"},
+          {"handle": "cf.dropshipping.sourcing_locations.co", "label": "Colombia"},
+          {"handle": "cf.dropshipping.sourcing_locations.fr", "label": "France"},
+          {"handle": "cf.dropshipping.sourcing_locations.de", "label": "Germany"},
+          {"handle": "cf.dropshipping.sourcing_locations.ie", "label": "Ireland"},
+          {"handle": "cf.dropshipping.sourcing_locations.it", "label": "Italy"},
+          {"handle": "cf.dropshipping.sourcing_locations.jp", "label": "Japan"}
+        ],
+        "languages": ["English", " French", " Spanish", " German", " Italian", " and Portuguese (Brazil)"],
+        "works_with": ["1688", "Alibaba", "AliExpress", "Amazon", "eBay", "TikTok Shop"]
+      },
+      "developer": {
+        "name": "DSers",
+        "website_url": "https://www.dsers.com",
+        "partner_url": "https://apps.shopify.com/partners/dsers",
+        "public_address": "Suite 1701-02, 17/F, FWD Financial Centre,308 Des Voeux Road Central, HongKong City, HK, 999077, HK"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/dsers",
+        "canonical_app_store_url": "https://apps.shopify.com/dsers",
+        "install_url": "https://apps.shopify.com/dsers",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.dsers.com/privacy",
+          "FAQ": "https://help.dsers.com/",
+          "Tutorial": "https://www.youtube.com/playlist?list=PLy0cC8peMaqlnhdNNuHQF9oJn_CkL-lt9",
+          "App Documentation": "https://www.youtube.com/playlist?list=PLy0cC8peMaqnmUb3So98XBIhoyP4wPx_Q",
+          "DSers": "https://apps.shopify.com/partners/dsers",
+          "Website": "https://www.dsers.com",
+          "Changelog": "https://www.dsers.com/blog/product-updates/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f542dc5a007dc8f705239e569608c654/icon/CNiy-eaHmvICEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f542dc5a007dc8f705239e569608c654/desktop_screenshot/CMD_u4WZopQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f542dc5a007dc8f705239e569608c654/desktop_screenshot/CJiNxIWZopQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f542dc5a007dc8f705239e569608c654/desktop_screenshot/CICnzIWZopQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f542dc5a007dc8f705239e569608c654/desktop_screenshot/CMCd1IWZopQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/B1V7RVQ1cmE"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is DSers: Dropship+AliExpress+AI free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/dsers"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Spanish,  German,  Italian,  and Portuguese (Brazil)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/dsers"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "1688, Alibaba, AliExpress, Amazon, eBay, TikTok Shop",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/dsers"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/dsers"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.dsers.com/",
+            "https://www.youtube.com/playlist?list=PLy0cC8peMaqlnhdNNuHQF9oJn_CkL-lt9",
+            "https://www.youtube.com/playlist?list=PLy0cC8peMaqnmUb3So98XBIhoyP4wPx_Q"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-recommendations", "dropshipping", "store-migration-data-import"],
+        "primary_category_id": "product-recommendations",
+        "seo": {
+          "title": "DSers: Dropship+AliExpress+AI Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product recommendations. Listed functions include clothing and accessories, bags and luggage.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/dsers",
+          "retrieved_at": "2026-10-04T05:20:25.506983+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "DSers is the official Alibaba group partner with AI automated dropshipping solution…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/dsers"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "excel-export-import",
+      "name": "Matrixify: Data Export Import",
+      "slug": "excel-export-import",
+      "category_fit": {
+        "app_id": "excel-export-import",
+        "selection_score": 6.0666,
+        "rating_evidence": {"value": 4.9, "reviews": 1717},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["import", "migra"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/excel-export-import"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for customer file uploads. Listed functions include products, variants.",
+        "description_long": "Matrixify: Data Export Import is developed by ITissible and listed for bulk editor, store data importer. Its structured listing identifies functions such as products, variants, orders, discounts. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Customer File Uploads",
+          "Shipping Rate Calculators",
+          "Bulk Product Editing",
+          "Store Migration & Data Import"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Customer File Uploads",
+            "Shipping Rate Calculators",
+            "Bulk Product Editing",
+            "Store Migration & Data Import"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1717,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/excel-export-import",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 1},
+          {"stars": 4, "percentage": 2, "count": 32},
+          {"stars": 3, "percentage": 0, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 5},
+          {"stars": 1, "percentage": 2, "count": 38}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Demo",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 20.0,
+            "billing_period": "month",
+            "price_display": "$20 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Big",
+            "amount_usd": 50.0,
+            "billing_period": "month",
+            "price_display": "$50 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 200.0,
+            "billing_period": "month",
+            "price_display": "$200 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://matrixify.app/pricing/",
+        "starting_paid_monthly_price_usd": 20.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "July 7, 2017 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Bulk editor",
+            "url": "https://apps.shopify.com/categories/store-management-operations-bulk-editor"
+          },
+          {
+            "name": "Store data importer",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-store-data-importer"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.bulk_editor.editable_resources.products", "label": "Products"},
+          {"handle": "cf.bulk_editor.editable_resources.variants", "label": "Variants"},
+          {"handle": "cf.bulk_editor.editable_resources.orders", "label": "Orders"},
+          {"handle": "cf.bulk_editor.editable_resources.discounts", "label": "Discounts"},
+          {"handle": "cf.bulk_editor.editable_resources.images", "label": "Images"},
+          {"handle": "cf.bulk_editor.editable_resources.prices", "label": "Prices"},
+          {"handle": "cf.bulk_editor.editable_resources.sku_and_barcodes", "label": "SKU and barcodes"},
+          {"handle": "cf.bulk_editor.editable_resources.tags", "label": "Tags"},
+          {"handle": "cf.bulk_editor.editable_resources.descriptions", "label": "Descriptions"},
+          {"handle": "cf.bulk_editor.editable_resources.inventory", "label": "Inventory"},
+          {"handle": "cf.bulk_editor.editable_resources.metafields", "label": "Metafields"},
+          {"handle": "cf.bulk_editor.editable_resources.collections", "label": "Collections"},
+          {"handle": "cf.bulk_editor.actions.bulk_deletion", "label": "Bulk deletion"},
+          {"handle": "cf.bulk_editor.actions.seo_updates", "label": "SEO updates"},
+          {"handle": "cf.bulk_editor.actions.ai_assistance", "label": "AI assistance"},
+          {"handle": "cf.bulk_editor.actions.csv_import_and_export", "label": "CSV import and export"},
+          {"handle": "cf.bulk_editor.actions.data_migration", "label": "Data migration"},
+          {"handle": "cf.bulk_editor.actions.data_sync", "label": "Data sync"},
+          {"handle": "cf.bulk_editor.actions.backup", "label": "Backup"},
+          {"handle": "cf.bulk_editor.actions.search_and_filter", "label": "Search and filter"},
+          {"handle": "cf.bulk_editor.actions.scheduled_tasks", "label": "Scheduled tasks"},
+          {"handle": "cf.bulk_editor.actions.bulk_edit", "label": "Bulk edit"},
+          {"handle": "cf.store_data_importer.data_sync.auto_updates", "label": "Auto-update"},
+          {"handle": "cf.store_data_importer.data_sync.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.store_data_importer.data_sync.order_sync", "label": "Order sync"},
+          {"handle": "cf.store_data_importer.data_sync.price_sync", "label": "Price sync"},
+          {"handle": "cf.store_data_importer.data_sync.product_sync", "label": "Product sync"},
+          {"handle": "cf.store_data_importer.data_sync.scheduled_sync", "label": "Scheduled sync"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_export", "label": "Bulk export"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_import", "label": "Bulk import"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Admin",
+          "Dropbox",
+          "FTP / SFTP",
+          "Google Drive",
+          "Google Sheets",
+          "Google Shopping",
+          "MCP, AI Agents like Claude"
+        ]
+      },
+      "developer": {
+        "name": "ITissible",
+        "website_url": "https://matrixify.app",
+        "partner_url": "https://apps.shopify.com/partners/itissible",
+        "public_address": "Kugu street 28-5, Riga, LV1048, LV"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/excel-export-import",
+        "canonical_app_store_url": "https://apps.shopify.com/excel-export-import",
+        "install_url": "https://apps.shopify.com/excel-export-import",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://matrixify.app/privacy-notice/",
+          "FAQ": "https://matrixify.app/how-it-works/",
+          "Tutorial": "https://matrixify.app/tutorials/",
+          "App Documentation": "https://matrixify.app/documentation/",
+          "ITissible": "https://apps.shopify.com/partners/itissible",
+          "Website": "https://matrixify.app",
+          "Changelog": "https://matrixify.app/whats-new/release-notes/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/88eff9935abeb622b5b85569b705f673/icon/CNevroaPk_4CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/88eff9935abeb622b5b85569b705f673/desktop_screenshot/CNibjeWn-v8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/88eff9935abeb622b5b85569b705f673/desktop_screenshot/CPCqnO7_2vICEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/88eff9935abeb622b5b85569b705f673/desktop_screenshot/CJjRq-7_2vICEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/88eff9935abeb622b5b85569b705f673/desktop_screenshot/CMXZmOWn-v8CEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/jsB8CO6p_L4"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Matrixify: Data Export Import free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/excel-export-import"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/excel-export-import"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Dropbox, FTP / SFTP, Google Drive, Google Sheets, Google Shopping, MCP, AI Agents like Claude",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/excel-export-import"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/excel-export-import"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://matrixify.app/how-it-works/",
+            "https://matrixify.app/tutorials/",
+            "https://matrixify.app/documentation/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create the options, personalization fields or sizing content required for a sample product.",
+            "Place a test order and check that the selected details are captured correctly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "customer-file-uploads",
+          "shipping-rate-calculators",
+          "bulk-product-editing",
+          "store-migration-data-import"
+        ],
+        "primary_category_id": "customer-file-uploads",
+        "seo": {
+          "title": "Matrixify: Data Export Import Shopify App | eStorefy",
+          "meta_description": "A Shopify app for customer file uploads. Listed functions include products, variants.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/excel-export-import",
+          "retrieved_at": "2026-10-04T05:26:32.865289+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Manage Shopify data with Excel & CSV: Products, Collections, Customers, Companies, Discounts,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/excel-export-import"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "entafix-custom-xml-feeds",
+      "name": "FeedFix | XML Import & Export",
+      "slug": "entafix-custom-xml-feeds",
+      "category_fit": {
+        "app_id": "entafix-custom-xml-feeds",
+        "selection_score": 6.0476,
+        "rating_evidence": {"value": 5.0, "reviews": 278},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["import"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/entafix-custom-xml-feeds"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for google shopping feeds. Listed functions include attribute filtering, attribute mapping.",
+        "description_long": "FeedFix | XML Import & Export is developed by Entafix and listed for product feeds, store data importer. Its structured listing identifies functions such as attribute filtering, attribute mapping, metafields, custom formulas. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Google Shopping Feeds",
+          "Meta Pixel & Conversion Tracking",
+          "Product Comparison",
+          "Marketplace Integrations",
+          "Store Migration & Data Import"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Google Shopping Feeds",
+            "Meta Pixel & Conversion Tracking",
+            "Product Comparison",
+            "Marketplace Integrations",
+            "Store Migration & Data Import"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 278,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/entafix-custom-xml-feeds",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 278},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Export - Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": ["Import - Plus 24.99$ | Also Bundle Options"]
+          },
+          {
+            "name": "Export - Plus",
+            "amount_usd": 7.99,
+            "billing_period": "month",
+            "price_display": "$7.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $79.90/year and save 17%", "Import - Advanced 39.99$ | Also Bundle Options"]
+          },
+          {
+            "name": "Export - Advanced",
+            "amount_usd": 17.99,
+            "billing_period": "month",
+            "price_display": "$17.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $179.90/year and save 17%", "Import - Premium 79.99$ | Also Bundle Options"]
+          },
+          {
+            "name": "Export - Unlimited",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $499.90/year and save 17%", "Import - Unlimited 149.99$ | Also Bundle Options"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://entafix.com/feedfix-pricing",
+        "starting_paid_monthly_price_usd": 7.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 21, 2023",
+        "shopify_categories": [
+          {
+            "name": "Product feeds",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-product-feeds"
+          },
+          {
+            "name": "Store data importer",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-store-data-importer"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.product_feeds.feed_customization.attribute_filtering",
+            "label": "Attribute filtering"
+          },
+          {"handle": "cf.product_feeds.feed_customization.attribute_mapping", "label": "Attribute mapping"},
+          {"handle": "cf.product_feeds.feed_customization.metafields", "label": "Metafields"},
+          {"handle": "cf.product_feeds.feed_customization.custom_formulas", "label": "Custom formulas"},
+          {"handle": "cf.product_feeds.feed_customization.custom_labels", "label": "Custom labels"},
+          {"handle": "cf.product_feeds.feed_customization.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.product_feeds.feed_customization.local_inventory", "label": "Local inventory"},
+          {"handle": "cf.product_feeds.feed_customization.localized_feeds", "label": "Localized feeds"},
+          {"handle": "cf.product_feeds.feed_customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.product_feeds.feed_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.product_feeds.feed_customization.variant_sync", "label": "Variant sync"},
+          {"handle": "cf.product_feeds.feed_management.product_sync", "label": "Product sync"},
+          {"handle": "cf.product_feeds.feed_management.scheduled_sync", "label": "Scheduled sync"},
+          {"handle": "cf.product_feeds.feed_management.product_selection", "label": "Product selection"},
+          {
+            "handle": "cf.product_feeds.feed_management.target_specific_feeds",
+            "label": "Target-specific feeds"
+          },
+          {"handle": "cf.product_feeds.feed_management.feed_optimization", "label": "Feed optimization"},
+          {"handle": "cf.product_feeds.feed_management.multi_format", "label": "Multi-format"},
+          {"handle": "cf.store_data_importer.data_sync.auto_updates", "label": "Auto-update"},
+          {"handle": "cf.store_data_importer.data_sync.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.store_data_importer.data_sync.price_sync", "label": "Price sync"},
+          {"handle": "cf.store_data_importer.data_sync.product_sync", "label": "Product sync"},
+          {"handle": "cf.store_data_importer.data_sync.real_time_sync", "label": "Real-time sync"},
+          {"handle": "cf.store_data_importer.data_sync.scheduled_sync", "label": "Scheduled sync"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_export", "label": "Bulk export"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_import", "label": "Bulk import"},
+          {"handle": "cf.store_data_importer.data_migration.scheduled_export", "label": "Scheduled export"},
+          {"handle": "cf.store_data_importer.data_migration.scheduled_import", "label": "Scheduled import"},
+          {
+            "handle": "cf.store_data_importer.data_migration.large_file_support",
+            "label": "Large file support"
+          },
+          {"handle": "cf.store_data_importer.data_migration.bulk_updates", "label": "Bulk updates"},
+          {"handle": "cf.store_data_importer.data_migration.collections", "label": "Collections"}
+        ],
+        "languages": [
+          "English",
+          " Turkish",
+          " Czech",
+          " Danish",
+          " German",
+          " Polish",
+          " Dutch",
+          " French",
+          " Spanish",
+          " and Italian"
+        ],
+        "works_with": [
+          "Shopify Admin",
+          "Akakçe/TradeDoubler/Impact.com",
+          "API, FTP, SFTP",
+          "Google Merchant Center/Meta",
+          "Heureka/Skroutz/Glami/Alza",
+          "TikTok/Klaviyo/Awin",
+          "XML, JSON"
+        ]
+      },
+      "developer": {
+        "name": "Entafix",
+        "website_url": "https://entafix.com",
+        "partner_url": "https://apps.shopify.com/partners/entafix",
+        "public_address": "Cumhuriyet Mahallesi Aşık Veysel Caddesi, Küçükçekmece / İstanbul, İstanbul, 34290, TR"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/entafix-custom-xml-feeds",
+        "canonical_app_store_url": "https://apps.shopify.com/entafix-custom-xml-feeds",
+        "install_url": "https://apps.shopify.com/entafix-custom-xml-feeds",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://entafix.com/custom-xml-feeds/privacy.php",
+          "Entafix": "https://apps.shopify.com/partners/entafix",
+          "Website": "https://entafix.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/icon/COHCrojahZADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/promotional_image/CPPbupfmhZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/desktop_screenshot/CNvcw5fmhZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/desktop_screenshot/CKXOzZfmhZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/desktop_screenshot/COC22JfmhZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/desktop_screenshot/CMOl4ZfmhZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/desktop_screenshot/CLr_6ZfmhZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3b5f73fc7665c59f83d82302f872d086/desktop_screenshot/CKSw8pfmhZADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is FeedFix | XML Import & Export free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/entafix-custom-xml-feeds"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Turkish,  Czech,  Danish,  German,  Polish,  Dutch,  French,  Spanish,  and Italian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/entafix-custom-xml-feeds"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Akakçe/TradeDoubler/Impact.com, API, FTP, SFTP, Google Merchant Center/Meta, Heureka/Skroutz/Glami/Alza, TikTok/Klaviyo/Awin, XML, JSON",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/entafix-custom-xml-feeds"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/entafix-custom-xml-feeds"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "google-shopping-feeds",
+          "meta-pixel-conversion-tracking",
+          "product-comparison",
+          "marketplace-integrations",
+          "store-migration-data-import"
+        ],
+        "primary_category_id": "google-shopping-feeds",
+        "seo": {
+          "title": "FeedFix | XML Import & Export Shopify App | eStorefy",
+          "meta_description": "A Shopify app for google shopping feeds. Listed functions include attribute filtering, attribute mapping.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/entafix-custom-xml-feeds",
+          "retrieved_at": "2026-10-04T05:28:56.026370+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Export product feeds to Google, Meta and price comparison sites. Import products…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/entafix-custom-xml-feeds"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "altera-import-export-excel",
+      "name": "Altera ‑ Export and Import",
+      "slug": "altera-import-export-excel",
+      "category_fit": {
+        "app_id": "altera-import-export-excel",
+        "selection_score": 6.0381,
+        "rating_evidence": {"value": 5.0, "reviews": 250},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["import", "migra"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/altera-import-export-excel"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for bulk product editing. Listed functions include products, variants.",
+        "description_long": "Altera ‑ Export and Import is developed by Abnoba LLC and listed for bulk editor, store data importer. Its structured listing identifies functions such as products, variants, orders, discounts. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Bulk Product Editing", "Store Migration & Data Import"],
+        "best_for": {
+          "use_cases": ["Bulk Product Editing", "Store Migration & Data Import"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 250,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/altera-import-export-excel",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 243},
+          {"stars": 4, "percentage": 3, "count": 7},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Community",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Developer",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 15.0,
+            "billing_period": "month",
+            "price_display": "$15 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://support.getaltera.com/en/articles/12136606-altera-plans-overview",
+        "starting_paid_monthly_price_usd": 15.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "February 21, 2025 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Bulk editor",
+            "url": "https://apps.shopify.com/categories/store-management-operations-bulk-editor"
+          },
+          {
+            "name": "Store data importer",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-store-data-importer"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.bulk_editor.editable_resources.products", "label": "Products"},
+          {"handle": "cf.bulk_editor.editable_resources.variants", "label": "Variants"},
+          {"handle": "cf.bulk_editor.editable_resources.orders", "label": "Orders"},
+          {"handle": "cf.bulk_editor.editable_resources.discounts", "label": "Discounts"},
+          {"handle": "cf.bulk_editor.editable_resources.images", "label": "Images"},
+          {"handle": "cf.bulk_editor.editable_resources.prices", "label": "Prices"},
+          {"handle": "cf.bulk_editor.editable_resources.sku_and_barcodes", "label": "SKU and barcodes"},
+          {"handle": "cf.bulk_editor.editable_resources.tags", "label": "Tags"},
+          {"handle": "cf.bulk_editor.editable_resources.descriptions", "label": "Descriptions"},
+          {"handle": "cf.bulk_editor.editable_resources.inventory", "label": "Inventory"},
+          {"handle": "cf.bulk_editor.editable_resources.metafields", "label": "Metafields"},
+          {"handle": "cf.bulk_editor.editable_resources.collections", "label": "Collections"},
+          {"handle": "cf.bulk_editor.actions.bulk_deletion", "label": "Bulk deletion"},
+          {"handle": "cf.bulk_editor.actions.seo_updates", "label": "SEO updates"},
+          {"handle": "cf.bulk_editor.actions.ai_assistance", "label": "AI assistance"},
+          {"handle": "cf.bulk_editor.actions.csv_import_and_export", "label": "CSV import and export"},
+          {"handle": "cf.bulk_editor.actions.data_migration", "label": "Data migration"},
+          {"handle": "cf.bulk_editor.actions.data_sync", "label": "Data sync"},
+          {"handle": "cf.bulk_editor.actions.backup", "label": "Backup"},
+          {"handle": "cf.bulk_editor.actions.rollback", "label": "Rollback"},
+          {"handle": "cf.bulk_editor.actions.search_and_filter", "label": "Search and filter"},
+          {"handle": "cf.bulk_editor.actions.scheduled_tasks", "label": "Scheduled tasks"},
+          {"handle": "cf.bulk_editor.actions.bulk_edit", "label": "Bulk edit"},
+          {"handle": "cf.store_data_importer.data_sync.auto_updates", "label": "Auto-update"},
+          {"handle": "cf.store_data_importer.data_sync.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.store_data_importer.data_sync.order_sync", "label": "Order sync"},
+          {"handle": "cf.store_data_importer.data_sync.price_sync", "label": "Price sync"},
+          {"handle": "cf.store_data_importer.data_sync.product_sync", "label": "Product sync"},
+          {"handle": "cf.store_data_importer.data_sync.two_way_sync", "label": "Two-way sync"},
+          {"handle": "cf.store_data_importer.data_sync.scheduled_sync", "label": "Scheduled sync"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Admin",
+          "2048 Variants",
+          "FTP",
+          "Google Drive",
+          "Google Sheets",
+          "Google Shopping",
+          "WooCommerce"
+        ]
+      },
+      "developer": {
+        "name": "Abnoba LLC",
+        "website_url": "https://www.getaltera.com/",
+        "partner_url": "https://apps.shopify.com/partners/getaltera",
+        "public_address": "St Petersburg, FL, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/altera-import-export-excel",
+        "canonical_app_store_url": "https://apps.shopify.com/altera-import-export-excel",
+        "install_url": "https://apps.shopify.com/altera-import-export-excel",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.getaltera.com/privacy-policy/",
+          "FAQ": "https://support.getaltera.com/en/articles/11680936-frequently-asked-questions-faq",
+          "Tutorial": "https://support.getaltera.com/en/collections/13119609-getting-started",
+          "Abnoba LLC": "https://apps.shopify.com/partners/getaltera",
+          "Website": "https://www.getaltera.com/",
+          "Changelog": "https://www.getaltera.com/changelog/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9c29f5611bd509aced0d2a207cd2ed66/icon/CK3z9cT4kpUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9c29f5611bd509aced0d2a207cd2ed66/promotional_image/CMHYudaej5cDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c29f5611bd509aced0d2a207cd2ed66/desktop_screenshot/CLnYxNaej5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c29f5611bd509aced0d2a207cd2ed66/desktop_screenshot/CIWVzPmdj5cDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c29f5611bd509aced0d2a207cd2ed66/desktop_screenshot/CIaM0daej5cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c29f5611bd509aced0d2a207cd2ed66/desktop_screenshot/CJHP4Pmdj5cDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c29f5611bd509aced0d2a207cd2ed66/desktop_screenshot/CLOG78qQ2ZQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Altera ‑ Export and Import free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/altera-import-export-excel"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/altera-import-export-excel"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, 2048 Variants, FTP, Google Drive, Google Sheets, Google Shopping, WooCommerce",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/altera-import-export-excel"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/altera-import-export-excel"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://support.getaltera.com/en/articles/11680936-frequently-asked-questions-faq",
+            "https://support.getaltera.com/en/collections/13119609-getting-started"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the required data sources and configure a sample report or automation.",
+            "Validate event or report output against a known transaction.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["bulk-product-editing", "store-migration-data-import"],
+        "primary_category_id": "bulk-product-editing",
+        "seo": {
+          "title": "Altera ‑ Export and Import Shopify App | eStorefy",
+          "meta_description": "A Shopify app for bulk product editing. Listed functions include products, variants.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/altera-import-export-excel",
+          "retrieved_at": "2026-10-04T05:28:55.892023+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/altera-import-export-excel"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "reputon-amazon-affiliate",
+      "name": "Reputon Amazon Importer",
+      "slug": "reputon-amazon-affiliate",
+      "category_fit": {
+        "app_id": "reputon-amazon-affiliate",
+        "selection_score": 6.0191,
+        "rating_evidence": {"value": 4.9, "reviews": 714},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["import"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/reputon-amazon-affiliate"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for affiliate program management. Listed functions include price sync, product sync.",
+        "description_long": "Reputon Amazon Importer is developed by Reputon and listed for store data importer, dropshipping. Its structured listing identifies functions such as price sync, product sync, bulk import, csv. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Affiliate Program Management",
+          "Dropshipping",
+          "Marketplace Integrations",
+          "Store Migration & Data Import"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Affiliate Program Management",
+            "Dropshipping",
+            "Marketplace Integrations",
+            "Store Migration & Data Import"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 714,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/reputon-amazon-affiliate",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 672},
+          {"stars": 4, "percentage": 3, "count": 22},
+          {"stars": 3, "percentage": 1, "count": 9},
+          {"stars": 2, "percentage": 1, "count": 4},
+          {"stars": 1, "percentage": 1, "count": 7}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Lite",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 5, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Store data importer",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-store-data-importer"
+          },
+          {
+            "name": "Dropshipping",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-dropshipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.store_data_importer.data_sync.price_sync", "label": "Price sync"},
+          {"handle": "cf.store_data_importer.data_sync.product_sync", "label": "Product sync"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_import", "label": "Bulk import"},
+          {"handle": "cf.store_data_importer.data_migration.csv", "label": "CSV"},
+          {"handle": "cf.store_data_importer.data_migration.products", "label": "Products"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Spanish",
+          " German",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Dutch",
+          " Chinese (Simplified)",
+          " Japanese",
+          " Russian",
+          " Polish",
+          " Turkish",
+          " and Swedish"
+        ],
+        "works_with": ["Shopify Admin", "Amazon", "Amazon Affiliate", "Amazon Associates", "Sidekick"]
+      },
+      "developer": {
+        "name": "Reputon",
+        "website_url": "https://reputon.com",
+        "partner_url": "https://apps.shopify.com/partners/reputon",
+        "public_address": "CLAYMONT, DE, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/reputon-amazon-affiliate",
+        "canonical_app_store_url": "https://apps.shopify.com/reputon-amazon-affiliate",
+        "install_url": "https://apps.shopify.com/reputon-amazon-affiliate",
+        "demo_store_url": "https://reputon-amazon-affiliate-demo.myshopify.com/products/2023-system-mtn-and-apx-complete-mens-snowboard-package",
+        "resources": {
+          "Privacy policy": "https://reputon.com/privacy-policy",
+          "FAQ": "https://reputon.gitbook.io/reputon-help/amazon-importer-app/",
+          "Reputon": "https://apps.shopify.com/partners/reputon",
+          "Website": "https://reputon.com",
+          "Changelog": "https://headwayapp.co/reputon-amazon-importer-app-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/01ad25c2ae2e5ce556383e722de3d3f1/icon/CLbfmZq7qYADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/01ad25c2ae2e5ce556383e722de3d3f1/promotional_image/CICv_qqyyI0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01ad25c2ae2e5ce556383e722de3d3f1/desktop_screenshot/CKnIiquyyI0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01ad25c2ae2e5ce556383e722de3d3f1/desktop_screenshot/CIXDlKuyyI0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01ad25c2ae2e5ce556383e722de3d3f1/desktop_screenshot/CLj2nauyyI0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01ad25c2ae2e5ce556383e722de3d3f1/desktop_screenshot/CM_qqKuyyI0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01ad25c2ae2e5ce556383e722de3d3f1/mobile_screenshot/CMiXjKGGvZADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Reputon Amazon Importer free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/reputon-amazon-affiliate"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Spanish,  German,  Italian,  Portuguese (Brazil),  Dutch,  Chinese (Simplified),  Japanese,  Russian,  Polish,  Turkish,  and Swedish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/reputon-amazon-affiliate"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Amazon, Amazon Affiliate, Amazon Associates, Sidekick",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/reputon-amazon-affiliate"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/reputon-amazon-affiliate"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://reputon.gitbook.io/reputon-help/amazon-importer-app/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "affiliate-program-management",
+          "dropshipping",
+          "marketplace-integrations",
+          "store-migration-data-import"
+        ],
+        "primary_category_id": "affiliate-program-management",
+        "seo": {
+          "title": "Reputon Amazon Importer Shopify App | eStorefy",
+          "meta_description": "A Shopify app for affiliate program management. Listed functions include price sync, product sync.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/reputon-amazon-affiliate",
+          "retrieved_at": "2026-10-04T05:20:32.337550+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Start Amazon dropshipping: Import Amazon products to your Shopify store. Find and…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/reputon-amazon-affiliate"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "reputon-ebay-importer",
+      "name": "Reputon eBay Importer",
+      "slug": "reputon-ebay-importer",
+      "category_fit": {
+        "app_id": "reputon-ebay-importer",
+        "selection_score": 5.9119,
+        "rating_evidence": {"value": 5.0, "reviews": 86},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["import"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/reputon-ebay-importer"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for marketplace integrations. Listed functions include price sync, product sync.",
+        "description_long": "Reputon eBay Importer is developed by Reputon and listed for store data importer. Its structured listing identifies functions such as price sync, product sync, products. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Marketplace Integrations", "Store Migration & Data Import"],
+        "best_for": {
+          "use_cases": ["Marketplace Integrations", "Store Migration & Data Import"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 86,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/reputon-ebay-importer",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 84},
+          {"stars": 4, "percentage": 2, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Lite",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "April 16, 2025",
+        "shopify_categories": [
+          {
+            "name": "Store data importer",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-store-data-importer"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.store_data_importer.data_sync.price_sync", "label": "Price sync"},
+          {"handle": "cf.store_data_importer.data_sync.product_sync", "label": "Product sync"},
+          {"handle": "cf.store_data_importer.data_migration.products", "label": "Products"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Chinese (Simplified)",
+          " Japanese",
+          " Russian",
+          " Polish",
+          " Turkish",
+          " Swedish",
+          " and Dutch"
+        ],
+        "works_with": ["Shopify Admin", "Ebay"]
+      },
+      "developer": {
+        "name": "Reputon",
+        "website_url": "https://reputon.com",
+        "partner_url": "https://apps.shopify.com/partners/reputon",
+        "public_address": "CLAYMONT, DE, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/reputon-ebay-importer",
+        "canonical_app_store_url": "https://apps.shopify.com/reputon-ebay-importer",
+        "install_url": "https://apps.shopify.com/reputon-ebay-importer",
+        "demo_store_url": "https://reputon-ebay-importer-demo-store.myshopify.com/products/clara-bow-unisex-t-shirt",
+        "resources": {
+          "Privacy policy": "https://reputon.com/privacy-policy",
+          "FAQ": "https://reputon.gitbook.io/reputon-help/ebay-importer-app",
+          "Reputon": "https://apps.shopify.com/partners/reputon",
+          "Website": "https://reputon.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/2cc6486a8b73ba95caac205d98365434/icon/CK_D0fnYto0DEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/2cc6486a8b73ba95caac205d98365434/promotional_image/CJvaoqucm5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2cc6486a8b73ba95caac205d98365434/desktop_screenshot/CMTduo2Ym5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2cc6486a8b73ba95caac205d98365434/desktop_screenshot/CN-Mraucm5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2cc6486a8b73ba95caac205d98365434/desktop_screenshot/CNaO0I2Ym5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2cc6486a8b73ba95caac205d98365434/desktop_screenshot/CNCT2o2Ym5YDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Reputon eBay Importer free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/reputon-ebay-importer"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Italian,  Portuguese (Brazil),  Chinese (Simplified),  Japanese,  Russian,  Polish,  Turkish,  Swedish,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/reputon-ebay-importer"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Ebay",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/reputon-ebay-importer"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/reputon-ebay-importer"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://reputon.gitbook.io/reputon-help/ebay-importer-app"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the target market, language, currency or sales channel.",
+            "Preview the customer experience and verify a representative order or listing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["marketplace-integrations", "store-migration-data-import"],
+        "primary_category_id": "marketplace-integrations",
+        "seo": {
+          "title": "Reputon eBay Importer Shopify App | eStorefy",
+          "meta_description": "A Shopify app for marketplace integrations. Listed functions include price sync, product sync.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/reputon-ebay-importer",
+          "retrieved_at": "2026-10-04T05:28:55.844735+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Import eBay products to your Shopify store. Find and import products from…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/reputon-ebay-importer"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "ebay-integration-dpl",
+      "name": "eBay Integration ‑ DPL",
+      "slug": "ebay-integration-dpl",
+      "category_fit": {
+        "app_id": "ebay-integration-dpl",
+        "selection_score": 5.9006,
+        "rating_evidence": {"value": 4.9, "reviews": 1257},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["import"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for inventory sync. Listed functions include orders, prices.",
+        "description_long": "eBay Integration ‑ DPL is developed by Digital Product Labs and listed for inventory sync. Its structured listing identifies functions such as orders, prices, product details, variants. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Inventory Sync", "Marketplace Integrations", "Fraud Prevention", "Store Migration & Data Import"],
+        "best_for": {
+          "use_cases": ["Inventory Sync", "Marketplace Integrations", "Fraud Prevention", "Store Migration & Data Import"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1257,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/ebay-integration-dpl",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 1},
+          {"stars": 4, "percentage": 1, "count": 16},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 5},
+          {"stars": 1, "percentage": 1, "count": 12}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $19.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Silver Plan",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Gold Plan",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Platinum Plan",
+            "amount_usd": 69.99,
+            "billing_period": "month",
+            "price_display": "$69.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Enterprise S Plan",
+            "amount_usd": 199.99,
+            "billing_period": "month",
+            "price_display": "$199.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://dpl.company/ebay-integration-and-sync/#pricing",
+        "starting_paid_monthly_price_usd": 19.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 10, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"},
+          {"handle": "cf.inventory_sync.sync_type.variants", "label": "Variants"},
+          {"handle": "cf.inventory_sync.sync_type.skus", "label": "SKUs"},
+          {"handle": "cf.inventory_sync.sync_type.barcodes", "label": "Barcodes"},
+          {"handle": "cf.inventory_sync.sync_type.automatic", "label": "Automatic"},
+          {"handle": "cf.inventory_sync.sync_type.manual", "label": "Manual"},
+          {"handle": "cf.inventory_sync.sync_type.bulk", "label": "Bulk"},
+          {"handle": "cf.inventory_sync.sync_type.real_time", "label": "Real-time"},
+          {"handle": "cf.inventory_sync.sync_type.scheduled", "label": "Scheduled"},
+          {"handle": "cf.inventory_sync.sync_type.custom", "label": "Custom"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.automated_alerts",
+            "label": "Automated alerts"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.custom_notifications",
+            "label": "Custom notifications"
+          },
+          {"handle": "cf.inventory_sync.notifications_and_reports.order_updates", "label": "Order updates"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.email_alerts", "label": "Email alerts"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.error_reports", "label": "Error reports"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.inventory_alerts",
+            "label": "Inventory alerts"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.data_import_and_export",
+            "label": "Data import and export"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.real_time_status",
+            "label": "Real-time status"
+          },
+          {"handle": "cf.inventory_sync.notifications_and_reports.detailed_logs", "label": "Detailed logs"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin", "deliverr", "ebay", "ebaymag", "ebaymotors", "Printful", "Shipstation"]
+      },
+      "developer": {
+        "name": "Digital Product Labs",
+        "website_url": "https://dpl.company/ebay-integration-and-import/",
+        "partner_url": "https://apps.shopify.com/partners/digital-product-labs",
+        "public_address": "2035 Sunset Lake RoadSuite B-2, Newark, DE, 19702, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/ebay-integration-dpl",
+        "canonical_app_store_url": "https://apps.shopify.com/ebay-integration-dpl",
+        "install_url": "https://apps.shopify.com/ebay-integration-dpl",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://dpl.company/dpl-ebay-integration-and-import-privacy-policy/",
+          "FAQ": "https://exportfeed.helpscoutdocs.com/collection/471-ebay",
+          "Digital Product Labs": "https://apps.shopify.com/partners/digital-product-labs",
+          "Website": "https://dpl.company/ebay-integration-and-import/",
+          "Changelog": "https://dpl.company/changelog/ebay-integration/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/icon/CNH03LzPrfwCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/promotional_image/CMfs-J-InZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CNXhp77jkI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CM2htembnZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CP-_hbXkwIsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CKfIv8bSmosDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CIL79azLnJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CL7w98nh8YcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is eBay Integration ‑ DPL free?",
+            "answer": "The pricing label retrieved from the listing is: From $19.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, deliverr, ebay, ebaymag, ebaymotors, Printful, Shipstation",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://exportfeed.helpscoutdocs.com/collection/471-ebay"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["inventory-sync", "marketplace-integrations", "fraud-prevention", "store-migration-data-import"],
+        "primary_category_id": "inventory-sync",
+        "seo": {
+          "title": "eBay Integration ‑ DPL Shopify App | eStorefy",
+          "meta_description": "A Shopify app for inventory sync. Listed functions include orders, prices.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/ebay-integration-dpl",
+          "retrieved_at": "2026-10-04T05:24:04.829209+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Shopify eBay Integration app. Sync Products, Inventory, and Orders between the Shopify…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "bulk-product-edit",
+      "name": "Hextom: Bulk Product Edit",
+      "slug": "bulk-product-edit",
+      "category_fit": {
+        "app_id": "bulk-product-edit",
+        "selection_score": 5.8962,
+        "rating_evidence": {"value": 4.9, "reviews": 1158},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["import"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/bulk-product-edit"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include products, variants.",
+        "description_long": "Hextom: Bulk Product Edit is developed by Hextom and listed for bulk editor, inventory sync. Its structured listing identifies functions such as products, variants, orders, images. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Collection Sorting & Merchandising", "Bulk Product Editing", "Store Migration & Data Import"],
+        "best_for": {
+          "use_cases": ["Collection Sorting & Merchandising", "Bulk Product Editing", "Store Migration & Data Import"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1158,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/bulk-product-edit",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 1},
+          {"stars": 4, "percentage": 5, "count": 59},
+          {"stars": 3, "percentage": 1, "count": 6},
+          {"stars": 2, "percentage": 0, "count": 4},
+          {"stars": 1, "percentage": 2, "count": 19}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Demo Plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic Plan",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Professional Plan",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced Plan",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://hextom.com/application/bulk-product-edit/",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "October 5, 2015",
+        "shopify_categories": [
+          {
+            "name": "Bulk editor",
+            "url": "https://apps.shopify.com/categories/store-management-operations-bulk-editor"
+          },
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.bulk_editor.editable_resources.products", "label": "Products"},
+          {"handle": "cf.bulk_editor.editable_resources.variants", "label": "Variants"},
+          {"handle": "cf.bulk_editor.editable_resources.orders", "label": "Orders"},
+          {"handle": "cf.bulk_editor.editable_resources.images", "label": "Images"},
+          {"handle": "cf.bulk_editor.editable_resources.prices", "label": "Prices"},
+          {"handle": "cf.bulk_editor.editable_resources.sku_and_barcodes", "label": "SKU and barcodes"},
+          {"handle": "cf.bulk_editor.editable_resources.tags", "label": "Tags"},
+          {"handle": "cf.bulk_editor.editable_resources.descriptions", "label": "Descriptions"},
+          {"handle": "cf.bulk_editor.editable_resources.inventory", "label": "Inventory"},
+          {"handle": "cf.bulk_editor.editable_resources.metafields", "label": "Metafields"},
+          {"handle": "cf.bulk_editor.editable_resources.collections", "label": "Collections"},
+          {"handle": "cf.bulk_editor.actions.seo_updates", "label": "SEO updates"},
+          {"handle": "cf.bulk_editor.actions.csv_import_and_export", "label": "CSV import and export"},
+          {"handle": "cf.bulk_editor.actions.data_migration", "label": "Data migration"},
+          {"handle": "cf.bulk_editor.actions.data_sync", "label": "Data sync"},
+          {"handle": "cf.bulk_editor.actions.backup", "label": "Backup"},
+          {"handle": "cf.bulk_editor.actions.rollback", "label": "Rollback"},
+          {"handle": "cf.bulk_editor.actions.search_and_filter", "label": "Search and filter"},
+          {"handle": "cf.bulk_editor.actions.scheduled_tasks", "label": "Scheduled tasks"},
+          {"handle": "cf.bulk_editor.actions.bulk_edit", "label": "Bulk edit"},
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"},
+          {"handle": "cf.inventory_sync.sync_type.variants", "label": "Variants"},
+          {"handle": "cf.inventory_sync.sync_type.skus", "label": "SKUs"},
+          {"handle": "cf.inventory_sync.sync_type.barcodes", "label": "Barcodes"},
+          {"handle": "cf.inventory_sync.sync_type.multi_channel", "label": "Multi-channel"},
+          {"handle": "cf.inventory_sync.sync_type.multi_store", "label": "Multi-store"},
+          {"handle": "cf.inventory_sync.sync_type.automatic", "label": "Automatic"},
+          {"handle": "cf.inventory_sync.sync_type.manual", "label": "Manual"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "Hextom",
+        "website_url": "https://hextom.com",
+        "partner_url": "https://apps.shopify.com/partners/hextom",
+        "public_address": "Richmond Hill, ON, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/bulk-product-edit",
+        "canonical_app_store_url": "https://apps.shopify.com/bulk-product-edit",
+        "install_url": "https://apps.shopify.com/bulk-product-edit",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://hextom.com/privacy-policy/",
+          "FAQ": "https://bpe-help-center.hextom.com/",
+          "Tutorial": "https://bpe-help-center.hextom.com/",
+          "Hextom": "https://apps.shopify.com/partners/hextom",
+          "Website": "https://hextom.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/72a63be7aee363d08469b2a8549c6d3f/icon/CNi0-pzz54YDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/72a63be7aee363d08469b2a8549c6d3f/desktop_screenshot/CLqHtdL0lu8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/72a63be7aee363d08469b2a8549c6d3f/desktop_screenshot/CIWRxMT0lu8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/72a63be7aee363d08469b2a8549c6d3f/desktop_screenshot/CO2ml8L0lu8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/72a63be7aee363d08469b2a8549c6d3f/desktop_screenshot/CPS9tdL0lu8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/72a63be7aee363d08469b2a8549c6d3f/desktop_screenshot/CKqlqb70lu8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/72a63be7aee363d08469b2a8549c6d3f/desktop_screenshot/CL6fx7f0lu8CEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/CU9i1iaRQa4"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Hextom: Bulk Product Edit free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/bulk-product-edit"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bulk-product-edit"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bulk-product-edit"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/bulk-product-edit"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://bpe-help-center.hextom.com/", "https://bpe-help-center.hextom.com/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["collection-sorting-merchandising", "bulk-product-editing", "store-migration-data-import"],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "Hextom: Bulk Product Edit Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include products, variants.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/bulk-product-edit",
+          "retrieved_at": "2026-10-04T05:26:39.493953+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "BPE is an all inclusive Shopify store management tool which helps you…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/bulk-product-edit"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "litextension-shopify-migration-app",
+      "name": "LitExtension Store Migration",
+      "slug": "litextension-shopify-migration-app",
+      "category_fit": {
+        "app_id": "litextension-shopify-migration-app",
+        "selection_score": 5.8717,
+        "rating_evidence": {"value": 4.8, "reviews": 322},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["migra", "import"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/litextension-shopify-migration-app"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for store migration & data import. Listed functions include inventory sync, order sync.",
+        "description_long": "LitExtension Store Migration is developed by LitExtension and listed for store data importer. Its structured listing identifies functions such as inventory sync, order sync, price sync, product sync. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Store Migration & Data Import"],
+        "best_for": {
+          "use_cases": ["Store Migration & Data Import"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 322,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/litextension-shopify-migration-app",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 305},
+          {"stars": 4, "percentage": 2, "count": 8},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 1, "count": 3},
+          {"stars": 1, "percentage": 2, "count": 6}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://litextension.com/pricing.html?utm_source=\"sappstore\"&utm_medium=link&utm_campaign=applisting&utm_content=\"pricing\"",
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "November 27, 2019",
+        "shopify_categories": [
+          {
+            "name": "Store data importer",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-store-data-importer"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.store_data_importer.data_sync.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.store_data_importer.data_sync.order_sync", "label": "Order sync"},
+          {"handle": "cf.store_data_importer.data_sync.price_sync", "label": "Price sync"},
+          {"handle": "cf.store_data_importer.data_sync.product_sync", "label": "Product sync"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_import", "label": "Bulk import"},
+          {"handle": "cf.store_data_importer.data_migration.scheduled_import", "label": "Scheduled import"},
+          {"handle": "cf.store_data_importer.data_migration.ftp_sftp", "label": "FTP/SFTP"},
+          {
+            "handle": "cf.store_data_importer.data_migration.large_file_support",
+            "label": "Large file support"
+          },
+          {"handle": "cf.store_data_importer.data_migration.bulk_updates", "label": "Bulk updates"},
+          {"handle": "cf.store_data_importer.data_migration.collections", "label": "Collections"},
+          {"handle": "cf.store_data_importer.data_migration.customers", "label": "Customers"},
+          {"handle": "cf.store_data_importer.data_migration.discounts", "label": "Discounts"},
+          {"handle": "cf.store_data_importer.data_migration.inventory", "label": "Inventory"},
+          {"handle": "cf.store_data_importer.data_migration.metafields", "label": "Metafields"},
+          {"handle": "cf.store_data_importer.data_migration.orders", "label": "Orders"},
+          {"handle": "cf.store_data_importer.data_migration.products", "label": "Products"},
+          {"handle": "cf.store_data_importer.data_migration.reviews", "label": "Reviews"},
+          {"handle": "cf.store_data_importer.data_migration.replatform", "label": "Replatform"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Japanese",
+          " Korean",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Spanish",
+          " and German"
+        ],
+        "works_with": [
+          "Shopify Admin",
+          "BigCommerce, WIX, Squarespace",
+          "CSV/Excel/XML Files",
+          "Magento, WooCommerce",
+          "Prestashop, Shopware, OpenCart",
+          "Shift4Shop, Database Files",
+          "Volusion, Ecwid, Etsy"
+        ]
+      },
+      "developer": {
+        "name": "LitExtension",
+        "website_url": "https://litextension.com?utm_source=sappstore&utm_medium=link&utm_campaign=applisting",
+        "partner_url": "https://apps.shopify.com/partners/litextension7",
+        "public_address": "To Huu St, Hanoi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/litextension-shopify-migration-app",
+        "canonical_app_store_url": "https://apps.shopify.com/litextension-shopify-migration-app",
+        "install_url": "https://apps.shopify.com/litextension-shopify-migration-app",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://litextension.com/privacy-policy.html",
+          "FAQ": "https://litextension.com/faq/",
+          "Tutorial": "https://litextension.com/shopping-cart-migration-guide.html",
+          "LitExtension": "https://apps.shopify.com/partners/litextension7",
+          "Website": "https://litextension.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f37cdb78c238842d4f8b96b6a711cd9f/icon/COK6-5y2vJIDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f37cdb78c238842d4f8b96b6a711cd9f/desktop_screenshot/CJ6Z6fCc0vACEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f37cdb78c238842d4f8b96b6a711cd9f/desktop_screenshot/CIyO8_Cc0vACEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f37cdb78c238842d4f8b96b6a711cd9f/desktop_screenshot/CIayrM-szfgCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f37cdb78c238842d4f8b96b6a711cd9f/desktop_screenshot/CJmRh_Gc0vACEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f37cdb78c238842d4f8b96b6a711cd9f/desktop_screenshot/COzfkPGc0vACEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f37cdb78c238842d4f8b96b6a711cd9f/desktop_screenshot/COGGmvGc0vACEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/ItjY2W54MRg"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is LitExtension Store Migration free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/litextension-shopify-migration-app"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Japanese,  Korean,  Portuguese (Brazil),  Portuguese (Portugal),  Spanish,  and German",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/litextension-shopify-migration-app"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, BigCommerce, WIX, Squarespace, CSV/Excel/XML Files, Magento, WooCommerce, Prestashop, Shopware, OpenCart, Shift4Shop, Database Files, Volusion, Ecwid, Etsy",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/litextension-shopify-migration-app"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/litextension-shopify-migration-app"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://litextension.com/faq/", "https://litextension.com/shopping-cart-migration-guide.html"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose a narrowly scoped protection, backup or import configuration.",
+            "Test the result on sample data before applying it to the whole store.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["store-migration-data-import"],
+        "primary_category_id": "store-migration-data-import",
+        "seo": {
+          "title": "LitExtension Store Migration Shopify App | eStorefy",
+          "meta_description": "A Shopify app for store migration & data import. Listed functions include inventory sync, order sync.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/litextension-shopify-migration-app",
+          "retrieved_at": "2026-10-04T05:28:55.899943+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Migrate Shopify store data with 3 simple steps, using Store Migration app.…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/litextension-shopify-migration-app"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "stock-sync",
+      "name": "syncX: Stock Sync & Inventory",
+      "slug": "stock-sync",
+      "category_fit": {
+        "app_id": "stock-sync",
+        "selection_score": 5.8381,
+        "rating_evidence": {"value": 4.7, "reviews": 924},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["import", "migra"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/stock-sync"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for store migration & data import. Listed functions include auto-update, inventory sync.",
+        "description_long": "syncX: Stock Sync & Inventory is developed by SyncX and listed for store data importer, inventory sync. Its structured listing identifies functions such as auto-update, inventory sync, price sync, product sync. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Store Migration & Data Import"],
+        "best_for": {
+          "use_cases": ["Store Migration & Data Import"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.7,
+        "review_count": 924,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/stock-sync",
+        "distribution": [
+          {"stars": 5, "percentage": 89, "count": 820},
+          {"stars": 4, "percentage": 4, "count": 35},
+          {"stars": 3, "percentage": 1, "count": 13},
+          {"stars": 2, "percentage": 1, "count": 10},
+          {"stars": 1, "percentage": 5, "count": 46}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 7.0,
+            "billing_period": "month",
+            "price_display": "$7 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $77/year and save 8%", "$1 for first 30 days, $5 per additional feed"]
+          },
+          {
+            "name": "Expert",
+            "amount_usd": 10.0,
+            "billing_period": "month",
+            "price_display": "$10 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $110/year and save 8%",
+              "$1 for first 30 days, $7 per additional feed, $2 per additional 5,000 products"
+            ]
+          },
+          {
+            "name": "Scale",
+            "amount_usd": 300.0,
+            "billing_period": "month",
+            "price_display": "$300 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $275/year and save 92%", "$1 for first 30 days"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.syncx.com/pricing",
+        "starting_paid_monthly_price_usd": 7.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 15, 2014 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Store data importer",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-store-data-importer"
+          },
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.store_data_importer.data_sync.auto_updates", "label": "Auto-update"},
+          {"handle": "cf.store_data_importer.data_sync.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.store_data_importer.data_sync.price_sync", "label": "Price sync"},
+          {"handle": "cf.store_data_importer.data_sync.product_sync", "label": "Product sync"},
+          {"handle": "cf.store_data_importer.data_sync.two_way_sync", "label": "Two-way sync"},
+          {"handle": "cf.store_data_importer.data_sync.real_time_sync", "label": "Real-time sync"},
+          {"handle": "cf.store_data_importer.data_sync.scheduled_sync", "label": "Scheduled sync"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_export", "label": "Bulk export"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_import", "label": "Bulk import"},
+          {"handle": "cf.store_data_importer.data_migration.scheduled_export", "label": "Scheduled export"},
+          {"handle": "cf.store_data_importer.data_migration.scheduled_import", "label": "Scheduled import"},
+          {"handle": "cf.store_data_importer.data_migration.ftp_sftp", "label": "FTP/SFTP"},
+          {
+            "handle": "cf.store_data_importer.data_migration.large_file_support",
+            "label": "Large file support"
+          },
+          {"handle": "cf.store_data_importer.data_migration.csv", "label": "CSV"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_updates", "label": "Bulk updates"},
+          {"handle": "cf.store_data_importer.data_migration.inventory", "label": "Inventory"},
+          {"handle": "cf.store_data_importer.data_migration.metafields", "label": "Metafields"},
+          {"handle": "cf.store_data_importer.data_migration.products", "label": "Products"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"},
+          {"handle": "cf.inventory_sync.sync_type.variants", "label": "Variants"},
+          {"handle": "cf.inventory_sync.sync_type.skus", "label": "SKUs"},
+          {"handle": "cf.inventory_sync.sync_type.barcodes", "label": "Barcodes"},
+          {"handle": "cf.inventory_sync.sync_type.multi_store", "label": "Multi-store"},
+          {"handle": "cf.inventory_sync.sync_type.automatic", "label": "Automatic"},
+          {"handle": "cf.inventory_sync.sync_type.manual", "label": "Manual"},
+          {"handle": "cf.inventory_sync.sync_type.bulk", "label": "Bulk"},
+          {"handle": "cf.inventory_sync.sync_type.real_time", "label": "Real-time"},
+          {"handle": "cf.inventory_sync.sync_type.scheduled", "label": "Scheduled"},
+          {"handle": "cf.inventory_sync.sync_type.custom", "label": "Custom"}
+        ],
+        "languages": [
+          "English",
+          " Japanese",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " German",
+          " French",
+          " Polish",
+          " Dutch",
+          " Spanish",
+          " Portuguese (Brazil)",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": [
+          "Shopify Flow",
+          "Shopify Admin",
+          "API",
+          "BigCommerce, WooCommerce, Wix",
+          "CSV, XLSX, XML and JSON",
+          "Custom format",
+          "FTP/SFTP",
+          "Google Sheet"
+        ]
+      },
+      "developer": {
+        "name": "SyncX",
+        "website_url": "https://www.syncx.com/",
+        "partner_url": "https://apps.shopify.com/partners/syncx",
+        "public_address": "5-13-05, Block 5, VSQ @ PJ City Centre, Jln Utara, Petaling Jaya, SGR, 46200, MY"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/stock-sync",
+        "canonical_app_store_url": "https://apps.shopify.com/stock-sync",
+        "install_url": "https://apps.shopify.com/stock-sync",
+        "demo_store_url": "https://help.stock-sync.com/en/article/stock-sync-demo-store-uzxw21/",
+        "resources": {
+          "Privacy policy": "https://trust.syncx.com/resources",
+          "FAQ": "https://help.stock-sync.com/",
+          "Tutorial": "https://www.youtube.com/playlist?list=PLKVbFUxa0CwK85N-urqvsBqRCwHvp2RSC",
+          "App Documentation": "https://www.youtube.com/playlist?list=PLKVbFUxa0CwKDUcT1-DXikJiv4uiOOv0v",
+          "SyncX": "https://apps.shopify.com/partners/syncx",
+          "Website": "https://www.syncx.com/",
+          "Changelog": "https://roadmap.stock-sync.com/?t=changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/1db6e9f86149951b9585fba092a1dabb/icon/CMf-_JGL7IgDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/1db6e9f86149951b9585fba092a1dabb/promotional_image/CKSw8Pefm5cDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1db6e9f86149951b9585fba092a1dabb/desktop_screenshot/CKbpstyW6JUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1db6e9f86149951b9585fba092a1dabb/desktop_screenshot/COCPouCs9JUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1db6e9f86149951b9585fba092a1dabb/desktop_screenshot/CJLSnLCe8ZMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1db6e9f86149951b9585fba092a1dabb/desktop_screenshot/CKi0pbCe8ZMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1db6e9f86149951b9585fba092a1dabb/desktop_screenshot/CM7trrCe8ZMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1db6e9f86149951b9585fba092a1dabb/desktop_screenshot/CJCX8Oy35ZUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1db6e9f86149951b9585fba092a1dabb/mobile_screenshot/CLfUwbCe8ZMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1db6e9f86149951b9585fba092a1dabb/mobile_screenshot/CJbFyrCe8ZMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1db6e9f86149951b9585fba092a1dabb/mobile_screenshot/CJP207Ce8ZMDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is syncX: Stock Sync & Inventory free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/stock-sync"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Japanese,  Chinese (Simplified),  Chinese (Traditional),  German,  French,  Polish,  Dutch,  Spanish,  Portuguese (Brazil),  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/stock-sync"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Flow, Shopify Admin, API, BigCommerce, WooCommerce, Wix, CSV, XLSX, XML and JSON, Custom format, FTP/SFTP, Google Sheet",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/stock-sync"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/stock-sync"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.stock-sync.com/",
+            "https://www.youtube.com/playlist?list=PLKVbFUxa0CwK85N-urqvsBqRCwHvp2RSC",
+            "https://www.youtube.com/playlist?list=PLKVbFUxa0CwKDUcT1-DXikJiv4uiOOv0v"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose a narrowly scoped protection, backup or import configuration.",
+            "Test the result on sample data before applying it to the whole store.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["store-migration-data-import"],
+        "primary_category_id": "store-migration-data-import",
+        "seo": {
+          "title": "syncX: Stock Sync & Inventory Shopify App | eStorefy",
+          "meta_description": "A Shopify app for store migration & data import. Listed functions include auto-update, inventory sync.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/stock-sync",
+          "retrieved_at": "2026-10-04T05:24:12.717727+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Automate products & inventory import from any suppliers in any format. Stock…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/stock-sync"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "product-upload",
+      "name": "ProductUpload.ai Copy Products",
+      "slug": "product-upload",
+      "category_fit": {
+        "app_id": "product-upload",
+        "selection_score": 5.8009,
+        "rating_evidence": {"value": 5.0, "reviews": 45},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["import", "migra"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/product-upload"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for store migration & data import. Listed functions include price sync, product sync.",
+        "description_long": "ProductUpload.ai Copy Products is developed by Product Upload and listed for store data importer, dropshipping. Its structured listing identifies functions such as price sync, product sync, real-time sync, bulk import. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Store Migration & Data Import"],
+        "best_for": {
+          "use_cases": ["Store Migration & Data Import"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 45,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/product-upload",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 44},
+          {"stars": 4, "percentage": 2, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Shop",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.88/year and save 20%"]
+          },
+          {
+            "name": "Warehouse",
+            "amount_usd": 14.99,
+            "billing_period": "month",
+            "price_display": "$14.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $143.88/year and save 20%"]
+          },
+          {
+            "name": "Factory",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $287.88/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://productupload.co/pricing",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 13, 2024",
+        "shopify_categories": [
+          {
+            "name": "Store data importer",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-store-data-importer"
+          },
+          {
+            "name": "Dropshipping",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-dropshipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.store_data_importer.data_sync.price_sync", "label": "Price sync"},
+          {"handle": "cf.store_data_importer.data_sync.product_sync", "label": "Product sync"},
+          {"handle": "cf.store_data_importer.data_sync.real_time_sync", "label": "Real-time sync"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_import", "label": "Bulk import"},
+          {"handle": "cf.store_data_importer.data_migration.csv", "label": "CSV"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_updates", "label": "Bulk updates"},
+          {"handle": "cf.store_data_importer.data_migration.collections", "label": "Collections"},
+          {"handle": "cf.store_data_importer.data_migration.products", "label": "Products"},
+          {"handle": "cf.store_data_importer.data_migration.replatform", "label": "Replatform"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.clothing_and_accessories",
+            "label": "Clothing and accessories"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.bags_and_luggages", "label": "Bags and luggage"},
+          {"handle": "cf.dropshipping.products_you_can_sell.home_and_garden", "label": "Home and garden"},
+          {"handle": "cf.dropshipping.products_you_can_sell.health_and_beauty", "label": "Health and beauty"},
+          {"handle": "cf.dropshipping.products_you_can_sell.food_and_drinks", "label": "Food and drinks"},
+          {"handle": "cf.dropshipping.products_you_can_sell.electronics", "label": "Electronics"},
+          {"handle": "cf.dropshipping.products_you_can_sell.arts_and_crafts", "label": "Arts and crafts"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.entertainment_and_media",
+            "label": "Entertainment and media"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.toys_and_games", "label": "Toys and games"},
+          {"handle": "cf.dropshipping.products_you_can_sell.baby_products", "label": "Baby products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.sports_products", "label": "Sports products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.pet_products", "label": "Pet products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.furniture", "label": "Furniture"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.business_and_office",
+            "label": "Business and office"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.hardware", "label": "Hardware"},
+          {"handle": "cf.dropshipping.products_you_can_sell.automotive", "label": "Automotive"},
+          {"handle": "cf.dropshipping.products_you_can_sell.mature_products", "label": "Mature products"},
+          {"handle": "cf.dropshipping.sourcing_locations.ar", "label": "Argentina"},
+          {"handle": "cf.dropshipping.sourcing_locations.au", "label": "Australia"},
+          {"handle": "cf.dropshipping.sourcing_locations.br", "label": "Brazil"},
+          {"handle": "cf.dropshipping.sourcing_locations.ca", "label": "Canada"}
+        ],
+        "languages": [
+          "English",
+          " Dutch",
+          " Spanish",
+          " Portuguese (Brazil)",
+          " French",
+          " German",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": ["Shopify Admin", "AliExpress", "Amazon", "eBay", "Etsy", "Most websites", "WooCommerce"]
+      },
+      "developer": {
+        "name": "Product Upload",
+        "website_url": "https://productupload.co/",
+        "partner_url": "https://apps.shopify.com/partners/product-upload6",
+        "public_address": "205 Paton Road, Hope, NSN, 7081, NZ"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/product-upload",
+        "canonical_app_store_url": "https://apps.shopify.com/product-upload",
+        "install_url": "https://apps.shopify.com/product-upload",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://productupload.co/privacy-policy",
+          "Product Upload": "https://apps.shopify.com/partners/product-upload6",
+          "Website": "https://productupload.co/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f874c9ef1ba57c8f00ff60e07a55d40a/icon/CKPYy9HN8JMDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f874c9ef1ba57c8f00ff60e07a55d40a/promotional_image/CK2Rwt61hZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f874c9ef1ba57c8f00ff60e07a55d40a/desktop_screenshot/CM6ey961hZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f874c9ef1ba57c8f00ff60e07a55d40a/desktop_screenshot/CNCB1t61hZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f874c9ef1ba57c8f00ff60e07a55d40a/desktop_screenshot/CKPj9vu1hZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f874c9ef1ba57c8f00ff60e07a55d40a/desktop_screenshot/CIid6961hZYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is ProductUpload.ai Copy Products free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/product-upload"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Dutch,  Spanish,  Portuguese (Brazil),  French,  German,  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/product-upload"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, AliExpress, Amazon, eBay, Etsy, Most websites, WooCommerce",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/product-upload"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/product-upload"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose a narrowly scoped protection, backup or import configuration.",
+            "Test the result on sample data before applying it to the whole store.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["store-migration-data-import"],
+        "primary_category_id": "store-migration-data-import",
+        "seo": {
+          "title": "ProductUpload.ai Copy Products Shopify App | eStorefy",
+          "meta_description": "A Shopify app for store migration & data import. Listed functions include price sync, product sync.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/product-upload",
+          "retrieved_at": "2026-10-04T05:29:34.951308+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Import products using just the URL with Product Upload, Works with millions…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/product-upload"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "lionz-apps-sync",
+      "name": "Lionz ‑ eBay Sync & Importer",
+      "slug": "lionz-apps-sync",
+      "category_fit": {
+        "app_id": "lionz-apps-sync",
+        "selection_score": 5.8004,
+        "rating_evidence": {"value": 4.9, "reviews": 265},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["import"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/lionz-apps-sync"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for inventory sync. Listed functions include feed automation, product feed.",
+        "description_long": "Lionz ‑ eBay Sync & Importer is developed by Lionz GmbH and listed for marketplaces, inventory sync. Its structured listing identifies functions such as feed automation, product feed, product sync, product selection. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Inventory Sync", "Marketplace Integrations", "Store Migration & Data Import"],
+        "best_for": {
+          "use_cases": ["Inventory Sync", "Marketplace Integrations", "Store Migration & Data Import"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 265,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/lionz-apps-sync",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 254},
+          {"stars": 4, "percentage": 1, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 2, "count": 4},
+          {"stars": 1, "percentage": 2, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "$9.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Fair Plan",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "March 23, 2023",
+        "shopify_categories": [
+          {
+            "name": "Marketplaces",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-marketplaces"
+          },
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.marketplaces.listing_management.feed_automation", "label": "Feed automation"},
+          {"handle": "cf.marketplaces.listing_management.product_feed", "label": "Product feed"},
+          {"handle": "cf.marketplaces.listing_management.product_sync", "label": "Product sync"},
+          {"handle": "cf.marketplaces.listing_management.product_selection", "label": "Product selection"},
+          {"handle": "cf.marketplaces.listing_management.offer_sync", "label": "Offer sync"},
+          {"handle": "cf.marketplaces.listing_management.local_currency", "label": "Local currency"},
+          {"handle": "cf.marketplaces.listing_management.bulk_upload", "label": "Bulk upload"},
+          {"handle": "cf.marketplaces.listing_management.custom_listings", "label": "Custom listings"},
+          {
+            "handle": "cf.marketplaces.order_management.multi_location_fulfillment",
+            "label": "Multi-location fulfillment"
+          },
+          {"handle": "cf.marketplaces.order_management.order_sync", "label": "Order sync"},
+          {"handle": "cf.marketplaces.order_management.tracking_sync", "label": "Tracking sync"},
+          {"handle": "cf.marketplaces.order_management.unified_dashboard", "label": "Unified dashboard"},
+          {"handle": "cf.marketplaces.order_management.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.marketplaces.order_management.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"},
+          {"handle": "cf.inventory_sync.sync_type.variants", "label": "Variants"},
+          {"handle": "cf.inventory_sync.sync_type.skus", "label": "SKUs"},
+          {"handle": "cf.inventory_sync.sync_type.barcodes", "label": "Barcodes"},
+          {"handle": "cf.inventory_sync.sync_type.automatic", "label": "Automatic"},
+          {"handle": "cf.inventory_sync.sync_type.real_time", "label": "Real-time"},
+          {"handle": "cf.inventory_sync.sync_type.custom", "label": "Custom"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.order_updates", "label": "Order updates"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.email_alerts", "label": "Email alerts"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.error_reports", "label": "Error reports"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.data_import_and_export",
+            "label": "Data import and export"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.performance_metrics",
+            "label": "Performance metrics"
+          }
+        ],
+        "languages": [
+          "German",
+          " English",
+          " French",
+          " Spanish",
+          " Italian",
+          " Polish",
+          " Dutch",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " and Czech"
+        ],
+        "works_with": ["Shopify Admin", "eBay"]
+      },
+      "developer": {
+        "name": "Lionz GmbH",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/lionz-gmbh",
+        "public_address": "Markgrafenstr. 21, Bötzingen, 79268, DE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/lionz-apps-sync",
+        "canonical_app_store_url": "https://apps.shopify.com/lionz-apps-sync",
+        "install_url": "https://apps.shopify.com/lionz-apps-sync",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "http://lionz-studio.com/datenschutz/",
+          "Lionz GmbH": "https://apps.shopify.com/partners/lionz-gmbh"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/adcc8e91aa24747de07f221d9fc80fac/icon/CM_0gL7foYYDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/adcc8e91aa24747de07f221d9fc80fac/promotional_image/COCt_v-EnosDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/adcc8e91aa24747de07f221d9fc80fac/desktop_screenshot/CKaOn5yjmYsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/adcc8e91aa24747de07f221d9fc80fac/desktop_screenshot/CKinqpyjmYsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/adcc8e91aa24747de07f221d9fc80fac/desktop_screenshot/CJrts5yjmYsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/adcc8e91aa24747de07f221d9fc80fac/desktop_screenshot/CKa5r-Clq5EDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Lionz ‑ eBay Sync & Importer free?",
+            "answer": "The pricing label retrieved from the listing is: $9.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/lionz-apps-sync"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "German,  English,  French,  Spanish,  Italian,  Polish,  Dutch,  Portuguese (Brazil),  Portuguese (Portugal),  and Czech",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/lionz-apps-sync"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, eBay",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/lionz-apps-sync"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/lionz-apps-sync"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["inventory-sync", "marketplace-integrations", "store-migration-data-import"],
+        "primary_category_id": "inventory-sync",
+        "seo": {
+          "title": "Lionz ‑ eBay Sync & Importer Shopify App | eStorefy",
+          "meta_description": "A Shopify app for inventory sync. Listed functions include feed automation, product feed.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/lionz-apps-sync",
+          "retrieved_at": "2026-10-04T05:24:20.373533+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Seamlessly export your Shopify products to eBay, sync orders effortlessly, and keep…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/lionz-apps-sync"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

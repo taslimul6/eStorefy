@@ -1,3 +1,4 @@
+import PartnerLink from "@/components/shared/PartnerLink";
 import AgencySection from "./AgencySection";
 import ExternalLink from "@/components/shared/ExternalLink";
 import { locationLabel } from "@/lib/format";
@@ -7,7 +8,7 @@ export default function AgencyLocation({ agency }) {
   const address = [
     location.streetAddress,
     location.borough || agency.cityName,
-    location.stateCode,
+    location.stateCode || location.region,
     location.postalCode,
     location.country,
   ]
@@ -42,7 +43,7 @@ export default function AgencyLocation({ agency }) {
               ? `Serving ${agency.cityName} remotely`
               : [
                   location.borough || agency.cityName,
-                  location.stateCode,
+                  location.stateCode || location.region,
                   location.postalCode,
                 ]
                   .filter(Boolean)
@@ -79,39 +80,21 @@ export default function AgencyLocation({ agency }) {
         <div className="box">
           <h3>Published inquiries</h3>
           {contact.email ? (
-            <a className="text-link" href={`mailto:${contact.email}`}>
-              {contact.email}
-            </a>
+            <span className="sub">{contact.email}</span>
           ) : (
             <span className="sub">Email not confirmed</span>
           )}
           <br />
-          {contact.phone && (
-            <a className="sub" href={`tel:${contact.phone.replace(/[^+0-9]/g, "")}`}>
-              {contact.phone}
-            </a>
-          )}
+          {contact.phone && <span className="sub">{contact.phone}</span>}
         </div>
         <div className="box">
           <h3>More contact options</h3>
           {contact.otherEmails.map((email) => (
             <p key={email}>
-              <a className="text-link" href={`mailto:${email}`}>
-                {email}
-              </a>
+              <span className="sub">{email}</span>
             </p>
           ))}
-          {contact.contactPage ? (
-            <ExternalLink className="text-link" href={contact.contactPage}>
-              Agency contact page
-            </ExternalLink>
-          ) : agency.website ? (
-            <ExternalLink className="text-link" href={agency.website}>
-              Agency website
-            </ExternalLink>
-          ) : (
-            <p className="sub">Additional contact details not confirmed.</p>
-          )}
+          <PartnerLink className="text-link">Contact this agency ↗</PartnerLink>
         </div>
       </div>
     </AgencySection>

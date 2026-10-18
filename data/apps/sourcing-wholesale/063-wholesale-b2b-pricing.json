@@ -1,0 +1,3373 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "wholesale-b2b-pricing",
+    "number": 63,
+    "name": "Wholesale & B2B Pricing",
+    "group": "Sourcing & Wholesale",
+    "slug": "wholesale-b2b-pricing",
+    "url_path": "/apps/wholesale-b2b-pricing",
+    "focus": "Source products and manage business-to-business selling.",
+    "description": "Compare Shopify apps for wholesale & b2b pricing. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale/all"],
+    "seo": {
+      "title": "Shopify Wholesale & B2B Pricing Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for wholesale & b2b pricing: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a wholesale & b2b pricing app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "watermelon",
+      "name": "Melon Minimum Order Quantity",
+      "slug": "watermelon",
+      "category_fit": {
+        "app_id": "watermelon",
+        "selection_score": 6.0729,
+        "rating_evidence": {"value": 5.0, "reviews": 379},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["wholesale", "b2b"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/watermelon"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for minimum & maximum order limits. Listed functions include cart-based, max quantity.",
+        "description_long": "Melon Minimum Order Quantity is developed by Melon and listed for order limits, wholesale. Its structured listing identifies functions such as cart-based, max quantity, min quantity, time-based. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Minimum & Maximum Order Limits", "Wholesale & B2B Pricing"],
+        "best_for": {
+          "use_cases": ["Minimum & Maximum Order Limits", "Wholesale & B2B Pricing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 379,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/watermelon",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 378},
+          {"stars": 4, "percentage": 0, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 8.99,
+            "billing_period": "month",
+            "price_display": "$8.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Shopify Plus",
+            "amount_usd": 15.99,
+            "billing_period": "month",
+            "price_display": "$15.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 27, 2025",
+        "shopify_categories": [
+          {
+            "name": "Order limits",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-checkout-order-limits"
+          },
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.order_limits.limit_rules.cart_based", "label": "Cart-based"},
+          {"handle": "cf.order_limits.limit_rules.max_quantity", "label": "Max quantity"},
+          {"handle": "cf.order_limits.limit_rules.min_quantity", "label": "Min quantity"},
+          {"handle": "cf.order_limits.limit_rules.time_based", "label": "Time-based"},
+          {"handle": "cf.order_limits.limit_rules.weight_based", "label": "Weight-based"},
+          {"handle": "cf.order_limits.limit_rules.price_based", "label": "Price-based"},
+          {"handle": "cf.order_limits.limit_rules.product_specific", "label": "Product-specific"},
+          {"handle": "cf.order_limits.limit_rules.variant_specific", "label": "Variant-specific"},
+          {"handle": "cf.order_limits.limit_rules.collection_specific", "label": "Collection-specific"},
+          {"handle": "cf.order_limits.limit_rules.purchase_frequency", "label": "Purchase frequency"},
+          {"handle": "cf.order_limits.limit_rules.customer_tags", "label": "Customer tags"},
+          {"handle": "cf.order_limits.limit_rules.geolocation", "label": "Geolocation"},
+          {"handle": "cf.order_limits.notification_settings.cart_alerts", "label": "Cart alerts"},
+          {"handle": "cf.order_limits.notification_settings.checkout_alerts", "label": "Checkout alerts"},
+          {
+            "handle": "cf.order_limits.notification_settings.product_page_alerts",
+            "label": "Product page alerts"
+          },
+          {"handle": "cf.order_limits.notification_settings.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.order_limits.notification_settings.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.order_limits.notification_settings.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.order_limits.notification_settings.multi_language", "label": "Multi-language"},
+          {"handle": "cf.order_limits.notification_settings.translation", "label": "Translation"},
+          {"handle": "cf.wholesale.pricing_options.customer_groups", "label": "Customer groups"},
+          {"handle": "cf.wholesale.pricing_options.customer_tagging", "label": "Customer tagging"},
+          {"handle": "cf.wholesale.order_management.order_minimums", "label": "Order minimums"},
+          {"handle": "cf.wholesale.order_management.order_limits", "label": "Order limits"},
+          {"handle": "cf.wholesale.order_management.inventory_sync", "label": "Inventory sync"}
+        ],
+        "languages": [
+          "English",
+          " Italian",
+          " Spanish",
+          " Japanese",
+          " Danish",
+          " Czech",
+          " Finnish",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Norwegian",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " German",
+          " and French"
+        ],
+        "works_with": ["Checkout", "Shopify Admin", "Admin"]
+      },
+      "developer": {
+        "name": "Melon",
+        "website_url": "https://fruitlabs.io",
+        "partner_url": "https://apps.shopify.com/partners/fruit-apps2",
+        "public_address": "703 Acacia Bay Road, Acacia Bay, WKO, 3351, NZ"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/watermelon",
+        "canonical_app_store_url": "https://apps.shopify.com/watermelon",
+        "install_url": "https://apps.shopify.com/watermelon",
+        "demo_store_url": "https://watermelon-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://fruitlabs.io/privacy-policy.html",
+          "Melon": "https://apps.shopify.com/partners/fruit-apps2",
+          "Website": "https://fruitlabs.io"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9398581f1b4505d1b7655906421fbffc/icon/CNCX2OPuyI4DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9398581f1b4505d1b7655906421fbffc/promotional_image/CJej-sz5rpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9398581f1b4505d1b7655906421fbffc/desktop_screenshot/CIWXsYHeyJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9398581f1b4505d1b7655906421fbffc/desktop_screenshot/CPnjkafGyJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9398581f1b4505d1b7655906421fbffc/desktop_screenshot/CI7XzJDGyJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9398581f1b4505d1b7655906421fbffc/desktop_screenshot/CMvZ1pDGyJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9398581f1b4505d1b7655906421fbffc/desktop_screenshot/CJrP4JDGyJUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Melon Minimum Order Quantity free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/watermelon"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Italian,  Spanish,  Japanese,  Danish,  Czech,  Finnish,  Korean,  Norwegian (Bokmål),  Dutch,  Norwegian,  Polish,  Portuguese (Brazil),  Portuguese (Portugal),  Swedish,  Thai,  Turkish,  Chinese (Simplified),  Chinese (Traditional),  German,  and French",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/watermelon"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/watermelon"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/watermelon"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the cart or checkout conditions in a draft or test configuration.",
+            "Test an eligible and an ineligible cart to confirm the rule behaviour.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["minimum-maximum-order-limits", "wholesale-b2b-pricing"],
+        "primary_category_id": "minimum-maximum-order-limits",
+        "seo": {
+          "title": "Melon Minimum Order Quantity Shopify App | eStorefy",
+          "meta_description": "A Shopify app for minimum & maximum order limits. Listed functions include cart-based, max quantity.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/watermelon",
+          "retrieved_at": "2026-10-04T05:17:35.922597+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Enforce Minimum Order Value (MOV), Minimum Order Quantity (MOQ) and maximum limits.…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/watermelon"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "multivariants",
+      "name": "MultiVariants ‑ Bulk Order B2B",
+      "slug": "multivariants",
+      "category_fit": {
+        "app_id": "multivariants",
+        "selection_score": 6.0693,
+        "rating_evidence": {"value": 5.0, "reviews": 362},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["b2b", "wholesale"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/multivariants"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for minimum & maximum order limits. Listed functions include customer groups, custom pricing.",
+        "description_long": "MultiVariants ‑ Bulk Order B2B is developed by EFOLI, LLC and listed for wholesale, order limits. Its structured listing identifies functions such as customer groups, custom pricing, tiered pricing, volume discounts. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Minimum & Maximum Order Limits",
+          "Wholesale & B2B Pricing",
+          "Wholesale Catalogs & Order Forms",
+          "Bulk Product Editing"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Minimum & Maximum Order Limits",
+            "Wholesale & B2B Pricing",
+            "Wholesale Catalogs & Order Forms",
+            "Bulk Product Editing"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 362,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/multivariants",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 352},
+          {"stars": 4, "percentage": 2, "count": 8},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 12.99,
+            "billing_period": "month",
+            "price_display": "$12.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $124.70/year and save 20%"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $287.90/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://multivariants.com/pricing/",
+        "starting_paid_monthly_price_usd": 12.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 17, 2020 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          },
+          {
+            "name": "Order limits",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-checkout-order-limits"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.wholesale.pricing_options.customer_groups", "label": "Customer groups"},
+          {"handle": "cf.wholesale.pricing_options.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.wholesale.pricing_options.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.wholesale.pricing_options.volume_discounts", "label": "Volume discounts"},
+          {"handle": "cf.wholesale.pricing_options.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.pricing_options.wholesale_login", "label": "Wholesale login"},
+          {"handle": "cf.wholesale.pricing_options.customer_tagging", "label": "Customer tagging"},
+          {"handle": "cf.wholesale.order_management.bulk_processing", "label": "Bulk processing"},
+          {"handle": "cf.wholesale.order_management.order_form", "label": "Order form"},
+          {"handle": "cf.wholesale.order_management.order_minimums", "label": "Order minimums"},
+          {"handle": "cf.wholesale.order_management.order_limits", "label": "Order limits"},
+          {"handle": "cf.wholesale.order_management.product_visibility", "label": "Product visibility"},
+          {"handle": "cf.wholesale.order_management.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.order_management.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.wholesale.order_management.inventory_status", "label": "Inventory status"},
+          {"handle": "cf.order_limits.limit_rules.cart_based", "label": "Cart-based"},
+          {"handle": "cf.order_limits.limit_rules.max_quantity", "label": "Max quantity"},
+          {"handle": "cf.order_limits.limit_rules.min_quantity", "label": "Min quantity"},
+          {"handle": "cf.order_limits.limit_rules.price_based", "label": "Price-based"},
+          {"handle": "cf.order_limits.limit_rules.discount_based", "label": "Discount-based"},
+          {"handle": "cf.order_limits.limit_rules.product_specific", "label": "Product-specific"},
+          {"handle": "cf.order_limits.limit_rules.variant_specific", "label": "Variant-specific"},
+          {"handle": "cf.order_limits.limit_rules.collection_specific", "label": "Collection-specific"},
+          {"handle": "cf.order_limits.limit_rules.customer_tags", "label": "Customer tags"},
+          {"handle": "cf.order_limits.notification_settings.cart_alerts", "label": "Cart alerts"},
+          {"handle": "cf.order_limits.notification_settings.checkout_alerts", "label": "Checkout alerts"},
+          {
+            "handle": "cf.order_limits.notification_settings.product_page_alerts",
+            "label": "Product page alerts"
+          },
+          {"handle": "cf.order_limits.notification_settings.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.order_limits.notification_settings.multi_language", "label": "Multi-language"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " Italian",
+          " Danish",
+          " Spanish",
+          " French",
+          " Japanese",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Portuguese (Brazil)",
+          " Thai",
+          " Turkish",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Appstle Subscriptions",
+          "BEST Currency Converter",
+          "Bundle builder",
+          "Custom product options",
+          "DiscountRay: Quantity Discount",
+          "Seal Subscriptions"
+        ]
+      },
+      "developer": {
+        "name": "EFOLI, LLC",
+        "website_url": "https://multivariants.com/",
+        "partner_url": "https://apps.shopify.com/partners/efolillc",
+        "public_address": "House 514, Road 7, Avenue 4, Mirpur DOHS, Dhaka, 1216, BD"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/multivariants",
+        "canonical_app_store_url": "https://apps.shopify.com/multivariants",
+        "install_url": "https://apps.shopify.com/multivariants",
+        "demo_store_url": "https://multivariant.myshopify.com/collections/",
+        "resources": {
+          "Privacy policy": "https://multivariants.com/privacy-policy/",
+          "FAQ": "https://multivariants.com/faq/",
+          "Tutorial": "https://multivariants.com/academy/",
+          "App Documentation": "https://multivariants.com/academy/",
+          "EFOLI, LLC": "https://apps.shopify.com/partners/efolillc",
+          "Website": "https://multivariants.com/",
+          "Changelog": "https://multivariants.com/changelog/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/8bd94c23dd747d81fc3d843cfbd14e01/icon/CInQwsL0lu8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/8bd94c23dd747d81fc3d843cfbd14e01/promotional_image/CI6S9saAvJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8bd94c23dd747d81fc3d843cfbd14e01/desktop_screenshot/CPLR_8aAvJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8bd94c23dd747d81fc3d843cfbd14e01/desktop_screenshot/CMS5iseAvJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8bd94c23dd747d81fc3d843cfbd14e01/desktop_screenshot/CMnOk8eAvJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8bd94c23dd747d81fc3d843cfbd14e01/desktop_screenshot/CICqn8eAvJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8bd94c23dd747d81fc3d843cfbd14e01/desktop_screenshot/CI_rhf2AvJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8bd94c23dd747d81fc3d843cfbd14e01/desktop_screenshot/CJqMj_2AvJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8bd94c23dd747d81fc3d843cfbd14e01/mobile_screenshot/CK2qmP2AvJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8bd94c23dd747d81fc3d843cfbd14e01/mobile_screenshot/CJ7qof2AvJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8bd94c23dd747d81fc3d843cfbd14e01/mobile_screenshot/CL6Bq_2AvJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8bd94c23dd747d81fc3d843cfbd14e01/mobile_screenshot/CMKdt_2AvJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8bd94c23dd747d81fc3d843cfbd14e01/mobile_screenshot/CITE_IXn75QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8bd94c23dd747d81fc3d843cfbd14e01/mobile_screenshot/CMuYqOewkJYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is MultiVariants ‑ Bulk Order B2B free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/multivariants"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  Italian,  Danish,  Spanish,  French,  Japanese,  Korean,  Norwegian (Bokmål),  Dutch,  Portuguese (Brazil),  Thai,  Turkish,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/multivariants"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Appstle Subscriptions, BEST Currency Converter, Bundle builder, Custom product options, DiscountRay: Quantity Discount, Seal Subscriptions",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/multivariants"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/multivariants"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://multivariants.com/faq/",
+            "https://multivariants.com/academy/",
+            "https://multivariants.com/academy/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the cart or checkout conditions in a draft or test configuration.",
+            "Test an eligible and an ineligible cart to confirm the rule behaviour.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "minimum-maximum-order-limits",
+          "wholesale-b2b-pricing",
+          "wholesale-catalogs-order-forms",
+          "bulk-product-editing"
+        ],
+        "primary_category_id": "minimum-maximum-order-limits",
+        "seo": {
+          "title": "MultiVariants ‑ Bulk Order B2B Shopify App | eStorefy",
+          "meta_description": "A Shopify app for minimum & maximum order limits. Listed functions include customer groups, custom pricing.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/multivariants",
+          "retrieved_at": "2026-10-04T05:21:22.393135+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Add a variant table to any product page for bulk and B2B…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/multivariants"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "faire-buy-wholesale",
+      "name": "Faire: Buy Wholesale",
+      "slug": "faire-buy-wholesale",
+      "category_fit": {
+        "app_id": "faire-buy-wholesale",
+        "selection_score": 6.0522,
+        "rating_evidence": {"value": 4.9, "reviews": 1297},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["wholesale", "b2b"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/faire-buy-wholesale"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for wholesale & b2b pricing.",
+        "description_long": "Faire: Buy Wholesale is developed by Faire and listed for wholesale. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wholesale & B2B Pricing"],
+        "best_for": {
+          "use_cases": ["Wholesale & B2B Pricing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1297,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/faire-buy-wholesale",
+        "distribution": [
+          {"stars": 5, "percentage": 90, "count": 1},
+          {"stars": 4, "percentage": 8, "count": 107},
+          {"stars": 3, "percentage": 1, "count": 11},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 1, "count": 12}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 26, 2023",
+        "shopify_categories": [
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [],
+        "languages": [
+          "English",
+          " Swedish",
+          " Portuguese (Portugal)",
+          " Dutch",
+          " Italian",
+          " French",
+          " Spanish",
+          " Danish",
+          " and German"
+        ],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "Faire",
+        "website_url": "https://www.faire.com",
+        "partner_url": "https://apps.shopify.com/partners/faire-wholesale",
+        "public_address": "100 Potrero Avenue, San Francisco, CA, 94103, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/faire-buy-wholesale",
+        "canonical_app_store_url": "https://apps.shopify.com/faire-buy-wholesale",
+        "install_url": "https://apps.shopify.com/faire-buy-wholesale",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.faire.com/privacy",
+          "Faire": "https://apps.shopify.com/partners/faire-wholesale",
+          "Website": "https://www.faire.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/3027fee349f910fa600626b91d475c3a/icon/CP7kgOqJ__sCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/3027fee349f910fa600626b91d475c3a/desktop_screenshot/CPSHk_bAwoEDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3027fee349f910fa600626b91d475c3a/desktop_screenshot/CJHKnfbAwoEDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3027fee349f910fa600626b91d475c3a/desktop_screenshot/CKmW0YrymocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3027fee349f910fa600626b91d475c3a/desktop_screenshot/CPuBsvbAwoEDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/cAz8xGHrLSo"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Faire: Buy Wholesale free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/faire-buy-wholesale"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Swedish,  Portuguese (Portugal),  Dutch,  Italian,  French,  Spanish,  Danish,  and German",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/faire-buy-wholesale"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/faire-buy-wholesale"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/faire-buy-wholesale"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wholesale-b2b-pricing"],
+        "primary_category_id": "wholesale-b2b-pricing",
+        "seo": {
+          "title": "Faire: Buy Wholesale Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wholesale & b2b pricing.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/faire-buy-wholesale",
+          "retrieved_at": "2026-10-04T05:21:08.968120+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Faire is an online B2B marketplace where retailers can discover new products…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/faire-buy-wholesale"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "clay-b2b-wholesale-form",
+      "name": "Clay • B2B Wholesale Pricing",
+      "slug": "clay-b2b-wholesale-form",
+      "category_fit": {
+        "app_id": "clay-b2b-wholesale-form",
+        "selection_score": 6.0491,
+        "rating_evidence": {"value": 5.0, "reviews": 283},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["b2b", "wholesale"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/clay-b2b-wholesale-form"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for wholesale & b2b pricing. Listed functions include customer groups, custom pricing.",
+        "description_long": "Clay • B2B Wholesale Pricing is developed by Clay Commerce and listed for wholesale, pricing optimization. Its structured listing identifies functions such as customer groups, custom pricing, tiered pricing, volume discounts. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wholesale & B2B Pricing", "Wholesale Catalogs & Order Forms"],
+        "best_for": {
+          "use_cases": ["Wholesale & B2B Pricing", "Wholesale Catalogs & Order Forms"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 283,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/clay-b2b-wholesale-form",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 279},
+          {"stars": 4, "percentage": 1, "count": 3},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Matte",
+            "amount_usd": 25.0,
+            "billing_period": "month",
+            "price_display": "$25 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Gloss",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Luster",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.clay-commerce.com/pricing.html",
+        "starting_paid_monthly_price_usd": 25.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "November 11, 2024",
+        "shopify_categories": [
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          },
+          {
+            "name": "Pricing optimization",
+            "url": "https://apps.shopify.com/categories/selling-products-pricing-pricing-optimization"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.wholesale.pricing_options.customer_groups", "label": "Customer groups"},
+          {"handle": "cf.wholesale.pricing_options.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.wholesale.pricing_options.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.wholesale.pricing_options.volume_discounts", "label": "Volume discounts"},
+          {"handle": "cf.wholesale.pricing_options.pricing_import", "label": "Pricing import"},
+          {"handle": "cf.wholesale.pricing_options.tax_exemption", "label": "Tax exemptions"},
+          {"handle": "cf.wholesale.pricing_options.net_terms", "label": "Net terms"},
+          {"handle": "cf.wholesale.pricing_options.payment_methods", "label": "Payment methods"},
+          {"handle": "cf.wholesale.pricing_options.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.pricing_options.signup_form", "label": "Signup form"},
+          {"handle": "cf.wholesale.pricing_options.wholesale_login", "label": "Wholesale login"},
+          {"handle": "cf.wholesale.pricing_options.customer_tagging", "label": "Customer tagging"},
+          {"handle": "cf.wholesale.order_management.bulk_processing", "label": "Bulk processing"},
+          {"handle": "cf.wholesale.order_management.manual_orders", "label": "Manual orders"},
+          {"handle": "cf.wholesale.order_management.draft_orders", "label": "Draft orders"},
+          {"handle": "cf.wholesale.order_management.order_minimums", "label": "Order minimums"},
+          {"handle": "cf.wholesale.order_management.order_limits", "label": "Order limits"},
+          {"handle": "cf.wholesale.order_management.product_visibility", "label": "Product visibility"},
+          {"handle": "cf.wholesale.order_management.shipping_options", "label": "Shipping options"},
+          {"handle": "cf.wholesale.order_management.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.order_management.api_access", "label": "API access"},
+          {"handle": "cf.wholesale.order_management.import_and_export", "label": "Import and export"},
+          {"handle": "cf.pricing_optimization.pricing_management.pricing_rules", "label": "Pricing rules"},
+          {
+            "handle": "cf.pricing_optimization.pricing_management.percentage_discounts",
+            "label": "Percentage discounts"
+          },
+          {"handle": "cf.pricing_optimization.pricing_management.fixed_discounts", "label": "Fixed discounts"},
+          {
+            "handle": "cf.pricing_optimization.pricing_management.volume_discounts",
+            "label": "Volume discounts"
+          },
+          {
+            "handle": "cf.pricing_optimization.pricing_management.tiered_discounts",
+            "label": "Tiered discounts"
+          },
+          {"handle": "cf.pricing_optimization.pricing_management.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.pricing_optimization.pricing_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.pricing_optimization.pricing_management.bulk_editing", "label": "Bulk editing"}
+        ],
+        "languages": ["English", " Spanish", " French", " Italian", " German", " and Japanese"],
+        "works_with": [
+          "Checkout",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Customer Accounts",
+          "Discount and Bundle apps",
+          "Filter and Search apps",
+          "Page builder apps",
+          "Point of Sale (POS)"
+        ]
+      },
+      "developer": {
+        "name": "Clay Commerce",
+        "website_url": "https://www.clay-commerce.com/",
+        "partner_url": "https://apps.shopify.com/partners/clay-commerce",
+        "public_address": "Bangalore, KA, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/clay-b2b-wholesale-form",
+        "canonical_app_store_url": "https://apps.shopify.com/clay-b2b-wholesale-form",
+        "install_url": "https://apps.shopify.com/clay-b2b-wholesale-form",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.clay-commerce.com/privacy-policy.html",
+          "Tutorial": "https://intercom.help/clay-commerce/en/",
+          "App Documentation": "https://intercom.help/clay-commerce/en/",
+          "Clay Commerce": "https://apps.shopify.com/partners/clay-commerce",
+          "Website": "https://www.clay-commerce.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/27a0126d9d596c2f73accf65a8da3f9c/icon/CNr02Pjeqo0DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/27a0126d9d596c2f73accf65a8da3f9c/promotional_image/CLXmms_NiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/27a0126d9d596c2f73accf65a8da3f9c/desktop_screenshot/CPiSps_NiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/27a0126d9d596c2f73accf65a8da3f9c/desktop_screenshot/CJ7ssM_NiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/27a0126d9d596c2f73accf65a8da3f9c/desktop_screenshot/CLu_vM_NiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/27a0126d9d596c2f73accf65a8da3f9c/desktop_screenshot/CMj2x8_NiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/27a0126d9d596c2f73accf65a8da3f9c/desktop_screenshot/CPm70s_NiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/27a0126d9d596c2f73accf65a8da3f9c/desktop_screenshot/CI-d3c_NiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/27a0126d9d596c2f73accf65a8da3f9c/mobile_screenshot/CKT858_NiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/27a0126d9d596c2f73accf65a8da3f9c/mobile_screenshot/CNTP8s_NiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/27a0126d9d596c2f73accf65a8da3f9c/mobile_screenshot/CL--_c_NiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/27a0126d9d596c2f73accf65a8da3f9c/mobile_screenshot/CJfdh9DNiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/27a0126d9d596c2f73accf65a8da3f9c/pos_screenshot/CPOTktDNiZcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Clay • B2B Wholesale Pricing free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/clay-b2b-wholesale-form"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  Italian,  German,  and Japanese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/clay-b2b-wholesale-form"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Flow, Shopify Admin, Customer Accounts, Discount and Bundle apps, Filter and Search apps, Page builder apps, Point of Sale (POS)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/clay-b2b-wholesale-form"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/clay-b2b-wholesale-form"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://intercom.help/clay-commerce/en/", "https://intercom.help/clay-commerce/en/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wholesale-b2b-pricing", "wholesale-catalogs-order-forms"],
+        "primary_category_id": "wholesale-b2b-pricing",
+        "seo": {
+          "title": "Clay • B2B Wholesale Pricing Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wholesale & b2b pricing. Listed functions include customer groups, custom pricing.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/clay-b2b-wholesale-form",
+          "retrieved_at": "2026-10-04T05:21:22.381746+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Transform your Shopify store for B2B & Wholesale buyers with Clay. Offer…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/clay-b2b-wholesale-form"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "b2b-solution-custom-pricing",
+      "name": "BSS B2B Wholesale Pricing",
+      "slug": "b2b-solution-custom-pricing",
+      "category_fit": {
+        "app_id": "b2b-solution-custom-pricing",
+        "selection_score": 6.0475,
+        "rating_evidence": {"value": 4.9, "reviews": 1187},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["b2b", "wholesale"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/b2b-solution-custom-pricing"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for wholesale & b2b pricing. Listed functions include pricing rules, percentage discounts.",
+        "description_long": "BSS B2B Wholesale Pricing is developed by BSS B2B Suite and listed for pricing optimization, wholesale. Its structured listing identifies functions such as pricing rules, percentage discounts, fixed discounts, volume discounts. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wholesale & B2B Pricing"],
+        "best_for": {
+          "use_cases": ["Wholesale & B2B Pricing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1187,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/b2b-solution-custom-pricing",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 1},
+          {"stars": 4, "percentage": 3, "count": 31},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 5},
+          {"stars": 1, "percentage": 2, "count": 24}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE PLAN",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "ESSENTIAL PLAN",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $313.20/year and save 10%"]
+          },
+          {
+            "name": "ADVANCED PLAN",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $529.20/year and save 10%"]
+          },
+          {
+            "name": "PLATINUM PLAN",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,069.20/year and save 10%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://docs.bss-b2b.solutions/b2b-solution/use-cases-and-faqs/pricing-plans-and-details/",
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 18, 2020",
+        "shopify_categories": [
+          {
+            "name": "Pricing optimization",
+            "url": "https://apps.shopify.com/categories/selling-products-pricing-pricing-optimization"
+          },
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pricing_optimization.pricing_management.pricing_rules", "label": "Pricing rules"},
+          {
+            "handle": "cf.pricing_optimization.pricing_management.percentage_discounts",
+            "label": "Percentage discounts"
+          },
+          {"handle": "cf.pricing_optimization.pricing_management.fixed_discounts", "label": "Fixed discounts"},
+          {
+            "handle": "cf.pricing_optimization.pricing_management.volume_discounts",
+            "label": "Volume discounts"
+          },
+          {
+            "handle": "cf.pricing_optimization.pricing_management.tiered_discounts",
+            "label": "Tiered discounts"
+          },
+          {"handle": "cf.pricing_optimization.pricing_management.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.pricing_optimization.pricing_management.auto_repricing", "label": "Auto-repricing"},
+          {"handle": "cf.pricing_optimization.pricing_management.price_matching", "label": "Price matching"},
+          {"handle": "cf.pricing_optimization.pricing_management.auto_matching", "label": "Auto-matching"},
+          {"handle": "cf.pricing_optimization.pricing_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.pricing_optimization.pricing_management.tags", "label": "Tags"},
+          {"handle": "cf.pricing_optimization.monitoring.reports", "label": "Reports"},
+          {"handle": "cf.pricing_optimization.monitoring.dashboards", "label": "Dashboards"},
+          {"handle": "cf.pricing_optimization.monitoring.analytics", "label": "Analytics"},
+          {"handle": "cf.wholesale.pricing_options.customer_groups", "label": "Customer groups"},
+          {"handle": "cf.wholesale.pricing_options.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.wholesale.pricing_options.discount_codes", "label": "Discount codes"},
+          {"handle": "cf.wholesale.pricing_options.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.wholesale.pricing_options.volume_discounts", "label": "Volume discounts"},
+          {"handle": "cf.wholesale.pricing_options.pricing_import", "label": "Pricing import"},
+          {"handle": "cf.wholesale.pricing_options.tax_exemption", "label": "Tax exemptions"},
+          {"handle": "cf.wholesale.pricing_options.net_terms", "label": "Net terms"},
+          {"handle": "cf.wholesale.pricing_options.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.pricing_options.signup_form", "label": "Signup form"},
+          {"handle": "cf.wholesale.pricing_options.wholesale_login", "label": "Wholesale login"},
+          {"handle": "cf.wholesale.pricing_options.customer_tagging", "label": "Customer tagging"},
+          {"handle": "cf.wholesale.order_management.bulk_processing", "label": "Bulk processing"},
+          {"handle": "cf.wholesale.order_management.order_form", "label": "Order form"},
+          {"handle": "cf.wholesale.order_management.manual_orders", "label": "Manual orders"},
+          {"handle": "cf.wholesale.order_management.draft_orders", "label": "Draft orders"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " French",
+          " Italian",
+          " Spanish",
+          " Japanese",
+          " Danish",
+          " Finnish",
+          " Polish",
+          " Portuguese (Portugal)",
+          " Korean",
+          " Dutch",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Swedish",
+          " Czech",
+          " Hungarian",
+          " Turkish",
+          " Romanian",
+          " and Thai"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Admin",
+          "B2B Quote, B2B Lock",
+          "Eurus Theme, Maximize Theme",
+          "LangShop, Klavio",
+          "OPTIS Options, OPTIS Swatch",
+          "Order Printer Pro",
+          "Zapiet, EasyCSV, Sufio"
+        ]
+      },
+      "developer": {
+        "name": "BSS B2B Suite",
+        "website_url": "https://bss-b2b.solutions/bss-b2b-solution/",
+        "partner_url": "https://apps.shopify.com/partners/bss-commerce-b2b",
+        "public_address": "Ha Noi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/b2b-solution-custom-pricing",
+        "canonical_app_store_url": "https://apps.shopify.com/b2b-solution-custom-pricing",
+        "install_url": "https://apps.shopify.com/b2b-solution-custom-pricing",
+        "demo_store_url": "https://bss-b2b-wholesale-solution.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://docs.bss-b2b.solutions/general/policies/privacy-policy/",
+          "FAQ": "https://docs.bss-b2b.solutions/b2b-lock/troubleshooting-and-faq/frequently-asked-questions-faq/",
+          "Tutorial": "https://docs.bss-b2b.solutions/b2b-solution/",
+          "App Documentation": "https://docs.bss-b2b.solutions/b2b-solution/use-cases-and-faqs/usecases/",
+          "BSS B2B Suite": "https://apps.shopify.com/partners/bss-commerce-b2b",
+          "Website": "https://bss-b2b.solutions/bss-b2b-solution/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/icon/CMn5zMuggpEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/promotional_image/CMz7gpSxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/desktop_screenshot/CM-EjpSxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/desktop_screenshot/CLiCmZSxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/desktop_screenshot/CPzHpZSxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/desktop_screenshot/CI2lsJSxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/desktop_screenshot/CI_4upSxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/desktop_screenshot/CPXHx5SxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/mobile_screenshot/CPW90pSxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/mobile_screenshot/CJvs3JSxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/mobile_screenshot/CIOB6ZSxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/mobile_screenshot/COv685SxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/mobile_screenshot/CLnp_pSxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/mobile_screenshot/CNjXiJWxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/pos_screenshot/CI-1kpWxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/pos_screenshot/COfZnZWxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/pos_screenshot/CKjLqJWxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/pos_screenshot/CLj4tJWxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/pos_screenshot/CNTxv5WxmpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f406cf0e469d052e1fb506a0898d801f/pos_screenshot/CNu_ypWxmpcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BSS B2B Wholesale Pricing free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/b2b-solution-custom-pricing"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Italian,  Spanish,  Japanese,  Danish,  Finnish,  Polish,  Portuguese (Portugal),  Korean,  Dutch,  Chinese (Simplified),  Chinese (Traditional),  Swedish,  Czech,  Hungarian,  Turkish,  Romanian,  and Thai",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/b2b-solution-custom-pricing"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Admin, B2B Quote, B2B Lock, Eurus Theme, Maximize Theme, LangShop, Klavio, OPTIS Options, OPTIS Swatch, Order Printer Pro, Zapiet, EasyCSV, Sufio",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/b2b-solution-custom-pricing"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/b2b-solution-custom-pricing"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.bss-b2b.solutions/b2b-lock/troubleshooting-and-faq/frequently-asked-questions-faq/",
+            "https://docs.bss-b2b.solutions/b2b-solution/",
+            "https://docs.bss-b2b.solutions/b2b-solution/use-cases-and-faqs/usecases/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wholesale-b2b-pricing"],
+        "primary_category_id": "wholesale-b2b-pricing",
+        "seo": {
+          "title": "BSS B2B Wholesale Pricing Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wholesale & b2b pricing. Listed functions include pricing rules, percentage discounts.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/b2b-solution-custom-pricing",
+          "retrieved_at": "2026-10-04T05:21:09.283830+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Centralized B2B wholesale solution for Shopify with custom pricing, price lists, registration…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/b2b-solution-custom-pricing"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "wholesale-sami",
+      "name": "Sami B2B Wholesale Pricing",
+      "slug": "wholesale-sami",
+      "category_fit": {
+        "app_id": "wholesale-sami",
+        "selection_score": 6.0378,
+        "rating_evidence": {"value": 4.9, "reviews": 992},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["b2b", "wholesale"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/wholesale-sami"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for wholesale & b2b pricing. Listed functions include customer groups, custom pricing.",
+        "description_long": "Sami B2B Wholesale Pricing is developed by Samita and listed for wholesale, discounts. Its structured listing identifies functions such as customer groups, custom pricing, discount codes, tiered pricing. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wholesale & B2B Pricing", "Wholesale Catalogs & Order Forms", "Bulk Product Editing"],
+        "best_for": {
+          "use_cases": ["Wholesale & B2B Pricing", "Wholesale Catalogs & Order Forms", "Bulk Product Editing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 992,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/wholesale-sami",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 941},
+          {"stars": 4, "percentage": 3, "count": 31},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 4},
+          {"stars": 1, "percentage": 1, "count": 14}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "SILVER",
+            "amount_usd": 24.9,
+            "billing_period": "month",
+            "price_display": "$24.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $249/year and save 17%"]
+          },
+          {
+            "name": "GOLD",
+            "amount_usd": 49.9,
+            "billing_period": "month",
+            "price_display": "$49.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $499/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://samita.io/pages/sami-b2b-wholesale-pricing#smt-pricing",
+        "starting_paid_monthly_price_usd": 24.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 26, 2023",
+        "shopify_categories": [
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          },
+          {
+            "name": "Discounts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-promotions-discounts"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.wholesale.pricing_options.customer_groups", "label": "Customer groups"},
+          {"handle": "cf.wholesale.pricing_options.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.wholesale.pricing_options.discount_codes", "label": "Discount codes"},
+          {"handle": "cf.wholesale.pricing_options.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.wholesale.pricing_options.volume_discounts", "label": "Volume discounts"},
+          {"handle": "cf.wholesale.pricing_options.pricing_import", "label": "Pricing import"},
+          {"handle": "cf.wholesale.pricing_options.tax_exemption", "label": "Tax exemptions"},
+          {"handle": "cf.wholesale.pricing_options.net_terms", "label": "Net terms"},
+          {"handle": "cf.wholesale.pricing_options.payment_methods", "label": "Payment methods"},
+          {"handle": "cf.wholesale.pricing_options.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.pricing_options.signup_form", "label": "Signup form"},
+          {"handle": "cf.wholesale.pricing_options.wholesale_login", "label": "Wholesale login"},
+          {"handle": "cf.wholesale.pricing_options.customer_tagging", "label": "Customer tagging"},
+          {"handle": "cf.wholesale.order_management.order_form", "label": "Order form"},
+          {"handle": "cf.wholesale.order_management.manual_orders", "label": "Manual orders"},
+          {"handle": "cf.wholesale.order_management.draft_orders", "label": "Draft orders"},
+          {"handle": "cf.wholesale.order_management.order_minimums", "label": "Order minimums"},
+          {"handle": "cf.wholesale.order_management.order_limits", "label": "Order limits"},
+          {"handle": "cf.wholesale.order_management.shipping_options", "label": "Shipping options"},
+          {"handle": "cf.wholesale.order_management.order_status", "label": "Order status"},
+          {"handle": "cf.wholesale.order_management.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.order_management.inventory_status", "label": "Inventory status"},
+          {"handle": "cf.wholesale.order_management.import_and_export", "label": "Import and export"},
+          {"handle": "cf.discounts.discount_types.discount_codes", "label": "Discount codes"},
+          {"handle": "cf.discounts.discount_types.fixed_pricing", "label": "Fixed pricing"},
+          {"handle": "cf.discounts.discount_types.volume_discounts", "label": "Volume discounts"},
+          {"handle": "cf.discounts.discount_types.quantity_breaks", "label": "Quantity breaks"},
+          {"handle": "cf.discounts.discount_types.flat_discounts", "label": "Flat discounts"},
+          {"handle": "cf.discounts.discount_types.bulk_discounts", "label": "Bulk discounts"},
+          {"handle": "cf.discounts.discount_types.wholesale_pricing", "label": "Wholesale pricing"}
+        ],
+        "languages": [
+          "English",
+          " Danish",
+          " German",
+          " Spanish",
+          " Finnish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Dutch",
+          " Polish",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Globo Product Options",
+          "Globo Smart Product Filter",
+          "SA Request A Quote",
+          "Sami B2B Lock"
+        ]
+      },
+      "developer": {
+        "name": "Samita",
+        "website_url": "https://samita.io",
+        "partner_url": "https://apps.shopify.com/partners/sami219",
+        "public_address": "Hanoi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/wholesale-sami",
+        "canonical_app_store_url": "https://apps.shopify.com/wholesale-sami",
+        "install_url": "https://apps.shopify.com/wholesale-sami",
+        "demo_store_url": "https://demo-b2b.samita.io/account/login",
+        "resources": {
+          "Privacy policy": "https://docs.samita.io/privacy-policy",
+          "FAQ": "https://docs.samita.io/samita-wholesale-b2b/faqs/installation-and-setup",
+          "Tutorial": "https://www.youtube.com/playlist?list=PL4MnkkAiTqSkg-819xNswiEDxhdkqBqiO",
+          "App Documentation": "https://docs.samita.io/samita-wholesale-b2b",
+          "Samita": "https://apps.shopify.com/partners/sami219",
+          "Website": "https://samita.io"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/87c565c01196563a6ed36f728869ca68/icon/CIOzqqa9kooDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/87c565c01196563a6ed36f728869ca68/promotional_image/CLyGpJP3rZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/87c565c01196563a6ed36f728869ca68/desktop_screenshot/CLXMrJP3rZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/87c565c01196563a6ed36f728869ca68/desktop_screenshot/CPWYtpP3rZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/87c565c01196563a6ed36f728869ca68/desktop_screenshot/CKmAv5P3rZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/87c565c01196563a6ed36f728869ca68/desktop_screenshot/CNKSyJP3rZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/87c565c01196563a6ed36f728869ca68/desktop_screenshot/CKi50ZP3rZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/87c565c01196563a6ed36f728869ca68/desktop_screenshot/CLmO25P3rZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/87c565c01196563a6ed36f728869ca68/mobile_screenshot/CLPD5JP3rZMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Sami B2B Wholesale Pricing free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/wholesale-sami"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Danish,  German,  Spanish,  Finnish,  French,  Italian,  Japanese,  Korean,  Dutch,  Polish,  Portuguese (Portugal),  Swedish,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/wholesale-sami"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Globo Product Options, Globo Smart Product Filter, SA Request A Quote, Sami B2B Lock",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/wholesale-sami"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/wholesale-sami"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.samita.io/samita-wholesale-b2b/faqs/installation-and-setup",
+            "https://www.youtube.com/playlist?list=PL4MnkkAiTqSkg-819xNswiEDxhdkqBqiO",
+            "https://docs.samita.io/samita-wholesale-b2b"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wholesale-b2b-pricing", "wholesale-catalogs-order-forms", "bulk-product-editing"],
+        "primary_category_id": "wholesale-b2b-pricing",
+        "seo": {
+          "title": "Sami B2B Wholesale Pricing Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wholesale & b2b pricing. Listed functions include customer groups, custom pricing.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/wholesale-sami",
+          "retrieved_at": "2026-10-04T05:21:09.026630+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Unlock powerful B2B features with Sami: wholesale & volume pricing, tax-exempt checkout,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/wholesale-sami"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "b2b-wholesale-lock-hide-price",
+      "name": "Sami B2B Lock,Password Protect",
+      "slug": "b2b-wholesale-lock-hide-price",
+      "category_fit": {
+        "app_id": "b2b-wholesale-lock-hide-price",
+        "selection_score": 6.0371,
+        "rating_evidence": {"value": 4.9, "reviews": 979},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["b2b", "wholesale"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/b2b-wholesale-lock-hide-price"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for wholesale & b2b pricing. Listed functions include email verification, activation link.",
+        "description_long": "Sami B2B Lock,Password Protect is developed by Samita and listed for accounts and login, wholesale. Its structured listing identifies functions such as email verification, activation link, approve requests, restrict access. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wholesale & B2B Pricing"],
+        "best_for": {
+          "use_cases": ["Wholesale & B2B Pricing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 979,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/b2b-wholesale-lock-hide-price",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 932},
+          {"stars": 4, "percentage": 3, "count": 34},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 10}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Shopify Basic",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $99/year and save 17%"]
+          },
+          {
+            "name": "Shopify Grow",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $199/year and save 17%"]
+          },
+          {
+            "name": "Shopify Advanced",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $299/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://samita.io/pages/sami-b2b-lock",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 28, 2023",
+        "shopify_categories": [
+          {
+            "name": "Accounts and login",
+            "url": "https://apps.shopify.com/categories/store-management-security-accounts-and-login"
+          },
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.accounts_and_login.customer_login.email_verification", "label": "Email verification"},
+          {"handle": "cf.accounts_and_login.account_management.activation_link", "label": "Activation link"},
+          {"handle": "cf.accounts_and_login.access_control.approve_requests", "label": "Approve requests"},
+          {"handle": "cf.accounts_and_login.access_control.restrict_access", "label": "Restrict access"},
+          {"handle": "cf.accounts_and_login.access_control.hide_content", "label": "Hide content"},
+          {"handle": "cf.accounts_and_login.access_control.lock_pages", "label": "Lock pages"},
+          {
+            "handle": "cf.accounts_and_login.access_control.password_protection",
+            "label": "Password protection"
+          },
+          {"handle": "cf.accounts_and_login.access_control.secret_link", "label": "Secret link"},
+          {"handle": "cf.accounts_and_login.access_control.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.wholesale.pricing_options.customer_groups", "label": "Customer groups"},
+          {"handle": "cf.wholesale.pricing_options.price_locking", "label": "Price locking"},
+          {"handle": "cf.wholesale.pricing_options.wholesale_login", "label": "Wholesale login"},
+          {"handle": "cf.wholesale.pricing_options.customer_tagging", "label": "Customer tagging"},
+          {"handle": "cf.wholesale.order_management.product_visibility", "label": "Product visibility"}
+        ],
+        "languages": [
+          "English",
+          " Czech",
+          " Danish",
+          " German",
+          " Spanish",
+          " Finnish",
+          " French",
+          " Japanese",
+          " Italian",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Polish",
+          " Swedish",
+          " Turkish",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": ["Checkout", "Shopify Admin"]
+      },
+      "developer": {
+        "name": "Samita",
+        "website_url": "https://samita.io",
+        "partner_url": "https://apps.shopify.com/partners/sami219",
+        "public_address": "Hanoi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/b2b-wholesale-lock-hide-price",
+        "canonical_app_store_url": "https://apps.shopify.com/b2b-wholesale-lock-hide-price",
+        "install_url": "https://apps.shopify.com/b2b-wholesale-lock-hide-price",
+        "demo_store_url": "https://demo-sami-lock.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://docs.samita.io/privacy-policy",
+          "FAQ": "https://docs.samita.io/b2b-lock-password-protect/help/faq",
+          "Tutorial": "https://www.youtube.com/playlist?list=PLEED42clEY4g",
+          "App Documentation": "https://docs.samita.io/b2b-lock-password-protect",
+          "Samita": "https://apps.shopify.com/partners/sami219",
+          "Website": "https://samita.io"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/1e02a14675761945ae9f5f9280a74f55/icon/CO-cjsmUkv8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/1e02a14675761945ae9f5f9280a74f55/promotional_image/CLSQh4z0ho8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1e02a14675761945ae9f5f9280a74f55/desktop_screenshot/CJ_HkYz0ho8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1e02a14675761945ae9f5f9280a74f55/desktop_screenshot/CJqLnYz0ho8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1e02a14675761945ae9f5f9280a74f55/desktop_screenshot/CIrFpoz0ho8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1e02a14675761945ae9f5f9280a74f55/desktop_screenshot/CKzlr4z0ho8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1e02a14675761945ae9f5f9280a74f55/desktop_screenshot/CK2-l9X5ho8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1e02a14675761945ae9f5f9280a74f55/desktop_screenshot/CLm_oNX5ho8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1e02a14675761945ae9f5f9280a74f55/mobile_screenshot/CJjby4z0ho8DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Sami B2B Lock,Password Protect free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/b2b-wholesale-lock-hide-price"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Czech,  Danish,  German,  Spanish,  Finnish,  French,  Japanese,  Italian,  Korean,  Norwegian (Bokmål),  Dutch,  Portuguese (Brazil),  Portuguese (Portugal),  Polish,  Swedish,  Turkish,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/b2b-wholesale-lock-hide-price"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/b2b-wholesale-lock-hide-price"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/b2b-wholesale-lock-hide-price"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.samita.io/b2b-lock-password-protect/help/faq",
+            "https://www.youtube.com/playlist?list=PLEED42clEY4g",
+            "https://docs.samita.io/b2b-lock-password-protect"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wholesale-b2b-pricing"],
+        "primary_category_id": "wholesale-b2b-pricing",
+        "seo": {
+          "title": "Sami B2B Lock,Password Protect Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wholesale & b2b pricing. Listed functions include email verification, activation link.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/b2b-wholesale-lock-hide-price",
+          "retrieved_at": "2026-10-04T05:21:09.094732+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/b2b-wholesale-lock-hide-price"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "wholesale-pricing-discount",
+      "name": "Wholesale Pricing Discount B2B",
+      "slug": "wholesale-pricing-discount",
+      "category_fit": {
+        "app_id": "wholesale-pricing-discount",
+        "selection_score": 6.0209,
+        "rating_evidence": {"value": 4.9, "reviews": 736},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["wholesale", "b2b"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/wholesale-pricing-discount"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for wholesale & b2b pricing. Listed functions include customer groups, custom pricing.",
+        "description_long": "Wholesale Pricing Discount B2B is developed by Wholesale Helper and listed for wholesale, pricing quotes. Its structured listing identifies functions such as customer groups, custom pricing, discount codes, tiered pricing. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wholesale & B2B Pricing"],
+        "best_for": {
+          "use_cases": ["Wholesale & B2B Pricing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 736,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/wholesale-pricing-discount",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 691},
+          {"stars": 4, "percentage": 2, "count": 17},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 1, "count": 6},
+          {"stars": 1, "percentage": 3, "count": 19}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $24.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "BASIC",
+            "amount_usd": 24.99,
+            "billing_period": "month",
+            "price_display": "$24.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $248.89/year and save 17%"]
+          },
+          {
+            "name": "PROFESSIONAL",
+            "amount_usd": 44.99,
+            "billing_period": "month",
+            "price_display": "$44.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $447.89/year and save 17%"]
+          },
+          {
+            "name": "ENTERPRISE",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $497.89/year and save 17%"]
+          },
+          {
+            "name": "GLOBAL",
+            "amount_usd": 64.99,
+            "billing_period": "month",
+            "price_display": "$64.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $647.89/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 24.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "April 4, 2018",
+        "shopify_categories": [
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          },
+          {
+            "name": "Pricing quotes",
+            "url": "https://apps.shopify.com/categories/selling-products-pricing-pricing-quotes"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.wholesale.pricing_options.customer_groups", "label": "Customer groups"},
+          {"handle": "cf.wholesale.pricing_options.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.wholesale.pricing_options.discount_codes", "label": "Discount codes"},
+          {"handle": "cf.wholesale.pricing_options.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.wholesale.pricing_options.volume_discounts", "label": "Volume discounts"},
+          {"handle": "cf.wholesale.pricing_options.pricing_import", "label": "Pricing import"},
+          {"handle": "cf.wholesale.pricing_options.tax_exemption", "label": "Tax exemptions"},
+          {"handle": "cf.wholesale.pricing_options.net_terms", "label": "Net terms"},
+          {"handle": "cf.wholesale.pricing_options.payment_methods", "label": "Payment methods"},
+          {"handle": "cf.wholesale.pricing_options.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.pricing_options.signup_form", "label": "Signup form"},
+          {"handle": "cf.wholesale.pricing_options.wholesale_login", "label": "Wholesale login"},
+          {"handle": "cf.wholesale.pricing_options.customer_tagging", "label": "Customer tagging"},
+          {"handle": "cf.wholesale.order_management.bulk_processing", "label": "Bulk processing"},
+          {"handle": "cf.wholesale.order_management.manual_orders", "label": "Manual orders"},
+          {"handle": "cf.wholesale.order_management.draft_orders", "label": "Draft orders"},
+          {"handle": "cf.wholesale.order_management.order_minimums", "label": "Order minimums"},
+          {"handle": "cf.wholesale.order_management.order_limits", "label": "Order limits"},
+          {"handle": "cf.wholesale.order_management.shipping_options", "label": "Shipping options"},
+          {"handle": "cf.wholesale.order_management.order_status", "label": "Order status"},
+          {"handle": "cf.wholesale.order_management.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.order_management.api_access", "label": "API access"},
+          {"handle": "cf.wholesale.order_management.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.wholesale.order_management.inventory_status", "label": "Inventory status"},
+          {"handle": "cf.wholesale.order_management.import_and_export", "label": "Import and export"},
+          {"handle": "cf.pricing_quotes.pricing_rules.price_login", "label": "Price login"},
+          {"handle": "cf.pricing_quotes.pricing_rules.auto_approve", "label": "Auto-approve"},
+          {"handle": "cf.pricing_quotes.pricing_rules.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.pricing_quotes.notifications.admin_alerts", "label": "Admin alerts"},
+          {"handle": "cf.pricing_quotes.notifications.email_notifications", "label": "Email notifications"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " Spanish",
+          " Italian",
+          " Japanese",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Danish",
+          " and Czech"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify POS",
+          "Shopify Admin",
+          "Customer Accounts",
+          "Order Printer Pro, Klaviyo",
+          "PageFly, GemPages, EComposer",
+          "Point Of Sale",
+          "SearchPie, Omnisend, Judgeme",
+          "Sidekick, Zapiet, Loox, Hulk"
+        ]
+      },
+      "developer": {
+        "name": "Wholesale Helper",
+        "website_url": "https://wholesalehelper.io/",
+        "partner_url": "https://apps.shopify.com/partners/goldj",
+        "public_address": "1 Kingdom St, Paddington Central, London, ENG, W2 6BD, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/wholesale-pricing-discount",
+        "canonical_app_store_url": "https://apps.shopify.com/wholesale-pricing-discount",
+        "install_url": "https://apps.shopify.com/wholesale-pricing-discount",
+        "demo_store_url": "https://wpd.wholesalehelper.store",
+        "resources": {
+          "Privacy policy": "https://www.wholesalehelper.io/privacy-policy",
+          "FAQ": "https://help.wholesalehelper.io/hc/en-us/categories/4407932833041-Wholesale-Pricing-Discount",
+          "Tutorial": "https://help.wholesalehelper.io/hc/en-us/sections/4407962219537-Getting-Started",
+          "App Documentation": "https://help.wholesalehelper.io/hc/en-us/sections/11246546419485-Third-party-app-support",
+          "Wholesale Helper": "https://apps.shopify.com/partners/goldj",
+          "Website": "https://wholesalehelper.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/dbf9ad86d4cf9f0dceac13613f3b98fc/icon/CLvL08mw1_ACEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/dbf9ad86d4cf9f0dceac13613f3b98fc/desktop_screenshot/CNv---bt6f4CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dbf9ad86d4cf9f0dceac13613f3b98fc/desktop_screenshot/CL-AvOCmzf4CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dbf9ad86d4cf9f0dceac13613f3b98fc/desktop_screenshot/CMjFzOCmzf4CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dbf9ad86d4cf9f0dceac13613f3b98fc/desktop_screenshot/CNTq1uCmzf4CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dbf9ad86d4cf9f0dceac13613f3b98fc/desktop_screenshot/CJyK4eCmzf4CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dbf9ad86d4cf9f0dceac13613f3b98fc/desktop_screenshot/CPfBtK6Qy_4CEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/qyDjxcr9mUY"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Wholesale Pricing Discount B2B free?",
+            "answer": "The pricing label retrieved from the listing is: From $24.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/wholesale-pricing-discount"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  Spanish,  Italian,  Japanese,  Chinese (Simplified),  Chinese (Traditional),  Danish,  and Czech",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/wholesale-pricing-discount"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify POS, Shopify Admin, Customer Accounts, Order Printer Pro, Klaviyo, PageFly, GemPages, EComposer, Point Of Sale, SearchPie, Omnisend, Judgeme, Sidekick, Zapiet, Loox, Hulk",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/wholesale-pricing-discount"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/wholesale-pricing-discount"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.wholesalehelper.io/hc/en-us/categories/4407932833041-Wholesale-Pricing-Discount",
+            "https://help.wholesalehelper.io/hc/en-us/sections/4407962219537-Getting-Started",
+            "https://help.wholesalehelper.io/hc/en-us/sections/11246546419485-Third-party-app-support"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wholesale-b2b-pricing"],
+        "primary_category_id": "wholesale-b2b-pricing",
+        "seo": {
+          "title": "Wholesale Pricing Discount B2B Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wholesale & b2b pricing. Listed functions include customer groups, custom pricing.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/wholesale-pricing-discount",
+          "retrieved_at": "2026-10-04T05:21:09.179423+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Run wholesale + retail in one store with tiered pricing, volume discounts,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/wholesale-pricing-discount"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "login-to-access-pages",
+      "name": "BSS B2B Lock, Login & Password",
+      "slug": "login-to-access-pages",
+      "category_fit": {
+        "app_id": "login-to-access-pages",
+        "selection_score": 6.0135,
+        "rating_evidence": {"value": 4.9, "reviews": 651},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["b2b", "wholesale"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/login-to-access-pages"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for wholesale & b2b pricing. Listed functions include activation link, restrict access.",
+        "description_long": "BSS B2B Lock, Login & Password is developed by BSS B2B Suite and listed for accounts and login, wholesale. Its structured listing identifies functions such as activation link, restrict access, hide content, lock pages. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wholesale & B2B Pricing"],
+        "best_for": {
+          "use_cases": ["Wholesale & B2B Pricing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 651,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/login-to-access-pages",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 620},
+          {"stars": 4, "percentage": 2, "count": 14},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 14}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic Shopify",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.88/year and save 20%"]
+          },
+          {
+            "name": "Grow Shopify",
+            "amount_usd": 24.99,
+            "billing_period": "month",
+            "price_display": "$24.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $239.88/year and save 20%"]
+          },
+          {
+            "name": "Advanced Shopify",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $479.88/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://docs.bss-b2b.solutions/b2b-lock/pricing-plans-and-services/pricing-plans-and-details/",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "December 3, 2019",
+        "shopify_categories": [
+          {
+            "name": "Accounts and login",
+            "url": "https://apps.shopify.com/categories/store-management-security-accounts-and-login"
+          },
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.accounts_and_login.account_management.activation_link", "label": "Activation link"},
+          {"handle": "cf.accounts_and_login.access_control.restrict_access", "label": "Restrict access"},
+          {"handle": "cf.accounts_and_login.access_control.hide_content", "label": "Hide content"},
+          {"handle": "cf.accounts_and_login.access_control.lock_pages", "label": "Lock pages"},
+          {
+            "handle": "cf.accounts_and_login.access_control.password_protection",
+            "label": "Password protection"
+          },
+          {"handle": "cf.accounts_and_login.access_control.secret_link", "label": "Secret link"},
+          {"handle": "cf.accounts_and_login.access_control.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.wholesale.pricing_options.price_locking", "label": "Price locking"},
+          {"handle": "cf.wholesale.pricing_options.wholesale_login", "label": "Wholesale login"},
+          {"handle": "cf.wholesale.order_management.product_visibility", "label": "Product visibility"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " Danish",
+          " Spanish",
+          " Italian",
+          " Dutch",
+          " Finnish",
+          " French",
+          " Polish",
+          " Swedish",
+          " Portuguese (Portugal)",
+          " Czech",
+          " Hungarian",
+          " Turkish",
+          " Romanian",
+          " Japanese",
+          " Korean",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " and Thai"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "BSS B2B Quotes & Quick Order",
+          "BSS B2B Wholesale Solution",
+          "Eurus Theme",
+          "Maximize Theme"
+        ]
+      },
+      "developer": {
+        "name": "BSS B2B Suite",
+        "website_url": "https://bss-b2b.solutions/bss-b2b-lock/",
+        "partner_url": "https://apps.shopify.com/partners/bss-commerce-b2b",
+        "public_address": "Ha Noi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/login-to-access-pages",
+        "canonical_app_store_url": "https://apps.shopify.com/login-to-access-pages",
+        "install_url": "https://apps.shopify.com/login-to-access-pages",
+        "demo_store_url": "https://bss-b2b-lock-login-password.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://docs.bss-b2b.solutions/general/policies/privacy-policy/",
+          "FAQ": "https://docs.bss-b2b.solutions/b2b-lock/troubleshooting-and-faq/frequently-asked-questions-faq/",
+          "Tutorial": "https://docs.bss-b2b.solutions/b2b-lock/",
+          "App Documentation": "https://docs.bss-b2b.solutions/b2b-lock/getting-started/install-and-open-bss-b2b-lock/",
+          "BSS B2B Suite": "https://apps.shopify.com/partners/bss-commerce-b2b",
+          "Website": "https://bss-b2b.solutions/bss-b2b-lock/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/icon/CIGrr-ahgpEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/promotional_image/CMiGiLG0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/desktop_screenshot/COrWkrG0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/desktop_screenshot/CKndnbG0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/desktop_screenshot/CL-CqLG0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/desktop_screenshot/CP7vsrG0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/desktop_screenshot/CM7VxrG0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/desktop_screenshot/CLuV07G0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/mobile_screenshot/CP_y3bG0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/mobile_screenshot/CJn257G0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/mobile_screenshot/CI2n8rG0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/mobile_screenshot/CP2f_LG0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/mobile_screenshot/CI7ahrK0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/mobile_screenshot/CJi-kbK0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/pos_screenshot/CIitm7K0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/pos_screenshot/CMnFprK0mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/pos_screenshot/CLK08Z24mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/pos_screenshot/CNX--524mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/pos_screenshot/CNCPh564mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/71e0457d8c941b7fc38a02cdc972a022/pos_screenshot/CP_LkZ64mpcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BSS B2B Lock, Login & Password free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/login-to-access-pages"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  Danish,  Spanish,  Italian,  Dutch,  Finnish,  French,  Polish,  Swedish,  Portuguese (Portugal),  Czech,  Hungarian,  Turkish,  Romanian,  Japanese,  Korean,  Chinese (Simplified),  Chinese (Traditional),  and Thai",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/login-to-access-pages"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, BSS B2B Quotes & Quick Order, BSS B2B Wholesale Solution, Eurus Theme, Maximize Theme",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/login-to-access-pages"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/login-to-access-pages"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.bss-b2b.solutions/b2b-lock/troubleshooting-and-faq/frequently-asked-questions-faq/",
+            "https://docs.bss-b2b.solutions/b2b-lock/",
+            "https://docs.bss-b2b.solutions/b2b-lock/getting-started/install-and-open-bss-b2b-lock/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wholesale-b2b-pricing"],
+        "primary_category_id": "wholesale-b2b-pricing",
+        "seo": {
+          "title": "BSS B2B Lock, Login & Password Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wholesale & b2b pricing. Listed functions include activation link, restrict access.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/login-to-access-pages",
+          "retrieved_at": "2026-10-04T05:21:22.431525+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Shopify BSS B2B Lock Password: Enhance your B2B experience with secure login,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/login-to-access-pages"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "sparklayer",
+      "name": "SparkLayer B2B & Wholesale",
+      "slug": "sparklayer",
+      "category_fit": {
+        "app_id": "sparklayer",
+        "selection_score": 5.979,
+        "rating_evidence": {"value": 4.9, "reviews": 385},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["b2b", "wholesale"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/sparklayer"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for wholesale & b2b pricing. Listed functions include customer groups, custom pricing.",
+        "description_long": "SparkLayer B2B & Wholesale is developed by SparkLayer and listed for wholesale. Its structured listing identifies functions such as customer groups, custom pricing, discount codes, tiered pricing. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wholesale & B2B Pricing"],
+        "best_for": {
+          "use_cases": ["Wholesale & B2B Pricing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 385,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/sparklayer",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 356},
+          {"stars": 4, "percentage": 4, "count": 17},
+          {"stars": 3, "percentage": 1, "count": 2},
+          {"stars": 2, "percentage": 1, "count": 5},
+          {"stars": 1, "percentage": 1, "count": 5}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 149.0,
+            "billing_period": "month",
+            "price_display": "$149 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 299.0,
+            "billing_period": "month",
+            "price_display": "$299 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.sparklayer.io/pricing",
+        "starting_paid_monthly_price_usd": 49.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "April 28, 2021 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.wholesale.pricing_options.customer_groups", "label": "Customer groups"},
+          {"handle": "cf.wholesale.pricing_options.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.wholesale.pricing_options.discount_codes", "label": "Discount codes"},
+          {"handle": "cf.wholesale.pricing_options.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.wholesale.pricing_options.volume_discounts", "label": "Volume discounts"},
+          {"handle": "cf.wholesale.pricing_options.pricing_import", "label": "Pricing import"},
+          {"handle": "cf.wholesale.pricing_options.tax_exemption", "label": "Tax exemptions"},
+          {"handle": "cf.wholesale.pricing_options.preorders", "label": "Pre-orders"},
+          {"handle": "cf.wholesale.pricing_options.net_terms", "label": "Net terms"},
+          {"handle": "cf.wholesale.pricing_options.payment_methods", "label": "Payment methods"},
+          {"handle": "cf.wholesale.pricing_options.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.pricing_options.signup_form", "label": "Signup form"},
+          {"handle": "cf.wholesale.pricing_options.wholesale_login", "label": "Wholesale login"},
+          {"handle": "cf.wholesale.pricing_options.customer_tagging", "label": "Customer tagging"},
+          {"handle": "cf.wholesale.order_management.bulk_processing", "label": "Bulk processing"},
+          {"handle": "cf.wholesale.order_management.order_form", "label": "Order form"},
+          {"handle": "cf.wholesale.order_management.manual_orders", "label": "Manual orders"},
+          {"handle": "cf.wholesale.order_management.draft_orders", "label": "Draft orders"},
+          {"handle": "cf.wholesale.order_management.order_minimums", "label": "Order minimums"},
+          {"handle": "cf.wholesale.order_management.order_limits", "label": "Order limits"},
+          {"handle": "cf.wholesale.order_management.shipping_options", "label": "Shipping options"},
+          {"handle": "cf.wholesale.order_management.order_status", "label": "Order status"},
+          {"handle": "cf.wholesale.order_management.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.order_management.api_access", "label": "API access"},
+          {"handle": "cf.wholesale.order_management.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.wholesale.order_management.inventory_status", "label": "Inventory status"},
+          {"handle": "cf.wholesale.order_management.import_and_export", "label": "Import and export"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "Cin7",
+          "Katana",
+          "Linnworks",
+          "QuickBooks Online",
+          "Unleashed",
+          "Xero"
+        ]
+      },
+      "developer": {
+        "name": "SparkLayer",
+        "website_url": "https://www.sparklayer.io/",
+        "partner_url": "https://apps.shopify.com/partners/spark-layer-ltd",
+        "public_address": "Trimbridge House, Trim Street, Bath, ENG, BA1 1HB, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/sparklayer",
+        "canonical_app_store_url": "https://apps.shopify.com/sparklayer",
+        "install_url": "https://apps.shopify.com/sparklayer",
+        "demo_store_url": "https://sparklayer-b2b-demo-store.myshopify.com/pages/b2b-login-register",
+        "resources": {
+          "Privacy policy": "https://www.sparklayer.io/privacy",
+          "FAQ": "https://docs.sparklayer.io/faqs",
+          "Tutorial": "https://docs.sparklayer.io/getting-started",
+          "App Documentation": "https://docs.sparklayer.io/",
+          "SparkLayer": "https://apps.shopify.com/partners/spark-layer-ltd",
+          "Website": "https://www.sparklayer.io/",
+          "Changelog": "https://docs.sparklayer.io/whats-new"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/icon/CJDYgMue-5ADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/desktop_screenshot/CIG_pbae4JMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/desktop_screenshot/CNvqgPnB3pMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/desktop_screenshot/COLy_t3B3pMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/desktop_screenshot/COGOiN7B3pMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/desktop_screenshot/CLed246Jw5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/desktop_screenshot/CObG5Y6Jw5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/mobile_screenshot/CMD97o6Jw5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/mobile_screenshot/CKO7-I6Jw5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/mobile_screenshot/CISggo-Jw5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/mobile_screenshot/COqhgaHvkpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/mobile_screenshot/CPTOi4-Jw5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/mobile_screenshot/CPrDlY-Jw5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/pos_screenshot/CLiwno-Jw5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/pos_screenshot/COTcp4-Jw5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/pos_screenshot/CM3fraHvkpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/pos_screenshot/CJONsY-Jw5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f30ee981e524cbecf29ceee1f084fe87/pos_screenshot/CIbfo9HKsZUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/23uqVqW59d0"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is SparkLayer B2B & Wholesale free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/sparklayer"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/sparklayer"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, Cin7, Katana, Linnworks, QuickBooks Online, Unleashed, Xero",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/sparklayer"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/sparklayer"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.sparklayer.io/faqs",
+            "https://docs.sparklayer.io/getting-started",
+            "https://docs.sparklayer.io/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wholesale-b2b-pricing"],
+        "primary_category_id": "wholesale-b2b-pricing",
+        "seo": {
+          "title": "SparkLayer B2B & Wholesale Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wholesale & b2b pricing. Listed functions include customer groups, custom pricing.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/sparklayer",
+          "retrieved_at": "2026-10-04T05:21:22.380227+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "SparkLayer is an all-in-one B2B solution that gives you a simple way…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/sparklayer"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "b2b-customer-portal-quick-order",
+      "name": "BSS B2B Request a Quote, Order",
+      "slug": "b2b-customer-portal-quick-order",
+      "category_fit": {
+        "app_id": "b2b-customer-portal-quick-order",
+        "selection_score": 5.9215,
+        "rating_evidence": {"value": 4.9, "reviews": 191},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["b2b", "wholesale"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/b2b-customer-portal-quick-order"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for wholesale & b2b pricing. Listed functions include hide price, request a quote.",
+        "description_long": "BSS B2B Request a Quote, Order is developed by BSS B2B Suite and listed for pricing quotes, wholesale. Its structured listing identifies functions such as hide price, request a quote, convert quote to order, custom rules. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wholesale & B2B Pricing", "Request a Quote", "Wholesale Catalogs & Order Forms"],
+        "best_for": {
+          "use_cases": ["Wholesale & B2B Pricing", "Request a Quote", "Wholesale Catalogs & Order Forms"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 191,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/b2b-customer-portal-quick-order",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 180},
+          {"stars": 4, "percentage": 3, "count": 6},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free - DEV Partner",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "GROWTH",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $194.40/year and save 15%"]
+          },
+          {
+            "name": "BUSINESS",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $398.40/year and save 15%"]
+          },
+          {
+            "name": "ENTERPRISE",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $806.40/year and save 15%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "July 28, 2021",
+        "shopify_categories": [
+          {
+            "name": "Pricing quotes",
+            "url": "https://apps.shopify.com/categories/selling-products-pricing-pricing-quotes"
+          },
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pricing_quotes.pricing_rules.hide_price", "label": "Hide price"},
+          {"handle": "cf.pricing_quotes.pricing_rules.request_a_quote", "label": "Request a quote"},
+          {
+            "handle": "cf.pricing_quotes.pricing_rules.convert_quote_to_order",
+            "label": "Convert quote to order"
+          },
+          {"handle": "cf.pricing_quotes.pricing_rules.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.pricing_quotes.pricing_rules.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.pricing_quotes.customization.quote_form", "label": "Quote form"},
+          {"handle": "cf.pricing_quotes.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.pricing_quotes.customization.file_upload", "label": "File upload"},
+          {"handle": "cf.pricing_quotes.notifications.quote_updates", "label": "Quote updates"},
+          {"handle": "cf.wholesale.pricing_options.customer_groups", "label": "Customer groups"},
+          {"handle": "cf.wholesale.pricing_options.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.wholesale.order_management.bulk_processing", "label": "Bulk processing"},
+          {"handle": "cf.wholesale.order_management.order_form", "label": "Order form"},
+          {"handle": "cf.wholesale.order_management.draft_orders", "label": "Draft orders"}
+        ],
+        "languages": [
+          "English",
+          " Dutch",
+          " Danish",
+          " Spanish",
+          " German",
+          " Finnish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Polish",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Czech",
+          " Hungarian",
+          " Turkish",
+          " Romanian",
+          " and Thai"
+        ],
+        "works_with": [
+          "Customer accounts",
+          "Shopify Admin",
+          "BSS B2B Lock",
+          "BSS B2B Solution",
+          "Eurus Theme",
+          "Maximize Theme",
+          "Page Builders"
+        ]
+      },
+      "developer": {
+        "name": "BSS B2B Suite",
+        "website_url": "https://bss-b2b.solutions/bss-b2b-quote/",
+        "partner_url": "https://apps.shopify.com/partners/bss-commerce-b2b",
+        "public_address": "Ha Noi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/b2b-customer-portal-quick-order",
+        "canonical_app_store_url": "https://apps.shopify.com/b2b-customer-portal-quick-order",
+        "install_url": "https://apps.shopify.com/b2b-customer-portal-quick-order",
+        "demo_store_url": "https://bss-b2b-quick-order-quotes.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://docs.bss-b2b.solutions/general/policies/privacy-policy/",
+          "FAQ": "https://docs.bss-b2b.solutions/quote-quick-order/other-resources/general-faqs/",
+          "Tutorial": "https://docs.bss-b2b.solutions/quote-quick-order/",
+          "App Documentation": "https://docs.bss-b2b.solutions/quote-quick-order/getting-started/quick-start-5-10-mins-setup/",
+          "BSS B2B Suite": "https://apps.shopify.com/partners/bss-commerce-b2b",
+          "Website": "https://bss-b2b.solutions/bss-b2b-quote/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/icon/CKH57aSigpEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/promotional_image/CP7Z4s-1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/desktop_screenshot/CNmt7c-1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/desktop_screenshot/CK6O-M-1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/desktop_screenshot/CJCPgtC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/desktop_screenshot/CKqajNC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/desktop_screenshot/CIyLltC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/desktop_screenshot/CKnSoNC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/mobile_screenshot/COSUrtC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/mobile_screenshot/CMXmt9C1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/mobile_screenshot/CIqxwtC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/mobile_screenshot/CKSvzNC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/mobile_screenshot/CLG01tC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/mobile_screenshot/CLuQ4NC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/pos_screenshot/CIuR29-3mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/pos_screenshot/CPD45d-3mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/pos_screenshot/CJmf8d-3mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/pos_screenshot/CNeY-9-3mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/pos_screenshot/CNXwheC3mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/pos_screenshot/CKWDkuC3mpcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BSS B2B Request a Quote, Order free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/b2b-customer-portal-quick-order"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Dutch,  Danish,  Spanish,  German,  Finnish,  French,  Italian,  Japanese,  Korean,  Polish,  Portuguese (Portugal),  Swedish,  Chinese (Simplified),  Chinese (Traditional),  Czech,  Hungarian,  Turkish,  Romanian,  and Thai",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/b2b-customer-portal-quick-order"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Admin, BSS B2B Lock, BSS B2B Solution, Eurus Theme, Maximize Theme, Page Builders",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/b2b-customer-portal-quick-order"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/b2b-customer-portal-quick-order"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.bss-b2b.solutions/quote-quick-order/other-resources/general-faqs/",
+            "https://docs.bss-b2b.solutions/quote-quick-order/",
+            "https://docs.bss-b2b.solutions/quote-quick-order/getting-started/quick-start-5-10-mins-setup/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wholesale-b2b-pricing", "request-a-quote", "wholesale-catalogs-order-forms"],
+        "primary_category_id": "wholesale-b2b-pricing",
+        "seo": {
+          "title": "BSS B2B Request a Quote, Order Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wholesale & b2b pricing. Listed functions include hide price, request a quote.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/b2b-customer-portal-quick-order",
+          "retrieved_at": "2026-10-04T05:21:32.277283+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "BSS B2B Quotes & Quick Order Form lets wholesale buyers request quotes,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/b2b-customer-portal-quick-order"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "request-for-quote-by-omega",
+      "name": "QS Request a Quote, Hide Price",
+      "slug": "request-for-quote-by-omega",
+      "category_fit": {
+        "app_id": "request-for-quote-by-omega",
+        "selection_score": 5.9209,
+        "rating_evidence": {"value": 4.8, "reviews": 703},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["b2b", "wholesale"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/request-for-quote-by-omega"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for wholesale & b2b pricing. Listed functions include hide price, price login.",
+        "description_long": "QS Request a Quote, Hide Price is developed by Quote Snap and listed for pricing quotes, wholesale. Its structured listing identifies functions such as hide price, price login, show and hide, request a quote. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wholesale & B2B Pricing", "Request a Quote"],
+        "best_for": {
+          "use_cases": ["Wholesale & B2B Pricing", "Request a Quote"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 703,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/request-for-quote-by-omega",
+        "distribution": [
+          {"stars": 5, "percentage": 93, "count": 656},
+          {"stars": 4, "percentage": 4, "count": 26},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 1, "count": 4},
+          {"stars": 1, "percentage": 2, "count": 14}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "STARTER",
+            "amount_usd": 16.99,
+            "billing_period": "month",
+            "price_display": "$16.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $183.49/year and save 10%"]
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 36.99,
+            "billing_period": "month",
+            "price_display": "$36.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $399.49/year and save 10%"]
+          },
+          {
+            "name": "SHOPIFY PLUS",
+            "amount_usd": 96.99,
+            "billing_period": "month",
+            "price_display": "$96.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,047.49/year and save 10%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://help.omegatheme.com/en/article/pricing-plan-1yttj2j/",
+        "starting_paid_monthly_price_usd": 16.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 27, 2019",
+        "shopify_categories": [
+          {
+            "name": "Pricing quotes",
+            "url": "https://apps.shopify.com/categories/selling-products-pricing-pricing-quotes"
+          },
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pricing_quotes.pricing_rules.hide_price", "label": "Hide price"},
+          {"handle": "cf.pricing_quotes.pricing_rules.price_login", "label": "Price login"},
+          {"handle": "cf.pricing_quotes.pricing_rules.show_and_hide", "label": "Show and hide"},
+          {"handle": "cf.pricing_quotes.pricing_rules.request_a_quote", "label": "Request a quote"},
+          {
+            "handle": "cf.pricing_quotes.pricing_rules.convert_quote_to_order",
+            "label": "Convert quote to order"
+          },
+          {"handle": "cf.pricing_quotes.pricing_rules.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.pricing_quotes.pricing_rules.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.pricing_quotes.customization.custom_display", "label": "Custom display"},
+          {"handle": "cf.pricing_quotes.customization.buttons", "label": "Buttons"},
+          {"handle": "cf.pricing_quotes.customization.quote_form", "label": "Quote form"},
+          {"handle": "cf.pricing_quotes.customization.invoices", "label": "Invoices"},
+          {"handle": "cf.pricing_quotes.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.pricing_quotes.customization.pdf_generation", "label": "PDF generation"},
+          {"handle": "cf.pricing_quotes.customization.file_upload", "label": "File upload"},
+          {"handle": "cf.pricing_quotes.customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.pricing_quotes.notifications.admin_alerts", "label": "Admin alerts"},
+          {"handle": "cf.pricing_quotes.notifications.auto_email_responses", "label": "Auto-email responses"},
+          {"handle": "cf.pricing_quotes.notifications.email_templates", "label": "Email templates"},
+          {"handle": "cf.pricing_quotes.notifications.quote_updates", "label": "Quote updates"},
+          {"handle": "cf.pricing_quotes.notifications.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.wholesale.pricing_options.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.wholesale.pricing_options.discount_codes", "label": "Discount codes"},
+          {"handle": "cf.wholesale.pricing_options.net_terms", "label": "Net terms"},
+          {"handle": "cf.wholesale.pricing_options.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.order_management.draft_orders", "label": "Draft orders"},
+          {"handle": "cf.wholesale.order_management.shipping_options", "label": "Shipping options"},
+          {"handle": "cf.wholesale.order_management.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.order_management.api_access", "label": "API access"},
+          {"handle": "cf.wholesale.order_management.import_and_export", "label": "Import and export"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "B2B",
+          "Email SMTP",
+          "Foxify Smart Page Builder",
+          "GemPages Landing Page Builder",
+          "Google reCaptcha",
+          "Wholesale"
+        ]
+      },
+      "developer": {
+        "name": "Quote Snap",
+        "website_url": "https://quotesnap.net/",
+        "partner_url": "https://apps.shopify.com/partners/quote-snap",
+        "public_address": "18/11 Thai Ha, Dong Da, Ha Noi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/request-for-quote-by-omega",
+        "canonical_app_store_url": "https://apps.shopify.com/request-for-quote-by-omega",
+        "install_url": "https://apps.shopify.com/request-for-quote-by-omega",
+        "demo_store_url": "https://quote-snap.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.omegatheme.com/privacy-policy-app",
+          "App Documentation": "https://help.omegatheme.com/en/category/quote-snap-ut3g14/",
+          "Quote Snap": "https://apps.shopify.com/partners/quote-snap",
+          "Website": "https://quotesnap.net/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/icon/CM26s5Hfpf4CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/desktop_screenshot/COmrvNPwy5QDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/desktop_screenshot/CMXUxtPwy5QDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/desktop_screenshot/CPXCz9Pwy5QDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/desktop_screenshot/CJux2NPwy5QDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/desktop_screenshot/CIq34dPwy5QDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/desktop_screenshot/CIWE6tPwy5QDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/mobile_screenshot/CNqa89Pwy5QDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/kHsR5VkrUyM"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is QS Request a Quote, Hide Price free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/request-for-quote-by-omega"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/request-for-quote-by-omega"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, B2B, Email SMTP, Foxify Smart Page Builder, GemPages Landing Page Builder, Google reCaptcha, Wholesale",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/request-for-quote-by-omega"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/request-for-quote-by-omega"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.omegatheme.com/en/category/quote-snap-ut3g14/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wholesale-b2b-pricing", "request-a-quote"],
+        "primary_category_id": "wholesale-b2b-pricing",
+        "seo": {
+          "title": "QS Request a Quote, Hide Price Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wholesale & b2b pricing. Listed functions include hide price, price login.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/request-for-quote-by-omega",
+          "retrieved_at": "2026-10-04T05:21:22.423144+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Add Request a Quote & Hide Price to your Shopify store. Let…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/request-for-quote-by-omega"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

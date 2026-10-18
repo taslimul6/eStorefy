@@ -1,0 +1,3174 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "theme-sections",
+    "number": 32,
+    "name": "Theme Sections",
+    "group": "Store Design",
+    "slug": "theme-sections",
+    "url_path": "/apps/theme-sections",
+    "focus": "Build and customize the storefront experience.",
+    "description": "Compare Shopify apps for theme sections. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/store-design-storefronts-page-builder/all"],
+    "seo": {
+      "title": "Shopify Theme Sections Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for theme sections: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a theme sections app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "section-factory",
+      "name": "Section Store: Theme Sections",
+      "slug": "section-factory",
+      "category_fit": {
+        "app_id": "section-factory",
+        "selection_score": 6.0932,
+        "rating_evidence": {"value": 4.9, "reviews": 2963},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["section"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/section-factory"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for theme sections. Listed functions include landing pages, home pages.",
+        "description_long": "Section Store: Theme Sections is developed by Section Store and listed for page builder, storefronts - other. Its structured listing identifies functions such as landing pages, home pages, product pages, collections. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Theme Sections", "Cart Drawers & Cart Upsells", "Checkout Validation", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Theme Sections", "Cart Drawers & Cart Upsells", "Checkout Validation", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 2963,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/section-factory",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 2},
+          {"stars": 4, "percentage": 3, "count": 94},
+          {"stars": 3, "percentage": 1, "count": 29},
+          {"stars": 2, "percentage": 0, "count": 11},
+          {"stars": 1, "percentage": 2, "count": 48}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Section Store",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Section Store Plus",
+            "amount_usd": 15.0,
+            "billing_period": "month",
+            "price_display": "$15 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 15.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 29, 2022",
+        "shopify_categories": [
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          },
+          {
+            "name": "Storefronts - Other",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-storefronts-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.collections", "label": "Collections"},
+          {"handle": "cf.page_builder.page_types.coming_soon_pages", "label": "Coming soon pages"},
+          {"handle": "cf.page_builder.page_types.blogs", "label": "Blogs"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.help_center_pages", "label": "Help center pages"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.cart_pages", "label": "Cart pages"},
+          {"handle": "cf.page_builder.page_types.thank_you_pages", "label": "Thank you pages"},
+          {"handle": "cf.page_builder.page_types.footers", "label": "Footers"},
+          {"handle": "cf.page_builder.page_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.page_builder.page_types.forms", "label": "Forms"},
+          {"handle": "cf.page_builder.page_types.404_pages", "label": "404 pages"},
+          {"handle": "cf.page_builder.page_types.press_pages", "label": "Press pages"},
+          {"handle": "cf.page_builder.page_types.career_pages", "label": "Career pages"},
+          {"handle": "cf.page_builder.page_types.reviews_page", "label": "Reviews page"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.save_pages", "label": "Save pages"},
+          {"handle": "cf.page_builder.managing_pages.draft_pages", "label": "Draft pages"},
+          {"handle": "cf.page_builder.managing_pages.global_sections", "label": "Global sections"},
+          {"handle": "cf.page_builder.managing_pages.custom_code", "label": "Custom code"},
+          {"handle": "cf.page_builder.managing_pages.ai_generation", "label": "AI generation"},
+          {"handle": "cf.page_builder.managing_pages.seo", "label": "SEO"}
+        ],
+        "languages": ["English", " French", " German", " and Spanish"],
+        "works_with": ["Checkout", "Shopify Admin", "bundles", "Theme Editor"]
+      },
+      "developer": {
+        "name": "Section Store",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/appify-ivs",
+        "public_address": "Sheridan, WY, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/section-factory",
+        "canonical_app_store_url": "https://apps.shopify.com/section-factory",
+        "install_url": "https://apps.shopify.com/section-factory",
+        "demo_store_url": "https://section.store/pages/all-sections",
+        "resources": {
+          "Privacy policy": "https://section.store/pages/section-store-privacy-policy",
+          "Section Store": "https://apps.shopify.com/partners/appify-ivs"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9379d0b061b8a54c2b057c1fa14544c8/icon/COmvw8en_vYCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9379d0b061b8a54c2b057c1fa14544c8/promotional_image/CLTahI6htpUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9379d0b061b8a54c2b057c1fa14544c8/desktop_screenshot/CPqUltShtpUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9379d0b061b8a54c2b057c1fa14544c8/desktop_screenshot/CMa1n9ShtpUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9379d0b061b8a54c2b057c1fa14544c8/desktop_screenshot/CIGyqdShtpUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9379d0b061b8a54c2b057c1fa14544c8/desktop_screenshot/CKeastShtpUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Section Store: Theme Sections free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/section-factory"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  German,  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/section-factory"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, bundles, Theme Editor",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/section-factory"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/section-factory"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["theme-sections", "cart-drawers-cart-upsells", "checkout-validation", "fraud-prevention"],
+        "primary_category_id": "theme-sections",
+        "seo": {
+          "title": "Section Store: Theme Sections Shopify App | eStorefy",
+          "meta_description": "A Shopify app for theme sections. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/section-factory",
+          "retrieved_at": "2026-10-04T05:13:27.336601+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "700+ Sections, Cart Drawer, Bundles, Mix & Match and Quantity Breaks &…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/section-factory"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "ot-theme-sections-store-page-builder",
+      "name": "OT Section: Theme Sections",
+      "slug": "ot-theme-sections-store-page-builder",
+      "category_fit": {
+        "app_id": "ot-theme-sections-store-page-builder",
+        "selection_score": 6.0463,
+        "rating_evidence": {"value": 5.0, "reviews": 274},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["section"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for theme sections. Listed functions include landing pages, home pages.",
+        "description_long": "OT Section: Theme Sections is developed by Omni Themes and listed for page builder, storefronts - other. Its structured listing identifies functions such as landing pages, home pages, product pages, collections. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Theme Sections", "Checkout Validation", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Theme Sections", "Checkout Validation", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 274,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 269},
+          {"stars": 4, "percentage": 1, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://support.omnithemes.com/blogs/ot-theme-section-main-features/pricing-plans-free-vs-plus",
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 4, 2024",
+        "shopify_categories": [
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          },
+          {
+            "name": "Storefronts - Other",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-storefronts-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.collections", "label": "Collections"},
+          {"handle": "cf.page_builder.page_types.coming_soon_pages", "label": "Coming soon pages"},
+          {"handle": "cf.page_builder.page_types.blogs", "label": "Blogs"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.thank_you_pages", "label": "Thank you pages"},
+          {"handle": "cf.page_builder.page_types.footers", "label": "Footers"},
+          {"handle": "cf.page_builder.page_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.page_builder.page_types.press_pages", "label": "Press pages"},
+          {"handle": "cf.page_builder.page_types.legal_pages", "label": "Legal pages"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.page_builder.managing_pages.elements", "label": "Elements"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.global_sections", "label": "Global sections"},
+          {"handle": "cf.page_builder.managing_pages.custom_fonts", "label": "Custom fonts"},
+          {"handle": "cf.page_builder.managing_pages.custom_code", "label": "Custom code"},
+          {"handle": "cf.page_builder.managing_pages.snippets", "label": "Snippets"},
+          {"handle": "cf.page_builder.managing_pages.localization", "label": "Localization"},
+          {"handle": "cf.page_builder.managing_pages.mobile_responsive", "label": "Mobile responsive"},
+          {"handle": "cf.page_builder.managing_pages.lazy_loading", "label": "Lazy loading"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " Czech",
+          " Danish",
+          " German",
+          " Finnish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Chinese (Traditional)",
+          " and Spanish"
+        ],
+        "works_with": [
+          "Shopify Admin",
+          "Any Theme",
+          "Dawn Theme",
+          "Eurus Theme",
+          "Horizon Theme",
+          "Online Store 2.0",
+          "Theme Editor"
+        ]
+      },
+      "developer": {
+        "name": "Omni Themes",
+        "website_url": "https://omnithemes.com/",
+        "partner_url": "https://apps.shopify.com/partners/omnithemes-com",
+        "public_address": "Ha Noi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder",
+        "canonical_app_store_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder",
+        "install_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder",
+        "demo_store_url": "https://themesections.omnithemes.com/collections/section-library",
+        "resources": {
+          "Privacy policy": "https://omnithemes.com/app-privacy-policies/",
+          "FAQ": "https://support.omnithemes.com/blogs/ot-theme-section-main-features/general-faqs-1",
+          "Tutorial": "https://support.omnithemes.com/blogs/ot-theme-section-main-features/get-started-with-ot-theme-sections",
+          "App Documentation": "https://support.omnithemes.com/blogs/ot-theme-section-main-features/pricing-plans-free-vs-plus",
+          "Omni Themes": "https://apps.shopify.com/partners/omnithemes-com",
+          "Website": "https://omnithemes.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/d1fbe4acf738bfaa4fa03ef985d8477e/icon/CM_PravDr4YDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/d1fbe4acf738bfaa4fa03ef985d8477e/promotional_image/CMLa4PWXxZQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d1fbe4acf738bfaa4fa03ef985d8477e/desktop_screenshot/CPu07PWXxZQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d1fbe4acf738bfaa4fa03ef985d8477e/desktop_screenshot/CJ6l9fWXxZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d1fbe4acf738bfaa4fa03ef985d8477e/desktop_screenshot/CKvq__WXxZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d1fbe4acf738bfaa4fa03ef985d8477e/desktop_screenshot/CO3FivaXxZQDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is OT Section: Theme Sections free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  Czech,  Danish,  German,  Finnish,  French,  Italian,  Japanese,  Korean,  Norwegian (Bokmål),  Dutch,  Polish,  Portuguese (Brazil),  Portuguese (Portugal),  Swedish,  Thai,  Turkish,  Chinese (Traditional),  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Any Theme, Dawn Theme, Eurus Theme, Horizon Theme, Online Store 2.0, Theme Editor",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://support.omnithemes.com/blogs/ot-theme-section-main-features/general-faqs-1",
+            "https://support.omnithemes.com/blogs/ot-theme-section-main-features/get-started-with-ot-theme-sections",
+            "https://support.omnithemes.com/blogs/ot-theme-section-main-features/pricing-plans-free-vs-plus"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["theme-sections", "checkout-validation", "fraud-prevention"],
+        "primary_category_id": "theme-sections",
+        "seo": {
+          "title": "OT Section: Theme Sections Shopify App | eStorefy",
+          "meta_description": "A Shopify app for theme sections. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/ot-theme-sections-store-page-builder",
+          "retrieved_at": "2026-10-04T05:13:20.353343+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Build your dream store in seconds with 200+ theme sections, templates, and…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "instant-builder",
+      "name": "Instant AI Page Builder",
+      "slug": "instant-builder",
+      "category_fit": {
+        "app_id": "instant-builder",
+        "selection_score": 5.9697,
+        "rating_evidence": {"value": 4.9, "reviews": 339},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["section"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/instant-builder"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for page builders. Listed functions include landing pages, home pages.",
+        "description_long": "Instant AI Page Builder is developed by Instant Commerce B.V. and listed for page builder. Its structured listing identifies functions such as landing pages, home pages, product pages, coming soon pages. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Page Builders", "Theme Sections"],
+        "best_for": {
+          "use_cases": ["Page Builders", "Theme Sections"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 339,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/instant-builder",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 330},
+          {"stars": 4, "percentage": 1, "count": 5},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Developer",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $374.40/year and save 20%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $950.40/year and save 20%"]
+          },
+          {
+            "name": "Business",
+            "amount_usd": 249.0,
+            "billing_period": "month",
+            "price_display": "$249 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $2,390.40/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://instant.so/pricing",
+        "starting_paid_monthly_price_usd": 39.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "August 22, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.coming_soon_pages", "label": "Coming soon pages"},
+          {"handle": "cf.page_builder.page_types.blogs", "label": "Blogs"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.help_center_pages", "label": "Help center pages"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.thank_you_pages", "label": "Thank you pages"},
+          {"handle": "cf.page_builder.page_types.footers", "label": "Footers"},
+          {"handle": "cf.page_builder.page_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.page_builder.page_types.forms", "label": "Forms"},
+          {"handle": "cf.page_builder.page_types.404_pages", "label": "404 pages"},
+          {"handle": "cf.page_builder.page_types.press_pages", "label": "Press pages"},
+          {"handle": "cf.page_builder.page_types.career_pages", "label": "Career pages"},
+          {"handle": "cf.page_builder.page_types.legal_pages", "label": "Legal pages"},
+          {"handle": "cf.page_builder.page_types.link_in_bio_page", "label": "Link in bio page"},
+          {"handle": "cf.page_builder.page_types.reviews_page", "label": "Reviews page"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.page_builder.managing_pages.elements", "label": "Elements"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.save_pages", "label": "Save pages"},
+          {"handle": "cf.page_builder.managing_pages.draft_pages", "label": "Draft pages"},
+          {"handle": "cf.page_builder.managing_pages.page_versions", "label": "Page versions"},
+          {"handle": "cf.page_builder.managing_pages.bulk_publishing", "label": "Bulk publishing"},
+          {"handle": "cf.page_builder.managing_pages.global_sections", "label": "Global sections"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Figma",
+          "Judge.me, Stamped, Yotpo, Loox",
+          "Kaching Bundles",
+          "Klaviyo, Omnisend",
+          "Recharge & Subscription apps"
+        ]
+      },
+      "developer": {
+        "name": "Instant Commerce B.V.",
+        "website_url": "https://instant.so",
+        "partner_url": "https://apps.shopify.com/partners/instant-commerce-b-v",
+        "public_address": "Willemsparkweg 63, Amsterdam, 1071 GS, NL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/instant-builder",
+        "canonical_app_store_url": "https://apps.shopify.com/instant-builder",
+        "install_url": "https://apps.shopify.com/instant-builder",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://instant.so/privacy-policy",
+          "Instant Commerce B.V.": "https://apps.shopify.com/partners/instant-commerce-b-v",
+          "Website": "https://instant.so",
+          "Changelog": "https://instant.so/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/c5f07372a6bbc4238b8476dedc8713cc/icon/CMbPpNedyoADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/c5f07372a6bbc4238b8476dedc8713cc/promotional_image/CKTZ_pL5_pMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5f07372a6bbc4238b8476dedc8713cc/desktop_screenshot/CPGziJP5_pMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5f07372a6bbc4238b8476dedc8713cc/desktop_screenshot/CInOkZP5_pMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5f07372a6bbc4238b8476dedc8713cc/desktop_screenshot/CMqom5P5_pMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5f07372a6bbc4238b8476dedc8713cc/desktop_screenshot/CLmEpZP5_pMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5f07372a6bbc4238b8476dedc8713cc/desktop_screenshot/CLrBrpP5_pMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Instant AI Page Builder free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/instant-builder"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/instant-builder"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Figma, Judge.me, Stamped, Yotpo, Loox, Kaching Bundles, Klaviyo, Omnisend, Recharge & Subscription apps",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/instant-builder"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/instant-builder"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["page-builders", "theme-sections"],
+        "primary_category_id": "page-builders",
+        "seo": {
+          "title": "Instant AI Page Builder Shopify App | eStorefy",
+          "meta_description": "A Shopify app for page builders. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/instant-builder",
+          "retrieved_at": "2026-10-04T05:13:20.166652+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Build, test, and grow your store in minutes with Instant’s AI page…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/instant-builder"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "vitals",
+      "name": "Vitals: Reviews, Bundles & 40+",
+      "slug": "vitals",
+      "category_fit": {
+        "app_id": "vitals",
+        "selection_score": 5.9432,
+        "rating_evidence": {"value": 4.9, "reviews": 2968},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["section"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/vitals"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for product bundles. Listed functions include testimonials, photo reviews.",
+        "description_long": "Vitals: Reviews, Bundles & 40+ is developed by Vitals and listed for product reviews, product bundles. Its structured listing identifies functions such as testimonials, photo reviews, video reviews, star ratings. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Product Bundles",
+          "Product Reviews",
+          "Photo & Video Reviews",
+          "Theme Sections",
+          "Heatmaps & Session Recordings",
+          "Store Locators"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Product Bundles",
+            "Product Reviews",
+            "Photo & Video Reviews",
+            "Theme Sections",
+            "Heatmaps & Session Recordings",
+            "Store Locators"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 2968,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/vitals",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 2},
+          {"stars": 4, "percentage": 1, "count": 36},
+          {"stars": 3, "percentage": 0, "count": 8},
+          {"stars": 2, "percentage": 0, "count": 3},
+          {"stars": 1, "percentage": 1, "count": 26}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "$29.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "All-in-One",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "Usage fees start after ~$1,000/mo in Vitals-attributed sales (from $10/mo) and for Visitor Recordings volume."
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://vitals.app/pricing",
+        "starting_paid_monthly_price_usd": 29.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 16, 2018 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Product reviews",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews"
+          },
+          {
+            "name": "Product bundles",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-product-bundles"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_reviews.display_options.testimonials", "label": "Testimonials"},
+          {"handle": "cf.product_reviews.display_options.photo_reviews", "label": "Photo reviews"},
+          {"handle": "cf.product_reviews.display_options.video_reviews", "label": "Video reviews"},
+          {"handle": "cf.product_reviews.display_options.star_ratings", "label": "Star ratings"},
+          {"handle": "cf.product_reviews.display_options.badges", "label": "Badges"},
+          {"handle": "cf.product_reviews.display_options.carousels", "label": "Carousels"},
+          {"handle": "cf.product_reviews.display_options.media_galleries", "label": "Media galleries"},
+          {"handle": "cf.product_reviews.display_options.grid_layout", "label": "Grid layout"},
+          {"handle": "cf.product_reviews.display_options.tabs_or_sidebars", "label": "Tabs or sidebars"},
+          {"handle": "cf.product_reviews.display_options.all_reviews_page", "label": "All reviews page"},
+          {"handle": "cf.product_reviews.display_options.top_reviews", "label": "Top reviews"},
+          {"handle": "cf.product_reviews.display_options.review_highlights", "label": "Review highlights"},
+          {"handle": "cf.product_reviews.display_options.review_summaries", "label": "Review summaries"},
+          {"handle": "cf.product_reviews.display_options.product_grouping", "label": "Product grouping"},
+          {"handle": "cf.product_reviews.display_options.filtering", "label": "Filtering"},
+          {"handle": "cf.product_reviews.display_options.rich_snippets", "label": "Rich snippets"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.email_requests", "label": "Email requests"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.social_media_ugc",
+            "label": "Social media UGC"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.forms", "label": "Forms"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.import_and_export",
+            "label": "Import and export"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_migration",
+            "label": "Review migration"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.automations", "label": "Automations"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.custom_requests", "label": "Custom requests"},
+          {"handle": "cf.product_bundles.bundle_types.fixed_bundles", "label": "Fixed bundles"},
+          {
+            "handle": "cf.product_bundles.bundle_types.mix_and_match_bundles",
+            "label": "Mix-and-match bundles"
+          },
+          {"handle": "cf.product_bundles.bundle_types.variant_bundles", "label": "Variant bundles"},
+          {"handle": "cf.product_bundles.bundle_types.upsell_bundles", "label": "Upsell bundles"},
+          {"handle": "cf.product_bundles.bundle_types.cross_sell_bundles", "label": "Cross-sell bundles"},
+          {
+            "handle": "cf.product_bundles.bundle_types.frequently_bought_together",
+            "label": "Frequently bought together"
+          },
+          {"handle": "cf.product_bundles.bundle_types.related_products", "label": "Related products"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Arabic",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Danish",
+          " Dutch",
+          " Italian",
+          " Japanese",
+          " Norwegian (Bokmål)",
+          " Portuguese (Brazil)",
+          " Romanian",
+          " and Swedish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "AliExpress",
+          "Facebook Messenger, Whatsapp",
+          "Facebook Pixel",
+          "Geolocation",
+          "Instagram",
+          "Omnisend, PageFly, Klaviyo"
+        ]
+      },
+      "developer": {
+        "name": "Vitals",
+        "website_url": "https://vitals.app/?utm_source=appstore&utm_medium=listing&utm_campaign=listing",
+        "partner_url": "https://apps.shopify.com/partners/appsolve",
+        "public_address": "str. Grigore Mora, Nr. 11, Camera 1, Etaj 3, Bucharest, B, 011885, RO"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/vitals",
+        "canonical_app_store_url": "https://apps.shopify.com/vitals",
+        "install_url": "https://apps.shopify.com/vitals",
+        "demo_store_url": "https://shop.vitals.co/collections/frontpage/products/ladies-short-sleeve-t-shirt",
+        "resources": {
+          "Privacy policy": "https://vitals.app/legal/privacy-policy",
+          "FAQ": "https://help.vitals.app",
+          "App Documentation": "https://help.vitals.app",
+          "Vitals": "https://apps.shopify.com/partners/appsolve",
+          "Website": "https://vitals.app/",
+          "Changelog": "https://www.notion.so/vitals/d0394414dc944ca88cc77ac1a8534105?v=3406a0182e434d55ba2c07140cbe30e3"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/icon/CPGxj-7H6IcDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/desktop_screenshot/CP2N8v_s5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/desktop_screenshot/CPPa_P_s5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/desktop_screenshot/CM-UhoDt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/desktop_screenshot/CPfmj4Dt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/desktop_screenshot/CJGhmYDt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/desktop_screenshot/CI7rooDt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/mobile_screenshot/CPqMrIDt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/mobile_screenshot/CIeptYDt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/mobile_screenshot/CIOqwIDt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/mobile_screenshot/CJ-TyoDt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/mobile_screenshot/COqk04Dt5I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/90600ebf22ca801b5fc543ad9b7553f0/mobile_screenshot/CMbMvJv31I4DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/5rICXeSr_yY"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Vitals: Reviews, Bundles & 40+ free?",
+            "answer": "The pricing label retrieved from the listing is: $29.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/vitals"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Arabic,  Chinese (Simplified),  Chinese (Traditional),  Danish,  Dutch,  Italian,  Japanese,  Norwegian (Bokmål),  Portuguese (Brazil),  Romanian,  and Swedish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/vitals"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, AliExpress, Facebook Messenger, Whatsapp, Facebook Pixel, Geolocation, Instagram, Omnisend, PageFly, Klaviyo",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/vitals"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/vitals"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.vitals.app", "https://help.vitals.app"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select eligible products and set the offer conditions.",
+            "Preview the offer and test cart totals on a sample order.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "product-bundles",
+          "product-reviews",
+          "photo-video-reviews",
+          "theme-sections",
+          "heatmaps-session-recordings",
+          "store-locators"
+        ],
+        "primary_category_id": "product-bundles",
+        "seo": {
+          "title": "Vitals: Reviews, Bundles & 40+ Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product bundles. Listed functions include testimonials, photo reviews.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/vitals",
+          "retrieved_at": "2026-10-04T05:08:36.479997+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Improve your store's conversion rates. Features include product reviews, upsells, bundles, visitor…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/vitals"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "sections-ai",
+      "name": "Section Star ‑ Theme Sections",
+      "slug": "sections-ai",
+      "category_fit": {
+        "app_id": "sections-ai",
+        "selection_score": 5.9189,
+        "rating_evidence": {"value": 4.9, "reviews": 186},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["section"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/sections-ai"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for theme sections. Listed functions include landing pages, home pages.",
+        "description_long": "Section Star ‑ Theme Sections is developed by Next Half Apps and listed for design elements - other, page builder. Its structured listing identifies functions such as landing pages, home pages, product pages, blogs. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Theme Sections"],
+        "best_for": {
+          "use_cases": ["Theme Sections"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 186,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/sections-ai",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 176},
+          {"stars": 4, "percentage": 5, "count": 9},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 19, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Design elements - Other",
+            "url": "https://apps.shopify.com/categories/store-design-design-elements-design-elements-other"
+          },
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.blogs", "label": "Blogs"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.thank_you_pages", "label": "Thank you pages"},
+          {"handle": "cf.page_builder.page_types.footers", "label": "Footers"},
+          {"handle": "cf.page_builder.page_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.page_builder.page_types.forms", "label": "Forms"},
+          {"handle": "cf.page_builder.page_types.legal_pages", "label": "Legal pages"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.elements", "label": "Elements"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.global_sections", "label": "Global sections"},
+          {"handle": "cf.page_builder.managing_pages.custom_fonts", "label": "Custom fonts"},
+          {"handle": "cf.page_builder.managing_pages.custom_code", "label": "Custom code"},
+          {"handle": "cf.page_builder.managing_pages.mobile_responsive", "label": "Mobile responsive"},
+          {"handle": "cf.page_builder.managing_pages.lazy_loading", "label": "Lazy loading"}
+        ],
+        "languages": ["English", " French", " Spanish", " and German"],
+        "works_with": ["Checkout", "Shopify Admin"]
+      },
+      "developer": {
+        "name": "Next Half Apps",
+        "website_url": "https://starsections.com/",
+        "partner_url": "https://apps.shopify.com/partners/next-half",
+        "public_address": "Manchester, MO, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/sections-ai",
+        "canonical_app_store_url": "https://apps.shopify.com/sections-ai",
+        "install_url": "https://apps.shopify.com/sections-ai",
+        "demo_store_url": "https://solux-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://nexthalf.app/#privacy",
+          "App Documentation": "https://starsections.com/documentation",
+          "Next Half Apps": "https://apps.shopify.com/partners/next-half",
+          "Website": "https://starsections.com/",
+          "Changelog": "https://starsections.com/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/a52e9949120f94439687497e68d582c0/icon/CKmnkpfegpYDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/a52e9949120f94439687497e68d582c0/promotional_image/CI___J2b75UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a52e9949120f94439687497e68d582c0/desktop_screenshot/CLSQgKic75UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a52e9949120f94439687497e68d582c0/desktop_screenshot/CP_egcKe75UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a52e9949120f94439687497e68d582c0/desktop_screenshot/CMO-roO27JUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a52e9949120f94439687497e68d582c0/desktop_screenshot/CMbWt4O27JUDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Section Star ‑ Theme Sections free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/sections-ai"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Spanish,  and German",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/sections-ai"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/sections-ai"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/sections-ai"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://starsections.com/documentation"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["theme-sections"],
+        "primary_category_id": "theme-sections",
+        "seo": {
+          "title": "Section Star ‑ Theme Sections Shopify App | eStorefy",
+          "meta_description": "A Shopify app for theme sections. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/sections-ai",
+          "retrieved_at": "2026-10-04T05:13:27.351564+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/sections-ai"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "foxify-builder",
+      "name": "Foxify AI Store Builder",
+      "slug": "foxify-builder",
+      "category_fit": {
+        "app_id": "foxify-builder",
+        "selection_score": 5.8723,
+        "rating_evidence": {"value": 4.8, "reviews": 325},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["section"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/foxify-builder"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for theme sections. Listed functions include landing pages, home pages.",
+        "description_long": "Foxify AI Store Builder is developed by FoxEcom and listed for page builder, storefronts - other. Its structured listing identifies functions such as landing pages, home pages, product pages, collections. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Theme Sections"],
+        "best_for": {
+          "use_cases": ["Theme Sections"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 325,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/foxify-builder",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 308},
+          {"stars": 4, "percentage": 3, "count": 10},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 6}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $182.40/year and save 20%"]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $374.40/year and save 20%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $950.40/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://foxecom.link/foxify-pricing",
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 31, 2022 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          },
+          {
+            "name": "Storefronts - Other",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-storefronts-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.collections", "label": "Collections"},
+          {"handle": "cf.page_builder.page_types.coming_soon_pages", "label": "Coming soon pages"},
+          {"handle": "cf.page_builder.page_types.blogs", "label": "Blogs"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.help_center_pages", "label": "Help center pages"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.cart_pages", "label": "Cart pages"},
+          {"handle": "cf.page_builder.page_types.quick_view", "label": "Quick view"},
+          {"handle": "cf.page_builder.page_types.footers", "label": "Footers"},
+          {"handle": "cf.page_builder.page_types.forms", "label": "Forms"},
+          {"handle": "cf.page_builder.page_types.404_pages", "label": "404 pages"},
+          {"handle": "cf.page_builder.page_types.press_pages", "label": "Press pages"},
+          {"handle": "cf.page_builder.page_types.career_pages", "label": "Career pages"},
+          {"handle": "cf.page_builder.page_types.legal_pages", "label": "Legal pages"},
+          {"handle": "cf.page_builder.page_types.link_in_bio_page", "label": "Link in bio page"},
+          {"handle": "cf.page_builder.page_types.reviews_page", "label": "Reviews page"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.page_builder.managing_pages.elements", "label": "Elements"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.import_and_export", "label": "Import and export"},
+          {"handle": "cf.page_builder.managing_pages.save_pages", "label": "Save pages"},
+          {"handle": "cf.page_builder.managing_pages.draft_pages", "label": "Draft pages"},
+          {"handle": "cf.page_builder.managing_pages.page_versions", "label": "Page versions"}
+        ],
+        "languages": ["English", " Spanish", " German", " French", " and Italian"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Adoric, StoreSEO, qikify, Air",
+          "Ali Reviews, Judge.me, Yotpo",
+          "Avada, BOGOS, Kaching, Trustoo",
+          "Growave, Loox, Ryviu, Stamped",
+          "Omnisend, Klaviyo, Automizely",
+          "SearchPie, SEOAnt, Omega, AiT"
+        ]
+      },
+      "developer": {
+        "name": "FoxEcom",
+        "website_url": "https://foxecom.com",
+        "partner_url": "https://apps.shopify.com/partners/foxecomoffcial",
+        "public_address": "6203 San Ignacio Ave, San Jose, CA, 95119, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/foxify-builder",
+        "canonical_app_store_url": "https://apps.shopify.com/foxify-builder",
+        "install_url": "https://apps.shopify.com/foxify-builder",
+        "demo_store_url": "https://demo.foxify.io/",
+        "resources": {
+          "Privacy policy": "https://docs.foxecom.com/company/privacy-policy",
+          "Tutorial": "https://foxecom.link/FoxifyTutorials",
+          "App Documentation": "http://docs.foxecom.com/foxify-app",
+          "FoxEcom": "https://apps.shopify.com/partners/foxecomoffcial",
+          "Website": "https://foxecom.com",
+          "Changelog": "https://docs.foxecom.com/foxify-app/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/01100998030ec19c0d9640fc3e43c69c/icon/CJO1_vnw1oEDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/01100998030ec19c0d9640fc3e43c69c/desktop_screenshot/CJnS_9iDv5MDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01100998030ec19c0d9640fc3e43c69c/desktop_screenshot/CJTviNmDv5MDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01100998030ec19c0d9640fc3e43c69c/desktop_screenshot/CPjFkdmDv5MDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01100998030ec19c0d9640fc3e43c69c/desktop_screenshot/CM2MmtmDv5MDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01100998030ec19c0d9640fc3e43c69c/desktop_screenshot/CI3Go9mDv5MDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01100998030ec19c0d9640fc3e43c69c/desktop_screenshot/CMSN6I_W3ZMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01100998030ec19c0d9640fc3e43c69c/mobile_screenshot/CODAtdmDv5MDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01100998030ec19c0d9640fc3e43c69c/mobile_screenshot/CNKlvtmDv5MDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/iYMRMV0dKEo"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Foxify AI Store Builder free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/foxify-builder"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  German,  French,  and Italian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/foxify-builder"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Adoric, StoreSEO, qikify, Air, Ali Reviews, Judge.me, Yotpo, Avada, BOGOS, Kaching, Trustoo, Growave, Loox, Ryviu, Stamped, Omnisend, Klaviyo, Automizely, SearchPie, SEOAnt, Omega, AiT",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/foxify-builder"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/foxify-builder"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://foxecom.link/FoxifyTutorials", "http://docs.foxecom.com/foxify-app"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["theme-sections"],
+        "primary_category_id": "theme-sections",
+        "seo": {
+          "title": "Foxify AI Store Builder Shopify App | eStorefy",
+          "meta_description": "A Shopify app for theme sections. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/foxify-builder",
+          "retrieved_at": "2026-10-04T05:13:20.097879+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Foxify is an AI-powered drag-and-drop Shopify page builder for industry CRO with…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/foxify-builder"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "section-store-builder",
+      "name": "G: Theme Sections & Blocks",
+      "slug": "section-store-builder",
+      "category_fit": {
+        "app_id": "section-store-builder",
+        "selection_score": 5.8687,
+        "rating_evidence": {"value": 4.8, "reviews": 309},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["section"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/section-store-builder"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for theme sections. Listed functions include landing pages, home pages.",
+        "description_long": "G: Theme Sections & Blocks is developed by Grouptify and listed for page builder, storefronts - other. Its structured listing identifies functions such as landing pages, home pages, product pages, collections. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Theme Sections"],
+        "best_for": {
+          "use_cases": ["Theme Sections"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 309,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/section-store-builder",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 283},
+          {"stars": 4, "percentage": 7, "count": 21},
+          {"stars": 3, "percentage": 1, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 3, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          },
+          {
+            "name": "Storefronts - Other",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-storefronts-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.collections", "label": "Collections"},
+          {"handle": "cf.page_builder.page_types.coming_soon_pages", "label": "Coming soon pages"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.thank_you_pages", "label": "Thank you pages"},
+          {"handle": "cf.page_builder.page_types.footers", "label": "Footers"},
+          {"handle": "cf.page_builder.page_types.press_pages", "label": "Press pages"},
+          {"handle": "cf.page_builder.page_types.career_pages", "label": "Career pages"},
+          {"handle": "cf.page_builder.page_types.legal_pages", "label": "Legal pages"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.global_sections", "label": "Global sections"},
+          {"handle": "cf.page_builder.managing_pages.mobile_responsive", "label": "Mobile responsive"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "Grouptify",
+        "website_url": "https://tapita.io",
+        "partner_url": "https://apps.shopify.com/partners/grouptify",
+        "public_address": "Dong Da, Hanoi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/section-store-builder",
+        "canonical_app_store_url": "https://apps.shopify.com/section-store-builder",
+        "install_url": "https://apps.shopify.com/section-store-builder",
+        "demo_store_url": "https://www.tapita.io/collections/sections",
+        "resources": {
+          "Privacy policy": "https://tapita.io/privacy-policy/",
+          "FAQ": "https://www.tapita.io/pages/faqs-tapita-ai-theme-section-store",
+          "Tutorial": "https://tapita0.zohodesk.com/portal/en/kb/articles/tapita-ai-section-builder-step-by-step-guide",
+          "App Documentation": "https://tapita0.zohodesk.com/portal/en/kb/tapita-theme-sections-builder",
+          "Grouptify": "https://apps.shopify.com/partners/grouptify",
+          "Website": "https://tapita.io",
+          "Changelog": "https://tapita0.zohodesk.com/portal/en/kb/articles/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/cdd546acc4a26ec3e66eb8484ef22bbf/icon/CLnX5IXKuogDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/cdd546acc4a26ec3e66eb8484ef22bbf/promotional_image/CNq6kIOst5ADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/cdd546acc4a26ec3e66eb8484ef22bbf/desktop_screenshot/CKj5sY6tuY0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/cdd546acc4a26ec3e66eb8484ef22bbf/desktop_screenshot/CJaEvI6tuY0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/cdd546acc4a26ec3e66eb8484ef22bbf/desktop_screenshot/CMjpxY6tuY0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/cdd546acc4a26ec3e66eb8484ef22bbf/desktop_screenshot/COmF2o6tuY0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/cdd546acc4a26ec3e66eb8484ef22bbf/desktop_screenshot/CLCO5I6tuY0DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is G: Theme Sections & Blocks free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/section-store-builder"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/section-store-builder"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/section-store-builder"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/section-store-builder"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://www.tapita.io/pages/faqs-tapita-ai-theme-section-store",
+            "https://tapita0.zohodesk.com/portal/en/kb/articles/tapita-ai-section-builder-step-by-step-guide",
+            "https://tapita0.zohodesk.com/portal/en/kb/tapita-theme-sections-builder"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["theme-sections"],
+        "primary_category_id": "theme-sections",
+        "seo": {
+          "title": "G: Theme Sections & Blocks Shopify App | eStorefy",
+          "meta_description": "A Shopify app for theme sections. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/section-store-builder",
+          "retrieved_at": "2026-10-04T05:13:27.308322+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Build a High-converting Storefront with Sections & Blocks",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/section-store-builder"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "pagefly",
+      "name": "PageFly ✦ AI Page Builder",
+      "slug": "pagefly",
+      "category_fit": {
+        "app_id": "pagefly",
+        "selection_score": 5.4251,
+        "rating_evidence": {"value": 4.9, "reviews": 5904},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["section"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/pagefly"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for page builders. Listed functions include landing pages, home pages.",
+        "description_long": "PageFly ✦ AI Page Builder is developed by PageFly | AI Landing Page Builder & CRO and listed for page builder, upsell and cross-sell. Its structured listing identifies functions such as landing pages, home pages, product pages, collections. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Page Builders", "Theme Sections", "Collection Sorting & Merchandising", "Cash on Delivery"],
+        "best_for": {
+          "use_cases": ["Page Builders", "Theme Sections", "Collection Sorting & Merchandising", "Cash on Delivery"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 5904,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/pagefly",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 5},
+          {"stars": 4, "percentage": 3, "count": 201},
+          {"stars": 3, "percentage": 0, "count": 26},
+          {"stars": 2, "percentage": 0, "count": 21},
+          {"stars": 1, "percentage": 1, "count": 69}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Builder",
+            "amount_usd": 24.0,
+            "billing_period": "month",
+            "price_display": "$24 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$5 per 5 extra pages or sections (~$1/slot). Optional, billed monthly."]
+          },
+          {
+            "name": "Accelerate",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $990/year and save 17%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 299.0,
+            "billing_period": "month",
+            "price_display": "$299 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://pagefly.io/pages/pricing-plans?utm_campaign=website&utm_source=app-listing&utm_medium=link&utm_content=pricing",
+        "starting_paid_monthly_price_usd": 24.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "September 28, 2017",
+        "shopify_categories": [
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.collections", "label": "Collections"},
+          {"handle": "cf.page_builder.page_types.coming_soon_pages", "label": "Coming soon pages"},
+          {"handle": "cf.page_builder.page_types.blogs", "label": "Blogs"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.help_center_pages", "label": "Help center pages"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.thank_you_pages", "label": "Thank you pages"},
+          {"handle": "cf.page_builder.page_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.page_builder.page_types.forms", "label": "Forms"},
+          {"handle": "cf.page_builder.page_types.404_pages", "label": "404 pages"},
+          {"handle": "cf.page_builder.page_types.career_pages", "label": "Career pages"},
+          {"handle": "cf.page_builder.page_types.legal_pages", "label": "Legal pages"},
+          {"handle": "cf.page_builder.page_types.link_in_bio_page", "label": "Link in bio page"},
+          {"handle": "cf.page_builder.page_types.reviews_page", "label": "Reviews page"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.page_builder.managing_pages.elements", "label": "Elements"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.import_and_export", "label": "Import and export"},
+          {"handle": "cf.page_builder.managing_pages.save_pages", "label": "Save pages"},
+          {"handle": "cf.page_builder.managing_pages.page_versions", "label": "Page versions"},
+          {"handle": "cf.page_builder.managing_pages.bulk_publishing", "label": "Bulk publishing"},
+          {"handle": "cf.page_builder.managing_pages.global_sections", "label": "Global sections"},
+          {"handle": "cf.page_builder.managing_pages.global_styles", "label": "Global styles"}
+        ],
+        "languages": [
+          "French",
+          " English",
+          " German",
+          " Japanese",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Portuguese (Brazil)",
+          " Italian",
+          " and Spanish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Growave, Selleasy & Vitals",
+          "Judge.me, Loox, Yotpo & Okendo",
+          "Kaching Bundles & Recurpay",
+          "Klaviyo, Omnisend & Avada",
+          "Meta Pixel & Google Analytics",
+          "Sidekick"
+        ]
+      },
+      "developer": {
+        "name": "PageFly | AI Landing Page Builder & CRO",
+        "website_url": "https://www.pagefly.io?utm_campaign=website&utm_source=app-listing&utm_medium=link&utm_content=mainsite",
+        "partner_url": "https://apps.shopify.com/partners/pagefly",
+        "public_address": "Hanoi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/pagefly",
+        "canonical_app_store_url": "https://apps.shopify.com/pagefly",
+        "install_url": "https://apps.shopify.com/pagefly",
+        "demo_store_url": "https://demo.pagefly.io",
+        "resources": {
+          "Privacy policy": "https://www.pagefly.io/pages/privacy-policy",
+          "FAQ": "https://help.pagefly.io",
+          "Tutorial": "https://www.youtube.com/channel/UCghz9quakEUXEA_iHO9dzuA",
+          "PageFly | AI Landing Page Builder & CRO": "https://apps.shopify.com/partners/pagefly",
+          "Website": "https://www.pagefly.io"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/icon/CKmsycCOx_YCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/promotional_image/COOnhKu0upYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/desktop_screenshot/CNTWu-yd1pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/desktop_screenshot/COvnxOyd1pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/desktop_screenshot/CPfu0Oyd1pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/desktop_screenshot/CP-8jqu0upYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/desktop_screenshot/COOArfPTuZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/desktop_screenshot/CK39tvPTuZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/mobile_screenshot/CISEwPPTuZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/mobile_screenshot/CMHhyPPTuZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/mobile_screenshot/CP36mKu0upYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is PageFly ✦ AI Page Builder free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/pagefly"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "French,  English,  German,  Japanese,  Chinese (Simplified),  Chinese (Traditional),  Portuguese (Brazil),  Italian,  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/pagefly"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Growave, Selleasy & Vitals, Judge.me, Loox, Yotpo & Okendo, Kaching Bundles & Recurpay, Klaviyo, Omnisend & Avada, Meta Pixel & Google Analytics, Sidekick",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/pagefly"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/pagefly"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.pagefly.io", "https://www.youtube.com/channel/UCghz9quakEUXEA_iHO9dzuA"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["page-builders", "theme-sections", "collection-sorting-merchandising", "cash-on-delivery"],
+        "primary_category_id": "page-builders",
+        "seo": {
+          "title": "PageFly ✦ AI Page Builder Shopify App | eStorefy",
+          "meta_description": "A Shopify app for page builders. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/pagefly",
+          "retrieved_at": "2026-10-04T05:13:11.311540+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Build high-converting Shopify landing, product & custom pages with PageFly's AI page…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/pagefly"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "gempages",
+      "name": "GemPages Landing Page Builder",
+      "slug": "gempages",
+      "category_fit": {
+        "app_id": "gempages",
+        "selection_score": 5.4102,
+        "rating_evidence": {"value": 4.9, "reviews": 4266},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["section"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/gempages"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for upsell & cross-sell. Listed functions include landing pages, home pages.",
+        "description_long": "GemPages Landing Page Builder is developed by GEMCOMMERCE CO., LTD and listed for page builder, upsell and cross-sell. Its structured listing identifies functions such as landing pages, home pages, product pages, collections. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Upsell & Cross-sell", "Page Builders", "Theme Sections"],
+        "best_for": {
+          "use_cases": ["Upsell & Cross-sell", "Page Builders", "Theme Sections"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 4266,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/gempages",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 4},
+          {"stars": 4, "percentage": 2, "count": 93},
+          {"stars": 3, "percentage": 0, "count": 15},
+          {"stars": 2, "percentage": 0, "count": 15},
+          {"stars": 1, "percentage": 1, "count": 56}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free to install",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Build",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Optimize",
+            "amount_usd": 59.0,
+            "billing_period": "month",
+            "price_display": "$59 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 199.0,
+            "billing_period": "month",
+            "price_display": "$199 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://gempages.net/pages/pricing?utm_source=shopfy&utm_medium=referral&utm_content=pricing_information&utm_campaign=app-listing",
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "March 13, 2017 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.collections", "label": "Collections"},
+          {"handle": "cf.page_builder.page_types.blogs", "label": "Blogs"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.help_center_pages", "label": "Help center pages"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.quick_view", "label": "Quick view"},
+          {"handle": "cf.page_builder.page_types.footers", "label": "Footers"},
+          {"handle": "cf.page_builder.page_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.page_builder.page_types.forms", "label": "Forms"},
+          {"handle": "cf.page_builder.page_types.press_pages", "label": "Press pages"},
+          {"handle": "cf.page_builder.page_types.career_pages", "label": "Career pages"},
+          {"handle": "cf.page_builder.page_types.legal_pages", "label": "Legal pages"},
+          {"handle": "cf.page_builder.page_types.link_in_bio_page", "label": "Link in bio page"},
+          {"handle": "cf.page_builder.page_types.reviews_page", "label": "Reviews page"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.page_builder.managing_pages.elements", "label": "Elements"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.import_and_export", "label": "Import and export"},
+          {"handle": "cf.page_builder.managing_pages.save_pages", "label": "Save pages"},
+          {"handle": "cf.page_builder.managing_pages.draft_pages", "label": "Draft pages"},
+          {"handle": "cf.page_builder.managing_pages.page_versions", "label": "Page versions"},
+          {"handle": "cf.page_builder.managing_pages.content_syncing", "label": "Content syncing"},
+          {"handle": "cf.page_builder.managing_pages.global_sections", "label": "Global sections"}
+        ],
+        "languages": ["English", " Spanish", " German", " Chinese (Simplified)", " and Chinese (Traditional)"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Bundles",
+          "Instafeed",
+          "Judge.me Product Reviews",
+          "Klaviyo",
+          "Parcel Panel Order Tracking",
+          "Releasit COD Form & Upsells"
+        ]
+      },
+      "developer": {
+        "name": "GEMCOMMERCE CO., LTD",
+        "website_url": "https://gempages.net/?utm_source=in-app&utm_medium=referral&utm_content=website&utm_campaign=app-listing",
+        "partner_url": "https://apps.shopify.com/partners/getshoplaunch",
+        "public_address": "T516, 5th Floor, Artemis Building, No. 3 Le Trong Tan Street, Phuong Liet Ward, Vietnam, Hanoi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/gempages",
+        "canonical_app_store_url": "https://apps.shopify.com/gempages",
+        "install_url": "https://apps.shopify.com/gempages",
+        "demo_store_url": "https://gempages.net/pages/demo-store",
+        "resources": {
+          "Privacy policy": "https://gempages.net/pages/privacy",
+          "FAQ": "https://help.gempages.net/articles/pricing-plans-and-faqs",
+          "Tutorial": "https://www.youtube.com/c/gempages",
+          "App Documentation": "https://help.gempages.net/",
+          "GEMCOMMERCE CO., LTD": "https://apps.shopify.com/partners/getshoplaunch",
+          "Website": "https://gempages.net/",
+          "Changelog": "https://feedback.gempages.net/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6d72140e25d3f444e352738033321b98/icon/CJCIkdONi_UCEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6d72140e25d3f444e352738033321b98/desktop_screenshot/CMOfoIO8rZEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6d72140e25d3f444e352738033321b98/desktop_screenshot/COfgqYO8rZEDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6d72140e25d3f444e352738033321b98/desktop_screenshot/CLjssYO8rZEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6d72140e25d3f444e352738033321b98/desktop_screenshot/CKSQxcny75IDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6d72140e25d3f444e352738033321b98/desktop_screenshot/CKzqwoO8rZEDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6d72140e25d3f444e352738033321b98/desktop_screenshot/CNTUyoO8rZEDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/hrJ0uxesOxw"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is GemPages Landing Page Builder free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/gempages"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  German,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/gempages"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Bundles, Instafeed, Judge.me Product Reviews, Klaviyo, Parcel Panel Order Tracking, Releasit COD Form & Upsells",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/gempages"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/gempages"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.gempages.net/articles/pricing-plans-and-faqs",
+            "https://www.youtube.com/c/gempages",
+            "https://help.gempages.net/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select eligible products and set the offer conditions.",
+            "Preview the offer and test cart totals on a sample order.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["upsell-cross-sell", "page-builders", "theme-sections"],
+        "primary_category_id": "upsell-cross-sell",
+        "seo": {
+          "title": "GemPages Landing Page Builder Shopify App | eStorefy",
+          "meta_description": "A Shopify app for upsell & cross-sell. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/gempages",
+          "retrieved_at": "2026-10-04T05:13:11.442671+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Revolutionize your Shopify store with GemPages! Launch holiday campaigns and build conversion-driven…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/gempages"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "ecomposer",
+      "name": "EComposer Landing Page Builder",
+      "slug": "ecomposer",
+      "category_fit": {
+        "app_id": "ecomposer",
+        "selection_score": 5.4008,
+        "rating_evidence": {"value": 4.9, "reviews": 3481},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["section"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/ecomposer"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for page builders. Listed functions include landing pages, home pages.",
+        "description_long": "EComposer Landing Page Builder is developed by EComposer and listed for page builder, upsell and cross-sell. Its structured listing identifies functions such as landing pages, home pages, product pages, collections. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Page Builders", "Theme Sections", "Product Comparison"],
+        "best_for": {
+          "use_cases": ["Page Builders", "Theme Sections", "Product Comparison"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 3481,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/ecomposer",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 3},
+          {"stars": 4, "percentage": 2, "count": 60},
+          {"stars": 3, "percentage": 0, "count": 6},
+          {"stars": 2, "percentage": 0, "count": 7},
+          {"stars": 1, "percentage": 1, "count": 20}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "STANDARD",
+            "amount_usd": 25.0,
+            "billing_period": "month",
+            "price_display": "$25 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $228/year and save 24%"]
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $468/year and save 20%"]
+          },
+          {
+            "name": "PREMIUM",
+            "amount_usd": 129.0,
+            "billing_period": "month",
+            "price_display": "$129 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,236/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://ecomposer.io/pages/pricing",
+        "starting_paid_monthly_price_usd": 25.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 6, 2022",
+        "shopify_categories": [
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.collections", "label": "Collections"},
+          {"handle": "cf.page_builder.page_types.coming_soon_pages", "label": "Coming soon pages"},
+          {"handle": "cf.page_builder.page_types.blogs", "label": "Blogs"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.help_center_pages", "label": "Help center pages"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.cart_pages", "label": "Cart pages"},
+          {"handle": "cf.page_builder.page_types.quick_view", "label": "Quick view"},
+          {"handle": "cf.page_builder.page_types.footers", "label": "Footers"},
+          {"handle": "cf.page_builder.page_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.page_builder.page_types.forms", "label": "Forms"},
+          {"handle": "cf.page_builder.page_types.404_pages", "label": "404 pages"},
+          {"handle": "cf.page_builder.page_types.press_pages", "label": "Press pages"},
+          {"handle": "cf.page_builder.page_types.career_pages", "label": "Career pages"},
+          {"handle": "cf.page_builder.page_types.legal_pages", "label": "Legal pages"},
+          {"handle": "cf.page_builder.page_types.link_in_bio_page", "label": "Link in bio page"},
+          {"handle": "cf.page_builder.page_types.reviews_page", "label": "Reviews page"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.page_builder.managing_pages.elements", "label": "Elements"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.import_and_export", "label": "Import and export"},
+          {"handle": "cf.page_builder.managing_pages.save_pages", "label": "Save pages"},
+          {"handle": "cf.page_builder.managing_pages.draft_pages", "label": "Draft pages"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Appstle, Trustoo, Any Theme",
+          "Avada, Ryviu, SMSBump, Stamped",
+          "Fera, Vitals, Bold, Hulk",
+          "Growave, PushOwl, Aftership",
+          "Klaviyo, Loox, Yotpo, Judgeme",
+          "Omnisend, Seguno, Instafeed"
+        ]
+      },
+      "developer": {
+        "name": "EComposer",
+        "website_url": "https://ecomposer.io/",
+        "partner_url": "https://apps.shopify.com/partners/ecomposer",
+        "public_address": "Wan Chai, HK, HK"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/ecomposer",
+        "canonical_app_store_url": "https://apps.shopify.com/ecomposer",
+        "install_url": "https://apps.shopify.com/ecomposer",
+        "demo_store_url": "https://ecomposer.io/pages/demo",
+        "resources": {
+          "Privacy policy": "https://ecomposer.io/pages/privacy-policy",
+          "FAQ": "https://ecomposer.io/pages/faqs",
+          "EComposer": "https://apps.shopify.com/partners/ecomposer",
+          "Website": "https://ecomposer.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/icon/CIOUnvvPu_gCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/promotional_image/CNjjqsPf5pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/desktop_screenshot/CPvalPe_rI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/desktop_screenshot/COuUoPe_rI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/desktop_screenshot/CLLtqfe_rI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/desktop_screenshot/CNmg7M36iYcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/desktop_screenshot/CIrNyM79iYcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/desktop_screenshot/CPSWrevW6o0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/mobile_screenshot/CIvrh876iYcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/mobile_screenshot/CO3h0s79iYcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/253c9864fe7cc4ba163511830f085a0f/mobile_screenshot/CJrM3M79iYcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is EComposer Landing Page Builder free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/ecomposer"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ecomposer"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Appstle, Trustoo, Any Theme, Avada, Ryviu, SMSBump, Stamped, Fera, Vitals, Bold, Hulk, Growave, PushOwl, Aftership, Klaviyo, Loox, Yotpo, Judgeme, Omnisend, Seguno, Instafeed",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ecomposer"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/ecomposer"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://ecomposer.io/pages/faqs"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["page-builders", "theme-sections", "product-comparison"],
+        "primary_category_id": "page-builders",
+        "seo": {
+          "title": "EComposer Landing Page Builder Shopify App | eStorefy",
+          "meta_description": "A Shopify app for page builders. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/ecomposer",
+          "retrieved_at": "2026-10-04T05:13:04.629364+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Easy Shopify landing page builder, product page, homepage, collection, blog, FAQs, Contact,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/ecomposer"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "omnise",
+      "name": "Omnise ✧ AI Page Builder",
+      "slug": "omnise",
+      "category_fit": {
+        "app_id": "omnise",
+        "selection_score": 5.3315,
+        "rating_evidence": {"value": 4.9, "reviews": 885},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["section"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/omnise"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for page builders. Listed functions include landing pages, home pages.",
+        "description_long": "Omnise ✧ AI Page Builder is developed by Omnise.com and listed for page builder, storefronts - other. Its structured listing identifies functions such as landing pages, home pages, product pages, collections. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Page Builders", "Theme Sections", "Shipping Rate Calculators"],
+        "best_for": {
+          "use_cases": ["Page Builders", "Theme Sections", "Shipping Rate Calculators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 885,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/omnise",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 860},
+          {"stars": 4, "percentage": 2, "count": 14},
+          {"stars": 3, "percentage": 0, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 3},
+          {"stars": 1, "percentage": 0, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Start",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $191.88/year and save 20%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 39.99,
+            "billing_period": "month",
+            "price_display": "$39.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $383.88/year and save 20%"]
+          },
+          {
+            "name": "Max",
+            "amount_usd": 79.99,
+            "billing_period": "month",
+            "price_display": "$79.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $767.88/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://omnise.com/pages/pricing/?utm_source=app-listing&utm_medium=home&utm_campaign=link",
+        "starting_paid_monthly_price_usd": 19.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "November 22, 2021",
+        "shopify_categories": [
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          },
+          {
+            "name": "Storefronts - Other",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-storefronts-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.collections", "label": "Collections"},
+          {"handle": "cf.page_builder.page_types.blogs", "label": "Blogs"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.help_center_pages", "label": "Help center pages"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.cart_pages", "label": "Cart pages"},
+          {"handle": "cf.page_builder.page_types.quick_view", "label": "Quick view"},
+          {"handle": "cf.page_builder.page_types.footers", "label": "Footers"},
+          {"handle": "cf.page_builder.page_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.page_builder.page_types.forms", "label": "Forms"},
+          {"handle": "cf.page_builder.page_types.press_pages", "label": "Press pages"},
+          {"handle": "cf.page_builder.page_types.career_pages", "label": "Career pages"},
+          {"handle": "cf.page_builder.page_types.legal_pages", "label": "Legal pages"},
+          {"handle": "cf.page_builder.page_types.link_in_bio_page", "label": "Link in bio page"},
+          {"handle": "cf.page_builder.page_types.reviews_page", "label": "Reviews page"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.page_builder.managing_pages.elements", "label": "Elements"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.import_and_export", "label": "Import and export"},
+          {"handle": "cf.page_builder.managing_pages.save_pages", "label": "Save pages"},
+          {"handle": "cf.page_builder.managing_pages.draft_pages", "label": "Draft pages"},
+          {"handle": "cf.page_builder.managing_pages.page_versions", "label": "Page versions"},
+          {"handle": "cf.page_builder.managing_pages.global_sections", "label": "Global sections"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Admin",
+          "Aftership, Omnisend, Seguno",
+          "Growave, TYDAL, Ryviu, Stamped",
+          "Klaviyo, Loox, Yotpo, Judgeme",
+          "Recharge, Selleasy, Pumper",
+          "T Lab, Bundler, Fera, Okendo",
+          "Vitals, Bold, Hulk, Appstle"
+        ]
+      },
+      "developer": {
+        "name": "Omnise.com",
+        "website_url": "https://omnise.com/?utm_source=app-listing&utm_medium=home&utm_campaign=link",
+        "partner_url": "https://apps.shopify.com/partners/omnise",
+        "public_address": "68 Khuc Thua Du, Cau Giay, Ha Noi, 11311, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/omnise",
+        "canonical_app_store_url": "https://apps.shopify.com/omnise",
+        "install_url": "https://apps.shopify.com/omnise",
+        "demo_store_url": "https://omnise.com/pages/templates",
+        "resources": {
+          "Privacy policy": "https://omnise.com/pages/privacy-policy/",
+          "App Documentation": "https://docs.omnise.com/en/",
+          "Omnise.com": "https://apps.shopify.com/partners/omnise",
+          "Website": "https://omnise.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/icon/CIGxi6nhspUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/promotional_image/CMPI_vbfs5UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/desktop_screenshot/CJH5xY3hs5UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/desktop_screenshot/CLikk_ffs5UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/desktop_screenshot/CJ_RmMGYx5UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/desktop_screenshot/CKO4pfffs5UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/desktop_screenshot/CJ77rfffs5UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/desktop_screenshot/CKqjl8Sax5UDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Omnise ✧ AI Page Builder free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/omnise"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/omnise"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Aftership, Omnisend, Seguno, Growave, TYDAL, Ryviu, Stamped, Klaviyo, Loox, Yotpo, Judgeme, Recharge, Selleasy, Pumper, T Lab, Bundler, Fera, Okendo, Vitals, Bold, Hulk, Appstle",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/omnise"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/omnise"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.omnise.com/en/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["page-builders", "theme-sections", "shipping-rate-calculators"],
+        "primary_category_id": "page-builders",
+        "seo": {
+          "title": "Omnise ✧ AI Page Builder Shopify App | eStorefy",
+          "meta_description": "A Shopify app for page builders. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/omnise",
+          "retrieved_at": "2026-10-04T05:13:11.284728+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Generate pages, sections, images, and content with AI. Customize visually and optimize…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/omnise"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "essential-announcement-bar",
+      "name": "Essential Announcement Bar",
+      "slug": "essential-announcement-bar",
+      "category_fit": {
+        "app_id": "essential-announcement-bar",
+        "selection_score": 5.301,
+        "rating_evidence": {"value": 5.0, "reviews": 1305},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["section"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/essential-announcement-bar"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for theme sections. Listed functions include announcement bar, cookie consent.",
+        "description_long": "Essential Announcement Bar is developed by Essential Apps and listed for banners. Its structured listing identifies functions such as announcement bar, cookie consent, gdpr compliance, multi-announcement. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Theme Sections", "Announcement & Shipping Bars"],
+        "best_for": {
+          "use_cases": ["Theme Sections", "Announcement & Shipping Bars"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 1305,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/essential-announcement-bar",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 1},
+          {"stars": 4, "percentage": 2, "count": 25},
+          {"stars": 3, "percentage": 0, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 6.99,
+            "billing_period": "month",
+            "price_display": "$6.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $67.08/year and save 20%"]
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.88/year and save 20%"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $287.88/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 6.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 9, 2023",
+        "shopify_categories": [
+          {"name": "Banners", "url": "https://apps.shopify.com/categories/store-design-notifications-banners"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.banners.banner_type.announcement_bar", "label": "Announcement bar"},
+          {"handle": "cf.banners.banner_type.cookie_consent", "label": "Cookie consent"},
+          {"handle": "cf.banners.banner_type.gdpr_compliance", "label": "GDPR compliance"},
+          {"handle": "cf.banners.banner_type.multi_announcement", "label": "Multi-announcement"},
+          {"handle": "cf.banners.banner_type.notification", "label": "Notification"},
+          {"handle": "cf.banners.banner_type.product_page", "label": "Product page"},
+          {"handle": "cf.banners.banner_type.promotional", "label": "Promotional"},
+          {
+            "handle": "cf.banners.banner_type.personalized_recommendations",
+            "label": "Personalized recommendations"
+          },
+          {"handle": "cf.banners.customization.banner_position", "label": "Banner position"},
+          {"handle": "cf.banners.customization.sticky_display", "label": "Sticky display"},
+          {"handle": "cf.banners.customization.links_and_buttons", "label": "Links and buttons"},
+          {"handle": "cf.banners.customization.backgrounds", "label": "Backgrounds"},
+          {"handle": "cf.banners.customization.color_and_font", "label": "Color and font"},
+          {"handle": "cf.banners.customization.emojis", "label": "Emojis"},
+          {"handle": "cf.banners.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.banners.customization.mobile_responsive", "label": "Mobile responsive"},
+          {"handle": "cf.banners.customization.scheduling", "label": "Scheduling"},
+          {"handle": "cf.banners.customization.geo_targeting", "label": "Geo-targeting"},
+          {"handle": "cf.banners.customization.campaign_targeting", "label": "Campaign targeting"},
+          {"handle": "cf.banners.customization.behavior_targeting", "label": "Behavior targeting"},
+          {
+            "handle": "cf.banners.analytics_and_reporting.performance_tracking",
+            "label": "Performance tracking"
+          },
+          {"handle": "cf.banners.analytics_and_reporting.real_time_analytics", "label": "Real-time analytics"},
+          {"handle": "cf.banners.analytics_and_reporting.customer_segments", "label": "Customer segments"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " German",
+          " Spanish",
+          " Portuguese (Brazil)",
+          " Czech",
+          " Danish",
+          " Finnish",
+          " Japanese",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Polish",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "Essential Apps",
+        "website_url": "https://essential-apps.com",
+        "partner_url": "https://apps.shopify.com/partners/essentials25",
+        "public_address": "Baltupio g. 45 - 27, Vilnius, 08324, LT"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/essential-announcement-bar",
+        "canonical_app_store_url": "https://apps.shopify.com/essential-announcement-bar",
+        "install_url": "https://apps.shopify.com/essential-announcement-bar",
+        "demo_store_url": "https://essential-announcements.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://essential-apps.com/essential-announcement-bar-privacy-policy",
+          "FAQ": "https://essential-apps.com/announcement-bar",
+          "Tutorial": "https://www.youtube.com/watch?v=PlhiF-M3ts4",
+          "App Documentation": "https://essentials-docs.helpscoutdocs.com/collection/33-essential-announcement-bar",
+          "Essential Apps": "https://apps.shopify.com/partners/essentials25",
+          "Website": "https://essential-apps.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/15e8255158a042a1eab34a4c45c72aa5/icon/CMK1jPv9uoADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/15e8255158a042a1eab34a4c45c72aa5/promotional_image/CIW4haGJp4kDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/15e8255158a042a1eab34a4c45c72aa5/desktop_screenshot/COKikKGJp4kDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/15e8255158a042a1eab34a4c45c72aa5/desktop_screenshot/CMKcmqGJp4kDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/15e8255158a042a1eab34a4c45c72aa5/desktop_screenshot/CKibpKGJp4kDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/15e8255158a042a1eab34a4c45c72aa5/desktop_screenshot/CNHWrqGJp4kDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/15e8255158a042a1eab34a4c45c72aa5/desktop_screenshot/CKT0uKGJp4kDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/15e8255158a042a1eab34a4c45c72aa5/desktop_screenshot/CLH0wqGJp4kDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/15e8255158a042a1eab34a4c45c72aa5/mobile_screenshot/CJy9zKGJp4kDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/15e8255158a042a1eab34a4c45c72aa5/mobile_screenshot/CLe71qGJp4kDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Essential Announcement Bar free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/essential-announcement-bar"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  German,  Spanish,  Portuguese (Brazil),  Czech,  Danish,  Finnish,  Japanese,  Korean,  Norwegian (Bokmål),  Dutch,  Polish,  Portuguese (Portugal),  Swedish,  Thai,  Turkish,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/essential-announcement-bar"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/essential-announcement-bar"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/essential-announcement-bar"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://essential-apps.com/announcement-bar",
+            "https://www.youtube.com/watch?v=PlhiF-M3ts4",
+            "https://essentials-docs.helpscoutdocs.com/collection/33-essential-announcement-bar"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["theme-sections", "announcement-shipping-bars"],
+        "primary_category_id": "theme-sections",
+        "seo": {
+          "title": "Essential Announcement Bar Shopify App | eStorefy",
+          "meta_description": "A Shopify app for theme sections. Listed functions include announcement bar, cookie consent.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/essential-announcement-bar",
+          "retrieved_at": "2026-10-04T05:13:57.175725+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/essential-announcement-bar"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

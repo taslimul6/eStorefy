@@ -1,0 +1,3218 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "geolocation-country-redirects",
+    "number": 93,
+    "name": "Geolocation & Country Redirects",
+    "group": "International & Multichannel",
+    "slug": "geolocation-country-redirects",
+    "url_path": "/apps/geolocation-country-redirects",
+    "focus": "Serve different markets and coordinate sales channels.",
+    "description": "Compare Shopify apps for geolocation & country redirects. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/store-design-internationalization-geolocation/all"],
+    "seo": {
+      "title": "Shopify Geolocation & Country Redirects Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for geolocation & country redirects: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a geolocation & country redirects app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "blockify",
+      "name": "Blockify Fraud Filter, Blocker",
+      "slug": "blockify",
+      "category_fit": {
+        "app_id": "blockify",
+        "selection_score": 6.0676,
+        "rating_evidence": {"value": 4.9, "reviews": 1753},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["redirect", "country", "geo"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/blockify"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for checkout validation. Listed functions include bots, chargebacks.",
+        "description_long": "Blockify Fraud Filter, Blocker is developed by Blockify and listed for fraud, geolocation. Its structured listing identifies functions such as bots, chargebacks, fake accounts, blocklists. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Checkout Validation", "Event Tickets", "Geolocation & Country Redirects", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Checkout Validation", "Event Tickets", "Geolocation & Country Redirects", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1753,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/blockify",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 1},
+          {"stars": 4, "percentage": 3, "count": 54},
+          {"stars": 3, "percentage": 0, "count": 5},
+          {"stars": 2, "percentage": 0, "count": 6},
+          {"stars": 1, "percentage": 2, "count": 31}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PREMIUM",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.90/year and save 20%"]
+          },
+          {
+            "name": "ENTERPRISE",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $215.89/year and save 10%"]
+          },
+          {
+            "name": "SHOPIFY PLUS",
+            "amount_usd": 39.99,
+            "billing_period": "month",
+            "price_display": "$39.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $431.89/year and save 10%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://blockifyapp.com/pricing/?app=fraud",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 13, 2018",
+        "shopify_categories": [
+          {"name": "Fraud", "url": "https://apps.shopify.com/categories/store-management-security-fraud"},
+          {
+            "name": "Geolocation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-geolocation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.fraud.fraud_types.bots", "label": "Bots"},
+          {"handle": "cf.fraud.fraud_types.chargebacks", "label": "Chargebacks"},
+          {"handle": "cf.fraud.fraud_types.fake_accounts", "label": "Fake accounts"},
+          {"handle": "cf.fraud.prevention_tools.blocklists", "label": "Blocklists"},
+          {"handle": "cf.fraud.prevention_tools.geolocation_redirects", "label": "Geolocation redirects"},
+          {"handle": "cf.fraud.prevention_tools.content_protection", "label": "Content protection"},
+          {"handle": "cf.fraud.prevention_tools.spam_blocking", "label": "Spam blocking"},
+          {"handle": "cf.fraud.prevention_tools.bot_detection", "label": "Bot detection"},
+          {"handle": "cf.fraud.prevention_tools.fraud_filters", "label": "Fraud filters"},
+          {"handle": "cf.fraud.alerts_and_analytics.fraud_notifications", "label": "Fraud notifications"},
+          {"handle": "cf.fraud.alerts_and_analytics.visitor_analytics", "label": "Visitor analytics"},
+          {"handle": "cf.fraud.alerts_and_analytics.risk_reports", "label": "Risk reports"},
+          {"handle": "cf.geolocation.blocking.countries", "label": "Countries"},
+          {"handle": "cf.geolocation.blocking.states", "label": "States"},
+          {"handle": "cf.geolocation.blocking.cities", "label": "Cities"},
+          {"handle": "cf.geolocation.blocking.bots", "label": "Bots"},
+          {"handle": "cf.geolocation.blocking.ip_addresses", "label": "IP addresses"},
+          {"handle": "cf.geolocation.blocking.vpns", "label": "VPNs"},
+          {"handle": "cf.geolocation.blocking.proxies", "label": "Proxies"},
+          {"handle": "cf.geolocation.blocking.whitelist", "label": "Whitelist"},
+          {"handle": "cf.geolocation.redirects.ip_address", "label": "IP address"},
+          {"handle": "cf.geolocation.redirects.country", "label": "Country"},
+          {"handle": "cf.geolocation.redirects.auto_redirect", "label": "Auto-redirect"},
+          {"handle": "cf.geolocation.redirects.manual_redirect", "label": "Manual redirect"},
+          {"handle": "cf.geolocation.redirects.tracking", "label": "Tracking"},
+          {"handle": "cf.geolocation.localization_settings.country_selector", "label": "Country selector"}
+        ],
+        "languages": [
+          "English",
+          " Hindi",
+          " Chinese (Simplified)",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Spanish",
+          " French",
+          " Italian",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Checkout UI",
+          "Fraud Filter",
+          "Fraud Order Analytics",
+          "IP & Country Blocker",
+          "Klaviyo",
+          "Visitor Analytics"
+        ]
+      },
+      "developer": {
+        "name": "Blockify",
+        "website_url": "https://blockifyapp.com/",
+        "partner_url": "https://apps.shopify.com/partners/blockify",
+        "public_address": "18/11 Thai Ha, Ha Noi, 70000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/blockify",
+        "canonical_app_store_url": "https://apps.shopify.com/blockify",
+        "install_url": "https://apps.shopify.com/blockify",
+        "demo_store_url": "https://blockify-demo-store.myshopify.com/pages/regular-mar-17-2025",
+        "resources": {
+          "Privacy policy": "https://www.omegatheme.com/privacy-policy-app",
+          "Blockify": "https://apps.shopify.com/partners/blockify",
+          "Website": "https://blockifyapp.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/icon/CKv3zsyr-vcCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/promotional_image/CIHu0a-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CM6W26-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CNnA5a-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CNHT7q-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CIHK96-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CMTagLCq_5YDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Blockify Fraud Filter, Blocker free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/blockify"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Hindi,  Chinese (Simplified),  Portuguese (Brazil),  Portuguese (Portugal),  Spanish,  French,  Italian,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/blockify"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Flow, Shopify Admin, Checkout UI, Fraud Filter, Fraud Order Analytics, IP & Country Blocker, Klaviyo, Visitor Analytics",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/blockify"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/blockify"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the cart or checkout conditions in a draft or test configuration.",
+            "Test an eligible and an ineligible cart to confirm the rule behaviour.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["checkout-validation", "event-tickets", "geolocation-country-redirects", "fraud-prevention"],
+        "primary_category_id": "checkout-validation",
+        "seo": {
+          "title": "Blockify Fraud Filter, Blocker Shopify App | eStorefy",
+          "meta_description": "A Shopify app for checkout validation. Listed functions include bots, chargebacks.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/blockify",
+          "retrieved_at": "2026-10-04T05:27:17.179696+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Blockify: Fraud IP Blocker by Synctrack helps protect your store, fraud filter,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/blockify"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "selectors",
+      "name": "Geolocation & Markets—Selecty",
+      "slug": "selectors",
+      "category_fit": {
+        "app_id": "selectors",
+        "selection_score": 6.0642,
+        "rating_evidence": {"value": 5.0, "reviews": 339},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["geo", "country", "redirect"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/selectors"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for geolocation & country redirects. Listed functions include ip address, country.",
+        "description_long": "Geolocation & Markets—Selecty is developed by DevIT and listed for geolocation, currency and translation. Its structured listing identifies functions such as ip address, country, language, pop-up widget. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Geolocation & Country Redirects", "Store Locators"],
+        "best_for": {
+          "use_cases": ["Geolocation & Country Redirects", "Store Locators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 339,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/selectors",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 337},
+          {"stars": 4, "percentage": 0, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 11.99,
+            "billing_period": "month",
+            "price_display": "$11.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $107.91/year and save 25%"]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 21.99,
+            "billing_period": "month",
+            "price_display": "$21.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $197.91/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 11.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "February 17, 2022",
+        "shopify_categories": [
+          {
+            "name": "Geolocation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-geolocation"
+          },
+          {
+            "name": "Currency and translation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-currency-and-translation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.geolocation.redirects.ip_address", "label": "IP address"},
+          {"handle": "cf.geolocation.redirects.country", "label": "Country"},
+          {"handle": "cf.geolocation.redirects.language", "label": "Language"},
+          {"handle": "cf.geolocation.redirects.pop_up_widget", "label": "Pop-up widget"},
+          {"handle": "cf.geolocation.redirects.auto_redirect", "label": "Auto-redirect"},
+          {"handle": "cf.geolocation.redirects.manual_redirect", "label": "Manual redirect"},
+          {"handle": "cf.geolocation.redirects.tracking", "label": "Tracking"},
+          {"handle": "cf.geolocation.redirects.analytics", "label": "Analytics"},
+          {"handle": "cf.geolocation.localization_settings.currency_switcher", "label": "Currency switcher"},
+          {"handle": "cf.geolocation.localization_settings.country_selector", "label": "Country selector"},
+          {"handle": "cf.geolocation.localization_settings.language_switcher", "label": "Language switcher"},
+          {"handle": "cf.currency_and_translation.currency_conversion.geo_location", "label": "Geolocation"},
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.local_currency_checkout",
+            "label": "Local currency checkout"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.multi_currencies",
+            "label": "Multi-currency"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.country_selector",
+            "label": "Country selector"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.switcher_design",
+            "label": "Switcher design"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.auto_redirect",
+            "label": "Auto-redirect"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.language_switcher",
+            "label": "Language switcher"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.switcher_design",
+            "label": "Switcher design"
+          }
+        ],
+        "languages": ["English", " French", " Italian", " Spanish", " and German"],
+        "works_with": ["Shopify Admin", "Langify", "PageFly", "T Lab", "Transcy", "Translate & Adapt", "Weglot"]
+      },
+      "developer": {
+        "name": "DevIT",
+        "website_url": "https://devit.software/selectors?utm_source=app-store&utm_medium=listing&utm_campaign=selector",
+        "partner_url": "https://apps.shopify.com/partners/devit-software",
+        "public_address": "130 King Street West, Suite 1900, Toronto, ON, M5X 1E3, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/selectors",
+        "canonical_app_store_url": "https://apps.shopify.com/selectors",
+        "install_url": "https://apps.shopify.com/selectors",
+        "demo_store_url": "https://selectors-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://devit.group/privacy-policy/selecty",
+          "FAQ": "https://devit.software/selectors#faq",
+          "DevIT": "https://apps.shopify.com/partners/devit-software",
+          "Website": "https://devit.software/selectors"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/babf4e3edeb9a5c9d84b6ae5ae3b1e2e/icon/CPjL9f_EjIMDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/babf4e3edeb9a5c9d84b6ae5ae3b1e2e/promotional_image/CMKi_MjEl4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/babf4e3edeb9a5c9d84b6ae5ae3b1e2e/desktop_screenshot/CLDRhOzal4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/babf4e3edeb9a5c9d84b6ae5ae3b1e2e/desktop_screenshot/COuojuzal4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/babf4e3edeb9a5c9d84b6ae5ae3b1e2e/desktop_screenshot/CKGFmezal4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/babf4e3edeb9a5c9d84b6ae5ae3b1e2e/desktop_screenshot/CKS8ouzal4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/babf4e3edeb9a5c9d84b6ae5ae3b1e2e/desktop_screenshot/COCurOzal4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/babf4e3edeb9a5c9d84b6ae5ae3b1e2e/desktop_screenshot/CIL6tezal4kDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Geolocation & Markets—Selecty free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/selectors"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Italian,  Spanish,  and German",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/selectors"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Langify, PageFly, T Lab, Transcy, Translate & Adapt, Weglot",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/selectors"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/selectors"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://devit.software/selectors#faq"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the target market, language, currency or sales channel.",
+            "Preview the customer experience and verify a representative order or listing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["geolocation-country-redirects", "store-locators"],
+        "primary_category_id": "geolocation-country-redirects",
+        "seo": {
+          "title": "Geolocation & Markets—Selecty Shopify App | eStorefy",
+          "meta_description": "A Shopify app for geolocation & country redirects. Listed functions include ip address, country.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/selectors",
+          "retrieved_at": "2026-10-04T05:27:10.111140+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Show recommendations, redirect automatically or let your customers switch between languages, currencies,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/selectors"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "orbe",
+      "name": "Orbe Geolocation",
+      "slug": "orbe",
+      "category_fit": {
+        "app_id": "orbe",
+        "selection_score": 6.0637,
+        "rating_evidence": {"value": 5.0, "reviews": 337},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["geo", "country", "redirect"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/orbe"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for store translation. Listed functions include ip address, country.",
+        "description_long": "Orbe Geolocation is developed by Orbe and listed for geolocation, currency and translation. Its structured listing identifies functions such as ip address, country, language, pop-up widget. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Store Translation", "Currency Converters", "Geolocation & Country Redirects", "Store Locators"],
+        "best_for": {
+          "use_cases": ["Store Translation", "Currency Converters", "Geolocation & Country Redirects", "Store Locators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 337,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/orbe",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 333},
+          {"stars": 4, "percentage": 1, "count": 3},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $261/year and save 25%"]
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 59.0,
+            "billing_period": "month",
+            "price_display": "$59 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $531/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://help.orbe.app/before-starting/pricing",
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "April 18, 2022 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Geolocation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-geolocation"
+          },
+          {
+            "name": "Currency and translation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-currency-and-translation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.geolocation.redirects.ip_address", "label": "IP address"},
+          {"handle": "cf.geolocation.redirects.country", "label": "Country"},
+          {"handle": "cf.geolocation.redirects.language", "label": "Language"},
+          {"handle": "cf.geolocation.redirects.pop_up_widget", "label": "Pop-up widget"},
+          {"handle": "cf.geolocation.redirects.auto_redirect", "label": "Auto-redirect"},
+          {"handle": "cf.geolocation.redirects.manual_redirect", "label": "Manual redirect"},
+          {"handle": "cf.geolocation.redirects.tracking", "label": "Tracking"},
+          {"handle": "cf.geolocation.redirects.analytics", "label": "Analytics"},
+          {"handle": "cf.geolocation.localization_settings.country_selector", "label": "Country selector"},
+          {"handle": "cf.geolocation.localization_settings.language_switcher", "label": "Language switcher"},
+          {"handle": "cf.currency_and_translation.currency_conversion.geo_location", "label": "Geolocation"},
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.local_currency_checkout",
+            "label": "Local currency checkout"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.country_selector",
+            "label": "Country selector"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.switcher_design",
+            "label": "Switcher design"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.auto_redirect",
+            "label": "Auto-redirect"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.language_switcher",
+            "label": "Language switcher"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.switcher_design",
+            "label": "Switcher design"
+          }
+        ],
+        "languages": [
+          "English",
+          " Danish",
+          " German",
+          " French",
+          " Italian",
+          " Dutch",
+          " Portuguese (Brazil)",
+          " Turkish",
+          " Swedish",
+          " and Spanish"
+        ],
+        "works_with": ["Shopify Admin", "Global-e", "Klaviyo", "Markets Pro", "Translate & Adapt"]
+      },
+      "developer": {
+        "name": "Orbe",
+        "website_url": "https://orbe.app/",
+        "partner_url": "https://apps.shopify.com/partners/orbeapp",
+        "public_address": "Paseo de la Castellana, 194, Madrid, M, 28046, ES"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/orbe",
+        "canonical_app_store_url": "https://apps.shopify.com/orbe",
+        "install_url": "https://apps.shopify.com/orbe",
+        "demo_store_url": "https://orbe.app",
+        "resources": {
+          "Privacy policy": "https://orbe.app/privacy-policy",
+          "FAQ": "https://help.orbe.app/before-starting/faqs",
+          "App Documentation": "https://help.orbe.app/",
+          "Orbe": "https://apps.shopify.com/partners/orbeapp",
+          "Website": "https://orbe.app/",
+          "Changelog": "https://orbe.app/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/300c7396da3de51b6c2a5df448979f2a/icon/CLjhpbvM95UDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/300c7396da3de51b6c2a5df448979f2a/desktop_screenshot/CM6blrDO95UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/300c7396da3de51b6c2a5df448979f2a/desktop_screenshot/CLKVobDO95UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/300c7396da3de51b6c2a5df448979f2a/desktop_screenshot/CJv5qrDO95UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/300c7396da3de51b6c2a5df448979f2a/desktop_screenshot/CMOWtLDO95UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/300c7396da3de51b6c2a5df448979f2a/desktop_screenshot/CKfgvbDO95UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/300c7396da3de51b6c2a5df448979f2a/desktop_screenshot/CNWXyLDO95UDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/M3ED2UCfvwI"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Orbe Geolocation free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/orbe"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Danish,  German,  French,  Italian,  Dutch,  Portuguese (Brazil),  Turkish,  Swedish,  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/orbe"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Global-e, Klaviyo, Markets Pro, Translate & Adapt",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/orbe"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/orbe"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.orbe.app/before-starting/faqs", "https://help.orbe.app/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the target market, language, currency or sales channel.",
+            "Preview the customer experience and verify a representative order or listing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["store-translation", "currency-converters", "geolocation-country-redirects", "store-locators"],
+        "primary_category_id": "store-translation",
+        "seo": {
+          "title": "Orbe Geolocation Shopify App | eStorefy",
+          "meta_description": "A Shopify app for store translation. Listed functions include ip address, country.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/orbe",
+          "retrieved_at": "2026-10-04T05:27:17.278426+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Boost your global sales with geolocation. Show the correct products, prices, language,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/orbe"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "bucks-currency-converter",
+      "name": "BUCKS Currency Converter PRO++",
+      "slug": "bucks-currency-converter",
+      "category_fit": {
+        "app_id": "bucks-currency-converter",
+        "selection_score": 6.0512,
+        "rating_evidence": {"value": 4.9, "reviews": 1271},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["geo"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/bucks-currency-converter"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for currency converters. Listed functions include geolocation, local currency checkout.",
+        "description_long": "BUCKS Currency Converter PRO++ is developed by HUE – A Helixo Company and listed for currency and translation, geolocation. Its structured listing identifies functions such as geolocation, local currency checkout, real-time rates, multi-currency. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Currency Converters", "Geolocation & Country Redirects", "Store Locators"],
+        "best_for": {
+          "use_cases": ["Currency Converters", "Geolocation & Country Redirects", "Store Locators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1271,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/bucks-currency-converter",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 1},
+          {"stars": 4, "percentage": 3, "count": 38},
+          {"stars": 3, "percentage": 0, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 10}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro yearly",
+            "amount_usd": 95.9,
+            "billing_period": "year",
+            "price_display": "$95.90 / year",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 5, 2020",
+        "shopify_categories": [
+          {
+            "name": "Currency and translation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-currency-and-translation"
+          },
+          {
+            "name": "Geolocation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-geolocation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.currency_and_translation.currency_conversion.geo_location", "label": "Geolocation"},
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.local_currency_checkout",
+            "label": "Local currency checkout"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.real_time_rates",
+            "label": "Real-time rates"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.multi_currencies",
+            "label": "Multi-currency"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.switcher_design",
+            "label": "Switcher design"
+          },
+          {
+            "handle": "cf.currency_and_translation.currency_conversion.price_display",
+            "label": "Price display"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.auto_redirect",
+            "label": "Auto-redirect"
+          },
+          {
+            "handle": "cf.currency_and_translation.language_translation.switcher_design",
+            "label": "Switcher design"
+          },
+          {"handle": "cf.geolocation.blocking.countries", "label": "Countries"},
+          {"handle": "cf.geolocation.redirects.country", "label": "Country"},
+          {"handle": "cf.geolocation.redirects.auto_redirect", "label": "Auto-redirect"},
+          {"handle": "cf.geolocation.redirects.manual_redirect", "label": "Manual redirect"},
+          {"handle": "cf.geolocation.redirects.tracking", "label": "Tracking"},
+          {"handle": "cf.geolocation.localization_settings.currency_switcher", "label": "Currency switcher"},
+          {
+            "handle": "cf.geolocation.localization_settings.currency_conversion",
+            "label": "Currency conversion"
+          }
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "AOV.ai Bundles Upsell",
+          "GemPages Landing Page Builder",
+          "HUE Cart Drawer",
+          "HUE – Free Gift Upsell",
+          "Upsell Funnel Engine"
+        ]
+      },
+      "developer": {
+        "name": "HUE – A Helixo Company",
+        "website_url": "https://helixo.co",
+        "partner_url": "https://apps.shopify.com/partners/helixo-co",
+        "public_address": "Door No. 46/509A, Puthiya Road, Opp NH By Pass, Near Thaikkavu Junction, Vennala, Ernakulam, KL, 682028, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/bucks-currency-converter",
+        "canonical_app_store_url": "https://apps.shopify.com/bucks-currency-converter",
+        "install_url": "https://apps.shopify.com/bucks-currency-converter",
+        "demo_store_url": "https://buckscc-demo.myshopify.com/collections/all",
+        "resources": {
+          "Privacy policy": "https://helixo.co/apps-privacy-policy/",
+          "HUE – A Helixo Company": "https://apps.shopify.com/partners/helixo-co",
+          "Website": "https://helixo.co"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/711119d0bf4a6aaa500abe82a4c593af/icon/CL6H9rabmJcDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/711119d0bf4a6aaa500abe82a4c593af/promotional_image/CPSFrtK_4pIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/711119d0bf4a6aaa500abe82a4c593af/desktop_screenshot/COjcsLzR-5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/711119d0bf4a6aaa500abe82a4c593af/desktop_screenshot/CM7a5uDv-5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/711119d0bf4a6aaa500abe82a4c593af/desktop_screenshot/CNnlsKzH4pIDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BUCKS Currency Converter PRO++ free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/bucks-currency-converter"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bucks-currency-converter"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, AOV.ai Bundles Upsell, GemPages Landing Page Builder, HUE Cart Drawer, HUE – Free Gift Upsell, Upsell Funnel Engine",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bucks-currency-converter"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/bucks-currency-converter"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the target market, language, currency or sales channel.",
+            "Preview the customer experience and verify a representative order or listing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["currency-converters", "geolocation-country-redirects", "store-locators"],
+        "primary_category_id": "currency-converters",
+        "seo": {
+          "title": "BUCKS Currency Converter PRO++ Shopify App | eStorefy",
+          "meta_description": "A Shopify app for currency converters. Listed functions include geolocation, local currency checkout.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/bucks-currency-converter",
+          "retrieved_at": "2026-10-04T05:27:10.194620+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Boost global sales with BUCKS - the lightning-fast currency converter app for…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/bucks-currency-converter"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "google-seo-schema-meta-data",
+      "name": "Tapita AI SEO Optimizer, Speed",
+      "slug": "google-seo-schema-meta-data",
+      "category_fit": {
+        "app_id": "google-seo-schema-meta-data",
+        "selection_score": 6.0367,
+        "rating_evidence": {"value": 5.0, "reviews": 2627},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["geo"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/google-seo-schema-meta-data"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for seo optimization. Listed functions include image compression, alt text.",
+        "description_long": "Tapita AI SEO Optimizer, Speed is developed by Tapita and listed for seo, image editor. Its structured listing identifies functions such as image compression, alt text, file naming, duplicate content. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "SEO Optimization",
+          "Image Compression & Alt Text",
+          "Structured Data & Rich Snippets",
+          "Broken Links & Redirects",
+          "Page Builders",
+          "Geolocation & Country Redirects"
+        ],
+        "best_for": {
+          "use_cases": [
+            "SEO Optimization",
+            "Image Compression & Alt Text",
+            "Structured Data & Rich Snippets",
+            "Broken Links & Redirects",
+            "Page Builders",
+            "Geolocation & Country Redirects"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 2627,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/google-seo-schema-meta-data",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 2},
+          {"stars": 4, "percentage": 2, "count": 46},
+          {"stars": 3, "percentage": 0, "count": 10},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 1, "count": 15}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Business",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $101.88/year and save 15%",
+              "+$5/mo Grow plan, +$30/mo Advanced plan, +$60/mo Shopify Plus. More SEO audit pages & more AI credits: extra charge"
+            ]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $509.88/year and save 15%",
+              "+$5/mo Grow plan, +$30/mo Advanced plan, +$60/mo Shopify Plus. More SEO audit pages & more AI credits: extra charge"
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.tapita.io/pages/seo-speed-optimizer#pricing-2026",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 15, 2023",
+        "shopify_categories": [
+          {"name": "SEO", "url": "https://apps.shopify.com/categories/store-design-site-optimization-seo"},
+          {
+            "name": "Image editor",
+            "url": "https://apps.shopify.com/categories/store-design-images-and-media-image-editor"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.seo.seo_tools.image_compression", "label": "Image compression"},
+          {"handle": "cf.seo.seo_tools.alt_text", "label": "ALT text"},
+          {"handle": "cf.seo.seo_tools.file_naming", "label": "File naming"},
+          {"handle": "cf.seo.seo_tools.duplicate_content", "label": "Duplicate content"},
+          {"handle": "cf.seo.seo_tools.preloading", "label": "Preloading"},
+          {"handle": "cf.seo.seo_tools.broken_links", "label": "Broken links"},
+          {"handle": "cf.seo.seo_tools.backlinks", "label": "Backlinks"},
+          {"handle": "cf.seo.seo_tools.redirects", "label": "Redirects"},
+          {"handle": "cf.seo.seo_tools.404_pages", "label": "404 pages"},
+          {"handle": "cf.seo.seo_tools.sitemaps", "label": "Sitemaps"},
+          {"handle": "cf.seo.seo_tools.page_indexing", "label": "Page indexing"},
+          {"handle": "cf.seo.seo_tools.meta_tags", "label": "Meta tags"},
+          {"handle": "cf.seo.seo_tools.rich_snippets", "label": "Rich snippets"},
+          {"handle": "cf.seo.seo_tools.json_ld", "label": "JSON-LD"},
+          {"handle": "cf.seo.seo_tools.schemas", "label": "Schemas"},
+          {"handle": "cf.seo.seo_tools.bulk_editing", "label": "Bulk editing"},
+          {"handle": "cf.seo.seo_tools.ai_generation", "label": "AI generation"},
+          {"handle": "cf.seo.seo_tools.local_seo", "label": "Local SEO"},
+          {"handle": "cf.seo.seo_tools.image_optimization", "label": "Image optimization"},
+          {"handle": "cf.seo.seo_tools.speed_optimization", "label": "Speed optimization"},
+          {"handle": "cf.seo.seo_tools.content_optimization", "label": "Content optimization"},
+          {"handle": "cf.seo.seo_tools.metadata_optimization", "label": "Metadata optimization"},
+          {"handle": "cf.seo.seo_tools.automations", "label": "Automations"},
+          {"handle": "cf.seo.monitoring_performance.seo_score", "label": "SEO score"},
+          {"handle": "cf.seo.monitoring_performance.audits", "label": "Audits"},
+          {"handle": "cf.seo.monitoring_performance.reporting", "label": "Reporting"},
+          {"handle": "cf.seo.monitoring_performance.insights_and_tips", "label": "Insights and tips"},
+          {"handle": "cf.seo.monitoring_performance.analytics", "label": "Analytics"},
+          {"handle": "cf.seo.monitoring_performance.competitor_analysis", "label": "Competitor analysis"},
+          {"handle": "cf.seo.monitoring_performance.keyword_analysis", "label": "Keyword analysis"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Dutch",
+          " Czech",
+          " French",
+          " German",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Spanish",
+          " Thai",
+          " and Turkish"
+        ],
+        "works_with": ["Shopify Admin", "AliReview", "Google Search Console", "Judge.me", "Loox", "Trustoo", "Vitals"]
+      },
+      "developer": {
+        "name": "Tapita",
+        "website_url": "https://tapita.io/",
+        "partner_url": "https://apps.shopify.com/partners/tapita",
+        "public_address": "M5 Building, 91 Nguyen Chi Thanh, Hanoi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/google-seo-schema-meta-data",
+        "canonical_app_store_url": "https://apps.shopify.com/google-seo-schema-meta-data",
+        "install_url": "https://apps.shopify.com/google-seo-schema-meta-data",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://tapita.io/privacy-policy/",
+          "FAQ": "https://www.tapita.io/pages/faqs-tapita-ai-seo-optimizer-speed",
+          "Tutorial": "https://tapita0.zohodesk.com/portal/en/kb/articles/getting-started-with-tapita-seo-speed-optimizer-3-2-2025-1",
+          "App Documentation": "https://tapita0.zohodesk.com/portal/en/kb/seo-schema-meta-data",
+          "Tapita": "https://apps.shopify.com/partners/tapita",
+          "Website": "https://tapita.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/98174eb34c15877a277f4e0fde830a20/icon/CPf3hu-TqP0CEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/98174eb34c15877a277f4e0fde830a20/desktop_screenshot/CJPP5eu4yZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/98174eb34c15877a277f4e0fde830a20/desktop_screenshot/CPCR7-u4yZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/98174eb34c15877a277f4e0fde830a20/desktop_screenshot/CPSg-Ou4yZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/98174eb34c15877a277f4e0fde830a20/desktop_screenshot/COzhgey4yZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/98174eb34c15877a277f4e0fde830a20/desktop_screenshot/CKb6iuy4yZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/98174eb34c15877a277f4e0fde830a20/desktop_screenshot/CKXok-y4yZQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/3SXKK-MGfns"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Tapita AI SEO Optimizer, Speed free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/google-seo-schema-meta-data"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  Chinese (Traditional),  Dutch,  Czech,  French,  German,  Italian,  Portuguese (Brazil),  Spanish,  Thai,  and Turkish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/google-seo-schema-meta-data"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, AliReview, Google Search Console, Judge.me, Loox, Trustoo, Vitals",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/google-seo-schema-meta-data"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/google-seo-schema-meta-data"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://www.tapita.io/pages/faqs-tapita-ai-seo-optimizer-speed",
+            "https://tapita0.zohodesk.com/portal/en/kb/articles/getting-started-with-tapita-seo-speed-optimizer-3-2-2025-1",
+            "https://tapita0.zohodesk.com/portal/en/kb/seo-schema-meta-data"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the pages or assets to optimize and review the suggested changes.",
+            "Preview and validate changes before applying them across the store.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "seo-optimization",
+          "image-compression-alt-text",
+          "structured-data-rich-snippets",
+          "broken-links-redirects",
+          "page-builders",
+          "geolocation-country-redirects"
+        ],
+        "primary_category_id": "seo-optimization",
+        "seo": {
+          "title": "Tapita AI SEO Optimizer, Speed Shopify App | eStorefy",
+          "meta_description": "A Shopify app for seo optimization. Listed functions include image compression, alt text.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/google-seo-schema-meta-data",
+          "retrieved_at": "2026-10-04T05:12:04.647018+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "One-click optimize SEO, GEO, AEO & page speed for both Google and…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/google-seo-schema-meta-data"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "smart-seo",
+      "name": "Smart SEO AI & Image Optimizer",
+      "slug": "smart-seo",
+      "category_fit": {
+        "app_id": "smart-seo",
+        "selection_score": 5.9837,
+        "rating_evidence": {"value": 5.0, "reviews": 955},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["geo"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/smart-seo"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for seo optimization. Listed functions include image compression, image backup.",
+        "description_long": "Smart SEO AI & Image Optimizer is developed by Sherpas Design and listed for seo, image editor. Its structured listing identifies functions such as image compression, image backup, alt text, file naming. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "SEO Optimization",
+          "Image Compression & Alt Text",
+          "Structured Data & Rich Snippets",
+          "Broken Links & Redirects",
+          "Geolocation & Country Redirects"
+        ],
+        "best_for": {
+          "use_cases": [
+            "SEO Optimization",
+            "Image Compression & Alt Text",
+            "Structured Data & Rich Snippets",
+            "Broken Links & Redirects",
+            "Geolocation & Country Redirects"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 955,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/smart-seo",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 925},
+          {"stars": 4, "percentage": 2, "count": 20},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 1, "count": 5}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 14.99,
+            "billing_period": "month",
+            "price_display": "$14.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $149.90/year and save 17%"]
+          },
+          {
+            "name": "Business",
+            "amount_usd": 24.99,
+            "billing_period": "month",
+            "price_display": "$24.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $249.90/year and save 17%"]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $499.90/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://sherpas.design/pages/smart-seo#slide-4",
+        "starting_paid_monthly_price_usd": 14.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 6, 2015",
+        "shopify_categories": [
+          {"name": "SEO", "url": "https://apps.shopify.com/categories/store-design-site-optimization-seo"},
+          {
+            "name": "Image editor",
+            "url": "https://apps.shopify.com/categories/store-design-images-and-media-image-editor"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.seo.seo_tools.image_compression", "label": "Image compression"},
+          {"handle": "cf.seo.seo_tools.image_backup", "label": "Image backup"},
+          {"handle": "cf.seo.seo_tools.alt_text", "label": "ALT text"},
+          {"handle": "cf.seo.seo_tools.file_naming", "label": "File naming"},
+          {"handle": "cf.seo.seo_tools.duplicate_content", "label": "Duplicate content"},
+          {"handle": "cf.seo.seo_tools.preloading", "label": "Preloading"},
+          {"handle": "cf.seo.seo_tools.broken_links", "label": "Broken links"},
+          {"handle": "cf.seo.seo_tools.backlinks", "label": "Backlinks"},
+          {"handle": "cf.seo.seo_tools.redirects", "label": "Redirects"},
+          {"handle": "cf.seo.seo_tools.404_pages", "label": "404 pages"},
+          {"handle": "cf.seo.seo_tools.sitemaps", "label": "Sitemaps"},
+          {"handle": "cf.seo.seo_tools.page_indexing", "label": "Page indexing"},
+          {"handle": "cf.seo.seo_tools.meta_tags", "label": "Meta tags"},
+          {"handle": "cf.seo.seo_tools.rich_snippets", "label": "Rich snippets"},
+          {"handle": "cf.seo.seo_tools.json_ld", "label": "JSON-LD"},
+          {"handle": "cf.seo.seo_tools.schemas", "label": "Schemas"},
+          {"handle": "cf.seo.seo_tools.bulk_editing", "label": "Bulk editing"},
+          {"handle": "cf.seo.seo_tools.ai_generation", "label": "AI generation"},
+          {"handle": "cf.seo.seo_tools.local_seo", "label": "Local SEO"},
+          {"handle": "cf.seo.seo_tools.url_optimization", "label": "URL optimization"},
+          {"handle": "cf.seo.seo_tools.image_optimization", "label": "Image optimization"},
+          {"handle": "cf.seo.seo_tools.speed_optimization", "label": "Speed optimization"},
+          {"handle": "cf.seo.seo_tools.content_optimization", "label": "Content optimization"},
+          {"handle": "cf.seo.seo_tools.metadata_optimization", "label": "Metadata optimization"},
+          {"handle": "cf.seo.seo_tools.automations", "label": "Automations"},
+          {"handle": "cf.seo.monitoring_performance.seo_score", "label": "SEO score"},
+          {"handle": "cf.seo.monitoring_performance.audits", "label": "Audits"},
+          {"handle": "cf.seo.monitoring_performance.insights_and_tips", "label": "Insights and tips"},
+          {"handle": "cf.seo.monitoring_performance.keyword_analysis", "label": "Keyword analysis"},
+          {"handle": "cf.seo.monitoring_performance.link_analysis", "label": "Link analysis"}
+        ],
+        "languages": [
+          "English",
+          " Italian",
+          " German",
+          " Dutch",
+          " Danish",
+          " Swedish",
+          " Japanese",
+          " Portuguese (Brazil)",
+          " French",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Spanish",
+          " Finnish",
+          " Norwegian",
+          " Polish",
+          " Portuguese (Portugal)",
+          " Thai",
+          " Turkish",
+          " Korean",
+          " and Czech"
+        ],
+        "works_with": ["Shopify Admin", "ChatGPT", "Claude", "Hermes", "Judge.me", "Loox", "Sidekick"]
+      },
+      "developer": {
+        "name": "Sherpas Design",
+        "website_url": "http://www.sherpas.design",
+        "partner_url": "https://apps.shopify.com/partners/sherpas-design",
+        "public_address": "38 Cvetna Gradina St., Sofia, 1407, BG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/smart-seo",
+        "canonical_app_store_url": "https://apps.shopify.com/smart-seo",
+        "install_url": "https://apps.shopify.com/smart-seo",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://sherpas.design/blogs/news/smart-seo-privacy-policy",
+          "FAQ": "https://sherpas.design/blogs/seo",
+          "Sherpas Design": "https://apps.shopify.com/partners/sherpas-design",
+          "Website": "http://www.sherpas.design"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/8f4a21f1020c0448bf74213052d39b70/icon/CMDun-Oqk_cCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/8f4a21f1020c0448bf74213052d39b70/desktop_screenshot/CJjMm7mGjZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8f4a21f1020c0448bf74213052d39b70/desktop_screenshot/CMHCrtf40ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8f4a21f1020c0448bf74213052d39b70/desktop_screenshot/CJf4udf40ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8f4a21f1020c0448bf74213052d39b70/desktop_screenshot/CIeDxdf40ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8f4a21f1020c0448bf74213052d39b70/desktop_screenshot/COuK0Nf40ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8f4a21f1020c0448bf74213052d39b70/desktop_screenshot/CIaR29f40ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8f4a21f1020c0448bf74213052d39b70/mobile_screenshot/CNLr5df40ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8f4a21f1020c0448bf74213052d39b70/mobile_screenshot/COjj7tf40ZYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/Ow9fXxV93Fw"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Smart SEO AI & Image Optimizer free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/smart-seo"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Italian,  German,  Dutch,  Danish,  Swedish,  Japanese,  Portuguese (Brazil),  French,  Chinese (Simplified),  Chinese (Traditional),  Spanish,  Finnish,  Norwegian,  Polish,  Portuguese (Portugal),  Thai,  Turkish,  Korean,  and Czech",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/smart-seo"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, ChatGPT, Claude, Hermes, Judge.me, Loox, Sidekick",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/smart-seo"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/smart-seo"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://sherpas.design/blogs/seo"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the pages or assets to optimize and review the suggested changes.",
+            "Preview and validate changes before applying them across the store.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "seo-optimization",
+          "image-compression-alt-text",
+          "structured-data-rich-snippets",
+          "broken-links-redirects",
+          "geolocation-country-redirects"
+        ],
+        "primary_category_id": "seo-optimization",
+        "seo": {
+          "title": "Smart SEO AI & Image Optimizer Shopify App | eStorefy",
+          "meta_description": "A Shopify app for seo optimization. Listed functions include image compression, image backup.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/smart-seo",
+          "retrieved_at": "2026-10-04T05:12:12.322863+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/smart-seo"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "google-shopping-feed",
+      "name": "Simprosys Google Shopping Feed",
+      "slug": "google-shopping-feed",
+      "category_fit": {
+        "app_id": "google-shopping-feed",
+        "selection_score": 5.9667,
+        "rating_evidence": {"value": 4.9, "reviews": 4908},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["country"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/google-shopping-feed"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for google shopping feeds. Listed functions include feed automation, product feed.",
+        "description_long": "Simprosys Google Shopping Feed is developed by Simprosys InfoMedia and listed for marketplaces, product feeds. Its structured listing identifies functions such as feed automation, product feed, product sync, product selection. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Google Shopping Feeds",
+          "Meta Pixel & Conversion Tracking",
+          "Currency Converters",
+          "Geolocation & Country Redirects"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Google Shopping Feeds",
+            "Meta Pixel & Conversion Tracking",
+            "Currency Converters",
+            "Geolocation & Country Redirects"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 4908,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/google-shopping-feed",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 4},
+          {"stars": 4, "percentage": 1, "count": 65},
+          {"stars": 3, "percentage": 0, "count": 8},
+          {"stars": 2, "percentage": 0, "count": 13},
+          {"stars": 1, "percentage": 1, "count": 51}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $4.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Up to 500 Products",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $53.89/year and save 10%",
+              "AI Feed Optimisation: $1.00/25 products (One-time) | XML Feed: $1.75/M | Markets Feeds: 3 free, then $0.50/feed/M"
+            ]
+          },
+          {
+            "name": "501-1000 Products",
+            "amount_usd": 8.99,
+            "billing_period": "month",
+            "price_display": "$8.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $97.09/year and save 10%",
+              "AI Feed Optimisation: $1.00/25 products (One-time) | XML Feed: $3.15/M | Markets Feeds: 3 free, then $0.90/feed/M"
+            ]
+          },
+          {
+            "name": "1001-5000 Products",
+            "amount_usd": 13.99,
+            "billing_period": "month",
+            "price_display": "$13.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $151.09/year and save 10%",
+              "AI Feed Optimisation: $1.00/25 products (One-time) | XML Feed: $4.90/M | Markets Feeds: 3 free, then $1.40/feed/M"
+            ]
+          },
+          {
+            "name": "5001-10000 Product",
+            "amount_usd": 17.99,
+            "billing_period": "month",
+            "price_display": "$17.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $194.29/year and save 10%",
+              "AI Feed Optimisation: $1.00/25 products (One-time) | XML Feed: $6.30/M | Markets Feeds: 3 free, then $1.80/feed/M"
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://support.simprosys.com/faq/how-my-store-will-be-billed",
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "August 16, 2017",
+        "shopify_categories": [
+          {
+            "name": "Marketplaces",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-marketplaces"
+          },
+          {
+            "name": "Product feeds",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-product-feeds"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.marketplaces.listing_management.feed_automation", "label": "Feed automation"},
+          {"handle": "cf.marketplaces.listing_management.product_feed", "label": "Product feed"},
+          {"handle": "cf.marketplaces.listing_management.product_sync", "label": "Product sync"},
+          {"handle": "cf.marketplaces.listing_management.product_selection", "label": "Product selection"},
+          {"handle": "cf.marketplaces.listing_management.offer_sync", "label": "Offer sync"},
+          {"handle": "cf.marketplaces.listing_management.local_currency", "label": "Local currency"},
+          {"handle": "cf.marketplaces.listing_management.feed_translation", "label": "Feed translation"},
+          {"handle": "cf.marketplaces.listing_management.bulk_upload", "label": "Bulk upload"},
+          {"handle": "cf.marketplaces.listing_management.custom_listings", "label": "Custom listings"},
+          {"handle": "cf.marketplaces.listing_management.listing_analytics", "label": "Listing analytics"},
+          {
+            "handle": "cf.marketplaces.order_management.multi_location_fulfillment",
+            "label": "Multi-location fulfillment"
+          },
+          {"handle": "cf.marketplaces.order_management.bulk_orders", "label": "Bulk orders"},
+          {"handle": "cf.marketplaces.order_management.order_sync", "label": "Order sync"},
+          {"handle": "cf.marketplaces.order_management.tracking_sync", "label": "Tracking sync"},
+          {"handle": "cf.marketplaces.order_management.unified_dashboard", "label": "Unified dashboard"},
+          {"handle": "cf.marketplaces.order_management.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.marketplaces.order_management.custom_rules", "label": "Custom rules"},
+          {
+            "handle": "cf.product_feeds.feed_customization.attribute_filtering",
+            "label": "Attribute filtering"
+          },
+          {"handle": "cf.product_feeds.feed_customization.attribute_mapping", "label": "Attribute mapping"},
+          {"handle": "cf.product_feeds.feed_customization.metafields", "label": "Metafields"},
+          {"handle": "cf.product_feeds.feed_customization.ai_mapping", "label": "AI mapping"},
+          {"handle": "cf.product_feeds.feed_customization.custom_formulas", "label": "Custom formulas"},
+          {"handle": "cf.product_feeds.feed_customization.custom_labels", "label": "Custom labels"},
+          {"handle": "cf.product_feeds.feed_customization.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.product_feeds.feed_customization.remarketing_tags", "label": "Remarketing tags"},
+          {"handle": "cf.product_feeds.feed_customization.local_inventory", "label": "Local inventory"},
+          {"handle": "cf.product_feeds.feed_customization.localized_feeds", "label": "Localized feeds"},
+          {"handle": "cf.product_feeds.feed_customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.product_feeds.feed_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.product_feeds.feed_customization.variant_sync", "label": "Variant sync"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Google Ads Account",
+          "Google Analytics 4 (GA4)",
+          "Google Merchant Center",
+          "Meta Ads / Meta Business Suite",
+          "Microsoft Advertising",
+          "Pinterest For Business"
+        ]
+      },
+      "developer": {
+        "name": "Simprosys InfoMedia",
+        "website_url": "https://simprosys.com",
+        "partner_url": "https://apps.shopify.com/partners/simprosys",
+        "public_address": "B-303, Shapath Hexa, Opp Gujarat High Court, S. G. Highway, Ahmedabad, GJ, 380060, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/google-shopping-feed",
+        "canonical_app_store_url": "https://apps.shopify.com/google-shopping-feed",
+        "install_url": "https://apps.shopify.com/google-shopping-feed",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://support.simprosys.com/faq/google-shopping-feed-privacy-policy",
+          "FAQ": "https://support.simprosys.com/google-shopping-feed",
+          "Tutorial": "https://youtube.com/playlist?list=PLP8SfH94PvkuuC0lsAcMGaLw_Ynj9WdiG",
+          "App Documentation": "https://support.simprosys.com/google-shopping-feed",
+          "Simprosys InfoMedia": "https://apps.shopify.com/partners/simprosys",
+          "Website": "https://simprosys.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/02b5709becbcc8cb72e7853b282ccbec/icon/CLe36pCU6okDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/02b5709becbcc8cb72e7853b282ccbec/desktop_screenshot/CJW3kqLx_IoDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02b5709becbcc8cb72e7853b282ccbec/desktop_screenshot/CJDpjajw_IoDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02b5709becbcc8cb72e7853b282ccbec/desktop_screenshot/CPe9naLx_IoDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02b5709becbcc8cb72e7853b282ccbec/desktop_screenshot/CK2Goajw_IoDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02b5709becbcc8cb72e7853b282ccbec/desktop_screenshot/CKmuqaLx_IoDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/02b5709becbcc8cb72e7853b282ccbec/desktop_screenshot/CK-wtaLx_IoDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/X55nRIYCvxo"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Simprosys Google Shopping Feed free?",
+            "answer": "The pricing label retrieved from the listing is: From $4.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/google-shopping-feed"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/google-shopping-feed"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Google Ads Account, Google Analytics 4 (GA4), Google Merchant Center, Meta Ads / Meta Business Suite, Microsoft Advertising, Pinterest For Business",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/google-shopping-feed"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/google-shopping-feed"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://support.simprosys.com/google-shopping-feed",
+            "https://youtube.com/playlist?list=PLP8SfH94PvkuuC0lsAcMGaLw_Ynj9WdiG",
+            "https://support.simprosys.com/google-shopping-feed"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "google-shopping-feeds",
+          "meta-pixel-conversion-tracking",
+          "currency-converters",
+          "geolocation-country-redirects"
+        ],
+        "primary_category_id": "google-shopping-feeds",
+        "seo": {
+          "title": "Simprosys Google Shopping Feed Shopify App | eStorefy",
+          "meta_description": "A Shopify app for google shopping feeds. Listed functions include feed automation, product feed.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/google-shopping-feed",
+          "retrieved_at": "2026-10-04T05:11:18.854727+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Auto-sync AI-optimized Feed for Google Shopping, Microsoft Advertising, Meta Ads, & Pinterest…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/google-shopping-feed"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "etp-hide-sort-payments",
+      "name": "ETP Sort Hide Payment Methods",
+      "slug": "etp-hide-sort-payments",
+      "category_fit": {
+        "app_id": "etp-hide-sort-payments",
+        "selection_score": 5.9488,
+        "rating_evidence": {"value": 5.0, "reviews": 544},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["country"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/etp-hide-sort-payments"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include custom rules, additional fees.",
+        "description_long": "ETP Sort Hide Payment Methods is developed by SMART Payment Rules and listed for cart customization, payment options - other. Its structured listing identifies functions such as custom rules, additional fees, payment method rules, hide express checkout. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Collection Sorting & Merchandising",
+          "Cart Drawers & Cart Upsells",
+          "Checkout Customization",
+          "Payment Method Customization",
+          "Geolocation & Country Redirects"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Collection Sorting & Merchandising",
+            "Cart Drawers & Cart Upsells",
+            "Checkout Customization",
+            "Payment Method Customization",
+            "Geolocation & Country Redirects"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 544,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/etp-hide-sort-payments",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 534},
+          {"stars": 4, "percentage": 2, "count": 9},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 10, 2024",
+        "shopify_categories": [
+          {
+            "name": "Cart customization",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-checkout-cart-customization"
+          },
+          {
+            "name": "Payment options - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-payment-options-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.cart_customization.cart_display.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.cart_customization.upselling.additional_fees", "label": "Additional fees"},
+          {
+            "handle": "cf.cart_customization.checkout_customization.payment_method_rules",
+            "label": "Payment method rules"
+          },
+          {
+            "handle": "cf.cart_customization.checkout_customization.hide_express_checkout",
+            "label": "Hide express checkout"
+          },
+          {"handle": "cf.cart_customization.checkout_customization.mutli_language", "label": "Multi-language"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Checkout Functions",
+          "Payment Customizations",
+          "Payment methods",
+          "Payment rules",
+          "Payments"
+        ]
+      },
+      "developer": {
+        "name": "SMART Payment Rules",
+        "website_url": "https://etradepartner.io/",
+        "partner_url": "https://apps.shopify.com/partners/smart-payment-rules",
+        "public_address": "Hoża 86/410, Warszawa, 00-682, PL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/etp-hide-sort-payments",
+        "canonical_app_store_url": "https://apps.shopify.com/etp-hide-sort-payments",
+        "install_url": "https://apps.shopify.com/etp-hide-sort-payments",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://etradepartner.io/privacy-policy",
+          "SMART Payment Rules": "https://apps.shopify.com/partners/smart-payment-rules",
+          "Website": "https://etradepartner.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/0fc11510d5e7c2973f987698ac2088a2/icon/CO6v87S0xI8DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/0fc11510d5e7c2973f987698ac2088a2/promotional_image/CK_qsajLspYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0fc11510d5e7c2973f987698ac2088a2/desktop_screenshot/CNKFg9CDhJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0fc11510d5e7c2973f987698ac2088a2/desktop_screenshot/CNv7jtCDhJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0fc11510d5e7c2973f987698ac2088a2/desktop_screenshot/CN7emNCDhJQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is ETP Sort Hide Payment Methods free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/etp-hide-sort-payments"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/etp-hide-sort-payments"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Checkout Functions, Payment Customizations, Payment methods, Payment rules, Payments",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/etp-hide-sort-payments"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/etp-hide-sort-payments"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "collection-sorting-merchandising",
+          "cart-drawers-cart-upsells",
+          "checkout-customization",
+          "payment-method-customization",
+          "geolocation-country-redirects"
+        ],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "ETP Sort Hide Payment Methods Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include custom rules, additional fees.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/etp-hide-sort-payments",
+          "retrieved_at": "2026-10-04T05:17:10.050746+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/etp-hide-sort-payments"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "bm-country-ip-blocker",
+      "name": "BM Bot blocker Country blocker",
+      "slug": "bm-country-ip-blocker",
+      "category_fit": {
+        "app_id": "bm-country-ip-blocker",
+        "selection_score": 5.9294,
+        "rating_evidence": {"value": 4.9, "reviews": 208},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["country", "geo", "redirect"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/bm-country-ip-blocker"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for checkout validation. Listed functions include bots, fake accounts.",
+        "description_long": "BM Bot blocker Country blocker is developed by Boostymark and listed for fraud, geolocation. Its structured listing identifies functions such as bots, fake accounts, phishing, auto-cancel. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Checkout Validation", "Geolocation & Country Redirects", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Checkout Validation", "Geolocation & Country Redirects", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 208,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/bm-country-ip-blocker",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 199},
+          {"stars": 4, "percentage": 3, "count": 7},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "PAY-AS-YOU-GO",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": ["First 500 page views free, then $0.20 per 100 views, with a monthly cap of $4."]
+          },
+          {
+            "name": "PREMIUM",
+            "amount_usd": 3.99,
+            "billing_period": "month",
+            "price_display": "$3.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 3.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 4, 2022",
+        "shopify_categories": [
+          {"name": "Fraud", "url": "https://apps.shopify.com/categories/store-management-security-fraud"},
+          {
+            "name": "Geolocation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-geolocation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.fraud.fraud_types.bots", "label": "Bots"},
+          {"handle": "cf.fraud.fraud_types.fake_accounts", "label": "Fake accounts"},
+          {"handle": "cf.fraud.fraud_types.phishing", "label": "Phishing"},
+          {"handle": "cf.fraud.prevention_tools.auto_cancel", "label": "Auto-cancel"},
+          {"handle": "cf.fraud.prevention_tools.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.fraud.prevention_tools.blocklists", "label": "Blocklists"},
+          {"handle": "cf.fraud.prevention_tools.geolocation_redirects", "label": "Geolocation redirects"},
+          {"handle": "cf.fraud.prevention_tools.content_protection", "label": "Content protection"},
+          {"handle": "cf.fraud.prevention_tools.spam_blocking", "label": "Spam blocking"},
+          {"handle": "cf.fraud.prevention_tools.bot_detection", "label": "Bot detection"},
+          {"handle": "cf.fraud.prevention_tools.fraud_filters", "label": "Fraud filters"},
+          {"handle": "cf.fraud.alerts_and_analytics.suspicious_activity", "label": "Suspicious activity"},
+          {"handle": "cf.fraud.alerts_and_analytics.fraud_notifications", "label": "Fraud notifications"},
+          {"handle": "cf.fraud.alerts_and_analytics.visitor_analytics", "label": "Visitor analytics"},
+          {"handle": "cf.fraud.alerts_and_analytics.risk_reports", "label": "Risk reports"},
+          {"handle": "cf.fraud.alerts_and_analytics.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.geolocation.blocking.countries", "label": "Countries"},
+          {"handle": "cf.geolocation.blocking.states", "label": "States"},
+          {"handle": "cf.geolocation.blocking.cities", "label": "Cities"},
+          {"handle": "cf.geolocation.blocking.bots", "label": "Bots"},
+          {"handle": "cf.geolocation.blocking.ip_addresses", "label": "IP addresses"},
+          {"handle": "cf.geolocation.blocking.vpns", "label": "VPNs"},
+          {"handle": "cf.geolocation.blocking.proxies", "label": "Proxies"},
+          {"handle": "cf.geolocation.blocking.whitelist", "label": "Whitelist"},
+          {"handle": "cf.geolocation.redirects.ip_address", "label": "IP address"},
+          {"handle": "cf.geolocation.redirects.country", "label": "Country"},
+          {"handle": "cf.geolocation.redirects.auto_redirect", "label": "Auto-redirect"},
+          {"handle": "cf.geolocation.redirects.manual_redirect", "label": "Manual redirect"},
+          {"handle": "cf.geolocation.redirects.tracking", "label": "Tracking"},
+          {"handle": "cf.geolocation.redirects.analytics", "label": "Analytics"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Block email/phone number/name",
+          "Checkout validation",
+          "Country blocker/IP blocker",
+          "Crawler/VPN/ISP/Referrer Block",
+          "Fraud Filter",
+          "Visitor Analytics Report"
+        ]
+      },
+      "developer": {
+        "name": "Boostymark",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/boostymark",
+        "public_address": "9115 JUDICIAL DR APT 4416, SAN DIEGO, CA, 92122-4627, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/bm-country-ip-blocker",
+        "canonical_app_store_url": "https://apps.shopify.com/bm-country-ip-blocker",
+        "install_url": "https://apps.shopify.com/bm-country-ip-blocker",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://rbn.boostymark.com/private-policy.html",
+          "Boostymark": "https://apps.shopify.com/partners/boostymark"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/346ac3b38f0fce84cc1da8fbf5353667/icon/CO2DgqvErPgCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/346ac3b38f0fce84cc1da8fbf5353667/promotional_image/CMqAicDL-pUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/346ac3b38f0fce84cc1da8fbf5353667/desktop_screenshot/CIvTgIzZ95UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/346ac3b38f0fce84cc1da8fbf5353667/desktop_screenshot/CPPu4JDZ95UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/346ac3b38f0fce84cc1da8fbf5353667/desktop_screenshot/CPLlmZXZ95UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/346ac3b38f0fce84cc1da8fbf5353667/desktop_screenshot/CPfytZnZ95UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/346ac3b38f0fce84cc1da8fbf5353667/desktop_screenshot/CJa0keq5wpYDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BM Bot blocker Country blocker free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/bm-country-ip-blocker"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bm-country-ip-blocker"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Block email/phone number/name, Checkout validation, Country blocker/IP blocker, Crawler/VPN/ISP/Referrer Block, Fraud Filter, Visitor Analytics Report",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bm-country-ip-blocker"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/bm-country-ip-blocker"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the cart or checkout conditions in a draft or test configuration.",
+            "Test an eligible and an ineligible cart to confirm the rule behaviour.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["checkout-validation", "geolocation-country-redirects", "fraud-prevention"],
+        "primary_category_id": "checkout-validation",
+        "seo": {
+          "title": "BM Bot blocker Country blocker Shopify App | eStorefy",
+          "meta_description": "A Shopify app for checkout validation. Listed functions include bots, fake accounts.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/bm-country-ip-blocker",
+          "retrieved_at": "2026-10-04T05:27:26.019891+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/bm-country-ip-blocker"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "geolocation-country-redirection",
+      "name": "Geolocation Country Redirect",
+      "slug": "geolocation-country-redirection",
+      "category_fit": {
+        "app_id": "geolocation-country-redirection",
+        "selection_score": 5.928,
+        "rating_evidence": {"value": 5.0, "reviews": 96},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["geo", "country", "redirect"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/geolocation-country-redirection"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for geolocation & country redirects. Listed functions include countries, states.",
+        "description_long": "Geolocation Country Redirect is developed by Zoww Apps and listed for geolocation, internationalization - other. Its structured listing identifies functions such as countries, states, cities, bots. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Geolocation & Country Redirects"],
+        "best_for": {
+          "use_cases": ["Geolocation & Country Redirects"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 96,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/geolocation-country-redirection",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 94},
+          {"stars": 4, "percentage": 1, "count": 1},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "$6.49/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Grow",
+            "amount_usd": 6.49,
+            "billing_period": "month",
+            "price_display": "$6.49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $54.29/year and save 30%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 6.49,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 2, 2023",
+        "shopify_categories": [
+          {
+            "name": "Geolocation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-geolocation"
+          },
+          {
+            "name": "Internationalization - Other",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-internationalization-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.geolocation.blocking.countries", "label": "Countries"},
+          {"handle": "cf.geolocation.blocking.states", "label": "States"},
+          {"handle": "cf.geolocation.blocking.cities", "label": "Cities"},
+          {"handle": "cf.geolocation.blocking.bots", "label": "Bots"},
+          {"handle": "cf.geolocation.blocking.ip_addresses", "label": "IP addresses"},
+          {"handle": "cf.geolocation.blocking.vpns", "label": "VPNs"},
+          {"handle": "cf.geolocation.blocking.proxies", "label": "Proxies"},
+          {"handle": "cf.geolocation.blocking.whitelist", "label": "Whitelist"},
+          {"handle": "cf.geolocation.redirects.ip_address", "label": "IP address"},
+          {"handle": "cf.geolocation.redirects.country", "label": "Country"},
+          {"handle": "cf.geolocation.redirects.language", "label": "Language"},
+          {"handle": "cf.geolocation.redirects.pop_up_widget", "label": "Pop-up widget"},
+          {"handle": "cf.geolocation.redirects.auto_redirect", "label": "Auto-redirect"},
+          {"handle": "cf.geolocation.redirects.error_redirect", "label": "Error redirect"},
+          {"handle": "cf.geolocation.redirects.manual_redirect", "label": "Manual redirect"},
+          {"handle": "cf.geolocation.redirects.tracking", "label": "Tracking"},
+          {"handle": "cf.geolocation.redirects.analytics", "label": "Analytics"},
+          {"handle": "cf.geolocation.localization_settings.currency_switcher", "label": "Currency switcher"},
+          {"handle": "cf.geolocation.localization_settings.country_selector", "label": "Country selector"},
+          {"handle": "cf.geolocation.localization_settings.language_switcher", "label": "Language switcher"},
+          {
+            "handle": "cf.geolocation.localization_settings.currency_conversion",
+            "label": "Currency conversion"
+          },
+          {"handle": "cf.geolocation.localization_settings.translation", "label": "Translation"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Admin",
+          "auto redirect",
+          "Geolocation",
+          "klaviyo",
+          "markets",
+          "multiple expansion store",
+          "Translate & Adapt"
+        ]
+      },
+      "developer": {
+        "name": "Zoww Apps",
+        "website_url": "https://help.zoww.app/",
+        "partner_url": "https://apps.shopify.com/partners/zoww-apps",
+        "public_address": "108 Victoria Street, Singapore, 188021, SG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/geolocation-country-redirection",
+        "canonical_app_store_url": "https://apps.shopify.com/geolocation-country-redirection",
+        "install_url": "https://apps.shopify.com/geolocation-country-redirection",
+        "demo_store_url": "https://zoww-geomarket.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://geomarket.zoww.app/geolocation/privacypolicy",
+          "FAQ": "https://geomarket.zoww.app/geolocation/general-support",
+          "Tutorial": "https://help.zoww.app/product-guides/redirection-between-multiple-expansion-store",
+          "App Documentation": "https://help.zoww.app/product-guides/redirection-between-markets",
+          "Zoww Apps": "https://apps.shopify.com/partners/zoww-apps",
+          "Website": "https://help.zoww.app/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/17ed58a93337c8c6b6d138df0bd9fb3e/icon/CJPW2baDr5YDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/17ed58a93337c8c6b6d138df0bd9fb3e/desktop_screenshot/CIXs8smFr5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17ed58a93337c8c6b6d138df0bd9fb3e/desktop_screenshot/CPHD_smFr5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17ed58a93337c8c6b6d138df0bd9fb3e/desktop_screenshot/CLSqicqFr5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17ed58a93337c8c6b6d138df0bd9fb3e/desktop_screenshot/COuik8qFr5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/17ed58a93337c8c6b6d138df0bd9fb3e/desktop_screenshot/CLLwnMqFr5YDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/_X__pGxtZxs"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Geolocation Country Redirect free?",
+            "answer": "The pricing label retrieved from the listing is: $6.49/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/geolocation-country-redirection"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/geolocation-country-redirection"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, auto redirect, Geolocation, klaviyo, markets, multiple expansion store, Translate & Adapt",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/geolocation-country-redirection"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/geolocation-country-redirection"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://geomarket.zoww.app/geolocation/general-support",
+            "https://help.zoww.app/product-guides/redirection-between-multiple-expansion-store",
+            "https://help.zoww.app/product-guides/redirection-between-markets"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the target market, language, currency or sales channel.",
+            "Preview the customer experience and verify a representative order or listing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["geolocation-country-redirects"],
+        "primary_category_id": "geolocation-country-redirects",
+        "seo": {
+          "title": "Geolocation Country Redirect Shopify App | eStorefy",
+          "meta_description": "A Shopify app for geolocation & country redirects. Listed functions include countries, states.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/geolocation-country-redirection",
+          "retrieved_at": "2026-10-04T05:27:25.911520+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Auto redirect visitors by country using GeoIP. Supports multi-store, IP & VPN…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/geolocation-country-redirection"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "reputon-store-reviews",
+      "name": "Reputon Customer Reviews App",
+      "slug": "reputon-store-reviews",
+      "category_fit": {
+        "app_id": "reputon-store-reviews",
+        "selection_score": 5.8965,
+        "rating_evidence": {"value": 4.9, "reviews": 1165},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["redirect"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/reputon-store-reviews"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for product reviews. Listed functions include star ratings, badges.",
+        "description_long": "Reputon Customer Reviews App is developed by Reputon and listed for product reviews, social proof. Its structured listing identifies functions such as star ratings, badges, email requests, push notifications. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Product Reviews",
+          "Meta Pixel & Conversion Tracking",
+          "Customer Surveys",
+          "Geolocation & Country Redirects"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Product Reviews",
+            "Meta Pixel & Conversion Tracking",
+            "Customer Surveys",
+            "Geolocation & Country Redirects"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1165,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/reputon-store-reviews",
+        "distribution": [
+          {"stars": 5, "percentage": 91, "count": 1},
+          {"stars": 4, "percentage": 7, "count": 79},
+          {"stars": 3, "percentage": 2, "count": 19},
+          {"stars": 2, "percentage": 0, "count": 3},
+          {"stars": 1, "percentage": 1, "count": 7}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Beginner",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Lite",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$1 per 15 extra emails"]
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 24.99,
+            "billing_period": "month",
+            "price_display": "$24.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$5 per 100 extra emails"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$5 per 150 extra emails"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://reputon.com/apps/customer-reviews-booster#pricing-plan",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 26, 2018 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Product reviews",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews"
+          },
+          {
+            "name": "Social proof",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-social-proof"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_reviews.display_options.star_ratings", "label": "Star ratings"},
+          {"handle": "cf.product_reviews.display_options.badges", "label": "Badges"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.email_requests", "label": "Email requests"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.push_notifications",
+            "label": "Push notifications"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.surveys", "label": "Surveys"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.qr_codes", "label": "QR codes"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.automations", "label": "Automations"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.custom_requests", "label": "Custom requests"},
+          {"handle": "cf.social_proof.content_types.reviews", "label": "Reviews"},
+          {"handle": "cf.social_proof.display_options.review_count", "label": "Review count"},
+          {"handle": "cf.social_proof.display_options.social_links", "label": "Social links"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Chinese (Simplified)",
+          " Japanese",
+          " Russian",
+          " Polish",
+          " Turkish",
+          " Swedish",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "AfterShip",
+          "email",
+          "facebook reviews",
+          "google reviews",
+          "Trustpilot"
+        ]
+      },
+      "developer": {
+        "name": "Reputon",
+        "website_url": "https://reputon.com",
+        "partner_url": "https://apps.shopify.com/partners/reputon",
+        "public_address": "CLAYMONT, DE, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/reputon-store-reviews",
+        "canonical_app_store_url": "https://apps.shopify.com/reputon-store-reviews",
+        "install_url": "https://apps.shopify.com/reputon-store-reviews",
+        "demo_store_url": "https://customer-reviews-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://reputon.com/privacy-policy",
+          "FAQ": "https://reputon.gitbook.io/reputon-help/customer-reviews-app",
+          "Reputon": "https://apps.shopify.com/partners/reputon",
+          "Website": "https://reputon.com",
+          "Changelog": "https://headwayapp.co/reputon-customer-reviews-app-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/icon/CJ7T19_0lu8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/promotional_image/CNicyZzOrpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/desktop_screenshot/CLrl05zOrpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/desktop_screenshot/CP62rpOQ3JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/desktop_screenshot/CN6DztCQ3JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/desktop_screenshot/CI7t19CQ3JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/desktop_screenshot/CIDq-pzOrpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/mobile_screenshot/CJn2g53OrpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/mobile_screenshot/CKbKjJ3OrpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/62a1c5740288be138ec5af5753eb8392/pos_screenshot/CPXA4dCQ3JQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Reputon Customer Reviews App free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/reputon-store-reviews"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Italian,  Portuguese (Brazil),  Chinese (Simplified),  Japanese,  Russian,  Polish,  Turkish,  Swedish,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/reputon-store-reviews"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Flow, Shopify Admin, AfterShip, email, facebook reviews, google reviews, Trustpilot",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/reputon-store-reviews"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/reputon-store-reviews"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://reputon.gitbook.io/reputon-help/customer-reviews-app"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "product-reviews",
+          "meta-pixel-conversion-tracking",
+          "customer-surveys",
+          "geolocation-country-redirects"
+        ],
+        "primary_category_id": "product-reviews",
+        "seo": {
+          "title": "Reputon Customer Reviews App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product reviews. Listed functions include star ratings, badges.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/reputon-store-reviews",
+          "retrieved_at": "2026-10-04T05:09:31.101748+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Collect reviews on Facebook, Etsy, Trustpilot and Google reviews. Send automated AI…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/reputon-store-reviews"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "tapita-ai-seo-blog-builder",
+      "name": "Tapita GEO Studio & AI Blog",
+      "slug": "tapita-ai-seo-blog-builder",
+      "category_fit": {
+        "app_id": "tapita-ai-seo-blog-builder",
+        "selection_score": 5.8448,
+        "rating_evidence": {"value": 4.9, "reviews": 484},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["geo"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/tapita-ai-seo-blog-builder"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for blog & ai content tools. Listed functions include drag-and-drop editor, ai generation.",
+        "description_long": "Tapita GEO Studio & AI Blog is developed by Tapita and listed for blogs, seo. Its structured listing identifies functions such as drag-and-drop editor, ai generation, recommended topics, bulk creation. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Blog & AI Content Tools", "Geolocation & Country Redirects"],
+        "best_for": {
+          "use_cases": ["Blog & AI Content Tools", "Geolocation & Country Redirects"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 484,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/tapita-ai-seo-blog-builder",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 465},
+          {"stars": 4, "percentage": 3, "count": 13},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "February 14, 2022 · Changelog",
+        "shopify_categories": [
+          {"name": "Blogs", "url": "https://apps.shopify.com/categories/store-design-content-blogs"},
+          {"name": "SEO", "url": "https://apps.shopify.com/categories/store-design-site-optimization-seo"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.blogs.content_creation.drag_and_drop_editor", "label": "Drag-and-drop editor"},
+          {"handle": "cf.blogs.content_creation.ai_generation", "label": "AI generation"},
+          {"handle": "cf.blogs.content_creation.recommended_topics", "label": "Recommended topics"},
+          {"handle": "cf.blogs.content_creation.bulk_creation", "label": "Bulk creation"},
+          {"handle": "cf.blogs.content_creation.multi_language", "label": "Multi-language"},
+          {"handle": "cf.blogs.content_creation.translation", "label": "Translation"},
+          {"handle": "cf.blogs.content_creation.embedded_products", "label": "Embedded products"},
+          {"handle": "cf.blogs.content_creation.shoppable_links", "label": "Shoppable links"},
+          {"handle": "cf.blogs.content_creation.images", "label": "Images"},
+          {"handle": "cf.blogs.content_creation.embedded_videos", "label": "Embedded videos"},
+          {"handle": "cf.blogs.content_creation.table_of_contents", "label": "Table of contents"},
+          {"handle": "cf.blogs.content_creation.auto_scheduling", "label": "Auto-scheduling"},
+          {"handle": "cf.blogs.seo.keyword_optimization", "label": "Keyword optimization"},
+          {"handle": "cf.blogs.seo.meta_tags", "label": "Meta tags"},
+          {"handle": "cf.blogs.seo.alt_tags", "label": "Alt tags"},
+          {"handle": "cf.blogs.seo.seo_analysis", "label": "SEO analysis"},
+          {"handle": "cf.blogs.seo.article_tags", "label": "Article tags"},
+          {"handle": "cf.blogs.seo.permalinks", "label": "Permalinks"},
+          {"handle": "cf.blogs.seo.internal_linking", "label": "Internal linking"},
+          {"handle": "cf.blogs.seo.scoring_tool", "label": "Scoring tool"},
+          {"handle": "cf.seo.seo_tools.alt_text", "label": "ALT text"},
+          {"handle": "cf.seo.seo_tools.meta_tags", "label": "Meta tags"},
+          {"handle": "cf.seo.seo_tools.ai_generation", "label": "AI generation"},
+          {"handle": "cf.seo.seo_tools.mobile_responsive", "label": "Mobile responsive"},
+          {"handle": "cf.seo.seo_tools.content_optimization", "label": "Content optimization"},
+          {"handle": "cf.seo.seo_tools.metadata_optimization", "label": "Metadata optimization"},
+          {"handle": "cf.seo.monitoring_performance.seo_score", "label": "SEO score"},
+          {"handle": "cf.seo.monitoring_performance.audits", "label": "Audits"},
+          {"handle": "cf.seo.monitoring_performance.keyword_analysis", "label": "Keyword analysis"},
+          {"handle": "cf.seo.monitoring_performance.content_analysis", "label": "Content analysis"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin", "Tapita SEO Optimizer & Speed"]
+      },
+      "developer": {
+        "name": "Tapita",
+        "website_url": "https://tapita.io/",
+        "partner_url": "https://apps.shopify.com/partners/tapita",
+        "public_address": "M5 Building, 91 Nguyen Chi Thanh, Hanoi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/tapita-ai-seo-blog-builder",
+        "canonical_app_store_url": "https://apps.shopify.com/tapita-ai-seo-blog-builder",
+        "install_url": "https://apps.shopify.com/tapita-ai-seo-blog-builder",
+        "demo_store_url": "https://www.tapita.io/blogs/tapita-ai-seo-blog-builder-demo",
+        "resources": {
+          "Privacy policy": "https://tapita.io/privacy-policy/",
+          "FAQ": "https://tapita0.zohodesk.com/portal/en/kb/tapita-ai-seo-blog-builder",
+          "Tutorial": "https://tapita0.zohodesk.com/portal/en/kb/articles/getting-started-with-tapita-ai-seo-blog-builder",
+          "App Documentation": "https://tapita0.zohodesk.com/portal/en/kb/tapita-ai-seo-blog-builder",
+          "Tapita": "https://apps.shopify.com/partners/tapita",
+          "Website": "https://tapita.io/",
+          "Changelog": "https://tapita0.zohodesk.com/portal/en/kb/articles/changelog-tapita-ai-seo-blog-builder"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9481aac3954438e83c5d5d57e9d2fd8e/icon/CJDW-qrIuogDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9481aac3954438e83c5d5d57e9d2fd8e/promotional_image/COzOvfyIpY0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9481aac3954438e83c5d5d57e9d2fd8e/desktop_screenshot/CI33yfyIpY0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9481aac3954438e83c5d5d57e9d2fd8e/desktop_screenshot/CLGG1vyIpY0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9481aac3954438e83c5d5d57e9d2fd8e/desktop_screenshot/CJr94fyIpY0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9481aac3954438e83c5d5d57e9d2fd8e/desktop_screenshot/CKjN8PyIpY0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9481aac3954438e83c5d5d57e9d2fd8e/desktop_screenshot/CNXn18HrnY8DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9481aac3954438e83c5d5d57e9d2fd8e/mobile_screenshot/CJWnn9ea348DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9481aac3954438e83c5d5d57e9d2fd8e/mobile_screenshot/CKPYp9ea348DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9481aac3954438e83c5d5d57e9d2fd8e/mobile_screenshot/CIC1sNea348DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9481aac3954438e83c5d5d57e9d2fd8e/mobile_screenshot/CI6nuNea348DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9481aac3954438e83c5d5d57e9d2fd8e/mobile_screenshot/CM3twNea348DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Tapita GEO Studio & AI Blog free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/tapita-ai-seo-blog-builder"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/tapita-ai-seo-blog-builder"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Tapita SEO Optimizer & Speed",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/tapita-ai-seo-blog-builder"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/tapita-ai-seo-blog-builder"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://tapita0.zohodesk.com/portal/en/kb/tapita-ai-seo-blog-builder",
+            "https://tapita0.zohodesk.com/portal/en/kb/articles/getting-started-with-tapita-ai-seo-blog-builder",
+            "https://tapita0.zohodesk.com/portal/en/kb/tapita-ai-seo-blog-builder"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the pages or assets to optimize and review the suggested changes.",
+            "Preview and validate changes before applying them across the store.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["blog-ai-content-tools", "geolocation-country-redirects"],
+        "primary_category_id": "blog-ai-content-tools",
+        "seo": {
+          "title": "Tapita GEO Studio & AI Blog Shopify App | eStorefy",
+          "meta_description": "A Shopify app for blog & ai content tools. Listed functions include drag-and-drop editor, ai generation.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/tapita-ai-seo-blog-builder",
+          "retrieved_at": "2026-10-04T05:12:49.448108+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Effortlessly generate SEO-optimized, multilingual blog posts with Tapita AI SEO Blog Builder.",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/tapita-ai-seo-blog-builder"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1380 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "rental-booking",
+    "number": 60,
+    "name": "Rental Booking",
+    "group": "Digital Products & Services",
+    "slug": "rental-booking",
+    "url_path": "/apps/rental-booking",
+    "focus": "Sell downloads, access, appointments and bookings.",
+    "description": "Compare Shopify apps for rental booking. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking/all"],
+    "seo": {
+      "title": "Shopify Rental Booking Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for rental booking: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 5,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a rental booking app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "appointment-booking-bookeasy",
+      "name": "BookX Appointment Booking App",
+      "slug": "appointment-booking-bookeasy",
+      "category_fit": {
+        "app_id": "appointment-booking-bookeasy",
+        "selection_score": 6.1066,
+        "rating_evidence": {"value": 5.0, "reviews": 612},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rental"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for courses & memberships. Listed functions include appointments, rentals.",
+        "description_long": "BookX Appointment Booking App is developed by Logbase and listed for event booking, retail. Its structured listing identifies functions such as appointments, rentals, classes, services. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Courses & Memberships", "Appointment Booking", "Event Tickets", "Rental Booking"],
+        "best_for": {
+          "use_cases": ["Courses & Memberships", "Appointment Booking", "Event Tickets", "Rental Booking"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 612,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/appointment-booking-bookeasy",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 588},
+          {"stars": 4, "percentage": 3, "count": 16},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 6}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $107.99/year and save 10%"]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $203.99/year and save 15%"]
+          },
+          {
+            "name": "Business",
+            "amount_usd": 39.99,
+            "billing_period": "month",
+            "price_display": "$39.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $407.99/year and save 15%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.logbase.io/bookx-pricing",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 12, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          },
+          {
+            "name": "Retail",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-in-person-retail"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.event_booking.event_type.appointments", "label": "Appointments"},
+          {"handle": "cf.event_booking.event_type.rentals", "label": "Rentals"},
+          {"handle": "cf.event_booking.event_type.classes", "label": "Classes"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.online", "label": "Online"},
+          {"handle": "cf.event_booking.event_type.custom_event", "label": "Custom events"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.time_slots", "label": "Time slots"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.multi_booking", "label": "Multi-booking"},
+          {"handle": "cf.event_booking.booking_management.cancel_booking", "label": "Cancel booking"},
+          {"handle": "cf.event_booking.booking_management.capacity_limits", "label": "Capacity limits"},
+          {"handle": "cf.event_booking.booking_management.ticketing", "label": "Ticketing"},
+          {"handle": "cf.event_booking.booking_management.event_check_in", "label": "Event check-in"},
+          {"handle": "cf.event_booking.booking_management.data_sync", "label": "Data sync"},
+          {"handle": "cf.event_booking.booking_management.real_time_updates", "label": "Real-time updates"},
+          {
+            "handle": "cf.event_booking.booking_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.booking_management.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.event_booking.booking_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.event_booking.booking_management.multi_location", "label": "Multi-location"},
+          {"handle": "cf.event_booking.booking_management.payments", "label": "Payments"},
+          {"handle": "cf.event_booking.booking_management.deposits", "label": "Deposits"},
+          {"handle": "cf.event_booking.booking_management.staff_management", "label": "Staff management"},
+          {"handle": "cf.event_booking.customization.booking_pages", "label": "Booking pages"},
+          {"handle": "cf.event_booking.customization.calendar_widget", "label": "Calendar widget"},
+          {"handle": "cf.event_booking.customization.custom_tickets", "label": "Custom tickets"},
+          {"handle": "cf.event_booking.customization.custom_forms", "label": "Custom forms"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Portuguese (Brazil)",
+          " Italian",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Gmail",
+          "Google calendar",
+          "Google Meet",
+          "klaviyo",
+          "Zoom"
+        ]
+      },
+      "developer": {
+        "name": "Logbase",
+        "website_url": "https://www.logbase.io/",
+        "partner_url": "https://apps.shopify.com/partners/logbase1",
+        "public_address": "Logbase Technologies LLP, PSG STEP E-Lab, PSG College of Technology, Peelamedu, Coimbatore, TN, 641004, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/appointment-booking-bookeasy",
+        "canonical_app_store_url": "https://apps.shopify.com/appointment-booking-bookeasy",
+        "install_url": "https://apps.shopify.com/appointment-booking-bookeasy",
+        "demo_store_url": "https://bookeasy-demo-store.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://www.logbase.io/privacy-policy",
+          "FAQ": "https://bookeasy.helpkit.so/faqs/4XgTU2Uu74MgYvNF2jq8Mz",
+          "App Documentation": "https://bookeasy.helpkit.so/",
+          "Logbase": "https://apps.shopify.com/partners/logbase1",
+          "Website": "https://www.logbase.io/",
+          "Changelog": "https://bookeasy.sleekplan.app/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/icon/CI3poNnzlYADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CLjvsczM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/COiwvMzM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CMLfxszM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CLip0MzM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CPam28zM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CIq_5MzM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/mobile_screenshot/CNqErsCeuJMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/DUTbiMU7BB8"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BookX Appointment Booking App free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Portuguese (Brazil),  Italian,  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Gmail, Google calendar, Google Meet, klaviyo, Zoom",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://bookeasy.helpkit.so/faqs/4XgTU2Uu74MgYvNF2jq8Mz", "https://bookeasy.helpkit.so/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["courses-memberships", "appointment-booking", "event-tickets", "rental-booking"],
+        "primary_category_id": "courses-memberships",
+        "seo": {
+          "title": "BookX Appointment Booking App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for courses & memberships. Listed functions include appointments, rentals.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/appointment-booking-bookeasy",
+          "retrieved_at": "2026-10-04T05:20:09.890468+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Streamline Shopify bookings with BookX. An easy-to-use calendar booking app for appointments,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "cowlendar",
+      "name": "Appointment Booking Cowlendar",
+      "slug": "cowlendar",
+      "category_fit": {
+        "app_id": "cowlendar",
+        "selection_score": 6.0799,
+        "rating_evidence": {"value": 4.9, "reviews": 2248},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rental"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/cowlendar"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for appointment booking. Listed functions include appointments, rentals.",
+        "description_long": "Appointment Booking Cowlendar is developed by Booking Appointment Cowlendar and listed for event booking, digital products. Its structured listing identifies functions such as appointments, rentals, classes, services. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Appointment Booking", "Event Tickets", "Rental Booking"],
+        "best_for": {
+          "use_cases": ["Appointment Booking", "Event Tickets", "Rental Booking"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 2248,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/cowlendar",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 2},
+          {"stars": 4, "percentage": 2, "count": 46},
+          {"stars": 3, "percentage": 0, "count": 5},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 0, "count": 11}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 13.99,
+            "billing_period": "month",
+            "price_display": "$13.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 59.99,
+            "billing_period": "month",
+            "price_display": "$59.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://cowlendar.com/#pricing",
+        "starting_paid_monthly_price_usd": 13.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 21, 2022 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          },
+          {
+            "name": "Digital products",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-products"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.event_booking.event_type.appointments", "label": "Appointments"},
+          {"handle": "cf.event_booking.event_type.rentals", "label": "Rentals"},
+          {"handle": "cf.event_booking.event_type.classes", "label": "Classes"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.online", "label": "Online"},
+          {"handle": "cf.event_booking.event_type.custom_event", "label": "Custom events"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.time_slots", "label": "Time slots"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.multi_booking", "label": "Multi-booking"},
+          {"handle": "cf.event_booking.booking_management.cancel_booking", "label": "Cancel booking"},
+          {"handle": "cf.event_booking.booking_management.capacity_limits", "label": "Capacity limits"},
+          {"handle": "cf.event_booking.booking_management.ticketing", "label": "Ticketing"},
+          {"handle": "cf.event_booking.booking_management.event_check_in", "label": "Event check-in"},
+          {"handle": "cf.event_booking.booking_management.data_sync", "label": "Data sync"},
+          {"handle": "cf.event_booking.booking_management.real_time_updates", "label": "Real-time updates"},
+          {
+            "handle": "cf.event_booking.booking_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.booking_management.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.event_booking.booking_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.event_booking.booking_management.multi_location", "label": "Multi-location"},
+          {"handle": "cf.event_booking.booking_management.payments", "label": "Payments"},
+          {"handle": "cf.event_booking.booking_management.deposits", "label": "Deposits"},
+          {"handle": "cf.event_booking.booking_management.staff_management", "label": "Staff management"},
+          {"handle": "cf.event_booking.customization.booking_pages", "label": "Booking pages"},
+          {"handle": "cf.event_booking.customization.calendar_widget", "label": "Calendar widget"},
+          {"handle": "cf.event_booking.customization.custom_forms", "label": "Custom forms"},
+          {"handle": "cf.event_booking.customization.custom_notifications", "label": "Custom notifications"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " Portuguese (Brazil)",
+          " French",
+          " German",
+          " Italian",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "Appointment",
+          "Booking",
+          "booking app",
+          "Calendly",
+          "klaviyo",
+          "Zoom"
+        ]
+      },
+      "developer": {
+        "name": "Booking Appointment Cowlendar",
+        "website_url": "https://cowlendar.com/",
+        "partner_url": "https://apps.shopify.com/partners/booking-appointment-cowlendar",
+        "public_address": "14 RUE CHARLES V, PARIS, 75004, FR"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/cowlendar",
+        "canonical_app_store_url": "https://apps.shopify.com/cowlendar",
+        "install_url": "https://apps.shopify.com/cowlendar",
+        "demo_store_url": "https://demo.cowlendar.com/",
+        "resources": {
+          "Privacy policy": "https://cowlendar.com/privacy-policy",
+          "FAQ": "https://penida.gitbook.io/cowlendar-help/",
+          "Tutorial": "https://help.cowlendar.com/beginners-guide",
+          "App Documentation": "http://help.cowlendar.com/",
+          "Booking Appointment Cowlendar": "https://apps.shopify.com/partners/booking-appointment-cowlendar",
+          "Website": "https://cowlendar.com/",
+          "Changelog": "https://headwayapp.co/cowlendar-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/icon/CMnisvit1pADEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/promotional_image/CJv1q_uEjY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/desktop_screenshot/COr4z42i-4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/desktop_screenshot/CPHRscGZ-4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/desktop_screenshot/CO6omuGJ-4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/desktop_screenshot/CNO-3quN-4wDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/desktop_screenshot/CP7cruGJ-4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/mobile_screenshot/COOOv5WY-4wDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Appointment Booking Cowlendar free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/cowlendar"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  Portuguese (Brazil),  French,  German,  Italian,  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/cowlendar"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, Appointment, Booking, booking app, Calendly, klaviyo, Zoom",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/cowlendar"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/cowlendar"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://penida.gitbook.io/cowlendar-help/",
+            "https://help.cowlendar.com/beginners-guide",
+            "http://help.cowlendar.com/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["appointment-booking", "event-tickets", "rental-booking"],
+        "primary_category_id": "appointment-booking",
+        "seo": {
+          "title": "Appointment Booking Cowlendar Shopify App | eStorefy",
+          "meta_description": "A Shopify app for appointment booking. Listed functions include appointments, rentals.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/cowlendar",
+          "retrieved_at": "2026-10-04T05:20:01.415173+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "The #1 scheduling app for Shopify. Sync Google Calendar, take bookings for…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/cowlendar"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "product-rentals-pro",
+      "name": "Product Rentals Pro",
+      "slug": "product-rentals-pro",
+      "category_fit": {
+        "app_id": "product-rentals-pro",
+        "selection_score": 5.828,
+        "rating_evidence": {"value": 5.0, "reviews": 52},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rental", "renting"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/product-rentals-pro"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for rental booking. Listed functions include rentals, services.",
+        "description_long": "Product Rentals Pro is developed by Product Rentals Pro and listed for custom products - other, event booking. Its structured listing identifies functions such as rentals, services, reservations, in-person. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Rental Booking"],
+        "best_for": {
+          "use_cases": ["Rental Booking"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 52,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/product-rentals-pro",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 52},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free Trial",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 19.95,
+            "billing_period": "month",
+            "price_display": "$19.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 49.95,
+            "billing_period": "month",
+            "price_display": "$49.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Volume",
+            "amount_usd": 89.95,
+            "billing_period": "month",
+            "price_display": "$89.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://docs.productrentalspro.com/user-guide/plans-and-billing/overview-and-comparison-of-plans",
+        "starting_paid_monthly_price_usd": 19.95,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "July 25, 2024",
+        "shopify_categories": [
+          {
+            "name": "Custom products - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-custom-products-other"
+          },
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.event_booking.event_type.rentals", "label": "Rentals"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.online", "label": "Online"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.cancel_booking", "label": "Cancel booking"},
+          {"handle": "cf.event_booking.booking_management.capacity_limits", "label": "Capacity limits"},
+          {
+            "handle": "cf.event_booking.booking_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.booking_management.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.event_booking.customization.booking_pages", "label": "Booking pages"},
+          {"handle": "cf.event_booking.customization.calendar_widget", "label": "Calendar widget"},
+          {"handle": "cf.event_booking.customization.custom_notifications", "label": "Custom notifications"},
+          {"handle": "cf.event_booking.customization.branding", "label": "Branding"},
+          {"handle": "cf.event_booking.customization.css", "label": "Custom CSS"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Admin"]
+      },
+      "developer": {
+        "name": "Product Rentals Pro",
+        "website_url": "https://productrentalspro.com",
+        "partner_url": "https://apps.shopify.com/partners/product-rentals-pro",
+        "public_address": "Warwick, WA, AU"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/product-rentals-pro",
+        "canonical_app_store_url": "https://apps.shopify.com/product-rentals-pro",
+        "install_url": "https://apps.shopify.com/product-rentals-pro",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://productrentalspro.com/privacy",
+          "FAQ": "https://docs.productrentalspro.com/user-guide/frequently-asked-questions",
+          "Tutorial": "https://docs.productrentalspro.com/user-guide/getting-started",
+          "App Documentation": "https://docs.productrentalspro.com/user-guide",
+          "Product Rentals Pro": "https://apps.shopify.com/partners/product-rentals-pro",
+          "Website": "https://productrentalspro.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/3329841b8820e933f44e726b2ff9e6d6/icon/CJbrqN31locDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/3329841b8820e933f44e726b2ff9e6d6/promotional_image/CKWRtY-GqIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3329841b8820e933f44e726b2ff9e6d6/desktop_screenshot/CNWtw4-GqIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3329841b8820e933f44e726b2ff9e6d6/desktop_screenshot/CNrAz4-GqIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3329841b8820e933f44e726b2ff9e6d6/desktop_screenshot/CKrK2Y-GqIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3329841b8820e933f44e726b2ff9e6d6/desktop_screenshot/CP_B44-GqIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3329841b8820e933f44e726b2ff9e6d6/desktop_screenshot/CJSD8I-GqIwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3329841b8820e933f44e726b2ff9e6d6/desktop_screenshot/CLWtq_WH9IgDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Product Rentals Pro free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/product-rentals-pro"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/product-rentals-pro"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/product-rentals-pro"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/product-rentals-pro"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.productrentalspro.com/user-guide/frequently-asked-questions",
+            "https://docs.productrentalspro.com/user-guide/getting-started",
+            "https://docs.productrentalspro.com/user-guide"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["rental-booking"],
+        "primary_category_id": "rental-booking",
+        "seo": {
+          "title": "Product Rentals Pro Shopify App | eStorefy",
+          "meta_description": "A Shopify app for rental booking. Listed functions include rentals, services.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/product-rentals-pro",
+          "retrieved_at": "2026-10-04T05:20:25.510985+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Enable rentals with a booking calendar and powerful management. Maximize availability, minimize…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/product-rentals-pro"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "bookthatapp",
+      "name": "BTA Appointment Booking App",
+      "slug": "bookthatapp",
+      "category_fit": {
+        "app_id": "bookthatapp",
+        "selection_score": 5.7932,
+        "rating_evidence": {"value": 4.7, "reviews": 413},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rental"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/bookthatapp"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for rental booking. Listed functions include appointments, rentals.",
+        "description_long": "BTA Appointment Booking App is developed by BTA Commerce, Inc. and listed for event booking, digital goods and services - other. Its structured listing identifies functions such as appointments, rentals, classes, services. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Rental Booking"],
+        "best_for": {
+          "use_cases": ["Rental Booking"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.7,
+        "review_count": 413,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/bookthatapp",
+        "distribution": [
+          {"stars": 5, "percentage": 88, "count": 363},
+          {"stars": 4, "percentage": 7, "count": 28},
+          {"stars": 3, "percentage": 1, "count": 4},
+          {"stars": 2, "percentage": 1, "count": 3},
+          {"stars": 1, "percentage": 4, "count": 15}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "LITE",
+            "amount_usd": 25.0,
+            "billing_period": "month",
+            "price_display": "$25 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $250/year and save 17%"]
+          },
+          {
+            "name": "PREMIUM",
+            "amount_usd": 49.95,
+            "billing_period": "month",
+            "price_display": "$49.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $499.50/year and save 17%"]
+          },
+          {
+            "name": "BUSINESS",
+            "amount_usd": 110.0,
+            "billing_period": "month",
+            "price_display": "$110 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,100/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://support.bookthatapp.com/hc/en-us/articles/211514566-BookThatApp-Pricing-Plans",
+        "starting_paid_monthly_price_usd": 25.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "May 29, 2012",
+        "shopify_categories": [
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          },
+          {
+            "name": "Digital goods and services - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-goods-and-services-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.event_booking.event_type.appointments", "label": "Appointments"},
+          {"handle": "cf.event_booking.event_type.rentals", "label": "Rentals"},
+          {"handle": "cf.event_booking.event_type.classes", "label": "Classes"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.online", "label": "Online"},
+          {"handle": "cf.event_booking.event_type.custom_event", "label": "Custom events"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.time_slots", "label": "Time slots"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.multi_booking", "label": "Multi-booking"},
+          {"handle": "cf.event_booking.booking_management.cancel_booking", "label": "Cancel booking"},
+          {"handle": "cf.event_booking.booking_management.capacity_limits", "label": "Capacity limits"},
+          {"handle": "cf.event_booking.booking_management.ticketing", "label": "Ticketing"},
+          {"handle": "cf.event_booking.booking_management.event_check_in", "label": "Event check-in"},
+          {"handle": "cf.event_booking.booking_management.data_sync", "label": "Data sync"},
+          {"handle": "cf.event_booking.booking_management.real_time_updates", "label": "Real-time updates"},
+          {
+            "handle": "cf.event_booking.booking_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.booking_management.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.event_booking.booking_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.event_booking.booking_management.multi_location", "label": "Multi-location"},
+          {"handle": "cf.event_booking.booking_management.payments", "label": "Payments"},
+          {"handle": "cf.event_booking.booking_management.deposits", "label": "Deposits"},
+          {"handle": "cf.event_booking.booking_management.staff_management", "label": "Staff management"},
+          {"handle": "cf.event_booking.customization.booking_pages", "label": "Booking pages"},
+          {"handle": "cf.event_booking.customization.calendar_widget", "label": "Calendar widget"},
+          {"handle": "cf.event_booking.customization.custom_tickets", "label": "Custom tickets"},
+          {"handle": "cf.event_booking.customization.custom_forms", "label": "Custom forms"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin", "API", "Appointment Booking", "Google Calendar", "iCal", "Outlook", "Zoom"]
+      },
+      "developer": {
+        "name": "BTA Commerce, Inc.",
+        "website_url": "http://www.bookthatapp.com",
+        "partner_url": "https://apps.shopify.com/partners/gtck",
+        "public_address": "Dover, DE, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/bookthatapp",
+        "canonical_app_store_url": "https://apps.shopify.com/bookthatapp",
+        "install_url": "https://apps.shopify.com/bookthatapp",
+        "demo_store_url": "https://bookthatapp-demo-store.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.bookthatapp.com/privacy-policy",
+          "FAQ": "https://support.bookthatapp.com/hc/en-us/articles/211512926-BTA-FAQs-Frequently-Asked-Questions",
+          "App Documentation": "https://support.bookthatapp.com/hc/en-us",
+          "BTA Commerce, Inc.": "https://apps.shopify.com/partners/gtck",
+          "Website": "http://www.bookthatapp.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/35b63cb98175322a555e035845626664/icon/CP7xiPDSyP8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/35b63cb98175322a555e035845626664/promotional_image/CMHAnYmTo5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/35b63cb98175322a555e035845626664/desktop_screenshot/CIO1kK-BmokDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/35b63cb98175322a555e035845626664/desktop_screenshot/CMKb5OfIh4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/35b63cb98175322a555e035845626664/desktop_screenshot/CICF7ufIh4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/35b63cb98175322a555e035845626664/desktop_screenshot/CKT--efIh4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/35b63cb98175322a555e035845626664/desktop_screenshot/CN65g-jIh4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/35b63cb98175322a555e035845626664/desktop_screenshot/CPb0jOjIh4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/35b63cb98175322a555e035845626664/pos_screenshot/CJSKmOjIh4kDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BTA Appointment Booking App free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/bookthatapp"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bookthatapp"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, API, Appointment Booking, Google Calendar, iCal, Outlook, Zoom",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bookthatapp"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/bookthatapp"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://support.bookthatapp.com/hc/en-us/articles/211512926-BTA-FAQs-Frequently-Asked-Questions",
+            "https://support.bookthatapp.com/hc/en-us"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["rental-booking"],
+        "primary_category_id": "rental-booking",
+        "seo": {
+          "title": "BTA Appointment Booking App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for rental booking. Listed functions include appointments, rentals.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/bookthatapp",
+          "retrieved_at": "2026-10-04T05:20:17.045414+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Shopify booking app for appointments, rentals, tours, classes & events. Supports group…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/bookthatapp"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "flexcon-product-rental-hire",
+      "name": "FlexCon Rental Booking, Hire",
+      "slug": "flexcon-product-rental-hire",
+      "category_fit": {
+        "app_id": "flexcon-product-rental-hire",
+        "selection_score": 5.6624,
+        "rating_evidence": {"value": 5.0, "reviews": 23},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rental"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/flexcon-product-rental-hire"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for rental booking. Listed functions include appointments, rentals.",
+        "description_long": "FlexCon Rental Booking, Hire is developed by FlexConversion and listed for event booking, custom products - other. Its structured listing identifies functions such as appointments, rentals, services, reservations. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Rental Booking"],
+        "best_for": {
+          "use_cases": ["Rental Booking"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 23,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/flexcon-product-rental-hire",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 23},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 59.99,
+            "billing_period": "month",
+            "price_display": "$59.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 19.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 28, 2025",
+        "shopify_categories": [
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          },
+          {
+            "name": "Custom products - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-custom-products-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.event_booking.event_type.appointments", "label": "Appointments"},
+          {"handle": "cf.event_booking.event_type.rentals", "label": "Rentals"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.custom_event", "label": "Custom events"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.time_slots", "label": "Time slots"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.multi_booking", "label": "Multi-booking"},
+          {"handle": "cf.event_booking.booking_management.cancel_booking", "label": "Cancel booking"},
+          {"handle": "cf.event_booking.booking_management.ticketing", "label": "Ticketing"},
+          {"handle": "cf.event_booking.booking_management.event_check_in", "label": "Event check-in"},
+          {"handle": "cf.event_booking.booking_management.data_sync", "label": "Data sync"},
+          {"handle": "cf.event_booking.booking_management.real_time_updates", "label": "Real-time updates"},
+          {
+            "handle": "cf.event_booking.booking_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.booking_management.multi_location", "label": "Multi-location"},
+          {"handle": "cf.event_booking.booking_management.payments", "label": "Payments"},
+          {"handle": "cf.event_booking.booking_management.deposits", "label": "Deposits"},
+          {"handle": "cf.event_booking.customization.calendar_widget", "label": "Calendar widget"},
+          {"handle": "cf.event_booking.customization.custom_forms", "label": "Custom forms"},
+          {"handle": "cf.event_booking.customization.custom_notifications", "label": "Custom notifications"},
+          {"handle": "cf.event_booking.customization.branding", "label": "Branding"},
+          {"handle": "cf.event_booking.customization.css", "label": "Custom CSS"}
+        ],
+        "languages": ["English", " French", " Italian", " Chinese (Simplified)", " German", " Spanish", " and Dutch"],
+        "works_with": ["Checkout", "Customer accounts", "Shopify Admin", "Cart", "POS"]
+      },
+      "developer": {
+        "name": "FlexConversion",
+        "website_url": "https://flexconversion.com/",
+        "partner_url": "https://apps.shopify.com/partners/flexconversion",
+        "public_address": "Hanoi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/flexcon-product-rental-hire",
+        "canonical_app_store_url": "https://apps.shopify.com/flexcon-product-rental-hire",
+        "install_url": "https://apps.shopify.com/flexcon-product-rental-hire",
+        "demo_store_url": "https://flexcon-us-demo.myshopify.com/products/evergreen-woman-dress",
+        "resources": {
+          "Privacy policy": "https://flexconversion-product-rental.gitbook.io/user-guide/terms-and-policies/privacy-policy",
+          "FAQ": "https://flexconversion-product-rental.gitbook.io/user-guide/faq",
+          "Tutorial": "https://flexconversion-product-rental.gitbook.io/user-guide",
+          "FlexConversion": "https://apps.shopify.com/partners/flexconversion",
+          "Website": "https://flexconversion.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/dc4807ad967a32ff9ee6aa10e0f0e863/icon/CLS3zc_s_Y0DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/dc4807ad967a32ff9ee6aa10e0f0e863/promotional_image/CMnn5LipmZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dc4807ad967a32ff9ee6aa10e0f0e863/desktop_screenshot/CPbe77ipmZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dc4807ad967a32ff9ee6aa10e0f0e863/desktop_screenshot/CK-7-ripmZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dc4807ad967a32ff9ee6aa10e0f0e863/desktop_screenshot/CL_qhLmpmZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dc4807ad967a32ff9ee6aa10e0f0e863/desktop_screenshot/CKeRkLmpmZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dc4807ad967a32ff9ee6aa10e0f0e863/desktop_screenshot/CJf9mrmpmZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dc4807ad967a32ff9ee6aa10e0f0e863/desktop_screenshot/CJzuprmpmZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/dc4807ad967a32ff9ee6aa10e0f0e863/mobile_screenshot/CPqosbmpmZcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is FlexCon Rental Booking, Hire free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/flexcon-product-rental-hire"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Italian,  Chinese (Simplified),  German,  Spanish,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/flexcon-product-rental-hire"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, Cart, POS",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/flexcon-product-rental-hire"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/flexcon-product-rental-hire"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://flexconversion-product-rental.gitbook.io/user-guide/faq",
+            "https://flexconversion-product-rental.gitbook.io/user-guide"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["rental-booking"],
+        "primary_category_id": "rental-booking",
+        "seo": {
+          "title": "FlexCon Rental Booking, Hire Shopify App | eStorefy",
+          "meta_description": "A Shopify app for rental booking. Listed functions include appointments, rentals.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/flexcon-product-rental-hire",
+          "retrieved_at": "2026-10-04T05:20:25.509666+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Easily add product equipment rental, sales, and try-on options to your fashion,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/flexcon-product-rental-hire"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

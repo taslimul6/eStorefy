@@ -1,10 +1,10 @@
-import { absoluteUrl, canIndex } from "@/lib/site";
+import { absoluteUrl } from "@/lib/site";
 export default function robots() {
   return {
     rules: {
       userAgent: "*",
-      allow: canIndex ? "/" : undefined,
-      disallow: canIndex ? "/api/" : "/",
+      allow: "/",
+      disallow: "/api/",
     },
     sitemap: absoluteUrl("/sitemap.xml"),
   };

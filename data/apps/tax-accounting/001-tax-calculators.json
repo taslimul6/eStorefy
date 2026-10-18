@@ -1,0 +1,1171 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "tax-calculators",
+    "number": 1,
+    "name": "Tax Calculators",
+    "group": "Tax & Accounting",
+    "slug": "tax-calculators",
+    "url_path": "/apps/tax-calculators",
+    "focus": "Manage tax calculations, invoices and financial records.",
+    "description": "Compare Shopify apps for tax calculators. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/store-management-finances-taxes/all"],
+    "seo": {
+      "title": "Shopify Tax Calculators Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for tax calculators: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 5,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a tax calculators app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "tax-rex",
+      "name": "Sales Tax Automation by TaxRex",
+      "slug": "tax-rex",
+      "category_fit": {
+        "app_id": "tax-rex",
+        "selection_score": 5.2684,
+        "rating_evidence": {"value": 5.0, "reviews": 130},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["tax solution. from crafting accurate", "taxrex will generate"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/tax-rex"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for tax calculators. Listed functions include liability calculation, threshold tracking.",
+        "description_long": "Sales Tax Automation by TaxRex is developed by TaxRex Inc and listed for taxes. Its structured listing identifies functions such as liability calculation, threshold tracking, tax rates, exemption managment. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Tax Calculators", "Sales Tax Automation", "Tax Reporting & Filing"],
+        "best_for": {
+          "use_cases": ["Tax Calculators", "Sales Tax Automation", "Tax Reporting & Filing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 130,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/tax-rex",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 128},
+          {"stars": 4, "percentage": 1, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $10/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "STARTUP",
+            "amount_usd": 10.0,
+            "billing_period": "month",
+            "price_display": "$10 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Autofile at $25 per filing per state. State Registrations at $99 per state."]
+          },
+          {
+            "name": "GROWTH",
+            "amount_usd": 20.0,
+            "billing_period": "month",
+            "price_display": "$20 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Autofile at $25 per filing per state. State Registrations at $99 per state"]
+          },
+          {
+            "name": "ADVANCED",
+            "amount_usd": 30.0,
+            "billing_period": "month",
+            "price_display": "$30 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Autofile at $25 per filing per state. State Registrations at $99 per state"]
+          },
+          {
+            "name": "ENTERPRISE",
+            "amount_usd": 100.0,
+            "billing_period": "month",
+            "price_display": "$100 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Autofile at $25 per filing per state. State Registrations at $99 per state"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://taxrex.com/pricing",
+        "starting_paid_monthly_price_usd": 10.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "September 23, 2021",
+        "shopify_categories": [
+          {"name": "Taxes", "url": "https://apps.shopify.com/categories/store-management-finances-taxes"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.taxes.liability_tracking.liability_calculation", "label": "Liability calculation"},
+          {"handle": "cf.taxes.liability_tracking.threshold_tracking", "label": "Threshold tracking"},
+          {"handle": "cf.taxes.tax_calcluation.tax_rates", "label": "Tax rates"},
+          {"handle": "cf.taxes.tax_calcluation.exemption_managment", "label": "Exemption managment"},
+          {"handle": "cf.taxes.registration.tax_registration", "label": "Tax registration"},
+          {"handle": "cf.taxes.registration.us_sales_tax", "label": "US (Sales tax)"},
+          {"handle": "cf.taxes.reporting_and_filing.compliance_reporting", "label": "Compliance reporting"},
+          {"handle": "cf.taxes.reporting_and_filing.multi_state_filing", "label": "Multi-state filing"},
+          {"handle": "cf.taxes.reporting_and_filing.local_tax_returns", "label": "Local tax returns"},
+          {"handle": "cf.taxes.reporting_and_filing.data_export", "label": "Data export"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "TaxRex Inc",
+        "website_url": "https://www.taxrex.com",
+        "partner_url": "https://apps.shopify.com/partners/rexific",
+        "public_address": "Lewes, DE, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/tax-rex",
+        "canonical_app_store_url": "https://apps.shopify.com/tax-rex",
+        "install_url": "https://apps.shopify.com/tax-rex",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://tax.rexific.com/privacypolicy",
+          "TaxRex Inc": "https://apps.shopify.com/partners/rexific",
+          "Website": "https://www.taxrex.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/414eeda5acc457f6db53f0c4136e5e07/icon/CITb1urck5cDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/414eeda5acc457f6db53f0c4136e5e07/promotional_image/CJa33pee4ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/414eeda5acc457f6db53f0c4136e5e07/desktop_screenshot/CK7Nr6HM8pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/414eeda5acc457f6db53f0c4136e5e07/desktop_screenshot/CJK77v-C7pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/414eeda5acc457f6db53f0c4136e5e07/desktop_screenshot/CNbzuqHM8pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/414eeda5acc457f6db53f0c4136e5e07/desktop_screenshot/CLDuxKHM8pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/414eeda5acc457f6db53f0c4136e5e07/desktop_screenshot/CLujz6HM8pYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Sales Tax Automation by TaxRex free?",
+            "answer": "The pricing label retrieved from the listing is: From $10/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/tax-rex"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/tax-rex"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/tax-rex"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/tax-rex"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the supported jurisdictions and check the relevant tax or invoice settings.",
+            "Review a sample transaction and document before enabling automation.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["tax-calculators", "sales-tax-automation", "tax-reporting-filing"],
+        "primary_category_id": "tax-calculators",
+        "seo": {
+          "title": "Sales Tax Automation by TaxRex Shopify App | eStorefy",
+          "meta_description": "A Shopify app for tax calculators. Listed functions include liability calculation, threshold tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/tax-rex",
+          "retrieved_at": "2026-10-04T05:03:50.583478+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "US State Sales Tax return Reports & Automated Filing for your store",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/tax-rex"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "sidr-tax",
+      "name": "Sidr ‑ Sales Tax Automation",
+      "slug": "sidr-tax",
+      "category_fit": {
+        "app_id": "sidr-tax",
+        "selection_score": 5.1819,
+        "rating_evidence": {"value": 5.0, "reviews": 71},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["taxes. accurate", "tax reports: sales tax calculat"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/sidr-tax"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for tax calculators. Listed functions include sales and refunds, sales tax.",
+        "description_long": "Sidr ‑ Sales Tax Automation is developed by Sidr and listed for accounting, taxes. Its structured listing identifies functions such as sales and refunds, sales tax, returns and exchanges, performance dashboard. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Tax Calculators", "Sales Tax Automation", "Tax Reporting & Filing"],
+        "best_for": {
+          "use_cases": ["Tax Calculators", "Sales Tax Automation", "Tax Reporting & Filing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 71,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/sidr-tax",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 71},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 60.0,
+            "billing_period": "month",
+            "price_display": "$60 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$60 per filing; $150 per registration"]
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": "https://sidr.io/pricing",
+        "starting_paid_monthly_price_usd": 60.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 20, 2022",
+        "shopify_categories": [
+          {
+            "name": "Accounting",
+            "url": "https://apps.shopify.com/categories/store-management-finances-accounting"
+          },
+          {"name": "Taxes", "url": "https://apps.shopify.com/categories/store-management-finances-taxes"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.accounting.financial_reports.sales_and_refunds", "label": "Sales and refunds"},
+          {"handle": "cf.accounting.financial_reports.sales_tax", "label": "Sales tax"},
+          {
+            "handle": "cf.accounting.financial_reports.returns_and_exchanges",
+            "label": "Returns and exchanges"
+          },
+          {
+            "handle": "cf.accounting.financial_reports.performance_dashboard",
+            "label": "Performance dashboard"
+          },
+          {"handle": "cf.accounting.financial_operations.tax_deductions", "label": "Tax deductions"},
+          {"handle": "cf.accounting.financial_operations.tax_exemptions", "label": "Tax exemptions"},
+          {"handle": "cf.accounting.financial_operations.multi_store", "label": "Multi-store"},
+          {"handle": "cf.accounting.financial_operations.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.accounting.financial_operations.multi_channel", "label": "Multi-channel"},
+          {"handle": "cf.accounting.automated_data_sync.order_details", "label": "Order details"},
+          {"handle": "cf.accounting.automated_data_sync.transactions", "label": "Transactions"},
+          {"handle": "cf.accounting.automated_data_sync.sales_tax_mapping", "label": "Sales tax mapping"},
+          {
+            "handle": "cf.accounting.automated_data_sync.historical_data_import",
+            "label": "Historical data import"
+          },
+          {"handle": "cf.taxes.liability_tracking.liability_calculation", "label": "Liability calculation"},
+          {"handle": "cf.taxes.tax_calcluation.tax_rates", "label": "Tax rates"},
+          {"handle": "cf.taxes.tax_calcluation.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.taxes.registration.tax_registration", "label": "Tax registration"},
+          {"handle": "cf.taxes.registration.tax_number_validation", "label": "Tax number validation"},
+          {"handle": "cf.taxes.registration.us_sales_tax", "label": "US (Sales tax)"},
+          {"handle": "cf.taxes.reporting_and_filing.compliance_reporting", "label": "Compliance reporting"},
+          {"handle": "cf.taxes.reporting_and_filing.multi_state_filing", "label": "Multi-state filing"},
+          {"handle": "cf.taxes.reporting_and_filing.sst_filing", "label": "SST filing"},
+          {"handle": "cf.taxes.reporting_and_filing.local_tax_returns", "label": "Local tax returns"},
+          {"handle": "cf.taxes.reporting_and_filing.data_export", "label": "Data export"}
+        ],
+        "languages": ["English"],
+        "works_with": []
+      },
+      "developer": {
+        "name": "Sidr",
+        "website_url": "https://www.sidr.io",
+        "partner_url": "https://apps.shopify.com/partners/sidr",
+        "public_address": "1111B S Governors Ave STE 6738, Dover, DE, 19904, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/sidr-tax",
+        "canonical_app_store_url": "https://apps.shopify.com/sidr-tax",
+        "install_url": "https://apps.shopify.com/sidr-tax",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.sidr.io/privacy",
+          "FAQ": "https://help.sidr.io",
+          "Tutorial": "https://help.sidr.io",
+          "Sidr": "https://apps.shopify.com/partners/sidr",
+          "Website": "https://www.sidr.io"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/c40164b1574f1e88ce5ddaab4df56c73/icon/CNzV9p2lnIEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/c40164b1574f1e88ce5ddaab4df56c73/desktop_screenshot/CICVip6lnIEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c40164b1574f1e88ce5ddaab4df56c73/desktop_screenshot/CPaFlJ6lnIEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c40164b1574f1e88ce5ddaab4df56c73/desktop_screenshot/COyQnp6lnIEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c40164b1574f1e88ce5ddaab4df56c73/desktop_screenshot/CNWOqJ6lnIEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c40164b1574f1e88ce5ddaab4df56c73/desktop_screenshot/CIiPtJ6lnIEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c40164b1574f1e88ce5ddaab4df56c73/desktop_screenshot/CILBvZ6lnIEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c40164b1574f1e88ce5ddaab4df56c73/mobile_screenshot/COKmx56lnIEDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/AAdhe3XBnDc"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Sidr ‑ Sales Tax Automation free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/sidr-tax"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/sidr-tax"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "No integrations were extracted; this does not prove there are none.",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/sidr-tax"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/sidr-tax"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.sidr.io", "https://help.sidr.io"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the supported jurisdictions and check the relevant tax or invoice settings.",
+            "Review a sample transaction and document before enabling automation.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["tax-calculators", "sales-tax-automation", "tax-reporting-filing"],
+        "primary_category_id": "tax-calculators",
+        "seo": {
+          "title": "Sidr ‑ Sales Tax Automation Shopify App | eStorefy",
+          "meta_description": "A Shopify app for tax calculators. Listed functions include sales and refunds, sales tax.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/sidr-tax",
+          "retrieved_at": "2026-10-04T05:03:50.522953+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Accurate US sales tax registration, reporting, and automated filing. Hands-free tax returns.",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/sidr-tax"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "duty-and-tax-calculator",
+      "name": "DHL Duty and Tax Calculator",
+      "slug": "duty-and-tax-calculator",
+      "category_fit": {
+        "app_id": "duty-and-tax-calculator",
+        "selection_score": 5.1358,
+        "rating_evidence": {"value": 4.0, "reviews": 18},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["tax calculat", "calculate the duties and tax", "calculates duties and tax"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/duty-and-tax-calculator"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for tax calculators. Listed functions include flat fee, carrier-based.",
+        "description_long": "DHL Duty and Tax Calculator is developed by DHL and listed for shipping rates, taxes. Its structured listing identifies functions such as flat fee, carrier-based, customer-based, dimension-based. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Tax Calculators"],
+        "best_for": {
+          "use_cases": ["Tax Calculators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.0,
+        "review_count": 18,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/duty-and-tax-calculator",
+        "distribution": [
+          {"stars": 5, "percentage": 83, "count": 15},
+          {"stars": 4, "percentage": 11, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 6, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $50/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 50.0,
+            "billing_period": "month",
+            "price_display": "$50 / month",
+            "trial_days": 14,
+            "additional_charge_notes": [
+              "Includes 200 calls. $0.35 for additional calls above 200, Shopify CarrierService resource required."
+            ]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 200.0,
+            "billing_period": "month",
+            "price_display": "$200 / month",
+            "trial_days": 14,
+            "additional_charge_notes": [
+              "Includes 800 calls. $0.30 for additional calls above 800, Shopify CarrierService resource required."
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 600.0,
+            "billing_period": "month",
+            "price_display": "$600 / month",
+            "trial_days": 14,
+            "additional_charge_notes": [
+              "Includes 2500 calls. $0.25 for additional calls above 2500, Shopify CarrierService resource required."
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 50.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 21, 2021",
+        "shopify_categories": [
+          {
+            "name": "Shipping rates",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping-rates"
+          },
+          {"name": "Taxes", "url": "https://apps.shopify.com/categories/store-management-finances-taxes"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.shipping_rates.rate_calculation.flat_fee", "label": "Flat fee"},
+          {"handle": "cf.shipping_rates.rate_calculation.carrier_based", "label": "Carrier-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.customer_based", "label": "Customer-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.dimension_based", "label": "Dimension-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.product_based", "label": "Product-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.weight_based", "label": "Weight-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_zone", "label": "Multi-zone"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_origin", "label": "Multi-origin"},
+          {"handle": "cf.shipping_rates.customization.rename_options", "label": "Rename options"},
+          {"handle": "cf.shipping_rates.customization.reorder_rates", "label": "Reorder rates"},
+          {"handle": "cf.shipping_rates.customization.custom_rules", "label": "Custom rules"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Admin"]
+      },
+      "developer": {
+        "name": "DHL",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/dhl-paket-gmbh-vilango-gmbh",
+        "public_address": "Fritz-Erler-Str, Bonn, 53113, DE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/duty-and-tax-calculator",
+        "canonical_app_store_url": "https://apps.shopify.com/duty-and-tax-calculator",
+        "install_url": "https://apps.shopify.com/duty-and-tax-calculator",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.dhl.com/global-en/home/footer/privacy-notice.html",
+          "FAQ": "https://docs.dutyandtax.app/docs/app/app",
+          "App Documentation": "https://docs.dutyandtax.app/",
+          "DHL": "https://apps.shopify.com/partners/dhl-paket-gmbh-vilango-gmbh"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/d8b4563a2ae50396f0fdeb606ce50a93/icon/CJKC9sX0sP4CEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/d8b4563a2ae50396f0fdeb606ce50a93/promotional_image/COaL9qSwhIsDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d8b4563a2ae50396f0fdeb606ce50a93/desktop_screenshot/CKzbhozczocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d8b4563a2ae50396f0fdeb606ce50a93/desktop_screenshot/CLKTt9PewPUCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d8b4563a2ae50396f0fdeb606ce50a93/desktop_screenshot/CMXJkYzczocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d8b4563a2ae50396f0fdeb606ce50a93/desktop_screenshot/CPXhvcHdwPUCEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is DHL Duty and Tax Calculator free?",
+            "answer": "The pricing label retrieved from the listing is: From $50/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/duty-and-tax-calculator"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/duty-and-tax-calculator"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/duty-and-tax-calculator"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/duty-and-tax-calculator"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.dutyandtax.app/docs/app/app", "https://docs.dutyandtax.app/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the supported jurisdictions and check the relevant tax or invoice settings.",
+            "Review a sample transaction and document before enabling automation.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["tax-calculators"],
+        "primary_category_id": "tax-calculators",
+        "seo": {
+          "title": "DHL Duty and Tax Calculator Shopify App | eStorefy",
+          "meta_description": "A Shopify app for tax calculators. Listed functions include flat fee, carrier-based.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/duty-and-tax-calculator",
+          "retrieved_at": "2026-10-04T05:31:11.605071+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Simplify cross-border sales! Our app calculates duties and taxes in real time,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/duty-and-tax-calculator"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "breezyfile",
+      "name": "Sales Tax Filings ‑ BreezyFile",
+      "slug": "breezyfile",
+      "category_fit": {
+        "app_id": "breezyfile",
+        "selection_score": 5.0779,
+        "rating_evidence": {"value": 5.0, "reviews": 40},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["tax owed & accurate"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/breezyfile"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for tax calculators. Listed functions include liability calculation, threshold tracking.",
+        "description_long": "Sales Tax Filings ‑ BreezyFile is developed by BreezyFile and listed for taxes. Its structured listing identifies functions such as liability calculation, threshold tracking, tax rates, exemption managment. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Tax Calculators", "Sales Tax Automation", "Tax Reporting & Filing"],
+        "best_for": {
+          "use_cases": ["Tax Calculators", "Sales Tax Automation", "Tax Reporting & Filing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 40,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/breezyfile",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 40},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": ["$75 per filing, $150 per registration"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.breezyfile.com/#pricing",
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 30, 2024",
+        "shopify_categories": [
+          {"name": "Taxes", "url": "https://apps.shopify.com/categories/store-management-finances-taxes"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.taxes.liability_tracking.liability_calculation", "label": "Liability calculation"},
+          {"handle": "cf.taxes.liability_tracking.threshold_tracking", "label": "Threshold tracking"},
+          {"handle": "cf.taxes.tax_calcluation.tax_rates", "label": "Tax rates"},
+          {"handle": "cf.taxes.tax_calcluation.exemption_managment", "label": "Exemption managment"},
+          {"handle": "cf.taxes.registration.tax_registration", "label": "Tax registration"},
+          {"handle": "cf.taxes.registration.us_sales_tax", "label": "US (Sales tax)"},
+          {"handle": "cf.taxes.reporting_and_filing.compliance_reporting", "label": "Compliance reporting"},
+          {"handle": "cf.taxes.reporting_and_filing.multi_state_filing", "label": "Multi-state filing"},
+          {"handle": "cf.taxes.reporting_and_filing.sst_filing", "label": "SST filing"},
+          {"handle": "cf.taxes.reporting_and_filing.local_tax_returns", "label": "Local tax returns"},
+          {"handle": "cf.taxes.reporting_and_filing.data_export", "label": "Data export"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "BreezyFile",
+        "website_url": "https://breezyfile.com",
+        "partner_url": "https://apps.shopify.com/partners/breezyfile",
+        "public_address": "904 Messer St., Rhinelander, WI, 54501, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/breezyfile",
+        "canonical_app_store_url": "https://apps.shopify.com/breezyfile",
+        "install_url": "https://apps.shopify.com/breezyfile",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.breezyfile.com/privacy-policy",
+          "BreezyFile": "https://apps.shopify.com/partners/breezyfile",
+          "Website": "https://breezyfile.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/1a8f0b6483d73c7ec3e6e1bc9fd824df/icon/CI-gv_zL94cDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/1a8f0b6483d73c7ec3e6e1bc9fd824df/desktop_screenshot/CMf1vI3tvZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1a8f0b6483d73c7ec3e6e1bc9fd824df/desktop_screenshot/CIfixo3tvZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1a8f0b6483d73c7ec3e6e1bc9fd824df/desktop_screenshot/CPzlz43tvZMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1a8f0b6483d73c7ec3e6e1bc9fd824df/desktop_screenshot/CICW4Y3tvZMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/-o7mZuynhDg"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Sales Tax Filings ‑ BreezyFile free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/breezyfile"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/breezyfile"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/breezyfile"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/breezyfile"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the supported jurisdictions and check the relevant tax or invoice settings.",
+            "Review a sample transaction and document before enabling automation.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["tax-calculators", "sales-tax-automation", "tax-reporting-filing"],
+        "primary_category_id": "tax-calculators",
+        "seo": {
+          "title": "Sales Tax Filings ‑ BreezyFile Shopify App | eStorefy",
+          "meta_description": "A Shopify app for tax calculators. Listed functions include liability calculation, threshold tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/breezyfile",
+          "retrieved_at": "2026-10-04T05:03:43.670563+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Complete the Shopify Tax suite with BreezyFile. Automate filings and registrations tailored…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/breezyfile"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "enhance-vat-dual-pricing",
+      "name": "Enhance: VAT Dual Prices B2B",
+      "slug": "enhance-vat-dual-pricing",
+      "category_fit": {
+        "app_id": "enhance-vat-dual-pricing",
+        "selection_score": 5.0589,
+        "rating_evidence": {"value": 4.9, "reviews": 53},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["tax rate"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/enhance-vat-dual-pricing"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for tax calculators. Listed functions include tax rates.",
+        "description_long": "Enhance: VAT Dual Prices B2B is developed by Enhance Merchants and listed for pricing - other, taxes. Its structured listing identifies functions such as tax rates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Tax Calculators"],
+        "best_for": {
+          "use_cases": ["Tax Calculators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 53,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/enhance-vat-dual-pricing",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 52},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $4.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic Shopify",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard Shopify",
+            "amount_usd": 5.99,
+            "billing_period": "month",
+            "price_display": "$5.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advance Shopify",
+            "amount_usd": 7.99,
+            "billing_period": "month",
+            "price_display": "$7.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Plus Shopify",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 9, 2024",
+        "shopify_categories": [
+          {
+            "name": "Pricing - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-pricing-pricing-other"
+          },
+          {"name": "Taxes", "url": "https://apps.shopify.com/categories/store-management-finances-taxes"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.taxes.tax_calcluation.tax_rates", "label": "Tax rates"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "Enhance Merchants",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/enhance-merchants-app",
+        "public_address": "54-1 Maulana Shaukat Ali Rd, Township Block 1 Sector B 1, Lahore, 54770, PK"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/enhance-vat-dual-pricing",
+        "canonical_app_store_url": "https://apps.shopify.com/enhance-vat-dual-pricing",
+        "install_url": "https://apps.shopify.com/enhance-vat-dual-pricing",
+        "demo_store_url": "https://enhance-vat-dual-pricing.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://enhancemerchants.com/privacy-policy",
+          "Enhance Merchants": "https://apps.shopify.com/partners/enhance-merchants-app"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/a82cf47e34dccc62b6073fb912c785a3/icon/CM68zLzlzYMDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/a82cf47e34dccc62b6073fb912c785a3/promotional_image/CPrLh8rwzYMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a82cf47e34dccc62b6073fb912c785a3/desktop_screenshot/COWM1Oz0zYMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a82cf47e34dccc62b6073fb912c785a3/desktop_screenshot/CKTG3ez0zYMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a82cf47e34dccc62b6073fb912c785a3/desktop_screenshot/CPfv5uz0zYMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a82cf47e34dccc62b6073fb912c785a3/desktop_screenshot/CPvQ7-z0zYMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a82cf47e34dccc62b6073fb912c785a3/desktop_screenshot/CIyvwYSC0IMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a82cf47e34dccc62b6073fb912c785a3/desktop_screenshot/CK2YyoSC0IMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Enhance: VAT Dual Prices B2B free?",
+            "answer": "The pricing label retrieved from the listing is: From $4.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/enhance-vat-dual-pricing"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/enhance-vat-dual-pricing"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/enhance-vat-dual-pricing"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/enhance-vat-dual-pricing"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the supported jurisdictions and check the relevant tax or invoice settings.",
+            "Review a sample transaction and document before enabling automation.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["tax-calculators"],
+        "primary_category_id": "tax-calculators",
+        "seo": {
+          "title": "Enhance: VAT Dual Prices B2B Shopify App | eStorefy",
+          "meta_description": "A Shopify app for tax calculators. Listed functions include tax rates.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/enhance-vat-dual-pricing",
+          "retrieved_at": "2026-10-04T05:03:57.559615+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Display dual prices of the product. Show tax included and tax excluded…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/enhance-vat-dual-pricing"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

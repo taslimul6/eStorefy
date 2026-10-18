@@ -40,7 +40,7 @@ export default function FilterSidebar({ agencies, cities }) {
           <option value="">All cities</option>
           {cities.map((city) => (
             <option key={city.id} value={city.id}>
-              {city.name}
+              {city.fullName || city.name}
             </option>
           ))}
         </select>
@@ -58,6 +58,8 @@ export default function FilterSidebar({ agencies, cities }) {
           <option value="agency">Agency</option>
           <option value="freelancer">Freelancer</option>
           <option value="creator">Independent creator</option>
+          <option value="independent_developer">Independent developer</option>
+          <option value="consultant_expert">Consultant / expert</option>
         </select>
       </div>
       <div>

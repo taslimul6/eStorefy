@@ -1,0 +1,3138 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "fraud-prevention",
+    "number": 96,
+    "name": "Fraud Prevention",
+    "group": "Security & Store Data",
+    "slug": "fraud-prevention",
+    "url_path": "/apps/fraud-prevention",
+    "focus": "Protect store operations and preserve or transfer store data.",
+    "description": "Compare Shopify apps for fraud prevention. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/store-management-security-fraud/all"],
+    "seo": {
+      "title": "Shopify Fraud Prevention Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for fraud prevention: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a fraud prevention app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "blockify",
+      "name": "Blockify Fraud Filter, Blocker",
+      "slug": "blockify",
+      "category_fit": {
+        "app_id": "blockify",
+        "selection_score": 6.0676,
+        "rating_evidence": {"value": 4.9, "reviews": 1753},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["block", "fraud", "bot"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/blockify"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for checkout validation. Listed functions include bots, chargebacks.",
+        "description_long": "Blockify Fraud Filter, Blocker is developed by Blockify and listed for fraud, geolocation. Its structured listing identifies functions such as bots, chargebacks, fake accounts, blocklists. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Checkout Validation", "Event Tickets", "Geolocation & Country Redirects", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Checkout Validation", "Event Tickets", "Geolocation & Country Redirects", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1753,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/blockify",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 1},
+          {"stars": 4, "percentage": 3, "count": 54},
+          {"stars": 3, "percentage": 0, "count": 5},
+          {"stars": 2, "percentage": 0, "count": 6},
+          {"stars": 1, "percentage": 2, "count": 31}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PREMIUM",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.90/year and save 20%"]
+          },
+          {
+            "name": "ENTERPRISE",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $215.89/year and save 10%"]
+          },
+          {
+            "name": "SHOPIFY PLUS",
+            "amount_usd": 39.99,
+            "billing_period": "month",
+            "price_display": "$39.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $431.89/year and save 10%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://blockifyapp.com/pricing/?app=fraud",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 13, 2018",
+        "shopify_categories": [
+          {"name": "Fraud", "url": "https://apps.shopify.com/categories/store-management-security-fraud"},
+          {
+            "name": "Geolocation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-geolocation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.fraud.fraud_types.bots", "label": "Bots"},
+          {"handle": "cf.fraud.fraud_types.chargebacks", "label": "Chargebacks"},
+          {"handle": "cf.fraud.fraud_types.fake_accounts", "label": "Fake accounts"},
+          {"handle": "cf.fraud.prevention_tools.blocklists", "label": "Blocklists"},
+          {"handle": "cf.fraud.prevention_tools.geolocation_redirects", "label": "Geolocation redirects"},
+          {"handle": "cf.fraud.prevention_tools.content_protection", "label": "Content protection"},
+          {"handle": "cf.fraud.prevention_tools.spam_blocking", "label": "Spam blocking"},
+          {"handle": "cf.fraud.prevention_tools.bot_detection", "label": "Bot detection"},
+          {"handle": "cf.fraud.prevention_tools.fraud_filters", "label": "Fraud filters"},
+          {"handle": "cf.fraud.alerts_and_analytics.fraud_notifications", "label": "Fraud notifications"},
+          {"handle": "cf.fraud.alerts_and_analytics.visitor_analytics", "label": "Visitor analytics"},
+          {"handle": "cf.fraud.alerts_and_analytics.risk_reports", "label": "Risk reports"},
+          {"handle": "cf.geolocation.blocking.countries", "label": "Countries"},
+          {"handle": "cf.geolocation.blocking.states", "label": "States"},
+          {"handle": "cf.geolocation.blocking.cities", "label": "Cities"},
+          {"handle": "cf.geolocation.blocking.bots", "label": "Bots"},
+          {"handle": "cf.geolocation.blocking.ip_addresses", "label": "IP addresses"},
+          {"handle": "cf.geolocation.blocking.vpns", "label": "VPNs"},
+          {"handle": "cf.geolocation.blocking.proxies", "label": "Proxies"},
+          {"handle": "cf.geolocation.blocking.whitelist", "label": "Whitelist"},
+          {"handle": "cf.geolocation.redirects.ip_address", "label": "IP address"},
+          {"handle": "cf.geolocation.redirects.country", "label": "Country"},
+          {"handle": "cf.geolocation.redirects.auto_redirect", "label": "Auto-redirect"},
+          {"handle": "cf.geolocation.redirects.manual_redirect", "label": "Manual redirect"},
+          {"handle": "cf.geolocation.redirects.tracking", "label": "Tracking"},
+          {"handle": "cf.geolocation.localization_settings.country_selector", "label": "Country selector"}
+        ],
+        "languages": [
+          "English",
+          " Hindi",
+          " Chinese (Simplified)",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Spanish",
+          " French",
+          " Italian",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Checkout UI",
+          "Fraud Filter",
+          "Fraud Order Analytics",
+          "IP & Country Blocker",
+          "Klaviyo",
+          "Visitor Analytics"
+        ]
+      },
+      "developer": {
+        "name": "Blockify",
+        "website_url": "https://blockifyapp.com/",
+        "partner_url": "https://apps.shopify.com/partners/blockify",
+        "public_address": "18/11 Thai Ha, Ha Noi, 70000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/blockify",
+        "canonical_app_store_url": "https://apps.shopify.com/blockify",
+        "install_url": "https://apps.shopify.com/blockify",
+        "demo_store_url": "https://blockify-demo-store.myshopify.com/pages/regular-mar-17-2025",
+        "resources": {
+          "Privacy policy": "https://www.omegatheme.com/privacy-policy-app",
+          "Blockify": "https://apps.shopify.com/partners/blockify",
+          "Website": "https://blockifyapp.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/icon/CKv3zsyr-vcCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/promotional_image/CIHu0a-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CM6W26-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CNnA5a-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CNHT7q-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CIHK96-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CMTagLCq_5YDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Blockify Fraud Filter, Blocker free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/blockify"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Hindi,  Chinese (Simplified),  Portuguese (Brazil),  Portuguese (Portugal),  Spanish,  French,  Italian,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/blockify"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Flow, Shopify Admin, Checkout UI, Fraud Filter, Fraud Order Analytics, IP & Country Blocker, Klaviyo, Visitor Analytics",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/blockify"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/blockify"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the cart or checkout conditions in a draft or test configuration.",
+            "Test an eligible and an ineligible cart to confirm the rule behaviour.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["checkout-validation", "event-tickets", "geolocation-country-redirects", "fraud-prevention"],
+        "primary_category_id": "checkout-validation",
+        "seo": {
+          "title": "Blockify Fraud Filter, Blocker Shopify App | eStorefy",
+          "meta_description": "A Shopify app for checkout validation. Listed functions include bots, chargebacks.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/blockify",
+          "retrieved_at": "2026-10-04T05:27:17.179696+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Blockify: Fraud IP Blocker by Synctrack helps protect your store, fraud filter,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/blockify"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "mida-fraud-ip-blocker",
+      "name": "MIDA Fraud Filter, Bot Blocker",
+      "slug": "mida-fraud-ip-blocker",
+      "category_fit": {
+        "app_id": "mida-fraud-ip-blocker",
+        "selection_score": 5.9993,
+        "rating_evidence": {"value": 4.9, "reviews": 519},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["fraud", "bot", "block"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/mida-fraud-ip-blocker"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for checkout validation. Listed functions include bots, chargebacks.",
+        "description_long": "MIDA Fraud Filter, Bot Blocker is developed by MIDA and listed for fraud, geolocation. Its structured listing identifies functions such as bots, chargebacks, fake accounts, phishing. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Checkout Validation", "Fraud Prevention", "Content Protection"],
+        "best_for": {
+          "use_cases": ["Checkout Validation", "Fraud Prevention", "Content Protection"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 519,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/mida-fraud-ip-blocker",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 499},
+          {"stars": 4, "percentage": 2, "count": 10},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 9}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 19, 2025",
+        "shopify_categories": [
+          {"name": "Fraud", "url": "https://apps.shopify.com/categories/store-management-security-fraud"},
+          {
+            "name": "Geolocation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-geolocation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.fraud.fraud_types.bots", "label": "Bots"},
+          {"handle": "cf.fraud.fraud_types.chargebacks", "label": "Chargebacks"},
+          {"handle": "cf.fraud.fraud_types.fake_accounts", "label": "Fake accounts"},
+          {"handle": "cf.fraud.fraud_types.phishing", "label": "Phishing"},
+          {"handle": "cf.fraud.prevention_tools.blocklists", "label": "Blocklists"},
+          {"handle": "cf.fraud.prevention_tools.geolocation_redirects", "label": "Geolocation redirects"},
+          {"handle": "cf.fraud.prevention_tools.content_protection", "label": "Content protection"},
+          {"handle": "cf.fraud.prevention_tools.spam_blocking", "label": "Spam blocking"},
+          {"handle": "cf.fraud.prevention_tools.bot_detection", "label": "Bot detection"},
+          {"handle": "cf.fraud.prevention_tools.fraud_filters", "label": "Fraud filters"},
+          {"handle": "cf.fraud.alerts_and_analytics.high_risk_alerts", "label": "High-risk alerts"},
+          {"handle": "cf.fraud.alerts_and_analytics.fraud_notifications", "label": "Fraud notifications"},
+          {"handle": "cf.fraud.alerts_and_analytics.visitor_analytics", "label": "Visitor analytics"},
+          {"handle": "cf.geolocation.blocking.countries", "label": "Countries"},
+          {"handle": "cf.geolocation.blocking.states", "label": "States"},
+          {"handle": "cf.geolocation.blocking.cities", "label": "Cities"},
+          {"handle": "cf.geolocation.blocking.bots", "label": "Bots"},
+          {"handle": "cf.geolocation.blocking.ip_addresses", "label": "IP addresses"},
+          {"handle": "cf.geolocation.blocking.vpns", "label": "VPNs"},
+          {"handle": "cf.geolocation.blocking.proxies", "label": "Proxies"},
+          {"handle": "cf.geolocation.blocking.whitelist", "label": "Whitelist"},
+          {"handle": "cf.geolocation.redirects.ip_address", "label": "IP address"},
+          {"handle": "cf.geolocation.redirects.country", "label": "Country"},
+          {"handle": "cf.geolocation.redirects.pop_up_widget", "label": "Pop-up widget"},
+          {"handle": "cf.geolocation.redirects.auto_redirect", "label": "Auto-redirect"},
+          {"handle": "cf.geolocation.redirects.manual_redirect", "label": "Manual redirect"},
+          {"handle": "cf.geolocation.redirects.tracking", "label": "Tracking"},
+          {"handle": "cf.geolocation.redirects.analytics", "label": "Analytics"},
+          {"handle": "cf.geolocation.localization_settings.country_selector", "label": "Country selector"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Analytics Apps",
+          "Checkout Apps",
+          "Fraud Order Analytics Apps",
+          "IP & Country Blocker Apps",
+          "MIDA Replay Heatmaps",
+          "Security Apps"
+        ]
+      },
+      "developer": {
+        "name": "MIDA",
+        "website_url": "https://mida-app.io/",
+        "partner_url": "https://apps.shopify.com/partners/mida-by-bss-commerce",
+        "public_address": "Singapore, SG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/mida-fraud-ip-blocker",
+        "canonical_app_store_url": "https://apps.shopify.com/mida-fraud-ip-blocker",
+        "install_url": "https://apps.shopify.com/mida-fraud-ip-blocker",
+        "demo_store_url": "https://mida-fraud-demo-1.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://mida-app.io/privacy-policy/",
+          "FAQ": "https://docs.mida-app.io/fraud-filter/faq/how-does-mida-detect-vpns-and-proxies/",
+          "Tutorial": "https://docs.mida-app.io/fraud-filter/overview/app-embeded/",
+          "App Documentation": "https://docs.mida-app.io/",
+          "MIDA": "https://apps.shopify.com/partners/mida-by-bss-commerce",
+          "Website": "https://mida-app.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/1188f0cb74707478f04a7ab4f9563933/icon/CMqW-bav1ZEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/1188f0cb74707478f04a7ab4f9563933/promotional_image/COHkhs6ZwpUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1188f0cb74707478f04a7ab4f9563933/desktop_screenshot/CMn-25yvwJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1188f0cb74707478f04a7ab4f9563933/desktop_screenshot/CPX45ZyvwJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1188f0cb74707478f04a7ab4f9563933/desktop_screenshot/CJTN8JyvwJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1188f0cb74707478f04a7ab4f9563933/desktop_screenshot/CKDJ-ZyvwJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1188f0cb74707478f04a7ab4f9563933/desktop_screenshot/CIbxgp2vwJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1188f0cb74707478f04a7ab4f9563933/desktop_screenshot/CKOejJ2vwJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1188f0cb74707478f04a7ab4f9563933/mobile_screenshot/CMq3lp2vwJUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is MIDA Fraud Filter, Bot Blocker free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/mida-fraud-ip-blocker"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/mida-fraud-ip-blocker"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Analytics Apps, Checkout Apps, Fraud Order Analytics Apps, IP & Country Blocker Apps, MIDA Replay Heatmaps, Security Apps",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/mida-fraud-ip-blocker"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/mida-fraud-ip-blocker"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.mida-app.io/fraud-filter/faq/how-does-mida-detect-vpns-and-proxies/",
+            "https://docs.mida-app.io/fraud-filter/overview/app-embeded/",
+            "https://docs.mida-app.io/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the cart or checkout conditions in a draft or test configuration.",
+            "Test an eligible and an ineligible cart to confirm the rule behaviour.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["checkout-validation", "fraud-prevention", "content-protection"],
+        "primary_category_id": "checkout-validation",
+        "seo": {
+          "title": "MIDA Fraud Filter, Bot Blocker Shopify App | eStorefy",
+          "meta_description": "A Shopify app for checkout validation. Listed functions include bots, chargebacks.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/mida-fraud-ip-blocker",
+          "retrieved_at": "2026-10-04T05:27:17.301193+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "MIDA Fraud Filter, IP Blocker helps Shopify stores block VPNs, filter IP…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/mida-fraud-ip-blocker"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "smart-checkout-rules",
+      "name": "SMART Checkout Rules & Upsells",
+      "slug": "smart-checkout-rules",
+      "category_fit": {
+        "app_id": "smart-checkout-rules",
+        "selection_score": 5.9718,
+        "rating_evidence": {"value": 5.0, "reviews": 781},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["block"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/smart-checkout-rules"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for upsell & cross-sell. Listed functions include checkout upsell, announcement bar.",
+        "description_long": "SMART Checkout Rules & Upsells is developed by SMART Upsells & Checkout and listed for checkout - other, upsell and cross-sell. Its structured listing identifies functions such as checkout upsell, announcement bar, thank you page upsell, one-click add-ons. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Upsell & Cross-sell", "Checkout Customization", "Checkout Validation", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Upsell & Cross-sell", "Checkout Customization", "Checkout Validation", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 781,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/smart-checkout-rules",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 766},
+          {"stars": 4, "percentage": 2, "count": 12},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 11, 2024",
+        "shopify_categories": [
+          {
+            "name": "Checkout - Other",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-checkout-checkout-other"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.upsell_and_cross_sell.customization.checkout_upsell", "label": "Checkout upsell"},
+          {"handle": "cf.upsell_and_cross_sell.customization.announcement_bar", "label": "Announcement bar"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.thank_you_page_upsell",
+            "label": "Thank you page upsell"
+          },
+          {"handle": "cf.upsell_and_cross_sell.customization.one_click_add_ons", "label": "One-click add-ons"},
+          {"handle": "cf.upsell_and_cross_sell.customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.upsell_and_cross_sell.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.upsell_and_cross_sell.customization.custom_html", "label": "Custom HTML"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.drag_and_drop_editor",
+            "label": "Drag-and-drop editor"
+          },
+          {"handle": "cf.upsell_and_cross_sell.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.upsell_and_cross_sell.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.upsell_and_cross_sell.customization.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.upsell_and_cross_sell.offers_and_recommendations.free_gift", "label": "Free gifts"},
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.free_shipping",
+            "label": "Free shipping"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.product_add_ons",
+            "label": "Product add-ons"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.product_recommendations",
+            "label": "Product recommendations"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.frequently_bought_together",
+            "label": "Frequently bought together"
+          },
+          {"handle": "cf.upsell_and_cross_sell.offers_and_recommendations.bundles", "label": "Bundles"},
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.volume_discounts",
+            "label": "Volume discounts"
+          },
+          {"handle": "cf.upsell_and_cross_sell.analytics.click_through_rates", "label": "Click-through rates"},
+          {"handle": "cf.upsell_and_cross_sell.analytics.conversion_rates", "label": "Conversion rates"},
+          {"handle": "cf.upsell_and_cross_sell.analytics.funnel_performance", "label": "Funnel performance"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " Spanish",
+          " French",
+          " Hindi",
+          " Japanese",
+          " Korean",
+          " Dutch",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Russian",
+          " Turkish",
+          " Chinese (Traditional)",
+          " Chinese (Simplified)",
+          " Italian",
+          " Croatian",
+          " and Lithuanian"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "Checkout customizations",
+          "Checkout validation & blocking",
+          "Delivery customizations",
+          "Discounts",
+          "Post purchase upsell",
+          "Thank you page"
+        ]
+      },
+      "developer": {
+        "name": "SMART Upsells & Checkout",
+        "website_url": "https://etradepartner.io/",
+        "partner_url": "https://apps.shopify.com/partners/smart-upsells-checkout",
+        "public_address": "Hoża 86/410, Warszawa, 00-682, PL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/smart-checkout-rules",
+        "canonical_app_store_url": "https://apps.shopify.com/smart-checkout-rules",
+        "install_url": "https://apps.shopify.com/smart-checkout-rules",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://etradepartner.io/privacy-policy",
+          "SMART Upsells & Checkout": "https://apps.shopify.com/partners/smart-upsells-checkout",
+          "Website": "https://etradepartner.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/3ce631a17a3d3971098de066fd4feb12/icon/CPr02fuOtIgDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/3ce631a17a3d3971098de066fd4feb12/promotional_image/CLWU2ZTMspYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3ce631a17a3d3971098de066fd4feb12/desktop_screenshot/CIfOw4665JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3ce631a17a3d3971098de066fd4feb12/desktop_screenshot/CMi_htm55JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3ce631a17a3d3971098de066fd4feb12/desktop_screenshot/CKSdkNm55JQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is SMART Checkout Rules & Upsells free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/smart-checkout-rules"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  Spanish,  French,  Hindi,  Japanese,  Korean,  Dutch,  Polish,  Portuguese (Brazil),  Portuguese (Portugal),  Russian,  Turkish,  Chinese (Traditional),  Chinese (Simplified),  Italian,  Croatian,  and Lithuanian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/smart-checkout-rules"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, Checkout customizations, Checkout validation & blocking, Delivery customizations, Discounts, Post purchase upsell, Thank you page",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/smart-checkout-rules"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/smart-checkout-rules"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select eligible products and set the offer conditions.",
+            "Preview the offer and test cart totals on a sample order.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["upsell-cross-sell", "checkout-customization", "checkout-validation", "fraud-prevention"],
+        "primary_category_id": "upsell-cross-sell",
+        "seo": {
+          "title": "SMART Checkout Rules & Upsells Shopify App | eStorefy",
+          "meta_description": "A Shopify app for upsell & cross-sell. Listed functions include checkout upsell, announcement bar.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/smart-checkout-rules",
+          "retrieved_at": "2026-10-04T05:07:22.414570+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/smart-checkout-rules"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "section-factory",
+      "name": "Section Store: Theme Sections",
+      "slug": "section-factory",
+      "category_fit": {
+        "app_id": "section-factory",
+        "selection_score": 5.9432,
+        "rating_evidence": {"value": 4.9, "reviews": 2963},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["block"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/section-factory"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for theme sections. Listed functions include landing pages, home pages.",
+        "description_long": "Section Store: Theme Sections is developed by Section Store and listed for page builder, storefronts - other. Its structured listing identifies functions such as landing pages, home pages, product pages, collections. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Theme Sections", "Cart Drawers & Cart Upsells", "Checkout Validation", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Theme Sections", "Cart Drawers & Cart Upsells", "Checkout Validation", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 2963,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/section-factory",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 2},
+          {"stars": 4, "percentage": 3, "count": 94},
+          {"stars": 3, "percentage": 1, "count": 29},
+          {"stars": 2, "percentage": 0, "count": 11},
+          {"stars": 1, "percentage": 2, "count": 48}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Section Store",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Section Store Plus",
+            "amount_usd": 15.0,
+            "billing_period": "month",
+            "price_display": "$15 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 15.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 29, 2022",
+        "shopify_categories": [
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          },
+          {
+            "name": "Storefronts - Other",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-storefronts-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.collections", "label": "Collections"},
+          {"handle": "cf.page_builder.page_types.coming_soon_pages", "label": "Coming soon pages"},
+          {"handle": "cf.page_builder.page_types.blogs", "label": "Blogs"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.help_center_pages", "label": "Help center pages"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.cart_pages", "label": "Cart pages"},
+          {"handle": "cf.page_builder.page_types.thank_you_pages", "label": "Thank you pages"},
+          {"handle": "cf.page_builder.page_types.footers", "label": "Footers"},
+          {"handle": "cf.page_builder.page_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.page_builder.page_types.forms", "label": "Forms"},
+          {"handle": "cf.page_builder.page_types.404_pages", "label": "404 pages"},
+          {"handle": "cf.page_builder.page_types.press_pages", "label": "Press pages"},
+          {"handle": "cf.page_builder.page_types.career_pages", "label": "Career pages"},
+          {"handle": "cf.page_builder.page_types.reviews_page", "label": "Reviews page"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.save_pages", "label": "Save pages"},
+          {"handle": "cf.page_builder.managing_pages.draft_pages", "label": "Draft pages"},
+          {"handle": "cf.page_builder.managing_pages.global_sections", "label": "Global sections"},
+          {"handle": "cf.page_builder.managing_pages.custom_code", "label": "Custom code"},
+          {"handle": "cf.page_builder.managing_pages.ai_generation", "label": "AI generation"},
+          {"handle": "cf.page_builder.managing_pages.seo", "label": "SEO"}
+        ],
+        "languages": ["English", " French", " German", " and Spanish"],
+        "works_with": ["Checkout", "Shopify Admin", "bundles", "Theme Editor"]
+      },
+      "developer": {
+        "name": "Section Store",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/appify-ivs",
+        "public_address": "Sheridan, WY, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/section-factory",
+        "canonical_app_store_url": "https://apps.shopify.com/section-factory",
+        "install_url": "https://apps.shopify.com/section-factory",
+        "demo_store_url": "https://section.store/pages/all-sections",
+        "resources": {
+          "Privacy policy": "https://section.store/pages/section-store-privacy-policy",
+          "Section Store": "https://apps.shopify.com/partners/appify-ivs"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9379d0b061b8a54c2b057c1fa14544c8/icon/COmvw8en_vYCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9379d0b061b8a54c2b057c1fa14544c8/promotional_image/CLTahI6htpUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9379d0b061b8a54c2b057c1fa14544c8/desktop_screenshot/CPqUltShtpUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9379d0b061b8a54c2b057c1fa14544c8/desktop_screenshot/CMa1n9ShtpUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9379d0b061b8a54c2b057c1fa14544c8/desktop_screenshot/CIGyqdShtpUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9379d0b061b8a54c2b057c1fa14544c8/desktop_screenshot/CKeastShtpUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Section Store: Theme Sections free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/section-factory"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  German,  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/section-factory"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, bundles, Theme Editor",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/section-factory"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/section-factory"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["theme-sections", "cart-drawers-cart-upsells", "checkout-validation", "fraud-prevention"],
+        "primary_category_id": "theme-sections",
+        "seo": {
+          "title": "Section Store: Theme Sections Shopify App | eStorefy",
+          "meta_description": "A Shopify app for theme sections. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/section-factory",
+          "retrieved_at": "2026-10-04T05:13:27.336601+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "700+ Sections, Cart Drawer, Bundles, Mix & Match and Quantity Breaks &…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/section-factory"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "moosedesk",
+      "name": "Moose AI Chatbot & Live Chat",
+      "slug": "moosedesk",
+      "category_fit": {
+        "app_id": "moosedesk",
+        "selection_score": 5.9408,
+        "rating_evidence": {"value": 5.0, "reviews": 484},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["bot"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/moosedesk"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for live chat. Listed functions include ai chatbots, live chat.",
+        "description_long": "Moose AI Chatbot & Live Chat is developed by Vegahub Technology Inc. and listed for chat, faq. Its structured listing identifies functions such as ai chatbots, live chat, email chat, social media. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Live Chat", "AI Customer Support Chatbots", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Live Chat", "AI Customer Support Chatbots", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 484,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/moosedesk",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 475},
+          {"stars": 4, "percentage": 2, "count": 8},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Forever",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Business",
+            "amount_usd": 249.0,
+            "billing_period": "month",
+            "price_display": "$249 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://moosedesk.com/pricing/?utm_source=applisting&utm_medium=plan&utm_campaign=MC",
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 22, 2023",
+        "shopify_categories": [
+          {"name": "Chat", "url": "https://apps.shopify.com/categories/store-management-support-chat"},
+          {"name": "FAQ", "url": "https://apps.shopify.com/categories/store-management-support-faq"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.chat.real_time_messaging.ai_chatbots", "label": "AI chatbots"},
+          {"handle": "cf.chat.real_time_messaging.live_chat", "label": "Live chat"},
+          {"handle": "cf.chat.real_time_messaging.email_chat", "label": "Email chat"},
+          {"handle": "cf.chat.real_time_messaging.social_media", "label": "Social media"},
+          {"handle": "cf.chat.real_time_messaging.file_uploads", "label": "File upload"},
+          {"handle": "cf.chat.real_time_messaging.multi_language", "label": "Multi-language"},
+          {"handle": "cf.chat.real_time_messaging.push_notifications", "label": "Push notifications"},
+          {"handle": "cf.chat.real_time_messaging.customer_insights", "label": "Customer insights"},
+          {"handle": "cf.chat.automated_responses.faqs", "label": "FAQs"},
+          {"handle": "cf.chat.automated_responses.greetings", "label": "Greetings"},
+          {
+            "handle": "cf.chat.automated_responses.product_recommendations",
+            "label": "Product recommendations"
+          },
+          {"handle": "cf.chat.automated_responses.quick_replies", "label": "Quick replies"},
+          {"handle": "cf.chat.automated_responses.send_transcript", "label": "Send transcript"},
+          {"handle": "cf.chat.customization.color_and_font", "label": "Color and font"},
+          {"handle": "cf.chat.customization.emojis_and_stickers", "label": "Emojis and stickers"},
+          {"handle": "cf.chat.customization.chat_window", "label": "Chat window"},
+          {"handle": "cf.chat.customization.business_hours", "label": "Business hours"},
+          {"handle": "cf.chat.customization.welcome_messages", "label": "Welcome messages"},
+          {"handle": "cf.chat.customization.chat_buttons", "label": "Chat buttons"},
+          {"handle": "cf.chat.customization.tagging", "label": "Tagging"},
+          {"handle": "cf.chat.customization.chat_assignment", "label": "Chat assignment"},
+          {"handle": "cf.chat.customization.agent_avatar", "label": "Agent avatar"},
+          {"handle": "cf.faq.editing_tools.rich_text_editor", "label": "Rich text editor"},
+          {"handle": "cf.faq.editing_tools.custom_url", "label": "Custom URL"},
+          {"handle": "cf.faq.editing_tools.images", "label": "Images"},
+          {"handle": "cf.faq.display_options.custom_templates", "label": "Custom templates"},
+          {"handle": "cf.faq.display_options.faq_page", "label": "FAQ page"},
+          {"handle": "cf.faq.display_options.search_bar", "label": "Search bar"},
+          {"handle": "cf.faq.display_options.instant_answers", "label": "Instant answers"},
+          {"handle": "cf.faq.display_options.mobile_responsive", "label": "Mobile responsive"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin", "BON Loyalty", "Email", "Livechat", "UpPromote Affiliate Marketing"]
+      },
+      "developer": {
+        "name": "Vegahub Technology Inc.",
+        "website_url": "https://moosedesk.com/",
+        "partner_url": "https://apps.shopify.com/partners/moose-innovations-inc",
+        "public_address": "Oakville, ON, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/moosedesk",
+        "canonical_app_store_url": "https://apps.shopify.com/moosedesk",
+        "install_url": "https://apps.shopify.com/moosedesk",
+        "demo_store_url": "https://moosedesk-demo-store.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://moosedesk.com/docs/moosedesk-policy/",
+          "FAQ": "https://moosedesk.com/docs/",
+          "Tutorial": "https://www.youtube.com/@getmoosedesk",
+          "Vegahub Technology Inc.": "https://apps.shopify.com/partners/moose-innovations-inc",
+          "Website": "https://moosedesk.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/d2676c33fa9d7ec9e2284b03d6a4d0bb/icon/CMiP-dXQ9v8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/d2676c33fa9d7ec9e2284b03d6a4d0bb/promotional_image/CLj0qKbqhpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d2676c33fa9d7ec9e2284b03d6a4d0bb/desktop_screenshot/CM68tabqhpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d2676c33fa9d7ec9e2284b03d6a4d0bb/desktop_screenshot/CPy6wabqhpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d2676c33fa9d7ec9e2284b03d6a4d0bb/desktop_screenshot/COvSz6bqhpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d2676c33fa9d7ec9e2284b03d6a4d0bb/desktop_screenshot/CJnO2abqhpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d2676c33fa9d7ec9e2284b03d6a4d0bb/desktop_screenshot/CK_E56bqhpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d2676c33fa9d7ec9e2284b03d6a4d0bb/desktop_screenshot/CKvz9KbqhpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d2676c33fa9d7ec9e2284b03d6a4d0bb/mobile_screenshot/CPacg6fqhpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d2676c33fa9d7ec9e2284b03d6a4d0bb/pos_screenshot/CIHujafqhpYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Moose AI Chatbot & Live Chat free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/moosedesk"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/moosedesk"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, BON Loyalty, Email, Livechat, UpPromote Affiliate Marketing",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/moosedesk"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/moosedesk"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://moosedesk.com/docs/", "https://www.youtube.com/@getmoosedesk"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant communication channel and add the approved support content.",
+            "Test common questions and handover behaviour before enabling it for customers.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["live-chat", "ai-customer-support-chatbots", "fraud-prevention"],
+        "primary_category_id": "live-chat",
+        "seo": {
+          "title": "Moose AI Chatbot & Live Chat Shopify App | eStorefy",
+          "meta_description": "A Shopify app for live chat. Listed functions include ai chatbots, live chat.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/moosedesk",
+          "retrieved_at": "2026-10-04T05:25:07.111001+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Centralize tickets from various channels into one easy-to-use helpdesk with essential features:…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/moosedesk"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "bm-country-ip-blocker",
+      "name": "BM Bot blocker Country blocker",
+      "slug": "bm-country-ip-blocker",
+      "category_fit": {
+        "app_id": "bm-country-ip-blocker",
+        "selection_score": 5.9294,
+        "rating_evidence": {"value": 4.9, "reviews": 208},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["bot", "block"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/bm-country-ip-blocker"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for checkout validation. Listed functions include bots, fake accounts.",
+        "description_long": "BM Bot blocker Country blocker is developed by Boostymark and listed for fraud, geolocation. Its structured listing identifies functions such as bots, fake accounts, phishing, auto-cancel. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Checkout Validation", "Geolocation & Country Redirects", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Checkout Validation", "Geolocation & Country Redirects", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 208,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/bm-country-ip-blocker",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 199},
+          {"stars": 4, "percentage": 3, "count": 7},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "PAY-AS-YOU-GO",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": ["First 500 page views free, then $0.20 per 100 views, with a monthly cap of $4."]
+          },
+          {
+            "name": "PREMIUM",
+            "amount_usd": 3.99,
+            "billing_period": "month",
+            "price_display": "$3.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 3.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 4, 2022",
+        "shopify_categories": [
+          {"name": "Fraud", "url": "https://apps.shopify.com/categories/store-management-security-fraud"},
+          {
+            "name": "Geolocation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-geolocation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.fraud.fraud_types.bots", "label": "Bots"},
+          {"handle": "cf.fraud.fraud_types.fake_accounts", "label": "Fake accounts"},
+          {"handle": "cf.fraud.fraud_types.phishing", "label": "Phishing"},
+          {"handle": "cf.fraud.prevention_tools.auto_cancel", "label": "Auto-cancel"},
+          {"handle": "cf.fraud.prevention_tools.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.fraud.prevention_tools.blocklists", "label": "Blocklists"},
+          {"handle": "cf.fraud.prevention_tools.geolocation_redirects", "label": "Geolocation redirects"},
+          {"handle": "cf.fraud.prevention_tools.content_protection", "label": "Content protection"},
+          {"handle": "cf.fraud.prevention_tools.spam_blocking", "label": "Spam blocking"},
+          {"handle": "cf.fraud.prevention_tools.bot_detection", "label": "Bot detection"},
+          {"handle": "cf.fraud.prevention_tools.fraud_filters", "label": "Fraud filters"},
+          {"handle": "cf.fraud.alerts_and_analytics.suspicious_activity", "label": "Suspicious activity"},
+          {"handle": "cf.fraud.alerts_and_analytics.fraud_notifications", "label": "Fraud notifications"},
+          {"handle": "cf.fraud.alerts_and_analytics.visitor_analytics", "label": "Visitor analytics"},
+          {"handle": "cf.fraud.alerts_and_analytics.risk_reports", "label": "Risk reports"},
+          {"handle": "cf.fraud.alerts_and_analytics.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.geolocation.blocking.countries", "label": "Countries"},
+          {"handle": "cf.geolocation.blocking.states", "label": "States"},
+          {"handle": "cf.geolocation.blocking.cities", "label": "Cities"},
+          {"handle": "cf.geolocation.blocking.bots", "label": "Bots"},
+          {"handle": "cf.geolocation.blocking.ip_addresses", "label": "IP addresses"},
+          {"handle": "cf.geolocation.blocking.vpns", "label": "VPNs"},
+          {"handle": "cf.geolocation.blocking.proxies", "label": "Proxies"},
+          {"handle": "cf.geolocation.blocking.whitelist", "label": "Whitelist"},
+          {"handle": "cf.geolocation.redirects.ip_address", "label": "IP address"},
+          {"handle": "cf.geolocation.redirects.country", "label": "Country"},
+          {"handle": "cf.geolocation.redirects.auto_redirect", "label": "Auto-redirect"},
+          {"handle": "cf.geolocation.redirects.manual_redirect", "label": "Manual redirect"},
+          {"handle": "cf.geolocation.redirects.tracking", "label": "Tracking"},
+          {"handle": "cf.geolocation.redirects.analytics", "label": "Analytics"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Block email/phone number/name",
+          "Checkout validation",
+          "Country blocker/IP blocker",
+          "Crawler/VPN/ISP/Referrer Block",
+          "Fraud Filter",
+          "Visitor Analytics Report"
+        ]
+      },
+      "developer": {
+        "name": "Boostymark",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/boostymark",
+        "public_address": "9115 JUDICIAL DR APT 4416, SAN DIEGO, CA, 92122-4627, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/bm-country-ip-blocker",
+        "canonical_app_store_url": "https://apps.shopify.com/bm-country-ip-blocker",
+        "install_url": "https://apps.shopify.com/bm-country-ip-blocker",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://rbn.boostymark.com/private-policy.html",
+          "Boostymark": "https://apps.shopify.com/partners/boostymark"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/346ac3b38f0fce84cc1da8fbf5353667/icon/CO2DgqvErPgCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/346ac3b38f0fce84cc1da8fbf5353667/promotional_image/CMqAicDL-pUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/346ac3b38f0fce84cc1da8fbf5353667/desktop_screenshot/CIvTgIzZ95UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/346ac3b38f0fce84cc1da8fbf5353667/desktop_screenshot/CPPu4JDZ95UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/346ac3b38f0fce84cc1da8fbf5353667/desktop_screenshot/CPLlmZXZ95UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/346ac3b38f0fce84cc1da8fbf5353667/desktop_screenshot/CPfytZnZ95UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/346ac3b38f0fce84cc1da8fbf5353667/desktop_screenshot/CJa0keq5wpYDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BM Bot blocker Country blocker free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/bm-country-ip-blocker"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bm-country-ip-blocker"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Block email/phone number/name, Checkout validation, Country blocker/IP blocker, Crawler/VPN/ISP/Referrer Block, Fraud Filter, Visitor Analytics Report",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bm-country-ip-blocker"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/bm-country-ip-blocker"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the cart or checkout conditions in a draft or test configuration.",
+            "Test an eligible and an ineligible cart to confirm the rule behaviour.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["checkout-validation", "geolocation-country-redirects", "fraud-prevention"],
+        "primary_category_id": "checkout-validation",
+        "seo": {
+          "title": "BM Bot blocker Country blocker Shopify App | eStorefy",
+          "meta_description": "A Shopify app for checkout validation. Listed functions include bots, fake accounts.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/bm-country-ip-blocker",
+          "retrieved_at": "2026-10-04T05:27:26.019891+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/bm-country-ip-blocker"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "aeo-llms-txt",
+      "name": "Avada AEO SEO Optimizer LLMs",
+      "slug": "aeo-llms-txt",
+      "category_fit": {
+        "app_id": "aeo-llms-txt",
+        "selection_score": 5.9255,
+        "rating_evidence": {"value": 5.0, "reviews": 392},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["bot"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/aeo-llms-txt"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for seo optimization. Listed functions include sitemaps, robots.txt.",
+        "description_long": "Avada AEO SEO Optimizer LLMs is developed by Avada SEO Suite and listed for seo, site optimization - other. Its structured listing identifies functions such as sitemaps, robots.txt, bulk editing, ai generation. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["SEO Optimization", "Live Chat", "AI Customer Support Chatbots", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["SEO Optimization", "Live Chat", "AI Customer Support Chatbots", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 392,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/aeo-llms-txt",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 382},
+          {"stars": 4, "percentage": 3, "count": 10},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "July 31, 2025",
+        "shopify_categories": [
+          {"name": "SEO", "url": "https://apps.shopify.com/categories/store-design-site-optimization-seo"},
+          {
+            "name": "Site optimization - Other",
+            "url": "https://apps.shopify.com/categories/store-design-site-optimization-site-optimization-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.seo.seo_tools.sitemaps", "label": "Sitemaps"},
+          {"handle": "cf.seo.seo_tools.robots_txt", "label": "Robots.txt"},
+          {"handle": "cf.seo.seo_tools.bulk_editing", "label": "Bulk editing"},
+          {"handle": "cf.seo.seo_tools.ai_generation", "label": "AI generation"},
+          {"handle": "cf.seo.seo_tools.automations", "label": "Automations"},
+          {"handle": "cf.seo.monitoring_performance.seo_score", "label": "SEO score"},
+          {"handle": "cf.seo.monitoring_performance.analytics", "label": "Analytics"},
+          {"handle": "cf.seo.monitoring_performance.website_traffic", "label": "Website traffic"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin", "Avada SEO suite", "ChatGPT", "Claude", "DeepSeek", "Gemini", "Perplexity"]
+      },
+      "developer": {
+        "name": "Avada SEO Suite",
+        "website_url": "https://avada.io/",
+        "partner_url": "https://apps.shopify.com/partners/seoon",
+        "public_address": "Peace Centre, SG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/aeo-llms-txt",
+        "canonical_app_store_url": "https://apps.shopify.com/aeo-llms-txt",
+        "install_url": "https://apps.shopify.com/aeo-llms-txt",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://avada.io/privacy-policy/",
+          "Avada SEO Suite": "https://apps.shopify.com/partners/seoon",
+          "Website": "https://avada.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/bd45887e7ee9bf60eadf2c4433337925/icon/CNbH77DFnJUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/bd45887e7ee9bf60eadf2c4433337925/promotional_image/CIGqrZLm0o4DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bd45887e7ee9bf60eadf2c4433337925/desktop_screenshot/CNrLt5Lm0o4DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bd45887e7ee9bf60eadf2c4433337925/desktop_screenshot/CPHawZLm0o4DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bd45887e7ee9bf60eadf2c4433337925/desktop_screenshot/CIfztaq6044DEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Avada AEO SEO Optimizer LLMs free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/aeo-llms-txt"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/aeo-llms-txt"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Avada SEO suite, ChatGPT, Claude, DeepSeek, Gemini, Perplexity",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/aeo-llms-txt"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/aeo-llms-txt"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the pages or assets to optimize and review the suggested changes.",
+            "Preview and validate changes before applying them across the store.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["seo-optimization", "live-chat", "ai-customer-support-chatbots", "fraud-prevention"],
+        "primary_category_id": "seo-optimization",
+        "seo": {
+          "title": "Avada AEO SEO Optimizer LLMs Shopify App | eStorefy",
+          "meta_description": "A Shopify app for seo optimization. Listed functions include sitemaps, robots.txt.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/aeo-llms-txt",
+          "retrieved_at": "2026-10-04T05:12:27.837705+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Optimize your Shopify store for AEO, GEO like ChatGPT and Gemini. Control…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/aeo-llms-txt"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "chatty",
+      "name": "Chatty AI Chatbot & Live Chat",
+      "slug": "chatty",
+      "category_fit": {
+        "app_id": "chatty",
+        "selection_score": 5.9209,
+        "rating_evidence": {"value": 4.9, "reviews": 1870},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["bot"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/chatty"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for live chat. Listed functions include ai chatbots, live chat.",
+        "description_long": "Chatty AI Chatbot & Live Chat is developed by Chatty AI Sales Agent - For live chat & helpdesk and listed for chat, helpdesk. Its structured listing identifies functions such as ai chatbots, live chat, email chat, social media. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Live Chat", "AI Customer Support Chatbots", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Live Chat", "AI Customer Support Chatbots", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1870,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/chatty",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 1},
+          {"stars": 4, "percentage": 3, "count": 57},
+          {"stars": 3, "percentage": 0, "count": 5},
+          {"stars": 2, "percentage": 0, "count": 6},
+          {"stars": 1, "percentage": 1, "count": 15}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $203.88/year and save 15%", "$0.4 per additional AI conversation"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 68.99,
+            "billing_period": "month",
+            "price_display": "$68.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $707.88/year and save 14%", "$0.4 per additional AI conversation"]
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 199.0,
+            "billing_period": "month",
+            "price_display": "$199 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $2,039.88/year and save 15%", "$0.4 per additional AI conversation"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://chatty.net/pricing/",
+        "starting_paid_monthly_price_usd": 19.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 9, 2022 · Changelog",
+        "shopify_categories": [
+          {"name": "Chat", "url": "https://apps.shopify.com/categories/store-management-support-chat"},
+          {"name": "Helpdesk", "url": "https://apps.shopify.com/categories/store-management-support-helpdesk"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.chat.real_time_messaging.ai_chatbots", "label": "AI chatbots"},
+          {"handle": "cf.chat.real_time_messaging.live_chat", "label": "Live chat"},
+          {"handle": "cf.chat.real_time_messaging.email_chat", "label": "Email chat"},
+          {"handle": "cf.chat.real_time_messaging.social_media", "label": "Social media"},
+          {"handle": "cf.chat.real_time_messaging.file_uploads", "label": "File upload"},
+          {"handle": "cf.chat.real_time_messaging.multi_language", "label": "Multi-language"},
+          {"handle": "cf.chat.real_time_messaging.real_time_translation", "label": "Real-time translation"},
+          {"handle": "cf.chat.real_time_messaging.push_notifications", "label": "Push notifications"},
+          {"handle": "cf.chat.real_time_messaging.behavior_tracking", "label": "Behavior tracking"},
+          {"handle": "cf.chat.real_time_messaging.agent_analytics", "label": "Agent analytics"},
+          {"handle": "cf.chat.real_time_messaging.customer_insights", "label": "Customer insights"},
+          {"handle": "cf.chat.automated_responses.discounts", "label": "Discounts"},
+          {"handle": "cf.chat.automated_responses.faqs", "label": "FAQs"},
+          {"handle": "cf.chat.automated_responses.greetings", "label": "Greetings"},
+          {
+            "handle": "cf.chat.automated_responses.product_recommendations",
+            "label": "Product recommendations"
+          },
+          {"handle": "cf.chat.automated_responses.quick_replies", "label": "Quick replies"},
+          {"handle": "cf.chat.automated_responses.order_updates", "label": "Order updates"},
+          {"handle": "cf.chat.automated_responses.cross_sell", "label": "Cross-sell"},
+          {"handle": "cf.chat.automated_responses.upsell", "label": "Upsell"},
+          {"handle": "cf.chat.customization.color_and_font", "label": "Color and font"},
+          {"handle": "cf.chat.customization.emojis_and_stickers", "label": "Emojis and stickers"},
+          {"handle": "cf.chat.customization.chat_window", "label": "Chat window"},
+          {"handle": "cf.chat.customization.business_hours", "label": "Business hours"},
+          {"handle": "cf.chat.customization.welcome_messages", "label": "Welcome messages"},
+          {"handle": "cf.chat.customization.chat_buttons", "label": "Chat buttons"},
+          {"handle": "cf.chat.customization.tagging", "label": "Tagging"},
+          {"handle": "cf.chat.customization.chat_assignment", "label": "Chat assignment"},
+          {"handle": "cf.chat.customization.chat_flows", "label": "Chat flows"},
+          {"handle": "cf.chat.customization.agent_avatar", "label": "Agent avatar"},
+          {"handle": "cf.helpdesk.channels.email", "label": "Email"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " French",
+          " Spanish",
+          " Japanese",
+          " Portuguese (Portugal)",
+          " and Chinese (Simplified)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Email",
+          "Instagram",
+          "Klaviyo",
+          "Messenger",
+          "WhatsApp",
+          "Zendesk"
+        ]
+      },
+      "developer": {
+        "name": "Chatty AI Sales Agent - For live chat & helpdesk",
+        "website_url": "https://chatty.net/",
+        "partner_url": "https://apps.shopify.com/partners/so-good6",
+        "public_address": "Peace Centre, SG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/chatty",
+        "canonical_app_store_url": "https://apps.shopify.com/chatty",
+        "install_url": "https://apps.shopify.com/chatty",
+        "demo_store_url": "https://chatty-demo-store-apparel.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://help.chatty.net/privacy-policy",
+          "FAQ": "https://help.chatty.net/faqs",
+          "Chatty AI Sales Agent - For live chat & helpdesk": "https://apps.shopify.com/partners/so-good6",
+          "Website": "https://chatty.net/",
+          "Changelog": "https://help.chatty.net/product-roadmap/product-roadmap"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/eb2a46ad62a4a49e462b8e400524ca91/icon/CLiW3vrdrZEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/eb2a46ad62a4a49e462b8e400524ca91/desktop_screenshot/CObpuvOikJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/eb2a46ad62a4a49e462b8e400524ca91/desktop_screenshot/CJXJxPOikJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/eb2a46ad62a4a49e462b8e400524ca91/desktop_screenshot/CKjwzvOikJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/eb2a46ad62a4a49e462b8e400524ca91/desktop_screenshot/CKzA2POikJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/eb2a46ad62a4a49e462b8e400524ca91/desktop_screenshot/CMim4vOikJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/eb2a46ad62a4a49e462b8e400524ca91/mobile_screenshot/CJjk7POikJUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/aoPN2DHQLBQ"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Chatty AI Chatbot & Live Chat free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/chatty"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Spanish,  Japanese,  Portuguese (Portugal),  and Chinese (Simplified)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/chatty"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Flow, Shopify Admin, Email, Instagram, Klaviyo, Messenger, WhatsApp, Zendesk",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/chatty"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/chatty"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.chatty.net/faqs"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant communication channel and add the approved support content.",
+            "Test common questions and handover behaviour before enabling it for customers.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["live-chat", "ai-customer-support-chatbots", "fraud-prevention"],
+        "primary_category_id": "live-chat",
+        "seo": {
+          "title": "Chatty AI Chatbot & Live Chat Shopify App | eStorefy",
+          "meta_description": "A Shopify app for live chat. Listed functions include ai chatbots, live chat.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/chatty",
+          "retrieved_at": "2026-10-04T05:25:07.175642+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "With AI Sales Agent, Chatty is the sales-first chat platform for Shopify…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/chatty"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "ebay-integration-dpl",
+      "name": "eBay Integration ‑ DPL",
+      "slug": "ebay-integration-dpl",
+      "category_fit": {
+        "app_id": "ebay-integration-dpl",
+        "selection_score": 5.9006,
+        "rating_evidence": {"value": 4.9, "reviews": 1257},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["bot"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for inventory sync. Listed functions include orders, prices.",
+        "description_long": "eBay Integration ‑ DPL is developed by Digital Product Labs and listed for inventory sync. Its structured listing identifies functions such as orders, prices, product details, variants. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Inventory Sync", "Marketplace Integrations", "Fraud Prevention", "Store Migration & Data Import"],
+        "best_for": {
+          "use_cases": ["Inventory Sync", "Marketplace Integrations", "Fraud Prevention", "Store Migration & Data Import"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1257,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/ebay-integration-dpl",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 1},
+          {"stars": 4, "percentage": 1, "count": 16},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 5},
+          {"stars": 1, "percentage": 1, "count": 12}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $19.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Silver Plan",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Gold Plan",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Platinum Plan",
+            "amount_usd": 69.99,
+            "billing_period": "month",
+            "price_display": "$69.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Enterprise S Plan",
+            "amount_usd": 199.99,
+            "billing_period": "month",
+            "price_display": "$199.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://dpl.company/ebay-integration-and-sync/#pricing",
+        "starting_paid_monthly_price_usd": 19.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 10, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"},
+          {"handle": "cf.inventory_sync.sync_type.variants", "label": "Variants"},
+          {"handle": "cf.inventory_sync.sync_type.skus", "label": "SKUs"},
+          {"handle": "cf.inventory_sync.sync_type.barcodes", "label": "Barcodes"},
+          {"handle": "cf.inventory_sync.sync_type.automatic", "label": "Automatic"},
+          {"handle": "cf.inventory_sync.sync_type.manual", "label": "Manual"},
+          {"handle": "cf.inventory_sync.sync_type.bulk", "label": "Bulk"},
+          {"handle": "cf.inventory_sync.sync_type.real_time", "label": "Real-time"},
+          {"handle": "cf.inventory_sync.sync_type.scheduled", "label": "Scheduled"},
+          {"handle": "cf.inventory_sync.sync_type.custom", "label": "Custom"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.automated_alerts",
+            "label": "Automated alerts"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.custom_notifications",
+            "label": "Custom notifications"
+          },
+          {"handle": "cf.inventory_sync.notifications_and_reports.order_updates", "label": "Order updates"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.email_alerts", "label": "Email alerts"},
+          {"handle": "cf.inventory_sync.notifications_and_reports.error_reports", "label": "Error reports"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.inventory_alerts",
+            "label": "Inventory alerts"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.data_import_and_export",
+            "label": "Data import and export"
+          },
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.real_time_status",
+            "label": "Real-time status"
+          },
+          {"handle": "cf.inventory_sync.notifications_and_reports.detailed_logs", "label": "Detailed logs"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin", "deliverr", "ebay", "ebaymag", "ebaymotors", "Printful", "Shipstation"]
+      },
+      "developer": {
+        "name": "Digital Product Labs",
+        "website_url": "https://dpl.company/ebay-integration-and-import/",
+        "partner_url": "https://apps.shopify.com/partners/digital-product-labs",
+        "public_address": "2035 Sunset Lake RoadSuite B-2, Newark, DE, 19702, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/ebay-integration-dpl",
+        "canonical_app_store_url": "https://apps.shopify.com/ebay-integration-dpl",
+        "install_url": "https://apps.shopify.com/ebay-integration-dpl",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://dpl.company/dpl-ebay-integration-and-import-privacy-policy/",
+          "FAQ": "https://exportfeed.helpscoutdocs.com/collection/471-ebay",
+          "Digital Product Labs": "https://apps.shopify.com/partners/digital-product-labs",
+          "Website": "https://dpl.company/ebay-integration-and-import/",
+          "Changelog": "https://dpl.company/changelog/ebay-integration/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/icon/CNH03LzPrfwCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/promotional_image/CMfs-J-InZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CNXhp77jkI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CM2htembnZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CP-_hbXkwIsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CKfIv8bSmosDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CIL79azLnJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8e6cd979f34b0d1a56e81465e50aedf4/desktop_screenshot/CL7w98nh8YcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is eBay Integration ‑ DPL free?",
+            "answer": "The pricing label retrieved from the listing is: From $19.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, deliverr, ebay, ebaymag, ebaymotors, Printful, Shipstation",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://exportfeed.helpscoutdocs.com/collection/471-ebay"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["inventory-sync", "marketplace-integrations", "fraud-prevention", "store-migration-data-import"],
+        "primary_category_id": "inventory-sync",
+        "seo": {
+          "title": "eBay Integration ‑ DPL Shopify App | eStorefy",
+          "meta_description": "A Shopify app for inventory sync. Listed functions include orders, prices.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/ebay-integration-dpl",
+          "retrieved_at": "2026-10-04T05:24:04.829209+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Shopify eBay Integration app. Sync Products, Inventory, and Orders between the Shopify…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/ebay-integration-dpl"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "ot-theme-sections-store-page-builder",
+      "name": "OT Section: Theme Sections",
+      "slug": "ot-theme-sections-store-page-builder",
+      "category_fit": {
+        "app_id": "ot-theme-sections-store-page-builder",
+        "selection_score": 5.8963,
+        "rating_evidence": {"value": 5.0, "reviews": 274},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["block"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for theme sections. Listed functions include landing pages, home pages.",
+        "description_long": "OT Section: Theme Sections is developed by Omni Themes and listed for page builder, storefronts - other. Its structured listing identifies functions such as landing pages, home pages, product pages, collections. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Theme Sections", "Checkout Validation", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Theme Sections", "Checkout Validation", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 274,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 269},
+          {"stars": 4, "percentage": 1, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://support.omnithemes.com/blogs/ot-theme-section-main-features/pricing-plans-free-vs-plus",
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 4, 2024",
+        "shopify_categories": [
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          },
+          {
+            "name": "Storefronts - Other",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-storefronts-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.collections", "label": "Collections"},
+          {"handle": "cf.page_builder.page_types.coming_soon_pages", "label": "Coming soon pages"},
+          {"handle": "cf.page_builder.page_types.blogs", "label": "Blogs"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.thank_you_pages", "label": "Thank you pages"},
+          {"handle": "cf.page_builder.page_types.footers", "label": "Footers"},
+          {"handle": "cf.page_builder.page_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.page_builder.page_types.press_pages", "label": "Press pages"},
+          {"handle": "cf.page_builder.page_types.legal_pages", "label": "Legal pages"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.page_builder.managing_pages.elements", "label": "Elements"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.global_sections", "label": "Global sections"},
+          {"handle": "cf.page_builder.managing_pages.custom_fonts", "label": "Custom fonts"},
+          {"handle": "cf.page_builder.managing_pages.custom_code", "label": "Custom code"},
+          {"handle": "cf.page_builder.managing_pages.snippets", "label": "Snippets"},
+          {"handle": "cf.page_builder.managing_pages.localization", "label": "Localization"},
+          {"handle": "cf.page_builder.managing_pages.mobile_responsive", "label": "Mobile responsive"},
+          {"handle": "cf.page_builder.managing_pages.lazy_loading", "label": "Lazy loading"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " Czech",
+          " Danish",
+          " German",
+          " Finnish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Chinese (Traditional)",
+          " and Spanish"
+        ],
+        "works_with": [
+          "Shopify Admin",
+          "Any Theme",
+          "Dawn Theme",
+          "Eurus Theme",
+          "Horizon Theme",
+          "Online Store 2.0",
+          "Theme Editor"
+        ]
+      },
+      "developer": {
+        "name": "Omni Themes",
+        "website_url": "https://omnithemes.com/",
+        "partner_url": "https://apps.shopify.com/partners/omnithemes-com",
+        "public_address": "Ha Noi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder",
+        "canonical_app_store_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder",
+        "install_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder",
+        "demo_store_url": "https://themesections.omnithemes.com/collections/section-library",
+        "resources": {
+          "Privacy policy": "https://omnithemes.com/app-privacy-policies/",
+          "FAQ": "https://support.omnithemes.com/blogs/ot-theme-section-main-features/general-faqs-1",
+          "Tutorial": "https://support.omnithemes.com/blogs/ot-theme-section-main-features/get-started-with-ot-theme-sections",
+          "App Documentation": "https://support.omnithemes.com/blogs/ot-theme-section-main-features/pricing-plans-free-vs-plus",
+          "Omni Themes": "https://apps.shopify.com/partners/omnithemes-com",
+          "Website": "https://omnithemes.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/d1fbe4acf738bfaa4fa03ef985d8477e/icon/CM_PravDr4YDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/d1fbe4acf738bfaa4fa03ef985d8477e/promotional_image/CMLa4PWXxZQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d1fbe4acf738bfaa4fa03ef985d8477e/desktop_screenshot/CPu07PWXxZQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d1fbe4acf738bfaa4fa03ef985d8477e/desktop_screenshot/CJ6l9fWXxZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d1fbe4acf738bfaa4fa03ef985d8477e/desktop_screenshot/CKvq__WXxZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d1fbe4acf738bfaa4fa03ef985d8477e/desktop_screenshot/CO3FivaXxZQDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is OT Section: Theme Sections free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  Czech,  Danish,  German,  Finnish,  French,  Italian,  Japanese,  Korean,  Norwegian (Bokmål),  Dutch,  Polish,  Portuguese (Brazil),  Portuguese (Portugal),  Swedish,  Thai,  Turkish,  Chinese (Traditional),  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Any Theme, Dawn Theme, Eurus Theme, Horizon Theme, Online Store 2.0, Theme Editor",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://support.omnithemes.com/blogs/ot-theme-section-main-features/general-faqs-1",
+            "https://support.omnithemes.com/blogs/ot-theme-section-main-features/get-started-with-ot-theme-sections",
+            "https://support.omnithemes.com/blogs/ot-theme-section-main-features/pricing-plans-free-vs-plus"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["theme-sections", "checkout-validation", "fraud-prevention"],
+        "primary_category_id": "theme-sections",
+        "seo": {
+          "title": "OT Section: Theme Sections Shopify App | eStorefy",
+          "meta_description": "A Shopify app for theme sections. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/ot-theme-sections-store-page-builder",
+          "retrieved_at": "2026-10-04T05:13:20.353343+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Build your dream store in seconds with 200+ theme sections, templates, and…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/ot-theme-sections-store-page-builder"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "easy-order-form",
+      "name": "EasySell COD Form & Upsells",
+      "slug": "easy-order-form",
+      "category_fit": {
+        "app_id": "easy-order-form",
+        "selection_score": 5.8869,
+        "rating_evidence": {"value": 4.9, "reviews": 975},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["fraud", "block"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/easy-order-form"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for cash on delivery. Listed functions include custom fees, prepaid incentives.",
+        "description_long": "EasySell COD Form & Upsells is developed by Tyslo FZE-LLC and listed for pay later, upsell and cross-sell. Its structured listing identifies functions such as custom fees, prepaid incentives, fraud prevention, one-time password (otp). For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Cash on Delivery", "Event Tickets", "Wholesale Catalogs & Order Forms", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Cash on Delivery", "Event Tickets", "Wholesale Catalogs & Order Forms", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 975,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/easy-order-form",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 896},
+          {"stars": 4, "percentage": 7, "count": 66},
+          {"stars": 3, "percentage": 1, "count": 9},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Forever Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 9.95,
+            "billing_period": "month",
+            "price_display": "$9.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $89.99/year and save 25%",
+              "$0.05 for each additional order. SMS/WhatsApp messages are optional and charged separately."
+            ]
+          },
+          {
+            "name": "ADVANCED",
+            "amount_usd": 24.95,
+            "billing_period": "month",
+            "price_display": "$24.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $225.99/year and save 25%",
+              "$0.05 for each additional order. SMS/WhatsApp messages are optional and charged separately."
+            ]
+          },
+          {
+            "name": "UNLIMITED",
+            "amount_usd": 59.95,
+            "billing_period": "month",
+            "price_display": "$59.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $539.99/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.95,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "October 8, 2020",
+        "shopify_categories": [
+          {
+            "name": "Pay later",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-pay-later"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.cash_on_delivery_cod.cod_management.custom_fees", "label": "Custom fees"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.prepaid_incentives",
+            "label": "Prepaid incentives"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.fraud_prevention", "label": "Fraud prevention"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.one_time_password_otp",
+            "label": "One-time password (OTP)"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.ip_blocking", "label": "IP blocking"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.phone_confirmation",
+            "label": "Phone confirmation"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.sms_confirmation", "label": "SMS confirmation"},
+          {"handle": "cf.cash_on_delivery_cod.cod_management.order_export", "label": "Order export"},
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.drag_and_drop_editor",
+            "label": "Drag-and-drop editor"
+          },
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_fields", "label": "Custom fields"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.fonts_and_colors", "label": "Font and color"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_buttons", "label": "Custom buttons"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_layout", "label": "Custom layouts"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.embedded_forms", "label": "Embedded forms"},
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.shipping_options",
+            "label": "Shipping options"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.address_verification",
+            "label": "Address validation"
+          },
+          {"handle": "cf.cash_on_delivery_cod.form_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.cash_on_delivery_cod.conversion_and_upsell.cross_sell", "label": "Cross-sell"},
+          {"handle": "cf.cash_on_delivery_cod.conversion_and_upsell.discounts", "label": "Discounts"},
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.one_click_order",
+            "label": "One-click order"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.one_click_upsells",
+            "label": "One-click upsells"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.post_purchase_upsells",
+            "label": "Post-purchase upsells"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.pixel_tracking",
+            "label": "Pixel tracking"
+          },
+          {"handle": "cf.cash_on_delivery_cod.conversion_and_upsell.cart_recovery", "label": "Cart recovery"},
+          {"handle": "cf.upsell_and_cross_sell.customization.cart_upsell", "label": "Cart upsell"},
+          {"handle": "cf.upsell_and_cross_sell.customization.checkout_upsell", "label": "Checkout upsell"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.product_page_upsell",
+            "label": "Product page upsell"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.thank_you_page_upsell",
+            "label": "Thank you page upsell"
+          }
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " Italian",
+          " French",
+          " Arabic",
+          " German",
+          " Croatian",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Romanian",
+          " Serbian",
+          " and Turkish"
+        ],
+        "works_with": [
+          "Shopify Admin",
+          "GemPages",
+          "Google Sheets",
+          "Kaching Bundles",
+          "PageFly",
+          "Pumper Bundles",
+          "Wide Bundles & BixGrow"
+        ]
+      },
+      "developer": {
+        "name": "Tyslo FZE-LLC",
+        "website_url": "https://tyslo.com",
+        "partner_url": "https://apps.shopify.com/partners/tyslo",
+        "public_address": "Sharjah Publishing City FZ, Sharjah, SH, 00000, AE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/easy-order-form",
+        "canonical_app_store_url": "https://apps.shopify.com/easy-order-form",
+        "install_url": "https://apps.shopify.com/easy-order-form",
+        "demo_store_url": "https://easysellapp.com/products/pop-up-form",
+        "resources": {
+          "Privacy policy": "https://easysellapp.com/pages/privacy-policy",
+          "FAQ": "https://help.tyslo.com/en/category/faqs-dckrdj/",
+          "Tutorial": "https://www.youtube.com/@tyslo.official",
+          "App Documentation": "https://help.tyslo.com",
+          "Tyslo FZE-LLC": "https://apps.shopify.com/partners/tyslo",
+          "Website": "https://tyslo.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/icon/CMr-h5LxqPkCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/promotional_image/CNLYwImkvpUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/desktop_screenshot/CPf67r3zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/desktop_screenshot/COH2-L3zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/desktop_screenshot/CJvbgr7zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/desktop_screenshot/CL3XjL7zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/desktop_screenshot/CNqelr7zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/desktop_screenshot/CKiun77zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/mobile_screenshot/CL_l9Yz0k5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/mobile_screenshot/COjDsr7zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/mobile_screenshot/CPq2u77zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/mobile_screenshot/CPyNxb7zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/mobile_screenshot/CPzCzr7zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/mobile_screenshot/CMPN177zk5UDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is EasySell COD Form & Upsells free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/easy-order-form"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  Italian,  French,  Arabic,  German,  Croatian,  Portuguese (Brazil),  Portuguese (Portugal),  Romanian,  Serbian,  and Turkish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/easy-order-form"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, GemPages, Google Sheets, Kaching Bundles, PageFly, Pumper Bundles, Wide Bundles & BixGrow",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/easy-order-form"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/easy-order-form"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.tyslo.com/en/category/faqs-dckrdj/",
+            "https://www.youtube.com/@tyslo.official",
+            "https://help.tyslo.com"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Define the payment, subscription or pre-order rules and eligible products.",
+            "Verify supported payment methods and test the purchase lifecycle.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["cash-on-delivery", "event-tickets", "wholesale-catalogs-order-forms", "fraud-prevention"],
+        "primary_category_id": "cash-on-delivery",
+        "seo": {
+          "title": "EasySell COD Form & Upsells Shopify App | eStorefy",
+          "meta_description": "A Shopify app for cash on delivery. Listed functions include custom fees, prepaid incentives.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/easy-order-form",
+          "retrieved_at": "2026-10-04T05:07:15.005470+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "EasySell Order Form allows you to create a 1-Click COD order form…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/easy-order-form"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "store-shield",
+      "name": "Dakaas Fraud Filter Block Bots",
+      "slug": "store-shield",
+      "category_fit": {
+        "app_id": "store-shield",
+        "selection_score": 5.8491,
+        "rating_evidence": {"value": 4.8, "reviews": 238},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["fraud", "block", "bot"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/store-shield"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for fraud prevention. Listed functions include bots, chargebacks.",
+        "description_long": "Dakaas Fraud Filter Block Bots is developed by Dakaas and listed for fraud, anti theft. Its structured listing identifies functions such as bots, chargebacks, fake accounts, payments. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 238,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/store-shield",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 226},
+          {"stars": 4, "percentage": 2, "count": 5},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 2, "count": 5}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 2.99,
+            "billing_period": "month",
+            "price_display": "$2.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $29.78/year and save 17%"]
+          },
+          {
+            "name": "Legend",
+            "amount_usd": 8.99,
+            "billing_period": "month",
+            "price_display": "$8.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $89.52/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 2.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 25, 2021",
+        "shopify_categories": [
+          {"name": "Fraud", "url": "https://apps.shopify.com/categories/store-management-security-fraud"},
+          {
+            "name": "Anti theft",
+            "url": "https://apps.shopify.com/categories/store-management-security-anti-theft"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.fraud.fraud_types.bots", "label": "Bots"},
+          {"handle": "cf.fraud.fraud_types.chargebacks", "label": "Chargebacks"},
+          {"handle": "cf.fraud.fraud_types.fake_accounts", "label": "Fake accounts"},
+          {"handle": "cf.fraud.fraud_types.payments", "label": "Payments"},
+          {"handle": "cf.fraud.fraud_types.phishing", "label": "Phishing"},
+          {"handle": "cf.fraud.fraud_types.delivery", "label": "Delivery"},
+          {"handle": "cf.fraud.prevention_tools.order_validation", "label": "Order validation"},
+          {"handle": "cf.fraud.prevention_tools.order_hold", "label": "Order hold"},
+          {"handle": "cf.fraud.prevention_tools.auto_cancel", "label": "Auto-cancel"},
+          {"handle": "cf.fraud.prevention_tools.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.fraud.prevention_tools.blocklists", "label": "Blocklists"},
+          {"handle": "cf.fraud.prevention_tools.geolocation_redirects", "label": "Geolocation redirects"},
+          {"handle": "cf.fraud.prevention_tools.identity_verification", "label": "Identity verification"},
+          {"handle": "cf.fraud.prevention_tools.fraud_insurance", "label": "Fraud insurance"},
+          {"handle": "cf.fraud.prevention_tools.content_protection", "label": "Content protection"},
+          {"handle": "cf.fraud.prevention_tools.cod_validation", "label": "COD validation"},
+          {"handle": "cf.fraud.prevention_tools.spam_blocking", "label": "Spam blocking"},
+          {"handle": "cf.fraud.prevention_tools.bot_detection", "label": "Bot detection"},
+          {"handle": "cf.fraud.prevention_tools.ai_powered_detection", "label": "AI-powered detection"},
+          {"handle": "cf.fraud.prevention_tools.fraud_filters", "label": "Fraud filters"},
+          {"handle": "cf.fraud.prevention_tools.automated_workflows", "label": "Automated workflows"},
+          {"handle": "cf.fraud.alerts_and_analytics.high_risk_alerts", "label": "High-risk alerts"},
+          {"handle": "cf.fraud.alerts_and_analytics.chargeback_alerts", "label": "Chargeback alerts"},
+          {"handle": "cf.fraud.alerts_and_analytics.suspicious_activity", "label": "Suspicious activity"},
+          {"handle": "cf.fraud.alerts_and_analytics.fraud_notifications", "label": "Fraud notifications"},
+          {"handle": "cf.fraud.alerts_and_analytics.chargeback_analytics", "label": "Chargeback analytics"},
+          {"handle": "cf.fraud.alerts_and_analytics.visitor_analytics", "label": "Visitor analytics"},
+          {"handle": "cf.fraud.alerts_and_analytics.risk_reports", "label": "Risk reports"},
+          {"handle": "cf.fraud.alerts_and_analytics.app_notifications", "label": "App notifications"},
+          {"handle": "cf.anti_theft.protected_assets.product_descriptions", "label": "Product descriptions"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " Czech",
+          " Danish",
+          " Dutch",
+          " French",
+          " German",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Spanish",
+          " Swedish",
+          " and Turkish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Bot Blocker",
+          "Country Blocker",
+          "IP blocker",
+          "IPQualityScore",
+          "Spy extension blocker"
+        ]
+      },
+      "developer": {
+        "name": "Dakaas",
+        "website_url": "https://dakaas.com",
+        "partner_url": "https://apps.shopify.com/partners/dakaas",
+        "public_address": "Ahmedabad, India, GJ, 380058, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/store-shield",
+        "canonical_app_store_url": "https://apps.shopify.com/store-shield",
+        "install_url": "https://apps.shopify.com/store-shield",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://protector.dakaas.com/public/privacy-policy",
+          "Dakaas": "https://apps.shopify.com/partners/dakaas",
+          "Website": "https://dakaas.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6e33903439bc7ae38e59fa443550ed40/icon/CIPlxKfo9vICEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6e33903439bc7ae38e59fa443550ed40/promotional_image/CNnjoPHp3JUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6e33903439bc7ae38e59fa443550ed40/desktop_screenshot/CK-y_bzg3ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6e33903439bc7ae38e59fa443550ed40/desktop_screenshot/CNrHr-fg3ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6e33903439bc7ae38e59fa443550ed40/desktop_screenshot/CIjn0Inh3ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6e33903439bc7ae38e59fa443550ed40/desktop_screenshot/COmixrjh3ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6e33903439bc7ae38e59fa443550ed40/desktop_screenshot/CIir9J_j3ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6e33903439bc7ae38e59fa443550ed40/desktop_screenshot/CKO5mP3j3ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6e33903439bc7ae38e59fa443550ed40/mobile_screenshot/CJbd_Kfk3ZUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Dakaas Fraud Filter Block Bots free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/store-shield"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  Czech,  Danish,  Dutch,  French,  German,  Italian,  Japanese,  Korean,  Polish,  Portuguese (Brazil),  Spanish,  Swedish,  and Turkish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/store-shield"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Bot Blocker, Country Blocker, IP blocker, IPQualityScore, Spy extension blocker",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/store-shield"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/store-shield"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose a narrowly scoped protection, backup or import configuration.",
+            "Test the result on sample data before applying it to the whole store.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["fraud-prevention"],
+        "primary_category_id": "fraud-prevention",
+        "seo": {
+          "title": "Dakaas Fraud Filter Block Bots Shopify App | eStorefy",
+          "meta_description": "A Shopify app for fraud prevention. Listed functions include bots, chargebacks.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/store-shield",
+          "retrieved_at": "2026-10-04T05:28:00.899581+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Shopify Store Protection with AntiCopy, Fraud prevention, IP & Country Blocker, Bot…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/store-shield"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

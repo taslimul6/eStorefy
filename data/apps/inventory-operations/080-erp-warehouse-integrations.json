@@ -1,0 +1,1285 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "erp-warehouse-integrations",
+    "number": 80,
+    "name": "ERP & Warehouse Integrations",
+    "group": "Inventory & Operations",
+    "slug": "erp-warehouse-integrations",
+    "url_path": "/apps/erp-warehouse-integrations",
+    "focus": "Coordinate stock availability and operational systems.",
+    "description": "Compare Shopify apps for erp & warehouse integrations. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/orders-and-shipping-inventory-erp/all"],
+    "seo": {
+      "title": "Shopify ERP & Warehouse Integrations Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for erp & warehouse integrations: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 5,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a erp & warehouse integrations app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "loox",
+      "name": "Loox ‑ Product Reviews App",
+      "slug": "loox",
+      "category_fit": {
+        "app_id": "loox",
+        "selection_score": 5.9977,
+        "rating_evidence": {"value": 4.9, "reviews": 9759},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["erp"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/loox"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for product reviews. Listed functions include testimonials, photo reviews.",
+        "description_long": "Loox ‑ Product Reviews App is developed by Loox and listed for product reviews, social proof. Its structured listing identifies functions such as testimonials, photo reviews, video reviews, star ratings. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Reviews", "Photo & Video Reviews", "ERP & Warehouse Integrations"],
+        "best_for": {
+          "use_cases": ["Product Reviews", "Photo & Video Reviews", "ERP & Warehouse Integrations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 9759,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/loox",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 9},
+          {"stars": 4, "percentage": 3, "count": 334},
+          {"stars": 3, "percentage": 0, "count": 44},
+          {"stars": 2, "percentage": 0, "count": 27},
+          {"stars": 1, "percentage": 2, "count": 161}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Beginner",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Convert",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["300 orders included in base price + $50 per additional 300 orders"]
+          },
+          {
+            "name": "Unlimited",
+            "amount_usd": 299.99,
+            "billing_period": "month",
+            "price_display": "$299.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://loox.app/pricing?&utm_medium=pricing_link&utm_source=loox_app_store_listing&utm_campaign=loox_pricing",
+        "starting_paid_monthly_price_usd": 49.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 16, 2015",
+        "shopify_categories": [
+          {
+            "name": "Product reviews",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-product-reviews"
+          },
+          {
+            "name": "Social proof",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-social-trust-social-proof"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_reviews.display_options.testimonials", "label": "Testimonials"},
+          {"handle": "cf.product_reviews.display_options.photo_reviews", "label": "Photo reviews"},
+          {"handle": "cf.product_reviews.display_options.video_reviews", "label": "Video reviews"},
+          {"handle": "cf.product_reviews.display_options.star_ratings", "label": "Star ratings"},
+          {"handle": "cf.product_reviews.display_options.badges", "label": "Badges"},
+          {"handle": "cf.product_reviews.display_options.carousels", "label": "Carousels"},
+          {"handle": "cf.product_reviews.display_options.media_galleries", "label": "Media galleries"},
+          {"handle": "cf.product_reviews.display_options.grid_layout", "label": "Grid layout"},
+          {"handle": "cf.product_reviews.display_options.tabs_or_sidebars", "label": "Tabs or sidebars"},
+          {"handle": "cf.product_reviews.display_options.all_reviews_page", "label": "All reviews page"},
+          {"handle": "cf.product_reviews.display_options.top_reviews", "label": "Top reviews"},
+          {"handle": "cf.product_reviews.display_options.review_highlights", "label": "Review highlights"},
+          {"handle": "cf.product_reviews.display_options.review_summaries", "label": "Review summaries"},
+          {"handle": "cf.product_reviews.display_options.product_grouping", "label": "Product grouping"},
+          {"handle": "cf.product_reviews.display_options.filtering", "label": "Filtering"},
+          {"handle": "cf.product_reviews.display_options.rich_snippets", "label": "Rich snippets"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.email_requests", "label": "Email requests"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.social_media_ugc",
+            "label": "Social media UGC"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.forms", "label": "Forms"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.promotions", "label": "Promotions"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.referrals", "label": "Referrals"},
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.import_and_export",
+            "label": "Import and export"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_migration",
+            "label": "Review migration"
+          },
+          {
+            "handle": "cf.product_reviews.ways_to_collect_reviews.review_syndication",
+            "label": "Review syndication"
+          },
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.automations", "label": "Automations"},
+          {"handle": "cf.product_reviews.ways_to_collect_reviews.custom_requests", "label": "Custom requests"},
+          {"handle": "cf.social_proof.content_types.ugc", "label": "UGC"},
+          {"handle": "cf.social_proof.content_types.photos", "label": "Photos"},
+          {"handle": "cf.social_proof.content_types.videos", "label": "Videos"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Google Shopping and SEO",
+          "Klaviyo Email Marketing & SMS",
+          "Loyalty Lion Rewards Referrals",
+          "Meta Shops Facebook Instagram",
+          "Omnisend Email Marketing & SMS",
+          "Shop App"
+        ]
+      },
+      "developer": {
+        "name": "Loox",
+        "website_url": "https://loox.app?utm_source=appstore&utm_medium=listing&utm_campaign=listing",
+        "partner_url": "https://apps.shopify.com/partners/loox",
+        "public_address": "40 Tuval St., Floor 14, Ramat Gan, 5252247, IL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/loox",
+        "canonical_app_store_url": "https://apps.shopify.com/loox",
+        "install_url": "https://apps.shopify.com/loox",
+        "demo_store_url": "https://loox-demo-store.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://loox.app/legal/privacy-policy-merchants",
+          "FAQ": "http://help.loox.io",
+          "Loox": "https://apps.shopify.com/partners/loox",
+          "Website": "https://loox.app"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/icon/CPLp1Kb0lu8CEAE=.jpg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/desktop_screenshot/CPeYoq_rlJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/desktop_screenshot/CJvmqq_rlJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/desktop_screenshot/COums6_rlJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/desktop_screenshot/CLa_u6_rlJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/desktop_screenshot/CIrnw6_rlJMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/desktop_screenshot/CKj9jO3k7ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/mobile_screenshot/CKrhl-3k7ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/mobile_screenshot/CJHjoO3k7ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/mobile_screenshot/CKPrqe3k7ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/mobile_screenshot/CI3xsu3k7ZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/252ae7c55fa0e8a35df7f6ff3c8c1596/mobile_screenshot/CKLku-3k7ZQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/ESfZrL_EW6M"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Loox ‑ Product Reviews App free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/loox"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/loox"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Google Shopping and SEO, Klaviyo Email Marketing & SMS, Loyalty Lion Rewards Referrals, Meta Shops Facebook Instagram, Omnisend Email Marketing & SMS, Shop App",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/loox"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/loox"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["http://help.loox.io"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-reviews", "photo-video-reviews", "erp-warehouse-integrations"],
+        "primary_category_id": "product-reviews",
+        "seo": {
+          "title": "Loox ‑ Product Reviews App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product reviews. Listed functions include testimonials, photo reviews.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/loox",
+          "retrieved_at": "2026-10-04T05:09:31.043063+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Turn customer love into sales. Product reviews, referrals and social proof upsells…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/loox"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "mechanic",
+      "name": "Mechanic",
+      "slug": "mechanic",
+      "category_fit": {
+        "app_id": "mechanic",
+        "selection_score": 5.834,
+        "rating_evidence": {"value": 5.0, "reviews": 148},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["erp"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/mechanic"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for erp & warehouse integrations. Listed functions include customer segments, customer tags.",
+        "description_long": "Mechanic is developed by Lightward and listed for workflow automation, orders - other. Its structured listing identifies functions such as customer segments, customer tags, email responses, fraud detection. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["ERP & Warehouse Integrations", "Workflow Automation"],
+        "best_for": {
+          "use_cases": ["ERP & Warehouse Integrations", "Workflow Automation"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 148,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/mechanic",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 146},
+          {"stars": 4, "percentage": 1, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $16/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic Shopify",
+            "amount_usd": 16.0,
+            "billing_period": "month",
+            "price_display": "$16 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Grow Shopify",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced Shopify",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Shopify Plus",
+            "amount_usd": 199.0,
+            "billing_period": "month",
+            "price_display": "$199 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://lightward.com/pricing",
+        "starting_paid_monthly_price_usd": 16.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 7, 2018 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Workflow automation",
+            "url": "https://apps.shopify.com/categories/store-management-operations-workflow-automation"
+          },
+          {
+            "name": "Orders - Other",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-orders-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.workflow_automation.automation_tasks.customer_segments",
+            "label": "Customer segments"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.customer_tags", "label": "Customer tags"},
+          {"handle": "cf.workflow_automation.automation_tasks.email_responses", "label": "Email responses"},
+          {"handle": "cf.workflow_automation.automation_tasks.fraud_detection", "label": "Fraud detection"},
+          {"handle": "cf.workflow_automation.automation_tasks.inventory_levels", "label": "Inventory levels"},
+          {
+            "handle": "cf.workflow_automation.automation_tasks.order_fulfillment",
+            "label": "Order fulfillment"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.order_tags", "label": "Order tags"},
+          {"handle": "cf.workflow_automation.automation_tasks.payment_status", "label": "Payment status"},
+          {"handle": "cf.workflow_automation.automation_tasks.product_tags", "label": "Product tags"},
+          {
+            "handle": "cf.workflow_automation.automation_tasks.return_processing",
+            "label": "Return processing"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.sales_thresholds", "label": "Sales thresholds"},
+          {
+            "handle": "cf.workflow_automation.automation_tasks.stock_replenishment",
+            "label": "Stock replenishment"
+          },
+          {"handle": "cf.workflow_automation.automation_tasks.time_based", "label": "Time-based"},
+          {"handle": "cf.workflow_automation.automation_tasks.order_processing", "label": "Order processing"},
+          {"handle": "cf.workflow_automation.customization.apis", "label": "APIs"},
+          {"handle": "cf.workflow_automation.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.workflow_automation.customization.custom_triggers", "label": "Custom triggers"},
+          {"handle": "cf.workflow_automation.customization.templates", "label": "Templates"},
+          {"handle": "cf.workflow_automation.customization.auto_data_sync", "label": "Auto-sync data"},
+          {"handle": "cf.workflow_automation.customization.scheduled_tasks", "label": "Scheduled tasks"},
+          {"handle": "cf.workflow_automation.customization.custom_workflows", "label": "Custom workflows"},
+          {"handle": "cf.workflow_automation.customization.multi_store", "label": "Multi-store"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Flow",
+          "Shopify Admin",
+          "Airtable",
+          "Email",
+          "Flow",
+          "Google Drive",
+          "Google Sheets",
+          "Webhooks"
+        ]
+      },
+      "developer": {
+        "name": "Lightward",
+        "website_url": "https://lightward.com/",
+        "partner_url": "https://apps.shopify.com/partners/lightward",
+        "public_address": "Chicago, IL, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/mechanic",
+        "canonical_app_store_url": "https://apps.shopify.com/mechanic",
+        "install_url": "https://apps.shopify.com/mechanic",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://learn.mechanic.dev/platform/policies/privacy",
+          "FAQ": "https://learn.mechanic.dev/faq",
+          "Tutorial": "https://learn.mechanic.dev/",
+          "App Documentation": "https://learn.mechanic.dev/",
+          "Lightward": "https://apps.shopify.com/partners/lightward",
+          "Website": "https://lightward.com/",
+          "Changelog": "https://mechanic.canny.io/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/e9f7304f320df1ee017af1d0bf9c64f4/icon/CKmEoL2ng_sCEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/e9f7304f320df1ee017af1d0bf9c64f4/desktop_screenshot/CILr9KGZ-fgCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e9f7304f320df1ee017af1d0bf9c64f4/desktop_screenshot/CJD5ht6W-fgCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e9f7304f320df1ee017af1d0bf9c64f4/desktop_screenshot/CJSKuJSY-fgCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e9f7304f320df1ee017af1d0bf9c64f4/desktop_screenshot/CP_eouqZ-fgCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e9f7304f320df1ee017af1d0bf9c64f4/desktop_screenshot/CMaqxJSY-fgCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e9f7304f320df1ee017af1d0bf9c64f4/desktop_screenshot/CN-N88CY-fgCEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/QitSqzfBovg"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Mechanic free?",
+            "answer": "The pricing label retrieved from the listing is: From $16/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/mechanic"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/mechanic"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Flow, Shopify Admin, Airtable, Email, Flow, Google Drive, Google Sheets, Webhooks",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/mechanic"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/mechanic"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://learn.mechanic.dev/faq", "https://learn.mechanic.dev/", "https://learn.mechanic.dev/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["erp-warehouse-integrations", "workflow-automation"],
+        "primary_category_id": "erp-warehouse-integrations",
+        "seo": {
+          "title": "Mechanic Shopify App | eStorefy",
+          "meta_description": "A Shopify app for erp & warehouse integrations. Listed functions include customer segments, customer tags.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/mechanic",
+          "retrieved_at": "2026-10-04T05:26:25.079910+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Automate anything in your Shopify store. Choose from hundreds of automations or…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/mechanic"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "dropsure",
+      "name": "DropSure ‑ Dropshipping & POD",
+      "slug": "dropsure",
+      "category_fit": {
+        "app_id": "dropsure",
+        "selection_score": 5.7668,
+        "rating_evidence": {"value": 4.9, "reviews": 182},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["warehouse"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/dropsure"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for dropshipping. Listed functions include clothing and accessories, bags and luggage.",
+        "description_long": "DropSure ‑ Dropshipping & POD is developed by DropSure Inc. and listed for dropshipping, print on demand (pod). Its structured listing identifies functions such as clothing and accessories, bags and luggage, home and garden, health and beauty. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Dropshipping", "Print on Demand", "ERP & Warehouse Integrations"],
+        "best_for": {
+          "use_cases": ["Dropshipping", "Print on Demand", "ERP & Warehouse Integrations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 182,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/dropsure",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 178},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "September 12, 2023",
+        "shopify_categories": [
+          {
+            "name": "Dropshipping",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-dropshipping"
+          },
+          {
+            "name": "Print on demand (POD)",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-print-on-demand-pod"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.clothing_and_accessories",
+            "label": "Clothing and accessories"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.bags_and_luggages", "label": "Bags and luggage"},
+          {"handle": "cf.dropshipping.products_you_can_sell.home_and_garden", "label": "Home and garden"},
+          {"handle": "cf.dropshipping.products_you_can_sell.health_and_beauty", "label": "Health and beauty"},
+          {"handle": "cf.dropshipping.products_you_can_sell.electronics", "label": "Electronics"},
+          {"handle": "cf.dropshipping.products_you_can_sell.arts_and_crafts", "label": "Arts and crafts"},
+          {"handle": "cf.dropshipping.products_you_can_sell.toys_and_games", "label": "Toys and games"},
+          {"handle": "cf.dropshipping.products_you_can_sell.baby_products", "label": "Baby products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.sports_products", "label": "Sports products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.pet_products", "label": "Pet products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.furniture", "label": "Furniture"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.business_and_office",
+            "label": "Business and office"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.hardware", "label": "Hardware"},
+          {"handle": "cf.dropshipping.products_you_can_sell.automotive", "label": "Automotive"},
+          {"handle": "cf.dropshipping.sourcing_locations.ar", "label": "Argentina"},
+          {"handle": "cf.dropshipping.sourcing_locations.au", "label": "Australia"},
+          {"handle": "cf.dropshipping.sourcing_locations.be", "label": "Belgium"},
+          {"handle": "cf.dropshipping.sourcing_locations.br", "label": "Brazil"},
+          {"handle": "cf.dropshipping.sourcing_locations.ca", "label": "Canada"},
+          {"handle": "cf.dropshipping.sourcing_locations.cl", "label": "Chile"},
+          {"handle": "cf.dropshipping.sourcing_locations.cn", "label": "China"},
+          {"handle": "cf.dropshipping.sourcing_locations.co", "label": "Colombia"},
+          {"handle": "cf.dropshipping.sourcing_locations.dk", "label": "Denmark"},
+          {"handle": "cf.dropshipping.sourcing_locations.eg", "label": "Egypt"},
+          {"handle": "cf.dropshipping.sourcing_locations.fi", "label": "Finland"},
+          {"handle": "cf.dropshipping.sourcing_locations.fr", "label": "France"},
+          {"handle": "cf.dropshipping.sourcing_locations.gf", "label": "French Guiana"},
+          {"handle": "cf.dropshipping.sourcing_locations.pf", "label": "French Polynesia"},
+          {"handle": "cf.dropshipping.sourcing_locations.tf", "label": "French Southern Territories"},
+          {"handle": "cf.dropshipping.sourcing_locations.de", "label": "Germany"}
+        ],
+        "languages": ["English"],
+        "works_with": []
+      },
+      "developer": {
+        "name": "DropSure Inc.",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/dropsure-inc",
+        "public_address": "1300 OAHU ST, WEST COVINA, CA, 91792, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/dropsure",
+        "canonical_app_store_url": "https://apps.shopify.com/dropsure",
+        "install_url": "https://apps.shopify.com/dropsure",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.dropsure.com/privacy-policy",
+          "DropSure Inc.": "https://apps.shopify.com/partners/dropsure-inc"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/a16cbb11c49e09c0e280641b163b4f44/icon/CMeanLLal4wDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/a16cbb11c49e09c0e280641b163b4f44/desktop_screenshot/CPWu7s2_0oQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a16cbb11c49e09c0e280641b163b4f44/desktop_screenshot/CJXn_urC0oQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a16cbb11c49e09c0e280641b163b4f44/desktop_screenshot/CPPzw7-h4IsDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a16cbb11c49e09c0e280641b163b4f44/desktop_screenshot/CIT3jNim34cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a16cbb11c49e09c0e280641b163b4f44/desktop_screenshot/CLrxqY7E0oQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/YXazrsjuZzI"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is DropSure ‑ Dropshipping & POD free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/dropsure"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/dropsure"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "No integrations were extracted; this does not prove there are none.",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/dropsure"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/dropsure"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["dropshipping", "print-on-demand", "erp-warehouse-integrations"],
+        "primary_category_id": "dropshipping",
+        "seo": {
+          "title": "DropSure ‑ Dropshipping & POD Shopify App | eStorefy",
+          "meta_description": "A Shopify app for dropshipping. Listed functions include clothing and accessories, bags and luggage.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/dropsure",
+          "retrieved_at": "2026-10-04T05:20:56.295251+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "the dropshipping app. Simplify product sourcing, inventory management, and order fulfillment.",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/dropsure"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "fulfil-retail-erp",
+      "name": "Fulfil",
+      "slug": "fulfil-retail-erp",
+      "category_fit": {
+        "app_id": "fulfil-retail-erp",
+        "selection_score": 5.6975,
+        "rating_evidence": {"value": 4.9, "reviews": 37},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["erp", "warehouse"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/fulfil-retail-erp"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for erp & warehouse integrations. Listed functions include order sync, real-time sync.",
+        "description_long": "Fulfil is developed by Fulfil.IO Inc. and listed for erp, inventory sync. Its structured listing identifies functions such as order sync, real-time sync, multi-location, batch tracking. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["ERP & Warehouse Integrations"],
+        "best_for": {
+          "use_cases": ["ERP & Warehouse Integrations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 37,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/fulfil-retail-erp",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 36},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 3, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": "https://www.fulfil.io/",
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "November 27, 2020",
+        "shopify_categories": [
+          {"name": "ERP", "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-erp"},
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.erp.order_processing.order_sync", "label": "Order sync"},
+          {"handle": "cf.erp.inventory_management.real_time_sync", "label": "Real-time sync"},
+          {"handle": "cf.erp.inventory_management.multi_location", "label": "Multi-location"},
+          {"handle": "cf.erp.inventory_management.batch_tracking", "label": "Batch tracking"},
+          {"handle": "cf.erp.inventory_management.expiry_dates", "label": "Expiry dates"},
+          {"handle": "cf.erp.inventory_management.optimization", "label": "Optimization"},
+          {"handle": "cf.erp.inventory_management.reports", "label": "Reports"},
+          {"handle": "cf.erp.inventory_management.value_overview", "label": "Value overview"},
+          {"handle": "cf.erp.inventory_management.stock_reservation", "label": "Stock reservation"},
+          {"handle": "cf.erp.accounting_and_finance.accounts_payable", "label": "Accounts payable"},
+          {"handle": "cf.erp.accounting_and_finance.accounts_receivable", "label": "Accounts receivable"},
+          {"handle": "cf.erp.accounting_and_finance.purchase_orders", "label": "Purchase orders"},
+          {"handle": "cf.erp.accounting_and_finance.reporting", "label": "Reporting"},
+          {"handle": "cf.erp.accounting_and_finance.general_ledger", "label": "General ledger"},
+          {"handle": "cf.erp.accounting_and_finance.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.multi_channel", "label": "Multi-channel"},
+          {"handle": "cf.inventory_sync.sync_type.multi_store", "label": "Multi-store"},
+          {"handle": "cf.inventory_sync.sync_type.real_time", "label": "Real-time"},
+          {
+            "handle": "cf.inventory_sync.notifications_and_reports.custom_notifications",
+            "label": "Custom notifications"
+          },
+          {"handle": "cf.inventory_sync.notifications_and_reports.email_alerts", "label": "Email alerts"}
+        ],
+        "languages": ["English"],
+        "works_with": ["100+ Carriers", "3PLs", "Amazon", "And many more!", "EDI Serv. Providers", "Help Desk Software"]
+      },
+      "developer": {
+        "name": "Fulfil.IO Inc.",
+        "website_url": "https://www.fulfil.io/",
+        "partner_url": "https://apps.shopify.com/partners/fulfil-io",
+        "public_address": "440 N BARRANCA AVE #3853, COVINA, CA, 91723, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/fulfil-retail-erp",
+        "canonical_app_store_url": "https://apps.shopify.com/fulfil-retail-erp",
+        "install_url": "https://apps.shopify.com/fulfil-retail-erp",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.fulfil.io/privacy-policy",
+          "Fulfil.IO Inc.": "https://apps.shopify.com/partners/fulfil-io",
+          "Website": "https://www.fulfil.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/04c84a1ea954710340b3c8c1e287bdf7/icon/CLyDxd3X6IkDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/04c84a1ea954710340b3c8c1e287bdf7/promotional_image/CNHbs_jX6IkDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/04c84a1ea954710340b3c8c1e287bdf7/desktop_screenshot/CLCerdyv_YkDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/04c84a1ea954710340b3c8c1e287bdf7/desktop_screenshot/CKrZ3smd-okDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/04c84a1ea954710340b3c8c1e287bdf7/desktop_screenshot/CMWz6Mmd-okDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/04c84a1ea954710340b3c8c1e287bdf7/desktop_screenshot/CPv49cmd-okDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/04c84a1ea954710340b3c8c1e287bdf7/desktop_screenshot/CJ6PgMqd-okDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/04c84a1ea954710340b3c8c1e287bdf7/desktop_screenshot/CKnlvfjX6IkDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Fulfil free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/fulfil-retail-erp"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/fulfil-retail-erp"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "100+ Carriers, 3PLs, Amazon, And many more!, EDI Serv. Providers, Help Desk Software",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/fulfil-retail-erp"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/fulfil-retail-erp"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["erp-warehouse-integrations"],
+        "primary_category_id": "erp-warehouse-integrations",
+        "seo": {
+          "title": "Fulfil Shopify App | eStorefy",
+          "meta_description": "A Shopify app for erp & warehouse integrations. Listed functions include order sync, real-time sync.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/fulfil-retail-erp",
+          "retrieved_at": "2026-10-04T05:24:57.915937+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/fulfil-retail-erp"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "xorosoft-erp",
+      "name": "Xorosoft ERP",
+      "slug": "xorosoft-erp",
+      "category_fit": {
+        "app_id": "xorosoft-erp",
+        "selection_score": 5.6322,
+        "rating_evidence": {"value": 5.0, "reviews": 20},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["erp"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/xorosoft-erp"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for erp & warehouse integrations. Listed functions include multi-platform management, automated fulfillment.",
+        "description_long": "Xorosoft ERP is developed by Xorosoft and listed for erp, inventory sync. Its structured listing identifies functions such as multi-platform management, automated fulfillment, order editing, status updates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["ERP & Warehouse Integrations"],
+        "best_for": {
+          "use_cases": ["ERP & Warehouse Integrations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 20,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/xorosoft-erp",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 20},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://xorosoft.com/contact/",
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "October 12, 2023",
+        "shopify_categories": [
+          {"name": "ERP", "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-erp"},
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.erp.order_processing.multi_platform_management",
+            "label": "Multi-platform management"
+          },
+          {"handle": "cf.erp.order_processing.automated_fulfillment", "label": "Automated fulfillment"},
+          {"handle": "cf.erp.order_processing.order_edits", "label": "Order editing"},
+          {"handle": "cf.erp.order_processing.status_updates", "label": "Status updates"},
+          {"handle": "cf.erp.order_processing.order_sync", "label": "Order sync"},
+          {"handle": "cf.erp.order_processing.customer_accounts", "label": "Customer accounts"},
+          {"handle": "cf.erp.inventory_management.real_time_sync", "label": "Real-time sync"},
+          {"handle": "cf.erp.inventory_management.multi_location", "label": "Multi-location"},
+          {"handle": "cf.erp.inventory_management.batch_tracking", "label": "Batch tracking"},
+          {"handle": "cf.erp.inventory_management.forecasting", "label": "Forecasting"},
+          {"handle": "cf.erp.inventory_management.reports", "label": "Reports"},
+          {"handle": "cf.erp.inventory_management.stock_reservation", "label": "Stock reservation"},
+          {"handle": "cf.erp.accounting_and_finance.accounts_payable", "label": "Accounts payable"},
+          {"handle": "cf.erp.accounting_and_finance.accounts_receivable", "label": "Accounts receivable"},
+          {"handle": "cf.erp.accounting_and_finance.cash_flow", "label": "Cash flow"},
+          {"handle": "cf.erp.accounting_and_finance.cost_management", "label": "Cost management"},
+          {"handle": "cf.erp.accounting_and_finance.expense_tracking", "label": "Expense tracking"},
+          {"handle": "cf.erp.accounting_and_finance.profit_tracking", "label": "Profit tracking"},
+          {"handle": "cf.erp.accounting_and_finance.revenue_management", "label": "Revenue management"},
+          {"handle": "cf.erp.accounting_and_finance.forecasting", "label": "Forecasting"},
+          {"handle": "cf.erp.accounting_and_finance.reporting", "label": "Reporting"},
+          {"handle": "cf.erp.accounting_and_finance.general_ledger", "label": "General ledger"},
+          {
+            "handle": "cf.erp.accounting_and_finance.financial_consolidation",
+            "label": "Financial consolidation"
+          },
+          {"handle": "cf.erp.accounting_and_finance.tax_calculation", "label": "Tax calculation"},
+          {"handle": "cf.erp.accounting_and_finance.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"},
+          {"handle": "cf.inventory_sync.sync_type.variants", "label": "Variants"},
+          {"handle": "cf.inventory_sync.sync_type.skus", "label": "SKUs"}
+        ],
+        "languages": ["English"],
+        "works_with": ["3PLs", "Amazon", "EDI Providers", "Loop Returns", "Payment Gateways", "Shipstation"]
+      },
+      "developer": {
+        "name": "Xorosoft",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/xorosoft1",
+        "public_address": "4388 Still Creek Dr, Burnaby, BC, V5C 6C6, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/xorosoft-erp",
+        "canonical_app_store_url": "https://apps.shopify.com/xorosoft-erp",
+        "install_url": "https://apps.shopify.com/xorosoft-erp",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://xorosoft.com/privacypolicy",
+          "App Documentation": "https://shop-docs.xorosoft.io",
+          "Xorosoft": "https://apps.shopify.com/partners/xorosoft1"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/d53022a22fe4a28a95336504676dcd53/icon/CMfu07-jrYEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/d53022a22fe4a28a95336504676dcd53/promotional_image/CNi59JrpzYEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d53022a22fe4a28a95336504676dcd53/desktop_screenshot/CPWa_prpzYEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d53022a22fe4a28a95336504676dcd53/desktop_screenshot/CMLDiJvpzYEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d53022a22fe4a28a95336504676dcd53/desktop_screenshot/CJ23kpvpzYEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d53022a22fe4a28a95336504676dcd53/desktop_screenshot/CImhnJvpzYEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d53022a22fe4a28a95336504676dcd53/desktop_screenshot/COCkppvpzYEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d53022a22fe4a28a95336504676dcd53/desktop_screenshot/CKfsr5vpzYEDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Xorosoft ERP free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/xorosoft-erp"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/xorosoft-erp"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "3PLs, Amazon, EDI Providers, Loop Returns, Payment Gateways, Shipstation",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/xorosoft-erp"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/xorosoft-erp"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://shop-docs.xorosoft.io"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Map the products, SKUs, locations and external systems relevant to the integration.",
+            "Run a small test and check stock or order consistency before a full sync.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["erp-warehouse-integrations"],
+        "primary_category_id": "erp-warehouse-integrations",
+        "seo": {
+          "title": "Xorosoft ERP Shopify App | eStorefy",
+          "meta_description": "A Shopify app for erp & warehouse integrations. Listed functions include multi-platform management, automated fulfillment.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/xorosoft-erp",
+          "retrieved_at": "2026-10-04T05:24:50.279047+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Tailored for Retail, eCommerce & wholesale, scaling your business seamlessly.",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/xorosoft-erp"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

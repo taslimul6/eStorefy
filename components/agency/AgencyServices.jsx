@@ -86,6 +86,18 @@ export default function AgencyServices({ agency }) {
           </BriefButton>
         </div>
       ))}
+      {!services.length && (
+        <p className="sub">
+          Detailed service capabilities were not captured in this source snapshot.
+        </p>
+      )}
+      {agency.whatTheyDo?.some((item) =>
+        /generated|editorial/.test(item.descriptionSourceType || ""),
+      ) && (
+        <p className="sub">
+          Service explanations are editorial summaries of the captured service names.
+        </p>
+      )}
       <p className="sub" style={{ marginTop: 14 }}>
         Discussion points help define scope; they are not promised deliverables.
       </p>

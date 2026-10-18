@@ -1,0 +1,1351 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "vat-gst-invoices",
+    "number": 3,
+    "name": "VAT & GST Invoices",
+    "group": "Tax & Accounting",
+    "slug": "vat-gst-invoices",
+    "url_path": "/apps/vat-gst-invoices",
+    "focus": "Manage tax calculations, invoices and financial records.",
+    "description": "Compare Shopify apps for vat & gst invoices. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/store-management-finances-taxes/all"],
+    "seo": {
+      "title": "Shopify VAT & GST Invoices Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for vat & gst invoices: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 5,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a vat & gst invoices app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "gst-invoice-india",
+      "name": "WebPlanex: GST Invoice India",
+      "slug": "gst-invoice-india",
+      "category_fit": {
+        "app_id": "gst-invoice-india",
+        "selection_score": 6.0919,
+        "rating_evidence": {"value": 5.0, "reviews": 492},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["gst"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/gst-invoice-india"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for vat & gst invoices. Listed functions include invoices, receipts.",
+        "description_long": "WebPlanex: GST Invoice India is developed by WebPlanex and listed for invoices and receipts, taxes. Its structured listing identifies functions such as invoices, receipts, credit notes, quotes. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["VAT & GST Invoices", "Store Locators"],
+        "best_for": {
+          "use_cases": ["VAT & GST Invoices", "Store Locators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 492,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/gst-invoice-india",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 484},
+          {"stars": 4, "percentage": 1, "count": 7},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $4.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "STARTUP",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$9.90 for e-Invoice Submission"]
+          },
+          {
+            "name": "BASIC",
+            "amount_usd": 9.9,
+            "billing_period": "month",
+            "price_display": "$9.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$9.90 for e-Invoice Submission"]
+          },
+          {
+            "name": "MEDIUM",
+            "amount_usd": 19.9,
+            "billing_period": "month",
+            "price_display": "$19.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$9.90 for e-Invoice Submission"]
+          },
+          {
+            "name": "ADVANCED",
+            "amount_usd": 49.9,
+            "billing_period": "month",
+            "price_display": "$49.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$9.90 for e-Invoice Submission"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://gst.webplanex.com/invoice/",
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 27, 2017",
+        "shopify_categories": [
+          {
+            "name": "Invoices and receipts",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-invoices-and-receipts"
+          },
+          {"name": "Taxes", "url": "https://apps.shopify.com/categories/store-management-finances-taxes"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.invoices_and_receipts.document_types.invoices", "label": "Invoices"},
+          {"handle": "cf.invoices_and_receipts.document_types.receipts", "label": "Receipts"},
+          {"handle": "cf.invoices_and_receipts.document_types.credit_notes", "label": "Credit notes"},
+          {"handle": "cf.invoices_and_receipts.document_types.quotes", "label": "Quotes"},
+          {"handle": "cf.invoices_and_receipts.document_types.draft_orders", "label": "Draft orders"},
+          {"handle": "cf.invoices_and_receipts.document_types.delivery_notes", "label": "Delivery notes"},
+          {"handle": "cf.invoices_and_receipts.document_types.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.invoices_and_receipts.document_types.refunds", "label": "Refunds"},
+          {"handle": "cf.invoices_and_receipts.document_types.returns", "label": "Returns"},
+          {"handle": "cf.invoices_and_receipts.customization.color_and_font", "label": "Color and font"},
+          {"handle": "cf.invoices_and_receipts.customization.branding", "label": "Branding"},
+          {"handle": "cf.invoices_and_receipts.customization.invoice_numbers", "label": "Invoice numbers"},
+          {"handle": "cf.invoices_and_receipts.customization.sender_email", "label": "Sender email"},
+          {"handle": "cf.invoices_and_receipts.customization.tax_calculation", "label": "Tax calculation"},
+          {"handle": "cf.invoices_and_receipts.customization.templates", "label": "Templates"},
+          {"handle": "cf.invoices_and_receipts.customization.barcodes", "label": "Barcodes"},
+          {"handle": "cf.invoices_and_receipts.customization.logos", "label": "Logos"},
+          {"handle": "cf.invoices_and_receipts.file_management.bulk_download", "label": "Bulk download"},
+          {"handle": "cf.invoices_and_receipts.file_management.email_automation", "label": "Email automation"},
+          {"handle": "cf.invoices_and_receipts.file_management.pdf_generation", "label": "PDF generation"},
+          {"handle": "cf.invoices_and_receipts.file_management.print_and_export", "label": "Print and export"},
+          {"handle": "cf.invoices_and_receipts.file_management.reports", "label": "Reports"},
+          {"handle": "cf.invoices_and_receipts.file_management.data_security", "label": "Data security"},
+          {
+            "handle": "cf.invoices_and_receipts.file_management.sequential_numbering",
+            "label": "Sequential numbering"
+          },
+          {"handle": "cf.taxes.liability_tracking.liability_calculation", "label": "Liability calculation"},
+          {"handle": "cf.taxes.liability_tracking.custom_invoices", "label": "Custom invoices"},
+          {"handle": "cf.taxes.tax_calcluation.tax_rates", "label": "Tax rates"},
+          {"handle": "cf.taxes.tax_calcluation.exemption_managment", "label": "Exemption managment"},
+          {"handle": "cf.taxes.registration.tax_number_validation", "label": "Tax number validation"},
+          {"handle": "cf.taxes.registration.india_gst", "label": "India (GST)"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Admin",
+          "GST Invoice",
+          "Tally",
+          "WhatsApp",
+          "Zoho Books"
+        ]
+      },
+      "developer": {
+        "name": "WebPlanex",
+        "website_url": "https://gst.webplanex.com/invoice/",
+        "partner_url": "https://apps.shopify.com/partners/webplanex1",
+        "public_address": "Texas, TX, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/gst-invoice-india",
+        "canonical_app_store_url": "https://apps.shopify.com/gst-invoice-india",
+        "install_url": "https://apps.shopify.com/gst-invoice-india",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://gst.webplanex.com/invoice/privacy-policy.html",
+          "FAQ": "https://docs.webplanex.com/app/gst/category/faqs",
+          "Tutorial": "https://docs.webplanex.com/app/gst",
+          "WebPlanex": "https://apps.shopify.com/partners/webplanex1",
+          "Website": "https://gst.webplanex.com/invoice/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/0568c1f93d88b31a3f1455c20125a424/icon/CIy9oN_0lu8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/0568c1f93d88b31a3f1455c20125a424/promotional_image/CLbdzJHn0ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0568c1f93d88b31a3f1455c20125a424/desktop_screenshot/CLeqofCotIIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0568c1f93d88b31a3f1455c20125a424/desktop_screenshot/CPb_rvCotIIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0568c1f93d88b31a3f1455c20125a424/desktop_screenshot/CNSuiKbiuv4CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0568c1f93d88b31a3f1455c20125a424/desktop_screenshot/CJSrk6biuv4CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0568c1f93d88b31a3f1455c20125a424/desktop_screenshot/CNjO59T-nv8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0568c1f93d88b31a3f1455c20125a424/desktop_screenshot/CKG2ufCotIIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0568c1f93d88b31a3f1455c20125a424/pos_screenshot/CPWttKbiuv4CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0568c1f93d88b31a3f1455c20125a424/pos_screenshot/COrZ9rOahoEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0568c1f93d88b31a3f1455c20125a424/pos_screenshot/CNWpy6biuv4CEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is WebPlanex: GST Invoice India free?",
+            "answer": "The pricing label retrieved from the listing is: From $4.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/gst-invoice-india"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/gst-invoice-india"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify POS, Shopify Admin, GST Invoice, Tally, WhatsApp, Zoho Books",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/gst-invoice-india"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/gst-invoice-india"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.webplanex.com/app/gst/category/faqs", "https://docs.webplanex.com/app/gst"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the supported jurisdictions and check the relevant tax or invoice settings.",
+            "Review a sample transaction and document before enabling automation.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["vat-gst-invoices", "store-locators"],
+        "primary_category_id": "vat-gst-invoices",
+        "seo": {
+          "title": "WebPlanex: GST Invoice India Shopify App | eStorefy",
+          "meta_description": "A Shopify app for vat & gst invoices. Listed functions include invoices, receipts.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/gst-invoice-india",
+          "retrieved_at": "2026-10-04T05:03:36.817000+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "GST invoicing app for Shopify with e-Invoices, POS receipts, GSTR reports, Email…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/gst-invoice-india"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "gst-invoice-pro",
+      "name": "GST Pro: GST Invoice India",
+      "slug": "gst-invoice-pro",
+      "category_fit": {
+        "app_id": "gst-invoice-pro",
+        "selection_score": 6.042,
+        "rating_evidence": {"value": 5.0, "reviews": 261},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["gst"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/gst-invoice-pro"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for vat & gst invoices. Listed functions include invoices, receipts.",
+        "description_long": "GST Pro: GST Invoice India is developed by Astral and listed for invoices and receipts, taxes. Its structured listing identifies functions such as invoices, receipts, order confirmations, packing slips. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["VAT & GST Invoices", "Accounting Integrations"],
+        "best_for": {
+          "use_cases": ["VAT & GST Invoices", "Accounting Integrations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 261,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/gst-invoice-pro",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 250},
+          {"stars": 4, "percentage": 4, "count": 11},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Startup",
+            "amount_usd": 9.9,
+            "billing_period": "month",
+            "price_display": "$9.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $69.99/year and save 41%"]
+          },
+          {
+            "name": "Business",
+            "amount_usd": 19.98,
+            "billing_period": "month",
+            "price_display": "$19.98 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $199/year and save 17%"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 69.98,
+            "billing_period": "month",
+            "price_display": "$69.98 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $550/year and save 35%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "November 2, 2020",
+        "shopify_categories": [
+          {
+            "name": "Invoices and receipts",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-invoices-and-receipts"
+          },
+          {"name": "Taxes", "url": "https://apps.shopify.com/categories/store-management-finances-taxes"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.invoices_and_receipts.document_types.invoices", "label": "Invoices"},
+          {"handle": "cf.invoices_and_receipts.document_types.receipts", "label": "Receipts"},
+          {
+            "handle": "cf.invoices_and_receipts.document_types.order_confirmations",
+            "label": "Order confirmations"
+          },
+          {"handle": "cf.invoices_and_receipts.document_types.packing_slips", "label": "Packing slips"},
+          {"handle": "cf.invoices_and_receipts.document_types.refunds", "label": "Refunds"},
+          {"handle": "cf.invoices_and_receipts.customization.color_and_font", "label": "Color and font"},
+          {"handle": "cf.invoices_and_receipts.customization.branding", "label": "Branding"},
+          {"handle": "cf.invoices_and_receipts.customization.fields", "label": "Fields"},
+          {"handle": "cf.invoices_and_receipts.customization.invoice_numbers", "label": "Invoice numbers"},
+          {"handle": "cf.invoices_and_receipts.customization.sender_email", "label": "Sender email"},
+          {"handle": "cf.invoices_and_receipts.customization.tax_calculation", "label": "Tax calculation"},
+          {"handle": "cf.invoices_and_receipts.customization.templates", "label": "Templates"},
+          {"handle": "cf.invoices_and_receipts.customization.barcodes", "label": "Barcodes"},
+          {"handle": "cf.invoices_and_receipts.customization.logos", "label": "Logos"},
+          {"handle": "cf.invoices_and_receipts.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.invoices_and_receipts.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.invoices_and_receipts.file_management.bulk_download", "label": "Bulk download"},
+          {"handle": "cf.invoices_and_receipts.file_management.email_automation", "label": "Email automation"},
+          {"handle": "cf.invoices_and_receipts.file_management.pdf_generation", "label": "PDF generation"},
+          {"handle": "cf.invoices_and_receipts.file_management.print_and_export", "label": "Print and export"},
+          {"handle": "cf.invoices_and_receipts.file_management.reports", "label": "Reports"},
+          {"handle": "cf.invoices_and_receipts.file_management.data_security", "label": "Data security"},
+          {
+            "handle": "cf.invoices_and_receipts.file_management.sequential_numbering",
+            "label": "Sequential numbering"
+          },
+          {"handle": "cf.taxes.liability_tracking.liability_calculation", "label": "Liability calculation"},
+          {"handle": "cf.taxes.liability_tracking.custom_invoices", "label": "Custom invoices"},
+          {"handle": "cf.taxes.tax_calcluation.tax_rates", "label": "Tax rates"},
+          {"handle": "cf.taxes.tax_calcluation.rate_management", "label": "Rate management"},
+          {"handle": "cf.taxes.registration.india_gst", "label": "India (GST)"},
+          {"handle": "cf.taxes.reporting_and_filing.compliance_reporting", "label": "Compliance reporting"},
+          {"handle": "cf.taxes.reporting_and_filing.multi_state_filing", "label": "Multi-state filing"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Order Printer",
+          "Point of Sale",
+          "POS",
+          "Shopflo",
+          "Tally"
+        ]
+      },
+      "developer": {
+        "name": "Astral",
+        "website_url": "https://helloastral.com",
+        "partner_url": "https://apps.shopify.com/partners/helloastral",
+        "public_address": "Kalamaserry, Kochi, KL, 682021, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/gst-invoice-pro",
+        "canonical_app_store_url": "https://apps.shopify.com/gst-invoice-pro",
+        "install_url": "https://apps.shopify.com/gst-invoice-pro",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://helloastral.com/privacy",
+          "Astral": "https://apps.shopify.com/partners/helloastral",
+          "Website": "https://helloastral.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/0d5aea1e42490262238767559e2cc2bc/icon/CPew5sSGyoADEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/0d5aea1e42490262238767559e2cc2bc/promotional_image/CLqUkoywh44DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0d5aea1e42490262238767559e2cc2bc/desktop_screenshot/COy7ho7ry4cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0d5aea1e42490262238767559e2cc2bc/desktop_screenshot/CLSlkY7ry4cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0d5aea1e42490262238767559e2cc2bc/desktop_screenshot/CN72m47ry4cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0d5aea1e42490262238767559e2cc2bc/desktop_screenshot/CIfLpo7ry4cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0d5aea1e42490262238767559e2cc2bc/desktop_screenshot/CIbx55zd04cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0d5aea1e42490262238767559e2cc2bc/desktop_screenshot/COnH8Zzd04cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0d5aea1e42490262238767559e2cc2bc/pos_screenshot/CK_ZsI7ry4cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0d5aea1e42490262238767559e2cc2bc/pos_screenshot/CP_xlpjgxP0CEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is GST Pro: GST Invoice India free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/gst-invoice-pro"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/gst-invoice-pro"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Order Printer, Point of Sale, POS, Shopflo, Tally",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/gst-invoice-pro"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/gst-invoice-pro"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the supported jurisdictions and check the relevant tax or invoice settings.",
+            "Review a sample transaction and document before enabling automation.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["vat-gst-invoices", "accounting-integrations"],
+        "primary_category_id": "vat-gst-invoices",
+        "seo": {
+          "title": "GST Pro: GST Invoice India Shopify App | eStorefy",
+          "meta_description": "A Shopify app for vat & gst invoices. Listed functions include invoices, receipts.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/gst-invoice-pro",
+          "retrieved_at": "2026-10-04T05:03:36.825428+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/gst-invoice-pro"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "tax-exemption",
+      "name": "TAX Exemption & VAT e‑invoices",
+      "slug": "tax-exemption",
+      "category_fit": {
+        "app_id": "tax-exemption",
+        "selection_score": 5.739,
+        "rating_evidence": {"value": 4.9, "reviews": 47},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["vat"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/tax-exemption"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for vat & gst invoices. Listed functions include liability calculation, vat invoices.",
+        "description_long": "TAX Exemption & VAT e‑invoices is developed by New craft and listed for taxes. Its structured listing identifies functions such as liability calculation, vat invoices, custom invoices, tax rates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["VAT & GST Invoices"],
+        "best_for": {
+          "use_cases": ["VAT & GST Invoices"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 47,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/tax-exemption",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 46},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 2, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $9.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $99.90/year and save 17%"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 24.99,
+            "billing_period": "month",
+            "price_display": "$24.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $249.90/year and save 17%"]
+          },
+          {
+            "name": "B2B Plus Portal",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $499/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 24, 2025",
+        "shopify_categories": [
+          {"name": "Taxes", "url": "https://apps.shopify.com/categories/store-management-finances-taxes"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.taxes.liability_tracking.liability_calculation", "label": "Liability calculation"},
+          {"handle": "cf.taxes.liability_tracking.vat_invoices", "label": "VAT invoices"},
+          {"handle": "cf.taxes.liability_tracking.custom_invoices", "label": "Custom invoices"},
+          {"handle": "cf.taxes.tax_calcluation.tax_rates", "label": "Tax rates"},
+          {"handle": "cf.taxes.tax_calcluation.exemption_managment", "label": "Exemption managment"},
+          {"handle": "cf.taxes.tax_calcluation.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.taxes.registration.tax_number_validation", "label": "Tax number validation"},
+          {"handle": "cf.taxes.registration.ioss_and_oss_eu", "label": "IOSS and OSS (EU)"},
+          {"handle": "cf.taxes.registration.eu_vat", "label": "EU (VAT)"},
+          {"handle": "cf.taxes.reporting_and_filing.compliance_reporting", "label": "Compliance reporting"},
+          {"handle": "cf.taxes.reporting_and_filing.data_export", "label": "Data export"}
+        ],
+        "languages": [
+          "English",
+          " Italian",
+          " German",
+          " Spanish",
+          " Dutch",
+          " French",
+          " Estonian",
+          " Polish",
+          " Swedish",
+          " and Slovak"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "Cart",
+          "eu tax",
+          "plus b2b portal",
+          "Theme Editor"
+        ]
+      },
+      "developer": {
+        "name": "New craft",
+        "website_url": "https://newcraft.dev/?source=taxey-listing",
+        "partner_url": "https://apps.shopify.com/partners/adv16",
+        "public_address": "Raadhuisplein 17, Barneveld, 3771ER, NL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/tax-exemption",
+        "canonical_app_store_url": "https://apps.shopify.com/tax-exemption",
+        "install_url": "https://apps.shopify.com/tax-exemption",
+        "demo_store_url": "https://eu-tax-exemption-easy-prod.myshopify.com/pages/how-to-test-the-app",
+        "resources": {
+          "Privacy policy": "https://newcraft.dev/privacy?source=taxey-listing",
+          "New craft": "https://apps.shopify.com/partners/adv16",
+          "Website": "https://newcraft.dev/?source=taxey-listing"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/03a3ce461827b11f3e2b77f7da64284d/icon/CM-oorOfiZEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/03a3ce461827b11f3e2b77f7da64284d/desktop_screenshot/CNKdt7q-tpADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03a3ce461827b11f3e2b77f7da64284d/desktop_screenshot/CKvB0I-KtZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03a3ce461827b11f3e2b77f7da64284d/desktop_screenshot/CMy02Y-KtZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03a3ce461827b11f3e2b77f7da64284d/desktop_screenshot/CLT04Y-KtZADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/fYeINtWaD2k"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is TAX Exemption & VAT e‑invoices free?",
+            "answer": "The pricing label retrieved from the listing is: From $9.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/tax-exemption"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Italian,  German,  Spanish,  Dutch,  French,  Estonian,  Polish,  Swedish,  and Slovak",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/tax-exemption"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, Cart, eu tax, plus b2b portal, Theme Editor",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/tax-exemption"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/tax-exemption"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the supported jurisdictions and check the relevant tax or invoice settings.",
+            "Review a sample transaction and document before enabling automation.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["vat-gst-invoices"],
+        "primary_category_id": "vat-gst-invoices",
+        "seo": {
+          "title": "TAX Exemption & VAT e‑invoices Shopify App | eStorefy",
+          "meta_description": "A Shopify app for vat & gst invoices. Listed functions include liability calculation, vat invoices.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/tax-exemption",
+          "retrieved_at": "2026-10-04T05:03:50.531108+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Automatically validate EU VAT numbers and apply tax exemptions for B2B customers.…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/tax-exemption"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "gst-advanced-pro",
+      "name": "GST india : GST Invoice",
+      "slug": "gst-advanced-pro",
+      "category_fit": {
+        "app_id": "gst-advanced-pro",
+        "selection_score": 5.6528,
+        "rating_evidence": {"value": 5.0, "reviews": 22},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["gst"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/gst-advanced-pro"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for vat & gst invoices. Listed functions include vat invoices, tax rates.",
+        "description_long": "GST india : GST Invoice is developed by drilly and listed for taxes, invoices and receipts. Its structured listing identifies functions such as vat invoices, tax rates, tax number validation, compliance reporting. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["VAT & GST Invoices"],
+        "best_for": {
+          "use_cases": ["VAT & GST Invoices"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 22,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/gst-advanced-pro",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 22},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "starter",
+            "amount_usd": 2.99,
+            "billing_period": "month",
+            "price_display": "$2.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $24/year and save 33%"]
+          },
+          {
+            "name": "growth",
+            "amount_usd": 6.99,
+            "billing_period": "month",
+            "price_display": "$6.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $56/year and save 33%"]
+          },
+          {
+            "name": "unlimited",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $159/year and save 34%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 2.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "May 15, 2026",
+        "shopify_categories": [
+          {"name": "Taxes", "url": "https://apps.shopify.com/categories/store-management-finances-taxes"},
+          {
+            "name": "Invoices and receipts",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-invoices-and-receipts"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.taxes.liability_tracking.vat_invoices", "label": "VAT invoices"},
+          {"handle": "cf.taxes.tax_calcluation.tax_rates", "label": "Tax rates"},
+          {"handle": "cf.taxes.registration.tax_number_validation", "label": "Tax number validation"},
+          {"handle": "cf.taxes.reporting_and_filing.compliance_reporting", "label": "Compliance reporting"},
+          {"handle": "cf.invoices_and_receipts.document_types.invoices", "label": "Invoices"},
+          {"handle": "cf.invoices_and_receipts.document_types.receipts", "label": "Receipts"},
+          {"handle": "cf.invoices_and_receipts.customization.fields", "label": "Fields"},
+          {"handle": "cf.invoices_and_receipts.file_management.bulk_download", "label": "Bulk download"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Customer accounts", "Shopify POS", "Shopify Admin"]
+      },
+      "developer": {
+        "name": "drilly",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/drilly",
+        "public_address": "8-3-231/b/427/krishna nagar, Hyderabad, TS, 500045, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/gst-advanced-pro",
+        "canonical_app_store_url": "https://apps.shopify.com/gst-advanced-pro",
+        "install_url": "https://apps.shopify.com/gst-advanced-pro",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://gst-production-d079.up.railway.app/privacy",
+          "drilly": "https://apps.shopify.com/partners/drilly"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/df8fe528d8db44114fddc8d4f340d061/icon/CMTuk8iH-5QDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/df8fe528d8db44114fddc8d4f340d061/promotional_image/CLaC-d-ukZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/df8fe528d8db44114fddc8d4f340d061/desktop_screenshot/CJbxo4zEz5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/df8fe528d8db44114fddc8d4f340d061/desktop_screenshot/CMrlm-jMz5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/df8fe528d8db44114fddc8d4f340d061/desktop_screenshot/CIKBoa21kZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/df8fe528d8db44114fddc8d4f340d061/mobile_screenshot/CJzfj9vRz5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/df8fe528d8db44114fddc8d4f340d061/mobile_screenshot/CL_smNvRz5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/df8fe528d8db44114fddc8d4f340d061/mobile_screenshot/CJaTotvRz5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/df8fe528d8db44114fddc8d4f340d061/mobile_screenshot/CLCYq9vRz5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/df8fe528d8db44114fddc8d4f340d061/mobile_screenshot/CKy2ra21kZcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is GST india : GST Invoice free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/gst-advanced-pro"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/gst-advanced-pro"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/gst-advanced-pro"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/gst-advanced-pro"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the supported jurisdictions and check the relevant tax or invoice settings.",
+            "Review a sample transaction and document before enabling automation.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["vat-gst-invoices"],
+        "primary_category_id": "vat-gst-invoices",
+        "seo": {
+          "title": "GST india : GST Invoice Shopify App | eStorefy",
+          "meta_description": "A Shopify app for vat & gst invoices. Listed functions include vat invoices, tax rates.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/gst-advanced-pro",
+          "retrieved_at": "2026-10-04T05:03:57.510315+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/gst-advanced-pro"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "order-printer-pdf-invoice",
+      "name": "F: PDF Invoice Generator",
+      "slug": "order-printer-pdf-invoice",
+      "category_fit": {
+        "app_id": "order-printer-pdf-invoice",
+        "selection_score": 5.013,
+        "rating_evidence": {"value": 4.7, "reviews": 137},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["vat", "gst"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/order-printer-pdf-invoice"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for vat & gst invoices. Listed functions include invoices, receipts.",
+        "description_long": "F: PDF Invoice Generator is developed by Final Apps and listed for invoices and receipts, taxes. Its structured listing identifies functions such as invoices, receipts, gift receipts, credit notes. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["VAT & GST Invoices"],
+        "best_for": {
+          "use_cases": ["VAT & GST Invoices"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.7,
+        "review_count": 137,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/order-printer-pdf-invoice",
+        "distribution": [
+          {"stars": 5, "percentage": 87, "count": 119},
+          {"stars": 4, "percentage": 7, "count": 9},
+          {"stars": 3, "percentage": 1, "count": 2},
+          {"stars": 2, "percentage": 1, "count": 2},
+          {"stars": 1, "percentage": 4, "count": 5}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro Plan",
+            "amount_usd": 21.0,
+            "billing_period": "month",
+            "price_display": "$21 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $149/year and save 41%"]
+          },
+          {
+            "name": "Premium Plan",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $490/year and save 17%"]
+          },
+          {
+            "name": "Enterprise Plan",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $990/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 21.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 25, 2021 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Invoices and receipts",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-invoices-and-receipts"
+          },
+          {"name": "Taxes", "url": "https://apps.shopify.com/categories/store-management-finances-taxes"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.invoices_and_receipts.document_types.invoices", "label": "Invoices"},
+          {"handle": "cf.invoices_and_receipts.document_types.receipts", "label": "Receipts"},
+          {"handle": "cf.invoices_and_receipts.document_types.gift_receipts", "label": "Gift receipts"},
+          {"handle": "cf.invoices_and_receipts.document_types.credit_notes", "label": "Credit notes"},
+          {"handle": "cf.invoices_and_receipts.document_types.quotes", "label": "Quotes"},
+          {"handle": "cf.invoices_and_receipts.document_types.draft_orders", "label": "Draft orders"},
+          {
+            "handle": "cf.invoices_and_receipts.document_types.order_confirmations",
+            "label": "Order confirmations"
+          },
+          {"handle": "cf.invoices_and_receipts.document_types.delivery_notes", "label": "Delivery notes"},
+          {
+            "handle": "cf.invoices_and_receipts.document_types.customs_documents",
+            "label": "Customs documents"
+          },
+          {"handle": "cf.invoices_and_receipts.document_types.packing_slips", "label": "Packing slips"},
+          {"handle": "cf.invoices_and_receipts.document_types.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.invoices_and_receipts.document_types.refunds", "label": "Refunds"},
+          {"handle": "cf.invoices_and_receipts.document_types.returns", "label": "Returns"},
+          {"handle": "cf.invoices_and_receipts.customization.color_and_font", "label": "Color and font"},
+          {"handle": "cf.invoices_and_receipts.customization.branding", "label": "Branding"},
+          {"handle": "cf.invoices_and_receipts.customization.fields", "label": "Fields"},
+          {"handle": "cf.invoices_and_receipts.customization.invoice_numbers", "label": "Invoice numbers"},
+          {"handle": "cf.invoices_and_receipts.customization.sender_email", "label": "Sender email"},
+          {"handle": "cf.invoices_and_receipts.customization.tax_calculation", "label": "Tax calculation"},
+          {"handle": "cf.invoices_and_receipts.customization.templates", "label": "Templates"},
+          {"handle": "cf.invoices_and_receipts.customization.barcodes", "label": "Barcodes"},
+          {"handle": "cf.invoices_and_receipts.customization.logos", "label": "Logos"},
+          {"handle": "cf.invoices_and_receipts.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.invoices_and_receipts.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.invoices_and_receipts.file_management.bulk_download", "label": "Bulk download"},
+          {"handle": "cf.invoices_and_receipts.file_management.file_naming", "label": "File naming"},
+          {"handle": "cf.invoices_and_receipts.file_management.email_automation", "label": "Email automation"},
+          {"handle": "cf.invoices_and_receipts.file_management.pdf_generation", "label": "PDF generation"},
+          {"handle": "cf.invoices_and_receipts.file_management.print_and_export", "label": "Print and export"},
+          {"handle": "cf.invoices_and_receipts.file_management.reports", "label": "Reports"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " French",
+          " Italian",
+          " Spanish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Polish",
+          " Dutch",
+          " Swedish",
+          " Norwegian",
+          " Danish",
+          " Finnish",
+          " Czech",
+          " Japanese",
+          " Korean",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Thai",
+          " Vietnamese",
+          " and Turkish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Automatic Email",
+          "Draft Order",
+          "Order Printer",
+          "POS",
+          "Return Receipts",
+          "Translate invoices"
+        ]
+      },
+      "developer": {
+        "name": "Final Apps",
+        "website_url": "https://appsfinal.com/",
+        "partner_url": "https://apps.shopify.com/partners/final-apps",
+        "public_address": "Rough Bit LLP, Kalath House Nellayi, Thrissur, KL, 680305, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/order-printer-pdf-invoice",
+        "canonical_app_store_url": "https://apps.shopify.com/order-printer-pdf-invoice",
+        "install_url": "https://apps.shopify.com/order-printer-pdf-invoice",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://appsfinal.com/pages/privacy",
+          "FAQ": "https://appsfinal.crisp.help/en/category/pdf-invoice-order-printer-km4zuo/",
+          "Final Apps": "https://apps.shopify.com/partners/final-apps",
+          "Website": "https://appsfinal.com/",
+          "Changelog": "https://app.heymantle.com/api/apps/61b42376-3e60-4c60-bee6-626a726c66cf/changelog?format=json"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/87840f2ce1c8427f29ecf254b8d763eb/icon/CMGn-6Oe7JEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/87840f2ce1c8427f29ecf254b8d763eb/promotional_image/CNeHtoezwJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/87840f2ce1c8427f29ecf254b8d763eb/desktop_screenshot/COXMv4ezwJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/87840f2ce1c8427f29ecf254b8d763eb/desktop_screenshot/CIeOyIezwJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/87840f2ce1c8427f29ecf254b8d763eb/desktop_screenshot/CO3l0IezwJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/87840f2ce1c8427f29ecf254b8d763eb/desktop_screenshot/CLuE2YezwJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/87840f2ce1c8427f29ecf254b8d763eb/desktop_screenshot/CNjO4YezwJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/87840f2ce1c8427f29ecf254b8d763eb/mobile_screenshot/CPmI2feDtPkCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/87840f2ce1c8427f29ecf254b8d763eb/mobile_screenshot/CJyV5veDtPkCEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is F: PDF Invoice Generator free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/order-printer-pdf-invoice"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Italian,  Spanish,  Portuguese (Brazil),  Portuguese (Portugal),  Polish,  Dutch,  Swedish,  Norwegian,  Danish,  Finnish,  Czech,  Japanese,  Korean,  Chinese (Simplified),  Chinese (Traditional),  Thai,  Vietnamese,  and Turkish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/order-printer-pdf-invoice"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Automatic Email, Draft Order, Order Printer, POS, Return Receipts, Translate invoices",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/order-printer-pdf-invoice"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/order-printer-pdf-invoice"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://appsfinal.crisp.help/en/category/pdf-invoice-order-printer-km4zuo/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the supported jurisdictions and check the relevant tax or invoice settings.",
+            "Review a sample transaction and document before enabling automation.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["vat-gst-invoices"],
+        "primary_category_id": "vat-gst-invoices",
+        "seo": {
+          "title": "F: PDF Invoice Generator Shopify App | eStorefy",
+          "meta_description": "A Shopify app for vat & gst invoices. Listed functions include invoices, receipts.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/order-printer-pdf-invoice",
+          "retrieved_at": "2026-10-04T05:03:57.515793+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Order Printer - PDF Invoice helps you to quickly print and email…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/order-printer-pdf-invoice"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

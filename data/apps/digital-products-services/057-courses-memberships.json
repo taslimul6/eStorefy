@@ -1,0 +1,3377 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "courses-memberships",
+    "number": 57,
+    "name": "Courses & Memberships",
+    "group": "Digital Products & Services",
+    "slug": "courses-memberships",
+    "url_path": "/apps/courses-memberships",
+    "focus": "Sell downloads, access, appointments and bookings.",
+    "description": "Compare Shopify apps for courses & memberships. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-products/all"],
+    "seo": {
+      "title": "Shopify Courses & Memberships Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for courses & memberships: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a courses & memberships app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "pendora-digital-download",
+      "name": "Digital Downloads PDF Pendora",
+      "slug": "pendora-digital-download",
+      "category_fit": {
+        "app_id": "pendora-digital-download",
+        "selection_score": 6.1467,
+        "rating_evidence": {"value": 5.0, "reviews": 1205},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["course"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/pendora-digital-download"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for digital downloads. Listed functions include audio, courses.",
+        "description_long": "Digital Downloads PDF Pendora is developed by Henqq ecommerce LLC and listed for digital products. Its structured listing identifies functions such as audio, courses, digital art, ebooks. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Digital Downloads", "Courses & Memberships"],
+        "best_for": {
+          "use_cases": ["Digital Downloads", "Courses & Memberships"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 1205,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/pendora-digital-download",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 1},
+          {"stars": 4, "percentage": 2, "count": 28},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 28, 2024",
+        "shopify_categories": [
+          {
+            "name": "Digital products",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-products"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.digital_products.product_types.audio", "label": "Audio"},
+          {"handle": "cf.digital_products.product_types.courses", "label": "Courses"},
+          {"handle": "cf.digital_products.product_types.digital_art", "label": "Digital art"},
+          {"handle": "cf.digital_products.product_types.ebooks", "label": "Ebooks"},
+          {"handle": "cf.digital_products.product_types.games", "label": "Games"},
+          {"handle": "cf.digital_products.product_types.pdfs", "label": "PDFs"},
+          {"handle": "cf.digital_products.product_types.software", "label": "Software"},
+          {"handle": "cf.digital_products.product_types.videos", "label": "Videos"},
+          {"handle": "cf.digital_products.product_types.custom", "label": "Custom"},
+          {"handle": "cf.digital_products.download_management.email_delivery", "label": "Email delivery"},
+          {"handle": "cf.digital_products.download_management.bulk_uploads", "label": "Bulk upload"},
+          {
+            "handle": "cf.digital_products.download_management.custom_download_pages",
+            "label": "Custom download pages"
+          },
+          {"handle": "cf.digital_products.download_management.thank_you_page", "label": "Thank you page"},
+          {"handle": "cf.digital_products.download_management.streaming", "label": "Streaming"},
+          {
+            "handle": "cf.digital_products.download_management.unlimited_downloads",
+            "label": "Unlimited downloads"
+          },
+          {"handle": "cf.digital_products.download_management.analytics", "label": "Analytics"},
+          {
+            "handle": "cf.digital_products.download_management.externally_hosted",
+            "label": "Externally hosted"
+          },
+          {"handle": "cf.digital_products.download_management.custom_links", "label": "Custom links"},
+          {
+            "handle": "cf.digital_products.download_management.amazon_s3_storage",
+            "label": "Amazon S3 storage"
+          },
+          {"handle": "cf.digital_products.file_security.license_key", "label": "License key"},
+          {"handle": "cf.digital_products.file_security.file_encryption", "label": "File encryption"},
+          {"handle": "cf.digital_products.file_security.password_protection", "label": "Password protection"},
+          {"handle": "cf.digital_products.file_security.watermarks", "label": "Watermarks"},
+          {"handle": "cf.digital_products.file_security.file_hosting", "label": "File hosting"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Customer accounts", "Shopify Admin"]
+      },
+      "developer": {
+        "name": "Henqq ecommerce LLC",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/henqq-ecommerce-llc2",
+        "public_address": "3 GERMAY DRIVE UNIT WILMINGTON, WILMINGTON, DE, 19804, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/pendora-digital-download",
+        "canonical_app_store_url": "https://apps.shopify.com/pendora-digital-download",
+        "install_url": "https://apps.shopify.com/pendora-digital-download",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.proveway.com/blog/privacy-policy",
+          "Henqq ecommerce LLC": "https://apps.shopify.com/partners/henqq-ecommerce-llc2"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/8cbf8db3640a3b80c9b7fa74b36933ea/icon/CMmR3cqBhowDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/8cbf8db3640a3b80c9b7fa74b36933ea/promotional_image/CL3E0Iuq5IcDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8cbf8db3640a3b80c9b7fa74b36933ea/desktop_screenshot/CNHjkaWq5IcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8cbf8db3640a3b80c9b7fa74b36933ea/desktop_screenshot/CMuLn9azg4YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8cbf8db3640a3b80c9b7fa74b36933ea/desktop_screenshot/CMbIqtazg4YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8cbf8db3640a3b80c9b7fa74b36933ea/desktop_screenshot/CKLHq8Sq5IcDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Digital Downloads PDF Pendora free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/pendora-digital-download"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/pendora-digital-download"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/pendora-digital-download"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/pendora-digital-download"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["digital-downloads", "courses-memberships"],
+        "primary_category_id": "digital-downloads",
+        "seo": {
+          "title": "Digital Downloads PDF Pendora Shopify App | eStorefy",
+          "meta_description": "A Shopify app for digital downloads. Listed functions include audio, courses.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/pendora-digital-download",
+          "retrieved_at": "2026-10-04T05:19:30.427290+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/pendora-digital-download"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "courses-app",
+      "name": "Tevello Courses & Communities",
+      "slug": "courses-app",
+      "category_fit": {
+        "app_id": "courses-app",
+        "selection_score": 6.1181,
+        "rating_evidence": {"value": 5.0, "reviews": 735},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["course", "membership"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/courses-app"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for digital downloads. Listed functions include audio, courses.",
+        "description_long": "Tevello Courses & Communities is developed by Tevello and listed for digital products, digital goods and services - other. Its structured listing identifies functions such as audio, courses, digital art, ebooks. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Digital Downloads", "Courses & Memberships"],
+        "best_for": {
+          "use_cases": ["Digital Downloads", "Courses & Memberships"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 735,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/courses-app",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 729},
+          {"stars": 4, "percentage": 1, "count": 4},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Development",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Tevello",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "February 16, 2023",
+        "shopify_categories": [
+          {
+            "name": "Digital products",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-products"
+          },
+          {
+            "name": "Digital goods and services - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-goods-and-services-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.digital_products.product_types.audio", "label": "Audio"},
+          {"handle": "cf.digital_products.product_types.courses", "label": "Courses"},
+          {"handle": "cf.digital_products.product_types.digital_art", "label": "Digital art"},
+          {"handle": "cf.digital_products.product_types.ebooks", "label": "Ebooks"},
+          {"handle": "cf.digital_products.product_types.pdfs", "label": "PDFs"},
+          {"handle": "cf.digital_products.product_types.videos", "label": "Videos"},
+          {"handle": "cf.digital_products.product_types.custom", "label": "Custom"},
+          {
+            "handle": "cf.digital_products.download_management.custom_download_pages",
+            "label": "Custom download pages"
+          },
+          {"handle": "cf.digital_products.download_management.thank_you_page", "label": "Thank you page"},
+          {"handle": "cf.digital_products.download_management.streaming", "label": "Streaming"},
+          {
+            "handle": "cf.digital_products.download_management.unlimited_downloads",
+            "label": "Unlimited downloads"
+          },
+          {"handle": "cf.digital_products.download_management.analytics", "label": "Analytics"},
+          {"handle": "cf.digital_products.download_management.custom_links", "label": "Custom links"},
+          {"handle": "cf.digital_products.file_security.access_code", "label": "Access code"},
+          {"handle": "cf.digital_products.file_security.file_encryption", "label": "File encryption"},
+          {"handle": "cf.digital_products.file_security.password_protection", "label": "Password protection"},
+          {"handle": "cf.digital_products.file_security.file_hosting", "label": "File hosting"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " Italian",
+          " German",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Korean",
+          " Czech",
+          " Danish",
+          " Dutch",
+          " Polish",
+          " Finnish",
+          " Swedish",
+          " Turkish",
+          " Thai",
+          " Japanese",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " and Norwegian (Bokmål)"
+        ],
+        "works_with": [
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Appstle Subscriptions",
+          "Seal Subscriptions",
+          "Vimeo",
+          "Wistia",
+          "YouTube",
+          "Zipify Pages & OCU"
+        ]
+      },
+      "developer": {
+        "name": "Tevello",
+        "website_url": "https://tevello.com/",
+        "partner_url": "https://apps.shopify.com/partners/or-moshe",
+        "public_address": "Sheridan, WY, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/courses-app",
+        "canonical_app_store_url": "https://apps.shopify.com/courses-app",
+        "install_url": "https://apps.shopify.com/courses-app",
+        "demo_store_url": "https://tevello.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://tevello.com/privacy-policy",
+          "Tevello": "https://apps.shopify.com/partners/or-moshe",
+          "Website": "https://tevello.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/8133ffc213f8dfb82e68b74561a5f9c6/icon/CI-errvO8oADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/8133ffc213f8dfb82e68b74561a5f9c6/promotional_image/CNGDte-6h4EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8133ffc213f8dfb82e68b74561a5f9c6/desktop_screenshot/CImvrbGSgIEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8133ffc213f8dfb82e68b74561a5f9c6/desktop_screenshot/CO3xt7GSgIEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8133ffc213f8dfb82e68b74561a5f9c6/desktop_screenshot/CPb2wbGSgIEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8133ffc213f8dfb82e68b74561a5f9c6/desktop_screenshot/CPiA7J-ngIEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8133ffc213f8dfb82e68b74561a5f9c6/desktop_screenshot/COvjiJmUgIEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8133ffc213f8dfb82e68b74561a5f9c6/desktop_screenshot/CL65lJmUgIEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8133ffc213f8dfb82e68b74561a5f9c6/mobile_screenshot/CISU04CvgIEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8133ffc213f8dfb82e68b74561a5f9c6/mobile_screenshot/CKKTt42rgIEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8133ffc213f8dfb82e68b74561a5f9c6/mobile_screenshot/CJXCwI2rgIEDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Tevello Courses & Communities free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/courses-app"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  Italian,  German,  Portuguese (Brazil),  Portuguese (Portugal),  Korean,  Czech,  Danish,  Dutch,  Polish,  Finnish,  Swedish,  Turkish,  Thai,  Japanese,  Chinese (Simplified),  Chinese (Traditional),  and Norwegian (Bokmål)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/courses-app"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Flow, Shopify Admin, Appstle Subscriptions, Seal Subscriptions, Vimeo, Wistia, YouTube, Zipify Pages & OCU",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/courses-app"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/courses-app"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["digital-downloads", "courses-memberships"],
+        "primary_category_id": "digital-downloads",
+        "seo": {
+          "title": "Tevello Courses & Communities Shopify App | eStorefy",
+          "meta_description": "A Shopify app for digital downloads. Listed functions include audio, courses.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/courses-app",
+          "retrieved_at": "2026-10-04T05:19:37.315595+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Connect with your audience by selling your online courses and digital products…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/courses-app"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "appstle-memberships",
+      "name": "Appstle℠ Memberships",
+      "slug": "appstle-memberships",
+      "category_fit": {
+        "app_id": "appstle-memberships",
+        "selection_score": 5.9814,
+        "rating_evidence": {"value": 5.0, "reviews": 918},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["membership"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/appstle-memberships"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for courses & memberships. Listed functions include curated subscriptions, access subscriptions.",
+        "description_long": "Appstle℠ Memberships is developed by Appstle Memberships and listed for subscriptions, loyalty and rewards. Its structured listing identifies functions such as curated subscriptions, access subscriptions, memberships, services. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Courses & Memberships"],
+        "best_for": {
+          "use_cases": ["Courses & Memberships"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 918,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/appstle-memberships",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 887},
+          {"stars": 4, "percentage": 2, "count": 21},
+          {"stars": 3, "percentage": 0, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 3},
+          {"stars": 1, "percentage": 0, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "STARTER",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $182.40/year and save 20%"]
+          },
+          {
+            "name": "BUSINESS",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $374.40/year and save 20%"]
+          },
+          {
+            "name": "BUSINESS PREMIUM",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $758.40/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://appstle.com/products/memberships-and-loyalty-pricing/",
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "February 3, 2022",
+        "shopify_categories": [
+          {
+            "name": "Subscriptions",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-subscriptions"
+          },
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.subscriptions.subscription_types.curated_subscriptions",
+            "label": "Curated subscriptions"
+          },
+          {
+            "handle": "cf.subscriptions.subscription_types.access_subscriptions",
+            "label": "Access subscriptions"
+          },
+          {"handle": "cf.subscriptions.subscription_types.memberships", "label": "Memberships"},
+          {"handle": "cf.subscriptions.subscription_types.services", "label": "Services"},
+          {"handle": "cf.subscriptions.subscription_types.subscription_boxes", "label": "Subscription boxes"},
+          {"handle": "cf.subscriptions.subscription_types.digital_products", "label": "Digital products"},
+          {"handle": "cf.subscriptions.subscription_types.physical_products", "label": "Physical products"},
+          {
+            "handle": "cf.subscriptions.subscription_types.custom_subscriptions",
+            "label": "Custom subscriptions"
+          },
+          {"handle": "cf.subscriptions.pricing_you_can_set.recurring_payments", "label": "Recurring payments"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.subscribe_and_save", "label": "Subscribe and save"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.fixed_pricing", "label": "Fixed pricing"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.freemium", "label": "Freemium"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.trial_periods", "label": "Trial periods"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.one_time_payment", "label": "One-time payment"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.subscriptions", "label": "Subscriptions"},
+          {"handle": "cf.loyalty_and_rewards.program_types.gift_card_programs", "label": "Gift card programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gifts", "label": "Gifts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gift_cards", "label": "Gift cards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.early_access", "label": "Early access"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Bundler - PageFly",
+          "EcomSolid - Transcy",
+          "Gorgias - UpPromote",
+          "Klaviyo - Growave",
+          "LoyaltyLion - Zapier",
+          "Yotpo - Disc Pricing"
+        ]
+      },
+      "developer": {
+        "name": "Appstle Memberships",
+        "website_url": "https://appstle.com/products/ecommerce-memberships/",
+        "partner_url": "https://apps.shopify.com/partners/appstle-memberships",
+        "public_address": "Menlo Park, CA, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/appstle-memberships",
+        "canonical_app_store_url": "https://apps.shopify.com/appstle-memberships",
+        "install_url": "https://apps.shopify.com/appstle-memberships",
+        "demo_store_url": "https://demo-appstle-membership.myshopify.com/pages/features-we-offer",
+        "resources": {
+          "Privacy policy": "https://membership-admin.appstle.com/privacy-policy",
+          "FAQ": "https://intercom.help/appstle/en/collections/3293196-memberships",
+          "Tutorial": "https://intercom.help/appstle/en/collections/3293196-memberships",
+          "App Documentation": "https://developers.appstle.com/",
+          "Appstle Memberships": "https://apps.shopify.com/partners/appstle-memberships",
+          "Website": "https://appstle.com/products/ecommerce-memberships/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/8b7082369736e8cbbbfc46dd11fb1409/icon/CLeR2YT165QDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/8b7082369736e8cbbbfc46dd11fb1409/desktop_screenshot/CNaVwLuY7fsCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8b7082369736e8cbbbfc46dd11fb1409/desktop_screenshot/CM3n96TIqY8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8b7082369736e8cbbbfc46dd11fb1409/desktop_screenshot/CJaay7uY7fsCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8b7082369736e8cbbbfc46dd11fb1409/desktop_screenshot/CJCLgaXIqY8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8b7082369736e8cbbbfc46dd11fb1409/desktop_screenshot/CJiuiqXIqY8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8b7082369736e8cbbbfc46dd11fb1409/mobile_screenshot/CNbfzPGJlogDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8b7082369736e8cbbbfc46dd11fb1409/mobile_screenshot/CNm91fGJlogDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/Ts2MKhU393U"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Appstle℠ Memberships free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/appstle-memberships"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appstle-memberships"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Bundler - PageFly, EcomSolid - Transcy, Gorgias - UpPromote, Klaviyo - Growave, LoyaltyLion - Zapier, Yotpo - Disc Pricing",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appstle-memberships"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/appstle-memberships"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://intercom.help/appstle/en/collections/3293196-memberships",
+            "https://intercom.help/appstle/en/collections/3293196-memberships",
+            "https://developers.appstle.com/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["courses-memberships"],
+        "primary_category_id": "courses-memberships",
+        "seo": {
+          "title": "Appstle℠ Memberships Shopify App | eStorefy",
+          "meta_description": "A Shopify app for courses & memberships. Listed functions include curated subscriptions, access subscriptions.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/appstle-memberships",
+          "retrieved_at": "2026-10-04T05:18:02.619548+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Set up a Powerful E-Commerce Membership Model on your online store to…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/appstle-memberships"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "courses",
+      "name": "Courses Plus",
+      "slug": "courses",
+      "category_fit": {
+        "app_id": "courses",
+        "selection_score": 5.9569,
+        "rating_evidence": {"value": 4.9, "reviews": 287},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["course", "lesson", "membership"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/courses"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for courses & memberships. Listed functions include audio, courses.",
+        "description_long": "Courses Plus is developed by Architechpro OÜ and listed for digital products, subscriptions. Its structured listing identifies functions such as audio, courses, digital art, ebooks. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Courses & Memberships"],
+        "best_for": {
+          "use_cases": ["Courses & Memberships"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 287,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/courses",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 274},
+          {"stars": 4, "percentage": 3, "count": 8},
+          {"stars": 3, "percentage": 1, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Demo",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $200/year and save 17%"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 79.99,
+            "billing_period": "month",
+            "price_display": "$79.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $800/year and save 17%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 199.99,
+            "billing_period": "month",
+            "price_display": "$199.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $2,000/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://courses-plus.com/pages/pricing",
+        "starting_paid_monthly_price_usd": 19.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 9, 2020 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Digital products",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-products"
+          },
+          {
+            "name": "Subscriptions",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-subscriptions"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.digital_products.product_types.audio", "label": "Audio"},
+          {"handle": "cf.digital_products.product_types.courses", "label": "Courses"},
+          {"handle": "cf.digital_products.product_types.digital_art", "label": "Digital art"},
+          {"handle": "cf.digital_products.product_types.ebooks", "label": "Ebooks"},
+          {"handle": "cf.digital_products.product_types.games", "label": "Games"},
+          {"handle": "cf.digital_products.product_types.pdfs", "label": "PDFs"},
+          {"handle": "cf.digital_products.product_types.software", "label": "Software"},
+          {"handle": "cf.digital_products.product_types.videos", "label": "Videos"},
+          {"handle": "cf.digital_products.product_types.custom", "label": "Custom"},
+          {"handle": "cf.digital_products.download_management.email_delivery", "label": "Email delivery"},
+          {"handle": "cf.digital_products.download_management.bulk_uploads", "label": "Bulk upload"},
+          {
+            "handle": "cf.digital_products.download_management.custom_download_pages",
+            "label": "Custom download pages"
+          },
+          {"handle": "cf.digital_products.download_management.thank_you_page", "label": "Thank you page"},
+          {"handle": "cf.digital_products.download_management.download_limits", "label": "Download limits"},
+          {"handle": "cf.digital_products.download_management.streaming", "label": "Streaming"},
+          {
+            "handle": "cf.digital_products.download_management.unlimited_downloads",
+            "label": "Unlimited downloads"
+          },
+          {"handle": "cf.digital_products.download_management.analytics", "label": "Analytics"},
+          {"handle": "cf.digital_products.download_management.smtp", "label": "SMTP"},
+          {
+            "handle": "cf.digital_products.download_management.externally_hosted",
+            "label": "Externally hosted"
+          },
+          {"handle": "cf.digital_products.download_management.custom_links", "label": "Custom links"},
+          {
+            "handle": "cf.digital_products.download_management.amazon_s3_storage",
+            "label": "Amazon S3 storage"
+          },
+          {"handle": "cf.digital_products.file_security.access_code", "label": "Access code"},
+          {"handle": "cf.digital_products.file_security.license_key", "label": "License key"},
+          {"handle": "cf.digital_products.file_security.file_encryption", "label": "File encryption"},
+          {"handle": "cf.digital_products.file_security.ip_restrictions", "label": "IP restrictions"},
+          {"handle": "cf.digital_products.file_security.password_protection", "label": "Password protection"},
+          {"handle": "cf.digital_products.file_security.watermarks", "label": "Watermarks"},
+          {"handle": "cf.digital_products.file_security.file_hosting", "label": "File hosting"},
+          {
+            "handle": "cf.subscriptions.subscription_types.curated_subscriptions",
+            "label": "Curated subscriptions"
+          },
+          {
+            "handle": "cf.subscriptions.subscription_types.replenishment_subscriptions",
+            "label": "Replenishment subscriptions"
+          }
+        ],
+        "languages": [
+          "English",
+          " Portuguese (Portugal)",
+          " French",
+          " Spanish",
+          " German",
+          " Ukrainian",
+          " Italian",
+          " Japanese",
+          " Hindi",
+          " Korean",
+          " Dutch",
+          " Finnish",
+          " Norwegian",
+          " Polish",
+          " Slovak",
+          " Slovenian",
+          " Turkish",
+          " Arabic",
+          " Czech",
+          " Chinese (Simplified)",
+          " Yiddish",
+          " Thai",
+          " Vietnamese",
+          " and Greek"
+        ],
+        "works_with": [
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Flow",
+          "Google Meet",
+          "Mega Community",
+          "Typeform",
+          "YouTube",
+          "Zoom"
+        ]
+      },
+      "developer": {
+        "name": "Architechpro OÜ",
+        "website_url": "https://courses-plus.com/",
+        "partner_url": "https://apps.shopify.com/partners/architechpro",
+        "public_address": "Sepapaja 6, Tallin, 15551, EE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/courses",
+        "canonical_app_store_url": "https://apps.shopify.com/courses",
+        "install_url": "https://apps.shopify.com/courses",
+        "demo_store_url": "https://courses-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://architechpro.com/pages/privacy-policy",
+          "Tutorial": "https://www.youtube.com/watch?v=xNhTGMMFtyE",
+          "App Documentation": "https://help.courses-plus.com/",
+          "Architechpro OÜ": "https://apps.shopify.com/partners/architechpro",
+          "Website": "https://courses-plus.com/",
+          "Changelog": "https://courses-plus.canny.io/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/7cbb0880d51e83304bfcfe7abedc9d20/icon/CIiNgLL0lu8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/7cbb0880d51e83304bfcfe7abedc9d20/desktop_screenshot/CPSK5sDK9oQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7cbb0880d51e83304bfcfe7abedc9d20/desktop_screenshot/CPOY-e_nk_oCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7cbb0880d51e83304bfcfe7abedc9d20/desktop_screenshot/CM7s78DK9oQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7cbb0880d51e83304bfcfe7abedc9d20/desktop_screenshot/CKWllPDnk_oCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7cbb0880d51e83304bfcfe7abedc9d20/desktop_screenshot/COPBofDnk_oCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7cbb0880d51e83304bfcfe7abedc9d20/desktop_screenshot/CIPB8IX97vICEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/LArO2elA0xM"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Courses Plus free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/courses"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Portuguese (Portugal),  French,  Spanish,  German,  Ukrainian,  Italian,  Japanese,  Hindi,  Korean,  Dutch,  Finnish,  Norwegian,  Polish,  Slovak,  Slovenian,  Turkish,  Arabic,  Czech,  Chinese (Simplified),  Yiddish,  Thai,  Vietnamese,  and Greek",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/courses"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Flow, Shopify Admin, Flow, Google Meet, Mega Community, Typeform, YouTube, Zoom",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/courses"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/courses"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://www.youtube.com/watch?v=xNhTGMMFtyE", "https://help.courses-plus.com/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["courses-memberships"],
+        "primary_category_id": "courses-memberships",
+        "seo": {
+          "title": "Courses Plus Shopify App | eStorefy",
+          "meta_description": "A Shopify app for courses & memberships. Listed functions include audio, courses.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/courses",
+          "retrieved_at": "2026-10-04T05:19:54.538185+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Create & sell online courses on Shopify. Build lessons, modules, add quizzes…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/courses"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "seal-subscriptions",
+      "name": "Seal Subscriptions App",
+      "slug": "seal-subscriptions",
+      "category_fit": {
+        "app_id": "seal-subscriptions",
+        "selection_score": 5.9457,
+        "rating_evidence": {"value": 4.9, "reviews": 3124},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["membership"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/seal-subscriptions"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for subscriptions. Listed functions include reward programs, memberships.",
+        "description_long": "Seal Subscriptions App is developed by Seal Subscriptions and listed for loyalty and rewards, subscriptions. Its structured listing identifies functions such as reward programs, memberships, subscriptions, custom programs. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Subscriptions", "Courses & Memberships"],
+        "best_for": {
+          "use_cases": ["Subscriptions", "Courses & Memberships"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 3124,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/seal-subscriptions",
+        "distribution": [
+          {"stars": 5, "percentage": 93, "count": 2},
+          {"stars": 4, "percentage": 5, "count": 163},
+          {"stars": 3, "percentage": 1, "count": 26},
+          {"stars": 2, "percentage": 0, "count": 11},
+          {"stars": 1, "percentage": 1, "count": 17}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free for life!",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "SUPERSALE",
+            "amount_usd": 5.95,
+            "billing_period": "month",
+            "price_display": "$5.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $57.12/year and save 20%"]
+          },
+          {
+            "name": "RISING STAR",
+            "amount_usd": 9.95,
+            "billing_period": "month",
+            "price_display": "$9.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.52/year and save 20%"]
+          },
+          {
+            "name": "LEGEND",
+            "amount_usd": 24.95,
+            "billing_period": "month",
+            "price_display": "$24.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $239.52/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.sealsubscriptions.com/articles/pricing",
+        "starting_paid_monthly_price_usd": 5.95,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 18, 2020",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          },
+          {
+            "name": "Subscriptions",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-subscriptions"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.subscriptions", "label": "Subscriptions"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {
+            "handle": "cf.subscriptions.subscription_types.curated_subscriptions",
+            "label": "Curated subscriptions"
+          },
+          {
+            "handle": "cf.subscriptions.subscription_types.replenishment_subscriptions",
+            "label": "Replenishment subscriptions"
+          },
+          {
+            "handle": "cf.subscriptions.subscription_types.access_subscriptions",
+            "label": "Access subscriptions"
+          },
+          {"handle": "cf.subscriptions.subscription_types.memberships", "label": "Memberships"},
+          {"handle": "cf.subscriptions.subscription_types.services", "label": "Services"},
+          {"handle": "cf.subscriptions.subscription_types.subscription_boxes", "label": "Subscription boxes"},
+          {"handle": "cf.subscriptions.subscription_types.donations", "label": "Donations"},
+          {"handle": "cf.subscriptions.subscription_types.digital_products", "label": "Digital products"},
+          {"handle": "cf.subscriptions.subscription_types.physical_products", "label": "Physical products"},
+          {
+            "handle": "cf.subscriptions.subscription_types.custom_subscriptions",
+            "label": "Custom subscriptions"
+          },
+          {"handle": "cf.subscriptions.pricing_you_can_set.recurring_payments", "label": "Recurring payments"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.subscribe_and_save", "label": "Subscribe and save"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.fixed_pricing", "label": "Fixed pricing"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.freemium", "label": "Freemium"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.trial_periods", "label": "Trial periods"},
+          {
+            "handle": "cf.subscriptions.pricing_you_can_set.usage_based_pricing",
+            "label": "Usage-based pricing"
+          },
+          {"handle": "cf.subscriptions.pricing_you_can_set.per_user_pricing", "label": "Per-user pricing"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.one_time_payment", "label": "One-time payment"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.dynamic_pricing", "label": "Dynamic pricing"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.custom_pricing", "label": "Custom pricing"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Polish",
+          " German",
+          " Dutch",
+          " Italian",
+          " Slovenian",
+          " Swedish",
+          " Turkish",
+          " Hebrew",
+          " Arabic",
+          " Japanese",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " and Romanian"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Admin",
+          "Attentive",
+          "Bundler",
+          "Gempages",
+          "Gorgias",
+          "Klaviyo",
+          "Pagefly"
+        ]
+      },
+      "developer": {
+        "name": "Seal Subscriptions",
+        "website_url": "https://www.sealsubscriptions.com/",
+        "partner_url": "https://apps.shopify.com/partners/seal-subscriptions-recurring-orders",
+        "public_address": "Podutiška cesta 94, Ljubljana, 1000, SI"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/seal-subscriptions",
+        "canonical_app_store_url": "https://apps.shopify.com/seal-subscriptions",
+        "install_url": "https://apps.shopify.com/seal-subscriptions",
+        "demo_store_url": "https://subscription-coffee-shop.myshopify.com/products/bag-of-coffee-1kg",
+        "resources": {
+          "Privacy policy": "https://www.sealsubscriptions.com/legal/privacy-policy",
+          "FAQ": "https://www.sealsubscriptions.com/articles/frequently-asked-questions",
+          "Tutorial": "https://www.sealsubscriptions.com/tutorials",
+          "App Documentation": "https://www.sealsubscriptions.com/articles",
+          "Seal Subscriptions": "https://apps.shopify.com/partners/seal-subscriptions-recurring-orders",
+          "Website": "https://www.sealsubscriptions.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/2238eba39a98da1ae85cfb8a609b4cbe/icon/CPiyy56YvZMDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/2238eba39a98da1ae85cfb8a609b4cbe/desktop_screenshot/CIXh5aiKtI0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2238eba39a98da1ae85cfb8a609b4cbe/desktop_screenshot/COrD8qiKtI0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2238eba39a98da1ae85cfb8a609b4cbe/desktop_screenshot/CPy5_aiKtI0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2238eba39a98da1ae85cfb8a609b4cbe/desktop_screenshot/CIjfhqmKtI0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2238eba39a98da1ae85cfb8a609b4cbe/desktop_screenshot/CLmGkqmKtI0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2238eba39a98da1ae85cfb8a609b4cbe/mobile_screenshot/CPSjpamKtI0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2238eba39a98da1ae85cfb8a609b4cbe/pos_screenshot/CKmIxdLx_ZADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/Swl8kgn2X6A"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Seal Subscriptions App free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/seal-subscriptions"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  Portuguese (Brazil),  Portuguese (Portugal),  Polish,  German,  Dutch,  Italian,  Slovenian,  Swedish,  Turkish,  Hebrew,  Arabic,  Japanese,  Chinese (Simplified),  Chinese (Traditional),  and Romanian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/seal-subscriptions"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Admin, Attentive, Bundler, Gempages, Gorgias, Klaviyo, Pagefly",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/seal-subscriptions"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/seal-subscriptions"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://www.sealsubscriptions.com/articles/frequently-asked-questions",
+            "https://www.sealsubscriptions.com/tutorials",
+            "https://www.sealsubscriptions.com/articles"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Define the payment, subscription or pre-order rules and eligible products.",
+            "Verify supported payment methods and test the purchase lifecycle.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["subscriptions", "courses-memberships"],
+        "primary_category_id": "subscriptions",
+        "seo": {
+          "title": "Seal Subscriptions App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for subscriptions. Listed functions include reward programs, memberships.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/seal-subscriptions",
+          "retrieved_at": "2026-10-04T05:18:02.533671+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Shopify subscription app and recurring payments app, packed with features! Unlock consistent…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/seal-subscriptions"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "ldt-courses",
+      "name": "LDT Courses & Communities",
+      "slug": "ldt-courses",
+      "category_fit": {
+        "app_id": "ldt-courses",
+        "selection_score": 5.9239,
+        "rating_evidence": {"value": 4.9, "reviews": 196},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["course"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/ldt-courses"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for digital downloads. Listed functions include audio, courses.",
+        "description_long": "LDT Courses & Communities is developed by LDT Team and listed for digital products, digital goods and services - other. Its structured listing identifies functions such as audio, courses, digital art, ebooks. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Digital Downloads", "Courses & Memberships"],
+        "best_for": {
+          "use_cases": ["Digital Downloads", "Courses & Memberships"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 196,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/ldt-courses",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 188},
+          {"stars": 4, "percentage": 3, "count": 6},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 12.99,
+            "billing_period": "month",
+            "price_display": "$12.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $129.99/year and save 17%"]
+          },
+          {
+            "name": "Business",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $199.99/year and save 17%"]
+          },
+          {
+            "name": "Ultra",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $499.99/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 12.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 15, 2024",
+        "shopify_categories": [
+          {
+            "name": "Digital products",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-products"
+          },
+          {
+            "name": "Digital goods and services - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-goods-and-services-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.digital_products.product_types.audio", "label": "Audio"},
+          {"handle": "cf.digital_products.product_types.courses", "label": "Courses"},
+          {"handle": "cf.digital_products.product_types.digital_art", "label": "Digital art"},
+          {"handle": "cf.digital_products.product_types.ebooks", "label": "Ebooks"},
+          {"handle": "cf.digital_products.product_types.games", "label": "Games"},
+          {"handle": "cf.digital_products.product_types.pdfs", "label": "PDFs"},
+          {"handle": "cf.digital_products.product_types.software", "label": "Software"},
+          {"handle": "cf.digital_products.product_types.videos", "label": "Videos"},
+          {"handle": "cf.digital_products.product_types.custom", "label": "Custom"},
+          {"handle": "cf.digital_products.download_management.email_delivery", "label": "Email delivery"},
+          {"handle": "cf.digital_products.download_management.bulk_uploads", "label": "Bulk upload"},
+          {"handle": "cf.digital_products.download_management.thank_you_page", "label": "Thank you page"},
+          {"handle": "cf.digital_products.download_management.streaming", "label": "Streaming"},
+          {
+            "handle": "cf.digital_products.download_management.unlimited_downloads",
+            "label": "Unlimited downloads"
+          },
+          {"handle": "cf.digital_products.download_management.smtp", "label": "SMTP"},
+          {
+            "handle": "cf.digital_products.download_management.externally_hosted",
+            "label": "Externally hosted"
+          },
+          {"handle": "cf.digital_products.download_management.custom_links", "label": "Custom links"},
+          {
+            "handle": "cf.digital_products.download_management.amazon_s3_storage",
+            "label": "Amazon S3 storage"
+          },
+          {"handle": "cf.digital_products.file_security.access_code", "label": "Access code"},
+          {"handle": "cf.digital_products.file_security.license_key", "label": "License key"},
+          {"handle": "cf.digital_products.file_security.file_encryption", "label": "File encryption"},
+          {"handle": "cf.digital_products.file_security.password_protection", "label": "Password protection"},
+          {"handle": "cf.digital_products.file_security.watermarks", "label": "Watermarks"},
+          {"handle": "cf.digital_products.file_security.file_hosting", "label": "File hosting"}
+        ],
+        "languages": [
+          "English",
+          " Vietnamese",
+          " Chinese (Simplified)",
+          " French",
+          " Dutch",
+          " German",
+          " Spanish",
+          " Finnish",
+          " Russian",
+          " Romanian",
+          " Japanese",
+          " Arabic",
+          " Portuguese (Portugal)",
+          " Czech",
+          " Danish",
+          " Hebrew",
+          " Hindi",
+          " Hungarian",
+          " Italian",
+          " Korean",
+          " Lithuanian",
+          " Norwegian",
+          " Polish",
+          " Swedish",
+          " and Turkish"
+        ],
+        "works_with": ["Checkout", "Customer accounts", "Shopify Flow", "Shopify Admin"]
+      },
+      "developer": {
+        "name": "LDT Team",
+        "website_url": "https://ldtsoft.work",
+        "partner_url": "https://apps.shopify.com/partners/personal131",
+        "public_address": "Thanh Tri, Ha Noi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/ldt-courses",
+        "canonical_app_store_url": "https://apps.shopify.com/ldt-courses",
+        "install_url": "https://apps.shopify.com/ldt-courses",
+        "demo_store_url": "https://ldt-course-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://ldtsoft.work/privacy",
+          "FAQ": "https://helpdesk.ldtsoft.work/ldt-online-course",
+          "LDT Team": "https://apps.shopify.com/partners/personal131",
+          "Website": "https://ldtsoft.work"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/222bff72233514a498735521598ba98c/icon/CIDJpMmy1IMDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/222bff72233514a498735521598ba98c/promotional_image/CK_Vza72t4oDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/222bff72233514a498735521598ba98c/desktop_screenshot/COGj4LSrvIgDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/222bff72233514a498735521598ba98c/desktop_screenshot/CMLjr6b_xoUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/222bff72233514a498735521598ba98c/desktop_screenshot/COHzuab_xoUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/222bff72233514a498735521598ba98c/desktop_screenshot/CKSfw6b_xoUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/222bff72233514a498735521598ba98c/desktop_screenshot/CP7py9n_gZADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/222bff72233514a498735521598ba98c/desktop_screenshot/CL_c1Nn_gZADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is LDT Courses & Communities free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/ldt-courses"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Vietnamese,  Chinese (Simplified),  French,  Dutch,  German,  Spanish,  Finnish,  Russian,  Romanian,  Japanese,  Arabic,  Portuguese (Portugal),  Czech,  Danish,  Hebrew,  Hindi,  Hungarian,  Italian,  Korean,  Lithuanian,  Norwegian,  Polish,  Swedish,  and Turkish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ldt-courses"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ldt-courses"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/ldt-courses"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://helpdesk.ldtsoft.work/ldt-online-course"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["digital-downloads", "courses-memberships"],
+        "primary_category_id": "digital-downloads",
+        "seo": {
+          "title": "LDT Courses & Communities Shopify App | eStorefy",
+          "meta_description": "A Shopify app for digital downloads. Listed functions include audio, courses.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/ldt-courses",
+          "retrieved_at": "2026-10-04T05:19:46.298708+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/ldt-courses"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "loyalty-program-2",
+      "name": "Love Loyalty Rewards & Points",
+      "slug": "loyalty-program-2",
+      "category_fit": {
+        "app_id": "loyalty-program-2",
+        "selection_score": 5.9217,
+        "rating_evidence": {"value": 5.0, "reviews": 373},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["membership"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/loyalty-program-2"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+        "description_long": "Love Loyalty Rewards & Points is developed by 2023 Projects, Inc and listed for loyalty and rewards. Its structured listing identifies functions such as reward programs, memberships, vip tiers, referrals. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards", "Referral Programs", "Courses & Memberships"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards", "Referral Programs", "Courses & Memberships"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 373,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/loyalty-program-2",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 369},
+          {"stars": 4, "percentage": 1, "count": 3},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 12.0,
+            "billing_period": "month",
+            "price_display": "$12 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $120/year and save 17%"]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $708/year and save 25%",
+              "Includes 2,000 monthly orders, then +$15 per additional 100 orders"
+            ]
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 399.0,
+            "billing_period": "month",
+            "price_display": "$399 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $3,588/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 12.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 24, 2024",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.program_types.cash_back_programs", "label": "Cash back programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gift_cards", "label": "Gift cards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.cash_back", "label": "Cash back"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.store_credit", "label": "Store credit"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.early_access", "label": "Early access"},
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.exclusive_access",
+            "label": "Exclusive access"
+          },
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.membership_perks",
+            "label": "Membership perks"
+          },
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Email",
+          "Judge.me",
+          "Klaviyo",
+          "Review apps"
+        ]
+      },
+      "developer": {
+        "name": "2023 Projects, Inc",
+        "website_url": "https://www.loveloyalty.app/",
+        "partner_url": "https://apps.shopify.com/partners/2023-projects-inc",
+        "public_address": "651 N Broad St, Suite 201, Middletown, DE, 19709, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/loyalty-program-2",
+        "canonical_app_store_url": "https://apps.shopify.com/loyalty-program-2",
+        "install_url": "https://apps.shopify.com/loyalty-program-2",
+        "demo_store_url": "https://love-loyalty-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.loveloyalty.app/privacy-policy",
+          "FAQ": "https://helpdesk-love-loyalty.crisp.help/en/category/faq-1dm96ri/",
+          "Tutorial": "https://www.youtube.com/playlist?list=PL1jNXLS2SQEcPqBVkzg7y2imJpMjR_yK5",
+          "App Documentation": "https://helpdesk-love-loyalty.crisp.help/en/category/getting-started-zs5gp2/",
+          "2023 Projects, Inc": "https://apps.shopify.com/partners/2023-projects-inc",
+          "Website": "https://www.loveloyalty.app/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/icon/CLen2J3gtpMDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/promotional_image/CNyYgbOUgpcDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/desktop_screenshot/CM_lndfU9ZUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/desktop_screenshot/CK-Sz6CRqZQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/desktop_screenshot/CPaL2KCRqZQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/desktop_screenshot/CIOM4aCRqZQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/desktop_screenshot/CPPw6aCRqZQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/desktop_screenshot/CI_xrqzCipEDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f07ce13affc39ef494e543427d0cca24/pos_screenshot/CLn1tqzCipEDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Love Loyalty Rewards & Points free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/loyalty-program-2"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/loyalty-program-2"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Email, Judge.me, Klaviyo, Review apps",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/loyalty-program-2"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/loyalty-program-2"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://helpdesk-love-loyalty.crisp.help/en/category/faq-1dm96ri/",
+            "https://www.youtube.com/playlist?list=PL1jNXLS2SQEcPqBVkzg7y2imJpMjR_yK5",
+            "https://helpdesk-love-loyalty.crisp.help/en/category/getting-started-zs5gp2/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards", "referral-programs", "courses-memberships"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "Love Loyalty Rewards & Points Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/loyalty-program-2",
+          "retrieved_at": "2026-10-04T05:10:12.067715+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Build a loyal customer base with Love Loyalty. Your customers can redeem…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/loyalty-program-2"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "subi-subscriptions-memberships",
+      "name": "Subi Subscriptions App",
+      "slug": "subi-subscriptions-memberships",
+      "category_fit": {
+        "app_id": "subi-subscriptions-memberships",
+        "selection_score": 5.8839,
+        "rating_evidence": {"value": 4.9, "reviews": 924},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["membership"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/subi-subscriptions-memberships"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for subscriptions. Listed functions include curated subscriptions, replenishment subscriptions.",
+        "description_long": "Subi Subscriptions App is developed by Subi and listed for subscriptions, product bundles. Its structured listing identifies functions such as curated subscriptions, replenishment subscriptions, access subscriptions, memberships. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Subscriptions", "Courses & Memberships"],
+        "best_for": {
+          "use_cases": ["Subscriptions", "Courses & Memberships"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 924,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/subi-subscriptions-memberships",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 869},
+          {"stars": 4, "percentage": 4, "count": 34},
+          {"stars": 3, "percentage": 1, "count": 6},
+          {"stars": 2, "percentage": 1, "count": 7},
+          {"stars": 1, "percentage": 1, "count": 8}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $290/year and save 17%"]
+          },
+          {
+            "name": "Subi",
+            "amount_usd": 119.0,
+            "billing_period": "month",
+            "price_display": "$119 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,190/year and save 17%"]
+          },
+          {
+            "name": "Subi Plus",
+            "amount_usd": 479.0,
+            "billing_period": "month",
+            "price_display": "$479 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $4,790/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.subi.co/pricing",
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "February 21, 2022 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Subscriptions",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-subscriptions"
+          },
+          {
+            "name": "Product bundles",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-product-bundles"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.subscriptions.subscription_types.curated_subscriptions",
+            "label": "Curated subscriptions"
+          },
+          {
+            "handle": "cf.subscriptions.subscription_types.replenishment_subscriptions",
+            "label": "Replenishment subscriptions"
+          },
+          {
+            "handle": "cf.subscriptions.subscription_types.access_subscriptions",
+            "label": "Access subscriptions"
+          },
+          {"handle": "cf.subscriptions.subscription_types.memberships", "label": "Memberships"},
+          {"handle": "cf.subscriptions.subscription_types.services", "label": "Services"},
+          {"handle": "cf.subscriptions.subscription_types.product_bundles", "label": "Product bundles"},
+          {"handle": "cf.subscriptions.subscription_types.subscription_boxes", "label": "Subscription boxes"},
+          {"handle": "cf.subscriptions.subscription_types.digital_products", "label": "Digital products"},
+          {"handle": "cf.subscriptions.subscription_types.physical_products", "label": "Physical products"},
+          {
+            "handle": "cf.subscriptions.subscription_types.custom_subscriptions",
+            "label": "Custom subscriptions"
+          },
+          {"handle": "cf.subscriptions.pricing_you_can_set.recurring_payments", "label": "Recurring payments"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.subscribe_and_save", "label": "Subscribe and save"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.fixed_pricing", "label": "Fixed pricing"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.freemium", "label": "Freemium"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.trial_periods", "label": "Trial periods"},
+          {
+            "handle": "cf.subscriptions.pricing_you_can_set.usage_based_pricing",
+            "label": "Usage-based pricing"
+          },
+          {"handle": "cf.subscriptions.pricing_you_can_set.per_user_pricing", "label": "Per-user pricing"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.one_time_payment", "label": "One-time payment"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.dynamic_pricing", "label": "Dynamic pricing"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.product_bundles.bundle_types.fixed_bundles", "label": "Fixed bundles"},
+          {"handle": "cf.product_bundles.bundle_types.build_a_box", "label": "Build a box"},
+          {"handle": "cf.product_bundles.bundle_types.mystery_boxes", "label": "Mystery boxes"},
+          {"handle": "cf.product_bundles.bundle_types.subscription_boxes", "label": "Subscription boxes"},
+          {"handle": "cf.product_bundles.pricing_you_can_set.fixed_pricing", "label": "Fixed pricing"},
+          {"handle": "cf.product_bundles.pricing_you_can_set.volume_discounts", "label": "Volume discounts"},
+          {
+            "handle": "cf.product_bundles.pricing_you_can_set.percentage_discounts",
+            "label": "Percentage discounts"
+          },
+          {"handle": "cf.product_bundles.pricing_you_can_set.subscriptions", "label": "Subscriptions"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Spanish",
+          " German",
+          " Chinese (Simplified)",
+          " Italian",
+          " Chinese (Traditional)",
+          " Dutch",
+          " Japanese",
+          " Portuguese (Brazil)",
+          " Danish",
+          " Finnish",
+          " Norwegian (Bokmål)",
+          " Czech",
+          " Swedish",
+          " Polish",
+          " Portuguese (Portugal)",
+          " Korean",
+          " and Thai"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Admin",
+          "Fast Bundle",
+          "Givy",
+          "Klaviyo",
+          "Mailchimp",
+          "Stripe, PayPal, Authorize.net",
+          "Translate & Adapt"
+        ]
+      },
+      "developer": {
+        "name": "Subi",
+        "website_url": "https://www.subi.co/",
+        "partner_url": "https://apps.shopify.com/partners/subify-subscriptions",
+        "public_address": "202A- 7080 River Rd, Richmond, BC, V6X1X5, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/subi-subscriptions-memberships",
+        "canonical_app_store_url": "https://apps.shopify.com/subi-subscriptions-memberships",
+        "install_url": "https://apps.shopify.com/subi-subscriptions-memberships",
+        "demo_store_url": "https://demo.subi.co",
+        "resources": {
+          "Privacy policy": "https://www.subi.co/privacy-policy",
+          "FAQ": "https://help.subi.co/en/",
+          "Tutorial": "https://www.youtube.com/watch?v=1dTK97gala0",
+          "App Documentation": "https://help.subi.co/en/",
+          "Subi": "https://apps.shopify.com/partners/subify-subscriptions",
+          "Website": "https://www.subi.co/",
+          "Changelog": "https://subi.co/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f2eeada6125f0c80de832c2ab3799c0d/icon/CKSvuOmakZUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f2eeada6125f0c80de832c2ab3799c0d/desktop_screenshot/COmK2pfc8pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f2eeada6125f0c80de832c2ab3799c0d/desktop_screenshot/CIXb5Zfc8pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f2eeada6125f0c80de832c2ab3799c0d/desktop_screenshot/CLLK56S-kZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f2eeada6125f0c80de832c2ab3799c0d/desktop_screenshot/CKGu8aS-kZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f2eeada6125f0c80de832c2ab3799c0d/desktop_screenshot/CM2I8Jfc8pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f2eeada6125f0c80de832c2ab3799c0d/desktop_screenshot/CIed-pfc8pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f2eeada6125f0c80de832c2ab3799c0d/mobile_screenshot/CJWGkaW-kZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f2eeada6125f0c80de832c2ab3799c0d/mobile_screenshot/CLikmqW-kZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f2eeada6125f0c80de832c2ab3799c0d/mobile_screenshot/CPXZo6W-kZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f2eeada6125f0c80de832c2ab3799c0d/mobile_screenshot/CLWDraW-kZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f2eeada6125f0c80de832c2ab3799c0d/mobile_screenshot/CJbEtqW-kZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f2eeada6125f0c80de832c2ab3799c0d/mobile_screenshot/CIuAwKW-kZUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/70xOra6rSEg"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Subi Subscriptions App free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/subi-subscriptions-memberships"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Spanish,  German,  Chinese (Simplified),  Italian,  Chinese (Traditional),  Dutch,  Japanese,  Portuguese (Brazil),  Danish,  Finnish,  Norwegian (Bokmål),  Czech,  Swedish,  Polish,  Portuguese (Portugal),  Korean,  and Thai",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/subi-subscriptions-memberships"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Admin, Fast Bundle, Givy, Klaviyo, Mailchimp, Stripe, PayPal, Authorize.net, Translate & Adapt",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/subi-subscriptions-memberships"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/subi-subscriptions-memberships"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.subi.co/en/",
+            "https://www.youtube.com/watch?v=1dTK97gala0",
+            "https://help.subi.co/en/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Define the payment, subscription or pre-order rules and eligible products.",
+            "Verify supported payment methods and test the purchase lifecycle.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["subscriptions", "courses-memberships"],
+        "primary_category_id": "subscriptions",
+        "seo": {
+          "title": "Subi Subscriptions App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for subscriptions. Listed functions include curated subscriptions, replenishment subscriptions.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/subi-subscriptions-memberships",
+          "retrieved_at": "2026-10-04T05:18:02.605919+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Sell subscriptions and recurring payments on Shopify: subscribe and save, prepaid plans,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/subi-subscriptions-memberships"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "yoyoloyalty",
+      "name": "YOYO: Loyalty, VIP, Membership",
+      "slug": "yoyoloyalty",
+      "category_fit": {
+        "app_id": "yoyoloyalty",
+        "selection_score": 5.8528,
+        "rating_evidence": {"value": 5.0, "reviews": 175},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["membership"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/yoyoloyalty"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+        "description_long": "YOYO: Loyalty, VIP, Membership is developed by YoYo Loyalty and listed for loyalty and rewards, subscriptions. Its structured listing identifies functions such as reward programs, memberships, vip tiers, referrals. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards", "Courses & Memberships"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards", "Courses & Memberships"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 175,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/yoyoloyalty",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 172},
+          {"stars": 4, "percentage": 1, "count": 1},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 9.0,
+            "billing_period": "month",
+            "price_display": "$9 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $86.40/year and save 20%"]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 59.0,
+            "billing_period": "month",
+            "price_display": "$59 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $566.40/year and save 20%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 199.0,
+            "billing_period": "month",
+            "price_display": "$199 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,910.40/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://yoyoloyalty.app/pricing/",
+        "starting_paid_monthly_price_usd": 9.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "April 10, 2025",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          },
+          {
+            "name": "Subscriptions",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-subscriptions"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.memberships", "label": "Memberships"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.program_types.wishlists", "label": "Wishlists"},
+          {"handle": "cf.loyalty_and_rewards.program_types.cash_back_programs", "label": "Cash back programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.digital_wallets", "label": "Digital wallets"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.gifts", "label": "Gifts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.cash_back", "label": "Cash back"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.store_credit", "label": "Store credit"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.early_access", "label": "Early access"},
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.exclusive_access",
+            "label": "Exclusive access"
+          },
+          {
+            "handle": "cf.loyalty_and_rewards.rewards_you_can_offer.membership_perks",
+            "label": "Membership perks"
+          },
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.badges", "label": "Badges"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"},
+          {
+            "handle": "cf.subscriptions.subscription_types.curated_subscriptions",
+            "label": "Curated subscriptions"
+          },
+          {
+            "handle": "cf.subscriptions.subscription_types.access_subscriptions",
+            "label": "Access subscriptions"
+          },
+          {"handle": "cf.subscriptions.subscription_types.memberships", "label": "Memberships"},
+          {
+            "handle": "cf.subscriptions.subscription_types.custom_subscriptions",
+            "label": "Custom subscriptions"
+          },
+          {"handle": "cf.subscriptions.pricing_you_can_set.recurring_payments", "label": "Recurring payments"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.subscribe_and_save", "label": "Subscribe and save"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.one_time_payment", "label": "One-time payment"},
+          {"handle": "cf.subscriptions.pricing_you_can_set.custom_pricing", "label": "Custom pricing"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " French",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " and Spanish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "AG Product Reviews",
+          "Appstle Subscriptions",
+          "Judge.me Product Reviews",
+          "Klaviyo: Email Marketing & SMS",
+          "Omnisend Email Marketing & SMS"
+        ]
+      },
+      "developer": {
+        "name": "YoYo Loyalty",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/cash-loyalty",
+        "public_address": "Churchill tower 1, Dubai, SH, 00000, AE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/yoyoloyalty",
+        "canonical_app_store_url": "https://apps.shopify.com/yoyoloyalty",
+        "install_url": "https://apps.shopify.com/yoyoloyalty",
+        "demo_store_url": "https://demo.yoyoloyalty.app/",
+        "resources": {
+          "Privacy policy": "https://app.cashloyalty.co/privacy-policy",
+          "YoYo Loyalty": "https://apps.shopify.com/partners/cash-loyalty"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/icon/CPC64PuTtY8DEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/promotional_image/CMzWqIqw3JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/desktop_screenshot/CICUs4qw3JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/desktop_screenshot/CIX-u4qw3JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/desktop_screenshot/CLHNxYqw3JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/desktop_screenshot/COnQzoqw3JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/desktop_screenshot/CN-514qw3JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/desktop_screenshot/CPPFjbCRhJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b95c45fcfef581e8a4cb80977335a629/pos_screenshot/CMDE3oKa-JUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is YOYO: Loyalty, VIP, Membership free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/yoyoloyalty"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Italian,  Portuguese (Brazil),  Portuguese (Portugal),  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/yoyoloyalty"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, AG Product Reviews, Appstle Subscriptions, Judge.me Product Reviews, Klaviyo: Email Marketing & SMS, Omnisend Email Marketing & SMS",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/yoyoloyalty"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/yoyoloyalty"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards", "courses-memberships"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "YOYO: Loyalty, VIP, Membership Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, memberships.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/yoyoloyalty",
+          "retrieved_at": "2026-10-04T05:10:12.040853+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/yoyoloyalty"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "community",
+      "name": "Mega Community",
+      "slug": "community",
+      "category_fit": {
+        "app_id": "community",
+        "selection_score": 5.6005,
+        "rating_evidence": {"value": 4.9, "reviews": 22},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["membership", "course"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/community"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for courses & memberships. Listed functions include audio, courses.",
+        "description_long": "Mega Community is developed by Architechpro OÜ and listed for digital products, digital goods and services - other. Its structured listing identifies functions such as audio, courses, digital art, ebooks. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Courses & Memberships"],
+        "best_for": {
+          "use_cases": ["Courses & Memberships"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 22,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/community",
+        "distribution": [
+          {"stars": 5, "percentage": 91, "count": 20},
+          {"stars": 4, "percentage": 5, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 5, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Demo",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $300/year and save 17%"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 79.99,
+            "billing_period": "month",
+            "price_display": "$79.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $800/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 29.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 27, 2023",
+        "shopify_categories": [
+          {
+            "name": "Digital products",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-products"
+          },
+          {
+            "name": "Digital goods and services - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-goods-and-services-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.digital_products.product_types.audio", "label": "Audio"},
+          {"handle": "cf.digital_products.product_types.courses", "label": "Courses"},
+          {"handle": "cf.digital_products.product_types.digital_art", "label": "Digital art"},
+          {"handle": "cf.digital_products.product_types.ebooks", "label": "Ebooks"},
+          {"handle": "cf.digital_products.product_types.games", "label": "Games"},
+          {"handle": "cf.digital_products.product_types.pdfs", "label": "PDFs"},
+          {"handle": "cf.digital_products.product_types.software", "label": "Software"},
+          {"handle": "cf.digital_products.product_types.videos", "label": "Videos"},
+          {"handle": "cf.digital_products.product_types.custom", "label": "Custom"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Courses Plus",
+          "Flow",
+          "SoundCloud",
+          "Vimeo",
+          "YouTube"
+        ]
+      },
+      "developer": {
+        "name": "Architechpro OÜ",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/architechpro",
+        "public_address": "Sepapaja 6, Tallin, 15551, EE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/community",
+        "canonical_app_store_url": "https://apps.shopify.com/community",
+        "install_url": "https://apps.shopify.com/community",
+        "demo_store_url": "https://community-demo.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://architechpro.com/pages/privacy-policy",
+          "App Documentation": "https://architechpro.com/pages/mega-community",
+          "Architechpro OÜ": "https://apps.shopify.com/partners/architechpro"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/cb5d3b9a62e0278e53fe5aa6ce4cd1d8/icon/CNj2le34moEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/cb5d3b9a62e0278e53fe5aa6ce4cd1d8/promotional_image/COf7vILhmoEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/cb5d3b9a62e0278e53fe5aa6ce4cd1d8/desktop_screenshot/CI6f-pjEjpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/cb5d3b9a62e0278e53fe5aa6ce4cd1d8/desktop_screenshot/CPCch8apmJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/cb5d3b9a62e0278e53fe5aa6ce4cd1d8/desktop_screenshot/CI6cltmmmJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/cb5d3b9a62e0278e53fe5aa6ce4cd1d8/desktop_screenshot/CJDahJnEjpYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Mega Community free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/community"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/community"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Flow, Shopify Admin, Courses Plus, Flow, SoundCloud, Vimeo, YouTube",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/community"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/community"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://architechpro.com/pages/mega-community"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["courses-memberships"],
+        "primary_category_id": "courses-memberships",
+        "seo": {
+          "title": "Mega Community Shopify App | eStorefy",
+          "meta_description": "A Shopify app for courses & memberships. Listed functions include audio, courses.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/community",
+          "retrieved_at": "2026-10-04T05:19:54.451661+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Add a community to your Shopify store. Enable topics, posts and comments,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/community"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "appstle-loyalty",
+      "name": "Appstle Loyalty Program Reward",
+      "slug": "appstle-loyalty",
+      "category_fit": {
+        "app_id": "appstle-loyalty",
+        "selection_score": 5.3052,
+        "rating_evidence": {"value": 5.0, "reviews": 1411},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["membership"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/appstle-loyalty"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for loyalty & rewards. Listed functions include reward programs, vip tiers.",
+        "description_long": "Appstle Loyalty Program Reward is developed by Appstle Loyalty and listed for loyalty and rewards. Its structured listing identifies functions such as reward programs, vip tiers, referrals, cash back programs. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Loyalty & Rewards", "Referral Programs", "Cart Drawers & Cart Upsells", "Courses & Memberships"],
+        "best_for": {
+          "use_cases": ["Loyalty & Rewards", "Referral Programs", "Cart Drawers & Cart Upsells", "Courses & Memberships"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 1411,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/appstle-loyalty",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 1},
+          {"stars": 4, "percentage": 1, "count": 19},
+          {"stars": 3, "percentage": 0, "count": 7},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 9}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "STARTER",
+            "amount_usd": 10.0,
+            "billing_period": "month",
+            "price_display": "$10 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $96/year and save 20%"]
+          },
+          {
+            "name": "BUSINESS (Biz)",
+            "amount_usd": 30.0,
+            "billing_period": "month",
+            "price_display": "$30 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $288/year and save 20%"]
+          },
+          {
+            "name": "BUSINESS PREMIUM",
+            "amount_usd": 100.0,
+            "billing_period": "month",
+            "price_display": "$100 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $960/year and save 20%",
+              "Plan applicable for 5000 orders in a month. No extra charges. $0.015 per extra order."
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 10.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "February 2, 2023",
+        "shopify_categories": [
+          {
+            "name": "Loyalty and rewards",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-loyalty-and-rewards"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.loyalty_and_rewards.program_types.reward_programs", "label": "Reward programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.vip_tiers", "label": "VIP tiers"},
+          {"handle": "cf.loyalty_and_rewards.program_types.referrals", "label": "Referrals"},
+          {"handle": "cf.loyalty_and_rewards.program_types.cash_back_programs", "label": "Cash back programs"},
+          {"handle": "cf.loyalty_and_rewards.program_types.custom_programs", "label": "Custom programs"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.points", "label": "Points"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.discounts", "label": "Discounts"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.coupons", "label": "Coupons"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.cash_back", "label": "Cash back"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.store_credit", "label": "Store credit"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.pos_rewards", "label": "POS rewards"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_shipping", "label": "Free shipping"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.free_products", "label": "Free products"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.badges", "label": "Badges"},
+          {"handle": "cf.loyalty_and_rewards.rewards_you_can_offer.custom_rewards", "label": "Custom rewards"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Judge.Me, Appstle Subscription",
+          "Klaviyo, Omnisend",
+          "Loox Reviews, Product Reviews",
+          "Mailchimp, Stamped IO",
+          "Recharge, Yotpo Subscriptions",
+          "Seal, Bold, Recurpay"
+        ]
+      },
+      "developer": {
+        "name": "Appstle Loyalty",
+        "website_url": "https://appstle.com/",
+        "partner_url": "https://apps.shopify.com/partners/appstle3",
+        "public_address": "Menlo Park, CA, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/appstle-loyalty",
+        "canonical_app_store_url": "https://apps.shopify.com/appstle-loyalty",
+        "install_url": "https://apps.shopify.com/appstle-loyalty",
+        "demo_store_url": "https://loyaltyuidev.myshopify.com/pages/loyalty-program",
+        "resources": {
+          "Privacy policy": "https://appstle.com/privacy-policy/",
+          "FAQ": "https://appstle.com/faq/",
+          "Tutorial": "https://intercom.help/appstle/en/collections/3787343-loyalty",
+          "App Documentation": "https://developers.appstle.com/",
+          "Appstle Loyalty": "https://apps.shopify.com/partners/appstle3",
+          "Website": "https://appstle.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/icon/CPq18q7S8ZQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/desktop_screenshot/CKrnlJzouv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/desktop_screenshot/CNP2sM2P4f0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/desktop_screenshot/CMjDmuj4powDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/desktop_screenshot/CKCnuJzouv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/desktop_screenshot/COuExJzouv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/desktop_screenshot/CNzS-Y24i5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/mobile_screenshot/CLeD7OL4w_0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/mobile_screenshot/CKSyuM7quv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/mobile_screenshot/CKj27pzzhokDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/pos_screenshot/CLjLx87quv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/pos_screenshot/COuN087quv0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/pos_screenshot/CIWPsIzSrJADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/96443d68c3eaa36c43a8b7d0afa5eada/pos_screenshot/CL6UvoKa8o8DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/xwxTIGtAHO4"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Appstle Loyalty Program Reward free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/appstle-loyalty"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appstle-loyalty"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Judge.Me, Appstle Subscription, Klaviyo, Omnisend, Loox Reviews, Product Reviews, Mailchimp, Stamped IO, Recharge, Yotpo Subscriptions, Seal, Bold, Recurpay",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appstle-loyalty"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/appstle-loyalty"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://appstle.com/faq/",
+            "https://intercom.help/appstle/en/collections/3787343-loyalty",
+            "https://developers.appstle.com/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the review request or reward rules relevant to your store.",
+            "Preview the widget or customer reward flow before enabling it.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["loyalty-rewards", "referral-programs", "cart-drawers-cart-upsells", "courses-memberships"],
+        "primary_category_id": "loyalty-rewards",
+        "seo": {
+          "title": "Appstle Loyalty Program Reward Shopify App | eStorefy",
+          "meta_description": "A Shopify app for loyalty & rewards. Listed functions include reward programs, vip tiers.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/appstle-loyalty",
+          "retrieved_at": "2026-10-04T05:09:50.293292+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "A powerful built-for Shopify loyalty app offering points, store credits, rewards, referrals…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/appstle-loyalty"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "appointment-booking-bookeasy",
+      "name": "BookX Appointment Booking App",
+      "slug": "appointment-booking-bookeasy",
+      "category_fit": {
+        "app_id": "appointment-booking-bookeasy",
+        "selection_score": 5.2566,
+        "rating_evidence": {"value": 5.0, "reviews": 612},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["course"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for courses & memberships. Listed functions include appointments, rentals.",
+        "description_long": "BookX Appointment Booking App is developed by Logbase and listed for event booking, retail. Its structured listing identifies functions such as appointments, rentals, classes, services. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Courses & Memberships", "Appointment Booking", "Event Tickets", "Rental Booking"],
+        "best_for": {
+          "use_cases": ["Courses & Memberships", "Appointment Booking", "Event Tickets", "Rental Booking"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 612,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/appointment-booking-bookeasy",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 588},
+          {"stars": 4, "percentage": 3, "count": 16},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 6}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $107.99/year and save 10%"]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $203.99/year and save 15%"]
+          },
+          {
+            "name": "Business",
+            "amount_usd": 39.99,
+            "billing_period": "month",
+            "price_display": "$39.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $407.99/year and save 15%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.logbase.io/bookx-pricing",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 12, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          },
+          {
+            "name": "Retail",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-in-person-retail"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.event_booking.event_type.appointments", "label": "Appointments"},
+          {"handle": "cf.event_booking.event_type.rentals", "label": "Rentals"},
+          {"handle": "cf.event_booking.event_type.classes", "label": "Classes"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.online", "label": "Online"},
+          {"handle": "cf.event_booking.event_type.custom_event", "label": "Custom events"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.time_slots", "label": "Time slots"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.multi_booking", "label": "Multi-booking"},
+          {"handle": "cf.event_booking.booking_management.cancel_booking", "label": "Cancel booking"},
+          {"handle": "cf.event_booking.booking_management.capacity_limits", "label": "Capacity limits"},
+          {"handle": "cf.event_booking.booking_management.ticketing", "label": "Ticketing"},
+          {"handle": "cf.event_booking.booking_management.event_check_in", "label": "Event check-in"},
+          {"handle": "cf.event_booking.booking_management.data_sync", "label": "Data sync"},
+          {"handle": "cf.event_booking.booking_management.real_time_updates", "label": "Real-time updates"},
+          {
+            "handle": "cf.event_booking.booking_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.booking_management.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.event_booking.booking_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.event_booking.booking_management.multi_location", "label": "Multi-location"},
+          {"handle": "cf.event_booking.booking_management.payments", "label": "Payments"},
+          {"handle": "cf.event_booking.booking_management.deposits", "label": "Deposits"},
+          {"handle": "cf.event_booking.booking_management.staff_management", "label": "Staff management"},
+          {"handle": "cf.event_booking.customization.booking_pages", "label": "Booking pages"},
+          {"handle": "cf.event_booking.customization.calendar_widget", "label": "Calendar widget"},
+          {"handle": "cf.event_booking.customization.custom_tickets", "label": "Custom tickets"},
+          {"handle": "cf.event_booking.customization.custom_forms", "label": "Custom forms"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Portuguese (Brazil)",
+          " Italian",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Gmail",
+          "Google calendar",
+          "Google Meet",
+          "klaviyo",
+          "Zoom"
+        ]
+      },
+      "developer": {
+        "name": "Logbase",
+        "website_url": "https://www.logbase.io/",
+        "partner_url": "https://apps.shopify.com/partners/logbase1",
+        "public_address": "Logbase Technologies LLP, PSG STEP E-Lab, PSG College of Technology, Peelamedu, Coimbatore, TN, 641004, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/appointment-booking-bookeasy",
+        "canonical_app_store_url": "https://apps.shopify.com/appointment-booking-bookeasy",
+        "install_url": "https://apps.shopify.com/appointment-booking-bookeasy",
+        "demo_store_url": "https://bookeasy-demo-store.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://www.logbase.io/privacy-policy",
+          "FAQ": "https://bookeasy.helpkit.so/faqs/4XgTU2Uu74MgYvNF2jq8Mz",
+          "App Documentation": "https://bookeasy.helpkit.so/",
+          "Logbase": "https://apps.shopify.com/partners/logbase1",
+          "Website": "https://www.logbase.io/",
+          "Changelog": "https://bookeasy.sleekplan.app/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/icon/CI3poNnzlYADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CLjvsczM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/COiwvMzM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CMLfxszM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CLip0MzM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CPam28zM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CIq_5MzM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/mobile_screenshot/CNqErsCeuJMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/DUTbiMU7BB8"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BookX Appointment Booking App free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Portuguese (Brazil),  Italian,  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Gmail, Google calendar, Google Meet, klaviyo, Zoom",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://bookeasy.helpkit.so/faqs/4XgTU2Uu74MgYvNF2jq8Mz", "https://bookeasy.helpkit.so/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["courses-memberships", "appointment-booking", "event-tickets", "rental-booking"],
+        "primary_category_id": "courses-memberships",
+        "seo": {
+          "title": "BookX Appointment Booking App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for courses & memberships. Listed functions include appointments, rentals.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/appointment-booking-bookeasy",
+          "retrieved_at": "2026-10-04T05:20:09.890468+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Streamline Shopify bookings with BookX. An easy-to-use calendar booking app for appointments,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

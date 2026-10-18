@@ -8,7 +8,7 @@ import {
   getAgency,
   getRelatedAgencies,
 } from "@/lib/agencies";
-import { pageMetadata, agencySchema, faqSchema } from "@/lib/seo";
+import { providerMetadata, agencySchema, faqSchema } from "@/lib/seo";
 export const dynamicParams = false;
 export function generateStaticParams() {
   return getCities().flatMap((city) =>
@@ -22,15 +22,7 @@ export async function generateMetadata({ params }) {
   const { cityRoute, agencySlug } = await params;
   const agency = getAgency(cityRoute, agencySlug);
   if (!agency) return {};
-  return pageMetadata({
-    title: `${agency.name} — Shopify Agency for ${agency.cityName}`,
-    description: `${agency.name} for ${agency.cityName}: ${agency.description}`.slice(
-      0,
-      165,
-    ),
-    path: agency.canonicalPath,
-    image: `/images/social/${agency.id}.png`,
-  });
+  return providerMetadata(agency, getCity(cityRoute));
 }
 export default async function AgencyDetailPage({ params }) {
   const { cityRoute, agencySlug } = await params;

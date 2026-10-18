@@ -1,0 +1,1526 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "order-editing",
+    "number": 71,
+    "name": "Order Editing",
+    "group": "Orders & After-sales",
+    "slug": "order-editing",
+    "url_path": "/apps/order-editing",
+    "focus": "Manage order changes, documents and post-purchase service.",
+    "description": "Compare Shopify apps for order editing. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/orders-and-shipping-orders-order-editing/all"],
+    "seo": {
+      "title": "Shopify Order Editing Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for order editing: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 5,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a order editing app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "order-editing",
+      "name": "OrderEditing.com",
+      "slug": "order-editing",
+      "category_fit": {
+        "app_id": "order-editing",
+        "selection_score": 6.0634,
+        "rating_evidence": {"value": 5.0, "reviews": 336},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["edit", "cancel"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/order-editing"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for product recommendations. Listed functions include cancellations, merging.",
+        "description_long": "OrderEditing.com is developed by Order Editing and listed for order editing, upsell and cross-sell. Its structured listing identifies functions such as cancellations, merging, refunds, returns. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Recommendations", "Checkout Validation", "Order Editing"],
+        "best_for": {
+          "use_cases": ["Product Recommendations", "Checkout Validation", "Order Editing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 336,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/order-editing",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 332},
+          {"stars": 4, "percentage": 1, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "100-2,500 orders",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Optional address validation: US $0.01, UK $0.03, NZ $0.03, AU $0.015 per order."]
+          },
+          {
+            "name": "2,500-5,000 orders",
+            "amount_usd": 199.0,
+            "billing_period": "month",
+            "price_display": "$199 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Optional address validation: US $0.01, UK $0.03, NZ $0.03, AU $0.015 per order."]
+          },
+          {
+            "name": "5000-10,000 orders",
+            "amount_usd": 399.0,
+            "billing_period": "month",
+            "price_display": "$399 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Optional address validation: US $0.01, UK $0.03, NZ $0.03, AU $0.015 per order."]
+          },
+          {
+            "name": "10-20,000 orders",
+            "amount_usd": 599.0,
+            "billing_period": "month",
+            "price_display": "$599 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Optional address validation: US $0.01, UK $0.03, NZ $0.03, AU $0.015 per order."]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://orderediting.com/pages/pricing",
+        "starting_paid_monthly_price_usd": 99.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "May 1, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Order editing",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-order-editing"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.order_editing.order_updates.cancellations", "label": "Cancellations"},
+          {"handle": "cf.order_editing.order_updates.merging", "label": "Merging"},
+          {"handle": "cf.order_editing.order_updates.refunds", "label": "Refunds"},
+          {"handle": "cf.order_editing.order_updates.returns", "label": "Returns"},
+          {"handle": "cf.order_editing.order_updates.address", "label": "Address"},
+          {"handle": "cf.order_editing.order_updates.line_items", "label": "Line items"},
+          {"handle": "cf.order_editing.order_updates.shipping_fees", "label": "Shipping fees"},
+          {"handle": "cf.order_editing.order_updates.custom_attributes", "label": "Custom attributes"},
+          {"handle": "cf.order_editing.order_updates.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.order_editing.order_updates.automated_workflows", "label": "Automated workflows"},
+          {"handle": "cf.order_editing.order_updates.bulk_edits", "label": "Bulk editing"},
+          {"handle": "cf.order_editing.order_updates.customer_portal", "label": "Customer portal"},
+          {"handle": "cf.order_editing.order_management.status_updates", "label": "Status updates"},
+          {"handle": "cf.order_editing.order_management.tagging", "label": "Tagging"},
+          {"handle": "cf.order_editing.order_management.filtering", "label": "Filtering"},
+          {"handle": "cf.order_editing.order_management.import_and_export", "label": "Import and export"},
+          {"handle": "cf.order_editing.order_management.analytics", "label": "Analytics"},
+          {"handle": "cf.upsell_and_cross_sell.customization.checkout_upsell", "label": "Checkout upsell"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.product_page_upsell",
+            "label": "Product page upsell"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.thank_you_page_upsell",
+            "label": "Thank you page upsell"
+          },
+          {"handle": "cf.upsell_and_cross_sell.customization.one_click_add_ons", "label": "One-click add-ons"},
+          {"handle": "cf.upsell_and_cross_sell.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.upsell_and_cross_sell.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.upsell_and_cross_sell.customization.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.upsell_and_cross_sell.offers_and_recommendations.warranties", "label": "Warranties"},
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.shipping_protection",
+            "label": "Shipping protection"
+          },
+          {"handle": "cf.upsell_and_cross_sell.offers_and_recommendations.free_gift", "label": "Free gifts"},
+          {"handle": "cf.upsell_and_cross_sell.offers_and_recommendations.gift_wrap", "label": "Gift wrap"},
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.free_shipping",
+            "label": "Free shipping"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.product_add_ons",
+            "label": "Product add-ons"
+          }
+        ],
+        "languages": [
+          "English",
+          " Dutch",
+          " French",
+          " Japanese",
+          " German",
+          " Swedish",
+          " Spanish",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Finnish",
+          " and Norwegian"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Brightpearl",
+          "Celigo",
+          "Fulfil.io",
+          "Microsoft Dynamics 365",
+          "NetSuite",
+          "Shipstation"
+        ]
+      },
+      "developer": {
+        "name": "Order Editing",
+        "website_url": "https://orderediting.com",
+        "partner_url": "https://apps.shopify.com/partners/order-editing3",
+        "public_address": "Dover, DE, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/order-editing",
+        "canonical_app_store_url": "https://apps.shopify.com/order-editing",
+        "install_url": "https://apps.shopify.com/order-editing",
+        "demo_store_url": "https://orderediting.com",
+        "resources": {
+          "Privacy policy": "https://www.orderediting.com/privacy-policy",
+          "FAQ": "https://docs.orderediting.com",
+          "Tutorial": "https://orderediting.com",
+          "App Documentation": "https://docs.orderediting.com",
+          "Order Editing": "https://apps.shopify.com/partners/order-editing3",
+          "Website": "https://orderediting.com",
+          "Changelog": "https://orderediting.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/c8d4cf1ecf2233d27b415632d3354c6b/icon/CPnn0ZSbk48DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/c8d4cf1ecf2233d27b415632d3354c6b/desktop_screenshot/CMOe7v_2m5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c8d4cf1ecf2233d27b415632d3354c6b/desktop_screenshot/CMeK-f_2m5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c8d4cf1ecf2233d27b415632d3354c6b/desktop_screenshot/CMGduu3X3JMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c8d4cf1ecf2233d27b415632d3354c6b/desktop_screenshot/CJjbioD3m5EDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/fexsvyGvoiw"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is OrderEditing.com free?",
+            "answer": "The pricing label retrieved from the listing is: From $99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/order-editing"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Dutch,  French,  Japanese,  German,  Swedish,  Spanish,  Polish,  Portuguese (Brazil),  Portuguese (Portugal),  Finnish,  and Norwegian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/order-editing"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Brightpearl, Celigo, Fulfil.io, Microsoft Dynamics 365, NetSuite, Shipstation",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/order-editing"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/order-editing"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.orderediting.com", "https://orderediting.com", "https://docs.orderediting.com"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-recommendations", "checkout-validation", "order-editing"],
+        "primary_category_id": "product-recommendations",
+        "seo": {
+          "title": "OrderEditing.com Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product recommendations. Listed functions include cancellations, merging.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/order-editing",
+          "retrieved_at": "2026-10-04T05:22:52.257821+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Used by Aviator Nation and Oh Polly. Let customers edit their order…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/order-editing"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "account-editor",
+      "name": "AE: Order Editing & Upsell",
+      "slug": "account-editor",
+      "category_fit": {
+        "app_id": "account-editor",
+        "selection_score": 6.0413,
+        "rating_evidence": {"value": 5.0, "reviews": 259},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["edit", "cancel"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/account-editor"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for event tickets. Listed functions include cancellations, splitting.",
+        "description_long": "AE: Order Editing & Upsell is developed by Account Editor and listed for order editing, upsell and cross-sell. Its structured listing identifies functions such as cancellations, splitting, re-orders, refunds. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Event Tickets", "Order Editing", "Helpdesk & Support Tickets"],
+        "best_for": {
+          "use_cases": ["Event Tickets", "Order Editing", "Helpdesk & Support Tickets"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 259,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/account-editor",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 259},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $39/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $374.40/year and save 20%",
+              "Limited to 0-1200 orders / month & 50 Free Address Validation then Additional Charges Apply From $0.01 To $0.03"
+            ]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $950.40/year and save 20%",
+              "Limited to 1201-5000 orders / month & 200 Free Address Validation then Additional Charges Apply From $0.01 To $0.03"
+            ]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 179.0,
+            "billing_period": "month",
+            "price_display": "$179 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $1,718.40/year and save 20%",
+              "Limited to 5001-10000 orders / month & 350 Free Address Validation then Additional Charges Apply From $0.01 To $0.03"
+            ]
+          },
+          {
+            "name": "Scale",
+            "amount_usd": 249.0,
+            "billing_period": "month",
+            "price_display": "$249 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $2,390.40/year and save 20%",
+              "Limited to 10001-20000 orders / month & 500 Free Address Validation then Additional Charges Apply From $0.01 To $0.03"
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://accounteditor.com/pricing",
+        "starting_paid_monthly_price_usd": 39.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 2, 2025 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Order editing",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-order-editing"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.order_editing.order_updates.cancellations", "label": "Cancellations"},
+          {"handle": "cf.order_editing.order_updates.splitting", "label": "Splitting"},
+          {"handle": "cf.order_editing.order_updates.re_orders", "label": "Re-orders"},
+          {"handle": "cf.order_editing.order_updates.refunds", "label": "Refunds"},
+          {"handle": "cf.order_editing.order_updates.returns", "label": "Returns"},
+          {"handle": "cf.order_editing.order_updates.draft_orders", "label": "Draft orders"},
+          {"handle": "cf.order_editing.order_updates.address", "label": "Address"},
+          {"handle": "cf.order_editing.order_updates.line_items", "label": "Line items"},
+          {"handle": "cf.order_editing.order_updates.price", "label": "Prices"},
+          {"handle": "cf.order_editing.order_updates.shipping_fees", "label": "Shipping fees"},
+          {"handle": "cf.order_editing.order_updates.custom_attributes", "label": "Custom attributes"},
+          {"handle": "cf.order_editing.order_updates.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.order_editing.order_updates.automated_workflows", "label": "Automated workflows"},
+          {"handle": "cf.order_editing.order_updates.bulk_edits", "label": "Bulk editing"},
+          {"handle": "cf.order_editing.order_updates.customer_portal", "label": "Customer portal"},
+          {"handle": "cf.order_editing.order_management.status_updates", "label": "Status updates"},
+          {"handle": "cf.order_editing.order_management.tagging", "label": "Tagging"},
+          {"handle": "cf.order_editing.order_management.filtering", "label": "Filtering"},
+          {"handle": "cf.order_editing.order_management.import_and_export", "label": "Import and export"},
+          {"handle": "cf.order_editing.order_management.analytics", "label": "Analytics"},
+          {"handle": "cf.upsell_and_cross_sell.customization.checkout_upsell", "label": "Checkout upsell"},
+          {"handle": "cf.upsell_and_cross_sell.customization.announcement_bar", "label": "Announcement bar"},
+          {"handle": "cf.upsell_and_cross_sell.customization.progress_bar", "label": "Progress bar"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.thank_you_page_upsell",
+            "label": "Thank you page upsell"
+          },
+          {"handle": "cf.upsell_and_cross_sell.customization.one_click_add_ons", "label": "One-click add-ons"},
+          {"handle": "cf.upsell_and_cross_sell.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.upsell_and_cross_sell.customization.custom_html", "label": "Custom HTML"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.drag_and_drop_editor",
+            "label": "Drag-and-drop editor"
+          },
+          {"handle": "cf.upsell_and_cross_sell.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.upsell_and_cross_sell.customization.multi_language", "label": "Multi-language"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Dutch",
+          " Spanish",
+          " Portuguese (Portugal)",
+          " Italian",
+          " Swedish",
+          " German",
+          " and Japanese"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Brightpearl",
+          "CartRover",
+          "Customer Accounts",
+          "Flow",
+          "Klaviyo",
+          "ShipStation"
+        ]
+      },
+      "developer": {
+        "name": "Account Editor",
+        "website_url": "https://www.accounteditor.com/",
+        "partner_url": "https://apps.shopify.com/partners/account-editor",
+        "public_address": "131 Continental Dr, Suite 305, Newark, DE, 19713, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/account-editor",
+        "canonical_app_store_url": "https://apps.shopify.com/account-editor",
+        "install_url": "https://apps.shopify.com/account-editor",
+        "demo_store_url": "https://ae-order-editing-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.accounteditor.com/privacy-policy",
+          "FAQ": "https://help.accounteditor.com/en/category/frequently-asked-questions-231gvb",
+          "Tutorial": "https://help.accounteditor.com/en/category/setup-onboarding-1jcysn6/",
+          "App Documentation": "https://help.accounteditor.com",
+          "Account Editor": "https://apps.shopify.com/partners/account-editor",
+          "Website": "https://www.accounteditor.com/",
+          "Changelog": "https://help.accounteditor.com/en/article/changelog-1ljpq6i/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/c5052ef489304008b4f280e02104161f/icon/CPi14_uY4ZUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/c5052ef489304008b4f280e02104161f/desktop_screenshot/CJzKifqw4ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5052ef489304008b4f280e02104161f/desktop_screenshot/CKGClPqw4ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5052ef489304008b4f280e02104161f/desktop_screenshot/CI_enfqw4ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5052ef489304008b4f280e02104161f/desktop_screenshot/CMe_p_qw4ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5052ef489304008b4f280e02104161f/desktop_screenshot/CJbxsfqw4ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5052ef489304008b4f280e02104161f/desktop_screenshot/CPKvvPqw4ZUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/4I69oP2clV4"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is AE: Order Editing & Upsell free?",
+            "answer": "The pricing label retrieved from the listing is: From $39/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/account-editor"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Dutch,  Spanish,  Portuguese (Portugal),  Italian,  Swedish,  German,  and Japanese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/account-editor"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Brightpearl, CartRover, Customer Accounts, Flow, Klaviyo, ShipStation",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/account-editor"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/account-editor"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.accounteditor.com/en/category/frequently-asked-questions-231gvb",
+            "https://help.accounteditor.com/en/category/setup-onboarding-1jcysn6/",
+            "https://help.accounteditor.com"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["event-tickets", "order-editing", "helpdesk-support-tickets"],
+        "primary_category_id": "event-tickets",
+        "seo": {
+          "title": "AE: Order Editing & Upsell Shopify App | eStorefy",
+          "meta_description": "A Shopify app for event tickets. Listed functions include cancellations, splitting.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/account-editor",
+          "retrieved_at": "2026-10-04T05:22:52.261467+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Order editing by Shopify Platinum Partner. Draft orders, Google address validation, one-click…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/account-editor"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "revize",
+      "name": "Revize: Order Editing & Upsell",
+      "slug": "revize",
+      "category_fit": {
+        "app_id": "revize",
+        "selection_score": 5.9645,
+        "rating_evidence": {"value": 5.0, "reviews": 126},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["edit", "cancel"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/revize"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for order editing. Listed functions include cancellations, splitting.",
+        "description_long": "Revize: Order Editing & Upsell is developed by Untechnickle and listed for order editing, upsell and cross-sell. Its structured listing identifies functions such as cancellations, splitting, refunds, draft orders. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Order Editing"],
+        "best_for": {
+          "use_cases": ["Order Editing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 126,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/revize",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 125},
+          {"stars": 4, "percentage": 1, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "STARTER",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 149.0,
+            "billing_period": "month",
+            "price_display": "$149 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,430.40/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.revize.app/pricing",
+        "starting_paid_monthly_price_usd": 79.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "November 11, 2024 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Order editing",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-order-editing"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.order_editing.order_updates.cancellations", "label": "Cancellations"},
+          {"handle": "cf.order_editing.order_updates.splitting", "label": "Splitting"},
+          {"handle": "cf.order_editing.order_updates.refunds", "label": "Refunds"},
+          {"handle": "cf.order_editing.order_updates.draft_orders", "label": "Draft orders"},
+          {"handle": "cf.order_editing.order_updates.address", "label": "Address"},
+          {"handle": "cf.order_editing.order_updates.line_items", "label": "Line items"},
+          {"handle": "cf.order_editing.order_updates.price", "label": "Prices"},
+          {"handle": "cf.order_editing.order_updates.shipping_fees", "label": "Shipping fees"},
+          {"handle": "cf.order_editing.order_updates.custom_attributes", "label": "Custom attributes"},
+          {"handle": "cf.order_editing.order_updates.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.order_editing.order_updates.automated_workflows", "label": "Automated workflows"},
+          {"handle": "cf.order_editing.order_updates.customer_portal", "label": "Customer portal"},
+          {"handle": "cf.order_editing.order_management.tagging", "label": "Tagging"},
+          {"handle": "cf.order_editing.order_management.analytics", "label": "Analytics"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.thank_you_page_upsell",
+            "label": "Thank you page upsell"
+          },
+          {"handle": "cf.upsell_and_cross_sell.customization.one_click_add_ons", "label": "One-click add-ons"},
+          {"handle": "cf.upsell_and_cross_sell.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.upsell_and_cross_sell.customization.custom_html", "label": "Custom HTML"},
+          {"handle": "cf.upsell_and_cross_sell.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.upsell_and_cross_sell.customization.multi_language", "label": "Multi-language"},
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.free_shipping",
+            "label": "Free shipping"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.product_add_ons",
+            "label": "Product add-ons"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.product_recommendations",
+            "label": "Product recommendations"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.frequently_bought_together",
+            "label": "Frequently bought together"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.ai_recommendations",
+            "label": "AI recommendations"
+          },
+          {"handle": "cf.upsell_and_cross_sell.analytics.conversion_rates", "label": "Conversion rates"},
+          {
+            "handle": "cf.upsell_and_cross_sell.analytics.recommendation_performance",
+            "label": "Recommendation performance"
+          },
+          {"handle": "cf.upsell_and_cross_sell.analytics.funnel_performance", "label": "Funnel performance"}
+        ],
+        "languages": [
+          "English",
+          " Czech",
+          " Danish",
+          " German",
+          " Spanish",
+          " French",
+          " Italian",
+          " Dutch",
+          " Norwegian",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Finnish",
+          " Swedish",
+          " Turkish",
+          " Thai",
+          " Japanese",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " and Korean"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Klaviyo",
+          "Preorder Apps",
+          "Rebuy",
+          "Recharge",
+          "Reconvert",
+          "Shipping and Fulfillment Apps"
+        ]
+      },
+      "developer": {
+        "name": "Untechnickle",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/untechnickle",
+        "public_address": "Avon Vista, Baner, PUNE, MH, 411045, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/revize",
+        "canonical_app_store_url": "https://apps.shopify.com/revize",
+        "install_url": "https://apps.shopify.com/revize",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://revize.app/privacy",
+          "FAQ": "https://docs.revize.app/support/faq",
+          "App Documentation": "https://docs.revize.app/",
+          "Untechnickle": "https://apps.shopify.com/partners/untechnickle",
+          "Changelog": "https://docs.revize.app/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/36895f0e7a8b165121bc0d677d0d9a5c/icon/CN7Q5uyb-pUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/36895f0e7a8b165121bc0d677d0d9a5c/promotional_image/COXGm_K_lJADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/36895f0e7a8b165121bc0d677d0d9a5c/desktop_screenshot/CNfmg9aTzYkDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/36895f0e7a8b165121bc0d677d0d9a5c/desktop_screenshot/CJ2cutzB940DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/36895f0e7a8b165121bc0d677d0d9a5c/desktop_screenshot/CPCYyqfQyJADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/36895f0e7a8b165121bc0d677d0d9a5c/desktop_screenshot/CPi_1afQyJADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/36895f0e7a8b165121bc0d677d0d9a5c/desktop_screenshot/CPyL4KfQyJADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Revize: Order Editing & Upsell free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/revize"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Czech,  Danish,  German,  Spanish,  French,  Italian,  Dutch,  Norwegian,  Polish,  Portuguese (Brazil),  Portuguese (Portugal),  Finnish,  Swedish,  Turkish,  Thai,  Japanese,  Chinese (Simplified),  Chinese (Traditional),  and Korean",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/revize"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Klaviyo, Preorder Apps, Rebuy, Recharge, Reconvert, Shipping and Fulfillment Apps",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/revize"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/revize"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.revize.app/support/faq", "https://docs.revize.app/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["order-editing"],
+        "primary_category_id": "order-editing",
+        "seo": {
+          "title": "Revize: Order Editing & Upsell Shopify App | eStorefy",
+          "meta_description": "A Shopify app for order editing. Listed functions include cancellations, splitting.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/revize",
+          "retrieved_at": "2026-10-04T05:23:01.044317+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Let customers edit orders themselves before shipping — change address, cancel, swap…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/revize"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "clickpost-order-edit-cancel",
+      "name": "CP: Order Editing & Upsells",
+      "slug": "clickpost-order-edit-cancel",
+      "category_fit": {
+        "app_id": "clickpost-order-edit-cancel",
+        "selection_score": 5.8819,
+        "rating_evidence": {"value": 5.0, "reviews": 71},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["edit", "cancel"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/clickpost-order-edit-cancel"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for order editing. Listed functions include cancellations, merging.",
+        "description_long": "CP: Order Editing & Upsells is developed by Clickpost and listed for order editing, upsell and cross-sell. Its structured listing identifies functions such as cancellations, merging, re-orders, refunds. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Order Editing"],
+        "best_for": {
+          "use_cases": ["Order Editing"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 71,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/clickpost-order-edit-cancel",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 71},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "0-500 orders/mo",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "500-5000 orders/mo",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "5k-15k orders/mo",
+            "amount_usd": 129.0,
+            "billing_period": "month",
+            "price_display": "$129 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "15k+ orders",
+            "amount_usd": 199.0,
+            "billing_period": "month",
+            "price_display": "$199 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 49.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 22, 2025",
+        "shopify_categories": [
+          {
+            "name": "Order editing",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-order-editing"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.order_editing.order_updates.cancellations", "label": "Cancellations"},
+          {"handle": "cf.order_editing.order_updates.merging", "label": "Merging"},
+          {"handle": "cf.order_editing.order_updates.re_orders", "label": "Re-orders"},
+          {"handle": "cf.order_editing.order_updates.refunds", "label": "Refunds"},
+          {"handle": "cf.order_editing.order_updates.returns", "label": "Returns"},
+          {"handle": "cf.order_editing.order_updates.address", "label": "Address"},
+          {"handle": "cf.order_editing.order_updates.line_items", "label": "Line items"},
+          {"handle": "cf.order_editing.order_updates.shipping_fees", "label": "Shipping fees"},
+          {"handle": "cf.order_editing.order_updates.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.order_editing.order_updates.automated_workflows", "label": "Automated workflows"},
+          {"handle": "cf.order_editing.order_updates.bulk_edits", "label": "Bulk editing"},
+          {"handle": "cf.order_editing.order_updates.customer_portal", "label": "Customer portal"},
+          {"handle": "cf.order_editing.order_management.status_updates", "label": "Status updates"},
+          {"handle": "cf.order_editing.order_management.tagging", "label": "Tagging"},
+          {"handle": "cf.order_editing.order_management.analytics", "label": "Analytics"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.thank_you_page_upsell",
+            "label": "Thank you page upsell"
+          },
+          {"handle": "cf.upsell_and_cross_sell.customization.one_click_add_ons", "label": "One-click add-ons"},
+          {"handle": "cf.upsell_and_cross_sell.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.upsell_and_cross_sell.customization.custom_html", "label": "Custom HTML"},
+          {"handle": "cf.upsell_and_cross_sell.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.upsell_and_cross_sell.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.upsell_and_cross_sell.offers_and_recommendations.free_gift", "label": "Free gifts"},
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.free_shipping",
+            "label": "Free shipping"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.product_add_ons",
+            "label": "Product add-ons"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.product_recommendations",
+            "label": "Product recommendations"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.frequently_bought_together",
+            "label": "Frequently bought together"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.offers_and_recommendations.ai_recommendations",
+            "label": "AI recommendations"
+          },
+          {"handle": "cf.upsell_and_cross_sell.analytics.click_through_rates", "label": "Click-through rates"},
+          {"handle": "cf.upsell_and_cross_sell.analytics.conversion_rates", "label": "Conversion rates"},
+          {"handle": "cf.upsell_and_cross_sell.analytics.funnel_performance", "label": "Funnel performance"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Hungarian",
+          " Italian",
+          " Dutch",
+          " Norwegian",
+          " Swedish",
+          " Turkish",
+          " Ukrainian",
+          " Vietnamese",
+          " Czech",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Croatian",
+          " and Slovenian"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Easycom",
+          "Judge.me",
+          "Klaviyo",
+          "Shipping and Fulfilment Apps",
+          "Third Party Logistics (3PL)",
+          "Unicommerce"
+        ]
+      },
+      "developer": {
+        "name": "Clickpost",
+        "website_url": "https://www.clickpost.ai",
+        "partner_url": "https://apps.shopify.com/partners/clickpost",
+        "public_address": "Jersey City, NJ, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/clickpost-order-edit-cancel",
+        "canonical_app_store_url": "https://apps.shopify.com/clickpost-order-edit-cancel",
+        "install_url": "https://apps.shopify.com/clickpost-order-edit-cancel",
+        "demo_store_url": "https://www.clickpost.ai/shopify-order-editing/demo",
+        "resources": {
+          "Privacy policy": "https://www.clickpost.ai/privacy-policy",
+          "Clickpost": "https://apps.shopify.com/partners/clickpost",
+          "Website": "https://www.clickpost.ai"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/4aaf1fcf9c224379b6f808e319536baa/icon/CLaRy9Dd0o4DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/4aaf1fcf9c224379b6f808e319536baa/desktop_screenshot/COiN-Oilg5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4aaf1fcf9c224379b6f808e319536baa/desktop_screenshot/CMv7h4WLi5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4aaf1fcf9c224379b6f808e319536baa/desktop_screenshot/CNmriumlg5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4aaf1fcf9c224379b6f808e319536baa/desktop_screenshot/CLSEk-mlg5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4aaf1fcf9c224379b6f808e319536baa/desktop_screenshot/CL_um-mlg5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4aaf1fcf9c224379b6f808e319536baa/desktop_screenshot/CLfSkoWLi5EDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/1WX5Gm7Ia4k"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is CP: Order Editing & Upsells free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/clickpost-order-edit-cancel"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Portuguese (Brazil),  Portuguese (Portugal),  Hungarian,  Italian,  Dutch,  Norwegian,  Swedish,  Turkish,  Ukrainian,  Vietnamese,  Czech,  Chinese (Simplified),  Chinese (Traditional),  Croatian,  and Slovenian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/clickpost-order-edit-cancel"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Easycom, Judge.me, Klaviyo, Shipping and Fulfilment Apps, Third Party Logistics (3PL), Unicommerce",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/clickpost-order-edit-cancel"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/clickpost-order-edit-cancel"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["order-editing"],
+        "primary_category_id": "order-editing",
+        "seo": {
+          "title": "CP: Order Editing & Upsells Shopify App | eStorefy",
+          "meta_description": "A Shopify app for order editing. Listed functions include cancellations, merging.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/clickpost-order-edit-cancel",
+          "retrieved_at": "2026-10-04T05:23:01.061481+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Enhance your Shopify store with ClickPost's Order Edits & Upsells. Automate order…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/clickpost-order-edit-cancel"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "relocate-address-editor",
+      "name": "Relocate+ Order Editing",
+      "slug": "relocate-address-editor",
+      "category_fit": {
+        "app_id": "relocate-address-editor",
+        "selection_score": 5.7828,
+        "rating_evidence": {"value": 5.0, "reviews": 41},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["edit", "cancel"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/relocate-address-editor"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for order editing. Listed functions include self-service, help center.",
+        "description_long": "Relocate+ Order Editing is developed by Crowd Control and listed for helpdesk, order editing. Its structured listing identifies functions such as self-service, help center, response templates, ticketing. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Order Editing", "Helpdesk & Support Tickets"],
+        "best_for": {
+          "use_cases": ["Order Editing", "Helpdesk & Support Tickets"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 41,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/relocate-address-editor",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 41},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://crowdcontrol.co/relocate",
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "April 9, 2021",
+        "shopify_categories": [
+          {"name": "Helpdesk", "url": "https://apps.shopify.com/categories/store-management-support-helpdesk"},
+          {
+            "name": "Order editing",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-order-editing"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.helpdesk.channels.self_service", "label": "Self-service"},
+          {"handle": "cf.helpdesk.channels.help_center", "label": "Help center"},
+          {"handle": "cf.helpdesk.workflow_automation.response_templates", "label": "Response templates"},
+          {"handle": "cf.helpdesk.workflow_automation.ticketing", "label": "Ticketing"},
+          {"handle": "cf.helpdesk.workflow_automation.rule_based_triggers", "label": "Rule-based triggers"},
+          {"handle": "cf.helpdesk.workflow_automation.escalation", "label": "Escalation"},
+          {"handle": "cf.helpdesk.workflow_automation.tagging", "label": "Tagging"},
+          {"handle": "cf.helpdesk.workflow_automation.order_tracking", "label": "Order tracking"},
+          {
+            "handle": "cf.helpdesk.workflow_automation.customer_notifications",
+            "label": "Customer notifications"
+          },
+          {"handle": "cf.order_editing.order_updates.cancellations", "label": "Cancellations"},
+          {"handle": "cf.order_editing.order_updates.refunds", "label": "Refunds"},
+          {"handle": "cf.order_editing.order_updates.address", "label": "Address"},
+          {"handle": "cf.order_editing.order_updates.line_items", "label": "Line items"},
+          {"handle": "cf.order_editing.order_updates.price", "label": "Prices"},
+          {"handle": "cf.order_editing.order_updates.shipping_fees", "label": "Shipping fees"},
+          {"handle": "cf.order_editing.order_updates.custom_attributes", "label": "Custom attributes"},
+          {"handle": "cf.order_editing.order_updates.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.order_editing.order_updates.automated_workflows", "label": "Automated workflows"},
+          {"handle": "cf.order_editing.order_updates.customer_portal", "label": "Customer portal"},
+          {"handle": "cf.order_editing.order_management.status_updates", "label": "Status updates"},
+          {"handle": "cf.order_editing.order_management.tagging", "label": "Tagging"}
+        ],
+        "languages": [
+          "Czech",
+          " Danish",
+          " German",
+          " English",
+          " Spanish",
+          " French",
+          " Croatian",
+          " Indonesian",
+          " Italian",
+          " Lithuanian",
+          " Hungarian",
+          " Malay",
+          " Dutch",
+          " Norwegian (Bokmål)",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Romanian",
+          " Slovak",
+          " Slovenian",
+          " Finnish",
+          " Swedish",
+          " Vietnamese",
+          " Turkish",
+          " Greek",
+          " Bulgarian",
+          " Russian",
+          " Hindi",
+          " Thai",
+          " Chinese (Traditional)",
+          " Chinese (Simplified)",
+          " Japanese",
+          " and Korean"
+        ],
+        "works_with": [
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Easyship",
+          "Recharge",
+          "Shipstation",
+          "Starshipit"
+        ]
+      },
+      "developer": {
+        "name": "Crowd Control",
+        "website_url": "https://crowdcontrol.co/relocate-order-editor",
+        "partner_url": "https://apps.shopify.com/partners/developer-bab9c49c13d31d6b",
+        "public_address": "66 S Main St, Unit 377, Salt Lake City, UT, 84101, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/relocate-address-editor",
+        "canonical_app_store_url": "https://apps.shopify.com/relocate-address-editor",
+        "install_url": "https://apps.shopify.com/relocate-address-editor",
+        "demo_store_url": "https://crowd-control-app.myshopify.com/products/demo-product",
+        "resources": {
+          "Privacy policy": "https://crowdcontrol.co/privacy-policy/",
+          "FAQ": "http://help.crowdcontrol.co",
+          "Crowd Control": "https://apps.shopify.com/partners/developer-bab9c49c13d31d6b",
+          "Website": "https://crowdcontrol.co/relocate-order-editor"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/5f5b975c8781ea84a6f294069b41c22b/icon/CNiZ9vjcmZcDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/5f5b975c8781ea84a6f294069b41c22b/promotional_image/CMiW07HSoYsDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5f5b975c8781ea84a6f294069b41c22b/desktop_screenshot/CJXe37HSoYsDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5f5b975c8781ea84a6f294069b41c22b/desktop_screenshot/CIiQ67HSoYsDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5f5b975c8781ea84a6f294069b41c22b/desktop_screenshot/CJeK9rHSoYsDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5f5b975c8781ea84a6f294069b41c22b/desktop_screenshot/CPaHg7LSoYsDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Relocate+ Order Editing free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/relocate-address-editor"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "Czech,  Danish,  German,  English,  Spanish,  French,  Croatian,  Indonesian,  Italian,  Lithuanian,  Hungarian,  Malay,  Dutch,  Norwegian (Bokmål),  Polish,  Portuguese (Brazil),  Portuguese (Portugal),  Romanian,  Slovak,  Slovenian,  Finnish,  Swedish,  Vietnamese,  Turkish,  Greek,  Bulgarian,  Russian,  Hindi,  Thai,  Chinese (Traditional),  Chinese (Simplified),  Japanese,  and Korean",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/relocate-address-editor"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Flow, Shopify Admin, Easyship, Recharge, Shipstation, Starshipit",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/relocate-address-editor"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/relocate-address-editor"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["http://help.crowdcontrol.co"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["order-editing", "helpdesk-support-tickets"],
+        "primary_category_id": "order-editing",
+        "seo": {
+          "title": "Relocate+ Order Editing Shopify App | eStorefy",
+          "meta_description": "A Shopify app for order editing. Listed functions include self-service, help center.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/relocate-address-editor",
+          "retrieved_at": "2026-10-04T05:23:01.056822+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Cut support tickets with Relocate+. Let customers self-serve to fix shipping addresses,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/relocate-address-editor"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

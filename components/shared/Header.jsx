@@ -1,32 +1,51 @@
 "use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import Logo from "./Logo";
 import { useShortlist } from "@/components/providers/ShortlistProvider";
-export default function Header({ profile = false, onSaved, onSubmit }) {
+
+const navigation = [
+  {
+    href: "/agencies",
+    label: "Find experts",
+    matches: (path) => path === "/agencies" || path.startsWith("/shopify-agency"),
+  },
+  {
+    href: "/apps",
+    label: "Apps",
+    matches: (path) => path === "/apps" || path.startsWith("/apps/"),
+  },
+  { href: "/locations", label: "Locations", matches: (path) => path === "/locations" },
+  { href: "/contact", label: "Contact", matches: (path) => path === "/contact" },
+];
+
+/** The same navigation and actions are rendered on every route. */
+export default function Header() {
+  const pathname = usePathname();
   const { savedIds } = useShortlist();
   return (
-    <header className={profile ? "header" : undefined}>
-      <Logo />
-      <nav aria-label="Main navigation">
-        <Link href="/#directory">Find experts</Link>
-        <Link href="/#services">Services</Link>
-        <Link href="/#locations">Locations</Link>
-      </nav>
-      <div className="navright">
-        {onSaved ? (
-          <button className={profile ? "btn" : "button"} onClick={onSaved}>
-            Shortlist {savedIds.length}
-          </button>
-        ) : (
-          <Link className={profile ? "btn" : "button"} href="/#my-board">
-            Shortlist {savedIds.length}
+    <header className="site-header">
+      <div className="site-container site-header-inner">
+        <Logo />
+        <nav className="site-nav" aria-label="Main navigation">
+          {navigation.map(({ href, label, matches }) => (
+            <Link
+              key={href}
+              href={href}
+              aria-current={matches(pathname || "") ? "page" : undefined}
+            >
+              {label}
+            </Link>
+          ))}
+        </nav>
+        <div className="site-header-actions">
+          <Link className="site-button" href="/agencies#my-board">
+            Shortlist <span>{savedIds.length}</span>
           </Link>
-        )}
-        {onSubmit && (
-          <button className="button dark" onClick={onSubmit}>
-            Get listed ↗
-          </button>
-        )}
+          <Link className="site-button site-button-primary" href="/contact">
+            Get in touch ↗
+          </Link>
+        </div>
       </div>
     </header>
   );

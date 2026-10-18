@@ -30,7 +30,7 @@ export default function ProfileNav({ name }) {
   }, []);
   return (
     <div className="page-nav">
-      <nav className="wrap nav-inner" aria-label="On this page">
+      <nav className="nav-inner" aria-label="On this page">
         {links.map(([id, label]) => (
           <a
             key={id}

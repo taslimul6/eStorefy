@@ -1,4 +1,5 @@
 "use client";
+import PartnerLink from "@/components/shared/PartnerLink";
 import { useState } from "react";
 import AgencySection from "./AgencySection";
 import Modal from "@/components/shared/Modal";
@@ -43,9 +44,7 @@ export default function AgencyPortfolio({ agency }) {
             project.
           </p>
           {agency.website && (
-            <ExternalLink className="text-link" href={agency.website}>
-              Visit the agency website
-            </ExternalLink>
+            <PartnerLink className="text-link">Contact this agency ↗</PartnerLink>
           )}
         </div>
       )}

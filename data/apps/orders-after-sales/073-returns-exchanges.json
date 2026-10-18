@@ -1,0 +1,1667 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "returns-exchanges",
+    "number": 73,
+    "name": "Returns & Exchanges",
+    "group": "Orders & After-sales",
+    "slug": "returns-exchanges",
+    "url_path": "/apps/returns-exchanges",
+    "focus": "Manage order changes, documents and post-purchase service.",
+    "description": "Compare Shopify apps for returns & exchanges. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges/all"],
+    "seo": {
+      "title": "Shopify Returns & Exchanges Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for returns & exchanges: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 6,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a returns & exchanges app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "parcel-panel-returns-exchanges",
+      "name": "CWILL Returns & Exchanges",
+      "slug": "parcel-panel-returns-exchanges",
+      "category_fit": {
+        "app_id": "parcel-panel-returns-exchanges",
+        "selection_score": 5.9954,
+        "rating_evidence": {"value": 4.9, "reviews": 489},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["return", "exchange"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/parcel-panel-returns-exchanges"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for returns & exchanges. Listed functions include automated refunds, manual refunds.",
+        "description_long": "CWILL Returns & Exchanges is developed by CWILL INC and listed for returns and exchanges, returns and warranty - other. Its structured listing identifies functions such as automated refunds, manual refunds, exchanges, replacements. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Returns & Exchanges"],
+        "best_for": {
+          "use_cases": ["Returns & Exchanges"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 489,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/parcel-panel-returns-exchanges",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 458},
+          {"stars": 4, "percentage": 4, "count": 19},
+          {"stars": 3, "percentage": 1, "count": 5},
+          {"stars": 2, "percentage": 1, "count": 4},
+          {"stars": 1, "percentage": 1, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $276/year and save 21%", "50 returns per month, $0.45 per extra return"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $948/year and save 20%", "200 returns per month, $0.45 per extra return"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 299.0,
+            "billing_period": "month",
+            "price_display": "$299 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $2,868/year and save 20%", "500 returns per month, $0.45 per extra return"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.cwill.com/pricing/returns-exchanges/",
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 30, 2023",
+        "shopify_categories": [
+          {
+            "name": "Returns and exchanges",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges"
+          },
+          {
+            "name": "Returns and warranty - Other",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-warranty-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.returns_and_exchanges.return_options.automated_refunds",
+            "label": "Automated refunds"
+          },
+          {"handle": "cf.returns_and_exchanges.return_options.manual_refunds", "label": "Manual refunds"},
+          {"handle": "cf.returns_and_exchanges.return_options.exchanges", "label": "Exchanges"},
+          {"handle": "cf.returns_and_exchanges.return_options.replacements", "label": "Replacements"},
+          {"handle": "cf.returns_and_exchanges.return_options.in_store_returns", "label": "In-store returns"},
+          {"handle": "cf.returns_and_exchanges.return_options.qr_codes", "label": "QR codes"},
+          {"handle": "cf.returns_and_exchanges.return_options.gift_cards", "label": "Gift cards"},
+          {"handle": "cf.returns_and_exchanges.return_options.store_credit", "label": "Store credit"},
+          {"handle": "cf.returns_and_exchanges.return_options.gift_returns", "label": "Gift returns"},
+          {"handle": "cf.returns_and_exchanges.return_options.discount_code", "label": "Discount codes"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.automated_approvals",
+            "label": "Automated approvals"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.return_portal", "label": "Return portal"},
+          {"handle": "cf.returns_and_exchanges.return_management.custom_policies", "label": "Custom policies"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.non_returnable_items",
+            "label": "Non-returnable items"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.return_windows", "label": "Return windows"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_reasons", "label": "Return reasons"},
+          {"handle": "cf.returns_and_exchanges.return_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.returns_and_exchanges.return_management.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_tracking", "label": "Return tracking"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.custom_branding", "label": "Custom branding"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.refund_management",
+            "label": "Refund management"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.stock_updates", "label": "Stock updates"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.customer_blocklists",
+            "label": "Customer blocklists"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.analytics", "label": "Analytics"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Czech",
+          " Danish",
+          " Dutch",
+          " Finnish",
+          " French",
+          " German",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Norwegian",
+          " Norwegian (Bokmål)",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Spanish",
+          " Swedish",
+          " Thai",
+          " and Turkish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "Canada Post",
+          "CWILL Order Tracking",
+          "DHL",
+          "FedEx",
+          "Hermes UK",
+          "USPS"
+        ]
+      },
+      "developer": {
+        "name": "CWILL INC",
+        "website_url": "https://www.cwill.com/products/returns-exchanges/",
+        "partner_url": "https://apps.shopify.com/partners/parcelpanel",
+        "public_address": "201 Commonwealth Ct, Ste 220, Cary, NC, 27511-4471, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/parcel-panel-returns-exchanges",
+        "canonical_app_store_url": "https://apps.shopify.com/parcel-panel-returns-exchanges",
+        "install_url": "https://apps.shopify.com/parcel-panel-returns-exchanges",
+        "demo_store_url": "https://parcelpanel.myshopify.com/apps/parcelpanel-returns",
+        "resources": {
+          "Privacy policy": "https://www.cwill.com/privacy-policy/",
+          "FAQ": "https://parcelwill-returns.gitbook.io/help-center",
+          "App Documentation": "https://parcelwill-returns.gitbook.io/help-center",
+          "CWILL INC": "https://apps.shopify.com/partners/parcelpanel",
+          "Website": "https://www.cwill.com/products/returns-exchanges/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6f4f690ac338067a6db06aa868ab5c31/icon/CKmB8d6h6pUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6f4f690ac338067a6db06aa868ab5c31/promotional_image/COHo19Kp6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6f4f690ac338067a6db06aa868ab5c31/desktop_screenshot/CMPmmt3p85EDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6f4f690ac338067a6db06aa868ab5c31/desktop_screenshot/CMbIo93p85EDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6f4f690ac338067a6db06aa868ab5c31/desktop_screenshot/CLaPrt3p85EDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6f4f690ac338067a6db06aa868ab5c31/mobile_screenshot/CIPqtt3p85EDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6f4f690ac338067a6db06aa868ab5c31/pos_screenshot/CLqrsaug-ZUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is CWILL Returns & Exchanges free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/parcel-panel-returns-exchanges"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  Chinese (Traditional),  Czech,  Danish,  Dutch,  Finnish,  French,  German,  Italian,  Japanese,  Korean,  Norwegian,  Norwegian (Bokmål),  Polish,  Portuguese (Brazil),  Portuguese (Portugal),  Spanish,  Swedish,  Thai,  and Turkish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/parcel-panel-returns-exchanges"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, Canada Post, CWILL Order Tracking, DHL, FedEx, Hermes UK, USPS",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/parcel-panel-returns-exchanges"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/parcel-panel-returns-exchanges"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://parcelwill-returns.gitbook.io/help-center",
+            "https://parcelwill-returns.gitbook.io/help-center"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["returns-exchanges"],
+        "primary_category_id": "returns-exchanges",
+        "seo": {
+          "title": "CWILL Returns & Exchanges Shopify App | eStorefy",
+          "meta_description": "A Shopify app for returns & exchanges. Listed functions include automated refunds, manual refunds.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/parcel-panel-returns-exchanges",
+          "retrieved_at": "2026-10-04T05:23:26.739098+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Automate your returns process to reduce costs, retain more revenue, and drive…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/parcel-panel-returns-exchanges"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "returngo",
+      "name": "ReturnGO Returns & Exchanges",
+      "slug": "returngo",
+      "category_fit": {
+        "app_id": "returngo",
+        "selection_score": 5.9826,
+        "rating_evidence": {"value": 4.9, "reviews": 405},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["return", "exchange"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/returngo"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for returns & exchanges. Listed functions include automated refunds, manual refunds.",
+        "description_long": "ReturnGO Returns & Exchanges is developed by ReturnGO and listed for returns and exchanges, order tracking. Its structured listing identifies functions such as automated refunds, manual refunds, exchanges, replacements. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Returns & Exchanges"],
+        "best_for": {
+          "use_cases": ["Returns & Exchanges"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 405,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/returngo",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 387},
+          {"stars": 4, "percentage": 3, "count": 11},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 7}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $147/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Premium",
+            "amount_usd": 147.0,
+            "billing_period": "month",
+            "price_display": "$147 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["110 returns included/month. $1.25 per extra return. Add-ons & Integrations available."]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 297.0,
+            "billing_period": "month",
+            "price_display": "$297 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["300 returns included/month. $0.90 per extra return. Add-ons & Integrations available."]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://returngo.ai/pricing/",
+        "starting_paid_monthly_price_usd": 147.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "September 14, 2020 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Returns and exchanges",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges"
+          },
+          {
+            "name": "Order tracking",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-order-tracking"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.returns_and_exchanges.return_options.automated_refunds",
+            "label": "Automated refunds"
+          },
+          {"handle": "cf.returns_and_exchanges.return_options.manual_refunds", "label": "Manual refunds"},
+          {"handle": "cf.returns_and_exchanges.return_options.exchanges", "label": "Exchanges"},
+          {"handle": "cf.returns_and_exchanges.return_options.replacements", "label": "Replacements"},
+          {"handle": "cf.returns_and_exchanges.return_options.in_store_returns", "label": "In-store returns"},
+          {"handle": "cf.returns_and_exchanges.return_options.qr_codes", "label": "QR codes"},
+          {"handle": "cf.returns_and_exchanges.return_options.gift_cards", "label": "Gift cards"},
+          {"handle": "cf.returns_and_exchanges.return_options.store_credit", "label": "Store credit"},
+          {"handle": "cf.returns_and_exchanges.return_options.gift_returns", "label": "Gift returns"},
+          {"handle": "cf.returns_and_exchanges.return_options.discount_code", "label": "Discount codes"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.automated_approvals",
+            "label": "Automated approvals"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.return_portal", "label": "Return portal"},
+          {"handle": "cf.returns_and_exchanges.return_management.custom_policies", "label": "Custom policies"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.non_returnable_items",
+            "label": "Non-returnable items"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.return_windows", "label": "Return windows"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_reasons", "label": "Return reasons"},
+          {"handle": "cf.returns_and_exchanges.return_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.returns_and_exchanges.return_management.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_tracking", "label": "Return tracking"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.sms_notifications",
+            "label": "SMS notifications"
+          },
+          {
+            "handle": "cf.returns_and_exchanges.return_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.custom_branding", "label": "Custom branding"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.refund_management",
+            "label": "Refund management"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.stock_updates", "label": "Stock updates"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.customer_blocklists",
+            "label": "Customer blocklists"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.analytics", "label": "Analytics"},
+          {"handle": "cf.order_tracking.tracking.branded_tracking_page", "label": "Branded tracking page"},
+          {"handle": "cf.order_tracking.tracking.order_lookup_page", "label": "Order lookup page"},
+          {"handle": "cf.order_tracking.tracking.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.order_tracking.tracking.custom_tracking_link", "label": "Custom tracking link"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Canada Post", "Gorgias", "Sendcloud", "Shippo", "Shipstation", "USPS"]
+      },
+      "developer": {
+        "name": "ReturnGO",
+        "website_url": "https://returngo.ai/",
+        "partner_url": "https://apps.shopify.com/partners/returngo",
+        "public_address": "Arieh Shenkar St 1,, Herzeliya, 4672501, IL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/returngo",
+        "canonical_app_store_url": "https://apps.shopify.com/returngo",
+        "install_url": "https://apps.shopify.com/returngo",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://returngo.ai/policy/",
+          "FAQ": "https://support.returngo.ai/",
+          "Tutorial": "https://support.returngo.ai/",
+          "App Documentation": "https://support.returngo.ai/",
+          "ReturnGO": "https://apps.shopify.com/partners/returngo",
+          "Website": "https://returngo.ai/",
+          "Changelog": "https://returngo.ai/release-notes/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9b4ed6054e48dbff51077265060d311f/icon/CKKshq-6s_ACEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9b4ed6054e48dbff51077265060d311f/desktop_screenshot/COb-3c2Do40DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b4ed6054e48dbff51077265060d311f/desktop_screenshot/CPaM6c2Do40DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b4ed6054e48dbff51077265060d311f/desktop_screenshot/CNHr882Do40DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b4ed6054e48dbff51077265060d311f/desktop_screenshot/CL3o_c2Do40DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b4ed6054e48dbff51077265060d311f/desktop_screenshot/CP2XiM6Do40DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b4ed6054e48dbff51077265060d311f/desktop_screenshot/CLebks6Do40DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b4ed6054e48dbff51077265060d311f/mobile_screenshot/CLeLg4uEo40DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b4ed6054e48dbff51077265060d311f/mobile_screenshot/CKSpjYuEo40DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b4ed6054e48dbff51077265060d311f/mobile_screenshot/CLLml4uEo40DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b4ed6054e48dbff51077265060d311f/mobile_screenshot/CJLzoYuEo40DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b4ed6054e48dbff51077265060d311f/mobile_screenshot/CKOYrIuEo40DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9b4ed6054e48dbff51077265060d311f/mobile_screenshot/CPLQtYuEo40DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/MFrmXQalFyE"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is ReturnGO Returns & Exchanges free?",
+            "answer": "The pricing label retrieved from the listing is: From $147/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/returngo"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/returngo"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Canada Post, Gorgias, Sendcloud, Shippo, Shipstation, USPS",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/returngo"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/returngo"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://support.returngo.ai/", "https://support.returngo.ai/", "https://support.returngo.ai/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["returns-exchanges"],
+        "primary_category_id": "returns-exchanges",
+        "seo": {
+          "title": "ReturnGO Returns & Exchanges Shopify App | eStorefy",
+          "meta_description": "A Shopify app for returns & exchanges. Listed functions include automated refunds, manual refunds.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/returngo",
+          "retrieved_at": "2026-10-04T05:23:26.505686+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Automate returns & exchanges with a branded self-service returns portal for easy…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/returngo"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "return-assurance",
+      "name": "Seel Worry‑Free Purchase",
+      "slug": "return-assurance",
+      "category_fit": {
+        "app_id": "return-assurance",
+        "selection_score": 5.9593,
+        "rating_evidence": {"value": 4.9, "reviews": 296},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["return", "exchange"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/return-assurance"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for returns & exchanges. Listed functions include automated refunds, exchanges.",
+        "description_long": "Seel Worry‑Free Purchase is developed by Seel and listed for returns and exchanges, orders - other. Its structured listing identifies functions such as automated refunds, exchanges, return portal, non-returnable items. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Returns & Exchanges"],
+        "best_for": {
+          "use_cases": ["Returns & Exchanges"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 296,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/return-assurance",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 272},
+          {"stars": 4, "percentage": 4, "count": 13},
+          {"stars": 3, "percentage": 1, "count": 4},
+          {"stars": 2, "percentage": 1, "count": 2},
+          {"stars": 1, "percentage": 2, "count": 5}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 20, 2021",
+        "shopify_categories": [
+          {
+            "name": "Returns and exchanges",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges"
+          },
+          {
+            "name": "Orders - Other",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-orders-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.returns_and_exchanges.return_options.automated_refunds",
+            "label": "Automated refunds"
+          },
+          {"handle": "cf.returns_and_exchanges.return_options.exchanges", "label": "Exchanges"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_portal", "label": "Return portal"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.non_returnable_items",
+            "label": "Non-returnable items"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.return_windows", "label": "Return windows"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_reasons", "label": "Return reasons"},
+          {"handle": "cf.returns_and_exchanges.return_management.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_tracking", "label": "Return tracking"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.email_notifications",
+            "label": "Email notifications"
+          }
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout"]
+      },
+      "developer": {
+        "name": "Seel",
+        "website_url": "https://seel.com",
+        "partner_url": "https://apps.shopify.com/partners/kover-ai-inc",
+        "public_address": "8 California St, Suite 400, SAN FRANCISCO, CA, 94111, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/return-assurance",
+        "canonical_app_store_url": "https://apps.shopify.com/return-assurance",
+        "install_url": "https://apps.shopify.com/return-assurance",
+        "demo_store_url": "https://seel-demo-store.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://www.seel.com/privacy",
+          "FAQ": "https://www.seel.com/terms/learn-more-about-worryfree-purchase",
+          "App Documentation": "https://www.seel.com/terms/worry-free-purchase",
+          "Seel": "https://apps.shopify.com/partners/kover-ai-inc",
+          "Website": "https://seel.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/0195578f6b9dbe0abd78b027600dd448/icon/CMicrtmF5f4CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/0195578f6b9dbe0abd78b027600dd448/desktop_screenshot/CLL52vXn_YYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0195578f6b9dbe0abd78b027600dd448/desktop_screenshot/CKOvw_GmzIkDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0195578f6b9dbe0abd78b027600dd448/desktop_screenshot/CM2W7vXn_YYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0195578f6b9dbe0abd78b027600dd448/desktop_screenshot/CMy5vsmnzIkDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/NRzcc5aKTp0"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Seel Worry‑Free Purchase free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/return-assurance"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/return-assurance"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/return-assurance"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/return-assurance"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://www.seel.com/terms/learn-more-about-worryfree-purchase",
+            "https://www.seel.com/terms/worry-free-purchase"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["returns-exchanges"],
+        "primary_category_id": "returns-exchanges",
+        "seo": {
+          "title": "Seel Worry‑Free Purchase Shopify App | eStorefy",
+          "meta_description": "A Shopify app for returns & exchanges. Listed functions include automated refunds, exchanges.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/return-assurance",
+          "retrieved_at": "2026-10-04T05:23:36.699039+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "With Seel, shoppers can make final sale items returnable, offset carbon emissions,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/return-assurance"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "return-prime",
+      "name": "Return Prime:Return & Exchange",
+      "slug": "return-prime",
+      "category_fit": {
+        "app_id": "return-prime",
+        "selection_score": 5.9259,
+        "rating_evidence": {"value": 4.8, "reviews": 768},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["return", "exchange"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/return-prime"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for returns & exchanges. Listed functions include automated refunds, manual refunds.",
+        "description_long": "Return Prime:Return & Exchange is developed by Appsdart Solutions Private Limited  and listed for returns and exchanges, shipping. Its structured listing identifies functions such as automated refunds, manual refunds, exchanges, replacements. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Returns & Exchanges"],
+        "best_for": {
+          "use_cases": ["Returns & Exchanges"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 768,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/return-prime",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 732},
+          {"stars": 4, "percentage": 2, "count": 19},
+          {"stars": 3, "percentage": 1, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 1, "count": 11}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Start",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.49 per additional request"]
+          },
+          {
+            "name": "Grow - Starting at",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.49 per additional request"]
+          },
+          {
+            "name": "Thrive AI",
+            "amount_usd": 79.99,
+            "billing_period": "month",
+            "price_display": "$79.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.79 per additional request"]
+          },
+          {
+            "name": "Scale",
+            "amount_usd": 149.99,
+            "billing_period": "month",
+            "price_display": "$149.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.49 per additional request"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.returnprime.com/pricing",
+        "starting_paid_monthly_price_usd": 19.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "October 8, 2020",
+        "shopify_categories": [
+          {
+            "name": "Returns and exchanges",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges"
+          },
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.returns_and_exchanges.return_options.automated_refunds",
+            "label": "Automated refunds"
+          },
+          {"handle": "cf.returns_and_exchanges.return_options.manual_refunds", "label": "Manual refunds"},
+          {"handle": "cf.returns_and_exchanges.return_options.exchanges", "label": "Exchanges"},
+          {"handle": "cf.returns_and_exchanges.return_options.replacements", "label": "Replacements"},
+          {"handle": "cf.returns_and_exchanges.return_options.in_store_returns", "label": "In-store returns"},
+          {"handle": "cf.returns_and_exchanges.return_options.qr_codes", "label": "QR codes"},
+          {"handle": "cf.returns_and_exchanges.return_options.gift_cards", "label": "Gift cards"},
+          {"handle": "cf.returns_and_exchanges.return_options.store_credit", "label": "Store credit"},
+          {"handle": "cf.returns_and_exchanges.return_options.gift_returns", "label": "Gift returns"},
+          {"handle": "cf.returns_and_exchanges.return_options.discount_code", "label": "Discount codes"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.automated_approvals",
+            "label": "Automated approvals"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.return_portal", "label": "Return portal"},
+          {"handle": "cf.returns_and_exchanges.return_management.custom_policies", "label": "Custom policies"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.non_returnable_items",
+            "label": "Non-returnable items"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.return_windows", "label": "Return windows"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_reasons", "label": "Return reasons"},
+          {"handle": "cf.returns_and_exchanges.return_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.returns_and_exchanges.return_management.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_tracking", "label": "Return tracking"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.sms_notifications",
+            "label": "SMS notifications"
+          },
+          {
+            "handle": "cf.returns_and_exchanges.return_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.custom_branding", "label": "Custom branding"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.refund_management",
+            "label": "Refund management"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.stock_updates", "label": "Stock updates"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.customer_blocklists",
+            "label": "Customer blocklists"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.analytics", "label": "Analytics"},
+          {"handle": "cf.shipping.labels_and_packaging.label_creation", "label": "Label creation"},
+          {"handle": "cf.shipping.labels_and_packaging.address_validation", "label": "Address validation"},
+          {"handle": "cf.shipping.labels_and_packaging.customs_documents", "label": "Customs documents"},
+          {"handle": "cf.shipping.labels_and_packaging.return_labels", "label": "Return labels"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "and 100+ integrations",
+          "Klaviyo",
+          "UPS",
+          "USPS",
+          "Yotpo",
+          "Zapier"
+        ]
+      },
+      "developer": {
+        "name": "Appsdart Solutions Private Limited ",
+        "website_url": "https://returnprime.com",
+        "partner_url": "https://apps.shopify.com/partners/appsdart",
+        "public_address": "Berlin, DE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/return-prime",
+        "canonical_app_store_url": "https://apps.shopify.com/return-prime",
+        "install_url": "https://apps.shopify.com/return-prime",
+        "demo_store_url": "https://returnprimedemo.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://returnprime.com/return-prime-privacy-policy",
+          "FAQ": "https://help.returnprime.co/en/",
+          "App Documentation": "https://build.returnprime.com/",
+          "Appsdart Solutions Private Limited": "https://apps.shopify.com/partners/appsdart",
+          "Website": "https://returnprime.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/c1d9da9c0bc3b56a236a520bd34fefa7/icon/CIbTtPa41JQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/c1d9da9c0bc3b56a236a520bd34fefa7/desktop_screenshot/CKruzOX3_pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c1d9da9c0bc3b56a236a520bd34fefa7/desktop_screenshot/COvJ1eX3_pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c1d9da9c0bc3b56a236a520bd34fefa7/desktop_screenshot/CPq-3uX3_pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c1d9da9c0bc3b56a236a520bd34fefa7/desktop_screenshot/CIqK5-X3_pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c1d9da9c0bc3b56a236a520bd34fefa7/desktop_screenshot/CLO_8OX3_pADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c1d9da9c0bc3b56a236a520bd34fefa7/desktop_screenshot/CJzmzdiA75ADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/0NWbNDJDWWI"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Return Prime:Return & Exchange free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/return-prime"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/return-prime"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, and 100+ integrations, Klaviyo, UPS, USPS, Yotpo, Zapier",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/return-prime"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/return-prime"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.returnprime.co/en/", "https://build.returnprime.com/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["returns-exchanges"],
+        "primary_category_id": "returns-exchanges",
+        "seo": {
+          "title": "Return Prime:Return & Exchange Shopify App | eStorefy",
+          "meta_description": "A Shopify app for returns & exchanges. Listed functions include automated refunds, manual refunds.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/return-prime",
+          "retrieved_at": "2026-10-04T05:23:26.552033+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Shopify's #1 returns app for India, US, UK, Germany, UAE, Canada and…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/return-prime"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "returbo",
+      "name": "Returbo Returns & Exchanges",
+      "slug": "returbo",
+      "category_fit": {
+        "app_id": "returbo",
+        "selection_score": 5.9218,
+        "rating_evidence": {"value": 5.0, "reviews": 92},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["return", "exchange"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/returbo"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for returns & exchanges. Listed functions include automated refunds, manual refunds.",
+        "description_long": "Returbo Returns & Exchanges is developed by Returbo AB and listed for returns and exchanges, legal. Its structured listing identifies functions such as automated refunds, manual refunds, exchanges, replacements. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Returns & Exchanges"],
+        "best_for": {
+          "use_cases": ["Returns & Exchanges"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 92,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/returbo",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 90},
+          {"stars": 4, "percentage": 2, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $89/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Core",
+            "amount_usd": 89.0,
+            "billing_period": "month",
+            "price_display": "$89 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $936/year and save 12%", "$15 for 10 extra requests"]
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 249.0,
+            "billing_period": "month",
+            "price_display": "$249 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $2,544/year and save 15%", "After limit, $15 for 10 extra requests"]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 479.0,
+            "billing_period": "month",
+            "price_display": "$479 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $4,764/year and save 17%", "After limit, $15 for 10 extra requests"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 1124.0,
+            "billing_period": "month",
+            "price_display": "$1,124 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $10,788/year and save 20%", "After limit, $15 for 10 extra requests"]
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": "https://returbo.io/pricing",
+        "starting_paid_monthly_price_usd": 89.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "January 26, 2023",
+        "shopify_categories": [
+          {
+            "name": "Returns and exchanges",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges"
+          },
+          {"name": "Legal", "url": "https://apps.shopify.com/categories/store-management-security-legal"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.returns_and_exchanges.return_options.automated_refunds",
+            "label": "Automated refunds"
+          },
+          {"handle": "cf.returns_and_exchanges.return_options.manual_refunds", "label": "Manual refunds"},
+          {"handle": "cf.returns_and_exchanges.return_options.exchanges", "label": "Exchanges"},
+          {"handle": "cf.returns_and_exchanges.return_options.replacements", "label": "Replacements"},
+          {"handle": "cf.returns_and_exchanges.return_options.qr_codes", "label": "QR codes"},
+          {"handle": "cf.returns_and_exchanges.return_options.gift_cards", "label": "Gift cards"},
+          {"handle": "cf.returns_and_exchanges.return_options.store_credit", "label": "Store credit"},
+          {"handle": "cf.returns_and_exchanges.return_options.gift_returns", "label": "Gift returns"},
+          {"handle": "cf.returns_and_exchanges.return_options.discount_code", "label": "Discount codes"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.automated_approvals",
+            "label": "Automated approvals"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.return_portal", "label": "Return portal"},
+          {"handle": "cf.returns_and_exchanges.return_management.custom_policies", "label": "Custom policies"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.non_returnable_items",
+            "label": "Non-returnable items"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.return_windows", "label": "Return windows"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_reasons", "label": "Return reasons"},
+          {"handle": "cf.returns_and_exchanges.return_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.returns_and_exchanges.return_management.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_tracking", "label": "Return tracking"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.sms_notifications",
+            "label": "SMS notifications"
+          },
+          {
+            "handle": "cf.returns_and_exchanges.return_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.custom_branding", "label": "Custom branding"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.refund_management",
+            "label": "Refund management"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.stock_updates", "label": "Stock updates"},
+          {"handle": "cf.returns_and_exchanges.return_management.analytics", "label": "Analytics"},
+          {"handle": "cf.legal.compliance.data_privacy", "label": "Data privacy"},
+          {"handle": "cf.legal.compliance.terms_and_conditions", "label": "Terms and conditions"},
+          {"handle": "cf.legal.compliance.compliance_reports", "label": "Compliance reports"},
+          {"handle": "cf.legal.customization.widget_position", "label": "Widget position"},
+          {"handle": "cf.legal.customization.multi_language", "label": "Multi-language"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin", "Bring", "Bundles.app", "DHL", "PostNord", "Shippypro", "UPS"]
+      },
+      "developer": {
+        "name": "Returbo AB",
+        "website_url": "https://returbo.io",
+        "partner_url": "https://apps.shopify.com/partners/returbo-ab",
+        "public_address": "SVEAVÄGEN, 100, STOCKHOLM, 11350, SE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/returbo",
+        "canonical_app_store_url": "https://apps.shopify.com/returbo",
+        "install_url": "https://apps.shopify.com/returbo",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://returbo.io/returbo-app-privacy-policy/",
+          "FAQ": "https://intercom.help/returbo/en/",
+          "Returbo AB": "https://apps.shopify.com/partners/returbo-ab",
+          "Website": "https://returbo.io"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6e60db8926d560d8ca28362417d01726/icon/CK_-p6KervwCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6e60db8926d560d8ca28362417d01726/desktop_screenshot/CMO3t9OlrJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6e60db8926d560d8ca28362417d01726/desktop_screenshot/CMX-wdOlrJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6e60db8926d560d8ca28362417d01726/desktop_screenshot/CP-2zNOlrJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6e60db8926d560d8ca28362417d01726/desktop_screenshot/CPrU1dOlrJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6e60db8926d560d8ca28362417d01726/desktop_screenshot/CNTO4NOlrJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6e60db8926d560d8ca28362417d01726/desktop_screenshot/CILY6tOlrJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6e60db8926d560d8ca28362417d01726/mobile_screenshot/CNaPsebB3YUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/7jXyuuFaQk0"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Returbo Returns & Exchanges free?",
+            "answer": "The pricing label retrieved from the listing is: From $89/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/returbo"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/returbo"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Bring, Bundles.app, DHL, PostNord, Shippypro, UPS",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/returbo"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/returbo"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://intercom.help/returbo/en/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["returns-exchanges"],
+        "primary_category_id": "returns-exchanges",
+        "seo": {
+          "title": "Returbo Returns & Exchanges Shopify App | eStorefy",
+          "meta_description": "A Shopify app for returns & exchanges. Listed functions include automated refunds, manual refunds.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/returbo",
+          "retrieved_at": "2026-10-04T05:23:36.843526+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Returbo helps 100+ Shopify brands manage returns, exchanges, return labels, and store…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/returbo"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "returns-center-by-aftership",
+      "name": "AfterShip Returns & Exchanges",
+      "slug": "returns-center-by-aftership",
+      "category_fit": {
+        "app_id": "returns-center-by-aftership",
+        "selection_score": 5.8638,
+        "rating_evidence": {"value": 4.7, "reviews": 1545},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["return", "exchange"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/returns-center-by-aftership"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for returns & exchanges. Listed functions include automated refunds, exchanges.",
+        "description_long": "AfterShip Returns & Exchanges is developed by AfterShip and listed for returns and exchanges, returns and warranty - other. Its structured listing identifies functions such as automated refunds, exchanges, replacements, in-store returns. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Returns & Exchanges"],
+        "best_for": {
+          "use_cases": ["Returns & Exchanges"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.7,
+        "review_count": 1545,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/returns-center-by-aftership",
+        "distribution": [
+          {"stars": 5, "percentage": 83, "count": 1},
+          {"stars": 4, "percentage": 8, "count": 122},
+          {"stars": 3, "percentage": 2, "count": 31},
+          {"stars": 2, "percentage": 1, "count": 22},
+          {"stars": 1, "percentage": 6, "count": 87}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Return Care",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essentials",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $192/year and save 16%",
+              "$1 for the first month. Includes 20 returns/month; $0.50 per extra return."
+            ]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 119.0,
+            "billing_period": "month",
+            "price_display": "$119 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $1,188/year and save 17%",
+              "$1 for the first month. Includes 100 returns per month, $1 per extra return"
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.returnscenter.com/pricing?utm_source=sp-app-store-returns",
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "February 28, 2017",
+        "shopify_categories": [
+          {
+            "name": "Returns and exchanges",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges"
+          },
+          {
+            "name": "Returns and warranty - Other",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-warranty-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.returns_and_exchanges.return_options.automated_refunds",
+            "label": "Automated refunds"
+          },
+          {"handle": "cf.returns_and_exchanges.return_options.exchanges", "label": "Exchanges"},
+          {"handle": "cf.returns_and_exchanges.return_options.replacements", "label": "Replacements"},
+          {"handle": "cf.returns_and_exchanges.return_options.in_store_returns", "label": "In-store returns"},
+          {"handle": "cf.returns_and_exchanges.return_options.gift_returns", "label": "Gift returns"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.automated_approvals",
+            "label": "Automated approvals"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.return_portal", "label": "Return portal"},
+          {"handle": "cf.returns_and_exchanges.return_management.custom_policies", "label": "Custom policies"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.non_returnable_items",
+            "label": "Non-returnable items"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.return_windows", "label": "Return windows"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_reasons", "label": "Return reasons"},
+          {"handle": "cf.returns_and_exchanges.return_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.returns_and_exchanges.return_management.shipping_labels", "label": "Shipping labels"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_tracking", "label": "Return tracking"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.sms_notifications",
+            "label": "SMS notifications"
+          },
+          {
+            "handle": "cf.returns_and_exchanges.return_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {
+            "handle": "cf.returns_and_exchanges.return_management.refund_management",
+            "label": "Refund management"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.stock_updates", "label": "Stock updates"},
+          {"handle": "cf.returns_and_exchanges.return_management.analytics", "label": "Analytics"}
+        ],
+        "languages": ["English", " German", " French", " Spanish", " and Italian"],
+        "works_with": [
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Canada Post",
+          "FedEx",
+          "Gorgias",
+          "UPS",
+          "USPS"
+        ]
+      },
+      "developer": {
+        "name": "AfterShip",
+        "website_url": "https://www.returnscenter.com?utm_source=sp-app-store-returns",
+        "partner_url": "https://apps.shopify.com/partners/aftership",
+        "public_address": "120 Robinson Road #13-01 Singapore 068913, Singapore, Singapore, 068913, SG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/returns-center-by-aftership",
+        "canonical_app_store_url": "https://apps.shopify.com/returns-center-by-aftership",
+        "install_url": "https://apps.shopify.com/returns-center-by-aftership",
+        "demo_store_url": "https://returnsdemo.returnscenter.com/",
+        "resources": {
+          "Privacy policy": "https://www.aftership.com/legal/privacy",
+          "FAQ": "https://support.returnscenter.com/",
+          "AfterShip": "https://apps.shopify.com/partners/aftership",
+          "Website": "https://www.returnscenter.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/0b88e190195c8c444bc7d5b7a2e3c2c0/icon/CK7E7K_Fv_4CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/0b88e190195c8c444bc7d5b7a2e3c2c0/desktop_screenshot/CMSEmM2WofwCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0b88e190195c8c444bc7d5b7a2e3c2c0/desktop_screenshot/CPG0pM2WofwCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0b88e190195c8c444bc7d5b7a2e3c2c0/desktop_screenshot/CMHXsM2WofwCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0b88e190195c8c444bc7d5b7a2e3c2c0/desktop_screenshot/CJqgvc2WofwCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0b88e190195c8c444bc7d5b7a2e3c2c0/desktop_screenshot/COfYzM2WofwCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0b88e190195c8c444bc7d5b7a2e3c2c0/desktop_screenshot/CLyG7cvrl5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0b88e190195c8c444bc7d5b7a2e3c2c0/mobile_screenshot/CPjCqcKvlvkCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0b88e190195c8c444bc7d5b7a2e3c2c0/mobile_screenshot/CMDQtMKvlvkCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0b88e190195c8c444bc7d5b7a2e3c2c0/mobile_screenshot/CIqdv8KvlvkCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0b88e190195c8c444bc7d5b7a2e3c2c0/mobile_screenshot/COqQzcKvlvkCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0b88e190195c8c444bc7d5b7a2e3c2c0/mobile_screenshot/CKC93MKvlvkCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0b88e190195c8c444bc7d5b7a2e3c2c0/pos_screenshot/COiQ9svrl5MDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/wALa4543n5o"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is AfterShip Returns & Exchanges free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/returns-center-by-aftership"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Spanish,  and Italian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/returns-center-by-aftership"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Canada Post, FedEx, Gorgias, UPS, USPS",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/returns-center-by-aftership"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/returns-center-by-aftership"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://support.returnscenter.com/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["returns-exchanges"],
+        "primary_category_id": "returns-exchanges",
+        "seo": {
+          "title": "AfterShip Returns & Exchanges Shopify App | eStorefy",
+          "meta_description": "A Shopify app for returns & exchanges. Listed functions include automated refunds, exchanges.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/returns-center-by-aftership",
+          "retrieved_at": "2026-10-04T05:23:26.463401+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Automated returns solution for brands to save time and recapture revenue. Deliver…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/returns-center-by-aftership"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

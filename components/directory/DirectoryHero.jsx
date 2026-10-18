@@ -60,7 +60,8 @@ export default function DirectoryHero({ city, spotlight }) {
               </p>
               <div className="talent-tags">Shopify · {spotlight.cityName}</div>
               <div className="talent-bottom">
-                {spotlight.cityName}, US <span>Explore expertise ↗</span>
+                {spotlight.cityName}, {spotlight.cityCountryCode}{" "}
+                <span>Explore expertise ↗</span>
               </div>
             </div>
             <div className="float top">

@@ -1,0 +1,1351 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "profit-analytics",
+    "number": 86,
+    "name": "Profit Analytics",
+    "group": "Analytics & Automation",
+    "slug": "profit-analytics",
+    "url_path": "/apps/profit-analytics",
+    "focus": "Understand business activity and automate repetitive work.",
+    "description": "Compare Shopify apps for profit analytics. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/store-management-operations-analytics/all"],
+    "seo": {
+      "title": "Shopify Profit Analytics Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for profit analytics: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 5,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a profit analytics app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "trueprofit",
+      "name": "TP: True Profit Analytics",
+      "slug": "trueprofit",
+      "category_fit": {
+        "app_id": "trueprofit",
+        "selection_score": 6.0327,
+        "rating_evidence": {"value": 4.9, "reviews": 905},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["profit analytics", "profit track", "profit dashboard", "cogs"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/trueprofit"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for order tracking. Listed functions include real-time tracking, event tracking.",
+        "description_long": "TP: True Profit Analytics is developed by TrueProfit Real-time Profit & LTV tracking and listed for analytics, accounting. Its structured listing identifies functions such as real-time tracking, event tracking, page views, lifetime value (ltv). For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Order Tracking", "Profit Analytics", "Marketing Attribution"],
+        "best_for": {
+          "use_cases": ["Order Tracking", "Profit Analytics", "Marketing Attribution"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 905,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/trueprofit",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 885},
+          {"stars": 4, "percentage": 1, "count": 9},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 8}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $35/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic",
+            "amount_usd": 35.0,
+            "billing_period": "month",
+            "price_display": "$35 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.3 per extra order. Maximum surcharge $300."]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 60.0,
+            "billing_period": "month",
+            "price_display": "$60 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.2 per extra order. Maximum surcharge $500."]
+          },
+          {
+            "name": "Ultimate",
+            "amount_usd": 100.0,
+            "billing_period": "month",
+            "price_display": "$100 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.1 per extra order. Maximum surcharge $700."]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 200.0,
+            "billing_period": "month",
+            "price_display": "$200 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.07 per extra order. Maximum surcharge $1000."]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://trueprofit.io/pricing/",
+        "starting_paid_monthly_price_usd": 35.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 31, 2019 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          },
+          {
+            "name": "Accounting",
+            "url": "https://apps.shopify.com/categories/store-management-finances-accounting"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.analytics.customer_behavior.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.analytics.customer_behavior.event_tracking", "label": "Event tracking"},
+          {"handle": "cf.analytics.customer_behavior.page_views", "label": "Page views"},
+          {"handle": "cf.analytics.customer_behavior.lifetime_value_ltv", "label": "Lifetime value (LTV)"},
+          {"handle": "cf.analytics.customer_behavior.cohort_analysis", "label": "Cohort analysis"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.checkout_analytics", "label": "Checkout analytics"},
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.profit_insights", "label": "Profit insights"},
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.funnel_analysis", "label": "Funnel analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.abandoned_carts", "label": "Abandoned cart"},
+          {"handle": "cf.analytics.marketing_and_sales.pixel_tracking", "label": "Pixel tracking"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_dashboard", "label": "Custom dashboards"},
+          {"handle": "cf.analytics.visuals_and_reports.multi_store_reports", "label": "Multi-store reports"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_reports", "label": "Custom reports"},
+          {"handle": "cf.analytics.visuals_and_reports.data_export", "label": "Data export"},
+          {"handle": "cf.analytics.visuals_and_reports.historical_analysis", "label": "Historical analysis"},
+          {"handle": "cf.analytics.visuals_and_reports.report_scheduling", "label": "Report scheduling"},
+          {"handle": "cf.accounting.financial_reports.sales_and_refunds", "label": "Sales and refunds"},
+          {"handle": "cf.accounting.financial_reports.sales_tax", "label": "Sales tax"},
+          {"handle": "cf.accounting.financial_reports.expense_tracking", "label": "Expense tracking"},
+          {
+            "handle": "cf.accounting.financial_reports.returns_and_exchanges",
+            "label": "Returns and exchanges"
+          },
+          {"handle": "cf.accounting.financial_reports.cogs_tracking", "label": "COGS tracking"},
+          {"handle": "cf.accounting.financial_reports.custom_reports", "label": "Custom reports"},
+          {
+            "handle": "cf.accounting.financial_reports.performance_dashboard",
+            "label": "Performance dashboard"
+          },
+          {"handle": "cf.accounting.financial_operations.multi_store", "label": "Multi-store"},
+          {"handle": "cf.accounting.financial_operations.multi_currency", "label": "Multi-currency"}
+        ],
+        "languages": ["English", " French", " and Spanish"],
+        "works_with": [
+          "Checkout",
+          "ChatGPT, Claude, OpenClaw",
+          "Facebook, Google, TikTok",
+          "Microsoft (Bing), X (Twitter)",
+          "Pinterest, Snapchat, Amazon",
+          "Printful, Printify, Gelato",
+          "Shipwire, CJ Dropshipping"
+        ]
+      },
+      "developer": {
+        "name": "TrueProfit Real-time Profit & LTV tracking",
+        "website_url": "https://trueprofit.io?utm_source=app-store",
+        "partner_url": "https://apps.shopify.com/partners/true-profit",
+        "public_address": "FIREAPPS JSC. 22F, Flemington Tower, 182 Le Dai Hanh,, Phu Tho Ward, TIN: 0314919972, EID: 079211809826, Ho Chi Minh city, 700000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/trueprofit",
+        "canonical_app_store_url": "https://apps.shopify.com/trueprofit",
+        "install_url": "https://apps.shopify.com/trueprofit",
+        "demo_store_url": "https://app.trueprofit.io/demo",
+        "resources": {
+          "Privacy policy": "https://trueprofit.io/privacy-policy/",
+          "TrueProfit Real-time Profit & LTV tracking": "https://apps.shopify.com/partners/true-profit",
+          "Website": "https://trueprofit.io",
+          "Changelog": "https://helpdesk.trueprofit.io/en/articles/11330293-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/icon/CJyUlLKRvoQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/desktop_screenshot/CLXL7PHF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/desktop_screenshot/CIT-yNbP640DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/desktop_screenshot/CIeTgfLF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/desktop_screenshot/COKN09bP640DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/desktop_screenshot/CKjuk_LF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/desktop_screenshot/CM6hnfLF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/mobile_screenshot/CO_7pvLF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/mobile_screenshot/CMbsr_LF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/mobile_screenshot/CO_4uPLF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/mobile_screenshot/COn4wfLF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/mobile_screenshot/CJ6b_97J7JQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/lfnwixF99Co"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is TP: True Profit Analytics free?",
+            "answer": "The pricing label retrieved from the listing is: From $35/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/trueprofit"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/trueprofit"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, ChatGPT, Claude, OpenClaw, Facebook, Google, TikTok, Microsoft (Bing), X (Twitter), Pinterest, Snapchat, Amazon, Printful, Printify, Gelato, Shipwire, CJ Dropshipping",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/trueprofit"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/trueprofit"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["order-tracking", "profit-analytics", "marketing-attribution"],
+        "primary_category_id": "order-tracking",
+        "seo": {
+          "title": "TP: True Profit Analytics Shopify App | eStorefy",
+          "meta_description": "A Shopify app for order tracking. Listed functions include real-time tracking, event tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/trueprofit",
+          "retrieved_at": "2026-10-04T05:04:18.308573+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Net Profit Analytics for Shopify. Instantly know your true Net profit. Profit…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/trueprofit"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "lifetimely-lifetime-value-and-profit-analytics",
+      "name": "Lifetimely Profit Analytics",
+      "slug": "lifetimely-lifetime-value-and-profit-analytics",
+      "category_fit": {
+        "app_id": "lifetimely-lifetime-value-and-profit-analytics",
+        "selection_score": 6.0028,
+        "rating_evidence": {"value": 4.9, "reviews": 548},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["profit analytics"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/lifetimely-lifetime-value-and-profit-analytics"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for order tracking. Listed functions include real-time tracking, activity tracking.",
+        "description_long": "Lifetimely Profit Analytics is developed by Lifetimely and listed for analytics. Its structured listing identifies functions such as real-time tracking, activity tracking, replay filtering, segmentation. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Order Tracking", "Profit Analytics"],
+        "best_for": {
+          "use_cases": ["Order Tracking", "Profit Analytics"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 548,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/lifetimely-lifetime-value-and-profit-analytics",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 530},
+          {"stars": 4, "percentage": 0, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 1, "count": 4},
+          {"stars": 1, "percentage": 2, "count": 10}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "S",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "M",
+            "amount_usd": 149.0,
+            "billing_period": "month",
+            "price_display": "$149 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "L",
+            "amount_usd": 299.0,
+            "billing_period": "month",
+            "price_display": "$299 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://useamp.com/pricing",
+        "starting_paid_monthly_price_usd": 49.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "February 19, 2019 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.analytics.customer_behavior.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.replay_filtering", "label": "Replay filtering"},
+          {"handle": "cf.analytics.customer_behavior.segmentation", "label": "Segmentation"},
+          {"handle": "cf.analytics.customer_behavior.lifetime_value_ltv", "label": "Lifetime value (LTV)"},
+          {"handle": "cf.analytics.customer_behavior.loyalty_analysis", "label": "Loyalty analysis"},
+          {"handle": "cf.analytics.customer_behavior.cohort_analysis", "label": "Cohort analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.ai_insights", "label": "AI insights"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.checkout_analytics", "label": "Checkout analytics"},
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.profit_insights", "label": "Profit insights"},
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.funnel_analysis", "label": "Funnel analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.pixel_tracking", "label": "Pixel tracking"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_dashboard", "label": "Custom dashboards"},
+          {"handle": "cf.analytics.visuals_and_reports.multi_store_reports", "label": "Multi-store reports"},
+          {"handle": "cf.analytics.visuals_and_reports.benchmarking", "label": "Benchmarking"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_reports", "label": "Custom reports"},
+          {"handle": "cf.analytics.visuals_and_reports.data_export", "label": "Data export"},
+          {"handle": "cf.analytics.visuals_and_reports.historical_analysis", "label": "Historical analysis"},
+          {"handle": "cf.analytics.visuals_and_reports.forecasting", "label": "Forecasting"},
+          {"handle": "cf.analytics.visuals_and_reports.report_scheduling", "label": "Report scheduling"},
+          {"handle": "cf.analytics.visuals_and_reports.gdpr_compliance", "label": "GDPR compliance"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Google Ads", "Klaviyo", "Meta Ads", "Recharge", "Skio", "TikTok"]
+      },
+      "developer": {
+        "name": "Lifetimely",
+        "website_url": "https://useamp.com/",
+        "partner_url": "https://apps.shopify.com/partners/rajakoivu-oy",
+        "public_address": "202A SOUTH BRIDGE ROAD, Singapore, 058751, SG"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/lifetimely-lifetime-value-and-profit-analytics",
+        "canonical_app_store_url": "https://apps.shopify.com/lifetimely-lifetime-value-and-profit-analytics",
+        "install_url": "https://apps.shopify.com/lifetimely-lifetime-value-and-profit-analytics",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://useamp.com/legal#privacy-policy",
+          "FAQ": "https://help.useamp.com/collection/637-lifetimely",
+          "Tutorial": "https://help.useamp.com/collection/637-lifetimely",
+          "App Documentation": "https://useamp.com/products/analytics",
+          "Lifetimely": "https://apps.shopify.com/partners/rajakoivu-oy",
+          "Website": "https://useamp.com/",
+          "Changelog": "https://useamp.com/blog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/341f678a7936fad95314939ce79a3bd8/icon/CIfG4MvYgYwDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/341f678a7936fad95314939ce79a3bd8/promotional_image/CN-c_Pq6zJYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/341f678a7936fad95314939ce79a3bd8/desktop_screenshot/CLyStdO6hpYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/341f678a7936fad95314939ce79a3bd8/desktop_screenshot/CKzRv9O6hpYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/341f678a7936fad95314939ce79a3bd8/desktop_screenshot/CIPkydO6hpYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/341f678a7936fad95314939ce79a3bd8/desktop_screenshot/CIOS09O6hpYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/341f678a7936fad95314939ce79a3bd8/desktop_screenshot/CIiF3dO6hpYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/341f678a7936fad95314939ce79a3bd8/desktop_screenshot/CKC15tO6hpYDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Lifetimely Profit Analytics free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/lifetimely-lifetime-value-and-profit-analytics"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/lifetimely-lifetime-value-and-profit-analytics"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Google Ads, Klaviyo, Meta Ads, Recharge, Skio, TikTok",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/lifetimely-lifetime-value-and-profit-analytics"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/lifetimely-lifetime-value-and-profit-analytics"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.useamp.com/collection/637-lifetimely",
+            "https://help.useamp.com/collection/637-lifetimely",
+            "https://useamp.com/products/analytics"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["order-tracking", "profit-analytics"],
+        "primary_category_id": "order-tracking",
+        "seo": {
+          "title": "Lifetimely Profit Analytics Shopify App | eStorefy",
+          "meta_description": "A Shopify app for order tracking. Listed functions include real-time tracking, activity tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/lifetimely-lifetime-value-and-profit-analytics",
+          "retrieved_at": "2026-10-04T05:32:07.946534+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Lifetimely is a leading Shopify analytics for eCommerce businesses seeking powerful data…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/lifetimely-lifetime-value-and-profit-analytics"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "juicy",
+      "name": "Juicy Profit Analytics",
+      "slug": "juicy",
+      "category_fit": {
+        "app_id": "juicy",
+        "selection_score": 5.8292,
+        "rating_evidence": {"value": 4.9, "reviews": 85},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["profit analytics", "profit track", "profit dashboard", "profit margin"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/juicy"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for profit analytics. Listed functions include marketing attribution, roas.",
+        "description_long": "Juicy Profit Analytics is developed by Easyapps and listed for analytics, accounting. Its structured listing identifies functions such as marketing attribution, roas, profit insights, purchase tracking. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Profit Analytics"],
+        "best_for": {
+          "use_cases": ["Profit Analytics"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 85,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/juicy",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 81},
+          {"stars": 4, "percentage": 4, "count": 3},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "April 9, 2025 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          },
+          {
+            "name": "Accounting",
+            "url": "https://apps.shopify.com/categories/store-management-finances-accounting"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.profit_insights", "label": "Profit insights"},
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.pixel_tracking", "label": "Pixel tracking"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_dashboard", "label": "Custom dashboards"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_reports", "label": "Custom reports"},
+          {"handle": "cf.accounting.financial_reports.cogs_tracking", "label": "COGS tracking"},
+          {"handle": "cf.accounting.financial_reports.custom_reports", "label": "Custom reports"},
+          {
+            "handle": "cf.accounting.financial_reports.performance_dashboard",
+            "label": "Performance dashboard"
+          },
+          {"handle": "cf.accounting.financial_operations.multi_channel", "label": "Multi-channel"},
+          {"handle": "cf.accounting.automated_data_sync.daily_sales_summary", "label": "Daily sales summary"},
+          {"handle": "cf.accounting.automated_data_sync.order_details", "label": "Order details"},
+          {"handle": "cf.accounting.automated_data_sync.transactions", "label": "Transactions"}
+        ],
+        "languages": [
+          "English",
+          " Swedish",
+          " German",
+          " Turkish",
+          " French",
+          " Spanish",
+          " Japanese",
+          " Danish",
+          " Norwegian (Bokmål)",
+          " Portuguese (Brazil)",
+          " and Finnish"
+        ],
+        "works_with": ["Checkout", "Shopify Admin", "Google", "Meta", "Microsoft", "Pinterest", "Snapchat", "Tiktok"]
+      },
+      "developer": {
+        "name": "Easyapps",
+        "website_url": "https://juicy.fyi",
+        "partner_url": "https://apps.shopify.com/partners/dagens-e-handel-sverige-ab",
+        "public_address": "Stora vägen 31b, Fristad, 513 33, SE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/juicy",
+        "canonical_app_store_url": "https://apps.shopify.com/juicy",
+        "install_url": "https://apps.shopify.com/juicy",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://juicy.fyi/privacy-policy",
+          "Easyapps": "https://apps.shopify.com/partners/dagens-e-handel-sverige-ab",
+          "Website": "https://juicy.fyi",
+          "Changelog": "https://app.notion.com/p/Changelog-Juicy-395ae73163f5806b83f4db83077a23e9"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/1351af2d9f1fe6d0749b973704618e94/icon/CP3out--3owDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/1351af2d9f1fe6d0749b973704618e94/desktop_screenshot/CK_Po6P6iJUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1351af2d9f1fe6d0749b973704618e94/desktop_screenshot/CIW_rqP6iJUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1351af2d9f1fe6d0749b973704618e94/desktop_screenshot/CP_CuaP6iJUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1351af2d9f1fe6d0749b973704618e94/desktop_screenshot/CPTvw6P6iJUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1351af2d9f1fe6d0749b973704618e94/desktop_screenshot/CKfIzaP6iJUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1351af2d9f1fe6d0749b973704618e94/desktop_screenshot/CNSUlp334ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1351af2d9f1fe6d0749b973704618e94/mobile_screenshot/COPg4qP6iJUDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/fRJOCJ1dIlc"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Juicy Profit Analytics free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/juicy"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Swedish,  German,  Turkish,  French,  Spanish,  Japanese,  Danish,  Norwegian (Bokmål),  Portuguese (Brazil),  and Finnish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/juicy"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Google, Meta, Microsoft, Pinterest, Snapchat, Tiktok",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/juicy"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/juicy"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the required data sources and configure a sample report or automation.",
+            "Validate event or report output against a known transaction.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["profit-analytics"],
+        "primary_category_id": "profit-analytics",
+        "seo": {
+          "title": "Juicy Profit Analytics Shopify App | eStorefy",
+          "meta_description": "A Shopify app for profit analytics. Listed functions include marketing attribution, roas.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/juicy",
+          "retrieved_at": "2026-10-04T05:04:11.357148+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Track true net profit per order after ads, expenses and fees. See…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/juicy"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "go-profit",
+      "name": "GoProfit: Profit Analytics",
+      "slug": "go-profit",
+      "category_fit": {
+        "app_id": "go-profit",
+        "selection_score": 5.7576,
+        "rating_evidence": {"value": 4.8, "reviews": 92},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["profit analytics", "profit track", "cogs", "profit report"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/go-profit"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for profit analytics. Listed functions include real-time tracking, activity tracking.",
+        "description_long": "GoProfit: Profit Analytics is developed by GODISOFT and listed for analytics, accounting. Its structured listing identifies functions such as real-time tracking, activity tracking, event tracking, segmentation. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Profit Analytics", "Marketing Attribution"],
+        "best_for": {
+          "use_cases": ["Profit Analytics", "Marketing Attribution"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 92,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/go-profit",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 87},
+          {"stars": 4, "percentage": 2, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 3, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "LITE",
+            "amount_usd": 12.0,
+            "billing_period": "month",
+            "price_display": "$12 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.2 per extra order (max of $500)"]
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 59.0,
+            "billing_period": "month",
+            "price_display": "$59 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.2 per extra order (max of $500)"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://goprofit.io/#pricing/",
+        "starting_paid_monthly_price_usd": 12.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 23, 2024",
+        "shopify_categories": [
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          },
+          {
+            "name": "Accounting",
+            "url": "https://apps.shopify.com/categories/store-management-finances-accounting"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.analytics.customer_behavior.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.event_tracking", "label": "Event tracking"},
+          {"handle": "cf.analytics.customer_behavior.segmentation", "label": "Segmentation"},
+          {"handle": "cf.analytics.customer_behavior.page_views", "label": "Page views"},
+          {"handle": "cf.analytics.customer_behavior.lifetime_value_ltv", "label": "Lifetime value (LTV)"},
+          {"handle": "cf.analytics.customer_behavior.loyalty_analysis", "label": "Loyalty analysis"},
+          {"handle": "cf.analytics.customer_behavior.cohort_analysis", "label": "Cohort analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.ai_insights", "label": "AI insights"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.checkout_analytics", "label": "Checkout analytics"},
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.profit_insights", "label": "Profit insights"},
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.funnel_analysis", "label": "Funnel analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.abandoned_carts", "label": "Abandoned cart"},
+          {"handle": "cf.analytics.marketing_and_sales.pixel_tracking", "label": "Pixel tracking"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"},
+          {"handle": "cf.analytics.visuals_and_reports.benchmarking", "label": "Benchmarking"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_reports", "label": "Custom reports"},
+          {"handle": "cf.analytics.visuals_and_reports.data_export", "label": "Data export"},
+          {"handle": "cf.analytics.visuals_and_reports.historical_analysis", "label": "Historical analysis"},
+          {"handle": "cf.analytics.visuals_and_reports.report_scheduling", "label": "Report scheduling"},
+          {"handle": "cf.analytics.visuals_and_reports.notifications", "label": "Notifications"},
+          {"handle": "cf.accounting.financial_reports.income_and_balance", "label": "Income and balance"},
+          {"handle": "cf.accounting.financial_reports.sales_and_refunds", "label": "Sales and refunds"},
+          {"handle": "cf.accounting.financial_reports.sales_tax", "label": "Sales tax"},
+          {"handle": "cf.accounting.financial_reports.expense_tracking", "label": "Expense tracking"},
+          {
+            "handle": "cf.accounting.financial_reports.returns_and_exchanges",
+            "label": "Returns and exchanges"
+          }
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Facebook Ads",
+          "Google Ads",
+          "Google Sheets",
+          "Pinterest Ads",
+          "Tiktok Ads"
+        ]
+      },
+      "developer": {
+        "name": "GODISOFT",
+        "website_url": "https://goprofit.io/",
+        "partner_url": "https://apps.shopify.com/partners/godisoft",
+        "public_address": "Vaughan, ON, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/go-profit",
+        "canonical_app_store_url": "https://apps.shopify.com/go-profit",
+        "install_url": "https://apps.shopify.com/go-profit",
+        "demo_store_url": "https://demo.goprofit.io/app",
+        "resources": {
+          "Privacy policy": "https://goprofit.io/home/privacy-policy/",
+          "Tutorial": "https://www.youtube.com/@GoProfitAnalytics",
+          "App Documentation": "https://goprofit.io/metrics",
+          "GODISOFT": "https://apps.shopify.com/partners/godisoft",
+          "Website": "https://goprofit.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/32a2c89a60c5afffc4d3a45e30c4f070/icon/CNSaxs-r1YcDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/32a2c89a60c5afffc4d3a45e30c4f070/promotional_image/CLn0gZqT95YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32a2c89a60c5afffc4d3a45e30c4f070/desktop_screenshot/CNjEjJqT95YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32a2c89a60c5afffc4d3a45e30c4f070/desktop_screenshot/COypl5qT95YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32a2c89a60c5afffc4d3a45e30c4f070/desktop_screenshot/CPWhoZqT95YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32a2c89a60c5afffc4d3a45e30c4f070/desktop_screenshot/CO-Lq5qT95YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32a2c89a60c5afffc4d3a45e30c4f070/desktop_screenshot/CMn4tZqT95YDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is GoProfit: Profit Analytics free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/go-profit"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/go-profit"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Facebook Ads, Google Ads, Google Sheets, Pinterest Ads, Tiktok Ads",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/go-profit"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/go-profit"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://www.youtube.com/@GoProfitAnalytics", "https://goprofit.io/metrics"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the required data sources and configure a sample report or automation.",
+            "Validate event or report output against a known transaction.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["profit-analytics", "marketing-attribution"],
+        "primary_category_id": "profit-analytics",
+        "seo": {
+          "title": "GoProfit: Profit Analytics Shopify App | eStorefy",
+          "meta_description": "A Shopify app for profit analytics. Listed functions include real-time tracking, activity tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/go-profit",
+          "retrieved_at": "2026-10-04T05:04:43.531248+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Real-time Tracking for Complete Profit Clarity. GoProfit tracks Net Profit, P&L, ROAS,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/go-profit"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "beprofit-profit-tracker",
+      "name": "BeProfit ‑ Profit Analytics",
+      "slug": "beprofit-profit-tracker",
+      "category_fit": {
+        "app_id": "beprofit-profit-tracker",
+        "selection_score": 5.4722,
+        "rating_evidence": {"value": 4.4, "reviews": 204},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["profit analytics"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/beprofit-profit-tracker"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for profit analytics. Listed functions include real-time tracking, activity tracking.",
+        "description_long": "BeProfit ‑ Profit Analytics is developed by BeProfit and listed for analytics, finances - other. Its structured listing identifies functions such as real-time tracking, activity tracking, event tracking, lifetime value (ltv). For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Profit Analytics"],
+        "best_for": {
+          "use_cases": ["Profit Analytics"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.4,
+        "review_count": 204,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/beprofit-profit-tracker",
+        "distribution": [
+          {"stars": 5, "percentage": 93, "count": 189},
+          {"stars": 4, "percentage": 1, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 6, "count": 13}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $49/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic Plan",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $468/year and save 20%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $948/year and save 20%"]
+          },
+          {
+            "name": "Ultimate Plan",
+            "amount_usd": 149.0,
+            "billing_period": "month",
+            "price_display": "$149 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,428/year and save 20%"]
+          },
+          {
+            "name": "Plus (Enterprise)",
+            "amount_usd": 249.0,
+            "billing_period": "month",
+            "price_display": "$249 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $2,390/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://beprofit.co/pricing/",
+        "starting_paid_monthly_price_usd": 49.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "September 22, 2020",
+        "shopify_categories": [
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          },
+          {
+            "name": "Finances - Other",
+            "url": "https://apps.shopify.com/categories/store-management-finances-finances-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.analytics.customer_behavior.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.event_tracking", "label": "Event tracking"},
+          {"handle": "cf.analytics.customer_behavior.lifetime_value_ltv", "label": "Lifetime value (LTV)"},
+          {"handle": "cf.analytics.customer_behavior.cohort_analysis", "label": "Cohort analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.ai_insights", "label": "AI insights"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.profit_insights", "label": "Profit insights"},
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_dashboard", "label": "Custom dashboards"},
+          {"handle": "cf.analytics.visuals_and_reports.multi_store_reports", "label": "Multi-store reports"},
+          {"handle": "cf.analytics.visuals_and_reports.benchmarking", "label": "Benchmarking"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_reports", "label": "Custom reports"},
+          {"handle": "cf.analytics.visuals_and_reports.data_export", "label": "Data export"},
+          {"handle": "cf.analytics.visuals_and_reports.historical_analysis", "label": "Historical analysis"},
+          {"handle": "cf.analytics.visuals_and_reports.forecasting", "label": "Forecasting"},
+          {"handle": "cf.analytics.visuals_and_reports.report_scheduling", "label": "Report scheduling"},
+          {"handle": "cf.analytics.visuals_and_reports.notifications", "label": "Notifications"},
+          {"handle": "cf.analytics.visuals_and_reports.gdpr_compliance", "label": "GDPR compliance"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Amazon", "Facebook Ads", "Google Ads", "Google Analytics", "Klaviyo", "TikTok"]
+      },
+      "developer": {
+        "name": "BeProfit",
+        "website_url": "https://beprofit.co/?utm_source=AppStore&utm_medium=referrer&utm_campaign=app-listing",
+        "partner_url": "https://apps.shopify.com/partners/beprofit",
+        "public_address": "4866 NW 117th Ave, Coral Springs, FL, 33076, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/beprofit-profit-tracker",
+        "canonical_app_store_url": "https://apps.shopify.com/beprofit-profit-tracker",
+        "install_url": "https://apps.shopify.com/beprofit-profit-tracker",
+        "demo_store_url": "https://beprofit.co/demo",
+        "resources": {
+          "Privacy policy": "https://beprofit.co/privacy-policy.php",
+          "FAQ": "https://help.runviably.com/",
+          "BeProfit": "https://apps.shopify.com/partners/beprofit",
+          "Website": "https://beprofit.co/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9592dca4790e5c2712233113527ffac9/icon/CN7nicqx4fgCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9592dca4790e5c2712233113527ffac9/desktop_screenshot/CPftlJnukYQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9592dca4790e5c2712233113527ffac9/desktop_screenshot/CJettd2n7oMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9592dca4790e5c2712233113527ffac9/desktop_screenshot/CJ_-vd2n7oMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9592dca4790e5c2712233113527ffac9/desktop_screenshot/CIvvxt2n7oMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9592dca4790e5c2712233113527ffac9/desktop_screenshot/CLnGz92n7oMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9592dca4790e5c2712233113527ffac9/desktop_screenshot/CNyA2N2n7oMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9592dca4790e5c2712233113527ffac9/mobile_screenshot/CMfb4N2n7oMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9592dca4790e5c2712233113527ffac9/mobile_screenshot/CJrN8-PWr4UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9592dca4790e5c2712233113527ffac9/mobile_screenshot/CPTc8d2n7oMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/TMo4QqMzcUk"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BeProfit ‑ Profit Analytics free?",
+            "answer": "The pricing label retrieved from the listing is: From $49/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/beprofit-profit-tracker"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/beprofit-profit-tracker"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Amazon, Facebook Ads, Google Ads, Google Analytics, Klaviyo, TikTok",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/beprofit-profit-tracker"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/beprofit-profit-tracker"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.runviably.com/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the required data sources and configure a sample report or automation.",
+            "Validate event or report output against a known transaction.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["profit-analytics"],
+        "primary_category_id": "profit-analytics",
+        "seo": {
+          "title": "BeProfit ‑ Profit Analytics Shopify App | eStorefy",
+          "meta_description": "A Shopify app for profit analytics. Listed functions include real-time tracking, activity tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/beprofit-profit-tracker",
+          "retrieved_at": "2026-10-04T05:32:07.978752+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Track revenue, expenses, and marketing costs in real time to unlock your…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/beprofit-profit-tracker"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

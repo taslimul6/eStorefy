@@ -1,5 +1,5 @@
+import PartnerLink from "@/components/shared/PartnerLink";
 import { BriefButton } from "./AgencyActions";
-import ExternalLink from "@/components/shared/ExternalLink";
 import SaveButton from "@/components/shared/SaveButton";
 import { primaryRating } from "@/lib/format";
 export default function ContactSidebar({ agency }) {
@@ -19,11 +19,7 @@ export default function ContactSidebar({ agency }) {
               Bring a clear brief. Get a proposal that answers the right questions.
             </p>
             <BriefButton />
-            {agency.website && (
-              <ExternalLink className="btn" href={agency.website}>
-                Visit agency website
-              </ExternalLink>
-            )}
+            <PartnerLink className="btn">Contact this agency ↗</PartnerLink>
           </div>
           <div className="contact-facts">
             <div>
@@ -47,21 +43,8 @@ export default function ContactSidebar({ agency }) {
               <strong>{agency.shopify.partnerTier || "Not confirmed"}</strong>
             </div>
           </div>
-          <div className="contact-links">
-            {agency.contact.email && (
-              <a href={`mailto:${agency.contact.email}`}>{agency.contact.email}</a>
-            )}
-            {agency.contact.phone && (
-              <a href={`tel:${agency.contact.phone.replace(/[^+0-9]/g, "")}`}>
-                {agency.contact.phone}
-              </a>
-            )}
-            {!agency.contact.email && !agency.contact.phone && (
-              <span>Direct contact not confirmed. Check the source links.</span>
-            )}
-          </div>
           <div className="contact-end">
-            Public contact details · check source before outreach
+            Contact buttons open eStorefy’s partner redirect.
           </div>
         </div>
         <div className="side-save">

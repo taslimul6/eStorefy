@@ -1,0 +1,2259 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "deposits-partial-payments",
+    "number": 54,
+    "name": "Deposits & Partial Payments",
+    "group": "Payments & Recurring Sales",
+    "slug": "deposits-partial-payments",
+    "url_path": "/apps/deposits-partial-payments",
+    "focus": "Offer payment arrangements and recurring or advance purchases.",
+    "description": "Compare Shopify apps for deposits & partial payments. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/selling-products-payments-payment-experience/all"],
+    "seo": {
+      "title": "Shopify Deposits & Partial Payments Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for deposits & partial payments: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 8,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a deposits & partial payments app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "back-in-stock-restock-alerts",
+      "name": "Preorder, Back In Stock ‑ STOQ",
+      "slug": "back-in-stock-restock-alerts",
+      "category_fit": {
+        "app_id": "back-in-stock-restock-alerts",
+        "selection_score": 6.054,
+        "rating_evidence": {"value": 5.0, "reviews": 3770},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["partial", "deposit"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/back-in-stock-restock-alerts"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for pre-orders. Listed functions include coming soon, crowdfunding.",
+        "description_long": "Preorder, Back In Stock ‑ STOQ is developed by Artos Software and listed for pre-orders, stock alerts. Its structured listing identifies functions such as coming soon, crowdfunding, back orders, out of stock. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Pre-orders", "Deposits & Partial Payments", "Back-in-stock Alerts"],
+        "best_for": {
+          "use_cases": ["Pre-orders", "Deposits & Partial Payments", "Back-in-stock Alerts"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 3770,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/back-in-stock-restock-alerts",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 3},
+          {"stars": 4, "percentage": 2, "count": 87},
+          {"stars": 3, "percentage": 0, "count": 8},
+          {"stars": 2, "percentage": 0, "count": 3},
+          {"stars": 1, "percentage": 0, "count": 7}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Lite",
+            "amount_usd": 10.0,
+            "billing_period": "month",
+            "price_display": "$10 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.025 per SMS* • $0.25 per preorder above limit"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.025 per SMS* • $0.1 per preorder above limit"]
+          },
+          {
+            "name": "Unlimited",
+            "amount_usd": 69.0,
+            "billing_period": "month",
+            "price_display": "$69 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.025 per SMS*"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://help.stoqapp.com/en/article/charges-for-sms-back-in-stock-alerts-9gvuys/",
+        "starting_paid_monthly_price_usd": 10.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "November 1, 2021 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Pre-orders",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-pre-orders"
+          },
+          {
+            "name": "Stock alerts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-stock-alerts"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pre_orders.order_type.coming_soon", "label": "Coming soon"},
+          {"handle": "cf.pre_orders.order_type.crowdfunding", "label": "Crowdfunding"},
+          {"handle": "cf.pre_orders.order_type.back_orders", "label": "Back orders"},
+          {"handle": "cf.pre_orders.order_type.out_of_stock", "label": "Out of stock"},
+          {"handle": "cf.pre_orders.order_type.made_to_order", "label": "Made-to-order"},
+          {"handle": "cf.pre_orders.order_type.product_drops", "label": "Product drops"},
+          {"handle": "cf.pre_orders.order_type.pre_sales", "label": "Pre-sales"},
+          {"handle": "cf.pre_orders.customization.button", "label": "Buttons"},
+          {"handle": "cf.pre_orders.customization.badges", "label": "Badges"},
+          {"handle": "cf.pre_orders.customization.banner", "label": "Banners"},
+          {"handle": "cf.pre_orders.customization.countdown_timer", "label": "Countdown timers"},
+          {"handle": "cf.pre_orders.customization.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.pre_orders.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.pre_orders.customization.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.pre_orders.customization.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.pre_orders.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.pre_orders.customization.order_limit", "label": "Order limits"},
+          {"handle": "cf.pre_orders.customization.availability_date", "label": "Availability date"},
+          {"handle": "cf.pre_orders.customization.variants", "label": "Variants"},
+          {"handle": "cf.pre_orders.payment_options.deposits", "label": "Deposits"},
+          {"handle": "cf.pre_orders.payment_options.partial_payments", "label": "Partial payments"},
+          {"handle": "cf.pre_orders.payment_options.split_payments", "label": "Split payments"},
+          {"handle": "cf.pre_orders.payment_options.deferred_payments", "label": "Deferred payments"},
+          {"handle": "cf.pre_orders.payment_options.payment_reminders", "label": "Payment reminders"},
+          {"handle": "cf.pre_orders.payment_options.discounts", "label": "Discounts"},
+          {"handle": "cf.pre_orders.payment_options.mixed_cart", "label": "Mixed cart"},
+          {"handle": "cf.pre_orders.payment_options.manual_payment", "label": "Manual payment"},
+          {"handle": "cf.pre_orders.payment_options.split_shipping", "label": "Split shipping"},
+          {"handle": "cf.stock_alerts.notifications.auto_alerts", "label": "Auto-alerts"},
+          {"handle": "cf.stock_alerts.notifications.manual_alerts", "label": "Manual alerts"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " Danish",
+          " Dutch",
+          " Japanese",
+          " Korean",
+          " Italian",
+          " Spanish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Norwegian",
+          " Swedish",
+          " Turkish",
+          " Finnish",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " French",
+          " Polish",
+          " Russian",
+          " Czech",
+          " Hungarian",
+          " Indonesian",
+          " Romanian",
+          " and Vietnamese"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Flow",
+          "Klaviyo",
+          "Mailchimp",
+          "Omnisend",
+          "Point of Sale"
+        ]
+      },
+      "developer": {
+        "name": "Artos Software",
+        "website_url": "https://stoqapp.com",
+        "partner_url": "https://apps.shopify.com/partners/restockrocket",
+        "public_address": "1111B S Governors Ave STE 3617, Dover, DE, 19904, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/back-in-stock-restock-alerts",
+        "canonical_app_store_url": "https://apps.shopify.com/back-in-stock-restock-alerts",
+        "install_url": "https://apps.shopify.com/back-in-stock-restock-alerts",
+        "demo_store_url": "https://restock-rocket-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://stoqapp.com/policy",
+          "FAQ": "https://help.stoqapp.com",
+          "App Documentation": "https://docs.stoqapp.com",
+          "Artos Software": "https://apps.shopify.com/partners/restockrocket",
+          "Website": "https://stoqapp.com",
+          "Changelog": "https://stoqapp.com/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/2e4782c30cee9b0872fc602b8727f356/icon/CPLcut-dlIsDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/2e4782c30cee9b0872fc602b8727f356/promotional_image/CPuTpML6iZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2e4782c30cee9b0872fc602b8727f356/desktop_screenshot/CMi8q6qXspQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2e4782c30cee9b0872fc602b8727f356/desktop_screenshot/CNfHrcL6iZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2e4782c30cee9b0872fc602b8727f356/desktop_screenshot/CPybv6qXspQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2e4782c30cee9b0872fc602b8727f356/desktop_screenshot/CP2Wt8L6iZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2e4782c30cee9b0872fc602b8727f356/desktop_screenshot/COnjtdix2JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2e4782c30cee9b0872fc602b8727f356/desktop_screenshot/COqlw8L6iZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/2e4782c30cee9b0872fc602b8727f356/pos_screenshot/CPW6zcL6iZUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Preorder, Back In Stock ‑ STOQ free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/back-in-stock-restock-alerts"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  Danish,  Dutch,  Japanese,  Korean,  Italian,  Spanish,  Portuguese (Brazil),  Portuguese (Portugal),  Norwegian,  Swedish,  Turkish,  Finnish,  Chinese (Simplified),  Chinese (Traditional),  French,  Polish,  Russian,  Czech,  Hungarian,  Indonesian,  Romanian,  and Vietnamese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/back-in-stock-restock-alerts"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify POS, Shopify Flow, Shopify Admin, Flow, Klaviyo, Mailchimp, Omnisend, Point of Sale",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/back-in-stock-restock-alerts"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/back-in-stock-restock-alerts"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.stoqapp.com", "https://docs.stoqapp.com"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Define the payment, subscription or pre-order rules and eligible products.",
+            "Verify supported payment methods and test the purchase lifecycle.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["pre-orders", "deposits-partial-payments", "back-in-stock-alerts"],
+        "primary_category_id": "pre-orders",
+        "seo": {
+          "title": "Preorder, Back In Stock ‑ STOQ Shopify App | eStorefy",
+          "meta_description": "A Shopify app for pre-orders. Listed functions include coming soon, crowdfunding.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/back-in-stock-restock-alerts",
+          "retrieved_at": "2026-10-04T05:18:29.409073+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Sell pre orders & manage backorders with the #1 Shopify Pre-order App.…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/back-in-stock-restock-alerts"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "timesact-discount-pre-order",
+      "name": "Preorder Now Presale Timesact",
+      "slug": "timesact-discount-pre-order",
+      "category_fit": {
+        "app_id": "timesact-discount-pre-order",
+        "selection_score": 6.0254,
+        "rating_evidence": {"value": 5.0, "reviews": 2092},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["deposit", "partial", "split payment"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/timesact-discount-pre-order"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for pre-orders. Listed functions include coming soon, crowdfunding.",
+        "description_long": "Preorder Now Presale Timesact is developed by Kairock Partners SRL and listed for pre-orders, stock alerts. Its structured listing identifies functions such as coming soon, crowdfunding, back orders, out of stock. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Pre-orders", "Deposits & Partial Payments", "Back-in-stock Alerts"],
+        "best_for": {
+          "use_cases": ["Pre-orders", "Deposits & Partial Payments", "Back-in-stock Alerts"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 2092,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/timesact-discount-pre-order",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 2},
+          {"stars": 4, "percentage": 2, "count": 35},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 3},
+          {"stars": 1, "percentage": 0, "count": 7}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free (New Users)",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "CORE Flex from $5",
+            "amount_usd": 5.0,
+            "billing_period": "month",
+            "price_display": "$5 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "CORE Flex from $5",
+              "$0.2 per order above limit, SMS (only if using) starting at $0.02 for US numbers"
+            ]
+          },
+          {
+            "name": "PRO Flex from $7",
+            "amount_usd": 7.0,
+            "billing_period": "month",
+            "price_display": "$7 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "PRO Flex from $7",
+              "$0.3 per order above limit, SMS (only if using) starting at $0.02 for US numbers"
+            ]
+          },
+          {
+            "name": "CORE Fixed New ins",
+            "amount_usd": 23.0,
+            "billing_period": "month",
+            "price_display": "$23 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $204/year and save 26%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://timesact.com/pricing",
+        "starting_paid_monthly_price_usd": 5.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 1, 2020",
+        "shopify_categories": [
+          {
+            "name": "Pre-orders",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-pre-orders"
+          },
+          {
+            "name": "Stock alerts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-stock-alerts"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pre_orders.order_type.coming_soon", "label": "Coming soon"},
+          {"handle": "cf.pre_orders.order_type.crowdfunding", "label": "Crowdfunding"},
+          {"handle": "cf.pre_orders.order_type.back_orders", "label": "Back orders"},
+          {"handle": "cf.pre_orders.order_type.out_of_stock", "label": "Out of stock"},
+          {"handle": "cf.pre_orders.order_type.made_to_order", "label": "Made-to-order"},
+          {"handle": "cf.pre_orders.order_type.product_drops", "label": "Product drops"},
+          {"handle": "cf.pre_orders.order_type.pre_sales", "label": "Pre-sales"},
+          {"handle": "cf.pre_orders.customization.button", "label": "Buttons"},
+          {"handle": "cf.pre_orders.customization.badges", "label": "Badges"},
+          {"handle": "cf.pre_orders.customization.banner", "label": "Banners"},
+          {"handle": "cf.pre_orders.customization.countdown_timer", "label": "Countdown timers"},
+          {"handle": "cf.pre_orders.customization.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.pre_orders.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.pre_orders.customization.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.pre_orders.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.pre_orders.customization.order_limit", "label": "Order limits"},
+          {"handle": "cf.pre_orders.customization.availability_date", "label": "Availability date"},
+          {"handle": "cf.pre_orders.customization.variants", "label": "Variants"},
+          {"handle": "cf.pre_orders.payment_options.deposits", "label": "Deposits"},
+          {"handle": "cf.pre_orders.payment_options.partial_payments", "label": "Partial payments"},
+          {"handle": "cf.pre_orders.payment_options.split_payments", "label": "Split payments"},
+          {"handle": "cf.pre_orders.payment_options.deferred_payments", "label": "Deferred payments"},
+          {"handle": "cf.pre_orders.payment_options.payment_schedules", "label": "Payment schedules"},
+          {"handle": "cf.pre_orders.payment_options.discounts", "label": "Discounts"},
+          {"handle": "cf.pre_orders.payment_options.mixed_cart", "label": "Mixed cart"},
+          {"handle": "cf.stock_alerts.notifications.low_stock", "label": "Low stock"},
+          {"handle": "cf.stock_alerts.notifications.back_in_stock", "label": "Back in stock"},
+          {"handle": "cf.stock_alerts.notifications.pre_order", "label": "Pre-orders"},
+          {"handle": "cf.stock_alerts.notifications.multi_language", "label": "Multi-language"},
+          {"handle": "cf.stock_alerts.notifications.email", "label": "Email"}
+        ],
+        "languages": [
+          "Czech",
+          " Danish",
+          " German",
+          " English",
+          " Spanish",
+          " Finnish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Romanian",
+          " and Vietnamese"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Flow",
+          "Shopify Admin",
+          "EComposer",
+          "GemPages",
+          "Instant",
+          "Klaviyo",
+          "Pagefly",
+          "Shogun"
+        ]
+      },
+      "developer": {
+        "name": "Kairock Partners SRL",
+        "website_url": "https://timesact.com",
+        "partner_url": "https://apps.shopify.com/partners/true4",
+        "public_address": "Iordachi Lozonschi Nr 10, Bl C3 Et 7 Ap 25 Cam 1, Iasi, IS, 700066, RO"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/timesact-discount-pre-order",
+        "canonical_app_store_url": "https://apps.shopify.com/timesact-discount-pre-order",
+        "install_url": "https://apps.shopify.com/timesact-discount-pre-order",
+        "demo_store_url": "https://timesact.com/collections/experiences",
+        "resources": {
+          "Privacy policy": "https://timesact.com/privacy/",
+          "FAQ": "https://timesact.com/faq/",
+          "Tutorial": "https://www.youtube.com/@timesact/videos",
+          "App Documentation": "https://timesact.com/documentation/",
+          "Kairock Partners SRL": "https://apps.shopify.com/partners/true4",
+          "Website": "https://timesact.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/icon/CLPGr63imJYDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/promotional_image/CMaSwrzWhJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/desktop_screenshot/CKXp96D2sZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/desktop_screenshot/CKjI97aC8ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/desktop_screenshot/CMiti6H2sZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/desktop_screenshot/COPj8bO_tpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/desktop_screenshot/CMf3-4b3sZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/desktop_screenshot/CO6ErJ35sZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/mobile_screenshot/CIzctp35sZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/mobile_screenshot/CKTAwJ35sZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/mobile_screenshot/CPGuyp35sZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/mobile_screenshot/CJj11J35sZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/mobile_screenshot/CMTU3535sZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/mobile_screenshot/CN3c-7O_tpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/pos_screenshot/CLeW9J35sZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1f557804be966078c1ca12ca6a0f9006/pos_screenshot/CLuq_p35sZYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Preorder Now Presale Timesact free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/timesact-discount-pre-order"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "Czech,  Danish,  German,  English,  Spanish,  Finnish,  French,  Italian,  Japanese,  Korean,  Norwegian (Bokmål),  Dutch,  Polish,  Portuguese (Brazil),  Portuguese (Portugal),  Swedish,  Thai,  Turkish,  Chinese (Simplified),  Chinese (Traditional),  Romanian,  and Vietnamese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/timesact-discount-pre-order"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Flow, Shopify Admin, EComposer, GemPages, Instant, Klaviyo, Pagefly, Shogun",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/timesact-discount-pre-order"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/timesact-discount-pre-order"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://timesact.com/faq/",
+            "https://www.youtube.com/@timesact/videos",
+            "https://timesact.com/documentation/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Define the payment, subscription or pre-order rules and eligible products.",
+            "Verify supported payment methods and test the purchase lifecycle.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["pre-orders", "deposits-partial-payments", "back-in-stock-alerts"],
+        "primary_category_id": "pre-orders",
+        "seo": {
+          "title": "Preorder Now Presale Timesact Shopify App | eStorefy",
+          "meta_description": "A Shopify app for pre-orders. Listed functions include coming soon, crowdfunding.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/timesact-discount-pre-order",
+          "retrieved_at": "2026-10-04T05:18:29.526102+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Timesact Shopify app makes it easy to automate preorders, restock alerts, &…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/timesact-discount-pre-order"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "rez-back-in-stock-notify-me",
+      "name": "REZ Preorder, Back In Stock",
+      "slug": "rez-back-in-stock-notify-me",
+      "category_fit": {
+        "app_id": "rez-back-in-stock-notify-me",
+        "selection_score": 6.011,
+        "rating_evidence": {"value": 5.0, "reviews": 1577},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["partial", "deposit"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/rez-back-in-stock-notify-me"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for pre-orders. Listed functions include coming soon, back orders.",
+        "description_long": "REZ Preorder, Back In Stock is developed by REZ Commerce and listed for pre-orders, stock alerts. Its structured listing identifies functions such as coming soon, back orders, out of stock, made-to-order. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Pre-orders", "Deposits & Partial Payments", "Back-in-stock Alerts"],
+        "best_for": {
+          "use_cases": ["Pre-orders", "Deposits & Partial Payments", "Back-in-stock Alerts"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 1577,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/rez-back-in-stock-notify-me",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 1},
+          {"stars": 4, "percentage": 2, "count": 37},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 0, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.25 per preorder above limit • $1 per 100 emails above limit"]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 14.99,
+            "billing_period": "month",
+            "price_display": "$14.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.15 per preorder above limit • $1 per 100 emails above limit"]
+          },
+          {
+            "name": "Scale",
+            "amount_usd": 28.99,
+            "billing_period": "month",
+            "price_display": "$28.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.10 per preorder above limit • $1 per 100 emails above limit"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://rez-notify-me.gitbook.io/rez-notify-me/faqs/rez-pricing-guideline",
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 26, 2025",
+        "shopify_categories": [
+          {
+            "name": "Pre-orders",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-pre-orders"
+          },
+          {
+            "name": "Stock alerts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-stock-alerts"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pre_orders.order_type.coming_soon", "label": "Coming soon"},
+          {"handle": "cf.pre_orders.order_type.back_orders", "label": "Back orders"},
+          {"handle": "cf.pre_orders.order_type.out_of_stock", "label": "Out of stock"},
+          {"handle": "cf.pre_orders.order_type.made_to_order", "label": "Made-to-order"},
+          {"handle": "cf.pre_orders.order_type.product_drops", "label": "Product drops"},
+          {"handle": "cf.pre_orders.order_type.pre_sales", "label": "Pre-sales"},
+          {"handle": "cf.pre_orders.customization.button", "label": "Buttons"},
+          {"handle": "cf.pre_orders.customization.badges", "label": "Badges"},
+          {"handle": "cf.pre_orders.customization.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.pre_orders.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.pre_orders.customization.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.pre_orders.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.pre_orders.customization.order_limit", "label": "Order limits"},
+          {"handle": "cf.pre_orders.customization.availability_date", "label": "Availability date"},
+          {"handle": "cf.pre_orders.customization.variants", "label": "Variants"},
+          {"handle": "cf.pre_orders.payment_options.deposits", "label": "Deposits"},
+          {"handle": "cf.pre_orders.payment_options.partial_payments", "label": "Partial payments"},
+          {"handle": "cf.pre_orders.payment_options.split_payments", "label": "Split payments"},
+          {"handle": "cf.pre_orders.payment_options.deferred_payments", "label": "Deferred payments"},
+          {"handle": "cf.pre_orders.payment_options.payment_schedules", "label": "Payment schedules"},
+          {"handle": "cf.pre_orders.payment_options.payment_reminders", "label": "Payment reminders"},
+          {"handle": "cf.pre_orders.payment_options.discounts", "label": "Discounts"},
+          {"handle": "cf.pre_orders.payment_options.mixed_cart", "label": "Mixed cart"},
+          {"handle": "cf.pre_orders.payment_options.manual_payment", "label": "Manual payment"},
+          {"handle": "cf.pre_orders.payment_options.split_shipping", "label": "Split shipping"},
+          {"handle": "cf.stock_alerts.notifications.auto_alerts", "label": "Auto-alerts"},
+          {"handle": "cf.stock_alerts.notifications.manual_alerts", "label": "Manual alerts"},
+          {"handle": "cf.stock_alerts.notifications.batch_send", "label": "Batch send"},
+          {"handle": "cf.stock_alerts.notifications.back_in_stock", "label": "Back in stock"},
+          {"handle": "cf.stock_alerts.notifications.pre_order", "label": "Pre-orders"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Traditional)",
+          " Chinese (Simplified)",
+          " Vietnamese",
+          " Romanian",
+          " Portuguese (Portugal)",
+          " Portuguese (Brazil)",
+          " Russian",
+          " Dutch",
+          " Japanese",
+          " French",
+          " Spanish",
+          " Czech",
+          " Danish",
+          " Finnish",
+          " German",
+          " Hungarian",
+          " Indonesian",
+          " Italian",
+          " Korean",
+          " Norwegian",
+          " Polish",
+          " Swedish",
+          " and Turkish"
+        ],
+        "works_with": ["Checkout", "Shopify Admin"]
+      },
+      "developer": {
+        "name": "REZ Commerce",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/rez-commerce-dev",
+        "public_address": "Dong Da, Hanoi, 11500, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/rez-back-in-stock-notify-me",
+        "canonical_app_store_url": "https://apps.shopify.com/rez-back-in-stock-notify-me",
+        "install_url": "https://apps.shopify.com/rez-back-in-stock-notify-me",
+        "demo_store_url": "https://demo-store-rez-notify-me.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://rez-notify-me.gitbook.io/rez-notify-me/basics/privacy-policy",
+          "FAQ": "https://rez-notify-me.gitbook.io/rez-notify-me",
+          "Tutorial": "https://rez-notify-me.gitbook.io/rez-notify-me",
+          "App Documentation": "https://rez-notify-me.gitbook.io/rez-notify-me",
+          "REZ Commerce": "https://apps.shopify.com/partners/rez-commerce-dev"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/040637739bdc638f2f0807b7fe9b7d70/icon/CPDmtIiL7ZYDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/040637739bdc638f2f0807b7fe9b7d70/promotional_image/CIT49cLxwJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/040637739bdc638f2f0807b7fe9b7d70/desktop_screenshot/CMnYsKGxopIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/040637739bdc638f2f0807b7fe9b7d70/desktop_screenshot/CMzXuaGxopIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/040637739bdc638f2f0807b7fe9b7d70/desktop_screenshot/CJiNw6GxopIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/040637739bdc638f2f0807b7fe9b7d70/desktop_screenshot/CJCxzKGxopIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/040637739bdc638f2f0807b7fe9b7d70/desktop_screenshot/CLvN1aGxopIDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is REZ Preorder, Back In Stock free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/rez-back-in-stock-notify-me"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Traditional),  Chinese (Simplified),  Vietnamese,  Romanian,  Portuguese (Portugal),  Portuguese (Brazil),  Russian,  Dutch,  Japanese,  French,  Spanish,  Czech,  Danish,  Finnish,  German,  Hungarian,  Indonesian,  Italian,  Korean,  Norwegian,  Polish,  Swedish,  and Turkish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/rez-back-in-stock-notify-me"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/rez-back-in-stock-notify-me"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/rez-back-in-stock-notify-me"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://rez-notify-me.gitbook.io/rez-notify-me",
+            "https://rez-notify-me.gitbook.io/rez-notify-me",
+            "https://rez-notify-me.gitbook.io/rez-notify-me"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Define the payment, subscription or pre-order rules and eligible products.",
+            "Verify supported payment methods and test the purchase lifecycle.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["pre-orders", "deposits-partial-payments", "back-in-stock-alerts"],
+        "primary_category_id": "pre-orders",
+        "seo": {
+          "title": "REZ Preorder, Back In Stock Shopify App | eStorefy",
+          "meta_description": "A Shopify app for pre-orders. Listed functions include coming soon, back orders.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/rez-back-in-stock-notify-me",
+          "retrieved_at": "2026-10-04T05:18:29.387025+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Use REZ’s Preorders and Notify Me tools to create waitlists for out…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/rez-back-in-stock-notify-me"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "essential-pre-order",
+      "name": "Essent Preorder Back in Stock",
+      "slug": "essential-pre-order",
+      "category_fit": {
+        "app_id": "essential-pre-order",
+        "selection_score": 6.0004,
+        "rating_evidence": {"value": 5.0, "reviews": 1291},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["deposit", "partial", "split payment"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/essential-pre-order"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for pre-orders. Listed functions include coming soon, back orders.",
+        "description_long": "Essent Preorder Back in Stock is developed by Essential Apps and listed for pre-orders, stock alerts. Its structured listing identifies functions such as coming soon, back orders, out of stock, made-to-order. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Pre-orders", "Deposits & Partial Payments", "Back-in-stock Alerts"],
+        "best_for": {
+          "use_cases": ["Pre-orders", "Deposits & Partial Payments", "Back-in-stock Alerts"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 1291,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/essential-pre-order",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 1},
+          {"stars": 4, "percentage": 2, "count": 26},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 4},
+          {"stars": 1, "percentage": 0, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Lite",
+            "amount_usd": 4.95,
+            "billing_period": "month",
+            "price_display": "$4.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.25 per preorder above limit; $1.00 per 100 notifications above limit"]
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 8.95,
+            "billing_period": "month",
+            "price_display": "$8.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.20 per preorder above limit; $1.00 per 100 notifications above limit"]
+          },
+          {
+            "name": "Essentials",
+            "amount_usd": 24.95,
+            "billing_period": "month",
+            "price_display": "$24.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.10 per preorder above limit; $1.00 per 100 notifications above limit"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 4.95,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "November 22, 2024",
+        "shopify_categories": [
+          {
+            "name": "Pre-orders",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-pre-orders"
+          },
+          {
+            "name": "Stock alerts",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-stock-alerts"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pre_orders.order_type.coming_soon", "label": "Coming soon"},
+          {"handle": "cf.pre_orders.order_type.back_orders", "label": "Back orders"},
+          {"handle": "cf.pre_orders.order_type.out_of_stock", "label": "Out of stock"},
+          {"handle": "cf.pre_orders.order_type.made_to_order", "label": "Made-to-order"},
+          {"handle": "cf.pre_orders.order_type.product_drops", "label": "Product drops"},
+          {"handle": "cf.pre_orders.order_type.pre_sales", "label": "Pre-sales"},
+          {"handle": "cf.pre_orders.customization.button", "label": "Buttons"},
+          {"handle": "cf.pre_orders.customization.banner", "label": "Banners"},
+          {"handle": "cf.pre_orders.customization.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.pre_orders.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.pre_orders.customization.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.pre_orders.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.pre_orders.customization.order_limit", "label": "Order limits"},
+          {"handle": "cf.pre_orders.customization.availability_date", "label": "Availability date"},
+          {"handle": "cf.pre_orders.customization.variants", "label": "Variants"},
+          {"handle": "cf.pre_orders.payment_options.deposits", "label": "Deposits"},
+          {"handle": "cf.pre_orders.payment_options.partial_payments", "label": "Partial payments"},
+          {"handle": "cf.pre_orders.payment_options.split_payments", "label": "Split payments"},
+          {"handle": "cf.pre_orders.payment_options.deferred_payments", "label": "Deferred payments"},
+          {"handle": "cf.pre_orders.payment_options.payment_schedules", "label": "Payment schedules"},
+          {"handle": "cf.pre_orders.payment_options.discounts", "label": "Discounts"},
+          {"handle": "cf.pre_orders.payment_options.mixed_cart", "label": "Mixed cart"},
+          {"handle": "cf.stock_alerts.notifications.auto_alerts", "label": "Auto-alerts"},
+          {"handle": "cf.stock_alerts.notifications.manual_alerts", "label": "Manual alerts"},
+          {"handle": "cf.stock_alerts.notifications.batch_send", "label": "Batch send"},
+          {"handle": "cf.stock_alerts.notifications.back_in_stock", "label": "Back in stock"},
+          {"handle": "cf.stock_alerts.notifications.pre_order", "label": "Pre-orders"},
+          {"handle": "cf.stock_alerts.notifications.multi_language", "label": "Multi-language"},
+          {"handle": "cf.stock_alerts.notifications.email", "label": "Email"},
+          {"handle": "cf.stock_alerts.notifications.out_of_stock", "label": "Out of stock"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " Danish",
+          " Dutch",
+          " Japanese",
+          " Korean",
+          " Italian",
+          " Spanish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Norwegian",
+          " Swedish",
+          " Turkish",
+          " Finnish",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " French",
+          " Polish",
+          " Russian",
+          " Czech",
+          " Hungarian",
+          " Indonesian",
+          " Romanian",
+          " and Vietnamese"
+        ],
+        "works_with": ["Checkout", "Shopify Flow", "Shopify Admin", "Flow", "gem pages", "Omnisend", "PageFly", "Sidekick"]
+      },
+      "developer": {
+        "name": "Essential Apps",
+        "website_url": "http://essential-apps.com/",
+        "partner_url": "https://apps.shopify.com/partners/essentials25",
+        "public_address": "Baltupio g. 45 - 27, Vilnius, 08324, LT"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/essential-pre-order",
+        "canonical_app_store_url": "https://apps.shopify.com/essential-pre-order",
+        "install_url": "https://apps.shopify.com/essential-pre-order",
+        "demo_store_url": "https://preordertestessentials.myshopify.com/products/baby-blue-t-shirt",
+        "resources": {
+          "Privacy policy": "https://essential-apps.com/essential-preorder-presale-privacy-policy/",
+          "FAQ": "https://essentials-docs.helpscoutdocs.com/category/334-faqs",
+          "App Documentation": "https://essentials-docs.helpscoutdocs.com/article/66-how-preorder-campaigns-work-in-essential-preorder",
+          "Essential Apps": "https://apps.shopify.com/partners/essentials25",
+          "Website": "http://essential-apps.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/4bf19f58b7906eb76b0459be6312ef09/icon/CJL24PCb_ogDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/4bf19f58b7906eb76b0459be6312ef09/promotional_image/CKTZ19Ga5pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4bf19f58b7906eb76b0459be6312ef09/desktop_screenshot/CJXVq83KsJEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4bf19f58b7906eb76b0459be6312ef09/desktop_screenshot/COC_tM3KsJEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4bf19f58b7906eb76b0459be6312ef09/desktop_screenshot/CJm1vc3KsJEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4bf19f58b7906eb76b0459be6312ef09/desktop_screenshot/CNG6xs3KsJEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4bf19f58b7906eb76b0459be6312ef09/desktop_screenshot/CPKbrJ66v5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4bf19f58b7906eb76b0459be6312ef09/desktop_screenshot/CMv57POZz5ADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Essent Preorder Back in Stock free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/essential-pre-order"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  Danish,  Dutch,  Japanese,  Korean,  Italian,  Spanish,  Portuguese (Brazil),  Portuguese (Portugal),  Norwegian,  Swedish,  Turkish,  Finnish,  Chinese (Simplified),  Chinese (Traditional),  French,  Polish,  Russian,  Czech,  Hungarian,  Indonesian,  Romanian,  and Vietnamese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/essential-pre-order"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Flow, Shopify Admin, Flow, gem pages, Omnisend, PageFly, Sidekick",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/essential-pre-order"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/essential-pre-order"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://essentials-docs.helpscoutdocs.com/category/334-faqs",
+            "https://essentials-docs.helpscoutdocs.com/article/66-how-preorder-campaigns-work-in-essential-preorder"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Define the payment, subscription or pre-order rules and eligible products.",
+            "Verify supported payment methods and test the purchase lifecycle.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["pre-orders", "deposits-partial-payments", "back-in-stock-alerts"],
+        "primary_category_id": "pre-orders",
+        "seo": {
+          "title": "Essent Preorder Back in Stock Shopify App | eStorefy",
+          "meta_description": "A Shopify app for pre-orders. Listed functions include coming soon, back orders.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/essential-pre-order",
+          "retrieved_at": "2026-10-04T05:18:29.400889+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Accept preorders with partial payments or deposits. Send back in stock email…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/essential-pre-order"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "downpay",
+      "name": "Downpay: Partial Pay & Deposit",
+      "slug": "downpay",
+      "category_fit": {
+        "app_id": "downpay",
+        "selection_score": 5.928,
+        "rating_evidence": {"value": 5.0, "reviews": 96},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["partial", "deposit", "split payment"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/downpay"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for pre-orders. Listed functions include coming soon, crowdfunding.",
+        "description_long": "Downpay: Partial Pay & Deposit is developed by Downpay and listed for pre-orders, payment experience. Its structured listing identifies functions such as coming soon, crowdfunding, back orders, out of stock. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Pre-orders", "Deposits & Partial Payments"],
+        "best_for": {
+          "use_cases": ["Pre-orders", "Deposits & Partial Payments"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 96,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/downpay",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 95},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $29/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Essentials",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Up to $5,000 in total order value processed with Downpay"]
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Up to $10,000 in total order value processed with Downpay"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Up to $25,000 in total order value processed with Downpay"]
+          },
+          {
+            "name": "Scale",
+            "amount_usd": 249.0,
+            "billing_period": "month",
+            "price_display": "$249 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Up to $100,000 in total order value processed with Downpay"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://getdownpay.com/pricing",
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 20, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Pre-orders",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-pre-orders"
+          },
+          {
+            "name": "Payment experience",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-payment-experience"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pre_orders.order_type.coming_soon", "label": "Coming soon"},
+          {"handle": "cf.pre_orders.order_type.crowdfunding", "label": "Crowdfunding"},
+          {"handle": "cf.pre_orders.order_type.back_orders", "label": "Back orders"},
+          {"handle": "cf.pre_orders.order_type.out_of_stock", "label": "Out of stock"},
+          {"handle": "cf.pre_orders.order_type.made_to_order", "label": "Made-to-order"},
+          {"handle": "cf.pre_orders.order_type.product_drops", "label": "Product drops"},
+          {"handle": "cf.pre_orders.order_type.pre_sales", "label": "Pre-sales"},
+          {"handle": "cf.pre_orders.customization.button", "label": "Buttons"},
+          {"handle": "cf.pre_orders.customization.custom_branding", "label": "Custom branding"},
+          {"handle": "cf.pre_orders.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.pre_orders.customization.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.pre_orders.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.pre_orders.customization.availability_date", "label": "Availability date"},
+          {"handle": "cf.pre_orders.customization.variants", "label": "Variants"},
+          {"handle": "cf.pre_orders.payment_options.deposits", "label": "Deposits"},
+          {"handle": "cf.pre_orders.payment_options.partial_payments", "label": "Partial payments"},
+          {"handle": "cf.pre_orders.payment_options.split_payments", "label": "Split payments"},
+          {"handle": "cf.pre_orders.payment_options.deferred_payments", "label": "Deferred payments"},
+          {"handle": "cf.pre_orders.payment_options.payment_schedules", "label": "Payment schedules"},
+          {"handle": "cf.pre_orders.payment_options.payment_reminders", "label": "Payment reminders"},
+          {"handle": "cf.pre_orders.payment_options.mixed_cart", "label": "Mixed cart"},
+          {"handle": "cf.pre_orders.payment_options.split_shipping", "label": "Split shipping"},
+          {"handle": "cf.payments.display_options.payment_messages", "label": "Payment messages"},
+          {"handle": "cf.payments.display_options.widget_design", "label": "Widget design"},
+          {"handle": "cf.payments.display_options.widget_placement", "label": "Widget placement"},
+          {"handle": "cf.payments.display_options.widget_text", "label": "Widget text"},
+          {"handle": "cf.payments.display_options.widget_color", "label": "Widget color"},
+          {"handle": "cf.payments.display_options.recurring_invoices", "label": "Recurring invoices"},
+          {"handle": "cf.payments.display_options.personalized_messages", "label": "Personalized messages"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "2048 Variants",
+          "Angle3D Configurator",
+          "Flow",
+          "Headless",
+          "Partial Payment",
+          "Preorder"
+        ]
+      },
+      "developer": {
+        "name": "Downpay",
+        "website_url": "https://getdownpay.com/",
+        "partner_url": "https://apps.shopify.com/partners/flexli",
+        "public_address": "124D-250 Fountain Place, Ottawa, ON, K1N 9N7, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/downpay",
+        "canonical_app_store_url": "https://apps.shopify.com/downpay",
+        "install_url": "https://apps.shopify.com/downpay",
+        "demo_store_url": "https://www.hypehound.shop/",
+        "resources": {
+          "Privacy policy": "https://hypehound-public.s3.us-east-1.amazonaws.com/PRIVACY-POLICY.pdf",
+          "FAQ": "https://getdownpay.com/features",
+          "Tutorial": "https://docs.downpay.app/",
+          "App Documentation": "https://docs.downpay.app/en/article/1dtrqcp/",
+          "Downpay": "https://apps.shopify.com/partners/flexli",
+          "Website": "https://getdownpay.com/",
+          "Changelog": "https://docs.downpay.app/en/article/changelog-1ccywkn/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/383cca69a32468f8e766a7fda71edbcf/icon/CPTnvtK6zI8DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/383cca69a32468f8e766a7fda71edbcf/desktop_screenshot/CNmOycWng4YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/383cca69a32468f8e766a7fda71edbcf/desktop_screenshot/CK6K1MWng4YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/383cca69a32468f8e766a7fda71edbcf/desktop_screenshot/CJbH3sWng4YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/383cca69a32468f8e766a7fda71edbcf/desktop_screenshot/CKbg6cWng4YDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/jTeqEpg0ZVI"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Downpay: Partial Pay & Deposit free?",
+            "answer": "The pricing label retrieved from the listing is: From $29/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/downpay"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/downpay"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, 2048 Variants, Angle3D Configurator, Flow, Headless, Partial Payment, Preorder",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/downpay"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/downpay"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://getdownpay.com/features",
+            "https://docs.downpay.app/",
+            "https://docs.downpay.app/en/article/1dtrqcp/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Define the payment, subscription or pre-order rules and eligible products.",
+            "Verify supported payment methods and test the purchase lifecycle.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["pre-orders", "deposits-partial-payments"],
+        "primary_category_id": "pre-orders",
+        "seo": {
+          "title": "Downpay: Partial Pay & Deposit Shopify App | eStorefy",
+          "meta_description": "A Shopify app for pre-orders. Listed functions include coming soon, crowdfunding.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/downpay",
+          "retrieved_at": "2026-10-04T05:18:56.113756+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Downpay lets Shopify merchants offer deposits and pay later options for custom,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/downpay"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "cash-on-delivery-cod-order-confirmation",
+      "name": "COD King‑Part COD & OTP Verify",
+      "slug": "cash-on-delivery-cod-order-confirmation",
+      "category_fit": {
+        "app_id": "cash-on-delivery-cod-order-confirmation",
+        "selection_score": 5.8863,
+        "rating_evidence": {"value": 4.9, "reviews": 964},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["split payment", "partial"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/cash-on-delivery-cod-order-confirmation"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for cash on delivery. Listed functions include custom fees, prepaid incentives.",
+        "description_long": "COD King‑Part COD & OTP Verify is developed by Notifik Technologies LLP - COD King and listed for pay later, notifications - other. Its structured listing identifies functions such as custom fees, prepaid incentives, hide payment type, fraud prevention. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Cash on Delivery", "Deposits & Partial Payments"],
+        "best_for": {
+          "use_cases": ["Cash on Delivery", "Deposits & Partial Payments"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 964,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/cash-on-delivery-cod-order-confirmation",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 949},
+          {"stars": 4, "percentage": 0, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 3},
+          {"stars": 1, "percentage": 1, "count": 9}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free to install",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": ["Per SMS - India ₹1 | Italy and Spain $0.19 | UAE $0.10 | USA $0.03"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Per SMS - India 0.85₹ | Italy and Spain $0.165 | UAE $0.085"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Per SMS - India 0.7₹ | Italy and Spain $0.123 | UAE $0.065"]
+          },
+          {
+            "name": "Enterprise Plus",
+            "amount_usd": 59.0,
+            "billing_period": "month",
+            "price_display": "$59 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["Per SMS - India ₹0.4 | Italy and Spain $0.1 | UAE $0.04 | USA $0.02"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://notifiktech.com/message-pricing",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 20, 2021 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Pay later",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-pay-later"
+          },
+          {
+            "name": "Notifications - Other",
+            "url": "https://apps.shopify.com/categories/store-design-notifications-notifications-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.cash_on_delivery_cod.cod_management.custom_fees", "label": "Custom fees"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.prepaid_incentives",
+            "label": "Prepaid incentives"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.hide_payment_type", "label": "Hide payment type"},
+          {"handle": "cf.cash_on_delivery_cod.cod_management.fraud_prevention", "label": "Fraud prevention"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.one_time_password_otp",
+            "label": "One-time password (OTP)"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.phone_confirmation",
+            "label": "Phone confirmation"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.sms_confirmation", "label": "SMS confirmation"},
+          {"handle": "cf.cash_on_delivery_cod.cod_management.order_export", "label": "Order export"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_fields", "label": "Custom fields"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.fonts_and_colors", "label": "Font and color"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_buttons", "label": "Custom buttons"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.embedded_forms", "label": "Embedded forms"},
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.shipping_options",
+            "label": "Shipping options"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.address_verification",
+            "label": "Address validation"
+          },
+          {"handle": "cf.cash_on_delivery_cod.form_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.cash_on_delivery_cod.conversion_and_upsell.discounts", "label": "Discounts"},
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.post_purchase_upsells",
+            "label": "Post-purchase upsells"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.pixel_tracking",
+            "label": "Pixel tracking"
+          },
+          {"handle": "cf.cash_on_delivery_cod.conversion_and_upsell.cart_recovery", "label": "Cart recovery"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "Easy sell",
+          "Proweb sms",
+          "SMS",
+          "Twilio",
+          "Veevo tech",
+          "Whatsapp"
+        ]
+      },
+      "developer": {
+        "name": "Notifik Technologies LLP - COD King",
+        "website_url": "https://codking.tech/",
+        "partner_url": "https://apps.shopify.com/partners/amandeep5",
+        "public_address": "T2-804, Oceanus Vista, Bangalore, KA, 560035, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/cash-on-delivery-cod-order-confirmation",
+        "canonical_app_store_url": "https://apps.shopify.com/cash-on-delivery-cod-order-confirmation",
+        "install_url": "https://apps.shopify.com/cash-on-delivery-cod-order-confirmation",
+        "demo_store_url": "https://codking.store/products/the-collection-snowboard-hydrogen",
+        "resources": {
+          "Privacy policy": "https://codking.tech/privacy-policy/",
+          "FAQ": "https://codking.tech/faq/",
+          "Tutorial": "https://cutt.ly/Dtav4UAK",
+          "App Documentation": "https://codking.tech/documentation/",
+          "Notifik Technologies LLP - COD King": "https://apps.shopify.com/partners/amandeep5",
+          "Website": "https://codking.tech/",
+          "Changelog": "https://romantic-science-5df.notion.site/Change-Log-for-COD-order-confirmation-cfd66a3966de4333a69c32fc12e0f24f"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/3d1bb563b5ee5efd3a31b2de7077a71c/icon/CO2wkdOko48DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/3d1bb563b5ee5efd3a31b2de7077a71c/desktop_screenshot/COma1fmP1JUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3d1bb563b5ee5efd3a31b2de7077a71c/desktop_screenshot/CLaJ4PmP1JUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3d1bb563b5ee5efd3a31b2de7077a71c/desktop_screenshot/COjv6fmP1JUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3d1bb563b5ee5efd3a31b2de7077a71c/desktop_screenshot/CPmn9PmP1JUDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/xbZqrTWnhz4"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is COD King‑Part COD & OTP Verify free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/cash-on-delivery-cod-order-confirmation"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/cash-on-delivery-cod-order-confirmation"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, Easy sell, Proweb sms, SMS, Twilio, Veevo tech, Whatsapp",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/cash-on-delivery-cod-order-confirmation"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/cash-on-delivery-cod-order-confirmation"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://codking.tech/faq/", "https://cutt.ly/Dtav4UAK", "https://codking.tech/documentation/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Define the payment, subscription or pre-order rules and eligible products.",
+            "Verify supported payment methods and test the purchase lifecycle.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["cash-on-delivery", "deposits-partial-payments"],
+        "primary_category_id": "cash-on-delivery",
+        "seo": {
+          "title": "COD King‑Part COD & OTP Verify Shopify App | eStorefy",
+          "meta_description": "A Shopify app for cash on delivery. Listed functions include custom fees, prepaid incentives.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/cash-on-delivery-cod-order-confirmation",
+          "retrieved_at": "2026-10-04T05:18:56.307093+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "App that helps merchants to do COD Order verification and charge extra…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/cash-on-delivery-cod-order-confirmation"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "cash-on-delivery-fee",
+      "name": "Releasit COD Fee",
+      "slug": "cash-on-delivery-fee",
+      "category_fit": {
+        "app_id": "cash-on-delivery-fee",
+        "selection_score": 5.8589,
+        "rating_evidence": {"value": 4.9, "reviews": 604},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["partial", "deposit"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/cash-on-delivery-fee"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for whatsapp marketing. Listed functions include custom fees, prepaid incentives.",
+        "description_long": "Releasit COD Fee is developed by Releasit and listed for pay later, operations - other. Its structured listing identifies functions such as custom fees, prepaid incentives, rename payment types, fraud prevention. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["WhatsApp Marketing", "Cash on Delivery", "Deposits & Partial Payments"],
+        "best_for": {
+          "use_cases": ["WhatsApp Marketing", "Cash on Delivery", "Deposits & Partial Payments"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 604,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/cash-on-delivery-fee",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 581},
+          {"stars": 4, "percentage": 1, "count": 8},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 3},
+          {"stars": 1, "percentage": 2, "count": 10}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Forever Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $89.99/year and save 25%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $269.99/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "July 9, 2021",
+        "shopify_categories": [
+          {
+            "name": "Pay later",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-pay-later"
+          },
+          {
+            "name": "Operations - Other",
+            "url": "https://apps.shopify.com/categories/store-management-operations-operations-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.cash_on_delivery_cod.cod_management.custom_fees", "label": "Custom fees"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.prepaid_incentives",
+            "label": "Prepaid incentives"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.rename_payment_types",
+            "label": "Rename payment types"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.fraud_prevention", "label": "Fraud prevention"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.one_time_password_otp",
+            "label": "One-time password (OTP)"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.sms_confirmation", "label": "SMS confirmation"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.pop_ups", "label": "Pop-ups"},
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.shipping_options",
+            "label": "Shipping options"
+          },
+          {"handle": "cf.cash_on_delivery_cod.form_customization.multi_language", "label": "Multi-language"},
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.one_click_order",
+            "label": "One-click order"
+          }
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " Italian",
+          " Czech",
+          " Danish",
+          " German",
+          " Finnish",
+          " Japanese",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Polish",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " and Portuguese (Brazil)"
+        ],
+        "works_with": ["Checkout", "Shopify Admin"]
+      },
+      "developer": {
+        "name": "Releasit",
+        "website_url": "https://releas.it",
+        "partner_url": "https://apps.shopify.com/partners/releasit",
+        "public_address": "1 Kingdom St, Paddington Central, London, ENG, W26BD, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/cash-on-delivery-fee",
+        "canonical_app_store_url": "https://apps.shopify.com/cash-on-delivery-fee",
+        "install_url": "https://apps.shopify.com/cash-on-delivery-fee",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.releas.it/pages/privacy-policy",
+          "Releasit": "https://apps.shopify.com/partners/releasit",
+          "Website": "https://releas.it"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/8b74d91953ae6d5dbe5e63c3f50ca810/icon/CN6h5bXI8_ECEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/8b74d91953ae6d5dbe5e63c3f50ca810/promotional_image/CMTD_O3Bg5EDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8b74d91953ae6d5dbe5e63c3f50ca810/desktop_screenshot/CKyz0-fbuocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8b74d91953ae6d5dbe5e63c3f50ca810/desktop_screenshot/COPA3efbuocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8b74d91953ae6d5dbe5e63c3f50ca810/desktop_screenshot/CL626OfbuocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8b74d91953ae6d5dbe5e63c3f50ca810/desktop_screenshot/CL6T8-fbuocDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8b74d91953ae6d5dbe5e63c3f50ca810/desktop_screenshot/CPi2he7Bg5EDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Releasit COD Fee free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/cash-on-delivery-fee"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  Italian,  Czech,  Danish,  German,  Finnish,  Japanese,  Korean,  Norwegian (Bokmål),  Dutch,  Polish,  Swedish,  Thai,  Turkish,  Chinese (Simplified),  Chinese (Traditional),  and Portuguese (Brazil)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/cash-on-delivery-fee"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/cash-on-delivery-fee"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/cash-on-delivery-fee"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["whatsapp-marketing", "cash-on-delivery", "deposits-partial-payments"],
+        "primary_category_id": "whatsapp-marketing",
+        "seo": {
+          "title": "Releasit COD Fee Shopify App | eStorefy",
+          "meta_description": "A Shopify app for whatsapp marketing. Listed functions include custom fees, prepaid incentives.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/cash-on-delivery-fee",
+          "retrieved_at": "2026-10-04T05:18:56.169152+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Add a custom fee to COD orders and hide or show Cash…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/cash-on-delivery-fee"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "payrules-conditional-payment-methods",
+      "name": "PayRules: Hide Payment Methods",
+      "slug": "payrules-conditional-payment-methods",
+      "category_fit": {
+        "app_id": "payrules-conditional-payment-methods",
+        "selection_score": 5.8479,
+        "rating_evidence": {"value": 4.9, "reviews": 98},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["deposit"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/payrules-conditional-payment-methods"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for deposits & partial payments. Listed functions include payment messages, personalized messages.",
+        "description_long": "PayRules: Hide Payment Methods is developed by KlinKode and listed for payment experience, checkout - other. Its structured listing identifies functions such as payment messages, personalized messages. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Deposits & Partial Payments", "Payment Method Customization"],
+        "best_for": {
+          "use_cases": ["Deposits & Partial Payments", "Payment Method Customization"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 98,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/payrules-conditional-payment-methods",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 94},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 3, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Development",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $41.91/year and save 30%"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $83.91/year and save 30%"]
+          },
+          {
+            "name": "Elite",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $167.91/year and save 30%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "March 22, 2024",
+        "shopify_categories": [
+          {
+            "name": "Payment experience",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-payment-experience"
+          },
+          {
+            "name": "Checkout - Other",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-checkout-checkout-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.payments.display_options.payment_messages", "label": "Payment messages"},
+          {"handle": "cf.payments.display_options.personalized_messages", "label": "Personalized messages"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Admin"]
+      },
+      "developer": {
+        "name": "KlinKode",
+        "website_url": "https://klinkode.com/",
+        "partner_url": "https://apps.shopify.com/partners/klinkode-apps",
+        "public_address": "House 8, Road 34, Block M, Eastern Housing, Pallabi, Mirpur 12, Dhaka, 1216, BD"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/payrules-conditional-payment-methods",
+        "canonical_app_store_url": "https://apps.shopify.com/payrules-conditional-payment-methods",
+        "install_url": "https://apps.shopify.com/payrules-conditional-payment-methods",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://klinkode.com/payrules-privacy-policy/",
+          "Tutorial": "https://klinkode.com/app/payrules/",
+          "KlinKode": "https://apps.shopify.com/partners/klinkode-apps",
+          "Website": "https://klinkode.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/d286a9fc051ab4ed978e18163c581482/icon/CPuvpbHg_YQDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/d286a9fc051ab4ed978e18163c581482/desktop_screenshot/CI2T2dy8uokDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d286a9fc051ab4ed978e18163c581482/desktop_screenshot/COiP59y8uokDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d286a9fc051ab4ed978e18163c581482/desktop_screenshot/CK_F8ty8uokDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/E9hJxyPcQqQ"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is PayRules: Hide Payment Methods free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/payrules-conditional-payment-methods"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/payrules-conditional-payment-methods"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/payrules-conditional-payment-methods"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/payrules-conditional-payment-methods"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://klinkode.com/app/payrules/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Define the payment, subscription or pre-order rules and eligible products.",
+            "Verify supported payment methods and test the purchase lifecycle.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["deposits-partial-payments", "payment-method-customization"],
+        "primary_category_id": "deposits-partial-payments",
+        "seo": {
+          "title": "PayRules: Hide Payment Methods Shopify App | eStorefy",
+          "meta_description": "A Shopify app for deposits & partial payments. Listed functions include payment messages, personalized messages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/payrules-conditional-payment-methods",
+          "retrieved_at": "2026-10-04T05:19:20.834727+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Hide Cash on Delivery, PayPal, Stripe, Bank Deposit or any payment methods…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/payrules-conditional-payment-methods"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

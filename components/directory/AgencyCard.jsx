@@ -1,7 +1,14 @@
+import PartnerLink from "@/components/shared/PartnerLink";
 import Link from "next/link";
 import AgencyImage from "@/components/shared/AgencyImage";
 import SaveButton from "@/components/shared/SaveButton";
-import { initials, priceLabel, primaryRating, locationLabel } from "@/lib/format";
+import {
+  initials,
+  priceLabel,
+  primaryRating,
+  locationLabel,
+  providerTypeLabel,
+} from "@/lib/format";
 import CompareButton from "./CompareButton";
 export default function AgencyCard({ agency, index = 0, compact = false }) {
   const rating = primaryRating(agency);
@@ -13,7 +20,7 @@ export default function AgencyCard({ agency, index = 0, compact = false }) {
           <AgencyImage agency={agency} />
         </div>
         <span className="agency-type">
-          Agency
+          {providerTypeLabel(agency.entityType)}
           <br />
           <small>SHOPIFY SPECIALIST</small>
         </span>
@@ -44,12 +51,10 @@ export default function AgencyCard({ agency, index = 0, compact = false }) {
         <div className="card-footer">
           <span>
             {rating
-              ? `${rating.value}/5 · ${rating.reviewCount} ${rating.platform === "Clutch" ? "Clutch" : "Shopify"} reviews`
+              ? `${rating.value}/5 · ${rating.reviewCount} ${rating.platform.includes("Shopify") ? "Shopify" : rating.platform} reviews`
               : "Rating not available"}
           </span>
-          <Link className="profile-link" href={agency.profilePath}>
-            View profile ↗
-          </Link>
+          <PartnerLink className="profile-link">Contact agency ↗</PartnerLink>
         </div>
         <CompareButton agency={agency} />
       </div>

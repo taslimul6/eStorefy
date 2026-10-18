@@ -1,0 +1,2063 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "dropshipping",
+    "number": 61,
+    "name": "Dropshipping",
+    "group": "Sourcing & Wholesale",
+    "slug": "dropshipping",
+    "url_path": "/apps/dropshipping",
+    "focus": "Source products and manage business-to-business selling.",
+    "description": "Compare Shopify apps for dropshipping. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/finding-products-sourcing-options-dropshipping/all"],
+    "seo": {
+      "title": "Shopify Dropshipping Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for dropshipping: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 8,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a dropshipping app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "dsers",
+      "name": "DSers: Dropship+AliExpress+AI",
+      "slug": "dsers",
+      "category_fit": {
+        "app_id": "dsers",
+        "selection_score": 6.2279,
+        "rating_evidence": {"value": 5.0, "reviews": 6321},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["dropship"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/dsers"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for product recommendations. Listed functions include clothing and accessories, bags and luggage.",
+        "description_long": "DSers: Dropship+AliExpress+AI is developed by DSers and listed for dropshipping. Its structured listing identifies functions such as clothing and accessories, bags and luggage, home and garden, health and beauty. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Recommendations", "Dropshipping", "Store Migration & Data Import"],
+        "best_for": {
+          "use_cases": ["Product Recommendations", "Dropshipping", "Store Migration & Data Import"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 6321,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/dsers",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 6},
+          {"stars": 4, "percentage": 1, "count": 48},
+          {"stars": 3, "percentage": 0, "count": 10},
+          {"stars": 2, "percentage": 0, "count": 7},
+          {"stars": 1, "percentage": 1, "count": 58}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 19.9,
+            "billing_period": "month",
+            "price_display": "$19.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $190.80/year and save 20%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 49.9,
+            "billing_period": "month",
+            "price_display": "$49.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $478.80/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.dsers.com/pricing",
+        "starting_paid_monthly_price_usd": 19.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "October 26, 2018 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Dropshipping",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-dropshipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.clothing_and_accessories",
+            "label": "Clothing and accessories"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.bags_and_luggages", "label": "Bags and luggage"},
+          {"handle": "cf.dropshipping.products_you_can_sell.home_and_garden", "label": "Home and garden"},
+          {"handle": "cf.dropshipping.products_you_can_sell.health_and_beauty", "label": "Health and beauty"},
+          {"handle": "cf.dropshipping.products_you_can_sell.food_and_drinks", "label": "Food and drinks"},
+          {"handle": "cf.dropshipping.products_you_can_sell.electronics", "label": "Electronics"},
+          {"handle": "cf.dropshipping.products_you_can_sell.arts_and_crafts", "label": "Arts and crafts"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.entertainment_and_media",
+            "label": "Entertainment and media"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.toys_and_games", "label": "Toys and games"},
+          {"handle": "cf.dropshipping.products_you_can_sell.baby_products", "label": "Baby products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.sports_products", "label": "Sports products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.pet_products", "label": "Pet products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.furniture", "label": "Furniture"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.business_and_office",
+            "label": "Business and office"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.hardware", "label": "Hardware"},
+          {"handle": "cf.dropshipping.products_you_can_sell.automotive", "label": "Automotive"},
+          {"handle": "cf.dropshipping.products_you_can_sell.mature_products", "label": "Mature products"},
+          {"handle": "cf.dropshipping.sourcing_locations.ar", "label": "Argentina"},
+          {"handle": "cf.dropshipping.sourcing_locations.au", "label": "Australia"},
+          {"handle": "cf.dropshipping.sourcing_locations.be", "label": "Belgium"},
+          {"handle": "cf.dropshipping.sourcing_locations.br", "label": "Brazil"},
+          {"handle": "cf.dropshipping.sourcing_locations.ca", "label": "Canada"},
+          {"handle": "cf.dropshipping.sourcing_locations.cl", "label": "Chile"},
+          {"handle": "cf.dropshipping.sourcing_locations.cn", "label": "China"},
+          {"handle": "cf.dropshipping.sourcing_locations.co", "label": "Colombia"},
+          {"handle": "cf.dropshipping.sourcing_locations.fr", "label": "France"},
+          {"handle": "cf.dropshipping.sourcing_locations.de", "label": "Germany"},
+          {"handle": "cf.dropshipping.sourcing_locations.ie", "label": "Ireland"},
+          {"handle": "cf.dropshipping.sourcing_locations.it", "label": "Italy"},
+          {"handle": "cf.dropshipping.sourcing_locations.jp", "label": "Japan"}
+        ],
+        "languages": ["English", " French", " Spanish", " German", " Italian", " and Portuguese (Brazil)"],
+        "works_with": ["1688", "Alibaba", "AliExpress", "Amazon", "eBay", "TikTok Shop"]
+      },
+      "developer": {
+        "name": "DSers",
+        "website_url": "https://www.dsers.com",
+        "partner_url": "https://apps.shopify.com/partners/dsers",
+        "public_address": "Suite 1701-02, 17/F, FWD Financial Centre,308 Des Voeux Road Central, HongKong City, HK, 999077, HK"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/dsers",
+        "canonical_app_store_url": "https://apps.shopify.com/dsers",
+        "install_url": "https://apps.shopify.com/dsers",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.dsers.com/privacy",
+          "FAQ": "https://help.dsers.com/",
+          "Tutorial": "https://www.youtube.com/playlist?list=PLy0cC8peMaqlnhdNNuHQF9oJn_CkL-lt9",
+          "App Documentation": "https://www.youtube.com/playlist?list=PLy0cC8peMaqnmUb3So98XBIhoyP4wPx_Q",
+          "DSers": "https://apps.shopify.com/partners/dsers",
+          "Website": "https://www.dsers.com",
+          "Changelog": "https://www.dsers.com/blog/product-updates/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f542dc5a007dc8f705239e569608c654/icon/CNiy-eaHmvICEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f542dc5a007dc8f705239e569608c654/desktop_screenshot/CMD_u4WZopQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f542dc5a007dc8f705239e569608c654/desktop_screenshot/CJiNxIWZopQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f542dc5a007dc8f705239e569608c654/desktop_screenshot/CICnzIWZopQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f542dc5a007dc8f705239e569608c654/desktop_screenshot/CMCd1IWZopQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/B1V7RVQ1cmE"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is DSers: Dropship+AliExpress+AI free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/dsers"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Spanish,  German,  Italian,  and Portuguese (Brazil)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/dsers"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "1688, Alibaba, AliExpress, Amazon, eBay, TikTok Shop",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/dsers"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/dsers"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.dsers.com/",
+            "https://www.youtube.com/playlist?list=PLy0cC8peMaqlnhdNNuHQF9oJn_CkL-lt9",
+            "https://www.youtube.com/playlist?list=PLy0cC8peMaqnmUb3So98XBIhoyP4wPx_Q"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-recommendations", "dropshipping", "store-migration-data-import"],
+        "primary_category_id": "product-recommendations",
+        "seo": {
+          "title": "DSers: Dropship+AliExpress+AI Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product recommendations. Listed functions include clothing and accessories, bags and luggage.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/dsers",
+          "retrieved_at": "2026-10-04T05:20:25.506983+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "DSers is the official Alibaba group partner with AI automated dropshipping solution…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/dsers"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "cucheng",
+      "name": "CJdropshipping: Much Faster",
+      "slug": "cucheng",
+      "category_fit": {
+        "app_id": "cucheng",
+        "selection_score": 6.0914,
+        "rating_evidence": {"value": 4.9, "reviews": 2853},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["dropship"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/cucheng"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for dropshipping. Listed functions include clothing and accessories, bags and luggage.",
+        "description_long": "CJdropshipping: Much Faster is developed by CJDropshipping and listed for dropshipping, print on demand (pod). Its structured listing identifies functions such as clothing and accessories, bags and luggage, home and garden, health and beauty. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Dropshipping"],
+        "best_for": {
+          "use_cases": ["Dropshipping"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 2853,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/cucheng",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 2},
+          {"stars": 4, "percentage": 1, "count": 36},
+          {"stars": 3, "percentage": 0, "count": 7},
+          {"stars": 2, "percentage": 0, "count": 6},
+          {"stars": 1, "percentage": 2, "count": 65}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://cjdropshipping.com/prime",
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "January 6, 2020",
+        "shopify_categories": [
+          {
+            "name": "Dropshipping",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-dropshipping"
+          },
+          {
+            "name": "Print on demand (POD)",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-print-on-demand-pod"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.clothing_and_accessories",
+            "label": "Clothing and accessories"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.bags_and_luggages", "label": "Bags and luggage"},
+          {"handle": "cf.dropshipping.products_you_can_sell.home_and_garden", "label": "Home and garden"},
+          {"handle": "cf.dropshipping.products_you_can_sell.health_and_beauty", "label": "Health and beauty"},
+          {"handle": "cf.dropshipping.products_you_can_sell.electronics", "label": "Electronics"},
+          {"handle": "cf.dropshipping.products_you_can_sell.arts_and_crafts", "label": "Arts and crafts"},
+          {"handle": "cf.dropshipping.products_you_can_sell.toys_and_games", "label": "Toys and games"},
+          {"handle": "cf.dropshipping.products_you_can_sell.sports_products", "label": "Sports products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.pet_products", "label": "Pet products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.furniture", "label": "Furniture"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.business_and_office",
+            "label": "Business and office"
+          },
+          {"handle": "cf.dropshipping.sourcing_locations.cn", "label": "China"},
+          {"handle": "cf.dropshipping.sourcing_locations.de", "label": "Germany"},
+          {"handle": "cf.dropshipping.sourcing_locations.gb", "label": "United Kingdom"},
+          {"handle": "cf.dropshipping.sourcing_locations.us", "label": "United States"},
+          {"handle": "cf.print_on_demand_pod.product_customization.private_labels", "label": "Private labels"},
+          {
+            "handle": "cf.print_on_demand_pod.product_customization.custom_packaging",
+            "label": "Custom packaging"
+          },
+          {"handle": "cf.print_on_demand_pod.product_customization.design_tools", "label": "Design tools"},
+          {
+            "handle": "cf.print_on_demand_pod.product_customization.mockup_generator",
+            "label": "Mockup generator"
+          },
+          {"handle": "cf.print_on_demand_pod.product_customization.pack_ins", "label": "Pack-ins"},
+          {
+            "handle": "cf.print_on_demand_pod.product_customization.personalization",
+            "label": "Personalization"
+          },
+          {
+            "handle": "cf.print_on_demand_pod.product_customization.custom_templates",
+            "label": "Custom templates"
+          },
+          {"handle": "cf.print_on_demand_pod.products.bags", "label": "Bags"},
+          {"handle": "cf.print_on_demand_pod.products.blankets", "label": "Blankets"},
+          {"handle": "cf.print_on_demand_pod.products.apparel", "label": "Apparel"},
+          {"handle": "cf.print_on_demand_pod.products.hats", "label": "Hats"},
+          {"handle": "cf.print_on_demand_pod.products.shoes", "label": "Shoes"},
+          {"handle": "cf.print_on_demand_pod.products.drinkware", "label": "Drinkware"},
+          {"handle": "cf.print_on_demand_pod.products.holiday_gifts", "label": "Holiday gifts"},
+          {"handle": "cf.print_on_demand_pod.products.pet_products", "label": "Pet products"}
+        ],
+        "languages": [
+          "Afrikaans",
+          " Arabic",
+          " Belarusian",
+          " Danish",
+          " German",
+          " Greek",
+          " English",
+          " Spanish",
+          " Finnish",
+          " Filipino",
+          " French",
+          " Indonesian",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Malay",
+          " Dutch",
+          " Norwegian",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Russian",
+          " Swedish",
+          " Thai",
+          " Vietnamese",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": ["API", "eBay", "Etsy", "Shopee", "TikTok Shop", "WED2C"]
+      },
+      "developer": {
+        "name": "CJDropshipping",
+        "website_url": "http://app.cjdropshipping.com",
+        "partner_url": "https://apps.shopify.com/partners/cucheng-tech",
+        "public_address": "Room 1809, 18th Floor, New Era Building, No. 101, Financial Sixth Street, Financial Business District, Yiwu City, ZJ, 322000, CN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/cucheng",
+        "canonical_app_store_url": "https://apps.shopify.com/cucheng",
+        "install_url": "https://apps.shopify.com/cucheng",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://cjdropshipping.com/privacyPolicy",
+          "FAQ": "https://cjdropshipping.com/help-center",
+          "Tutorial": "https://www.cjdropshipping.com/help-center?scrollToNum=400&navType=content&categoryId=ce40313e54754a72b9c552f4864172f1&menuOpenIdx=0&menuActiveIdx=0",
+          "CJDropshipping": "https://apps.shopify.com/partners/cucheng-tech",
+          "Website": "http://app.cjdropshipping.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6092673ffae7ca48ab9cb01736bae7fa/icon/CJSt3rj0lu8CEAE=.jpg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6092673ffae7ca48ab9cb01736bae7fa/desktop_screenshot/CLCH8sbO7JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6092673ffae7ca48ab9cb01736bae7fa/desktop_screenshot/CJmK_MbO7JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6092673ffae7ca48ab9cb01736bae7fa/desktop_screenshot/CIuMhsfO7JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6092673ffae7ca48ab9cb01736bae7fa/desktop_screenshot/CPvUj8fO7JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6092673ffae7ca48ab9cb01736bae7fa/desktop_screenshot/CM_smcfO7JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6092673ffae7ca48ab9cb01736bae7fa/desktop_screenshot/COuko8fO7JQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6092673ffae7ca48ab9cb01736bae7fa/mobile_screenshot/CMX7-te54vsCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6092673ffae7ca48ab9cb01736bae7fa/mobile_screenshot/CO7EiNi54vsCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6092673ffae7ca48ab9cb01736bae7fa/mobile_screenshot/CP3Ukti54vsCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6092673ffae7ca48ab9cb01736bae7fa/mobile_screenshot/CJndhZHy4_sCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6092673ffae7ca48ab9cb01736bae7fa/mobile_screenshot/CLjpkpHy4_sCEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/DT74GJYNge4"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is CJdropshipping: Much Faster free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/cucheng"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "Afrikaans,  Arabic,  Belarusian,  Danish,  German,  Greek,  English,  Spanish,  Finnish,  Filipino,  French,  Indonesian,  Italian,  Japanese,  Korean,  Malay,  Dutch,  Norwegian,  Polish,  Portuguese (Brazil),  Russian,  Swedish,  Thai,  Vietnamese,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/cucheng"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "API, eBay, Etsy, Shopee, TikTok Shop, WED2C",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/cucheng"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/cucheng"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://cjdropshipping.com/help-center",
+            "https://www.cjdropshipping.com/help-center?scrollToNum=400&navType=content&categoryId=ce40313e54754a72b9c552f4864172f1&menuOpenIdx=0&menuActiveIdx=0"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["dropshipping"],
+        "primary_category_id": "dropshipping",
+        "seo": {
+          "title": "CJdropshipping: Much Faster Shopify App | eStorefy",
+          "meta_description": "A Shopify app for dropshipping. Listed functions include clothing and accessories, bags and luggage.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/cucheng",
+          "retrieved_at": "2026-10-04T05:20:32.521267+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "We are an all-in-one dropshipping solution provider, offering order fulfillment, product sourcing,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/cucheng"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "fforder-dropshipping",
+      "name": "FFOrder Dropshipping",
+      "slug": "fforder-dropshipping",
+      "category_fit": {
+        "app_id": "fforder-dropshipping",
+        "selection_score": 6.043,
+        "rating_evidence": {"value": 5.0, "reviews": 264},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["dropship"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/fforder-dropshipping"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for dropshipping. Listed functions include clothing and accessories, bags and luggage.",
+        "description_long": "FFOrder Dropshipping is developed by FFOrder Dropshipping and listed for dropshipping, wholesale. Its structured listing identifies functions such as clothing and accessories, bags and luggage, home and garden, health and beauty. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Dropshipping"],
+        "best_for": {
+          "use_cases": ["Dropshipping"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 264,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/fforder-dropshipping",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 261},
+          {"stars": 4, "percentage": 0, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Flexible Billing",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": "https://app.fforder.com/prices.html",
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "October 31, 2022",
+        "shopify_categories": [
+          {
+            "name": "Dropshipping",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-dropshipping"
+          },
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.clothing_and_accessories",
+            "label": "Clothing and accessories"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.bags_and_luggages", "label": "Bags and luggage"},
+          {"handle": "cf.dropshipping.products_you_can_sell.home_and_garden", "label": "Home and garden"},
+          {"handle": "cf.dropshipping.products_you_can_sell.health_and_beauty", "label": "Health and beauty"},
+          {"handle": "cf.dropshipping.products_you_can_sell.food_and_drinks", "label": "Food and drinks"},
+          {"handle": "cf.dropshipping.products_you_can_sell.electronics", "label": "Electronics"},
+          {"handle": "cf.dropshipping.products_you_can_sell.arts_and_crafts", "label": "Arts and crafts"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.entertainment_and_media",
+            "label": "Entertainment and media"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.toys_and_games", "label": "Toys and games"},
+          {"handle": "cf.dropshipping.products_you_can_sell.baby_products", "label": "Baby products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.sports_products", "label": "Sports products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.pet_products", "label": "Pet products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.furniture", "label": "Furniture"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.business_and_office",
+            "label": "Business and office"
+          },
+          {"handle": "cf.dropshipping.sourcing_locations.br", "label": "Brazil"},
+          {"handle": "cf.dropshipping.sourcing_locations.cn", "label": "China"},
+          {"handle": "cf.dropshipping.sourcing_locations.vn", "label": "Vietnam"},
+          {"handle": "cf.wholesale.pricing_options.customer_groups", "label": "Customer groups"},
+          {"handle": "cf.wholesale.pricing_options.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.wholesale.pricing_options.volume_discounts", "label": "Volume discounts"},
+          {"handle": "cf.wholesale.pricing_options.price_locking", "label": "Price locking"},
+          {"handle": "cf.wholesale.pricing_options.signup_form", "label": "Signup form"},
+          {"handle": "cf.wholesale.order_management.bulk_processing", "label": "Bulk processing"},
+          {"handle": "cf.wholesale.order_management.manual_orders", "label": "Manual orders"},
+          {"handle": "cf.wholesale.order_management.order_status", "label": "Order status"},
+          {"handle": "cf.wholesale.order_management.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.wholesale.order_management.inventory_status", "label": "Inventory status"},
+          {"handle": "cf.wholesale.order_management.import_and_export", "label": "Import and export"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " Portuguese (Brazil)",
+          " Spanish",
+          " Vietnamese",
+          " Swedish",
+          " and German"
+        ],
+        "works_with": ["AliExpress", "CartPanda", "dropi", "dropshipping suppliers", "TikTok Shop", "WooCommerce"]
+      },
+      "developer": {
+        "name": "FFOrder Dropshipping",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/16704",
+        "public_address": "龙湖镇华南城, 一号交易广场5A-279, 郑州市/新郑市, AH, 450000, CN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/fforder-dropshipping",
+        "canonical_app_store_url": "https://apps.shopify.com/fforder-dropshipping",
+        "install_url": "https://apps.shopify.com/fforder-dropshipping",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://app.fforder.com/#/help/privacy",
+          "FAQ": "https://app.fforder.com/#/help/term",
+          "FFOrder Dropshipping": "https://apps.shopify.com/partners/16704"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/8250040b5c65e926cc93dc873a2c6e1c/icon/CK6s8KnO9pEDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/8250040b5c65e926cc93dc873a2c6e1c/desktop_screenshot/CInCxv3DupIDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8250040b5c65e926cc93dc873a2c6e1c/desktop_screenshot/CM2_z_3DupIDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8250040b5c65e926cc93dc873a2c6e1c/desktop_screenshot/CKXn2P3DupIDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/8250040b5c65e926cc93dc873a2c6e1c/desktop_screenshot/CMOHrczKzpIDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/wLJ4mUfWAKs"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is FFOrder Dropshipping free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/fforder-dropshipping"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  Portuguese (Brazil),  Spanish,  Vietnamese,  Swedish,  and German",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/fforder-dropshipping"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "AliExpress, CartPanda, dropi, dropshipping suppliers, TikTok Shop, WooCommerce",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/fforder-dropshipping"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/fforder-dropshipping"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://app.fforder.com/#/help/term"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["dropshipping"],
+        "primary_category_id": "dropshipping",
+        "seo": {
+          "title": "FFOrder Dropshipping Shopify App | eStorefy",
+          "meta_description": "A Shopify app for dropshipping. Listed functions include clothing and accessories, bags and luggage.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/fforder-dropshipping",
+          "retrieved_at": "2026-10-04T05:20:39.394236+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Our expert agents offer tailored solutions for sourcing, customization（POD）, shipping, and clearance.",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/fforder-dropshipping"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "reputon-amazon-affiliate",
+      "name": "Reputon Amazon Importer",
+      "slug": "reputon-amazon-affiliate",
+      "category_fit": {
+        "app_id": "reputon-amazon-affiliate",
+        "selection_score": 6.0191,
+        "rating_evidence": {"value": 4.9, "reviews": 714},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["dropship"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/reputon-amazon-affiliate"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for affiliate program management. Listed functions include price sync, product sync.",
+        "description_long": "Reputon Amazon Importer is developed by Reputon and listed for store data importer, dropshipping. Its structured listing identifies functions such as price sync, product sync, bulk import, csv. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Affiliate Program Management",
+          "Dropshipping",
+          "Marketplace Integrations",
+          "Store Migration & Data Import"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Affiliate Program Management",
+            "Dropshipping",
+            "Marketplace Integrations",
+            "Store Migration & Data Import"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 714,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/reputon-amazon-affiliate",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 672},
+          {"stars": 4, "percentage": 3, "count": 22},
+          {"stars": 3, "percentage": 1, "count": 9},
+          {"stars": 2, "percentage": 1, "count": 4},
+          {"stars": 1, "percentage": 1, "count": 7}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Lite",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 5, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Store data importer",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-store-data-importer"
+          },
+          {
+            "name": "Dropshipping",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-dropshipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.store_data_importer.data_sync.price_sync", "label": "Price sync"},
+          {"handle": "cf.store_data_importer.data_sync.product_sync", "label": "Product sync"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_import", "label": "Bulk import"},
+          {"handle": "cf.store_data_importer.data_migration.csv", "label": "CSV"},
+          {"handle": "cf.store_data_importer.data_migration.products", "label": "Products"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Spanish",
+          " German",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Dutch",
+          " Chinese (Simplified)",
+          " Japanese",
+          " Russian",
+          " Polish",
+          " Turkish",
+          " and Swedish"
+        ],
+        "works_with": ["Shopify Admin", "Amazon", "Amazon Affiliate", "Amazon Associates", "Sidekick"]
+      },
+      "developer": {
+        "name": "Reputon",
+        "website_url": "https://reputon.com",
+        "partner_url": "https://apps.shopify.com/partners/reputon",
+        "public_address": "CLAYMONT, DE, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/reputon-amazon-affiliate",
+        "canonical_app_store_url": "https://apps.shopify.com/reputon-amazon-affiliate",
+        "install_url": "https://apps.shopify.com/reputon-amazon-affiliate",
+        "demo_store_url": "https://reputon-amazon-affiliate-demo.myshopify.com/products/2023-system-mtn-and-apx-complete-mens-snowboard-package",
+        "resources": {
+          "Privacy policy": "https://reputon.com/privacy-policy",
+          "FAQ": "https://reputon.gitbook.io/reputon-help/amazon-importer-app/",
+          "Reputon": "https://apps.shopify.com/partners/reputon",
+          "Website": "https://reputon.com",
+          "Changelog": "https://headwayapp.co/reputon-amazon-importer-app-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/01ad25c2ae2e5ce556383e722de3d3f1/icon/CLbfmZq7qYADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/01ad25c2ae2e5ce556383e722de3d3f1/promotional_image/CICv_qqyyI0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01ad25c2ae2e5ce556383e722de3d3f1/desktop_screenshot/CKnIiquyyI0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01ad25c2ae2e5ce556383e722de3d3f1/desktop_screenshot/CIXDlKuyyI0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01ad25c2ae2e5ce556383e722de3d3f1/desktop_screenshot/CLj2nauyyI0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01ad25c2ae2e5ce556383e722de3d3f1/desktop_screenshot/CM_qqKuyyI0DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/01ad25c2ae2e5ce556383e722de3d3f1/mobile_screenshot/CMiXjKGGvZADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Reputon Amazon Importer free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/reputon-amazon-affiliate"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Spanish,  German,  Italian,  Portuguese (Brazil),  Dutch,  Chinese (Simplified),  Japanese,  Russian,  Polish,  Turkish,  and Swedish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/reputon-amazon-affiliate"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Amazon, Amazon Affiliate, Amazon Associates, Sidekick",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/reputon-amazon-affiliate"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/reputon-amazon-affiliate"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://reputon.gitbook.io/reputon-help/amazon-importer-app/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "affiliate-program-management",
+          "dropshipping",
+          "marketplace-integrations",
+          "store-migration-data-import"
+        ],
+        "primary_category_id": "affiliate-program-management",
+        "seo": {
+          "title": "Reputon Amazon Importer Shopify App | eStorefy",
+          "meta_description": "A Shopify app for affiliate program management. Listed functions include price sync, product sync.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/reputon-amazon-affiliate",
+          "retrieved_at": "2026-10-04T05:20:32.337550+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Start Amazon dropshipping: Import Amazon products to your Shopify store. Find and…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/reputon-amazon-affiliate"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "printful",
+      "name": "Printful: Print on Demand",
+      "slug": "printful",
+      "category_fit": {
+        "app_id": "printful",
+        "selection_score": 6.0066,
+        "rating_evidence": {"value": 4.8, "reviews": 3902},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["dropship"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/printful"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for dropshipping. Listed functions include clothing and accessories, bags and luggage.",
+        "description_long": "Printful: Print on Demand is developed by Printful Latvia AS and listed for dropshipping, print on demand (pod). Its structured listing identifies functions such as clothing and accessories, bags and luggage, home and garden, baby products. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Dropshipping", "Print on Demand", "Order Printer & Packing Slips"],
+        "best_for": {
+          "use_cases": ["Dropshipping", "Print on Demand", "Order Printer & Packing Slips"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 3902,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/printful",
+        "distribution": [
+          {"stars": 5, "percentage": 86, "count": 3},
+          {"stars": 4, "percentage": 6, "count": 218},
+          {"stars": 3, "percentage": 2, "count": 86},
+          {"stars": 2, "percentage": 2, "count": 75},
+          {"stars": 1, "percentage": 4, "count": 172}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Plan",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth Plan",
+            "amount_usd": 24.99,
+            "billing_period": "month",
+            "price_display": "$24.99 / month",
+            "trial_days": 90,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.printful.com/pricing",
+        "starting_paid_monthly_price_usd": 24.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "November 25, 2013",
+        "shopify_categories": [
+          {
+            "name": "Dropshipping",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-dropshipping"
+          },
+          {
+            "name": "Print on demand (POD)",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-print-on-demand-pod"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.clothing_and_accessories",
+            "label": "Clothing and accessories"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.bags_and_luggages", "label": "Bags and luggage"},
+          {"handle": "cf.dropshipping.products_you_can_sell.home_and_garden", "label": "Home and garden"},
+          {"handle": "cf.dropshipping.products_you_can_sell.baby_products", "label": "Baby products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.sports_products", "label": "Sports products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.pet_products", "label": "Pet products"},
+          {"handle": "cf.dropshipping.sourcing_locations.au", "label": "Australia"},
+          {"handle": "cf.dropshipping.sourcing_locations.ca", "label": "Canada"},
+          {"handle": "cf.dropshipping.sourcing_locations.jp", "label": "Japan"},
+          {"handle": "cf.dropshipping.sourcing_locations.lv", "label": "Latvia"},
+          {"handle": "cf.dropshipping.sourcing_locations.mx", "label": "Mexico"},
+          {"handle": "cf.dropshipping.sourcing_locations.es", "label": "Spain"},
+          {"handle": "cf.dropshipping.sourcing_locations.us", "label": "United States"},
+          {"handle": "cf.print_on_demand_pod.product_customization.private_labels", "label": "Private labels"},
+          {
+            "handle": "cf.print_on_demand_pod.product_customization.custom_packaging",
+            "label": "Custom packaging"
+          },
+          {"handle": "cf.print_on_demand_pod.product_customization.design_tools", "label": "Design tools"},
+          {
+            "handle": "cf.print_on_demand_pod.product_customization.mockup_generator",
+            "label": "Mockup generator"
+          },
+          {"handle": "cf.print_on_demand_pod.product_customization.pack_ins", "label": "Pack-ins"},
+          {"handle": "cf.print_on_demand_pod.products.all_over_print", "label": "All-over-print"},
+          {"handle": "cf.print_on_demand_pod.products.bags", "label": "Bags"},
+          {"handle": "cf.print_on_demand_pod.products.blankets", "label": "Blankets"},
+          {"handle": "cf.print_on_demand_pod.products.apparel", "label": "Apparel"},
+          {"handle": "cf.print_on_demand_pod.products.embroidery", "label": "Embroidery"},
+          {"handle": "cf.print_on_demand_pod.products.hats", "label": "Hats"},
+          {"handle": "cf.print_on_demand_pod.products.shoes", "label": "Shoes"},
+          {"handle": "cf.print_on_demand_pod.products.drinkware", "label": "Drinkware"},
+          {"handle": "cf.print_on_demand_pod.products.holiday_gifts", "label": "Holiday gifts"},
+          {"handle": "cf.print_on_demand_pod.products.home_decor", "label": "Home decor"},
+          {"handle": "cf.print_on_demand_pod.products.pet_products", "label": "Pet products"},
+          {"handle": "cf.print_on_demand_pod.products.wall_art", "label": "Wall art"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Admin", "Amazon", "eBay", "Etsy", "Storenvy"]
+      },
+      "developer": {
+        "name": "Printful Latvia AS",
+        "website_url": "https://www.printful.com/",
+        "partner_url": "https://apps.shopify.com/partners/jansons",
+        "public_address": "Raina bulvaris 25, Riga, LV1050, LV"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/printful",
+        "canonical_app_store_url": "https://apps.shopify.com/printful",
+        "install_url": "https://apps.shopify.com/printful",
+        "demo_store_url": "https://printful-demo-store.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.printful.com/terms/privacy",
+          "FAQ": "https://help.printful.com/",
+          "Printful Latvia AS": "https://apps.shopify.com/partners/jansons",
+          "Website": "https://www.printful.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/3dd87416a3b1e12a9ef3604aaaaf4d1e/icon/CNDmhPSW_oQDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/3dd87416a3b1e12a9ef3604aaaaf4d1e/desktop_screenshot/CI_BmPeT_YEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3dd87416a3b1e12a9ef3604aaaaf4d1e/desktop_screenshot/CIufoveT_YEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3dd87416a3b1e12a9ef3604aaaaf4d1e/desktop_screenshot/CPHurPeT_YEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3dd87416a3b1e12a9ef3604aaaaf4d1e/desktop_screenshot/CJfB_L-psoUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3dd87416a3b1e12a9ef3604aaaaf4d1e/desktop_screenshot/CJu4wPeT_YEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3dd87416a3b1e12a9ef3604aaaaf4d1e/mobile_screenshot/CLC6m5qtj_wCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3dd87416a3b1e12a9ef3604aaaaf4d1e/mobile_screenshot/CLfwppqtj_wCEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/Goao6CmNRq0"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Printful: Print on Demand free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/printful"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/printful"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Amazon, eBay, Etsy, Storenvy",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/printful"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/printful"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.printful.com/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["dropshipping", "print-on-demand", "order-printer-packing-slips"],
+        "primary_category_id": "dropshipping",
+        "seo": {
+          "title": "Printful: Print on Demand Shopify App | eStorefy",
+          "meta_description": "A Shopify app for dropshipping. Listed functions include clothing and accessories, bags and luggage.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/printful",
+          "retrieved_at": "2026-10-04T05:20:48.617168+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Build your store with custom print and embroidery products—no upfront costs or…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/printful"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "germandrop",
+      "name": "German Drop ‑ EU Dropshipping",
+      "slug": "germandrop",
+      "category_fit": {
+        "app_id": "germandrop",
+        "selection_score": 5.9996,
+        "rating_evidence": {"value": 5.0, "reviews": 170},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["dropship"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/germandrop"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for dropshipping. Listed functions include clothing and accessories, bags and luggage.",
+        "description_long": "German Drop ‑ EU Dropshipping is developed by KUNYI and listed for dropshipping, print on demand (pod). Its structured listing identifies functions such as clothing and accessories, bags and luggage, home and garden, health and beauty. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Dropshipping"],
+        "best_for": {
+          "use_cases": ["Dropshipping"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 170,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/germandrop",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 168},
+          {"stars": 4, "percentage": 1, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.germandropde.com/pricing.html",
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "October 27, 2023",
+        "shopify_categories": [
+          {
+            "name": "Dropshipping",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-dropshipping"
+          },
+          {
+            "name": "Print on demand (POD)",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-print-on-demand-pod"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.clothing_and_accessories",
+            "label": "Clothing and accessories"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.bags_and_luggages", "label": "Bags and luggage"},
+          {"handle": "cf.dropshipping.products_you_can_sell.home_and_garden", "label": "Home and garden"},
+          {"handle": "cf.dropshipping.products_you_can_sell.health_and_beauty", "label": "Health and beauty"},
+          {"handle": "cf.dropshipping.products_you_can_sell.electronics", "label": "Electronics"},
+          {"handle": "cf.dropshipping.products_you_can_sell.toys_and_games", "label": "Toys and games"},
+          {"handle": "cf.dropshipping.products_you_can_sell.baby_products", "label": "Baby products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.sports_products", "label": "Sports products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.pet_products", "label": "Pet products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.furniture", "label": "Furniture"},
+          {"handle": "cf.dropshipping.products_you_can_sell.mature_products", "label": "Mature products"},
+          {"handle": "cf.dropshipping.sourcing_locations.cn", "label": "China"},
+          {"handle": "cf.dropshipping.sourcing_locations.de", "label": "Germany"},
+          {"handle": "cf.dropshipping.sourcing_locations.vn", "label": "Vietnam"},
+          {"handle": "cf.print_on_demand_pod.product_customization.private_labels", "label": "Private labels"},
+          {
+            "handle": "cf.print_on_demand_pod.product_customization.custom_packaging",
+            "label": "Custom packaging"
+          },
+          {
+            "handle": "cf.print_on_demand_pod.product_customization.personalization",
+            "label": "Personalization"
+          },
+          {
+            "handle": "cf.print_on_demand_pod.product_customization.custom_templates",
+            "label": "Custom templates"
+          },
+          {"handle": "cf.print_on_demand_pod.products.bags", "label": "Bags"},
+          {"handle": "cf.print_on_demand_pod.products.blankets", "label": "Blankets"},
+          {"handle": "cf.print_on_demand_pod.products.apparel", "label": "Apparel"},
+          {"handle": "cf.print_on_demand_pod.products.hats", "label": "Hats"},
+          {"handle": "cf.print_on_demand_pod.products.shoes", "label": "Shoes"},
+          {"handle": "cf.print_on_demand_pod.products.holiday_gifts", "label": "Holiday gifts"},
+          {"handle": "cf.print_on_demand_pod.products.home_decor", "label": "Home decor"},
+          {"handle": "cf.print_on_demand_pod.products.jewelry", "label": "Jewelry"},
+          {"handle": "cf.print_on_demand_pod.products.pet_products", "label": "Pet products"},
+          {"handle": "cf.print_on_demand_pod.products.eco_friendly", "label": "Eco-friendly"},
+          {"handle": "cf.print_on_demand_pod.shipping_options.white_label", "label": "White label"},
+          {"handle": "cf.print_on_demand_pod.shipping_options.bulk_shipping", "label": "Bulk shipping"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Amazon", "Etsy", "WooCommerce"]
+      },
+      "developer": {
+        "name": "KUNYI",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/1576583555458175199",
+        "public_address": "Qiantang District, Hang Zhou, ZJ, 310000, CN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/germandrop",
+        "canonical_app_store_url": "https://apps.shopify.com/germandrop",
+        "install_url": "https://apps.shopify.com/germandrop",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.germandropde.com/privacyPolicy.html",
+          "Tutorial": "https://www.germandropde.com/help.html",
+          "KUNYI": "https://apps.shopify.com/partners/1576583555458175199"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6138bb286e4f2493e4ba7ed7fca428a7/icon/CMuo_dKJ15YDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6138bb286e4f2493e4ba7ed7fca428a7/desktop_screenshot/COL75YeC15YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6138bb286e4f2493e4ba7ed7fca428a7/desktop_screenshot/CJ2e8IeC15YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6138bb286e4f2493e4ba7ed7fca428a7/desktop_screenshot/CNKp-oeC15YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6138bb286e4f2493e4ba7ed7fca428a7/desktop_screenshot/CK6I2PKA15YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6138bb286e4f2493e4ba7ed7fca428a7/desktop_screenshot/CKD6hIiC15YDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/aasO5RB_t08"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is German Drop ‑ EU Dropshipping free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/germandrop"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/germandrop"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Amazon, Etsy, WooCommerce",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/germandrop"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/germandrop"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://www.germandropde.com/help.html"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["dropshipping"],
+        "primary_category_id": "dropshipping",
+        "seo": {
+          "title": "German Drop ‑ EU Dropshipping Shopify App | eStorefy",
+          "meta_description": "A Shopify app for dropshipping. Listed functions include clothing and accessories, bags and luggage.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/germandrop",
+          "retrieved_at": "2026-10-04T05:20:39.418891+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Fast EU dropshipping with German warehouses. 90-day free storage, custom branding &…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/germandrop"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "dropsure",
+      "name": "DropSure ‑ Dropshipping & POD",
+      "slug": "dropsure",
+      "category_fit": {
+        "app_id": "dropsure",
+        "selection_score": 5.9168,
+        "rating_evidence": {"value": 4.9, "reviews": 182},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["dropship"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/dropsure"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for dropshipping. Listed functions include clothing and accessories, bags and luggage.",
+        "description_long": "DropSure ‑ Dropshipping & POD is developed by DropSure Inc. and listed for dropshipping, print on demand (pod). Its structured listing identifies functions such as clothing and accessories, bags and luggage, home and garden, health and beauty. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Dropshipping", "Print on Demand", "ERP & Warehouse Integrations"],
+        "best_for": {
+          "use_cases": ["Dropshipping", "Print on Demand", "ERP & Warehouse Integrations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 182,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/dropsure",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 178},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Additional charges may apply.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "September 12, 2023",
+        "shopify_categories": [
+          {
+            "name": "Dropshipping",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-dropshipping"
+          },
+          {
+            "name": "Print on demand (POD)",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-print-on-demand-pod"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.clothing_and_accessories",
+            "label": "Clothing and accessories"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.bags_and_luggages", "label": "Bags and luggage"},
+          {"handle": "cf.dropshipping.products_you_can_sell.home_and_garden", "label": "Home and garden"},
+          {"handle": "cf.dropshipping.products_you_can_sell.health_and_beauty", "label": "Health and beauty"},
+          {"handle": "cf.dropshipping.products_you_can_sell.electronics", "label": "Electronics"},
+          {"handle": "cf.dropshipping.products_you_can_sell.arts_and_crafts", "label": "Arts and crafts"},
+          {"handle": "cf.dropshipping.products_you_can_sell.toys_and_games", "label": "Toys and games"},
+          {"handle": "cf.dropshipping.products_you_can_sell.baby_products", "label": "Baby products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.sports_products", "label": "Sports products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.pet_products", "label": "Pet products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.furniture", "label": "Furniture"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.business_and_office",
+            "label": "Business and office"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.hardware", "label": "Hardware"},
+          {"handle": "cf.dropshipping.products_you_can_sell.automotive", "label": "Automotive"},
+          {"handle": "cf.dropshipping.sourcing_locations.ar", "label": "Argentina"},
+          {"handle": "cf.dropshipping.sourcing_locations.au", "label": "Australia"},
+          {"handle": "cf.dropshipping.sourcing_locations.be", "label": "Belgium"},
+          {"handle": "cf.dropshipping.sourcing_locations.br", "label": "Brazil"},
+          {"handle": "cf.dropshipping.sourcing_locations.ca", "label": "Canada"},
+          {"handle": "cf.dropshipping.sourcing_locations.cl", "label": "Chile"},
+          {"handle": "cf.dropshipping.sourcing_locations.cn", "label": "China"},
+          {"handle": "cf.dropshipping.sourcing_locations.co", "label": "Colombia"},
+          {"handle": "cf.dropshipping.sourcing_locations.dk", "label": "Denmark"},
+          {"handle": "cf.dropshipping.sourcing_locations.eg", "label": "Egypt"},
+          {"handle": "cf.dropshipping.sourcing_locations.fi", "label": "Finland"},
+          {"handle": "cf.dropshipping.sourcing_locations.fr", "label": "France"},
+          {"handle": "cf.dropshipping.sourcing_locations.gf", "label": "French Guiana"},
+          {"handle": "cf.dropshipping.sourcing_locations.pf", "label": "French Polynesia"},
+          {"handle": "cf.dropshipping.sourcing_locations.tf", "label": "French Southern Territories"},
+          {"handle": "cf.dropshipping.sourcing_locations.de", "label": "Germany"}
+        ],
+        "languages": ["English"],
+        "works_with": []
+      },
+      "developer": {
+        "name": "DropSure Inc.",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/dropsure-inc",
+        "public_address": "1300 OAHU ST, WEST COVINA, CA, 91792, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/dropsure",
+        "canonical_app_store_url": "https://apps.shopify.com/dropsure",
+        "install_url": "https://apps.shopify.com/dropsure",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.dropsure.com/privacy-policy",
+          "DropSure Inc.": "https://apps.shopify.com/partners/dropsure-inc"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/a16cbb11c49e09c0e280641b163b4f44/icon/CMeanLLal4wDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/a16cbb11c49e09c0e280641b163b4f44/desktop_screenshot/CPWu7s2_0oQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a16cbb11c49e09c0e280641b163b4f44/desktop_screenshot/CJXn_urC0oQDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a16cbb11c49e09c0e280641b163b4f44/desktop_screenshot/CPPzw7-h4IsDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a16cbb11c49e09c0e280641b163b4f44/desktop_screenshot/CIT3jNim34cDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/a16cbb11c49e09c0e280641b163b4f44/desktop_screenshot/CLrxqY7E0oQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/YXazrsjuZzI"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is DropSure ‑ Dropshipping & POD free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Additional charges may apply.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/dropsure"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/dropsure"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "No integrations were extracted; this does not prove there are none.",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/dropsure"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/dropsure"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["dropshipping", "print-on-demand", "erp-warehouse-integrations"],
+        "primary_category_id": "dropshipping",
+        "seo": {
+          "title": "DropSure ‑ Dropshipping & POD Shopify App | eStorefy",
+          "meta_description": "A Shopify app for dropshipping. Listed functions include clothing and accessories, bags and luggage.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/dropsure",
+          "retrieved_at": "2026-10-04T05:20:56.295251+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "the dropshipping app. Simplify product sourcing, inventory management, and order fulfillment.",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/dropsure"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "eprolo",
+      "name": "EPROLO‑Dropshipping & Branding",
+      "slug": "eprolo",
+      "category_fit": {
+        "app_id": "eprolo",
+        "selection_score": 5.9083,
+        "rating_evidence": {"value": 4.8, "reviews": 566},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["dropship"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/eprolo"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for dropshipping. Listed functions include clothing and accessories, bags and luggage.",
+        "description_long": "EPROLO‑Dropshipping & Branding is developed by EPROLO and listed for dropshipping. Its structured listing identifies functions such as clothing and accessories, bags and luggage, home and garden, health and beauty. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Dropshipping"],
+        "best_for": {
+          "use_cases": ["Dropshipping"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 566,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/eprolo",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 523},
+          {"stars": 4, "percentage": 5, "count": 30},
+          {"stars": 3, "percentage": 1, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 9}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Branding Lite",
+            "amount_usd": 19.9,
+            "billing_period": "year",
+            "price_display": "$19.90 / year",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Branding Pro",
+            "amount_usd": 99.0,
+            "billing_period": "year",
+            "price_display": "$99 / year",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.eprolo.com/branding/",
+        "starting_paid_monthly_price_usd": null,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 26, 2018",
+        "shopify_categories": [
+          {
+            "name": "Dropshipping",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-dropshipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.clothing_and_accessories",
+            "label": "Clothing and accessories"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.bags_and_luggages", "label": "Bags and luggage"},
+          {"handle": "cf.dropshipping.products_you_can_sell.home_and_garden", "label": "Home and garden"},
+          {"handle": "cf.dropshipping.products_you_can_sell.health_and_beauty", "label": "Health and beauty"},
+          {"handle": "cf.dropshipping.products_you_can_sell.electronics", "label": "Electronics"},
+          {"handle": "cf.dropshipping.products_you_can_sell.arts_and_crafts", "label": "Arts and crafts"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.entertainment_and_media",
+            "label": "Entertainment and media"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.toys_and_games", "label": "Toys and games"},
+          {"handle": "cf.dropshipping.products_you_can_sell.baby_products", "label": "Baby products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.sports_products", "label": "Sports products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.pet_products", "label": "Pet products"},
+          {"handle": "cf.dropshipping.products_you_can_sell.furniture", "label": "Furniture"},
+          {
+            "handle": "cf.dropshipping.products_you_can_sell.business_and_office",
+            "label": "Business and office"
+          },
+          {"handle": "cf.dropshipping.products_you_can_sell.hardware", "label": "Hardware"},
+          {"handle": "cf.dropshipping.products_you_can_sell.automotive", "label": "Automotive"},
+          {"handle": "cf.dropshipping.products_you_can_sell.mature_products", "label": "Mature products"},
+          {"handle": "cf.dropshipping.sourcing_locations.au", "label": "Australia"},
+          {"handle": "cf.dropshipping.sourcing_locations.cn", "label": "China"},
+          {"handle": "cf.dropshipping.sourcing_locations.gb", "label": "United Kingdom"},
+          {"handle": "cf.dropshipping.sourcing_locations.us", "label": "United States"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin", "Aliexpress", "Amazon", "eBay", "ETSY", "Tiktok", "Woocommerce"]
+      },
+      "developer": {
+        "name": "EPROLO",
+        "website_url": "http://www.eprolo.com",
+        "partner_url": "https://apps.shopify.com/partners/xu0",
+        "public_address": "4D3 Block 2,Busha Road,Longgang, 深圳市, GD, 518000, CN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/eprolo",
+        "canonical_app_store_url": "https://apps.shopify.com/eprolo",
+        "install_url": "https://apps.shopify.com/eprolo",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.eprolo.com/project/privacy-policy/",
+          "FAQ": "https://www.eprolo.com/faq/",
+          "EPROLO": "https://apps.shopify.com/partners/xu0",
+          "Website": "http://www.eprolo.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/cd5127a9a1c9c3e8f3f2a3711cae93d8/icon/COSq3-HyvPwCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/cd5127a9a1c9c3e8f3f2a3711cae93d8/desktop_screenshot/CJyDh8eemZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/cd5127a9a1c9c3e8f3f2a3711cae93d8/desktop_screenshot/CNXFkMeemZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/cd5127a9a1c9c3e8f3f2a3711cae93d8/desktop_screenshot/CMTrmMeemZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/cd5127a9a1c9c3e8f3f2a3711cae93d8/desktop_screenshot/CJ_ToceemZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/cd5127a9a1c9c3e8f3f2a3711cae93d8/desktop_screenshot/CKrvqceemZIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/cd5127a9a1c9c3e8f3f2a3711cae93d8/desktop_screenshot/CIqZsseemZIDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/Beh2IO_6KLM"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is EPROLO‑Dropshipping & Branding free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/eprolo"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/eprolo"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Aliexpress, Amazon, eBay, ETSY, Tiktok, Woocommerce",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/eprolo"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/eprolo"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://www.eprolo.com/faq/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["dropshipping"],
+        "primary_category_id": "dropshipping",
+        "seo": {
+          "title": "EPROLO‑Dropshipping & Branding Shopify App | eStorefy",
+          "meta_description": "A Shopify app for dropshipping. Listed functions include clothing and accessories, bags and luggage.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/eprolo",
+          "retrieved_at": "2026-10-04T05:20:39.502364+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "EPROLO official website, the best free dropshipping platform, provides products sourcing, storing,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/eprolo"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

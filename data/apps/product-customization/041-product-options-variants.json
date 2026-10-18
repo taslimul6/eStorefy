@@ -1,0 +1,3295 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "product-options-variants",
+    "number": 41,
+    "name": "Product Options & Variants",
+    "group": "Product Customization",
+    "slug": "product-options-variants",
+    "url_path": "/apps/product-options-variants",
+    "focus": "Offer product choices and collect personalization details.",
+    "description": "Compare Shopify apps for product options & variants. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/selling-products-custom-products-product-variants/all"],
+    "seo": {
+      "title": "Shopify Product Options & Variants Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for product options & variants: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a product options & variants app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "variant-swatch-king",
+      "name": "Color Swatch King: Variants",
+      "slug": "variant-swatch-king",
+      "category_fit": {
+        "app_id": "variant-swatch-king",
+        "selection_score": 6.1962,
+        "rating_evidence": {"value": 5.0, "reviews": 3199},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["variant", "option"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/variant-swatch-king"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for product options & variants. Listed functions include checkboxes, swatches.",
+        "description_long": "Color Swatch King: Variants is developed by StarApps and listed for product variants, product display - other. Its structured listing identifies functions such as checkboxes, swatches, dropdowns, radio buttons. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Options & Variants", "Color Swatches"],
+        "best_for": {
+          "use_cases": ["Product Options & Variants", "Color Swatches"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 3199,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/variant-swatch-king",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 3},
+          {"stars": 4, "percentage": 2, "count": 62},
+          {"stars": 3, "percentage": 0, "count": 5},
+          {"stars": 2, "percentage": 0, "count": 6},
+          {"stars": 1, "percentage": 1, "count": 19}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PAY AS YOU GROW",
+            "amount_usd": 5.0,
+            "billing_period": "month",
+            "price_display": "$5 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://laser-comb-669.notion.site/Swatch-King-Pricing-17cff378e63d8089b9c6cea12aa4aa4f",
+        "starting_paid_monthly_price_usd": 5.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "July 23, 2019",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          },
+          {
+            "name": "Product display - Other",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-product-display-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.checkboxes", "label": "Checkboxes"},
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.dropdowns", "label": "Dropdowns"},
+          {"handle": "cf.product_variants.customization.radio_buttons", "label": "Radio buttons"},
+          {"handle": "cf.product_variants.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_variants.customization.custom_html", "label": "Custom HTML"},
+          {"handle": "cf.product_variants.customization.size_chart", "label": "Size charts"},
+          {"handle": "cf.product_variants.customization.preview", "label": "Preview"},
+          {"handle": "cf.product_variants.customization.translation", "label": "Translation"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"},
+          {"handle": "cf.product_variants.inventory.low_stock_alerts", "label": "Low stock alerts"},
+          {"handle": "cf.product_variants.inventory.hide_out_of_stock", "label": "Hide out-of-stock"},
+          {"handle": "cf.product_variants.inventory.stock_availability", "label": "Stock availability"},
+          {"handle": "cf.product_variants.inventory.in_stock_display", "label": "In-stock display"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Danish",
+          " Spanish",
+          " Dutch",
+          " French",
+          " German",
+          " Italian",
+          " Japanese",
+          " Portuguese (Brazil)",
+          " and Turkish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Collection Page",
+          "color swatch",
+          "Page Builder Apps",
+          "Product Filter & Search",
+          "Swatchify",
+          "Variant Image"
+        ]
+      },
+      "developer": {
+        "name": "StarApps",
+        "website_url": "https://www.starapps.studio",
+        "partner_url": "https://apps.shopify.com/partners/starapps-studio",
+        "public_address": "StarApps, WeWork Eleven West, Pune, MH, 411045, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/variant-swatch-king",
+        "canonical_app_store_url": "https://apps.shopify.com/variant-swatch-king",
+        "install_url": "https://apps.shopify.com/variant-swatch-king",
+        "demo_store_url": "https://try-swatch-king.starapps.studio/demo",
+        "resources": {
+          "Privacy policy": "https://variant-swatch-king.starapps.studio/pages/privacy-policy",
+          "StarApps": "https://apps.shopify.com/partners/starapps-studio",
+          "Website": "https://www.starapps.studio"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/7d3df61e3b10a919377190ffca8b5af8/icon/COi-l-jg9vECEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/7d3df61e3b10a919377190ffca8b5af8/promotional_image/CLzoj-uBo40DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7d3df61e3b10a919377190ffca8b5af8/desktop_screenshot/CMXQ5IP0z4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7d3df61e3b10a919377190ffca8b5af8/desktop_screenshot/CMrXhLX0z4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7d3df61e3b10a919377190ffca8b5af8/desktop_screenshot/CJXlmuuBo40DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7d3df61e3b10a919377190ffca8b5af8/desktop_screenshot/CPzChIT0z4wDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Color Swatch King: Variants free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/variant-swatch-king"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  Chinese (Traditional),  Danish,  Spanish,  Dutch,  French,  German,  Italian,  Japanese,  Portuguese (Brazil),  and Turkish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/variant-swatch-king"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Collection Page, color swatch, Page Builder Apps, Product Filter & Search, Swatchify, Variant Image",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/variant-swatch-king"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/variant-swatch-king"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create the options, personalization fields or sizing content required for a sample product.",
+            "Place a test order and check that the selected details are captured correctly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-options-variants", "color-swatches"],
+        "primary_category_id": "product-options-variants",
+        "seo": {
+          "title": "Color Swatch King: Variants Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product options & variants. Listed functions include checkboxes, swatches.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/variant-swatch-king",
+          "retrieved_at": "2026-10-04T05:15:44.925424+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Replace simple boring dropdowns with color swatches for every product variant. Easy…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/variant-swatch-king"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "optis-color-swatch-variants",
+      "name": "OP Color Swatch Variant Images",
+      "slug": "optis-color-swatch-variants",
+      "category_fit": {
+        "app_id": "optis-color-swatch-variants",
+        "selection_score": 6.1233,
+        "rating_evidence": {"value": 5.0, "reviews": 800},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["variant", "option"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/optis-color-swatch-variants"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for product options & variants. Listed functions include swatches, dropdowns.",
+        "description_long": "OP Color Swatch Variant Images is developed by OPTIS and listed for product variants, custom products - other. Its structured listing identifies functions such as swatches, dropdowns, radio buttons, custom css. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Options & Variants", "Product Personalizers", "Color Swatches"],
+        "best_for": {
+          "use_cases": ["Product Options & Variants", "Product Personalizers", "Color Swatches"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 800,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/optis-color-swatch-variants",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 789},
+          {"stars": 4, "percentage": 1, "count": 10},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PAY AS YOU GROW",
+            "amount_usd": 11.9,
+            "billing_period": "month",
+            "price_display": "$11.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://docs.optis.me/swatch/subscription-and-billing/pricing-plans",
+        "starting_paid_monthly_price_usd": 11.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 10, 2025",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          },
+          {
+            "name": "Custom products - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-custom-products-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.dropdowns", "label": "Dropdowns"},
+          {"handle": "cf.product_variants.customization.radio_buttons", "label": "Radio buttons"},
+          {"handle": "cf.product_variants.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_variants.customization.custom_html", "label": "Custom HTML"},
+          {"handle": "cf.product_variants.customization.preview", "label": "Preview"},
+          {"handle": "cf.product_variants.customization.translation", "label": "Translation"},
+          {"handle": "cf.product_variants.customization.import_and_export", "label": "Import and export"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"},
+          {"handle": "cf.product_variants.inventory.low_stock_alerts", "label": "Low stock alerts"},
+          {"handle": "cf.product_variants.inventory.hide_out_of_stock", "label": "Hide out-of-stock"},
+          {"handle": "cf.product_variants.inventory.stock_availability", "label": "Stock availability"},
+          {"handle": "cf.product_variants.inventory.in_stock_display", "label": "In-stock display"},
+          {"handle": "cf.product_variants.inventory.manual_update", "label": "Manual updates"},
+          {"handle": "cf.product_variants.inventory.auto_update", "label": "Auto-updates"}
+        ],
+        "languages": [
+          "English",
+          " Vietnamese",
+          " French",
+          " Dutch",
+          " Spanish",
+          " Japanese",
+          " Italian",
+          " Chinese (Simplified)",
+          " Finnish",
+          " Danish",
+          " German",
+          " Swedish",
+          " Korean",
+          " Portuguese (Brazil)",
+          " Polish",
+          " Thai",
+          " Czech",
+          " Turkish",
+          " Arabic",
+          " Romanian",
+          " Russian",
+          " Hebrew",
+          " and Norwegian (Bokmål)"
+        ],
+        "works_with": [
+          "Shopify Admin",
+          "Checkout",
+          "Filter & Search apps",
+          "OPTIS Combined Listings",
+          "OPTIS Product Options",
+          "Page Builder apps",
+          "Translate & Adapt"
+        ]
+      },
+      "developer": {
+        "name": "OPTIS",
+        "website_url": "https://optis.me/optis-color-swatches-variants/",
+        "partner_url": "https://apps.shopify.com/partners/optis-bss",
+        "public_address": "Ha Noi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/optis-color-swatch-variants",
+        "canonical_app_store_url": "https://apps.shopify.com/optis-color-swatch-variants",
+        "install_url": "https://apps.shopify.com/optis-color-swatch-variants",
+        "demo_store_url": "https://optis-color-swatch-variant.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://optis.me/privacy-policy/",
+          "FAQ": "https://docs.optis.me/swatch",
+          "Tutorial": "https://www.youtube.com/watch?v=DHPDiAQGen4",
+          "OPTIS": "https://apps.shopify.com/partners/optis-bss",
+          "Website": "https://optis.me/optis-color-swatches-variants/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/icon/CIK6r5Lu3ZYDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/promotional_image/CMrGkYuY9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/desktop_screenshot/CPT6mouY9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/desktop_screenshot/CI7EpIuY9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/desktop_screenshot/CLndnrrOjpADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/desktop_screenshot/CP6-l_ekqJIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/desktop_screenshot/CMnSrYuY9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/desktop_screenshot/CKrHt4uY9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/mobile_screenshot/CPC7wYuY9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/mobile_screenshot/COSBzIuY9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/mobile_screenshot/COrP1YuY9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/mobile_screenshot/CKPS3ouY9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/pos_screenshot/CMbd54uY9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/pos_screenshot/CIWA84uY9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4639b295c8340737b2c240f10481cb85/pos_screenshot/CKTJ_IuY9ZYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is OP Color Swatch Variant Images free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/optis-color-swatch-variants"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Vietnamese,  French,  Dutch,  Spanish,  Japanese,  Italian,  Chinese (Simplified),  Finnish,  Danish,  German,  Swedish,  Korean,  Portuguese (Brazil),  Polish,  Thai,  Czech,  Turkish,  Arabic,  Romanian,  Russian,  Hebrew,  and Norwegian (Bokmål)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/optis-color-swatch-variants"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Checkout, Filter & Search apps, OPTIS Combined Listings, OPTIS Product Options, Page Builder apps, Translate & Adapt",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/optis-color-swatch-variants"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/optis-color-swatch-variants"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.optis.me/swatch", "https://www.youtube.com/watch?v=DHPDiAQGen4"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create the options, personalization fields or sizing content required for a sample product.",
+            "Place a test order and check that the selected details are captured correctly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-options-variants", "product-personalizers", "color-swatches"],
+        "primary_category_id": "product-options-variants",
+        "seo": {
+          "title": "OP Color Swatch Variant Images Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product options & variants. Listed functions include swatches, dropdowns.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/optis-color-swatch-variants",
+          "retrieved_at": "2026-10-04T05:16:02.216286+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Color swatch app for Shopify product variants: image swatches, variant images, collection…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/optis-color-swatch-variants"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "product-options-pro",
+      "name": "Globo Product Options, Variant",
+      "slug": "product-options-pro",
+      "category_fit": {
+        "app_id": "product-options-pro",
+        "selection_score": 6.1186,
+        "rating_evidence": {"value": 4.9, "reviews": 5118},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["option", "variant"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/product-options-pro"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for product options & variants. Listed functions include checkboxes, swatches.",
+        "description_long": "Globo Product Options, Variant is developed by Globo Options and listed for product variants, custom products - other. Its structured listing identifies functions such as checkboxes, swatches, conditional logic, fonts. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Options & Variants"],
+        "best_for": {
+          "use_cases": ["Product Options & Variants"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 5118,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/product-options-pro",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 4},
+          {"stars": 4, "percentage": 3, "count": 141},
+          {"stars": 3, "percentage": 0, "count": 24},
+          {"stars": 2, "percentage": 0, "count": 14},
+          {"stars": 1, "percentage": 1, "count": 61}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PREMIUM",
+            "amount_usd": 9.9,
+            "billing_period": "month",
+            "price_display": "$9.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $99/year and save 17%", "$39.9/mo for Shopify Plus"]
+          },
+          {
+            "name": "ADVANCED",
+            "amount_usd": 19.9,
+            "billing_period": "month",
+            "price_display": "$19.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $199/year and save 17%", "$59.9/mo for Shopify Plus"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://options.globo.io/pages/pricing",
+        "starting_paid_monthly_price_usd": 9.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "December 16, 2020",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          },
+          {
+            "name": "Custom products - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-custom-products-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.checkboxes", "label": "Checkboxes"},
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.product_variants.customization.fonts", "label": "Fonts"},
+          {"handle": "cf.product_variants.customization.dates", "label": "Dates"},
+          {"handle": "cf.product_variants.customization.dimensions", "label": "Dimensions"},
+          {"handle": "cf.product_variants.customization.dropdowns", "label": "Dropdowns"},
+          {"handle": "cf.product_variants.customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.product_variants.customization.multi_select", "label": "Multi-select"},
+          {"handle": "cf.product_variants.customization.numbers", "label": "Numbers"},
+          {"handle": "cf.product_variants.customization.radio_buttons", "label": "Radio buttons"},
+          {"handle": "cf.product_variants.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.product_variants.customization.gift_wrap", "label": "Gift wrap"},
+          {"handle": "cf.product_variants.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_variants.customization.custom_html", "label": "Custom HTML"},
+          {"handle": "cf.product_variants.customization.size_chart", "label": "Size charts"},
+          {"handle": "cf.product_variants.customization.preview", "label": "Preview"},
+          {"handle": "cf.product_variants.customization.translation", "label": "Translation"},
+          {"handle": "cf.product_variants.customization.import_and_export", "label": "Import and export"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"},
+          {"handle": "cf.product_variants.pricing.conditional_pricing", "label": "Conditional pricing"},
+          {"handle": "cf.product_variants.pricing.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.product_variants.pricing.dynamic_pricing", "label": "Dynamic pricing"},
+          {"handle": "cf.product_variants.pricing.add_ons", "label": "Add-ons"},
+          {"handle": "cf.product_variants.pricing.variant_upcharges", "label": "Variant upcharges"},
+          {"handle": "cf.product_variants.pricing.setup_charges", "label": "Setup charges"},
+          {"handle": "cf.product_variants.pricing.premium_upcharges", "label": "Premium upcharges"},
+          {"handle": "cf.product_variants.inventory.hide_out_of_stock", "label": "Hide out-of-stock"},
+          {"handle": "cf.product_variants.inventory.sku_management", "label": "SKU management"},
+          {"handle": "cf.product_variants.inventory.manual_update", "label": "Manual updates"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " German",
+          " Spanish",
+          " Japanese",
+          " Dutch",
+          " Danish",
+          " Finnish",
+          " Chinese (Simplified)",
+          " Portuguese (Portugal)",
+          " Italian",
+          " Korean",
+          " Polish",
+          " Swedish",
+          " Czech",
+          " Norwegian (Bokmål)",
+          " Portuguese (Brazil)",
+          " and Turkish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "GemPages, PageFly, EComposer",
+          "Globo Color Swatches",
+          "Google Drive sync",
+          "SA Request a Quote",
+          "Smart Product Filter & Search",
+          "Translate & Adapt"
+        ]
+      },
+      "developer": {
+        "name": "Globo Options",
+        "website_url": "https://options.globo.io/",
+        "partner_url": "https://apps.shopify.com/partners/globo-options",
+        "public_address": "Hanoi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/product-options-pro",
+        "canonical_app_store_url": "https://apps.shopify.com/product-options-pro",
+        "install_url": "https://apps.shopify.com/product-options-pro",
+        "demo_store_url": "https://options.globo.io/collections/pre-designed-templates",
+        "resources": {
+          "Privacy policy": "https://options.globo.io/pages/privacy-policy",
+          "FAQ": "https://docs.globo.io/options/help/faq",
+          "Tutorial": "https://www.youtube.com/watch?v=ChC37ngqLM8&list=PLhSnTvTC0w7IRvNihsBxRncZZXk4YiQif&index=1",
+          "App Documentation": "https://docs.globo.io/options",
+          "Globo Options": "https://apps.shopify.com/partners/globo-options",
+          "Website": "https://options.globo.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/75a3a42f9b230bf56ca785dc5677afa8/icon/CNmi6eePj4UDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/75a3a42f9b230bf56ca785dc5677afa8/promotional_image/COeY74GXxZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/75a3a42f9b230bf56ca785dc5677afa8/desktop_screenshot/CKe2-YGXxZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/75a3a42f9b230bf56ca785dc5677afa8/desktop_screenshot/CI2lhIKXxZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/75a3a42f9b230bf56ca785dc5677afa8/desktop_screenshot/CLqSjYKXxZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/75a3a42f9b230bf56ca785dc5677afa8/desktop_screenshot/CPusloKXxZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/75a3a42f9b230bf56ca785dc5677afa8/desktop_screenshot/CN2VoIKXxZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/75a3a42f9b230bf56ca785dc5677afa8/desktop_screenshot/CJW0qYKXxZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/75a3a42f9b230bf56ca785dc5677afa8/mobile_screenshot/CJvKsoKXxZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/75a3a42f9b230bf56ca785dc5677afa8/mobile_screenshot/CL_Vu4KXxZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/75a3a42f9b230bf56ca785dc5677afa8/mobile_screenshot/CKHkxIKXxZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/75a3a42f9b230bf56ca785dc5677afa8/pos_screenshot/COLJzoKXxZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/75a3a42f9b230bf56ca785dc5677afa8/pos_screenshot/CKmw2YKXxZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/75a3a42f9b230bf56ca785dc5677afa8/pos_screenshot/CNr44oKXxZYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Globo Product Options, Variant free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/product-options-pro"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  German,  Spanish,  Japanese,  Dutch,  Danish,  Finnish,  Chinese (Simplified),  Portuguese (Portugal),  Italian,  Korean,  Polish,  Swedish,  Czech,  Norwegian (Bokmål),  Portuguese (Brazil),  and Turkish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/product-options-pro"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, GemPages, PageFly, EComposer, Globo Color Swatches, Google Drive sync, SA Request a Quote, Smart Product Filter & Search, Translate & Adapt",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/product-options-pro"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/product-options-pro"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.globo.io/options/help/faq",
+            "https://www.youtube.com/watch?v=ChC37ngqLM8&list=PLhSnTvTC0w7IRvNihsBxRncZZXk4YiQif&index=1",
+            "https://docs.globo.io/options"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create the options, personalization fields or sizing content required for a sample product.",
+            "Place a test order and check that the selected details are captured correctly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-options-variants"],
+        "primary_category_id": "product-options-variants",
+        "seo": {
+          "title": "Globo Product Options, Variant Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product options & variants. Listed functions include checkboxes, swatches.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/product-options-pro",
+          "retrieved_at": "2026-10-04T05:15:51.728824+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Create unlimited custom product options with text, dropdown, file upload, swatches, and…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/product-options-pro"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "easify-product-options",
+      "name": "Easify Custom Product Options",
+      "slug": "easify-product-options",
+      "category_fit": {
+        "app_id": "easify-product-options",
+        "selection_score": 6.0954,
+        "rating_evidence": {"value": 4.9, "reviews": 3107},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["option", "variant"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/easify-product-options"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for product options & variants. Listed functions include checkboxes, swatches.",
+        "description_long": "Easify Custom Product Options is developed by Easify and listed for product variants, custom products - other. Its structured listing identifies functions such as checkboxes, swatches, conditional logic, fonts. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Options & Variants", "Product Personalizers", "Customer File Uploads"],
+        "best_for": {
+          "use_cases": ["Product Options & Variants", "Product Personalizers", "Customer File Uploads"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 3107,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/easify-product-options",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 3},
+          {"stars": 4, "percentage": 1, "count": 42},
+          {"stars": 3, "percentage": 0, "count": 11},
+          {"stars": 2, "percentage": 0, "count": 8},
+          {"stars": 1, "percentage": 1, "count": 39}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Forever Plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro Plan",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.90/year and save 20%"]
+          },
+          {
+            "name": "Premium Plan",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $191.90/year and save 20%"]
+          },
+          {
+            "name": "Enterprise Plan",
+            "amount_usd": 99.99,
+            "billing_period": "month",
+            "price_display": "$99.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $959.90/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "April 20, 2023",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          },
+          {
+            "name": "Custom products - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-custom-products-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.checkboxes", "label": "Checkboxes"},
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.product_variants.customization.fonts", "label": "Fonts"},
+          {"handle": "cf.product_variants.customization.dates", "label": "Dates"},
+          {"handle": "cf.product_variants.customization.dimensions", "label": "Dimensions"},
+          {"handle": "cf.product_variants.customization.dropdowns", "label": "Dropdowns"},
+          {"handle": "cf.product_variants.customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.product_variants.customization.multi_select", "label": "Multi-select"},
+          {"handle": "cf.product_variants.customization.numbers", "label": "Numbers"},
+          {"handle": "cf.product_variants.customization.radio_buttons", "label": "Radio buttons"},
+          {"handle": "cf.product_variants.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.product_variants.customization.gift_wrap", "label": "Gift wrap"},
+          {"handle": "cf.product_variants.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_variants.customization.custom_html", "label": "Custom HTML"},
+          {"handle": "cf.product_variants.customization.size_chart", "label": "Size charts"},
+          {"handle": "cf.product_variants.customization.preview", "label": "Preview"},
+          {"handle": "cf.product_variants.customization.translation", "label": "Translation"},
+          {"handle": "cf.product_variants.customization.import_and_export", "label": "Import and export"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"},
+          {"handle": "cf.product_variants.pricing.bulk_pricing", "label": "Bulk pricing"},
+          {"handle": "cf.product_variants.pricing.conditional_pricing", "label": "Conditional pricing"},
+          {"handle": "cf.product_variants.pricing.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.product_variants.pricing.dynamic_pricing", "label": "Dynamic pricing"},
+          {"handle": "cf.product_variants.pricing.add_ons", "label": "Add-ons"},
+          {"handle": "cf.product_variants.pricing.variant_upcharges", "label": "Variant upcharges"},
+          {"handle": "cf.product_variants.pricing.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.product_variants.pricing.premium_upcharges", "label": "Premium upcharges"},
+          {"handle": "cf.product_variants.inventory.hide_out_of_stock", "label": "Hide out-of-stock"},
+          {"handle": "cf.product_variants.inventory.auto_update", "label": "Auto-updates"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " German",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Spanish",
+          " Swedish",
+          " Danish",
+          " Dutch",
+          " Portuguese (Brazil)",
+          " Japanese",
+          " Italian",
+          " Vietnamese",
+          " Turkish",
+          " Norwegian",
+          " Norwegian Nynorsk",
+          " Lithuanian",
+          " Korean",
+          " Georgian",
+          " Irish",
+          " Estonian",
+          " Greek",
+          " Czech",
+          " Bulgarian",
+          " and Arabic"
+        ],
+        "works_with": ["Checkout", "Shopify Admin", "Easify Inventory Sync", "GemPages Landing Page Builder"]
+      },
+      "developer": {
+        "name": "Easify",
+        "website_url": "https://easifyapps.com/",
+        "partner_url": "https://apps.shopify.com/partners/easify-apps",
+        "public_address": "130 Nguyen Duc Canh, Hanoi, 10000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/easify-product-options",
+        "canonical_app_store_url": "https://apps.shopify.com/easify-product-options",
+        "install_url": "https://apps.shopify.com/easify-product-options",
+        "demo_store_url": "https://easify-custom-product-options.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://easifyapps.com/privacy-policy/",
+          "Tutorial": "https://www.youtube.com/@EasifyAppsOfficial",
+          "App Documentation": "https://easify.gitbook.io/easify-product-options",
+          "Easify": "https://apps.shopify.com/partners/easify-apps",
+          "Website": "https://easifyapps.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/icon/CMORnf6l_IoDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/promotional_image/CISN3JCVhJYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/desktop_screenshot/CJfBrreUhJYDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/desktop_screenshot/CNys38zpvpIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/desktop_screenshot/COfPv9q7i5YDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/desktop_screenshot/CP6M8czpvpIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/desktop_screenshot/CMLn-czpvpIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/desktop_screenshot/CP2Igs3pvpIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/mobile_screenshot/CPjci83pvpIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/mobile_screenshot/CL3Vk83pvpIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/mobile_screenshot/CMPFm83pvpIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/mobile_screenshot/CJPjo83pvpIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/mobile_screenshot/CKPqq83pvpIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/mobile_screenshot/CN_BtM3pvpIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/pos_screenshot/CNnZvM3pvpIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1821fa19e077535bf0b6c962de9bd6c3/pos_screenshot/CMiNxc3pvpIDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Easify Custom Product Options free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/easify-product-options"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  German,  Chinese (Simplified),  Chinese (Traditional),  Spanish,  Swedish,  Danish,  Dutch,  Portuguese (Brazil),  Japanese,  Italian,  Vietnamese,  Turkish,  Norwegian,  Norwegian Nynorsk,  Lithuanian,  Korean,  Georgian,  Irish,  Estonian,  Greek,  Czech,  Bulgarian,  and Arabic",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/easify-product-options"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Easify Inventory Sync, GemPages Landing Page Builder",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/easify-product-options"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/easify-product-options"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://www.youtube.com/@EasifyAppsOfficial", "https://easify.gitbook.io/easify-product-options"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create the options, personalization fields or sizing content required for a sample product.",
+            "Place a test order and check that the selected details are captured correctly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-options-variants", "product-personalizers", "customer-file-uploads"],
+        "primary_category_id": "product-options-variants",
+        "seo": {
+          "title": "Easify Custom Product Options Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product options & variants. Listed functions include checkboxes, swatches.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/easify-product-options",
+          "retrieved_at": "2026-10-04T05:15:45.060126+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Best Shopify Product Options app for unlimited variant option product options with…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/easify-product-options"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "rubik-variant-images",
+      "name": "Rubik Variant Images & Swatch",
+      "slug": "rubik-variant-images",
+      "category_fit": {
+        "app_id": "rubik-variant-images",
+        "selection_score": 6.0914,
+        "rating_evidence": {"value": 5.0, "reviews": 488},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["variant", "option"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/rubik-variant-images"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for product options & variants. Listed functions include swatches, conditional logic.",
+        "description_long": "Rubik Variant Images & Swatch is developed by Craftshift and listed for product variants, image gallery. Its structured listing identifies functions such as swatches, conditional logic, dropdowns, custom css. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Options & Variants", "Color Swatches"],
+        "best_for": {
+          "use_cases": ["Product Options & Variants", "Color Swatches"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 488,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/rubik-variant-images",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 480},
+          {"stars": 4, "percentage": 1, "count": 5},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter Plan",
+            "amount_usd": 25.0,
+            "billing_period": "month",
+            "price_display": "$25 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $200/year and save 33%"]
+          },
+          {
+            "name": "Advanced Plan",
+            "amount_usd": 50.0,
+            "billing_period": "month",
+            "price_display": "$50 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $400/year and save 33%"]
+          },
+          {
+            "name": "Premium Plan",
+            "amount_usd": 75.0,
+            "billing_period": "month",
+            "price_display": "$75 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $600/year and save 33%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 25.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 18, 2024",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          },
+          {
+            "name": "Image gallery",
+            "url": "https://apps.shopify.com/categories/store-design-images-and-media-image-gallery"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.product_variants.customization.dropdowns", "label": "Dropdowns"},
+          {"handle": "cf.product_variants.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_variants.customization.custom_html", "label": "Custom HTML"},
+          {"handle": "cf.product_variants.customization.preview", "label": "Preview"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"},
+          {"handle": "cf.product_variants.inventory.hide_out_of_stock", "label": "Hide out-of-stock"},
+          {"handle": "cf.product_variants.inventory.stock_availability", "label": "Stock availability"},
+          {"handle": "cf.product_variants.inventory.auto_update", "label": "Auto-updates"},
+          {"handle": "cf.image_gallery.gallery_types.carousel", "label": "Carousel"},
+          {"handle": "cf.image_gallery.gallery_types.collage", "label": "Collage"},
+          {"handle": "cf.image_gallery.gallery_types.lightbox", "label": "Lightbox"},
+          {"handle": "cf.image_gallery.gallery_types.masonry", "label": "Masonry"},
+          {"handle": "cf.image_gallery.gallery_types.grid", "label": "Grid"},
+          {"handle": "cf.image_gallery.gallery_types.slider", "label": "Slider"},
+          {"handle": "cf.image_gallery.gallery_types.video", "label": "Video"},
+          {"handle": "cf.image_gallery.customization.custom_style", "label": "Custom styles"},
+          {"handle": "cf.image_gallery.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.image_gallery.customization.drag_and_drop_editor", "label": "Drag-and-drop editor"},
+          {"handle": "cf.image_gallery.customization.image_zoom", "label": "Image zoom"},
+          {"handle": "cf.image_gallery.customization.hover_effects", "label": "Hover effects"},
+          {"handle": "cf.image_gallery.customization.mobile_responsive", "label": "Mobile responsive"},
+          {"handle": "cf.image_gallery.customization.multi_language", "label": "Multi-language"}
+        ],
+        "languages": [
+          "English",
+          " Azerbaijani",
+          " Chinese (Simplified)",
+          " Arabic",
+          " German",
+          " Spanish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Dutch",
+          " Portuguese (Brazil)",
+          " Polish",
+          " Swedish",
+          " Norwegian (Bokmål)",
+          " Turkish",
+          " and Russian"
+        ],
+        "works_with": [
+          "Shopify Admin",
+          "2048 Variants, Stamp, Varia",
+          "Beae, VO Product Options",
+          "EComposer, ThemeForest themes",
+          "PageFly, Instant, GemPages",
+          "Product variants, Color swatch",
+          "Variant Images"
+        ]
+      },
+      "developer": {
+        "name": "Craftshift",
+        "website_url": "https://rubikvariantimages.com/",
+        "partner_url": "https://apps.shopify.com/partners/craftshift",
+        "public_address": "Letterhout, Zaandam, 1507EG, NL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/rubik-variant-images",
+        "canonical_app_store_url": "https://apps.shopify.com/rubik-variant-images",
+        "install_url": "https://apps.shopify.com/rubik-variant-images",
+        "demo_store_url": "https://variantimages.rubikdemo.com/products/shopify-variant-images-demo",
+        "resources": {
+          "Privacy policy": "https://rubikvariantimages.com/privacy-policy/",
+          "FAQ": "https://rubikvariant.com/docs/faq",
+          "Tutorial": "https://www.youtube.com/watch?v=j4lIS42Ao-s",
+          "App Documentation": "https://rubikvariant.com/docs",
+          "Craftshift": "https://apps.shopify.com/partners/craftshift",
+          "Website": "https://rubikvariantimages.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/60dbfff985e0a22fb291f1932a8ed6d4/icon/CLeWxv627IwDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/60dbfff985e0a22fb291f1932a8ed6d4/promotional_image/CO27xdThmI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/60dbfff985e0a22fb291f1932a8ed6d4/desktop_screenshot/CL6_r6jeso8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/60dbfff985e0a22fb291f1932a8ed6d4/desktop_screenshot/CNTf-LftpY8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/60dbfff985e0a22fb291f1932a8ed6d4/desktop_screenshot/CKK9gbjtpY8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/60dbfff985e0a22fb291f1932a8ed6d4/desktop_screenshot/CL-RjLjtpY8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/60dbfff985e0a22fb291f1932a8ed6d4/desktop_screenshot/CM2BlbjtpY8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/60dbfff985e0a22fb291f1932a8ed6d4/desktop_screenshot/CMW7nrjtpY8DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Rubik Variant Images & Swatch free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/rubik-variant-images"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Azerbaijani,  Chinese (Simplified),  Arabic,  German,  Spanish,  French,  Italian,  Japanese,  Dutch,  Portuguese (Brazil),  Polish,  Swedish,  Norwegian (Bokmål),  Turkish,  and Russian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/rubik-variant-images"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, 2048 Variants, Stamp, Varia, Beae, VO Product Options, EComposer, ThemeForest themes, PageFly, Instant, GemPages, Product variants, Color swatch, Variant Images",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/rubik-variant-images"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/rubik-variant-images"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://rubikvariant.com/docs/faq",
+            "https://www.youtube.com/watch?v=j4lIS42Ao-s",
+            "https://rubikvariant.com/docs"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create the options, personalization fields or sizing content required for a sample product.",
+            "Place a test order and check that the selected details are captured correctly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-options-variants", "color-swatches"],
+        "primary_category_id": "product-options-variants",
+        "seo": {
+          "title": "Rubik Variant Images & Swatch Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product options & variants. Listed functions include swatches, conditional logic.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/rubik-variant-images",
+          "retrieved_at": "2026-10-04T05:16:09.209193+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Enhance your product pages by showing only relevant variant images and image…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/rubik-variant-images"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "variant-king-combined-listings",
+      "name": "SA Variants: Combined Listings",
+      "slug": "variant-king-combined-listings",
+      "category_fit": {
+        "app_id": "variant-king-combined-listings",
+        "selection_score": 6.0855,
+        "rating_evidence": {"value": 5.0, "reviews": 449},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["variant"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/variant-king-combined-listings"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for product comparison. Listed functions include checkboxes, swatches.",
+        "description_long": "SA Variants: Combined Listings is developed by StarApps and listed for product variants, search and navigation - other. Its structured listing identifies functions such as checkboxes, swatches, conditional logic, fonts. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Comparison", "Product Options & Variants", "Color Swatches"],
+        "best_for": {
+          "use_cases": ["Product Comparison", "Product Options & Variants", "Color Swatches"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 449,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/variant-king-combined-listings",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 439},
+          {"stars": 4, "percentage": 2, "count": 7},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Partner stores",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 5.0,
+            "billing_period": "month",
+            "price_display": "$5 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "Priced based on Shopify plan - Pause & Build: $5/mo, Basic: $14.9/mo, Grow: $29.9/mo, Advanced: $49.9/mo, Plus: 99.9/mo"
+            ]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 10.0,
+            "billing_period": "month",
+            "price_display": "$10 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "Priced based on Shopify plan - Pause & Build: $10/mo, Basic: $29.9/mo, Grow: $59.9/mo, Advanced: $99.9/mo, Plus:199.9/mo"
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://sa-variants-combined-listings-demo.starapps.studio/pages/variant-king-combined-listing-pricing",
+        "starting_paid_monthly_price_usd": 5.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 31, 2025",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          },
+          {
+            "name": "Search and navigation - Other",
+            "url": "https://apps.shopify.com/categories/store-design-search-and-navigation-search-and-navigation-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.checkboxes", "label": "Checkboxes"},
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.product_variants.customization.fonts", "label": "Fonts"},
+          {"handle": "cf.product_variants.customization.dates", "label": "Dates"},
+          {"handle": "cf.product_variants.customization.dimensions", "label": "Dimensions"},
+          {"handle": "cf.product_variants.customization.dropdowns", "label": "Dropdowns"},
+          {"handle": "cf.product_variants.customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.product_variants.customization.multi_select", "label": "Multi-select"},
+          {"handle": "cf.product_variants.customization.numbers", "label": "Numbers"},
+          {"handle": "cf.product_variants.customization.radio_buttons", "label": "Radio buttons"},
+          {"handle": "cf.product_variants.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.product_variants.customization.gift_wrap", "label": "Gift wrap"},
+          {"handle": "cf.product_variants.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_variants.customization.custom_html", "label": "Custom HTML"},
+          {"handle": "cf.product_variants.customization.size_chart", "label": "Size charts"},
+          {"handle": "cf.product_variants.customization.preview", "label": "Preview"},
+          {"handle": "cf.product_variants.customization.translation", "label": "Translation"},
+          {"handle": "cf.product_variants.customization.import_and_export", "label": "Import and export"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"},
+          {"handle": "cf.product_variants.pricing.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.product_variants.pricing.discount_options", "label": "Discount options"},
+          {"handle": "cf.product_variants.pricing.add_ons", "label": "Add-ons"},
+          {"handle": "cf.product_variants.pricing.variant_upcharges", "label": "Variant upcharges"},
+          {"handle": "cf.product_variants.pricing.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.product_variants.inventory.low_stock_alerts", "label": "Low stock alerts"},
+          {"handle": "cf.product_variants.inventory.hide_out_of_stock", "label": "Hide out-of-stock"},
+          {"handle": "cf.product_variants.inventory.sku_management", "label": "SKU management"},
+          {"handle": "cf.product_variants.inventory.stock_availability", "label": "Stock availability"},
+          {"handle": "cf.product_variants.inventory.in_stock_display", "label": "In-stock display"}
+        ],
+        "languages": [
+          "English",
+          " Arabic",
+          " Afrikaans",
+          " German",
+          " Spanish",
+          " French",
+          " Hindi",
+          " Japanese",
+          " Swedish",
+          " Vietnamese",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": [
+          "Shopify Admin",
+          "Collection page",
+          "Combined Listings",
+          "Page Builder apps",
+          "Product Filter & Search",
+          "Swatch King",
+          "Variant Image"
+        ]
+      },
+      "developer": {
+        "name": "StarApps",
+        "website_url": "https://www.starapps.io/",
+        "partner_url": "https://apps.shopify.com/partners/starapps-studio",
+        "public_address": "StarApps, WeWork Eleven West, Pune, MH, 411045, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/variant-king-combined-listings",
+        "canonical_app_store_url": "https://apps.shopify.com/variant-king-combined-listings",
+        "install_url": "https://apps.shopify.com/variant-king-combined-listings",
+        "demo_store_url": "https://sa-variants-combined-listings-demo.starapps.studio/",
+        "resources": {
+          "Privacy policy": "https://variant-king.starapps.studio/pages/privacy-policy",
+          "StarApps": "https://apps.shopify.com/partners/starapps-studio",
+          "Website": "https://www.starapps.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/icon/COLA-dTB94oDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/promotional_image/CPDvy6_s5ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/desktop_screenshot/CLmXs-bz5ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/desktop_screenshot/CNvdvebz5ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/desktop_screenshot/CLakyObz5ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/desktop_screenshot/CJWU0-bz5ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/desktop_screenshot/CKPD3ebz5ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c52af6e573940b439d13090d027ab541/desktop_screenshot/CP2E5-bz5ZUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is SA Variants: Combined Listings free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/variant-king-combined-listings"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Arabic,  Afrikaans,  German,  Spanish,  French,  Hindi,  Japanese,  Swedish,  Vietnamese,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/variant-king-combined-listings"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Collection page, Combined Listings, Page Builder apps, Product Filter & Search, Swatch King, Variant Image",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/variant-king-combined-listings"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/variant-king-combined-listings"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-comparison", "product-options-variants", "color-swatches"],
+        "primary_category_id": "product-comparison",
+        "seo": {
+          "title": "SA Variants: Combined Listings Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product comparison. Listed functions include checkboxes, swatches.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/variant-king-combined-listings",
+          "retrieved_at": "2026-10-04T05:16:09.226984+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Link separate products as a combined listing. Split variants into products with…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/variant-king-combined-listings"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "grouptify-combined-listings",
+      "name": "G: Combined Listings & Variant",
+      "slug": "grouptify-combined-listings",
+      "category_fit": {
+        "app_id": "grouptify-combined-listings",
+        "selection_score": 6.0838,
+        "rating_evidence": {"value": 5.0, "reviews": 439},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["variant"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/grouptify-combined-listings"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include swatches, dropdowns.",
+        "description_long": "G: Combined Listings & Variant is developed by Grouptify and listed for product variants. Its structured listing identifies functions such as swatches, dropdowns, custom css, translation. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Collection Sorting & Merchandising", "Product Options & Variants", "Color Swatches"],
+        "best_for": {
+          "use_cases": ["Collection Sorting & Merchandising", "Product Options & Variants", "Color Swatches"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 439,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/grouptify-combined-listings",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 433},
+          {"stars": 4, "percentage": 1, "count": 4},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Unlimited",
+            "amount_usd": 5.0,
+            "billing_period": "month",
+            "price_display": "$5 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.tapita.io/pages/grouptify-combined-listings",
+        "starting_paid_monthly_price_usd": 5.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 11, 2024 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.dropdowns", "label": "Dropdowns"},
+          {"handle": "cf.product_variants.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_variants.customization.translation", "label": "Translation"},
+          {"handle": "cf.product_variants.customization.import_and_export", "label": "Import and export"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " French",
+          " German",
+          " Dutch",
+          " Japanese",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " and Spanish"
+        ],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "Grouptify",
+        "website_url": "https://tapita.io/",
+        "partner_url": "https://apps.shopify.com/partners/grouptify",
+        "public_address": "Dong Da, Hanoi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/grouptify-combined-listings",
+        "canonical_app_store_url": "https://apps.shopify.com/grouptify-combined-listings",
+        "install_url": "https://apps.shopify.com/grouptify-combined-listings",
+        "demo_store_url": "https://grouptify-combined-listings.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://tapita.io/privacy-policy/",
+          "FAQ": "https://www.tapita.io/pages/faqs-g-combined-listings-variant",
+          "Tutorial": "https://tapita0.zohodesk.com/portal/en/kb/articles/getting-started-with-grouptify-combined-listings",
+          "App Documentation": "https://tapita0.zohodesk.com/portal/en/kb/grouptify-combined-listings",
+          "Grouptify": "https://apps.shopify.com/partners/grouptify",
+          "Website": "https://tapita.io/",
+          "Changelog": "https://tapita0.zohodesk.com/portal/en/kb/articles/grouptify-color-swatch-variant-options"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f3c7e2f5de24101b794516ae2211c449/icon/CPbO6JXT84gDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f3c7e2f5de24101b794516ae2211c449/desktop_screenshot/CKyXkKOago8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f3c7e2f5de24101b794516ae2211c449/desktop_screenshot/CLqHmqOago8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f3c7e2f5de24101b794516ae2211c449/desktop_screenshot/CITsqKOago8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f3c7e2f5de24101b794516ae2211c449/desktop_screenshot/CLO7sqOago8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f3c7e2f5de24101b794516ae2211c449/desktop_screenshot/CPaVu6Oago8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f3c7e2f5de24101b794516ae2211c449/desktop_screenshot/COmfxaOago8DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/QDeIrQ-j8yw"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is G: Combined Listings & Variant free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/grouptify-combined-listings"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  French,  German,  Dutch,  Japanese,  Portuguese (Brazil),  Portuguese (Portugal),  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/grouptify-combined-listings"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/grouptify-combined-listings"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/grouptify-combined-listings"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://www.tapita.io/pages/faqs-g-combined-listings-variant",
+            "https://tapita0.zohodesk.com/portal/en/kb/articles/getting-started-with-grouptify-combined-listings",
+            "https://tapita0.zohodesk.com/portal/en/kb/grouptify-combined-listings"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["collection-sorting-merchandising", "product-options-variants", "color-swatches"],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "G: Combined Listings & Variant Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include swatches, dropdowns.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/grouptify-combined-listings",
+          "retrieved_at": "2026-10-04T05:16:09.223083+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Grouptify assists Shopify merchants in merging related products into a single display,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/grouptify-combined-listings"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "product-options-by-bss",
+      "name": "OPTIS Product Options, Variant",
+      "slug": "product-options-by-bss",
+      "category_fit": {
+        "app_id": "product-options-by-bss",
+        "selection_score": 6.0823,
+        "rating_evidence": {"value": 4.9, "reviews": 2361},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["option", "variant"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/product-options-by-bss"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for product options & variants. Listed functions include checkboxes, swatches.",
+        "description_long": "OPTIS Product Options, Variant is developed by OPTIS and listed for product variants, custom file upload. Its structured listing identifies functions such as checkboxes, swatches, conditional logic, fonts. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Options & Variants", "Product Personalizers", "Customer File Uploads", "Color Swatches"],
+        "best_for": {
+          "use_cases": ["Product Options & Variants", "Product Personalizers", "Customer File Uploads", "Color Swatches"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 2361,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/product-options-by-bss",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 2},
+          {"stars": 4, "percentage": 2, "count": 41},
+          {"stars": 3, "percentage": 0, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 1, "count": 15}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "ADVANCED",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PLATINUM",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "UNLIMITED",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "December 2, 2021",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          },
+          {
+            "name": "Custom file upload",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-custom-file-upload"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.checkboxes", "label": "Checkboxes"},
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.product_variants.customization.fonts", "label": "Fonts"},
+          {"handle": "cf.product_variants.customization.dates", "label": "Dates"},
+          {"handle": "cf.product_variants.customization.dimensions", "label": "Dimensions"},
+          {"handle": "cf.product_variants.customization.dropdowns", "label": "Dropdowns"},
+          {"handle": "cf.product_variants.customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.product_variants.customization.multi_select", "label": "Multi-select"},
+          {"handle": "cf.product_variants.customization.numbers", "label": "Numbers"},
+          {"handle": "cf.product_variants.customization.radio_buttons", "label": "Radio buttons"},
+          {"handle": "cf.product_variants.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.product_variants.customization.gift_wrap", "label": "Gift wrap"},
+          {"handle": "cf.product_variants.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_variants.customization.custom_html", "label": "Custom HTML"},
+          {"handle": "cf.product_variants.customization.size_chart", "label": "Size charts"},
+          {"handle": "cf.product_variants.customization.preview", "label": "Preview"},
+          {"handle": "cf.product_variants.customization.translation", "label": "Translation"},
+          {"handle": "cf.product_variants.customization.import_and_export", "label": "Import and export"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"},
+          {"handle": "cf.product_variants.pricing.conditional_pricing", "label": "Conditional pricing"},
+          {"handle": "cf.product_variants.pricing.discount_options", "label": "Discount options"},
+          {"handle": "cf.product_variants.pricing.add_ons", "label": "Add-ons"},
+          {"handle": "cf.product_variants.pricing.variant_upcharges", "label": "Variant upcharges"},
+          {"handle": "cf.product_variants.pricing.setup_charges", "label": "Setup charges"},
+          {"handle": "cf.product_variants.inventory.hide_out_of_stock", "label": "Hide out-of-stock"},
+          {"handle": "cf.product_variants.inventory.sku_management", "label": "SKU management"},
+          {"handle": "cf.product_variants.inventory.stock_availability", "label": "Stock availability"},
+          {"handle": "cf.product_variants.inventory.in_stock_display", "label": "In-stock display"},
+          {"handle": "cf.product_variants.inventory.manual_update", "label": "Manual updates"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " German",
+          " Spanish",
+          " Japanese",
+          " Italian",
+          " Dutch",
+          " Danish",
+          " Finnish",
+          " Swedish",
+          " Korean",
+          " Chinese (Simplified)",
+          " Polish",
+          " Thai",
+          " Czech",
+          " Turkish",
+          " Vietnamese",
+          " Arabic",
+          " Romanian",
+          " Russian",
+          " Hebrew",
+          " and Portuguese (Brazil)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "B2B/Wholesale Solution",
+          "OPTIS Color Swatch",
+          "Pagefly",
+          "SimiCart",
+          "Translate & Adapt"
+        ]
+      },
+      "developer": {
+        "name": "OPTIS",
+        "website_url": "https://optis.me/optis-product-options-variants/",
+        "partner_url": "https://apps.shopify.com/partners/optis-bss",
+        "public_address": "Ha Noi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/product-options-by-bss",
+        "canonical_app_store_url": "https://apps.shopify.com/product-options-by-bss",
+        "install_url": "https://apps.shopify.com/product-options-by-bss",
+        "demo_store_url": "https://optis-product-options-variant.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://optis.me/privacy-policy/",
+          "FAQ": "https://docs.optis.me/product-options",
+          "Tutorial": "https://docs.optis.me/product-options/getting-started/quickstart",
+          "OPTIS": "https://apps.shopify.com/partners/optis-bss",
+          "Website": "https://optis.me/optis-product-options-variants/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/icon/COWZ0fD0zosDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/promotional_image/CIqXuoqU-ZEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/desktop_screenshot/CIWg1f3NjpADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/desktop_screenshot/CNm53_3NjpADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/desktop_screenshot/CNuA6P3NjpADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/desktop_screenshot/CJi68P3NjpADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/desktop_screenshot/CJqU-f3NjpADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/desktop_screenshot/CJXvwoqU-ZEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/mobile_screenshot/CLPxi-ulg5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/mobile_screenshot/CN2DlOulg5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/mobile_screenshot/CLCDneulg5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/mobile_screenshot/CPe6peulg5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/mobile_screenshot/CNryreulg5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/mobile_screenshot/CLiCt-ulg5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/pos_screenshot/CLrTv-ulg5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/pos_screenshot/CJmZyOulg5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/pos_screenshot/CIXO0Oulg5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/pos_screenshot/CKDX2Oulg5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/pos_screenshot/CLvFp9Lny5QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5e7100d6dd8a25eae7b75d50f0d897df/pos_screenshot/CIubhZ6umZMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is OPTIS Product Options, Variant free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/product-options-by-bss"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  German,  Spanish,  Japanese,  Italian,  Dutch,  Danish,  Finnish,  Swedish,  Korean,  Chinese (Simplified),  Polish,  Thai,  Czech,  Turkish,  Vietnamese,  Arabic,  Romanian,  Russian,  Hebrew,  and Portuguese (Brazil)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/product-options-by-bss"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, B2B/Wholesale Solution, OPTIS Color Swatch, Pagefly, SimiCart, Translate & Adapt",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/product-options-by-bss"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/product-options-by-bss"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.optis.me/product-options",
+            "https://docs.optis.me/product-options/getting-started/quickstart"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create the options, personalization fields or sizing content required for a sample product.",
+            "Place a test order and check that the selected details are captured correctly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-options-variants", "product-personalizers", "customer-file-uploads", "color-swatches"],
+        "primary_category_id": "product-options-variants",
+        "seo": {
+          "title": "OPTIS Product Options, Variant Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product options & variants. Listed functions include checkboxes, swatches.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/product-options-by-bss",
+          "retrieved_at": "2026-10-04T05:15:51.770405+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Best Shopify Product Options app for unlimited variant option product options with…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/product-options-by-bss"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "ymq-options",
+      "name": "Ymq Product Options, Variants",
+      "slug": "ymq-options",
+      "category_fit": {
+        "app_id": "ymq-options",
+        "selection_score": 6.081,
+        "rating_evidence": {"value": 5.0, "reviews": 422},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["option", "variant"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/ymq-options"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for product options & variants. Listed functions include checkboxes, swatches.",
+        "description_long": "Ymq Product Options, Variants is developed by YMQ and listed for product variants, custom products - other. Its structured listing identifies functions such as checkboxes, swatches, conditional logic, dates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Options & Variants", "Customer File Uploads", "Color Swatches"],
+        "best_for": {
+          "use_cases": ["Product Options & Variants", "Customer File Uploads", "Color Swatches"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 422,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/ymq-options",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 410},
+          {"stars": 4, "percentage": 1, "count": 3},
+          {"stars": 3, "percentage": 1, "count": 3},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 6}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 16.99,
+            "billing_period": "month",
+            "price_display": "$16.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 26.99,
+            "billing_period": "month",
+            "price_display": "$26.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "March 23, 2021",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          },
+          {
+            "name": "Custom products - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-custom-products-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.checkboxes", "label": "Checkboxes"},
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.product_variants.customization.dates", "label": "Dates"},
+          {"handle": "cf.product_variants.customization.dropdowns", "label": "Dropdowns"},
+          {"handle": "cf.product_variants.customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.product_variants.customization.multi_select", "label": "Multi-select"},
+          {"handle": "cf.product_variants.customization.numbers", "label": "Numbers"},
+          {"handle": "cf.product_variants.customization.radio_buttons", "label": "Radio buttons"},
+          {"handle": "cf.product_variants.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.product_variants.customization.gift_wrap", "label": "Gift wrap"},
+          {"handle": "cf.product_variants.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_variants.customization.custom_html", "label": "Custom HTML"},
+          {"handle": "cf.product_variants.customization.size_chart", "label": "Size charts"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"},
+          {"handle": "cf.product_variants.pricing.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.product_variants.pricing.dynamic_pricing", "label": "Dynamic pricing"},
+          {"handle": "cf.product_variants.pricing.add_ons", "label": "Add-ons"},
+          {"handle": "cf.product_variants.pricing.tiered_pricing", "label": "Tiered pricing"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Exportsy Orders Google Sheets",
+          "Ymq B2B & Wholesale Solution",
+          "Ymq B2B Lock, Login & Password",
+          "Ymq Bundle Quantity Breaks",
+          "Ymq Cart Drawer & Cart Upsell",
+          "Ymq Upsell & Cross Sell"
+        ]
+      },
+      "developer": {
+        "name": "YMQ",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/pqd",
+        "public_address": "liuhe, xiongzhou, NanJing, JS, 211500, CN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/ymq-options",
+        "canonical_app_store_url": "https://apps.shopify.com/ymq-options",
+        "install_url": "https://apps.shopify.com/ymq-options",
+        "demo_store_url": "https://wolan1.myshopify.com/collections/option-types",
+        "resources": {
+          "Privacy policy": "https://cdn.ymq.cool/ymq-option/privacy-policy.html",
+          "FAQ": "https://ymq-app.gitbook.io/ymq-product-options-app",
+          "YMQ": "https://apps.shopify.com/partners/pqd"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/7b95480e6b5ce6514d4e647cdee0924e/icon/CKOp1qSmoe8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/7b95480e6b5ce6514d4e647cdee0924e/promotional_image/CMyz1r3al5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7b95480e6b5ce6514d4e647cdee0924e/desktop_screenshot/COD_25fal5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7b95480e6b5ce6514d4e647cdee0924e/desktop_screenshot/CKGt5Zfal5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7b95480e6b5ce6514d4e647cdee0924e/desktop_screenshot/COav7pfal5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7b95480e6b5ce6514d4e647cdee0924e/desktop_screenshot/CPDZ9pfal5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7b95480e6b5ce6514d4e647cdee0924e/desktop_screenshot/CMz7_pfal5MDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/7b95480e6b5ce6514d4e647cdee0924e/desktop_screenshot/CN2L373al5MDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Ymq Product Options, Variants free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/ymq-options"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ymq-options"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Exportsy Orders Google Sheets, Ymq B2B & Wholesale Solution, Ymq B2B Lock, Login & Password, Ymq Bundle Quantity Breaks, Ymq Cart Drawer & Cart Upsell, Ymq Upsell & Cross Sell",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/ymq-options"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/ymq-options"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://ymq-app.gitbook.io/ymq-product-options-app"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create the options, personalization fields or sizing content required for a sample product.",
+            "Place a test order and check that the selected details are captured correctly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-options-variants", "customer-file-uploads", "color-swatches"],
+        "primary_category_id": "product-options-variants",
+        "seo": {
+          "title": "Ymq Product Options, Variants Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product options & variants. Listed functions include checkboxes, swatches.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/ymq-options",
+          "retrieved_at": "2026-10-04T05:16:23.061135+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/ymq-options"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "globo-color-swatches",
+      "name": "GLO Color Swatch Variant Image",
+      "slug": "globo-color-swatches",
+      "category_fit": {
+        "app_id": "globo-color-swatches",
+        "selection_score": 6.0711,
+        "rating_evidence": {"value": 4.9, "reviews": 1879},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["variant", "option"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/globo-color-swatches"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for product bundles. Listed functions include swatches, conditional logic.",
+        "description_long": "GLO Color Swatch Variant Image is developed by Globo Options and listed for product variants, product bundles. Its structured listing identifies functions such as swatches, conditional logic, dropdowns, radio buttons. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Bundles", "Product Options & Variants", "Product Personalizers", "Color Swatches"],
+        "best_for": {
+          "use_cases": ["Product Bundles", "Product Options & Variants", "Product Personalizers", "Color Swatches"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1879,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/globo-color-swatches",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 1},
+          {"stars": 4, "percentage": 3, "count": 51},
+          {"stars": 3, "percentage": 0, "count": 7},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 19}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "SILVER",
+            "amount_usd": 9.9,
+            "billing_period": "month",
+            "price_display": "$9.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $99/year and save 17%"]
+          },
+          {
+            "name": "GOLD",
+            "amount_usd": 19.9,
+            "billing_period": "month",
+            "price_display": "$19.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $199/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 10, 2021",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          },
+          {
+            "name": "Product bundles",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-product-bundles"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.product_variants.customization.dropdowns", "label": "Dropdowns"},
+          {"handle": "cf.product_variants.customization.radio_buttons", "label": "Radio buttons"},
+          {"handle": "cf.product_variants.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_variants.customization.preview", "label": "Preview"},
+          {"handle": "cf.product_variants.customization.translation", "label": "Translation"},
+          {"handle": "cf.product_variants.customization.import_and_export", "label": "Import and export"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"},
+          {"handle": "cf.product_variants.pricing.dynamic_pricing", "label": "Dynamic pricing"},
+          {"handle": "cf.product_variants.pricing.add_ons", "label": "Add-ons"},
+          {"handle": "cf.product_variants.inventory.low_stock_alerts", "label": "Low stock alerts"},
+          {"handle": "cf.product_variants.inventory.hide_out_of_stock", "label": "Hide out-of-stock"},
+          {"handle": "cf.product_variants.inventory.stock_availability", "label": "Stock availability"},
+          {"handle": "cf.product_variants.inventory.in_stock_display", "label": "In-stock display"},
+          {"handle": "cf.product_variants.inventory.auto_update", "label": "Auto-updates"},
+          {"handle": "cf.product_bundles.bundle_types.fixed_bundles", "label": "Fixed bundles"},
+          {"handle": "cf.product_bundles.bundle_types.cross_sell_bundles", "label": "Cross-sell bundles"},
+          {
+            "handle": "cf.product_bundles.bundle_types.frequently_bought_together",
+            "label": "Frequently bought together"
+          },
+          {"handle": "cf.product_bundles.bundle_types.digital_products", "label": "Digital products"},
+          {"handle": "cf.product_bundles.bundle_types.custom_bundles", "label": "Custom bundles"},
+          {"handle": "cf.product_bundles.pricing_you_can_set.fixed_pricing", "label": "Fixed pricing"},
+          {"handle": "cf.product_bundles.pricing_you_can_set.tiered_pricing", "label": "Tiered pricing"},
+          {"handle": "cf.product_bundles.pricing_you_can_set.discounts", "label": "Discounts"},
+          {"handle": "cf.product_bundles.pricing_you_can_set.flat_discounts", "label": "Flat discounts"},
+          {
+            "handle": "cf.product_bundles.pricing_you_can_set.percentage_discounts",
+            "label": "Percentage discounts"
+          }
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Chinese (Simplified)",
+          " German",
+          " Italian",
+          " Spanish",
+          " Japanese",
+          " Dutch",
+          " Danish",
+          " Portuguese (Portugal)",
+          " and Swedish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Globo Product Options",
+          "Page Builder apps",
+          "Smart Product Filter & Search"
+        ]
+      },
+      "developer": {
+        "name": "Globo Options",
+        "website_url": "https://globo.io/",
+        "partner_url": "https://apps.shopify.com/partners/globo-options",
+        "public_address": "Hanoi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/globo-color-swatches",
+        "canonical_app_store_url": "https://apps.shopify.com/globo-color-swatches",
+        "install_url": "https://apps.shopify.com/globo-color-swatches",
+        "demo_store_url": "https://nga-appstore.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://globo.io/privacy-policy/",
+          "FAQ": "https://docs.globo.io/swatch",
+          "Tutorial": "https://www.youtube.com/playlist?list=PL2qM--l2KXriRWPqs_XN5Qw6Uf9-yd3Gw",
+          "App Documentation": "https://docs.globo.io/swatch",
+          "Globo Options": "https://apps.shopify.com/partners/globo-options",
+          "Website": "https://globo.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9995b073cfe955d98eb8e9961e8dd7be/icon/CM-Kw8-05_4CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9995b073cfe955d98eb8e9961e8dd7be/promotional_image/CIzh-7fa0IcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9995b073cfe955d98eb8e9961e8dd7be/desktop_screenshot/CIfeld-1_4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9995b073cfe955d98eb8e9961e8dd7be/desktop_screenshot/CIuEoN-1_4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9995b073cfe955d98eb8e9961e8dd7be/desktop_screenshot/CIzzqd-1_4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9995b073cfe955d98eb8e9961e8dd7be/desktop_screenshot/CLabs9-1_4kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9995b073cfe955d98eb8e9961e8dd7be/desktop_screenshot/CJDEtITj7JMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is GLO Color Swatch Variant Image free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/globo-color-swatches"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Chinese (Simplified),  German,  Italian,  Spanish,  Japanese,  Dutch,  Danish,  Portuguese (Portugal),  and Swedish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/globo-color-swatches"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Globo Product Options, Page Builder apps, Smart Product Filter & Search",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/globo-color-swatches"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/globo-color-swatches"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.globo.io/swatch",
+            "https://www.youtube.com/playlist?list=PL2qM--l2KXriRWPqs_XN5Qw6Uf9-yd3Gw",
+            "https://docs.globo.io/swatch"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select eligible products and set the offer conditions.",
+            "Preview the offer and test cart totals on a sample order.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-bundles", "product-options-variants", "product-personalizers", "color-swatches"],
+        "primary_category_id": "product-bundles",
+        "seo": {
+          "title": "GLO Color Swatch Variant Image Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product bundles. Listed functions include swatches, conditional logic.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/globo-color-swatches",
+          "retrieved_at": "2026-10-04T05:15:51.787559+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Add color & image swatches, product bundles, and variant grouping to boost…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/globo-color-swatches"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "aris-product-options",
+      "name": "Aris Product Options, Variants",
+      "slug": "aris-product-options",
+      "category_fit": {
+        "app_id": "aris-product-options",
+        "selection_score": 6.0655,
+        "rating_evidence": {"value": 4.9, "reviews": 1681},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["option", "variant"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/aris-product-options"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for product options & variants. Listed functions include checkboxes, swatches.",
+        "description_long": "Aris Product Options, Variants is developed by Arisify Global and listed for product variants, custom products - other. Its structured listing identifies functions such as checkboxes, swatches, conditional logic, fonts. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Options & Variants"],
+        "best_for": {
+          "use_cases": ["Product Options & Variants"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1681,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/aris-product-options",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 1},
+          {"stars": 4, "percentage": 1, "count": 16},
+          {"stars": 3, "percentage": 1, "count": 11},
+          {"stars": 2, "percentage": 0, "count": 4},
+          {"stars": 1, "percentage": 1, "count": 11}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE FOREVER",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 12.0,
+            "billing_period": "month",
+            "price_display": "$12 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $120/year and save 17%", "$29/mo for Shopify Plus"]
+          },
+          {
+            "name": "ADVANCED",
+            "amount_usd": 24.0,
+            "billing_period": "month",
+            "price_display": "$24 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $240/year and save 17%", "$39/mo for Shopify Plus"]
+          },
+          {
+            "name": "PREMIUM",
+            "amount_usd": 59.0,
+            "billing_period": "month",
+            "price_display": "$59 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $590/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.arisify.io/pricing",
+        "starting_paid_monthly_price_usd": 12.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "December 19, 2021",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          },
+          {
+            "name": "Custom products - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-custom-products-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.checkboxes", "label": "Checkboxes"},
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.product_variants.customization.fonts", "label": "Fonts"},
+          {"handle": "cf.product_variants.customization.dates", "label": "Dates"},
+          {"handle": "cf.product_variants.customization.dimensions", "label": "Dimensions"},
+          {"handle": "cf.product_variants.customization.dropdowns", "label": "Dropdowns"},
+          {"handle": "cf.product_variants.customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.product_variants.customization.multi_select", "label": "Multi-select"},
+          {"handle": "cf.product_variants.customization.numbers", "label": "Numbers"},
+          {"handle": "cf.product_variants.customization.radio_buttons", "label": "Radio buttons"},
+          {"handle": "cf.product_variants.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.product_variants.customization.gift_wrap", "label": "Gift wrap"},
+          {"handle": "cf.product_variants.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_variants.customization.custom_html", "label": "Custom HTML"},
+          {"handle": "cf.product_variants.customization.size_chart", "label": "Size charts"},
+          {"handle": "cf.product_variants.customization.preview", "label": "Preview"},
+          {"handle": "cf.product_variants.customization.translation", "label": "Translation"},
+          {"handle": "cf.product_variants.customization.import_and_export", "label": "Import and export"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"},
+          {"handle": "cf.product_variants.pricing.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.product_variants.pricing.dynamic_pricing", "label": "Dynamic pricing"},
+          {"handle": "cf.product_variants.pricing.add_ons", "label": "Add-ons"},
+          {"handle": "cf.product_variants.pricing.variant_upcharges", "label": "Variant upcharges"},
+          {"handle": "cf.product_variants.pricing.setup_charges", "label": "Setup charges"},
+          {"handle": "cf.product_variants.pricing.premium_upcharges", "label": "Premium upcharges"},
+          {"handle": "cf.product_variants.inventory.hide_out_of_stock", "label": "Hide out-of-stock"},
+          {"handle": "cf.product_variants.inventory.sku_management", "label": "SKU management"},
+          {"handle": "cf.product_variants.inventory.stock_availability", "label": "Stock availability"},
+          {"handle": "cf.product_variants.inventory.manual_update", "label": "Manual updates"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " French",
+          " Japanese",
+          " Spanish",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Turkish",
+          " Chinese (Simplified)",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "BOGOS.io Free Gift Buy X Get Y",
+          "BON: Loyalty Program & Rewards",
+          "Ecomposer Page Builder",
+          "Ego Cart Upsell Cart Drawer",
+          "Transcy: AI Language Translate",
+          "UpPromote Affiliate Marketing"
+        ]
+      },
+      "developer": {
+        "name": "Arisify Global",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/arisify-global-jsc",
+        "public_address": "No. 51, Quan Nhan Street Thanh Xuan Ward, Ha Noi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/aris-product-options",
+        "canonical_app_store_url": "https://apps.shopify.com/aris-product-options",
+        "install_url": "https://apps.shopify.com/aris-product-options",
+        "demo_store_url": "https://demo-po.arisify.io",
+        "resources": {
+          "Privacy policy": "https://www.arisify.io/privacy-aris-product-option",
+          "App Documentation": "https://www.arisify.io/resources/help-center/product-options",
+          "Arisify Global": "https://apps.shopify.com/partners/arisify-global-jsc"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/5ee1f244b087cfbec9b19c8b3f62c8f6/icon/CJvLhp3Y_pQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/5ee1f244b087cfbec9b19c8b3f62c8f6/promotional_image/CMfT4dbz_pQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5ee1f244b087cfbec9b19c8b3f62c8f6/desktop_screenshot/CIGmucyOlI8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5ee1f244b087cfbec9b19c8b3f62c8f6/desktop_screenshot/COuIxMyOlI8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5ee1f244b087cfbec9b19c8b3f62c8f6/desktop_screenshot/COnBzsyOlI8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5ee1f244b087cfbec9b19c8b3f62c8f6/desktop_screenshot/CIix2MyOlI8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5ee1f244b087cfbec9b19c8b3f62c8f6/desktop_screenshot/CNbciovQp48DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5ee1f244b087cfbec9b19c8b3f62c8f6/mobile_screenshot/CJyh7Nbz_pQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5ee1f244b087cfbec9b19c8b3f62c8f6/mobile_screenshot/CJammYvQp48DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5ee1f244b087cfbec9b19c8b3f62c8f6/pos_screenshot/CPy7_syOlI8DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Aris Product Options, Variants free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/aris-product-options"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Japanese,  Spanish,  Italian,  Portuguese (Brazil),  Turkish,  Chinese (Simplified),  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/aris-product-options"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, BOGOS.io Free Gift Buy X Get Y, BON: Loyalty Program & Rewards, Ecomposer Page Builder, Ego Cart Upsell Cart Drawer, Transcy: AI Language Translate, UpPromote Affiliate Marketing",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/aris-product-options"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/aris-product-options"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://www.arisify.io/resources/help-center/product-options"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create the options, personalization fields or sizing content required for a sample product.",
+            "Place a test order and check that the selected details are captured correctly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-options-variants"],
+        "primary_category_id": "product-options-variants",
+        "seo": {
+          "title": "Aris Product Options, Variants Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product options & variants. Listed functions include checkboxes, swatches.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/aris-product-options",
+          "retrieved_at": "2026-10-04T05:16:18.437848+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "A product customizer with limitless product options, variants options, diverse styles and…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/aris-product-options"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "product-personalizer",
+      "name": "Zepto Product Personalizer",
+      "slug": "product-personalizer",
+      "category_fit": {
+        "app_id": "product-personalizer",
+        "selection_score": 6.0568,
+        "rating_evidence": {"value": 4.9, "reviews": 1417},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["option", "variant"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/product-personalizer"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for product options & variants. Listed functions include checkboxes, swatches.",
+        "description_long": "Zepto Product Personalizer is developed by Zepto Apps and listed for product variants, custom products - other. Its structured listing identifies functions such as checkboxes, swatches, conditional logic, fonts. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Product Options & Variants", "Product Personalizers"],
+        "best_for": {
+          "use_cases": ["Product Options & Variants", "Product Personalizers"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1417,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/product-personalizer",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 1},
+          {"stars": 4, "percentage": 3, "count": 45},
+          {"stars": 3, "percentage": 1, "count": 13},
+          {"stars": 2, "percentage": 0, "count": 6},
+          {"stars": 1, "percentage": 2, "count": 23}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $9.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Unlimited",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 22, 2016",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          },
+          {
+            "name": "Custom products - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-custom-products-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.checkboxes", "label": "Checkboxes"},
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.product_variants.customization.fonts", "label": "Fonts"},
+          {"handle": "cf.product_variants.customization.dates", "label": "Dates"},
+          {"handle": "cf.product_variants.customization.dropdowns", "label": "Dropdowns"},
+          {"handle": "cf.product_variants.customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.product_variants.customization.multi_select", "label": "Multi-select"},
+          {"handle": "cf.product_variants.customization.numbers", "label": "Numbers"},
+          {"handle": "cf.product_variants.customization.radio_buttons", "label": "Radio buttons"},
+          {"handle": "cf.product_variants.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.product_variants.customization.gift_wrap", "label": "Gift wrap"},
+          {"handle": "cf.product_variants.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_variants.customization.custom_html", "label": "Custom HTML"},
+          {"handle": "cf.product_variants.customization.preview", "label": "Preview"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"},
+          {"handle": "cf.product_variants.pricing.conditional_pricing", "label": "Conditional pricing"},
+          {"handle": "cf.product_variants.pricing.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.product_variants.pricing.dynamic_pricing", "label": "Dynamic pricing"},
+          {"handle": "cf.product_variants.pricing.add_ons", "label": "Add-ons"},
+          {"handle": "cf.product_variants.pricing.variant_upcharges", "label": "Variant upcharges"},
+          {"handle": "cf.product_variants.inventory.hide_out_of_stock", "label": "Hide out-of-stock"},
+          {"handle": "cf.product_variants.inventory.sku_management", "label": "SKU management"},
+          {"handle": "cf.product_variants.inventory.auto_update", "label": "Auto-updates"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "EComposer Landing Page Builder",
+          "Gelato: Print on Demand",
+          "GemPages Landing Page Builder",
+          "PageFly Page Builder",
+          "Printful: Print on Demand",
+          "ShineOn: Print On Demand"
+        ]
+      },
+      "developer": {
+        "name": "Zepto Apps",
+        "website_url": "http://productpersonalizer.com?ref=sp",
+        "partner_url": "https://apps.shopify.com/partners/zepto-apps",
+        "public_address": "6th floor, Plot-36, 9th Avenue, Block - D, Sector 15, Dhaka, 1230, BD"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/product-personalizer",
+        "canonical_app_store_url": "https://apps.shopify.com/product-personalizer",
+        "install_url": "https://apps.shopify.com/product-personalizer",
+        "demo_store_url": "https://product-personalizer.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://productpersonalizer.com/privacy-policy/",
+          "FAQ": "http://productpersonalizer.com/docs/category/faqs",
+          "Tutorial": "https://productpersonalizer.com/docs/category/videos/",
+          "App Documentation": "https://www.productpersonalizer.com/docs/",
+          "Zepto Apps": "https://apps.shopify.com/partners/zepto-apps",
+          "Website": "http://productpersonalizer.com?ref=sp"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6c3fa8aea073718ce069cf82939fc5a8/icon/CJrz7L70lu8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6c3fa8aea073718ce069cf82939fc5a8/desktop_screenshot/CMXtgaKl_voCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6c3fa8aea073718ce069cf82939fc5a8/desktop_screenshot/CJj99ZLGgPsCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6c3fa8aea073718ce069cf82939fc5a8/desktop_screenshot/CIfC5qXzh_sCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6c3fa8aea073718ce069cf82939fc5a8/desktop_screenshot/CJOCwvPGgPsCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6c3fa8aea073718ce069cf82939fc5a8/desktop_screenshot/CPjGwqKl_voCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6c3fa8aea073718ce069cf82939fc5a8/desktop_screenshot/CJfI_8qb3o8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6c3fa8aea073718ce069cf82939fc5a8/mobile_screenshot/CM_19MT6qPwCEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/cqjlMgZ6964"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Zepto Product Personalizer free?",
+            "answer": "The pricing label retrieved from the listing is: From $9.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/product-personalizer"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/product-personalizer"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, EComposer Landing Page Builder, Gelato: Print on Demand, GemPages Landing Page Builder, PageFly Page Builder, Printful: Print on Demand, ShineOn: Print On Demand",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/product-personalizer"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/product-personalizer"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "http://productpersonalizer.com/docs/category/faqs",
+            "https://productpersonalizer.com/docs/category/videos/",
+            "https://www.productpersonalizer.com/docs/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create the options, personalization fields or sizing content required for a sample product.",
+            "Place a test order and check that the selected details are captured correctly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["product-options-variants", "product-personalizers"],
+        "primary_category_id": "product-options-variants",
+        "seo": {
+          "title": "Zepto Product Personalizer Shopify App | eStorefy",
+          "meta_description": "A Shopify app for product options & variants. Listed functions include checkboxes, swatches.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/product-personalizer",
+          "retrieved_at": "2026-10-04T05:16:02.214910+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Add unlimited custom product options with live preview: image upload, swatches, text…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/product-personalizer"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

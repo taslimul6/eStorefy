@@ -1,0 +1,3444 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "event-tickets",
+    "number": 59,
+    "name": "Event Tickets",
+    "group": "Digital Products & Services",
+    "slug": "event-tickets",
+    "url_path": "/apps/event-tickets",
+    "focus": "Sell downloads, access, appointments and bookings.",
+    "description": "Compare Shopify apps for event tickets. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking/all"],
+    "seo": {
+      "title": "Shopify Event Tickets Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for event tickets: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a event tickets app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "appointly",
+      "name": "Appointment Booking App Apntly",
+      "slug": "appointly",
+      "category_fit": {
+        "app_id": "appointly",
+        "selection_score": 6.1628,
+        "rating_evidence": {"value": 5.0, "reviews": 1632},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["event"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/appointly"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for appointment booking. Listed functions include appointments, rentals.",
+        "description_long": "Appointment Booking App Apntly is developed by Booking Appointly and listed for event booking, digital products. Its structured listing identifies functions such as appointments, rentals, classes, services. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Appointment Booking", "Event Tickets"],
+        "best_for": {
+          "use_cases": ["Appointment Booking", "Event Tickets"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 1632,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/appointly",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 1},
+          {"stars": 4, "percentage": 1, "count": 20},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 5.0,
+            "billing_period": "month",
+            "price_display": "$5 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 9.0,
+            "billing_period": "month",
+            "price_display": "$9 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 5.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 1, 2021",
+        "shopify_categories": [
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          },
+          {
+            "name": "Digital products",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-products"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.event_booking.event_type.appointments", "label": "Appointments"},
+          {"handle": "cf.event_booking.event_type.rentals", "label": "Rentals"},
+          {"handle": "cf.event_booking.event_type.classes", "label": "Classes"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.online", "label": "Online"},
+          {"handle": "cf.event_booking.event_type.custom_event", "label": "Custom events"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.time_slots", "label": "Time slots"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.multi_booking", "label": "Multi-booking"},
+          {"handle": "cf.event_booking.booking_management.cancel_booking", "label": "Cancel booking"},
+          {"handle": "cf.event_booking.booking_management.capacity_limits", "label": "Capacity limits"},
+          {"handle": "cf.event_booking.booking_management.ticketing", "label": "Ticketing"},
+          {"handle": "cf.event_booking.booking_management.event_check_in", "label": "Event check-in"},
+          {"handle": "cf.event_booking.booking_management.data_sync", "label": "Data sync"},
+          {"handle": "cf.event_booking.booking_management.real_time_updates", "label": "Real-time updates"},
+          {
+            "handle": "cf.event_booking.booking_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.booking_management.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.event_booking.booking_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.event_booking.booking_management.multi_location", "label": "Multi-location"},
+          {"handle": "cf.event_booking.booking_management.payments", "label": "Payments"},
+          {"handle": "cf.event_booking.booking_management.deposits", "label": "Deposits"},
+          {"handle": "cf.event_booking.booking_management.staff_management", "label": "Staff management"},
+          {"handle": "cf.event_booking.customization.booking_pages", "label": "Booking pages"},
+          {"handle": "cf.event_booking.customization.calendar_widget", "label": "Calendar widget"},
+          {"handle": "cf.event_booking.customization.custom_tickets", "label": "Custom tickets"},
+          {"handle": "cf.event_booking.customization.custom_forms", "label": "Custom forms"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " French",
+          " German",
+          " Italian",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Admin",
+          "appointment",
+          "appointment booking",
+          "booking",
+          "calendar",
+          "calendly",
+          "Zoom"
+        ]
+      },
+      "developer": {
+        "name": "Booking Appointly",
+        "website_url": "https://app.apntly.com",
+        "partner_url": "https://apps.shopify.com/partners/appointly",
+        "public_address": "Ambika Enclave, Kakrola, Dwarka Sec-15, New Delhi, DL, 110078, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/appointly",
+        "canonical_app_store_url": "https://apps.shopify.com/appointly",
+        "install_url": "https://apps.shopify.com/appointly",
+        "demo_store_url": "https://appointly-demo.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://dashboard.apntly.com/privacy",
+          "FAQ": "https://app.apntly.com/apntly-app/support/",
+          "Tutorial": "https://app.apntly.com/apntly-app/support/",
+          "App Documentation": "https://app.apntly.com/apntly-app/support/",
+          "Booking Appointly": "https://apps.shopify.com/partners/appointly",
+          "Website": "https://app.apntly.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/883122886ab7faa62c87a8519152d0c5/icon/CNLD0dqi6_4CEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/883122886ab7faa62c87a8519152d0c5/promotional_image/CNWvu8yunoMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/883122886ab7faa62c87a8519152d0c5/desktop_screenshot/CLT-xcyunoMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/883122886ab7faa62c87a8519152d0c5/desktop_screenshot/CIiE5saLo_YCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/883122886ab7faa62c87a8519152d0c5/desktop_screenshot/CJKg8saLo_YCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/883122886ab7faa62c87a8519152d0c5/desktop_screenshot/COme_8aLo_YCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/883122886ab7faa62c87a8519152d0c5/desktop_screenshot/CLLii6-xoIMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/883122886ab7faa62c87a8519152d0c5/desktop_screenshot/CIbggZvAo4MDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Appointment Booking App Apntly free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/appointly"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  Portuguese (Brazil),  Portuguese (Portugal),  French,  German,  Italian,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appointly"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Admin, appointment, appointment booking, booking, calendar, calendly, Zoom",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appointly"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/appointly"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://app.apntly.com/apntly-app/support/",
+            "https://app.apntly.com/apntly-app/support/",
+            "https://app.apntly.com/apntly-app/support/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["appointment-booking", "event-tickets"],
+        "primary_category_id": "appointment-booking",
+        "seo": {
+          "title": "Appointment Booking App Apntly Shopify App | eStorefy",
+          "meta_description": "A Shopify app for appointment booking. Listed functions include appointments, rentals.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/appointly",
+          "retrieved_at": "2026-10-04T05:20:01.404899+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "All-in-one calendar booking app to schedule and manage appointments, events, and services…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/appointly"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "appointment-booking-bookeasy",
+      "name": "BookX Appointment Booking App",
+      "slug": "appointment-booking-bookeasy",
+      "category_fit": {
+        "app_id": "appointment-booking-bookeasy",
+        "selection_score": 6.1066,
+        "rating_evidence": {"value": 5.0, "reviews": 612},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["event", "ticket"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for courses & memberships. Listed functions include appointments, rentals.",
+        "description_long": "BookX Appointment Booking App is developed by Logbase and listed for event booking, retail. Its structured listing identifies functions such as appointments, rentals, classes, services. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Courses & Memberships", "Appointment Booking", "Event Tickets", "Rental Booking"],
+        "best_for": {
+          "use_cases": ["Courses & Memberships", "Appointment Booking", "Event Tickets", "Rental Booking"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 612,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/appointment-booking-bookeasy",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 588},
+          {"stars": 4, "percentage": 3, "count": 16},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 6}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $107.99/year and save 10%"]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $203.99/year and save 15%"]
+          },
+          {
+            "name": "Business",
+            "amount_usd": 39.99,
+            "billing_period": "month",
+            "price_display": "$39.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $407.99/year and save 15%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.logbase.io/bookx-pricing",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 12, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          },
+          {
+            "name": "Retail",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-in-person-retail"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.event_booking.event_type.appointments", "label": "Appointments"},
+          {"handle": "cf.event_booking.event_type.rentals", "label": "Rentals"},
+          {"handle": "cf.event_booking.event_type.classes", "label": "Classes"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.online", "label": "Online"},
+          {"handle": "cf.event_booking.event_type.custom_event", "label": "Custom events"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.time_slots", "label": "Time slots"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.multi_booking", "label": "Multi-booking"},
+          {"handle": "cf.event_booking.booking_management.cancel_booking", "label": "Cancel booking"},
+          {"handle": "cf.event_booking.booking_management.capacity_limits", "label": "Capacity limits"},
+          {"handle": "cf.event_booking.booking_management.ticketing", "label": "Ticketing"},
+          {"handle": "cf.event_booking.booking_management.event_check_in", "label": "Event check-in"},
+          {"handle": "cf.event_booking.booking_management.data_sync", "label": "Data sync"},
+          {"handle": "cf.event_booking.booking_management.real_time_updates", "label": "Real-time updates"},
+          {
+            "handle": "cf.event_booking.booking_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.booking_management.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.event_booking.booking_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.event_booking.booking_management.multi_location", "label": "Multi-location"},
+          {"handle": "cf.event_booking.booking_management.payments", "label": "Payments"},
+          {"handle": "cf.event_booking.booking_management.deposits", "label": "Deposits"},
+          {"handle": "cf.event_booking.booking_management.staff_management", "label": "Staff management"},
+          {"handle": "cf.event_booking.customization.booking_pages", "label": "Booking pages"},
+          {"handle": "cf.event_booking.customization.calendar_widget", "label": "Calendar widget"},
+          {"handle": "cf.event_booking.customization.custom_tickets", "label": "Custom tickets"},
+          {"handle": "cf.event_booking.customization.custom_forms", "label": "Custom forms"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Portuguese (Brazil)",
+          " Italian",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Gmail",
+          "Google calendar",
+          "Google Meet",
+          "klaviyo",
+          "Zoom"
+        ]
+      },
+      "developer": {
+        "name": "Logbase",
+        "website_url": "https://www.logbase.io/",
+        "partner_url": "https://apps.shopify.com/partners/logbase1",
+        "public_address": "Logbase Technologies LLP, PSG STEP E-Lab, PSG College of Technology, Peelamedu, Coimbatore, TN, 641004, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/appointment-booking-bookeasy",
+        "canonical_app_store_url": "https://apps.shopify.com/appointment-booking-bookeasy",
+        "install_url": "https://apps.shopify.com/appointment-booking-bookeasy",
+        "demo_store_url": "https://bookeasy-demo-store.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://www.logbase.io/privacy-policy",
+          "FAQ": "https://bookeasy.helpkit.so/faqs/4XgTU2Uu74MgYvNF2jq8Mz",
+          "App Documentation": "https://bookeasy.helpkit.so/",
+          "Logbase": "https://apps.shopify.com/partners/logbase1",
+          "Website": "https://www.logbase.io/",
+          "Changelog": "https://bookeasy.sleekplan.app/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/icon/CI3poNnzlYADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CLjvsczM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/COiwvMzM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CMLfxszM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CLip0MzM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CPam28zM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/desktop_screenshot/CIq_5MzM5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/9c675d0bbcbe0209ed5982adee417ccd/mobile_screenshot/CNqErsCeuJMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/DUTbiMU7BB8"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BookX Appointment Booking App free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Portuguese (Brazil),  Italian,  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Gmail, Google calendar, Google Meet, klaviyo, Zoom",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://bookeasy.helpkit.so/faqs/4XgTU2Uu74MgYvNF2jq8Mz", "https://bookeasy.helpkit.so/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["courses-memberships", "appointment-booking", "event-tickets", "rental-booking"],
+        "primary_category_id": "courses-memberships",
+        "seo": {
+          "title": "BookX Appointment Booking App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for courses & memberships. Listed functions include appointments, rentals.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/appointment-booking-bookeasy",
+          "retrieved_at": "2026-10-04T05:20:09.890468+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Streamline Shopify bookings with BookX. An easy-to-use calendar booking app for appointments,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/appointment-booking-bookeasy"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "meety-appointment-booking",
+      "name": "Meety: Appointment Booking App",
+      "slug": "meety-appointment-booking",
+      "category_fit": {
+        "app_id": "meety-appointment-booking",
+        "selection_score": 6.0878,
+        "rating_evidence": {"value": 5.0, "reviews": 464},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["event"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/meety-appointment-booking"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for appointment booking. Listed functions include appointments, rentals.",
+        "description_long": "Meety: Appointment Booking App is developed by RockyHub JSC and listed for event booking, digital products. Its structured listing identifies functions such as appointments, rentals, classes, services. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Appointment Booking", "Event Tickets"],
+        "best_for": {
+          "use_cases": ["Appointment Booking", "Event Tickets"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 464,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/meety-appointment-booking",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 455},
+          {"stars": 4, "percentage": 1, "count": 4},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 7.0,
+            "billing_period": "month",
+            "price_display": "$7 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $75.60/year and save 10%"]
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 14.0,
+            "billing_period": "month",
+            "price_display": "$14 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $151.20/year and save 10%"]
+          },
+          {
+            "name": "Business",
+            "amount_usd": 27.0,
+            "billing_period": "month",
+            "price_display": "$27 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $268.92/year and save 17%",
+              "All features in Starter+. Upgrade to Enterprise ($47) to unlock Deposit, Flaviyo, Zapier & API Integration and more!"
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://meetyapp.io/pricing-plans/",
+        "starting_paid_monthly_price_usd": 7.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 4, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          },
+          {
+            "name": "Digital products",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-products"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.event_booking.event_type.appointments", "label": "Appointments"},
+          {"handle": "cf.event_booking.event_type.rentals", "label": "Rentals"},
+          {"handle": "cf.event_booking.event_type.classes", "label": "Classes"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.online", "label": "Online"},
+          {"handle": "cf.event_booking.event_type.custom_event", "label": "Custom events"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.time_slots", "label": "Time slots"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.multi_booking", "label": "Multi-booking"},
+          {"handle": "cf.event_booking.booking_management.cancel_booking", "label": "Cancel booking"},
+          {"handle": "cf.event_booking.booking_management.capacity_limits", "label": "Capacity limits"},
+          {"handle": "cf.event_booking.booking_management.ticketing", "label": "Ticketing"},
+          {"handle": "cf.event_booking.booking_management.event_check_in", "label": "Event check-in"},
+          {"handle": "cf.event_booking.booking_management.data_sync", "label": "Data sync"},
+          {"handle": "cf.event_booking.booking_management.real_time_updates", "label": "Real-time updates"},
+          {
+            "handle": "cf.event_booking.booking_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.booking_management.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.event_booking.booking_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.event_booking.booking_management.multi_location", "label": "Multi-location"},
+          {"handle": "cf.event_booking.booking_management.payments", "label": "Payments"},
+          {"handle": "cf.event_booking.booking_management.deposits", "label": "Deposits"},
+          {"handle": "cf.event_booking.booking_management.staff_management", "label": "Staff management"},
+          {"handle": "cf.event_booking.customization.booking_pages", "label": "Booking pages"},
+          {"handle": "cf.event_booking.customization.calendar_widget", "label": "Calendar widget"},
+          {"handle": "cf.event_booking.customization.custom_tickets", "label": "Custom tickets"},
+          {"handle": "cf.event_booking.customization.custom_forms", "label": "Custom forms"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " German",
+          " Japanese",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Spanish",
+          " Vietnamese",
+          " Dutch",
+          " and Hindi"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Appointment",
+          "Booking service",
+          "Calendly",
+          "Outlook/Google calendar",
+          "Zapier",
+          "Zoom"
+        ]
+      },
+      "developer": {
+        "name": "RockyHub JSC",
+        "website_url": "https://meetyapp.io/",
+        "partner_url": "https://apps.shopify.com/partners/rockyhub-jsc2",
+        "public_address": "177 Trung Kinh, V1, Home City Building, Hanoi, 10000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/meety-appointment-booking",
+        "canonical_app_store_url": "https://apps.shopify.com/meety-appointment-booking",
+        "install_url": "https://apps.shopify.com/meety-appointment-booking",
+        "demo_store_url": "https://meety-demo-store.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://meetyapp.io/privacy-policy/",
+          "FAQ": "https://meetyapp.io/docs/",
+          "Tutorial": "https://meetyapp.io/docs/enablemeetywidget/enable-widget/",
+          "App Documentation": "https://meetyapp.io/docs/",
+          "RockyHub JSC": "https://apps.shopify.com/partners/rockyhub-jsc2",
+          "Website": "https://meetyapp.io/",
+          "Changelog": "https://headwayapp.co/meety-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/b951a800586a400c245b5d4d91ea5189/icon/CNj71Le9pZEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/b951a800586a400c245b5d4d91ea5189/promotional_image/CLb13Le9pZEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b951a800586a400c245b5d4d91ea5189/desktop_screenshot/CNKqyo74q4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b951a800586a400c245b5d4d91ea5189/desktop_screenshot/CMDt1Y74q4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b951a800586a400c245b5d4d91ea5189/desktop_screenshot/CIGN5Y74q4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b951a800586a400c245b5d4d91ea5189/desktop_screenshot/CJup8I74q4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b951a800586a400c245b5d4d91ea5189/desktop_screenshot/CL_4-o74q4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b951a800586a400c245b5d4d91ea5189/desktop_screenshot/CKSxho_4q4wDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Meety: Appointment Booking App free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/meety-appointment-booking"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Chinese (Simplified),  Chinese (Traditional),  German,  Japanese,  Italian,  Portuguese (Brazil),  Portuguese (Portugal),  Spanish,  Vietnamese,  Dutch,  and Hindi",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/meety-appointment-booking"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Appointment, Booking service, Calendly, Outlook/Google calendar, Zapier, Zoom",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/meety-appointment-booking"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/meety-appointment-booking"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://meetyapp.io/docs/",
+            "https://meetyapp.io/docs/enablemeetywidget/enable-widget/",
+            "https://meetyapp.io/docs/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["appointment-booking", "event-tickets"],
+        "primary_category_id": "appointment-booking",
+        "seo": {
+          "title": "Meety: Appointment Booking App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for appointment booking. Listed functions include appointments, rentals.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/meety-appointment-booking",
+          "retrieved_at": "2026-10-04T05:20:10.027908+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Take appointments & bookings with an easy scheduling calendar. All-in-one booking app…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/meety-appointment-booking"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "cowlendar",
+      "name": "Appointment Booking Cowlendar",
+      "slug": "cowlendar",
+      "category_fit": {
+        "app_id": "cowlendar",
+        "selection_score": 6.0799,
+        "rating_evidence": {"value": 4.9, "reviews": 2248},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["event"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/cowlendar"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for appointment booking. Listed functions include appointments, rentals.",
+        "description_long": "Appointment Booking Cowlendar is developed by Booking Appointment Cowlendar and listed for event booking, digital products. Its structured listing identifies functions such as appointments, rentals, classes, services. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Appointment Booking", "Event Tickets", "Rental Booking"],
+        "best_for": {
+          "use_cases": ["Appointment Booking", "Event Tickets", "Rental Booking"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 2248,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/cowlendar",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 2},
+          {"stars": 4, "percentage": 2, "count": 46},
+          {"stars": 3, "percentage": 0, "count": 5},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 0, "count": 11}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 13.99,
+            "billing_period": "month",
+            "price_display": "$13.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 59.99,
+            "billing_period": "month",
+            "price_display": "$59.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://cowlendar.com/#pricing",
+        "starting_paid_monthly_price_usd": 13.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 21, 2022 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          },
+          {
+            "name": "Digital products",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-products"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.event_booking.event_type.appointments", "label": "Appointments"},
+          {"handle": "cf.event_booking.event_type.rentals", "label": "Rentals"},
+          {"handle": "cf.event_booking.event_type.classes", "label": "Classes"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.online", "label": "Online"},
+          {"handle": "cf.event_booking.event_type.custom_event", "label": "Custom events"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.time_slots", "label": "Time slots"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.multi_booking", "label": "Multi-booking"},
+          {"handle": "cf.event_booking.booking_management.cancel_booking", "label": "Cancel booking"},
+          {"handle": "cf.event_booking.booking_management.capacity_limits", "label": "Capacity limits"},
+          {"handle": "cf.event_booking.booking_management.ticketing", "label": "Ticketing"},
+          {"handle": "cf.event_booking.booking_management.event_check_in", "label": "Event check-in"},
+          {"handle": "cf.event_booking.booking_management.data_sync", "label": "Data sync"},
+          {"handle": "cf.event_booking.booking_management.real_time_updates", "label": "Real-time updates"},
+          {
+            "handle": "cf.event_booking.booking_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.booking_management.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.event_booking.booking_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.event_booking.booking_management.multi_location", "label": "Multi-location"},
+          {"handle": "cf.event_booking.booking_management.payments", "label": "Payments"},
+          {"handle": "cf.event_booking.booking_management.deposits", "label": "Deposits"},
+          {"handle": "cf.event_booking.booking_management.staff_management", "label": "Staff management"},
+          {"handle": "cf.event_booking.customization.booking_pages", "label": "Booking pages"},
+          {"handle": "cf.event_booking.customization.calendar_widget", "label": "Calendar widget"},
+          {"handle": "cf.event_booking.customization.custom_forms", "label": "Custom forms"},
+          {"handle": "cf.event_booking.customization.custom_notifications", "label": "Custom notifications"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " Portuguese (Brazil)",
+          " French",
+          " German",
+          " Italian",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "Appointment",
+          "Booking",
+          "booking app",
+          "Calendly",
+          "klaviyo",
+          "Zoom"
+        ]
+      },
+      "developer": {
+        "name": "Booking Appointment Cowlendar",
+        "website_url": "https://cowlendar.com/",
+        "partner_url": "https://apps.shopify.com/partners/booking-appointment-cowlendar",
+        "public_address": "14 RUE CHARLES V, PARIS, 75004, FR"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/cowlendar",
+        "canonical_app_store_url": "https://apps.shopify.com/cowlendar",
+        "install_url": "https://apps.shopify.com/cowlendar",
+        "demo_store_url": "https://demo.cowlendar.com/",
+        "resources": {
+          "Privacy policy": "https://cowlendar.com/privacy-policy",
+          "FAQ": "https://penida.gitbook.io/cowlendar-help/",
+          "Tutorial": "https://help.cowlendar.com/beginners-guide",
+          "App Documentation": "http://help.cowlendar.com/",
+          "Booking Appointment Cowlendar": "https://apps.shopify.com/partners/booking-appointment-cowlendar",
+          "Website": "https://cowlendar.com/",
+          "Changelog": "https://headwayapp.co/cowlendar-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/icon/CMnisvit1pADEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/promotional_image/CJv1q_uEjY4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/desktop_screenshot/COr4z42i-4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/desktop_screenshot/CPHRscGZ-4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/desktop_screenshot/CO6omuGJ-4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/desktop_screenshot/CNO-3quN-4wDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/desktop_screenshot/CP7cruGJ-4wDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/e297c43d07c087a231c656afcdca283f/mobile_screenshot/COOOv5WY-4wDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Appointment Booking Cowlendar free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/cowlendar"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  Portuguese (Brazil),  French,  German,  Italian,  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/cowlendar"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, Appointment, Booking, booking app, Calendly, klaviyo, Zoom",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/cowlendar"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/cowlendar"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://penida.gitbook.io/cowlendar-help/",
+            "https://help.cowlendar.com/beginners-guide",
+            "http://help.cowlendar.com/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["appointment-booking", "event-tickets", "rental-booking"],
+        "primary_category_id": "appointment-booking",
+        "seo": {
+          "title": "Appointment Booking Cowlendar Shopify App | eStorefy",
+          "meta_description": "A Shopify app for appointment booking. Listed functions include appointments, rentals.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/cowlendar",
+          "retrieved_at": "2026-10-04T05:20:01.415173+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "The #1 scheduling app for Shopify. Sync Google Calendar, take bookings for…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/cowlendar"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "appointo-appointments-and-bookings",
+      "name": "Appointment Booking App ointo",
+      "slug": "appointo-appointments-and-bookings",
+      "category_fit": {
+        "app_id": "appointo-appointments-and-bookings",
+        "selection_score": 6.034,
+        "rating_evidence": {"value": 4.9, "reviews": 925},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["event"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/appointo-appointments-and-bookings"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for appointment booking. Listed functions include appointments, rentals.",
+        "description_long": "Appointment Booking App ointo is developed by Sidepanda Services LLP and listed for event booking, digital products. Its structured listing identifies functions such as appointments, rentals, classes, services. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Appointment Booking", "Event Tickets"],
+        "best_for": {
+          "use_cases": ["Appointment Booking", "Event Tickets"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 925,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/appointo-appointments-and-bookings",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 889},
+          {"stars": 4, "percentage": 2, "count": 21},
+          {"stars": 3, "percentage": 0, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 10}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 14.0,
+            "billing_period": "month",
+            "price_display": "$14 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $151/year and save 10%"]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 25.0,
+            "billing_period": "month",
+            "price_display": "$25 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $270/year and save 10%"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $421/year and save 10%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://app.appointo.me/sms_pricing",
+        "starting_paid_monthly_price_usd": 14.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 19, 2020 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          },
+          {
+            "name": "Digital products",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-products"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.event_booking.event_type.appointments", "label": "Appointments"},
+          {"handle": "cf.event_booking.event_type.rentals", "label": "Rentals"},
+          {"handle": "cf.event_booking.event_type.classes", "label": "Classes"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.online", "label": "Online"},
+          {"handle": "cf.event_booking.event_type.custom_event", "label": "Custom events"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.time_slots", "label": "Time slots"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.multi_booking", "label": "Multi-booking"},
+          {"handle": "cf.event_booking.booking_management.cancel_booking", "label": "Cancel booking"},
+          {"handle": "cf.event_booking.booking_management.capacity_limits", "label": "Capacity limits"},
+          {"handle": "cf.event_booking.booking_management.ticketing", "label": "Ticketing"},
+          {"handle": "cf.event_booking.booking_management.event_check_in", "label": "Event check-in"},
+          {"handle": "cf.event_booking.booking_management.data_sync", "label": "Data sync"},
+          {"handle": "cf.event_booking.booking_management.real_time_updates", "label": "Real-time updates"},
+          {
+            "handle": "cf.event_booking.booking_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.booking_management.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.event_booking.booking_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.event_booking.booking_management.multi_location", "label": "Multi-location"},
+          {"handle": "cf.event_booking.booking_management.payments", "label": "Payments"},
+          {"handle": "cf.event_booking.booking_management.deposits", "label": "Deposits"},
+          {"handle": "cf.event_booking.booking_management.staff_management", "label": "Staff management"},
+          {"handle": "cf.event_booking.customization.booking_pages", "label": "Booking pages"},
+          {"handle": "cf.event_booking.customization.calendar_widget", "label": "Calendar widget"},
+          {"handle": "cf.event_booking.customization.custom_tickets", "label": "Custom tickets"},
+          {"handle": "cf.event_booking.customization.custom_forms", "label": "Custom forms"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Italian",
+          " Dutch",
+          " Portuguese (Portugal)",
+          " Portuguese (Brazil)",
+          " and Japanese"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify POS",
+          "Shopify Admin",
+          "Appointment",
+          "appointment booking",
+          "Booking",
+          "Calendar",
+          "Calendly",
+          "Zoom"
+        ]
+      },
+      "developer": {
+        "name": "Sidepanda Services LLP",
+        "website_url": "https://www.sidepanda.com/",
+        "partner_url": "https://apps.shopify.com/partners/sidepanda",
+        "public_address": "HD 104, Salarpuira Magnificia, Bangalore, KA, 560016, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/appointo-appointments-and-bookings",
+        "canonical_app_store_url": "https://apps.shopify.com/appointo-appointments-and-bookings",
+        "install_url": "https://apps.shopify.com/appointo-appointments-and-bookings",
+        "demo_store_url": "https://apps.sidepanda.com/collections/appointo",
+        "resources": {
+          "Privacy policy": "https://github.com/mukul13/appointo-privacy-policy/blob/main/privacy-policy.md",
+          "FAQ": "https://help.appointo.me",
+          "Tutorial": "https://youtu.be/lkQ5LokAt94",
+          "App Documentation": "https://help.appointo.me",
+          "Sidepanda Services LLP": "https://apps.shopify.com/partners/sidepanda",
+          "Website": "https://www.sidepanda.com/",
+          "Changelog": "https://67087894207fd.sleekplan.app"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/b3dccf14643e2c76121cb5c5ca9a068e/icon/CLiykKz0lu8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/b3dccf14643e2c76121cb5c5ca9a068e/desktop_screenshot/CJaq8N3J3YMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b3dccf14643e2c76121cb5c5ca9a068e/desktop_screenshot/CJyJ-93J3YMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b3dccf14643e2c76121cb5c5ca9a068e/desktop_screenshot/COKMhd7J3YMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b3dccf14643e2c76121cb5c5ca9a068e/desktop_screenshot/CNzrjd7J3YMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b3dccf14643e2c76121cb5c5ca9a068e/desktop_screenshot/CMSqmd7J3YMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b3dccf14643e2c76121cb5c5ca9a068e/pos_screenshot/CIrQp4La4oMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b3dccf14643e2c76121cb5c5ca9a068e/pos_screenshot/CL79sILa4oMDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/Cc_FDez6_Hw"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Appointment Booking App ointo free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/appointo-appointments-and-bookings"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Italian,  Dutch,  Portuguese (Portugal),  Portuguese (Brazil),  and Japanese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appointo-appointments-and-bookings"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify POS, Shopify Admin, Appointment, appointment booking, Booking, Calendar, Calendly, Zoom",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appointo-appointments-and-bookings"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/appointo-appointments-and-bookings"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.appointo.me", "https://youtu.be/lkQ5LokAt94", "https://help.appointo.me"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["appointment-booking", "event-tickets"],
+        "primary_category_id": "appointment-booking",
+        "seo": {
+          "title": "Appointment Booking App ointo Shopify App | eStorefy",
+          "meta_description": "A Shopify app for appointment booking. Listed functions include appointments, rentals.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/appointo-appointments-and-bookings",
+          "retrieved_at": "2026-10-04T05:20:01.480070+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Appointment Booking app lets you take bookings and appointments directly from your…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/appointo-appointments-and-bookings"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "appointments-and-bookings",
+      "name": "Easy Appointment Booking App",
+      "slug": "appointments-and-bookings",
+      "category_fit": {
+        "app_id": "appointments-and-bookings",
+        "selection_score": 6.004,
+        "rating_evidence": {"value": 4.9, "reviews": 558},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["event", "ticket"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/appointments-and-bookings"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for appointment booking. Listed functions include appointments, rentals.",
+        "description_long": "Easy Appointment Booking App is developed by 📆 Servicify and listed for event booking, retail. Its structured listing identifies functions such as appointments, rentals, classes, services. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Appointment Booking", "Event Tickets"],
+        "best_for": {
+          "use_cases": ["Appointment Booking", "Event Tickets"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 558,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/appointments-and-bookings",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 540},
+          {"stars": 4, "percentage": 2, "count": 11},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 1, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 15.0,
+            "billing_period": "month",
+            "price_display": "$15 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $150/year and save 17%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $250/year and save 28%"]
+          },
+          {
+            "name": "Pro Plus",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $350/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.getservicify.com/#pricing",
+        "starting_paid_monthly_price_usd": 15.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "July 7, 2020 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          },
+          {
+            "name": "Retail",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-in-person-retail"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.event_booking.event_type.appointments", "label": "Appointments"},
+          {"handle": "cf.event_booking.event_type.rentals", "label": "Rentals"},
+          {"handle": "cf.event_booking.event_type.classes", "label": "Classes"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.online", "label": "Online"},
+          {"handle": "cf.event_booking.event_type.custom_event", "label": "Custom events"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.time_slots", "label": "Time slots"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.multi_booking", "label": "Multi-booking"},
+          {"handle": "cf.event_booking.booking_management.cancel_booking", "label": "Cancel booking"},
+          {"handle": "cf.event_booking.booking_management.capacity_limits", "label": "Capacity limits"},
+          {"handle": "cf.event_booking.booking_management.ticketing", "label": "Ticketing"},
+          {"handle": "cf.event_booking.booking_management.event_check_in", "label": "Event check-in"},
+          {"handle": "cf.event_booking.booking_management.data_sync", "label": "Data sync"},
+          {"handle": "cf.event_booking.booking_management.real_time_updates", "label": "Real-time updates"},
+          {
+            "handle": "cf.event_booking.booking_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.booking_management.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.event_booking.booking_management.multi_location", "label": "Multi-location"},
+          {"handle": "cf.event_booking.booking_management.payments", "label": "Payments"},
+          {"handle": "cf.event_booking.booking_management.deposits", "label": "Deposits"},
+          {"handle": "cf.event_booking.booking_management.staff_management", "label": "Staff management"},
+          {"handle": "cf.event_booking.customization.booking_pages", "label": "Booking pages"},
+          {"handle": "cf.event_booking.customization.calendar_widget", "label": "Calendar widget"},
+          {"handle": "cf.event_booking.customization.custom_tickets", "label": "Custom tickets"},
+          {"handle": "cf.event_booking.customization.custom_forms", "label": "Custom forms"},
+          {"handle": "cf.event_booking.customization.custom_notifications", "label": "Custom notifications"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Appointment Booking",
+          "Booking App",
+          "Calendly",
+          "Google Calendar",
+          "Klaviyo",
+          "Outlook"
+        ]
+      },
+      "developer": {
+        "name": "📆 Servicify",
+        "website_url": "https://getservicify.com",
+        "partner_url": "https://apps.shopify.com/partners/ubicomm",
+        "public_address": "Richmond Hill, ON, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/appointments-and-bookings",
+        "canonical_app_store_url": "https://apps.shopify.com/appointments-and-bookings",
+        "install_url": "https://apps.shopify.com/appointments-and-bookings",
+        "demo_store_url": "https://yogababble.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://getservicify.com/privacy",
+          "FAQ": "https://intercom.help/easy-appointment-booking/en/",
+          "Tutorial": "https://www.youtube.com/watch?v=BB4PsjHujHE&ab_channel=Servicify&ref=shop_refer",
+          "App Documentation": "https://intercom.help/easy-appointment-booking/en/",
+          "📆 Servicify": "https://apps.shopify.com/partners/ubicomm",
+          "Website": "https://getservicify.com",
+          "Changelog": "https://www.getservicify.com/blog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/bf510b52ef314616e8735ded3fd16d0b/icon/CM7g_9Lz-O8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/bf510b52ef314616e8735ded3fd16d0b/promotional_image/CI3Viti_zZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bf510b52ef314616e8735ded3fd16d0b/desktop_screenshot/CKnx6YT5oIkDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bf510b52ef314616e8735ded3fd16d0b/desktop_screenshot/COi-ko_C45EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bf510b52ef314616e8735ded3fd16d0b/desktop_screenshot/CJzc5ZDg5I0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bf510b52ef314616e8735ded3fd16d0b/desktop_screenshot/COiF757X5okDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bf510b52ef314616e8735ded3fd16d0b/desktop_screenshot/CL6vopHJ6JIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bf510b52ef314616e8735ded3fd16d0b/desktop_screenshot/CLLcq5HJ6JIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bf510b52ef314616e8735ded3fd16d0b/pos_screenshot/CLHAtJHJ6JIDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Easy Appointment Booking App free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/appointments-and-bookings"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appointments-and-bookings"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Appointment Booking, Booking App, Calendly, Google Calendar, Klaviyo, Outlook",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/appointments-and-bookings"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/appointments-and-bookings"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://intercom.help/easy-appointment-booking/en/",
+            "https://www.youtube.com/watch?v=BB4PsjHujHE&ab_channel=Servicify&ref=shop_refer",
+            "https://intercom.help/easy-appointment-booking/en/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["appointment-booking", "event-tickets"],
+        "primary_category_id": "appointment-booking",
+        "seo": {
+          "title": "Easy Appointment Booking App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for appointment booking. Listed functions include appointments, rentals.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/appointments-and-bookings",
+          "retrieved_at": "2026-10-04T05:20:10.121660+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Easy Appointment Booking App lets you take appointments on Shopify. Scheduling for…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/appointments-and-bookings"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "suppr-appointment-booking",
+      "name": "Hoppy Appointment Booking App",
+      "slug": "suppr-appointment-booking",
+      "category_fit": {
+        "app_id": "suppr-appointment-booking",
+        "selection_score": 5.9816,
+        "rating_evidence": {"value": 4.9, "reviews": 399},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["event"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/suppr-appointment-booking"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for appointment booking. Listed functions include appointments, rentals.",
+        "description_long": "Hoppy Appointment Booking App is developed by Hoppy Apps and listed for event booking, digital products. Its structured listing identifies functions such as appointments, rentals, classes, services. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Appointment Booking", "Event Tickets"],
+        "best_for": {
+          "use_cases": ["Appointment Booking", "Event Tickets"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 399,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/suppr-appointment-booking",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 368},
+          {"stars": 4, "percentage": 5, "count": 19},
+          {"stars": 3, "percentage": 2, "count": 8},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "February 21, 2025",
+        "shopify_categories": [
+          {
+            "name": "Event booking",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-event-booking"
+          },
+          {
+            "name": "Digital products",
+            "url": "https://apps.shopify.com/categories/selling-products-digital-goods-and-services-digital-products"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.event_booking.event_type.appointments", "label": "Appointments"},
+          {"handle": "cf.event_booking.event_type.rentals", "label": "Rentals"},
+          {"handle": "cf.event_booking.event_type.classes", "label": "Classes"},
+          {"handle": "cf.event_booking.event_type.services", "label": "Services"},
+          {"handle": "cf.event_booking.event_type.reservations", "label": "Reservations"},
+          {"handle": "cf.event_booking.event_type.in_person", "label": "In-person"},
+          {"handle": "cf.event_booking.event_type.online", "label": "Online"},
+          {"handle": "cf.event_booking.event_type.custom_event", "label": "Custom events"},
+          {"handle": "cf.event_booking.booking_management.calendar", "label": "Calendar"},
+          {"handle": "cf.event_booking.booking_management.scheduling", "label": "Scheduling"},
+          {"handle": "cf.event_booking.booking_management.time_slots", "label": "Time slots"},
+          {"handle": "cf.event_booking.booking_management.block_dates", "label": "Block dates"},
+          {"handle": "cf.event_booking.booking_management.multi_booking", "label": "Multi-booking"},
+          {"handle": "cf.event_booking.booking_management.cancel_booking", "label": "Cancel booking"},
+          {"handle": "cf.event_booking.booking_management.capacity_limits", "label": "Capacity limits"},
+          {"handle": "cf.event_booking.booking_management.ticketing", "label": "Ticketing"},
+          {"handle": "cf.event_booking.booking_management.event_check_in", "label": "Event check-in"},
+          {"handle": "cf.event_booking.booking_management.data_sync", "label": "Data sync"},
+          {"handle": "cf.event_booking.booking_management.real_time_updates", "label": "Real-time updates"},
+          {
+            "handle": "cf.event_booking.booking_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.event_booking.booking_management.sms_notifications", "label": "SMS notifications"},
+          {"handle": "cf.event_booking.booking_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.event_booking.booking_management.multi_location", "label": "Multi-location"},
+          {"handle": "cf.event_booking.booking_management.payments", "label": "Payments"},
+          {"handle": "cf.event_booking.booking_management.deposits", "label": "Deposits"},
+          {"handle": "cf.event_booking.booking_management.staff_management", "label": "Staff management"},
+          {"handle": "cf.event_booking.customization.booking_pages", "label": "Booking pages"},
+          {"handle": "cf.event_booking.customization.calendar_widget", "label": "Calendar widget"},
+          {"handle": "cf.event_booking.customization.custom_tickets", "label": "Custom tickets"},
+          {"handle": "cf.event_booking.customization.custom_forms", "label": "Custom forms"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Japanese",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " German",
+          " Spanish",
+          " Korean",
+          " Thai",
+          " Danish",
+          " Portuguese (Portugal)",
+          " Portuguese (Brazil)",
+          " and Italian"
+        ],
+        "works_with": [
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Apple Calendar",
+          "Facetime",
+          "Google Calendar",
+          "MS Teams",
+          "Outlook Calendar",
+          "Zoom"
+        ]
+      },
+      "developer": {
+        "name": "Hoppy Apps",
+        "website_url": "https://hoppyapps.com",
+        "partner_url": "https://apps.shopify.com/partners/hoppyapps",
+        "public_address": "Newark, DE, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/suppr-appointment-booking",
+        "canonical_app_store_url": "https://apps.shopify.com/suppr-appointment-booking",
+        "install_url": "https://apps.shopify.com/suppr-appointment-booking",
+        "demo_store_url": "https://hoppy-appointment-booking-z2exzvpr.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://hoppyapps.com/legal/pp-appointment-bookings",
+          "FAQ": "https://help.hoppyapps.com/en/category/appointment-bookings-bj7ic2/",
+          "Hoppy Apps": "https://apps.shopify.com/partners/hoppyapps",
+          "Website": "https://hoppyapps.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/213b15624151ea3b908a552125924ead/icon/CJuYqMn7x5MDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/213b15624151ea3b908a552125924ead/promotional_image/CNCjvYqGkZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/213b15624151ea3b908a552125924ead/desktop_screenshot/CN_JyIqGkZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/213b15624151ea3b908a552125924ead/desktop_screenshot/COnA1IqGkZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/213b15624151ea3b908a552125924ead/desktop_screenshot/CPi-34qGkZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/213b15624151ea3b908a552125924ead/desktop_screenshot/CMnh64qGkZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/213b15624151ea3b908a552125924ead/desktop_screenshot/CP_l9oqGkZcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Hoppy Appointment Booking App free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/suppr-appointment-booking"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Japanese,  Chinese (Simplified),  Chinese (Traditional),  German,  Spanish,  Korean,  Thai,  Danish,  Portuguese (Portugal),  Portuguese (Brazil),  and Italian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/suppr-appointment-booking"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify POS, Shopify Flow, Shopify Admin, Apple Calendar, Facetime, Google Calendar, MS Teams, Outlook Calendar, Zoom",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/suppr-appointment-booking"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/suppr-appointment-booking"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.hoppyapps.com/en/category/appointment-bookings-bj7ic2/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["appointment-booking", "event-tickets"],
+        "primary_category_id": "appointment-booking",
+        "seo": {
+          "title": "Hoppy Appointment Booking App Shopify App | eStorefy",
+          "meta_description": "A Shopify app for appointment booking. Listed functions include appointments, rentals.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/suppr-appointment-booking",
+          "retrieved_at": "2026-10-04T05:20:16.919838+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Take bookings, appointments events & service on your Outlook or Google calendar.…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/suppr-appointment-booking"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "synctrack",
+      "name": "Synctrack PayPal Tracking Sync",
+      "slug": "synctrack",
+      "category_fit": {
+        "app_id": "synctrack",
+        "selection_score": 5.9345,
+        "rating_evidence": {"value": 5.0, "reviews": 443},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["event"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/synctrack"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for event tickets. Listed functions include real-time tracking, translation.",
+        "description_long": "Synctrack PayPal Tracking Sync is developed by Synctrack and listed for order tracking, fraud. Its structured listing identifies functions such as real-time tracking, translation, dashboards, multi-carrier. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Event Tickets", "Order Tracking", "Inventory Sync"],
+        "best_for": {
+          "use_cases": ["Event Tickets", "Order Tracking", "Inventory Sync"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 443,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/synctrack",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 439},
+          {"stars": 4, "percentage": 1, "count": 3},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "BASIC",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.88/year and save 20%"]
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $191.88/year and save 20%"]
+          },
+          {
+            "name": "ENTERPRISE",
+            "amount_usd": 59.99,
+            "billing_period": "month",
+            "price_display": "$59.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $575.88/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://synctrack.io/pricing/?app=paypal",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "December 16, 2020",
+        "shopify_categories": [
+          {
+            "name": "Order tracking",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-order-tracking"
+          },
+          {"name": "Fraud", "url": "https://apps.shopify.com/categories/store-management-security-fraud"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.order_tracking.tracking.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.order_tracking.tracking.translation", "label": "Translation"},
+          {"handle": "cf.order_tracking.tracking.dashboards", "label": "Dashboards"},
+          {"handle": "cf.order_tracking.tracking.multi_carrier", "label": "Multi-carrier"},
+          {"handle": "cf.order_tracking.tracking.analytics", "label": "Analytics"},
+          {"handle": "cf.order_tracking.notifications.email", "label": "Email"},
+          {
+            "handle": "cf.order_tracking.notifications.real_time_notifications",
+            "label": "Real-time notifications"
+          },
+          {"handle": "cf.order_tracking.notifications.translation", "label": "Translation"},
+          {"handle": "cf.order_tracking.notifications.custom_notifications", "label": "Custom notifications"},
+          {"handle": "cf.order_tracking.notifications.automation", "label": "Automations"}
+        ],
+        "languages": [
+          "English",
+          " Dutch",
+          " German",
+          " French",
+          " Spanish",
+          " Chinese (Simplified)",
+          " Japanese",
+          " and Italian"
+        ],
+        "works_with": [
+          "Shopify Flow",
+          "Shopify Admin",
+          "ClickFunnel",
+          "Facebook & Instagram Channels",
+          "Payflow",
+          "PayPal & Stripe",
+          "PayPal Dispute Resolution",
+          "PayPal Express Checkout"
+        ]
+      },
+      "developer": {
+        "name": "Synctrack",
+        "website_url": "https://synctrack.io/paypal-tracking/",
+        "partner_url": "https://apps.shopify.com/partners/synctrack",
+        "public_address": "18/11 Thai Ha, Ha Noi, 70000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/synctrack",
+        "canonical_app_store_url": "https://apps.shopify.com/synctrack",
+        "install_url": "https://apps.shopify.com/synctrack",
+        "demo_store_url": "https://demo.synctrack.io",
+        "resources": {
+          "Privacy policy": "https://www.omegatheme.com/privacy-policy-app",
+          "FAQ": "https://synctrack.gitbook.io/welcome-to-synctrack/",
+          "Tutorial": "https://synctrack.io/knowledge-base/paypal-tracking/",
+          "App Documentation": "https://synctrack.io/knowledge-base/paypal-tracking/",
+          "Synctrack": "https://apps.shopify.com/partners/synctrack",
+          "Website": "https://synctrack.io/paypal-tracking/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/icon/CNnN08C8-ZUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/promotional_image/CIHy_MedhJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/desktop_screenshot/CLamo6LE-ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/desktop_screenshot/CI23rKLE-ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/desktop_screenshot/CLS5uKLE-ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/desktop_screenshot/COnHwaLE-ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/desktop_screenshot/CLity6LE-ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59855db23a211ce9ce602feeb5b798c3/desktop_screenshot/COas1KLE-ZUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Synctrack PayPal Tracking Sync free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/synctrack"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Dutch,  German,  French,  Spanish,  Chinese (Simplified),  Japanese,  and Italian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/synctrack"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Flow, Shopify Admin, ClickFunnel, Facebook & Instagram Channels, Payflow, PayPal & Stripe, PayPal Dispute Resolution, PayPal Express Checkout",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/synctrack"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/synctrack"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://synctrack.gitbook.io/welcome-to-synctrack/",
+            "https://synctrack.io/knowledge-base/paypal-tracking/",
+            "https://synctrack.io/knowledge-base/paypal-tracking/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["event-tickets", "order-tracking", "inventory-sync"],
+        "primary_category_id": "event-tickets",
+        "seo": {
+          "title": "Synctrack PayPal Tracking Sync Shopify App | eStorefy",
+          "meta_description": "A Shopify app for event tickets. Listed functions include real-time tracking, translation.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/synctrack",
+          "retrieved_at": "2026-10-04T05:22:26.278487+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Real-time sync Stripe and PayPal tracking info. Remove PayPal holds, get PayPal…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/synctrack"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "blockify",
+      "name": "Blockify Fraud Filter, Blocker",
+      "slug": "blockify",
+      "category_fit": {
+        "app_id": "blockify",
+        "selection_score": 5.9176,
+        "rating_evidence": {"value": 4.9, "reviews": 1753},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["event"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/blockify"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for checkout validation. Listed functions include bots, chargebacks.",
+        "description_long": "Blockify Fraud Filter, Blocker is developed by Blockify and listed for fraud, geolocation. Its structured listing identifies functions such as bots, chargebacks, fake accounts, blocklists. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Checkout Validation", "Event Tickets", "Geolocation & Country Redirects", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Checkout Validation", "Event Tickets", "Geolocation & Country Redirects", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1753,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/blockify",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 1},
+          {"stars": 4, "percentage": 3, "count": 54},
+          {"stars": 3, "percentage": 0, "count": 5},
+          {"stars": 2, "percentage": 0, "count": 6},
+          {"stars": 1, "percentage": 2, "count": 31}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PREMIUM",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.90/year and save 20%"]
+          },
+          {
+            "name": "ENTERPRISE",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $215.89/year and save 10%"]
+          },
+          {
+            "name": "SHOPIFY PLUS",
+            "amount_usd": 39.99,
+            "billing_period": "month",
+            "price_display": "$39.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $431.89/year and save 10%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://blockifyapp.com/pricing/?app=fraud",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 13, 2018",
+        "shopify_categories": [
+          {"name": "Fraud", "url": "https://apps.shopify.com/categories/store-management-security-fraud"},
+          {
+            "name": "Geolocation",
+            "url": "https://apps.shopify.com/categories/store-design-internationalization-geolocation"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.fraud.fraud_types.bots", "label": "Bots"},
+          {"handle": "cf.fraud.fraud_types.chargebacks", "label": "Chargebacks"},
+          {"handle": "cf.fraud.fraud_types.fake_accounts", "label": "Fake accounts"},
+          {"handle": "cf.fraud.prevention_tools.blocklists", "label": "Blocklists"},
+          {"handle": "cf.fraud.prevention_tools.geolocation_redirects", "label": "Geolocation redirects"},
+          {"handle": "cf.fraud.prevention_tools.content_protection", "label": "Content protection"},
+          {"handle": "cf.fraud.prevention_tools.spam_blocking", "label": "Spam blocking"},
+          {"handle": "cf.fraud.prevention_tools.bot_detection", "label": "Bot detection"},
+          {"handle": "cf.fraud.prevention_tools.fraud_filters", "label": "Fraud filters"},
+          {"handle": "cf.fraud.alerts_and_analytics.fraud_notifications", "label": "Fraud notifications"},
+          {"handle": "cf.fraud.alerts_and_analytics.visitor_analytics", "label": "Visitor analytics"},
+          {"handle": "cf.fraud.alerts_and_analytics.risk_reports", "label": "Risk reports"},
+          {"handle": "cf.geolocation.blocking.countries", "label": "Countries"},
+          {"handle": "cf.geolocation.blocking.states", "label": "States"},
+          {"handle": "cf.geolocation.blocking.cities", "label": "Cities"},
+          {"handle": "cf.geolocation.blocking.bots", "label": "Bots"},
+          {"handle": "cf.geolocation.blocking.ip_addresses", "label": "IP addresses"},
+          {"handle": "cf.geolocation.blocking.vpns", "label": "VPNs"},
+          {"handle": "cf.geolocation.blocking.proxies", "label": "Proxies"},
+          {"handle": "cf.geolocation.blocking.whitelist", "label": "Whitelist"},
+          {"handle": "cf.geolocation.redirects.ip_address", "label": "IP address"},
+          {"handle": "cf.geolocation.redirects.country", "label": "Country"},
+          {"handle": "cf.geolocation.redirects.auto_redirect", "label": "Auto-redirect"},
+          {"handle": "cf.geolocation.redirects.manual_redirect", "label": "Manual redirect"},
+          {"handle": "cf.geolocation.redirects.tracking", "label": "Tracking"},
+          {"handle": "cf.geolocation.localization_settings.country_selector", "label": "Country selector"}
+        ],
+        "languages": [
+          "English",
+          " Hindi",
+          " Chinese (Simplified)",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Spanish",
+          " French",
+          " Italian",
+          " and Dutch"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Checkout UI",
+          "Fraud Filter",
+          "Fraud Order Analytics",
+          "IP & Country Blocker",
+          "Klaviyo",
+          "Visitor Analytics"
+        ]
+      },
+      "developer": {
+        "name": "Blockify",
+        "website_url": "https://blockifyapp.com/",
+        "partner_url": "https://apps.shopify.com/partners/blockify",
+        "public_address": "18/11 Thai Ha, Ha Noi, 70000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/blockify",
+        "canonical_app_store_url": "https://apps.shopify.com/blockify",
+        "install_url": "https://apps.shopify.com/blockify",
+        "demo_store_url": "https://blockify-demo-store.myshopify.com/pages/regular-mar-17-2025",
+        "resources": {
+          "Privacy policy": "https://www.omegatheme.com/privacy-policy-app",
+          "Blockify": "https://apps.shopify.com/partners/blockify",
+          "Website": "https://blockifyapp.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/icon/CKv3zsyr-vcCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/promotional_image/CIHu0a-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CM6W26-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CNnA5a-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CNHT7q-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CIHK96-q_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/1fea2c06cad29a7a2ff47ed9c5b1b5cc/desktop_screenshot/CMTagLCq_5YDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Blockify Fraud Filter, Blocker free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/blockify"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Hindi,  Chinese (Simplified),  Portuguese (Brazil),  Portuguese (Portugal),  Spanish,  French,  Italian,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/blockify"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Flow, Shopify Admin, Checkout UI, Fraud Filter, Fraud Order Analytics, IP & Country Blocker, Klaviyo, Visitor Analytics",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/blockify"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/blockify"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the cart or checkout conditions in a draft or test configuration.",
+            "Test an eligible and an ineligible cart to confirm the rule behaviour.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["checkout-validation", "event-tickets", "geolocation-country-redirects", "fraud-prevention"],
+        "primary_category_id": "checkout-validation",
+        "seo": {
+          "title": "Blockify Fraud Filter, Blocker Shopify App | eStorefy",
+          "meta_description": "A Shopify app for checkout validation. Listed functions include bots, chargebacks.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/blockify",
+          "retrieved_at": "2026-10-04T05:27:17.179696+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Blockify: Fraud IP Blocker by Synctrack helps protect your store, fraud filter,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/blockify"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "track123",
+      "name": "Track123 Order Tracking",
+      "slug": "track123",
+      "category_fit": {
+        "app_id": "track123",
+        "selection_score": 5.9172,
+        "rating_evidence": {"value": 4.9, "reviews": 1739},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["ticket"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/track123"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for event tickets. Listed functions include branded tracking page, order lookup page.",
+        "description_long": "Track123 Order Tracking is developed by Track123 and listed for order tracking, shipping. Its structured listing identifies functions such as branded tracking page, order lookup page, real-time tracking, custom tracking link. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Event Tickets", "Order Tracking", "Store Locators"],
+        "best_for": {
+          "use_cases": ["Event Tickets", "Order Tracking", "Store Locators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1739,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/track123",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 1},
+          {"stars": 4, "percentage": 4, "count": 62},
+          {"stars": 3, "percentage": 1, "count": 15},
+          {"stars": 2, "percentage": 0, "count": 4},
+          {"stars": 1, "percentage": 1, "count": 21}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "STARTER",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "GROWTH",
+            "amount_usd": 9.0,
+            "billing_period": "month",
+            "price_display": "$9 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $84/year and save 22%", "$0.05 per extra order"]
+          },
+          {
+            "name": "ADVANCED",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $468/year and save 20%", "$0.05 per extra order"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://intercom.help/track123/en/articles/5920187-track123-price-plan",
+        "starting_paid_monthly_price_usd": 9.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 12, 2022 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Order tracking",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-order-tracking"
+          },
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.order_tracking.tracking.branded_tracking_page", "label": "Branded tracking page"},
+          {"handle": "cf.order_tracking.tracking.order_lookup_page", "label": "Order lookup page"},
+          {"handle": "cf.order_tracking.tracking.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.order_tracking.tracking.custom_tracking_link", "label": "Custom tracking link"},
+          {"handle": "cf.order_tracking.tracking.translation", "label": "Translation"},
+          {"handle": "cf.order_tracking.tracking.estimated_delivery_date", "label": "Estimated delivery date"},
+          {"handle": "cf.order_tracking.tracking.global_tracking", "label": "Global tracking"},
+          {"handle": "cf.order_tracking.tracking.dashboards", "label": "Dashboards"},
+          {"handle": "cf.order_tracking.tracking.order_export", "label": "Order export"},
+          {"handle": "cf.order_tracking.tracking.multi_carrier", "label": "Multi-carrier"},
+          {"handle": "cf.order_tracking.tracking.api", "label": "API"},
+          {"handle": "cf.order_tracking.tracking.analytics", "label": "Analytics"},
+          {"handle": "cf.order_tracking.tracking.carrier_masking", "label": "Carrier masking"},
+          {"handle": "cf.order_tracking.notifications.email", "label": "Email"},
+          {
+            "handle": "cf.order_tracking.notifications.real_time_notifications",
+            "label": "Real-time notifications"
+          },
+          {"handle": "cf.order_tracking.notifications.sms", "label": "SMS"},
+          {"handle": "cf.order_tracking.notifications.translation", "label": "Translation"},
+          {"handle": "cf.order_tracking.notifications.custom_notifications", "label": "Custom notifications"},
+          {"handle": "cf.order_tracking.notifications.automation", "label": "Automations"},
+          {"handle": "cf.shipping.labels_and_packaging.delivery_dates", "label": "Delivery date"},
+          {"handle": "cf.shipping.labels_and_packaging.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.labels_and_packaging.multi_language", "label": "Multi-language"},
+          {"handle": "cf.shipping.labels_and_packaging.carrier_selection", "label": "Carrier selection"},
+          {"handle": "cf.shipping.managing_shipments.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.managing_shipments.real_time_tracking", "label": "Real-time tracking"},
+          {
+            "handle": "cf.shipping.managing_shipments.branded_tracking_pages",
+            "label": "Branded tracking page"
+          },
+          {"handle": "cf.shipping.managing_shipments.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.shipping.managing_shipments.order_updates", "label": "Order updates"},
+          {"handle": "cf.shipping.managing_shipments.shipping_analytics", "label": "Shipping analytics"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " French",
+          " German",
+          " Italian",
+          " Spanish",
+          " Portuguese (Portugal)",
+          " Turkish",
+          " Russian",
+          " Dutch",
+          " Swedish",
+          " Polish",
+          " and Arabic"
+        ],
+        "works_with": [
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Apple wallet",
+          "Bing Microsoft Translator",
+          "Google Map",
+          "Klaviyo",
+          "Paypal&Stripe",
+          "Royal Mail"
+        ]
+      },
+      "developer": {
+        "name": "Track123",
+        "website_url": "https://www.track123.com",
+        "partner_url": "https://apps.shopify.com/partners/track123",
+        "public_address": "1810 E Sahara Ave Ste 212, Las Vegas, NV, 89104, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/track123",
+        "canonical_app_store_url": "https://apps.shopify.com/track123",
+        "install_url": "https://apps.shopify.com/track123",
+        "demo_store_url": "https://track123-demo.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://www.track123.com/privacy",
+          "FAQ": "https://intercom.help/track123/en/articles/8407288-frequently-asked-questions",
+          "Tutorial": "https://intercom.help/track123/en/articles/8419734-initial-setup-guide",
+          "Track123": "https://apps.shopify.com/partners/track123",
+          "Website": "https://www.track123.com",
+          "Changelog": "https://track.features.vote/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/de578b5399a04642a6b0e1ed8a3036e4/icon/CJrnhYGypv4CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/de578b5399a04642a6b0e1ed8a3036e4/promotional_image/CMyZjNCW-ZEDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/de578b5399a04642a6b0e1ed8a3036e4/desktop_screenshot/CLHq_87R3osDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/de578b5399a04642a6b0e1ed8a3036e4/desktop_screenshot/CJDR6suX4YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/de578b5399a04642a6b0e1ed8a3036e4/desktop_screenshot/COXn9MuX4YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/de578b5399a04642a6b0e1ed8a3036e4/desktop_screenshot/CKnHuMjx-o8DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/de578b5399a04642a6b0e1ed8a3036e4/desktop_screenshot/CPyWrM_R3osDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/de578b5399a04642a6b0e1ed8a3036e4/desktop_screenshot/CJrFts_R3osDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/de578b5399a04642a6b0e1ed8a3036e4/mobile_screenshot/CLGA_8uX4YsDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Track123 Order Tracking free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/track123"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  Chinese (Traditional),  French,  German,  Italian,  Spanish,  Portuguese (Portugal),  Turkish,  Russian,  Dutch,  Swedish,  Polish,  and Arabic",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/track123"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Flow, Shopify Admin, Apple wallet, Bing Microsoft Translator, Google Map, Klaviyo, Paypal&Stripe, Royal Mail",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/track123"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/track123"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://intercom.help/track123/en/articles/8407288-frequently-asked-questions",
+            "https://intercom.help/track123/en/articles/8419734-initial-setup-guide"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["event-tickets", "order-tracking", "store-locators"],
+        "primary_category_id": "event-tickets",
+        "seo": {
+          "title": "Track123 Order Tracking Shopify App | eStorefy",
+          "meta_description": "A Shopify app for event tickets. Listed functions include branded tracking page, order lookup page.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/track123",
+          "retrieved_at": "2026-10-04T05:22:16.294469+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Drive repeat sales with branded order tracking. Track123 helps you get ahead…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/track123"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "account-editor",
+      "name": "AE: Order Editing & Upsell",
+      "slug": "account-editor",
+      "category_fit": {
+        "app_id": "account-editor",
+        "selection_score": 5.8913,
+        "rating_evidence": {"value": 5.0, "reviews": 259},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["ticket"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/account-editor"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for event tickets. Listed functions include cancellations, splitting.",
+        "description_long": "AE: Order Editing & Upsell is developed by Account Editor and listed for order editing, upsell and cross-sell. Its structured listing identifies functions such as cancellations, splitting, re-orders, refunds. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Event Tickets", "Order Editing", "Helpdesk & Support Tickets"],
+        "best_for": {
+          "use_cases": ["Event Tickets", "Order Editing", "Helpdesk & Support Tickets"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 259,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/account-editor",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 259},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $39/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $374.40/year and save 20%",
+              "Limited to 0-1200 orders / month & 50 Free Address Validation then Additional Charges Apply From $0.01 To $0.03"
+            ]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $950.40/year and save 20%",
+              "Limited to 1201-5000 orders / month & 200 Free Address Validation then Additional Charges Apply From $0.01 To $0.03"
+            ]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 179.0,
+            "billing_period": "month",
+            "price_display": "$179 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $1,718.40/year and save 20%",
+              "Limited to 5001-10000 orders / month & 350 Free Address Validation then Additional Charges Apply From $0.01 To $0.03"
+            ]
+          },
+          {
+            "name": "Scale",
+            "amount_usd": 249.0,
+            "billing_period": "month",
+            "price_display": "$249 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $2,390.40/year and save 20%",
+              "Limited to 10001-20000 orders / month & 500 Free Address Validation then Additional Charges Apply From $0.01 To $0.03"
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://accounteditor.com/pricing",
+        "starting_paid_monthly_price_usd": 39.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 2, 2025 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Order editing",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-order-editing"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.order_editing.order_updates.cancellations", "label": "Cancellations"},
+          {"handle": "cf.order_editing.order_updates.splitting", "label": "Splitting"},
+          {"handle": "cf.order_editing.order_updates.re_orders", "label": "Re-orders"},
+          {"handle": "cf.order_editing.order_updates.refunds", "label": "Refunds"},
+          {"handle": "cf.order_editing.order_updates.returns", "label": "Returns"},
+          {"handle": "cf.order_editing.order_updates.draft_orders", "label": "Draft orders"},
+          {"handle": "cf.order_editing.order_updates.address", "label": "Address"},
+          {"handle": "cf.order_editing.order_updates.line_items", "label": "Line items"},
+          {"handle": "cf.order_editing.order_updates.price", "label": "Prices"},
+          {"handle": "cf.order_editing.order_updates.shipping_fees", "label": "Shipping fees"},
+          {"handle": "cf.order_editing.order_updates.custom_attributes", "label": "Custom attributes"},
+          {"handle": "cf.order_editing.order_updates.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.order_editing.order_updates.automated_workflows", "label": "Automated workflows"},
+          {"handle": "cf.order_editing.order_updates.bulk_edits", "label": "Bulk editing"},
+          {"handle": "cf.order_editing.order_updates.customer_portal", "label": "Customer portal"},
+          {"handle": "cf.order_editing.order_management.status_updates", "label": "Status updates"},
+          {"handle": "cf.order_editing.order_management.tagging", "label": "Tagging"},
+          {"handle": "cf.order_editing.order_management.filtering", "label": "Filtering"},
+          {"handle": "cf.order_editing.order_management.import_and_export", "label": "Import and export"},
+          {"handle": "cf.order_editing.order_management.analytics", "label": "Analytics"},
+          {"handle": "cf.upsell_and_cross_sell.customization.checkout_upsell", "label": "Checkout upsell"},
+          {"handle": "cf.upsell_and_cross_sell.customization.announcement_bar", "label": "Announcement bar"},
+          {"handle": "cf.upsell_and_cross_sell.customization.progress_bar", "label": "Progress bar"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.thank_you_page_upsell",
+            "label": "Thank you page upsell"
+          },
+          {"handle": "cf.upsell_and_cross_sell.customization.one_click_add_ons", "label": "One-click add-ons"},
+          {"handle": "cf.upsell_and_cross_sell.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.upsell_and_cross_sell.customization.custom_html", "label": "Custom HTML"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.drag_and_drop_editor",
+            "label": "Drag-and-drop editor"
+          },
+          {"handle": "cf.upsell_and_cross_sell.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.upsell_and_cross_sell.customization.multi_language", "label": "Multi-language"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Dutch",
+          " Spanish",
+          " Portuguese (Portugal)",
+          " Italian",
+          " Swedish",
+          " German",
+          " and Japanese"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Brightpearl",
+          "CartRover",
+          "Customer Accounts",
+          "Flow",
+          "Klaviyo",
+          "ShipStation"
+        ]
+      },
+      "developer": {
+        "name": "Account Editor",
+        "website_url": "https://www.accounteditor.com/",
+        "partner_url": "https://apps.shopify.com/partners/account-editor",
+        "public_address": "131 Continental Dr, Suite 305, Newark, DE, 19713, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/account-editor",
+        "canonical_app_store_url": "https://apps.shopify.com/account-editor",
+        "install_url": "https://apps.shopify.com/account-editor",
+        "demo_store_url": "https://ae-order-editing-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.accounteditor.com/privacy-policy",
+          "FAQ": "https://help.accounteditor.com/en/category/frequently-asked-questions-231gvb",
+          "Tutorial": "https://help.accounteditor.com/en/category/setup-onboarding-1jcysn6/",
+          "App Documentation": "https://help.accounteditor.com",
+          "Account Editor": "https://apps.shopify.com/partners/account-editor",
+          "Website": "https://www.accounteditor.com/",
+          "Changelog": "https://help.accounteditor.com/en/article/changelog-1ljpq6i/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/c5052ef489304008b4f280e02104161f/icon/CPi14_uY4ZUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/c5052ef489304008b4f280e02104161f/desktop_screenshot/CJzKifqw4ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5052ef489304008b4f280e02104161f/desktop_screenshot/CKGClPqw4ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5052ef489304008b4f280e02104161f/desktop_screenshot/CI_enfqw4ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5052ef489304008b4f280e02104161f/desktop_screenshot/CMe_p_qw4ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5052ef489304008b4f280e02104161f/desktop_screenshot/CJbxsfqw4ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c5052ef489304008b4f280e02104161f/desktop_screenshot/CPKvvPqw4ZUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/4I69oP2clV4"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is AE: Order Editing & Upsell free?",
+            "answer": "The pricing label retrieved from the listing is: From $39/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/account-editor"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Dutch,  Spanish,  Portuguese (Portugal),  Italian,  Swedish,  German,  and Japanese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/account-editor"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Flow, Shopify Admin, Brightpearl, CartRover, Customer Accounts, Flow, Klaviyo, ShipStation",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/account-editor"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/account-editor"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.accounteditor.com/en/category/frequently-asked-questions-231gvb",
+            "https://help.accounteditor.com/en/category/setup-onboarding-1jcysn6/",
+            "https://help.accounteditor.com"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create a test download, access offer or bookable service.",
+            "Verify the booking, delivery or access experience with a sample purchase.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["event-tickets", "order-editing", "helpdesk-support-tickets"],
+        "primary_category_id": "event-tickets",
+        "seo": {
+          "title": "AE: Order Editing & Upsell Shopify App | eStorefy",
+          "meta_description": "A Shopify app for event tickets. Listed functions include cancellations, splitting.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/account-editor",
+          "retrieved_at": "2026-10-04T05:22:52.261467+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Order editing by Shopify Platinum Partner. Draft orders, Google address validation, one-click…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/account-editor"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "easy-order-form",
+      "name": "EasySell COD Form & Upsells",
+      "slug": "easy-order-form",
+      "category_fit": {
+        "app_id": "easy-order-form",
+        "selection_score": 5.8869,
+        "rating_evidence": {"value": 4.9, "reviews": 975},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["event"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/easy-order-form"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for cash on delivery. Listed functions include custom fees, prepaid incentives.",
+        "description_long": "EasySell COD Form & Upsells is developed by Tyslo FZE-LLC and listed for pay later, upsell and cross-sell. Its structured listing identifies functions such as custom fees, prepaid incentives, fraud prevention, one-time password (otp). For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Cash on Delivery", "Event Tickets", "Wholesale Catalogs & Order Forms", "Fraud Prevention"],
+        "best_for": {
+          "use_cases": ["Cash on Delivery", "Event Tickets", "Wholesale Catalogs & Order Forms", "Fraud Prevention"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 975,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/easy-order-form",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 896},
+          {"stars": 4, "percentage": 7, "count": 66},
+          {"stars": 3, "percentage": 1, "count": 9},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Forever Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 9.95,
+            "billing_period": "month",
+            "price_display": "$9.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $89.99/year and save 25%",
+              "$0.05 for each additional order. SMS/WhatsApp messages are optional and charged separately."
+            ]
+          },
+          {
+            "name": "ADVANCED",
+            "amount_usd": 24.95,
+            "billing_period": "month",
+            "price_display": "$24.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $225.99/year and save 25%",
+              "$0.05 for each additional order. SMS/WhatsApp messages are optional and charged separately."
+            ]
+          },
+          {
+            "name": "UNLIMITED",
+            "amount_usd": 59.95,
+            "billing_period": "month",
+            "price_display": "$59.95 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $539.99/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.95,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "October 8, 2020",
+        "shopify_categories": [
+          {
+            "name": "Pay later",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-pay-later"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.cash_on_delivery_cod.cod_management.custom_fees", "label": "Custom fees"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.prepaid_incentives",
+            "label": "Prepaid incentives"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.fraud_prevention", "label": "Fraud prevention"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.one_time_password_otp",
+            "label": "One-time password (OTP)"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.ip_blocking", "label": "IP blocking"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.phone_confirmation",
+            "label": "Phone confirmation"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.sms_confirmation", "label": "SMS confirmation"},
+          {"handle": "cf.cash_on_delivery_cod.cod_management.order_export", "label": "Order export"},
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.drag_and_drop_editor",
+            "label": "Drag-and-drop editor"
+          },
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_fields", "label": "Custom fields"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.fonts_and_colors", "label": "Font and color"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_buttons", "label": "Custom buttons"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_layout", "label": "Custom layouts"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.embedded_forms", "label": "Embedded forms"},
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.shipping_options",
+            "label": "Shipping options"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.address_verification",
+            "label": "Address validation"
+          },
+          {"handle": "cf.cash_on_delivery_cod.form_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.cash_on_delivery_cod.conversion_and_upsell.cross_sell", "label": "Cross-sell"},
+          {"handle": "cf.cash_on_delivery_cod.conversion_and_upsell.discounts", "label": "Discounts"},
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.one_click_order",
+            "label": "One-click order"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.one_click_upsells",
+            "label": "One-click upsells"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.post_purchase_upsells",
+            "label": "Post-purchase upsells"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.pixel_tracking",
+            "label": "Pixel tracking"
+          },
+          {"handle": "cf.cash_on_delivery_cod.conversion_and_upsell.cart_recovery", "label": "Cart recovery"},
+          {"handle": "cf.upsell_and_cross_sell.customization.cart_upsell", "label": "Cart upsell"},
+          {"handle": "cf.upsell_and_cross_sell.customization.checkout_upsell", "label": "Checkout upsell"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.product_page_upsell",
+            "label": "Product page upsell"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.thank_you_page_upsell",
+            "label": "Thank you page upsell"
+          }
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " Italian",
+          " French",
+          " Arabic",
+          " German",
+          " Croatian",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Romanian",
+          " Serbian",
+          " and Turkish"
+        ],
+        "works_with": [
+          "Shopify Admin",
+          "GemPages",
+          "Google Sheets",
+          "Kaching Bundles",
+          "PageFly",
+          "Pumper Bundles",
+          "Wide Bundles & BixGrow"
+        ]
+      },
+      "developer": {
+        "name": "Tyslo FZE-LLC",
+        "website_url": "https://tyslo.com",
+        "partner_url": "https://apps.shopify.com/partners/tyslo",
+        "public_address": "Sharjah Publishing City FZ, Sharjah, SH, 00000, AE"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/easy-order-form",
+        "canonical_app_store_url": "https://apps.shopify.com/easy-order-form",
+        "install_url": "https://apps.shopify.com/easy-order-form",
+        "demo_store_url": "https://easysellapp.com/products/pop-up-form",
+        "resources": {
+          "Privacy policy": "https://easysellapp.com/pages/privacy-policy",
+          "FAQ": "https://help.tyslo.com/en/category/faqs-dckrdj/",
+          "Tutorial": "https://www.youtube.com/@tyslo.official",
+          "App Documentation": "https://help.tyslo.com",
+          "Tyslo FZE-LLC": "https://apps.shopify.com/partners/tyslo",
+          "Website": "https://tyslo.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/icon/CMr-h5LxqPkCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/promotional_image/CNLYwImkvpUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/desktop_screenshot/CPf67r3zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/desktop_screenshot/COH2-L3zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/desktop_screenshot/CJvbgr7zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/desktop_screenshot/CL3XjL7zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/desktop_screenshot/CNqelr7zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/desktop_screenshot/CKiun77zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/mobile_screenshot/CL_l9Yz0k5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/mobile_screenshot/COjDsr7zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/mobile_screenshot/CPq2u77zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/mobile_screenshot/CPyNxb7zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/mobile_screenshot/CPzCzr7zk5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5eb86529c69f81640f33df6f8367d84c/mobile_screenshot/CMPN177zk5UDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is EasySell COD Form & Upsells free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/easy-order-form"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  Italian,  French,  Arabic,  German,  Croatian,  Portuguese (Brazil),  Portuguese (Portugal),  Romanian,  Serbian,  and Turkish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/easy-order-form"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, GemPages, Google Sheets, Kaching Bundles, PageFly, Pumper Bundles, Wide Bundles & BixGrow",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/easy-order-form"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/easy-order-form"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.tyslo.com/en/category/faqs-dckrdj/",
+            "https://www.youtube.com/@tyslo.official",
+            "https://help.tyslo.com"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Define the payment, subscription or pre-order rules and eligible products.",
+            "Verify supported payment methods and test the purchase lifecycle.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["cash-on-delivery", "event-tickets", "wholesale-catalogs-order-forms", "fraud-prevention"],
+        "primary_category_id": "cash-on-delivery",
+        "seo": {
+          "title": "EasySell COD Form & Upsells Shopify App | eStorefy",
+          "meta_description": "A Shopify app for cash on delivery. Listed functions include custom fees, prepaid incentives.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/easy-order-form",
+          "retrieved_at": "2026-10-04T05:07:15.005470+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "EasySell Order Form allows you to create a 1-Click COD order form…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/easy-order-form"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

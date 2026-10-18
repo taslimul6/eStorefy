@@ -1,0 +1,3045 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "collection-sorting-merchandising",
+    "number": 40,
+    "name": "Collection Sorting & Merchandising",
+    "group": "Product Discovery",
+    "slug": "collection-sorting-merchandising",
+    "url_path": "/apps/collection-sorting-merchandising",
+    "focus": "Help shoppers find, compare and choose products.",
+    "description": "Compare Shopify apps for collection sorting & merchandising. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/store-design-product-display-collections/all"],
+    "seo": {
+      "title": "Shopify Collection Sorting & Merchandising Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for collection sorting & merchandising: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a collection sorting & merchandising app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "searchtap-merchandising-app",
+      "name": "ST: Product & Collection Sort",
+      "slug": "searchtap-merchandising-app",
+      "category_fit": {
+        "app_id": "searchtap-merchandising-app",
+        "selection_score": 6.0453,
+        "rating_evidence": {"value": 5.0, "reviews": 271},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["collection", "sort", "merchandis"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/searchtap-merchandising-app"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include automated, manual.",
+        "description_long": "ST: Product & Collection Sort is developed by Green Apple Solutions Pvt Ltd  and listed for collections, product display - other. Its structured listing identifies functions such as automated, manual, custom rules, pin products. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Collection Sorting & Merchandising"],
+        "best_for": {
+          "use_cases": ["Collection Sorting & Merchandising"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 271,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/searchtap-merchandising-app",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 268},
+          {"stars": 4, "percentage": 0, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Business",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Unlimited",
+            "amount_usd": 179.0,
+            "billing_period": "month",
+            "price_display": "$179 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://merchandising.searchtap.io/billing-info",
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "April 21, 2021",
+        "shopify_categories": [
+          {
+            "name": "Collections",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-collections"
+          },
+          {
+            "name": "Product display - Other",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-product-display-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.collections.sorting_actions.automated", "label": "Automated"},
+          {"handle": "cf.collections.sorting_actions.manual", "label": "Manual"},
+          {"handle": "cf.collections.sorting_actions.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.collections.sorting_actions.pin_products", "label": "Pin products"},
+          {"handle": "cf.collections.sorting_actions.drag_and_drop", "label": "Drag and drop"},
+          {"handle": "cf.collections.sorting_actions.push_down", "label": "Push down"},
+          {"handle": "cf.collections.sorting_actions.hide_products", "label": "Hide products"},
+          {"handle": "cf.collections.sorting_actions.group_products", "label": "Group products"},
+          {"handle": "cf.collections.sorting_actions.filtering", "label": "Filtering"},
+          {"handle": "cf.collections.collection_management.real_time_updates", "label": "Real-time updates"},
+          {"handle": "cf.collections.collection_management.analytics", "label": "Analytics"},
+          {
+            "handle": "cf.collections.collection_management.collection_creation",
+            "label": "Collection creation"
+          },
+          {"handle": "cf.collections.collection_management.variants", "label": "Variants"},
+          {"handle": "cf.collections.collection_management.segments", "label": "Segments"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Admin",
+          "AI Search & Product Filter |SB",
+          "Boost AI Search & Filter",
+          "Google Analytics (GA4)",
+          "Search & Discovery",
+          "Searchanise Search & Filter",
+          "Smart Product Filter & Search"
+        ]
+      },
+      "developer": {
+        "name": "Green Apple Solutions Pvt Ltd ",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/searchtap",
+        "public_address": "C - 7, Third Floor, New Krishna Park, Delhi, DL, 110018, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/searchtap-merchandising-app",
+        "canonical_app_store_url": "https://apps.shopify.com/searchtap-merchandising-app",
+        "install_url": "https://apps.shopify.com/searchtap-merchandising-app",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://merchandising.searchtap.io/privacy-policy",
+          "Green Apple Solutions Pvt Ltd": "https://apps.shopify.com/partners/searchtap"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/4f8d9156744425879234750ca4dc7d96/icon/CLfK26Lxtu8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/4f8d9156744425879234750ca4dc7d96/promotional_image/CIi__O-slJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4f8d9156744425879234750ca4dc7d96/desktop_screenshot/CNXHq5aulJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4f8d9156744425879234750ca4dc7d96/desktop_screenshot/CLHYtZaulJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4f8d9156744425879234750ca4dc7d96/desktop_screenshot/CLmawJaulJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4f8d9156744425879234750ca4dc7d96/desktop_screenshot/CKXfypaulJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4f8d9156744425879234750ca4dc7d96/desktop_screenshot/CO3Zh-KulJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4f8d9156744425879234750ca4dc7d96/desktop_screenshot/CPCrkuKulJcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is ST: Product & Collection Sort free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/searchtap-merchandising-app"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/searchtap-merchandising-app"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, AI Search & Product Filter |SB, Boost AI Search & Filter, Google Analytics (GA4), Search & Discovery, Searchanise Search & Filter, Smart Product Filter & Search",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/searchtap-merchandising-app"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/searchtap-merchandising-app"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["collection-sorting-merchandising"],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "ST: Product & Collection Sort Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include automated, manual.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/searchtap-merchandising-app",
+          "retrieved_at": "2026-10-04T05:15:30.221842+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/searchtap-merchandising-app"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "kimonix",
+      "name": "KX AI Collection Sort",
+      "slug": "kimonix",
+      "category_fit": {
+        "app_id": "kimonix",
+        "selection_score": 6.0324,
+        "rating_evidence": {"value": 5.0, "reviews": 235},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["collection", "sort", "merchandis"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/kimonix"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include automated, manual.",
+        "description_long": "KX AI Collection Sort is developed by Kimonix and listed for collections, product display - other. Its structured listing identifies functions such as automated, manual, custom rules, pin products. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Collection Sorting & Merchandising", "Product Personalizers"],
+        "best_for": {
+          "use_cases": ["Collection Sorting & Merchandising", "Product Personalizers"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 235,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/kimonix",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 233},
+          {"stars": 4, "percentage": 0, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "$19/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Pay As You Go",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "1.2¢ down to 0.08¢ per impression (collection page view, recommendation view, email open). AI assistant at cost over $25"
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.kimonix.com/pricing",
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 27, 2020",
+        "shopify_categories": [
+          {
+            "name": "Collections",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-collections"
+          },
+          {
+            "name": "Product display - Other",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-product-display-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.collections.sorting_actions.automated", "label": "Automated"},
+          {"handle": "cf.collections.sorting_actions.manual", "label": "Manual"},
+          {"handle": "cf.collections.sorting_actions.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.collections.sorting_actions.pin_products", "label": "Pin products"},
+          {"handle": "cf.collections.sorting_actions.push_down", "label": "Push down"},
+          {"handle": "cf.collections.sorting_actions.hide_products", "label": "Hide products"},
+          {"handle": "cf.collections.sorting_actions.group_products", "label": "Group products"},
+          {"handle": "cf.collections.collection_management.real_time_updates", "label": "Real-time updates"},
+          {"handle": "cf.collections.collection_management.import_and_export", "label": "Import and export"},
+          {"handle": "cf.collections.collection_management.analytics", "label": "Analytics"},
+          {
+            "handle": "cf.collections.collection_management.collection_creation",
+            "label": "Collection creation"
+          },
+          {"handle": "cf.collections.collection_management.variants", "label": "Variants"},
+          {"handle": "cf.collections.collection_management.segments", "label": "Segments"},
+          {"handle": "cf.collections.collection_management.bulk_editing", "label": "Bulk editing"},
+          {"handle": "cf.collections.collection_management.ai_recommendations", "label": "AI recommendations"},
+          {"handle": "cf.collections.collection_management.a_b_testing", "label": "A/B testing"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Admin", "Klaviyo", "Loop Returns", "Loox", "Stamped", "Tapcart", "Yotpo"]
+      },
+      "developer": {
+        "name": "Kimonix",
+        "website_url": "https://www.kimonix.com",
+        "partner_url": "https://apps.shopify.com/partners/kimonix",
+        "public_address": "Tel Aviv, IL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/kimonix",
+        "canonical_app_store_url": "https://apps.shopify.com/kimonix",
+        "install_url": "https://apps.shopify.com/kimonix",
+        "demo_store_url": "https://www.kimonix.com/request-a-demo",
+        "resources": {
+          "Privacy policy": "https://www.kimonix.com/privacy-policy",
+          "Kimonix": "https://apps.shopify.com/partners/kimonix",
+          "Website": "https://www.kimonix.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/5fed641c5adefb9394b3ef57e7afa1eb/icon/CKih8airyv4CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/5fed641c5adefb9394b3ef57e7afa1eb/desktop_screenshot/CMjJ3qGj9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5fed641c5adefb9394b3ef57e7afa1eb/desktop_screenshot/CPCj6qGj9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5fed641c5adefb9394b3ef57e7afa1eb/desktop_screenshot/CNvo7M-m9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5fed641c5adefb9394b3ef57e7afa1eb/desktop_screenshot/CP-ihaKj9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5fed641c5adefb9394b3ef57e7afa1eb/desktop_screenshot/CPz7jqKj9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5fed641c5adefb9394b3ef57e7afa1eb/desktop_screenshot/CPW2mKKj9ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5fed641c5adefb9394b3ef57e7afa1eb/mobile_screenshot/COinoqKj9ZYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/1Z3IFG9NXqI"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is KX AI Collection Sort free?",
+            "answer": "The pricing label retrieved from the listing is: $19/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/kimonix"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/kimonix"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Klaviyo, Loop Returns, Loox, Stamped, Tapcart, Yotpo",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/kimonix"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/kimonix"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["collection-sorting-merchandising", "product-personalizers"],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "KX AI Collection Sort Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include automated, manual.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/kimonix",
+          "retrieved_at": "2026-10-04T05:15:30.152119+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Collections and categories sorting.",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/kimonix"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "custom-collections",
+      "name": "Stamp Show Variants Collection",
+      "slug": "custom-collections",
+      "category_fit": {
+        "app_id": "custom-collections",
+        "selection_score": 6.004,
+        "rating_evidence": {"value": 5.0, "reviews": 177},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["collection", "sort"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/custom-collections"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include swatches, conditional logic.",
+        "description_long": "Stamp Show Variants Collection is developed by Sezerium and listed for product variants, collections. Its structured listing identifies functions such as swatches, conditional logic, variants display, hide out-of-stock. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Collection Sorting & Merchandising", "Color Swatches"],
+        "best_for": {
+          "use_cases": ["Collection Sorting & Merchandising", "Color Swatches"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 177,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/custom-collections",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 175},
+          {"stars": 4, "percentage": 1, "count": 1},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Build Plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard Plan",
+            "amount_usd": 12.0,
+            "billing_period": "month",
+            "price_display": "$12 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $108/year and save 25%"]
+          },
+          {
+            "name": "Advanced Plan",
+            "amount_usd": 24.0,
+            "billing_period": "month",
+            "price_display": "$24 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $216/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 12.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 3, 2025",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          },
+          {
+            "name": "Collections",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-collections"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"},
+          {"handle": "cf.product_variants.inventory.hide_out_of_stock", "label": "Hide out-of-stock"},
+          {"handle": "cf.product_variants.inventory.in_stock_display", "label": "In-stock display"},
+          {"handle": "cf.product_variants.inventory.auto_update", "label": "Auto-updates"},
+          {"handle": "cf.collections.sorting_actions.automated", "label": "Automated"},
+          {"handle": "cf.collections.sorting_actions.manual", "label": "Manual"},
+          {"handle": "cf.collections.sorting_actions.drag_and_drop", "label": "Drag and drop"},
+          {"handle": "cf.collections.sorting_actions.hide_products", "label": "Hide products"},
+          {"handle": "cf.collections.sorting_actions.filtering", "label": "Filtering"},
+          {"handle": "cf.collections.collection_management.real_time_updates", "label": "Real-time updates"},
+          {"handle": "cf.collections.collection_management.variants", "label": "Variants"}
+        ],
+        "languages": [
+          "English",
+          " Turkish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Spanish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " German",
+          " Arabic",
+          " Czech",
+          " Danish",
+          " Finnish",
+          " Hungarian",
+          " Indonesian",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Polish",
+          " Romanian",
+          " Russian",
+          " Swedish",
+          " and Vietnamese"
+        ],
+        "works_with": [
+          "Shopify Admin",
+          "EComposer pagebuilder",
+          "GemPages pagebuilder",
+          "Globo variants",
+          "Instant pagebuilder",
+          "PageFly pagebuilder",
+          "SwatchKing swatches"
+        ]
+      },
+      "developer": {
+        "name": "Sezerium",
+        "website_url": "https://sezerium.com",
+        "partner_url": "https://apps.shopify.com/partners/sezer4",
+        "public_address": "Zaandam, NL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/custom-collections",
+        "canonical_app_store_url": "https://apps.shopify.com/custom-collections",
+        "install_url": "https://apps.shopify.com/custom-collections",
+        "demo_store_url": "https://custom-collection-zgrocksj.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://variantsoncollection.com/privacy",
+          "Sezerium": "https://apps.shopify.com/partners/sezer4",
+          "Website": "https://sezerium.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/5271cc2ad0b889fcf9a3f894400a4f0a/icon/CM-7hM66iYwDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/5271cc2ad0b889fcf9a3f894400a4f0a/desktop_screenshot/CLrw4pHamJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5271cc2ad0b889fcf9a3f894400a4f0a/desktop_screenshot/COW47pHamJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5271cc2ad0b889fcf9a3f894400a4f0a/desktop_screenshot/CL6P-ZHamJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5271cc2ad0b889fcf9a3f894400a4f0a/desktop_screenshot/CNjlg5LamJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5271cc2ad0b889fcf9a3f894400a4f0a/desktop_screenshot/CP-fj5LamJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5271cc2ad0b889fcf9a3f894400a4f0a/desktop_screenshot/CI3CmpLamJcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/bD97-LuXDok"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Stamp Show Variants Collection free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/custom-collections"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Turkish,  Portuguese (Brazil),  Portuguese (Portugal),  Spanish,  French,  Italian,  Japanese,  Chinese (Simplified),  Chinese (Traditional),  German,  Arabic,  Czech,  Danish,  Finnish,  Hungarian,  Indonesian,  Korean,  Norwegian (Bokmål),  Dutch,  Polish,  Romanian,  Russian,  Swedish,  and Vietnamese",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/custom-collections"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, EComposer pagebuilder, GemPages pagebuilder, Globo variants, Instant pagebuilder, PageFly pagebuilder, SwatchKing swatches",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/custom-collections"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/custom-collections"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["collection-sorting-merchandising", "color-swatches"],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "Stamp Show Variants Collection Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include swatches, conditional logic.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/custom-collections",
+          "retrieved_at": "2026-10-04T05:15:37.923159+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Show variants on collection pages. Split variants into separate products & list…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/custom-collections"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "stock-app",
+      "name": "Sort'd Collection Sort & Merch",
+      "slug": "stock-app",
+      "category_fit": {
+        "app_id": "stock-app",
+        "selection_score": 5.9816,
+        "rating_evidence": {"value": 5.0, "reviews": 145},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sort", "collection", "merchandis"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/stock-app"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include automated, manual.",
+        "description_long": "Sort'd Collection Sort & Merch is developed by Beefy Nachos Ltd and listed for collections, analytics. Its structured listing identifies functions such as automated, manual, custom rules, pin products. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Collection Sorting & Merchandising"],
+        "best_for": {
+          "use_cases": ["Collection Sorting & Merchandising"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 145,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/stock-app",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 134},
+          {"stars": 4, "percentage": 6, "count": 9},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Merchandiser Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Premium Pro",
+            "amount_usd": 70.0,
+            "billing_period": "month",
+            "price_display": "$70 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "$70 up to 1 million monthly sessions, $200 up to 5 million, $350 up to 10 million. Custom pricing if more required."
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "September 20, 2019",
+        "shopify_categories": [
+          {
+            "name": "Collections",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-collections"
+          },
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.collections.sorting_actions.automated", "label": "Automated"},
+          {"handle": "cf.collections.sorting_actions.manual", "label": "Manual"},
+          {"handle": "cf.collections.sorting_actions.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.collections.sorting_actions.pin_products", "label": "Pin products"},
+          {"handle": "cf.collections.sorting_actions.drag_and_drop", "label": "Drag and drop"},
+          {"handle": "cf.collections.sorting_actions.push_down", "label": "Push down"},
+          {"handle": "cf.collections.sorting_actions.hide_products", "label": "Hide products"},
+          {"handle": "cf.collections.sorting_actions.group_products", "label": "Group products"},
+          {"handle": "cf.collections.collection_management.real_time_updates", "label": "Real-time updates"},
+          {"handle": "cf.collections.collection_management.analytics", "label": "Analytics"},
+          {
+            "handle": "cf.collections.collection_management.collection_creation",
+            "label": "Collection creation"
+          },
+          {"handle": "cf.collections.collection_management.tagging", "label": "Tagging"},
+          {"handle": "cf.collections.collection_management.segments", "label": "Segments"},
+          {"handle": "cf.collections.collection_management.bulk_editing", "label": "Bulk editing"},
+          {"handle": "cf.collections.collection_management.ai_recommendations", "label": "AI recommendations"},
+          {"handle": "cf.collections.collection_management.a_b_testing", "label": "A/B testing"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.event_tracking", "label": "Event tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.ai_insights", "label": "AI insights"},
+          {"handle": "cf.analytics.marketing_and_sales.checkout_analytics", "label": "Checkout analytics"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Admin"]
+      },
+      "developer": {
+        "name": "Beefy Nachos Ltd",
+        "website_url": "https://www.beefynachos.com",
+        "partner_url": "https://apps.shopify.com/partners/matthew-de-noronha",
+        "public_address": "128 City Road, London, ENG, EC1V 2NX, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/stock-app",
+        "canonical_app_store_url": "https://apps.shopify.com/stock-app",
+        "install_url": "https://apps.shopify.com/stock-app",
+        "demo_store_url": "https://beefynachos.youcanbook.me/",
+        "resources": {
+          "Privacy policy": "https://www.beefynachos.com/privacy",
+          "FAQ": "https://beefynachos.com/collection-merchandiser-sortd/#faq",
+          "Beefy Nachos Ltd": "https://apps.shopify.com/partners/matthew-de-noronha",
+          "Website": "https://www.beefynachos.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/06508637004c80c9f5f731440fb36242/icon/COWWtYzgjI0DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/06508637004c80c9f5f731440fb36242/desktop_screenshot/CKGnwMq18o8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/06508637004c80c9f5f731440fb36242/desktop_screenshot/CN6K1rmx4ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/06508637004c80c9f5f731440fb36242/desktop_screenshot/CLCc_uPbjI0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/06508637004c80c9f5f731440fb36242/desktop_screenshot/CLeoivrnjI0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/06508637004c80c9f5f731440fb36242/desktop_screenshot/CPfvxI_kzpADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/06508637004c80c9f5f731440fb36242/desktop_screenshot/CNyhneTbjI0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/06508637004c80c9f5f731440fb36242/mobile_screenshot/CMmXhqrrupIDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/06508637004c80c9f5f731440fb36242/mobile_screenshot/CKrT6Y7pupIDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/jtSRMGMG-UE"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Sort'd Collection Sort & Merch free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/stock-app"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/stock-app"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/stock-app"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/stock-app"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://beefynachos.com/collection-merchandiser-sortd/#faq"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["collection-sorting-merchandising"],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "Sort'd Collection Sort & Merch Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include automated, manual.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/stock-app",
+          "retrieved_at": "2026-10-04T05:15:37.892270+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Don't sort collections on Shopify without Sort'd. Save time & increase sales…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/stock-app"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "pagefly",
+      "name": "PageFly ✦ AI Page Builder",
+      "slug": "pagefly",
+      "category_fit": {
+        "app_id": "pagefly",
+        "selection_score": 5.9751,
+        "rating_evidence": {"value": 4.9, "reviews": 5904},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["collection"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/pagefly"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for page builders. Listed functions include landing pages, home pages.",
+        "description_long": "PageFly ✦ AI Page Builder is developed by PageFly | AI Landing Page Builder & CRO and listed for page builder, upsell and cross-sell. Its structured listing identifies functions such as landing pages, home pages, product pages, collections. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Page Builders", "Theme Sections", "Collection Sorting & Merchandising", "Cash on Delivery"],
+        "best_for": {
+          "use_cases": ["Page Builders", "Theme Sections", "Collection Sorting & Merchandising", "Cash on Delivery"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 5904,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/pagefly",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 5},
+          {"stars": 4, "percentage": 3, "count": 201},
+          {"stars": 3, "percentage": 0, "count": 26},
+          {"stars": 2, "percentage": 0, "count": 21},
+          {"stars": 1, "percentage": 1, "count": 69}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Builder",
+            "amount_usd": 24.0,
+            "billing_period": "month",
+            "price_display": "$24 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$5 per 5 extra pages or sections (~$1/slot). Optional, billed monthly."]
+          },
+          {
+            "name": "Accelerate",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $990/year and save 17%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 299.0,
+            "billing_period": "month",
+            "price_display": "$299 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://pagefly.io/pages/pricing-plans?utm_campaign=website&utm_source=app-listing&utm_medium=link&utm_content=pricing",
+        "starting_paid_monthly_price_usd": 24.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "September 28, 2017",
+        "shopify_categories": [
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.collections", "label": "Collections"},
+          {"handle": "cf.page_builder.page_types.coming_soon_pages", "label": "Coming soon pages"},
+          {"handle": "cf.page_builder.page_types.blogs", "label": "Blogs"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.help_center_pages", "label": "Help center pages"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.thank_you_pages", "label": "Thank you pages"},
+          {"handle": "cf.page_builder.page_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.page_builder.page_types.forms", "label": "Forms"},
+          {"handle": "cf.page_builder.page_types.404_pages", "label": "404 pages"},
+          {"handle": "cf.page_builder.page_types.career_pages", "label": "Career pages"},
+          {"handle": "cf.page_builder.page_types.legal_pages", "label": "Legal pages"},
+          {"handle": "cf.page_builder.page_types.link_in_bio_page", "label": "Link in bio page"},
+          {"handle": "cf.page_builder.page_types.reviews_page", "label": "Reviews page"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.page_builder.managing_pages.elements", "label": "Elements"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.import_and_export", "label": "Import and export"},
+          {"handle": "cf.page_builder.managing_pages.save_pages", "label": "Save pages"},
+          {"handle": "cf.page_builder.managing_pages.page_versions", "label": "Page versions"},
+          {"handle": "cf.page_builder.managing_pages.bulk_publishing", "label": "Bulk publishing"},
+          {"handle": "cf.page_builder.managing_pages.global_sections", "label": "Global sections"},
+          {"handle": "cf.page_builder.managing_pages.global_styles", "label": "Global styles"}
+        ],
+        "languages": [
+          "French",
+          " English",
+          " German",
+          " Japanese",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Portuguese (Brazil)",
+          " Italian",
+          " and Spanish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Growave, Selleasy & Vitals",
+          "Judge.me, Loox, Yotpo & Okendo",
+          "Kaching Bundles & Recurpay",
+          "Klaviyo, Omnisend & Avada",
+          "Meta Pixel & Google Analytics",
+          "Sidekick"
+        ]
+      },
+      "developer": {
+        "name": "PageFly | AI Landing Page Builder & CRO",
+        "website_url": "https://www.pagefly.io?utm_campaign=website&utm_source=app-listing&utm_medium=link&utm_content=mainsite",
+        "partner_url": "https://apps.shopify.com/partners/pagefly",
+        "public_address": "Hanoi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/pagefly",
+        "canonical_app_store_url": "https://apps.shopify.com/pagefly",
+        "install_url": "https://apps.shopify.com/pagefly",
+        "demo_store_url": "https://demo.pagefly.io",
+        "resources": {
+          "Privacy policy": "https://www.pagefly.io/pages/privacy-policy",
+          "FAQ": "https://help.pagefly.io",
+          "Tutorial": "https://www.youtube.com/channel/UCghz9quakEUXEA_iHO9dzuA",
+          "PageFly | AI Landing Page Builder & CRO": "https://apps.shopify.com/partners/pagefly",
+          "Website": "https://www.pagefly.io"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/icon/CKmsycCOx_YCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/promotional_image/COOnhKu0upYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/desktop_screenshot/CNTWu-yd1pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/desktop_screenshot/COvnxOyd1pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/desktop_screenshot/CPfu0Oyd1pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/desktop_screenshot/CP-8jqu0upYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/desktop_screenshot/COOArfPTuZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/desktop_screenshot/CK39tvPTuZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/mobile_screenshot/CISEwPPTuZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/mobile_screenshot/CMHhyPPTuZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f85ee597169457da8ee70b6652cae768/mobile_screenshot/CP36mKu0upYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is PageFly ✦ AI Page Builder free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/pagefly"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "French,  English,  German,  Japanese,  Chinese (Simplified),  Chinese (Traditional),  Portuguese (Brazil),  Italian,  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/pagefly"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Growave, Selleasy & Vitals, Judge.me, Loox, Yotpo & Okendo, Kaching Bundles & Recurpay, Klaviyo, Omnisend & Avada, Meta Pixel & Google Analytics, Sidekick",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/pagefly"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/pagefly"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.pagefly.io", "https://www.youtube.com/channel/UCghz9quakEUXEA_iHO9dzuA"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["page-builders", "theme-sections", "collection-sorting-merchandising", "cash-on-delivery"],
+        "primary_category_id": "page-builders",
+        "seo": {
+          "title": "PageFly ✦ AI Page Builder Shopify App | eStorefy",
+          "meta_description": "A Shopify app for page builders. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/pagefly",
+          "retrieved_at": "2026-10-04T05:13:11.311540+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Build high-converting Shopify landing, product & custom pages with PageFly's AI page…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/pagefly"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "etp-hide-sort-payments",
+      "name": "ETP Sort Hide Payment Methods",
+      "slug": "etp-hide-sort-payments",
+      "category_fit": {
+        "app_id": "etp-hide-sort-payments",
+        "selection_score": 5.9488,
+        "rating_evidence": {"value": 5.0, "reviews": 544},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sort"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/etp-hide-sort-payments"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include custom rules, additional fees.",
+        "description_long": "ETP Sort Hide Payment Methods is developed by SMART Payment Rules and listed for cart customization, payment options - other. Its structured listing identifies functions such as custom rules, additional fees, payment method rules, hide express checkout. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Collection Sorting & Merchandising",
+          "Cart Drawers & Cart Upsells",
+          "Checkout Customization",
+          "Payment Method Customization",
+          "Geolocation & Country Redirects"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Collection Sorting & Merchandising",
+            "Cart Drawers & Cart Upsells",
+            "Checkout Customization",
+            "Payment Method Customization",
+            "Geolocation & Country Redirects"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 544,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/etp-hide-sort-payments",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 534},
+          {"stars": 4, "percentage": 2, "count": 9},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 10, 2024",
+        "shopify_categories": [
+          {
+            "name": "Cart customization",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-checkout-cart-customization"
+          },
+          {
+            "name": "Payment options - Other",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-payment-options-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.cart_customization.cart_display.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.cart_customization.upselling.additional_fees", "label": "Additional fees"},
+          {
+            "handle": "cf.cart_customization.checkout_customization.payment_method_rules",
+            "label": "Payment method rules"
+          },
+          {
+            "handle": "cf.cart_customization.checkout_customization.hide_express_checkout",
+            "label": "Hide express checkout"
+          },
+          {"handle": "cf.cart_customization.checkout_customization.mutli_language", "label": "Multi-language"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Checkout Functions",
+          "Payment Customizations",
+          "Payment methods",
+          "Payment rules",
+          "Payments"
+        ]
+      },
+      "developer": {
+        "name": "SMART Payment Rules",
+        "website_url": "https://etradepartner.io/",
+        "partner_url": "https://apps.shopify.com/partners/smart-payment-rules",
+        "public_address": "Hoża 86/410, Warszawa, 00-682, PL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/etp-hide-sort-payments",
+        "canonical_app_store_url": "https://apps.shopify.com/etp-hide-sort-payments",
+        "install_url": "https://apps.shopify.com/etp-hide-sort-payments",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://etradepartner.io/privacy-policy",
+          "SMART Payment Rules": "https://apps.shopify.com/partners/smart-payment-rules",
+          "Website": "https://etradepartner.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/0fc11510d5e7c2973f987698ac2088a2/icon/CO6v87S0xI8DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/0fc11510d5e7c2973f987698ac2088a2/promotional_image/CK_qsajLspYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0fc11510d5e7c2973f987698ac2088a2/desktop_screenshot/CNKFg9CDhJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0fc11510d5e7c2973f987698ac2088a2/desktop_screenshot/CNv7jtCDhJQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0fc11510d5e7c2973f987698ac2088a2/desktop_screenshot/CN7emNCDhJQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is ETP Sort Hide Payment Methods free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/etp-hide-sort-payments"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/etp-hide-sort-payments"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Checkout Functions, Payment Customizations, Payment methods, Payment rules, Payments",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/etp-hide-sort-payments"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/etp-hide-sort-payments"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "collection-sorting-merchandising",
+          "cart-drawers-cart-upsells",
+          "checkout-customization",
+          "payment-method-customization",
+          "geolocation-country-redirects"
+        ],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "ETP Sort Hide Payment Methods Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include custom rules, additional fees.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/etp-hide-sort-payments",
+          "retrieved_at": "2026-10-04T05:17:10.050746+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/etp-hide-sort-payments"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "smart-shipping-rates-rules",
+      "name": "SMART Shipping Rates & Rules",
+      "slug": "smart-shipping-rates-rules",
+      "category_fit": {
+        "app_id": "smart-shipping-rates-rules",
+        "selection_score": 5.934,
+        "rating_evidence": {"value": 5.0, "reviews": 440},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sort"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include flat fee, carrier-based.",
+        "description_long": "SMART Shipping Rates & Rules is developed by SMART Shipping Rates and listed for shipping rates, delivery and pickup. Its structured listing identifies functions such as flat fee, carrier-based, customer-based, dimension-based. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Collection Sorting & Merchandising",
+          "Checkout Customization",
+          "Cash on Delivery",
+          "Shipping Rate Calculators",
+          "Delivery Date & Time Slots"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Collection Sorting & Merchandising",
+            "Checkout Customization",
+            "Cash on Delivery",
+            "Shipping Rate Calculators",
+            "Delivery Date & Time Slots"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 440,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/smart-shipping-rates-rules",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 428},
+          {"stars": 4, "percentage": 2, "count": 8},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Development stores",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Lite",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.88/year and save 20%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $191.88/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 14, 2024",
+        "shopify_categories": [
+          {
+            "name": "Shipping rates",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping-rates"
+          },
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.shipping_rates.rate_calculation.flat_fee", "label": "Flat fee"},
+          {"handle": "cf.shipping_rates.rate_calculation.carrier_based", "label": "Carrier-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.customer_based", "label": "Customer-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.dimension_based", "label": "Dimension-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.product_based", "label": "Product-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.quantity_based", "label": "Quantity-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.weight_based", "label": "Weight-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.zip_post_code", "label": "ZIP/post code"},
+          {"handle": "cf.shipping_rates.rate_calculation.rate_blending", "label": "Rate blending"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_zone", "label": "Multi-zone"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_origin", "label": "Multi-origin"},
+          {"handle": "cf.shipping_rates.customization.po_box_restrictions", "label": "PO Box restrictions"},
+          {"handle": "cf.shipping_rates.customization.delivery_date", "label": "Delivery date"},
+          {"handle": "cf.shipping_rates.customization.delivery_time", "label": "Delivery time"},
+          {"handle": "cf.shipping_rates.customization.scheduling", "label": "Scheduling"},
+          {"handle": "cf.shipping_rates.customization.order_limits", "label": "Order limits"},
+          {"handle": "cf.shipping_rates.customization.address_validation", "label": "Address validation"},
+          {"handle": "cf.shipping_rates.customization.rename_options", "label": "Rename options"},
+          {"handle": "cf.shipping_rates.customization.hide_rates", "label": "Hide rates"},
+          {"handle": "cf.shipping_rates.customization.reorder_rates", "label": "Reorder rates"},
+          {"handle": "cf.shipping_rates.customization.geolocation", "label": "Geolocation"},
+          {"handle": "cf.shipping_rates.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.shipping_rates.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.shipping_rates.customization.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.block_dates", "label": "Block dates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.cutoff_times", "label": "Cutoff times"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.dynamic_rates", "label": "Dynamic rates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.minimum_values", "label": "Minimum values"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Carrier Service (CCS)",
+          "Delivery Customizations",
+          "Functions",
+          "Shipping",
+          "Shipping Options",
+          "Shipping Rates"
+        ]
+      },
+      "developer": {
+        "name": "SMART Shipping Rates",
+        "website_url": "https://etradepartner.io/",
+        "partner_url": "https://apps.shopify.com/partners/smart-shipping-rates",
+        "public_address": "Hoża 86/410, Warszawa, 00-682, PL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/smart-shipping-rates-rules",
+        "canonical_app_store_url": "https://apps.shopify.com/smart-shipping-rates-rules",
+        "install_url": "https://apps.shopify.com/smart-shipping-rates-rules",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://etradepartner.io/privacy-policy",
+          "FAQ": "https://smart-shipping-rates.com/faq",
+          "Tutorial": "https://smart-shipping-rates.com/docs/get-started",
+          "App Documentation": "https://smart-shipping-rates.com/docs",
+          "SMART Shipping Rates": "https://apps.shopify.com/partners/smart-shipping-rates",
+          "Website": "https://etradepartner.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/icon/CNaU79-pgpQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/promotional_image/CLqztarKspYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/desktop_screenshot/CMnE_PmCiJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/desktop_screenshot/COeQh_qCiJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/desktop_screenshot/CJbekPqCiJYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is SMART Shipping Rates & Rules free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Carrier Service (CCS), Delivery Customizations, Functions, Shipping, Shipping Options, Shipping Rates",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://smart-shipping-rates.com/faq",
+            "https://smart-shipping-rates.com/docs/get-started",
+            "https://smart-shipping-rates.com/docs"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "collection-sorting-merchandising",
+          "checkout-customization",
+          "cash-on-delivery",
+          "shipping-rate-calculators",
+          "delivery-date-time-slots"
+        ],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "SMART Shipping Rates & Rules Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include flat fee, carrier-based.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/smart-shipping-rates-rules",
+          "retrieved_at": "2026-10-04T05:21:47.848629+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "grouptify-combined-listings",
+      "name": "G: Combined Listings & Variant",
+      "slug": "grouptify-combined-listings",
+      "category_fit": {
+        "app_id": "grouptify-combined-listings",
+        "selection_score": 5.9338,
+        "rating_evidence": {"value": 5.0, "reviews": 439},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["collection"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/grouptify-combined-listings"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include swatches, dropdowns.",
+        "description_long": "G: Combined Listings & Variant is developed by Grouptify and listed for product variants. Its structured listing identifies functions such as swatches, dropdowns, custom css, translation. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Collection Sorting & Merchandising", "Product Options & Variants", "Color Swatches"],
+        "best_for": {
+          "use_cases": ["Collection Sorting & Merchandising", "Product Options & Variants", "Color Swatches"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 439,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/grouptify-combined-listings",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 433},
+          {"stars": 4, "percentage": 1, "count": 4},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Starter",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Unlimited",
+            "amount_usd": 5.0,
+            "billing_period": "month",
+            "price_display": "$5 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.tapita.io/pages/grouptify-combined-listings",
+        "starting_paid_monthly_price_usd": 5.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 11, 2024 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.swatches", "label": "Swatches"},
+          {"handle": "cf.product_variants.customization.dropdowns", "label": "Dropdowns"},
+          {"handle": "cf.product_variants.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.product_variants.customization.translation", "label": "Translation"},
+          {"handle": "cf.product_variants.customization.import_and_export", "label": "Import and export"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"}
+        ],
+        "languages": [
+          "English",
+          " Chinese (Simplified)",
+          " French",
+          " German",
+          " Dutch",
+          " Japanese",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " and Spanish"
+        ],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "Grouptify",
+        "website_url": "https://tapita.io/",
+        "partner_url": "https://apps.shopify.com/partners/grouptify",
+        "public_address": "Dong Da, Hanoi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/grouptify-combined-listings",
+        "canonical_app_store_url": "https://apps.shopify.com/grouptify-combined-listings",
+        "install_url": "https://apps.shopify.com/grouptify-combined-listings",
+        "demo_store_url": "https://grouptify-combined-listings.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://tapita.io/privacy-policy/",
+          "FAQ": "https://www.tapita.io/pages/faqs-g-combined-listings-variant",
+          "Tutorial": "https://tapita0.zohodesk.com/portal/en/kb/articles/getting-started-with-grouptify-combined-listings",
+          "App Documentation": "https://tapita0.zohodesk.com/portal/en/kb/grouptify-combined-listings",
+          "Grouptify": "https://apps.shopify.com/partners/grouptify",
+          "Website": "https://tapita.io/",
+          "Changelog": "https://tapita0.zohodesk.com/portal/en/kb/articles/grouptify-color-swatch-variant-options"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f3c7e2f5de24101b794516ae2211c449/icon/CPbO6JXT84gDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f3c7e2f5de24101b794516ae2211c449/desktop_screenshot/CKyXkKOago8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f3c7e2f5de24101b794516ae2211c449/desktop_screenshot/CLqHmqOago8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f3c7e2f5de24101b794516ae2211c449/desktop_screenshot/CITsqKOago8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f3c7e2f5de24101b794516ae2211c449/desktop_screenshot/CLO7sqOago8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f3c7e2f5de24101b794516ae2211c449/desktop_screenshot/CPaVu6Oago8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f3c7e2f5de24101b794516ae2211c449/desktop_screenshot/COmfxaOago8DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/QDeIrQ-j8yw"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is G: Combined Listings & Variant free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/grouptify-combined-listings"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Chinese (Simplified),  French,  German,  Dutch,  Japanese,  Portuguese (Brazil),  Portuguese (Portugal),  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/grouptify-combined-listings"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/grouptify-combined-listings"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/grouptify-combined-listings"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://www.tapita.io/pages/faqs-g-combined-listings-variant",
+            "https://tapita0.zohodesk.com/portal/en/kb/articles/getting-started-with-grouptify-combined-listings",
+            "https://tapita0.zohodesk.com/portal/en/kb/grouptify-combined-listings"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["collection-sorting-merchandising", "product-options-variants", "color-swatches"],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "G: Combined Listings & Variant Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include swatches, dropdowns.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/grouptify-combined-listings",
+          "retrieved_at": "2026-10-04T05:16:09.223083+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Grouptify assists Shopify merchants in merging related products into a single display,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/grouptify-combined-listings"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "bulk-product-edit",
+      "name": "Hextom: Bulk Product Edit",
+      "slug": "bulk-product-edit",
+      "category_fit": {
+        "app_id": "bulk-product-edit",
+        "selection_score": 5.8962,
+        "rating_evidence": {"value": 4.9, "reviews": 1158},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["collection"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/bulk-product-edit"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include products, variants.",
+        "description_long": "Hextom: Bulk Product Edit is developed by Hextom and listed for bulk editor, inventory sync. Its structured listing identifies functions such as products, variants, orders, images. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Collection Sorting & Merchandising", "Bulk Product Editing", "Store Migration & Data Import"],
+        "best_for": {
+          "use_cases": ["Collection Sorting & Merchandising", "Bulk Product Editing", "Store Migration & Data Import"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1158,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/bulk-product-edit",
+        "distribution": [
+          {"stars": 5, "percentage": 92, "count": 1},
+          {"stars": 4, "percentage": 5, "count": 59},
+          {"stars": 3, "percentage": 1, "count": 6},
+          {"stars": 2, "percentage": 0, "count": 4},
+          {"stars": 1, "percentage": 2, "count": 19}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Demo Plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic Plan",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Professional Plan",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced Plan",
+            "amount_usd": 49.99,
+            "billing_period": "month",
+            "price_display": "$49.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://hextom.com/application/bulk-product-edit/",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "October 5, 2015",
+        "shopify_categories": [
+          {
+            "name": "Bulk editor",
+            "url": "https://apps.shopify.com/categories/store-management-operations-bulk-editor"
+          },
+          {
+            "name": "Inventory sync",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-inventory-inventory-sync"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.bulk_editor.editable_resources.products", "label": "Products"},
+          {"handle": "cf.bulk_editor.editable_resources.variants", "label": "Variants"},
+          {"handle": "cf.bulk_editor.editable_resources.orders", "label": "Orders"},
+          {"handle": "cf.bulk_editor.editable_resources.images", "label": "Images"},
+          {"handle": "cf.bulk_editor.editable_resources.prices", "label": "Prices"},
+          {"handle": "cf.bulk_editor.editable_resources.sku_and_barcodes", "label": "SKU and barcodes"},
+          {"handle": "cf.bulk_editor.editable_resources.tags", "label": "Tags"},
+          {"handle": "cf.bulk_editor.editable_resources.descriptions", "label": "Descriptions"},
+          {"handle": "cf.bulk_editor.editable_resources.inventory", "label": "Inventory"},
+          {"handle": "cf.bulk_editor.editable_resources.metafields", "label": "Metafields"},
+          {"handle": "cf.bulk_editor.editable_resources.collections", "label": "Collections"},
+          {"handle": "cf.bulk_editor.actions.seo_updates", "label": "SEO updates"},
+          {"handle": "cf.bulk_editor.actions.csv_import_and_export", "label": "CSV import and export"},
+          {"handle": "cf.bulk_editor.actions.data_migration", "label": "Data migration"},
+          {"handle": "cf.bulk_editor.actions.data_sync", "label": "Data sync"},
+          {"handle": "cf.bulk_editor.actions.backup", "label": "Backup"},
+          {"handle": "cf.bulk_editor.actions.rollback", "label": "Rollback"},
+          {"handle": "cf.bulk_editor.actions.search_and_filter", "label": "Search and filter"},
+          {"handle": "cf.bulk_editor.actions.scheduled_tasks", "label": "Scheduled tasks"},
+          {"handle": "cf.bulk_editor.actions.bulk_edit", "label": "Bulk edit"},
+          {"handle": "cf.inventory_sync.sync_type.orders", "label": "Orders"},
+          {"handle": "cf.inventory_sync.sync_type.prices", "label": "Prices"},
+          {"handle": "cf.inventory_sync.sync_type.product_details", "label": "Product details"},
+          {"handle": "cf.inventory_sync.sync_type.variants", "label": "Variants"},
+          {"handle": "cf.inventory_sync.sync_type.skus", "label": "SKUs"},
+          {"handle": "cf.inventory_sync.sync_type.barcodes", "label": "Barcodes"},
+          {"handle": "cf.inventory_sync.sync_type.multi_channel", "label": "Multi-channel"},
+          {"handle": "cf.inventory_sync.sync_type.multi_store", "label": "Multi-store"},
+          {"handle": "cf.inventory_sync.sync_type.automatic", "label": "Automatic"},
+          {"handle": "cf.inventory_sync.sync_type.manual", "label": "Manual"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "Hextom",
+        "website_url": "https://hextom.com",
+        "partner_url": "https://apps.shopify.com/partners/hextom",
+        "public_address": "Richmond Hill, ON, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/bulk-product-edit",
+        "canonical_app_store_url": "https://apps.shopify.com/bulk-product-edit",
+        "install_url": "https://apps.shopify.com/bulk-product-edit",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://hextom.com/privacy-policy/",
+          "FAQ": "https://bpe-help-center.hextom.com/",
+          "Tutorial": "https://bpe-help-center.hextom.com/",
+          "Hextom": "https://apps.shopify.com/partners/hextom",
+          "Website": "https://hextom.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/72a63be7aee363d08469b2a8549c6d3f/icon/CNi0-pzz54YDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/72a63be7aee363d08469b2a8549c6d3f/desktop_screenshot/CLqHtdL0lu8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/72a63be7aee363d08469b2a8549c6d3f/desktop_screenshot/CIWRxMT0lu8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/72a63be7aee363d08469b2a8549c6d3f/desktop_screenshot/CO2ml8L0lu8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/72a63be7aee363d08469b2a8549c6d3f/desktop_screenshot/CPS9tdL0lu8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/72a63be7aee363d08469b2a8549c6d3f/desktop_screenshot/CKqlqb70lu8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/72a63be7aee363d08469b2a8549c6d3f/desktop_screenshot/CL6fx7f0lu8CEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/CU9i1iaRQa4"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Hextom: Bulk Product Edit free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/bulk-product-edit"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bulk-product-edit"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/bulk-product-edit"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/bulk-product-edit"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://bpe-help-center.hextom.com/", "https://bpe-help-center.hextom.com/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["collection-sorting-merchandising", "bulk-product-editing", "store-migration-data-import"],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "Hextom: Bulk Product Edit Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include products, variants.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/bulk-product-edit",
+          "retrieved_at": "2026-10-04T05:26:39.493953+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "BPE is an all inclusive Shopify store management tool which helps you…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/bulk-product-edit"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "variantify",
+      "name": "Show variants ‑ Variantify",
+      "slug": "variantify",
+      "category_fit": {
+        "app_id": "variantify",
+        "selection_score": 5.8564,
+        "rating_evidence": {"value": 5.0, "reviews": 61},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["collection", "merchandis"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/variantify"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include preview, variants display.",
+        "description_long": "Show variants ‑ Variantify is developed by SMC and listed for product variants, collections. Its structured listing identifies functions such as preview, variants display, variant upcharges, hide out-of-stock. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Collection Sorting & Merchandising"],
+        "best_for": {
+          "use_cases": ["Collection Sorting & Merchandising"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 61,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/variantify",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 61},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $9.99/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Pro Plan",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $99.90/year and save 17%"]
+          },
+          {
+            "name": "Advanced Plan",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $199.90/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.variantify.io/pricing",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 14, 2025",
+        "shopify_categories": [
+          {
+            "name": "Product variants",
+            "url": "https://apps.shopify.com/categories/selling-products-custom-products-product-variants"
+          },
+          {
+            "name": "Collections",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-collections"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.product_variants.customization.preview", "label": "Preview"},
+          {"handle": "cf.product_variants.customization.variants_display", "label": "Variants display"},
+          {"handle": "cf.product_variants.pricing.variant_upcharges", "label": "Variant upcharges"},
+          {"handle": "cf.product_variants.inventory.hide_out_of_stock", "label": "Hide out-of-stock"},
+          {"handle": "cf.product_variants.inventory.in_stock_display", "label": "In-stock display"},
+          {"handle": "cf.collections.sorting_actions.manual", "label": "Manual"},
+          {"handle": "cf.collections.sorting_actions.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.collections.sorting_actions.drag_and_drop", "label": "Drag and drop"},
+          {"handle": "cf.collections.sorting_actions.hide_products", "label": "Hide products"},
+          {"handle": "cf.collections.sorting_actions.filtering", "label": "Filtering"},
+          {"handle": "cf.collections.collection_management.real_time_updates", "label": "Real-time updates"},
+          {
+            "handle": "cf.collections.collection_management.collection_creation",
+            "label": "Collection creation"
+          },
+          {"handle": "cf.collections.collection_management.variants", "label": "Variants"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "SMC",
+        "website_url": "https://www.variantify.io/",
+        "partner_url": "https://apps.shopify.com/partners/smc18",
+        "public_address": "109 rue Anatole France, Levallois-Perret, 92300, FR"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/variantify",
+        "canonical_app_store_url": "https://apps.shopify.com/variantify",
+        "install_url": "https://apps.shopify.com/variantify",
+        "demo_store_url": "https://variantify-demo.myshopify.com/collections/new-test-collection",
+        "resources": {
+          "Privacy policy": "https://www.variantify.io/privacy-policy",
+          "FAQ": "https://www.variantify.io/faq",
+          "Tutorial": "https://help.variantify.io/en/article/displaying-variants-on-collection-pages-dojvlb/",
+          "App Documentation": "https://help.variantify.io/",
+          "SMC": "https://apps.shopify.com/partners/smc18",
+          "Website": "https://www.variantify.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/4f6e05ca6ee9cec651be1bc7c15b9ea0/icon/CJumhIvbkY4DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/4f6e05ca6ee9cec651be1bc7c15b9ea0/promotional_image/CKWA5pLJ0pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4f6e05ca6ee9cec651be1bc7c15b9ea0/desktop_screenshot/CMT38JLJ0pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4f6e05ca6ee9cec651be1bc7c15b9ea0/desktop_screenshot/CJKy_JLJ0pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4f6e05ca6ee9cec651be1bc7c15b9ea0/desktop_screenshot/CJ39hpPJ0pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4f6e05ca6ee9cec651be1bc7c15b9ea0/desktop_screenshot/CN7akpPJ0pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4f6e05ca6ee9cec651be1bc7c15b9ea0/desktop_screenshot/COnWnJPJ0pYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4f6e05ca6ee9cec651be1bc7c15b9ea0/desktop_screenshot/CPXqppPJ0pYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Show variants ‑ Variantify free?",
+            "answer": "The pricing label retrieved from the listing is: From $9.99/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/variantify"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/variantify"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/variantify"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/variantify"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://www.variantify.io/faq",
+            "https://help.variantify.io/en/article/displaying-variants-on-collection-pages-dojvlb/",
+            "https://help.variantify.io/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["collection-sorting-merchandising"],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "Show variants ‑ Variantify Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include preview, variants display.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/variantify",
+          "retrieved_at": "2026-10-04T05:15:37.917148+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Show variants as separate products on collections pages. Split variants by color,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/variantify"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "shipfy-delivery-customization",
+      "name": "Shipy ‑ Hide Shipping Rules",
+      "slug": "shipfy-delivery-customization",
+      "category_fit": {
+        "app_id": "shipfy-delivery-customization",
+        "selection_score": 5.8355,
+        "rating_evidence": {"value": 5.0, "reviews": 150},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["sort", "collection"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/shipfy-delivery-customization"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include custom rules, free shipping.",
+        "description_long": "Shipy ‑ Hide Shipping Rules is developed by Cirkle Studio LLC and listed for checkout - other, cart customization. Its structured listing identifies functions such as custom rules, free shipping, shipping method rules. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Collection Sorting & Merchandising", "Checkout Customization"],
+        "best_for": {
+          "use_cases": ["Collection Sorting & Merchandising", "Checkout Customization"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 150,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/shipfy-delivery-customization",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 146},
+          {"stars": 4, "percentage": 1, "count": 2},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Development Store",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 3.99,
+            "billing_period": "month",
+            "price_display": "$3.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 5.99,
+            "billing_period": "month",
+            "price_display": "$5.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 3.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "March 6, 2023",
+        "shopify_categories": [
+          {
+            "name": "Checkout - Other",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-checkout-checkout-other"
+          },
+          {
+            "name": "Cart customization",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-checkout-cart-customization"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.cart_customization.cart_display.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.cart_customization.upselling.free_shipping", "label": "Free shipping"},
+          {
+            "handle": "cf.cart_customization.checkout_customization.shipping_method_rules",
+            "label": "Shipping method rules"
+          }
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Admin", "Advanced Cash on Delivery", "Shipping & Delivery ‑ ShipZip"]
+      },
+      "developer": {
+        "name": "Cirkle Studio LLC",
+        "website_url": "https://www.cirklestudio.co/",
+        "partner_url": "https://apps.shopify.com/partners/cirkle-studio",
+        "public_address": "112 W 34th St., Suite 18041 , New York, NY, 10120, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/shipfy-delivery-customization",
+        "canonical_app_store_url": "https://apps.shopify.com/shipfy-delivery-customization",
+        "install_url": "https://apps.shopify.com/shipfy-delivery-customization",
+        "demo_store_url": "https://shipfy-delivery-customization.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.cirklestudio.co/privacy-policy/",
+          "Tutorial": "https://www.youtube.com/watch?v=aEQ-TarBXYo&list=PLeRSfe78YijUxjISD49EYeootbm7dkf2e",
+          "Cirkle Studio LLC": "https://apps.shopify.com/partners/cirkle-studio",
+          "Website": "https://www.cirklestudio.co/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/b44e65dda5cbfc4ff8e746bd8b224774/icon/CKiF-ey-rf0CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/b44e65dda5cbfc4ff8e746bd8b224774/desktop_screenshot/COv777WNiYEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b44e65dda5cbfc4ff8e746bd8b224774/desktop_screenshot/CP-z-rWNiYEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b44e65dda5cbfc4ff8e746bd8b224774/desktop_screenshot/CMCnhraNiYEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b44e65dda5cbfc4ff8e746bd8b224774/desktop_screenshot/CLHGkLaNiYEDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/1KMktIskvNo"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Shipy ‑ Hide Shipping Rules free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/shipfy-delivery-customization"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/shipfy-delivery-customization"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Advanced Cash on Delivery, Shipping & Delivery ‑ ShipZip",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/shipfy-delivery-customization"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/shipfy-delivery-customization"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://www.youtube.com/watch?v=aEQ-TarBXYo&list=PLeRSfe78YijUxjISD49EYeootbm7dkf2e"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["collection-sorting-merchandising", "checkout-customization"],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "Shipy ‑ Hide Shipping Rules Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include custom rules, free shipping.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/shipfy-delivery-customization",
+          "retrieved_at": "2026-10-04T05:17:28.090624+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Hide/Rename the delivery options on checkout using various conditions like Cart total,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/shipfy-delivery-customization"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "jedi-collection-sort",
+      "name": "Jedi ‑ Collection Sort Pro",
+      "slug": "jedi-collection-sort",
+      "category_fit": {
+        "app_id": "jedi-collection-sort",
+        "selection_score": 5.7935,
+        "rating_evidence": {"value": 4.8, "reviews": 128},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["collection", "sort", "merchandis"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/jedi-collection-sort"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include automated, manual.",
+        "description_long": "Jedi ‑ Collection Sort Pro is developed by Jedi Apps and listed for collections, product display - other. Its structured listing identifies functions such as automated, manual, custom rules, pin products. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Collection Sorting & Merchandising"],
+        "best_for": {
+          "use_cases": ["Collection Sorting & Merchandising"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 128,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/jedi-collection-sort",
+        "distribution": [
+          {"stars": 5, "percentage": 91, "count": 117},
+          {"stars": 4, "percentage": 5, "count": 6},
+          {"stars": 3, "percentage": 2, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "BASIC",
+            "amount_usd": 2.99,
+            "billing_period": "month",
+            "price_display": "$2.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $32/year and save 11%"]
+          },
+          {
+            "name": "PROFESSIONAL",
+            "amount_usd": 14.0,
+            "billing_period": "month",
+            "price_display": "$14 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $150/year and save 11%"]
+          },
+          {
+            "name": "PROFESSIONAL PLUS",
+            "amount_usd": 30.0,
+            "billing_period": "month",
+            "price_display": "$30 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $299/year and save 17%"]
+          },
+          {
+            "name": "ENTERPRISE",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $520/year and save 12%"]
+          },
+          {
+            "name": "ENTERPRISE PLUS",
+            "amount_usd": 80.0,
+            "billing_period": "month",
+            "price_display": "$80 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $799/year and save 17%"]
+          },
+          {
+            "name": "ENTERPRISE MAX",
+            "amount_usd": 159.0,
+            "billing_period": "month",
+            "price_display": "$159 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,499/year and save 21%"]
+          },
+          {
+            "name": "UNLIMITED",
+            "amount_usd": 249.0,
+            "billing_period": "month",
+            "price_display": "$249 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $2,600/year and save 13%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://jediapps.com/pricing",
+        "starting_paid_monthly_price_usd": 2.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 14, 2023",
+        "shopify_categories": [
+          {
+            "name": "Collections",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-collections"
+          },
+          {
+            "name": "Product display - Other",
+            "url": "https://apps.shopify.com/categories/store-design-product-display-product-display-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.collections.sorting_actions.automated", "label": "Automated"},
+          {"handle": "cf.collections.sorting_actions.manual", "label": "Manual"},
+          {"handle": "cf.collections.sorting_actions.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.collections.sorting_actions.pin_products", "label": "Pin products"},
+          {"handle": "cf.collections.sorting_actions.drag_and_drop", "label": "Drag and drop"},
+          {"handle": "cf.collections.sorting_actions.push_down", "label": "Push down"},
+          {"handle": "cf.collections.sorting_actions.group_products", "label": "Group products"},
+          {"handle": "cf.collections.sorting_actions.filtering", "label": "Filtering"},
+          {"handle": "cf.collections.collection_management.real_time_updates", "label": "Real-time updates"},
+          {"handle": "cf.collections.collection_management.analytics", "label": "Analytics"},
+          {
+            "handle": "cf.collections.collection_management.collection_creation",
+            "label": "Collection creation"
+          },
+          {"handle": "cf.collections.collection_management.segments", "label": "Segments"},
+          {"handle": "cf.collections.collection_management.ai_recommendations", "label": "AI recommendations"},
+          {"handle": "cf.collections.collection_management.a_b_testing", "label": "A/B testing"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Admin", "Claude", "MCP", "Sidekick"]
+      },
+      "developer": {
+        "name": "Jedi Apps",
+        "website_url": "https://jediapps.com/",
+        "partner_url": "https://apps.shopify.com/partners/gamenow",
+        "public_address": "F13 SL3 Sec 57, Gurgaon, HR, 122003, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/jedi-collection-sort",
+        "canonical_app_store_url": "https://apps.shopify.com/jedi-collection-sort",
+        "install_url": "https://apps.shopify.com/jedi-collection-sort",
+        "demo_store_url": "https://youtu.be/Y9dpKBgIPAc",
+        "resources": {
+          "Privacy policy": "https://jediapps.com/privacy",
+          "FAQ": "https://jediapps.com/faq",
+          "App Documentation": "https://jediapps.com/docs",
+          "Jedi Apps": "https://apps.shopify.com/partners/gamenow",
+          "Website": "https://jediapps.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/5d82c2f2afa59aced4c05e70d530353f/icon/CLTf3PC93JUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/5d82c2f2afa59aced4c05e70d530353f/promotional_image/CM3C_--UmZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d82c2f2afa59aced4c05e70d530353f/desktop_screenshot/CPjM_qnf74kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d82c2f2afa59aced4c05e70d530353f/desktop_screenshot/COS3iqrf74kDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d82c2f2afa59aced4c05e70d530353f/desktop_screenshot/CNiLm4fVmJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d82c2f2afa59aced4c05e70d530353f/desktop_screenshot/CM3ZjpXgkJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d82c2f2afa59aced4c05e70d530353f/desktop_screenshot/CIqOyfLUmJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d82c2f2afa59aced4c05e70d530353f/desktop_screenshot/CJy60_LUmJcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d82c2f2afa59aced4c05e70d530353f/mobile_screenshot/CMDc_pqwiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d82c2f2afa59aced4c05e70d530353f/mobile_screenshot/CIySipuwiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d82c2f2afa59aced4c05e70d530353f/mobile_screenshot/CI3plZuwiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d82c2f2afa59aced4c05e70d530353f/mobile_screenshot/CODwnpuwiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d82c2f2afa59aced4c05e70d530353f/mobile_screenshot/CN2CqpuwiZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d82c2f2afa59aced4c05e70d530353f/mobile_screenshot/CL2BtZuwiZcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Jedi ‑ Collection Sort Pro free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/jedi-collection-sort"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/jedi-collection-sort"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Claude, MCP, Sidekick",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/jedi-collection-sort"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/jedi-collection-sort"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://jediapps.com/faq", "https://jediapps.com/docs"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["collection-sorting-merchandising"],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "Jedi ‑ Collection Sort Pro Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include automated, manual.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/jedi-collection-sort",
+          "retrieved_at": "2026-10-04T05:16:45.853230+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Push down sold out products, Sort products with AI sort, Metafield, Nested…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/jedi-collection-sort"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

@@ -1,6 +1,4 @@
 import Link from "next/link";
-import Header from "@/components/shared/Header";
-import Footer from "@/components/shared/Footer";
 import AgencyActions, { BriefButton } from "./AgencyActions";
 import AgencyHero from "./AgencyHero";
 import ProfileNav from "./ProfileNav";
@@ -30,8 +28,7 @@ export default function AgencyPage({ agency, city, related }) {
         Find your people. Build your next chapter. <b>The Shopify talent directory.</b>
       </div>
       <AgencyActions agency={agency}>
-        <div className="wrap">
-          <Header profile />
+        <div className="page-group">
           <div className="crumbs" aria-label="Breadcrumb">
             <Link href="/">Home</Link>
             <span>/</span>
@@ -42,7 +39,7 @@ export default function AgencyPage({ agency, city, related }) {
           <AgencyHero agency={agency} />
         </div>
         <ProfileNav name={agency.name} />
-        <main className="wrap">
+        <div className="page-group">
           <div className="layout">
             <div className="content">
               <AgencyOverview agency={agency} />
@@ -73,14 +70,13 @@ export default function AgencyPage({ agency, city, related }) {
             </div>
             <BriefButton className="btn lime">Build my project brief</BriefButton>
           </section>
-          <Footer />
-        </main>
+        </div>
         <div className="mobile-contact">
           <div>
             <strong>{agency.name}</strong>
             <small>
               {rating
-                ? `${rating.value}/5 · ${rating.reviewCount} ${rating.platform === "Clutch" ? "Clutch" : "Shopify"} reviews`
+                ? `${rating.value}/5 · ${rating.reviewCount} ${rating.platform.includes("Shopify") ? "Shopify" : rating.platform} reviews`
                 : "Explore published services"}
             </small>
           </div>

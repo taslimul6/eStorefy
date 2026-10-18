@@ -1,0 +1,3131 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "marketing-attribution",
+    "number": 87,
+    "name": "Marketing Attribution",
+    "group": "Analytics & Automation",
+    "slug": "marketing-attribution",
+    "url_path": "/apps/marketing-attribution",
+    "focus": "Understand business activity and automate repetitive work.",
+    "description": "Compare Shopify apps for marketing attribution. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/store-management-operations-analytics/all"],
+    "seo": {
+      "title": "Shopify Marketing Attribution Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for marketing attribution: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a marketing attribution app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "grapevine",
+      "name": "Grapevine Post Purchase Survey",
+      "slug": "grapevine",
+      "category_fit": {
+        "app_id": "grapevine",
+        "selection_score": 6.0295,
+        "rating_evidence": {"value": 5.0, "reviews": 228},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["attribution"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/grapevine"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for customer surveys. Listed functions include conditional logic, custom styles.",
+        "description_long": "Grapevine Post Purchase Survey is developed by Union Works Apps and listed for surveys, analytics. Its structured listing identifies functions such as conditional logic, custom styles, drag-and-drop editor, embedded forms. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Customer Surveys", "Marketing Attribution"],
+        "best_for": {
+          "use_cases": ["Customer Surveys", "Marketing Attribution"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 228,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/grapevine",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 221},
+          {"stars": 4, "percentage": 3, "count": 7},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "$25/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Complete",
+            "amount_usd": 25.0,
+            "billing_period": "month",
+            "price_display": "$25 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://grapevine-surveys.com/pages/pricing",
+        "starting_paid_monthly_price_usd": 25.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 17, 2017 · Changelog",
+        "shopify_categories": [
+          {"name": "Surveys", "url": "https://apps.shopify.com/categories/store-management-support-surveys"},
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.surveys.form_customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.surveys.form_customization.custom_styles", "label": "Custom styles"},
+          {"handle": "cf.surveys.form_customization.drag_and_drop_editor", "label": "Drag-and-drop editor"},
+          {"handle": "cf.surveys.form_customization.embedded_forms", "label": "Embedded forms"},
+          {"handle": "cf.surveys.form_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.surveys.survey_types.customer_satisfaction", "label": "Customer satisfaction"},
+          {"handle": "cf.surveys.survey_types.market_research", "label": "Market research"},
+          {"handle": "cf.surveys.survey_types.net_promoter_score_nps", "label": "Net Promoter Score (NPS)"},
+          {"handle": "cf.surveys.survey_types.product_feedback", "label": "Product feedback"},
+          {"handle": "cf.surveys.survey_types.post_purchase", "label": "Post-purchase"},
+          {"handle": "cf.surveys.survey_types.attribution", "label": "Attribution"},
+          {"handle": "cf.surveys.submission_management.data_export", "label": "Data export"},
+          {"handle": "cf.surveys.submission_management.analytics", "label": "Analytics"},
+          {"handle": "cf.surveys.submission_management.customer_segments", "label": "Customer segments"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.segmentation", "label": "Segmentation"},
+          {"handle": "cf.analytics.customer_behavior.loyalty_analysis", "label": "Loyalty analysis"},
+          {"handle": "cf.analytics.customer_behavior.cohort_analysis", "label": "Cohort analysis"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.funnel_analysis", "label": "Funnel analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.abandoned_carts", "label": "Abandoned cart"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"},
+          {"handle": "cf.analytics.visuals_and_reports.benchmarking", "label": "Benchmarking"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_reports", "label": "Custom reports"},
+          {"handle": "cf.analytics.visuals_and_reports.data_export", "label": "Data export"},
+          {"handle": "cf.analytics.visuals_and_reports.historical_analysis", "label": "Historical analysis"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Spanish",
+          " German",
+          " Italian",
+          " Portuguese (Brazil)",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": [
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Checkout Extensions",
+          "Google Analytics",
+          "Google Sheets",
+          "Klaviyo",
+          "POS",
+          "Thank you & Order Status Page"
+        ]
+      },
+      "developer": {
+        "name": "Union Works Apps",
+        "website_url": "https://grapevine-surveys.com/",
+        "partner_url": "https://apps.shopify.com/partners/unionworks",
+        "public_address": "86-90 Paul Street, London, EC2A 4NE, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/grapevine",
+        "canonical_app_store_url": "https://apps.shopify.com/grapevine",
+        "install_url": "https://apps.shopify.com/grapevine",
+        "demo_store_url": "https://grapevine-surveys.com/",
+        "resources": {
+          "Privacy policy": "https://grapevine-surveys.com/pages/legal",
+          "FAQ": "https://docs.grapevine-surveys.com/en/collections/624454-faqs-and-privacy",
+          "Tutorial": "https://grapevine-surveys.com/products/grapevine-demo-product",
+          "Union Works Apps": "https://apps.shopify.com/partners/unionworks",
+          "Website": "https://grapevine-surveys.com/",
+          "Changelog": "https://grapevine-surveys.com/pages/grapevine-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/icon/CMLS7OaBsZIDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/promotional_image/CJDs15yLopUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/desktop_screenshot/CJLR292LopUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/desktop_screenshot/CM6t592LopUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/desktop_screenshot/CJGpoqe4pJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/desktop_screenshot/CICaq6e4pJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/desktop_screenshot/CMTqs6e4pJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/desktop_screenshot/CLDxvKe4pJUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/pos_screenshot/CIr1jonvj5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/46337f5b73c04c72644ce5199c3f8f4a/pos_screenshot/CJj0l4nvj5EDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Grapevine Post Purchase Survey free?",
+            "answer": "The pricing label retrieved from the listing is: $25/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/grapevine"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Spanish,  German,  Italian,  Portuguese (Brazil),  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/grapevine"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify POS, Shopify Flow, Shopify Admin, Checkout Extensions, Google Analytics, Google Sheets, Klaviyo, POS, Thank you & Order Status Page",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/grapevine"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/grapevine"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.grapevine-surveys.com/en/collections/624454-faqs-and-privacy",
+            "https://grapevine-surveys.com/products/grapevine-demo-product"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant communication channel and add the approved support content.",
+            "Test common questions and handover behaviour before enabling it for customers.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["customer-surveys", "marketing-attribution"],
+        "primary_category_id": "customer-surveys",
+        "seo": {
+          "title": "Grapevine Post Purchase Survey Shopify App | eStorefy",
+          "meta_description": "A Shopify app for customer surveys. Listed functions include conditional logic, custom styles.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/grapevine",
+          "retrieved_at": "2026-10-04T05:26:06.631645+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Run post purchase, NPS, CSAT and attribution surveys on Shopify with unlimited…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/grapevine"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "fairing",
+      "name": "Fairing Post Purchase Surveys",
+      "slug": "fairing",
+      "category_fit": {
+        "app_id": "fairing",
+        "selection_score": 6.0146,
+        "rating_evidence": {"value": 5.0, "reviews": 196},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["attribution"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/fairing"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for order tracking. Listed functions include conditional logic, custom styles.",
+        "description_long": "Fairing Post Purchase Surveys is developed by Fairing and listed for surveys, analytics. Its structured listing identifies functions such as conditional logic, custom styles, drag-and-drop editor, embedded forms. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Order Tracking", "Customer Surveys", "Marketing Attribution"],
+        "best_for": {
+          "use_cases": ["Order Tracking", "Customer Surveys", "Marketing Attribution"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 196,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/fairing",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 194},
+          {"stars": 4, "percentage": 1, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Up to 200 orders",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "201 to 500 Orders",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "501 to 1k Orders",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "1,001 to 5k Orders",
+            "amount_usd": 149.0,
+            "billing_period": "month",
+            "price_display": "$149 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://fairing.co/pricing/",
+        "starting_paid_monthly_price_usd": 49.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "May 7, 2018 · Changelog",
+        "shopify_categories": [
+          {"name": "Surveys", "url": "https://apps.shopify.com/categories/store-management-support-surveys"},
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.surveys.form_customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.surveys.form_customization.custom_styles", "label": "Custom styles"},
+          {"handle": "cf.surveys.form_customization.drag_and_drop_editor", "label": "Drag-and-drop editor"},
+          {"handle": "cf.surveys.form_customization.embedded_forms", "label": "Embedded forms"},
+          {"handle": "cf.surveys.form_customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.surveys.form_customization.templates", "label": "Templates"},
+          {"handle": "cf.surveys.form_customization.multi_page", "label": "Multi-page"},
+          {"handle": "cf.surveys.form_customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.surveys.form_customization.real_time_edits", "label": "Real-time editing"},
+          {"handle": "cf.surveys.form_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.surveys.survey_types.customer_satisfaction", "label": "Customer satisfaction"},
+          {"handle": "cf.surveys.survey_types.market_research", "label": "Market research"},
+          {"handle": "cf.surveys.survey_types.net_promoter_score_nps", "label": "Net Promoter Score (NPS)"},
+          {"handle": "cf.surveys.survey_types.product_feedback", "label": "Product feedback"},
+          {"handle": "cf.surveys.survey_types.post_purchase", "label": "Post-purchase"},
+          {"handle": "cf.surveys.survey_types.attribution", "label": "Attribution"},
+          {"handle": "cf.surveys.submission_management.data_export", "label": "Data export"},
+          {"handle": "cf.surveys.submission_management.analytics", "label": "Analytics"},
+          {"handle": "cf.surveys.submission_management.customer_segments", "label": "Customer segments"},
+          {"handle": "cf.analytics.customer_behavior.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.segmentation", "label": "Segmentation"},
+          {"handle": "cf.analytics.customer_behavior.visitor_ip", "label": "Visitor IP"},
+          {"handle": "cf.analytics.customer_behavior.lifetime_value_ltv", "label": "Lifetime value (LTV)"},
+          {"handle": "cf.analytics.customer_behavior.loyalty_analysis", "label": "Loyalty analysis"},
+          {"handle": "cf.analytics.customer_behavior.cohort_analysis", "label": "Cohort analysis"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.checkout_analytics", "label": "Checkout analytics"},
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.profit_insights", "label": "Profit insights"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "Analytics",
+          "Checkout Extensions",
+          "Flow",
+          "Google Sheets",
+          "Klaviyo",
+          "Triple Whale"
+        ]
+      },
+      "developer": {
+        "name": "Fairing",
+        "website_url": "https://fairing.co/?utm_source=shpfy_app_store&utm_medium=listing_link",
+        "partner_url": "https://apps.shopify.com/partners/hodi-inc",
+        "public_address": "1460 Broadway, New York, NY, 10036, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/fairing",
+        "canonical_app_store_url": "https://apps.shopify.com/fairing",
+        "install_url": "https://apps.shopify.com/fairing",
+        "demo_store_url": "https://fairingdemo.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://fairing.co/privacy",
+          "FAQ": "http://docs.fairing.co/docs/",
+          "Fairing": "https://apps.shopify.com/partners/hodi-inc",
+          "Website": "https://fairing.co/",
+          "Changelog": "https://fairing.canny.io/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/b012f4ba86663a72ddc26dcdfe1f9ffe/icon/CKLB_tKX_ZUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/b012f4ba86663a72ddc26dcdfe1f9ffe/promotional_image/CJ2uxZa97JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b012f4ba86663a72ddc26dcdfe1f9ffe/desktop_screenshot/CKz12aes-5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b012f4ba86663a72ddc26dcdfe1f9ffe/desktop_screenshot/COH05Kes-5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b012f4ba86663a72ddc26dcdfe1f9ffe/desktop_screenshot/CK2x76es-5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b012f4ba86663a72ddc26dcdfe1f9ffe/desktop_screenshot/CLu6-aes-5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b012f4ba86663a72ddc26dcdfe1f9ffe/pos_screenshot/CNPQsPK57ZADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Fairing Post Purchase Surveys free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/fairing"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/fairing"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify POS, Shopify Flow, Analytics, Checkout Extensions, Flow, Google Sheets, Klaviyo, Triple Whale",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/fairing"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/fairing"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["http://docs.fairing.co/docs/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["order-tracking", "customer-surveys", "marketing-attribution"],
+        "primary_category_id": "order-tracking",
+        "seo": {
+          "title": "Fairing Post Purchase Surveys Shopify App | eStorefy",
+          "meta_description": "A Shopify app for order tracking. Listed functions include conditional logic, custom styles.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/fairing",
+          "retrieved_at": "2026-10-04T05:26:06.646623+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Post-purchase surveys for Shopify. Solve marketing attribution, CRO, personalization, and more. Trusted…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/fairing"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "yuri-facebook-multi-pixels",
+      "name": "OC Meta Pixel‑ Facebook Pixels",
+      "slug": "yuri-facebook-multi-pixels",
+      "category_fit": {
+        "app_id": "yuri-facebook-multi-pixels",
+        "selection_score": 5.9444,
+        "rating_evidence": {"value": 5.0, "reviews": 108},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["roas"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/yuri-facebook-multi-pixels"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for meta pixel & conversion tracking. Listed functions include lookalike audiences, product category.",
+        "description_long": "OC Meta Pixel‑ Facebook Pixels is developed by OrichiCommerce and listed for ads, analytics. Its structured listing identifies functions such as lookalike audiences, product category, retargeting, pixel management. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Meta Pixel & Conversion Tracking", "Marketing Attribution"],
+        "best_for": {
+          "use_cases": ["Meta Pixel & Conversion Tracking", "Marketing Attribution"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 108,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/yuri-facebook-multi-pixels",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 105},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 3, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Development",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "\"Basic\" Stores",
+            "amount_usd": 14.99,
+            "billing_period": "month",
+            "price_display": "$14.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $90/year and save 50%", "only $2.99 monthly for extra Conversions API"]
+          },
+          {
+            "name": "\"Advanced\" Stores",
+            "amount_usd": 24.99,
+            "billing_period": "month",
+            "price_display": "$24.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $149.99/year and save 50%", "only $2.99 monthly for extra Conversions API"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://orichi.info/orichi-facebook-pixel",
+        "starting_paid_monthly_price_usd": 14.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 29, 2021",
+        "shopify_categories": [
+          {
+            "name": "Ads",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-advertising-ads"
+          },
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.ads.targeting.lookalike_audiences", "label": "Lookalike audiences"},
+          {"handle": "cf.ads.targeting.product_category", "label": "Product category"},
+          {"handle": "cf.ads.targeting.retargeting", "label": "Retargeting"},
+          {"handle": "cf.ads.campaign_management.pixel_management", "label": "Pixel management"},
+          {"handle": "cf.ads.performance_analytics.performance_tracking", "label": "Performance tracking"},
+          {"handle": "cf.ads.performance_analytics.roi_analysis", "label": "ROI analysis"},
+          {"handle": "cf.ads.performance_analytics.utm_attribution", "label": "UTM attribution"},
+          {"handle": "cf.ads.performance_analytics.traffic_source", "label": "Traffic source"},
+          {"handle": "cf.analytics.customer_behavior.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.analytics.customer_behavior.event_tracking", "label": "Event tracking"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.profit_insights", "label": "Profit insights"},
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.pixel_tracking", "label": "Pixel tracking"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_dashboard", "label": "Custom dashboards"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_reports", "label": "Custom reports"},
+          {"handle": "cf.analytics.visuals_and_reports.data_export", "label": "Data export"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " German",
+          " Spanish",
+          " Italian",
+          " Portuguese (Portugal)",
+          " Croatian",
+          " Serbian",
+          " Turkish",
+          " Arabic",
+          " and Chinese (Simplified)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Checkout Extensibility",
+          "Facebook and Instagram",
+          "multiple pixel",
+          "parkour: facebook pixel",
+          "trackify"
+        ]
+      },
+      "developer": {
+        "name": "OrichiCommerce",
+        "website_url": "https://orichi.info/orichi-facebook-pixel?utm_source=devweb",
+        "partner_url": "https://apps.shopify.com/partners/orichicommerce",
+        "public_address": "Ha Noi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/yuri-facebook-multi-pixels",
+        "canonical_app_store_url": "https://apps.shopify.com/yuri-facebook-multi-pixels",
+        "install_url": "https://apps.shopify.com/yuri-facebook-multi-pixels",
+        "demo_store_url": "https://orichi.info/orichi-facebook-pixel",
+        "resources": {
+          "Privacy policy": "https://orichi.info/privacy-policy",
+          "FAQ": "https://orichi.info/resources/facebook-pixel",
+          "Tutorial": "https://facebookpixel.orichi.info",
+          "App Documentation": "https://facebookpixel.orichi.info",
+          "OrichiCommerce": "https://apps.shopify.com/partners/orichicommerce",
+          "Website": "https://orichi.info/orichi-facebook-pixel"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/bbe884c308362ccd5e303254b0768abc/icon/CNjdz6zbho8DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/bbe884c308362ccd5e303254b0768abc/promotional_image/CKmS06ic6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bbe884c308362ccd5e303254b0768abc/desktop_screenshot/CKXv3Kic6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bbe884c308362ccd5e303254b0768abc/desktop_screenshot/CJj65qic6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bbe884c308362ccd5e303254b0768abc/desktop_screenshot/CMDN8Kic6pUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/bbe884c308362ccd5e303254b0768abc/desktop_screenshot/CO6U-qic6pUDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is OC Meta Pixel‑ Facebook Pixels free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/yuri-facebook-multi-pixels"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  German,  Spanish,  Italian,  Portuguese (Portugal),  Croatian,  Serbian,  Turkish,  Arabic,  and Chinese (Simplified)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/yuri-facebook-multi-pixels"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Checkout Extensibility, Facebook and Instagram, multiple pixel, parkour: facebook pixel, trackify",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/yuri-facebook-multi-pixels"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/yuri-facebook-multi-pixels"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://orichi.info/resources/facebook-pixel",
+            "https://facebookpixel.orichi.info",
+            "https://facebookpixel.orichi.info"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["meta-pixel-conversion-tracking", "marketing-attribution"],
+        "primary_category_id": "meta-pixel-conversion-tracking",
+        "seo": {
+          "title": "OC Meta Pixel‑ Facebook Pixels Shopify App | eStorefy",
+          "meta_description": "A Shopify app for meta pixel & conversion tracking. Listed functions include lookalike audiences, product category.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/yuri-facebook-multi-pixels",
+          "retrieved_at": "2026-10-04T05:11:49.467443+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Orichi Pixel is a first party pixel tracking solution that allows you…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/yuri-facebook-multi-pixels"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "trackify-1",
+      "name": "Trackify Facebook Pixel,TikTok",
+      "slug": "trackify-1",
+      "category_fit": {
+        "app_id": "trackify-1",
+        "selection_score": 5.8858,
+        "rating_evidence": {"value": 4.8, "reviews": 396},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["roas"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/trackify-1"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for tiktok ads & tracking. Listed functions include audience segments, lookalike audiences.",
+        "description_long": "Trackify Facebook Pixel,TikTok is developed by Trackify X and listed for ads, analytics. Its structured listing identifies functions such as audience segments, lookalike audiences, custom audiences, demographic. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["TikTok Ads & Tracking", "Marketing Attribution"],
+        "best_for": {
+          "use_cases": ["TikTok Ads & Tracking", "Marketing Attribution"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 396,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/trackify-1",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 373},
+          {"stars": 4, "percentage": 1, "count": 5},
+          {"stars": 3, "percentage": 1, "count": 3},
+          {"stars": 2, "percentage": 1, "count": 3},
+          {"stars": 1, "percentage": 3, "count": 12}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free plan",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "\"BASIC\" STORES",
+            "amount_usd": 8.99,
+            "billing_period": "month",
+            "price_display": "$8.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $84/year and save 22%"]
+          },
+          {
+            "name": "\"GROW\" STORES",
+            "amount_usd": 18.99,
+            "billing_period": "month",
+            "price_display": "$18.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $180/year and save 21%"]
+          },
+          {
+            "name": "\"ADVANCED\" STORES",
+            "amount_usd": 28.99,
+            "billing_period": "month",
+            "price_display": "$28.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $260/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.trackifyapp.com/pricing",
+        "starting_paid_monthly_price_usd": 8.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "October 31, 2015",
+        "shopify_categories": [
+          {
+            "name": "Ads",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-advertising-ads"
+          },
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.ads.targeting.audience_segments", "label": "Audience segments"},
+          {"handle": "cf.ads.targeting.lookalike_audiences", "label": "Lookalike audiences"},
+          {"handle": "cf.ads.targeting.custom_audiences", "label": "Custom audiences"},
+          {"handle": "cf.ads.targeting.demographic", "label": "Demographic"},
+          {"handle": "cf.ads.targeting.device", "label": "Device"},
+          {"handle": "cf.ads.targeting.event_based", "label": "Event-based"},
+          {"handle": "cf.ads.targeting.keyword", "label": "Keyword"},
+          {"handle": "cf.ads.targeting.location_based", "label": "Location-based"},
+          {"handle": "cf.ads.targeting.behavior", "label": "Behavior"},
+          {"handle": "cf.ads.targeting.platform", "label": "Platform"},
+          {"handle": "cf.ads.targeting.product_category", "label": "Product category"},
+          {"handle": "cf.ads.targeting.time_based", "label": "Time-based"},
+          {"handle": "cf.ads.targeting.retargeting", "label": "Retargeting"},
+          {"handle": "cf.ads.campaign_management.social_media", "label": "Social media"},
+          {"handle": "cf.ads.campaign_management.website", "label": "Website"},
+          {"handle": "cf.ads.campaign_management.video_ads", "label": "Video ads"},
+          {"handle": "cf.ads.campaign_management.pixel_management", "label": "Pixel management"},
+          {"handle": "cf.ads.performance_analytics.a_b_testing", "label": "A/B testing"},
+          {"handle": "cf.ads.performance_analytics.performance_tracking", "label": "Performance tracking"},
+          {"handle": "cf.ads.performance_analytics.ad_spend", "label": "Ad spend"},
+          {"handle": "cf.ads.performance_analytics.engagement_metrics", "label": "Engagement metrics"},
+          {"handle": "cf.ads.performance_analytics.roi_analysis", "label": "ROI analysis"},
+          {"handle": "cf.ads.performance_analytics.click_through_rates", "label": "Click-through rates"},
+          {"handle": "cf.ads.performance_analytics.conversion_tracking", "label": "Conversion tracking"},
+          {"handle": "cf.ads.performance_analytics.cost_per_acquisition", "label": "Cost per acquisition"},
+          {"handle": "cf.ads.performance_analytics.dashboards", "label": "Dashboards"},
+          {"handle": "cf.ads.performance_analytics.demographic_analysis", "label": "Demographic analysis"},
+          {"handle": "cf.ads.performance_analytics.impression_counts", "label": "Impression counts"},
+          {"handle": "cf.ads.performance_analytics.utm_attribution", "label": "UTM attribution"},
+          {"handle": "cf.ads.performance_analytics.traffic_source", "label": "Traffic source"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Admin", "Audiences", "Catalogs", "Facebook", "meta", "snapchat", "TikTok"]
+      },
+      "developer": {
+        "name": "Trackify X",
+        "website_url": "https://trackifyapp.com",
+        "partner_url": "https://apps.shopify.com/partners/redretarget",
+        "public_address": "241 Little Falls Drive, Wilmington, DE, 19808, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/trackify-1",
+        "canonical_app_store_url": "https://apps.shopify.com/trackify-1",
+        "install_url": "https://apps.shopify.com/trackify-1",
+        "demo_store_url": "https://trackifyx-marketing.myshopify.com",
+        "resources": {
+          "Privacy policy": "https://trackifyapp.com/privacy-policy",
+          "Trackify X": "https://apps.shopify.com/partners/redretarget",
+          "Website": "https://trackifyapp.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/3df01b35b86d0c78f72eb9adf1f476f1/icon/CM7kp5S40oQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/3df01b35b86d0c78f72eb9adf1f476f1/promotional_image/CJ228-2h-40DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3df01b35b86d0c78f72eb9adf1f476f1/desktop_screenshot/CKmu_e2h-40DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3df01b35b86d0c78f72eb9adf1f476f1/desktop_screenshot/COKyiO6h-40DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3df01b35b86d0c78f72eb9adf1f476f1/desktop_screenshot/CIyNje3rso4DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3df01b35b86d0c78f72eb9adf1f476f1/desktop_screenshot/CNSVl-3rso4DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3df01b35b86d0c78f72eb9adf1f476f1/desktop_screenshot/COLVp-6h-40DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3df01b35b86d0c78f72eb9adf1f476f1/desktop_screenshot/COWeoe3rso4DEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Trackify Facebook Pixel,TikTok free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/trackify-1"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/trackify-1"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Audiences, Catalogs, Facebook, meta, snapchat, TikTok",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/trackify-1"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/trackify-1"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["tiktok-ads-tracking", "marketing-attribution"],
+        "primary_category_id": "tiktok-ads-tracking",
+        "seo": {
+          "title": "Trackify Facebook Pixel,TikTok Shopify App | eStorefy",
+          "meta_description": "A Shopify app for tiktok ads & tracking. Listed functions include audience segments, lookalike audiences.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/trackify-1",
+          "retrieved_at": "2026-10-04T05:11:41.057247+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Boost your Shopify Store's ROAS & Retargeting Ads! Trackify Facebook pixel Shopify…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/trackify-1"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "go-profit",
+      "name": "GoProfit: Profit Analytics",
+      "slug": "go-profit",
+      "category_fit": {
+        "app_id": "go-profit",
+        "selection_score": 5.7576,
+        "rating_evidence": {"value": 4.8, "reviews": 92},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["ad spend", "roas"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/go-profit"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for profit analytics. Listed functions include real-time tracking, activity tracking.",
+        "description_long": "GoProfit: Profit Analytics is developed by GODISOFT and listed for analytics, accounting. Its structured listing identifies functions such as real-time tracking, activity tracking, event tracking, segmentation. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Profit Analytics", "Marketing Attribution"],
+        "best_for": {
+          "use_cases": ["Profit Analytics", "Marketing Attribution"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 92,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/go-profit",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 87},
+          {"stars": 4, "percentage": 2, "count": 2},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 3, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "LITE",
+            "amount_usd": 12.0,
+            "billing_period": "month",
+            "price_display": "$12 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.2 per extra order (max of $500)"]
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 59.0,
+            "billing_period": "month",
+            "price_display": "$59 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.2 per extra order (max of $500)"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://goprofit.io/#pricing/",
+        "starting_paid_monthly_price_usd": 12.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 23, 2024",
+        "shopify_categories": [
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          },
+          {
+            "name": "Accounting",
+            "url": "https://apps.shopify.com/categories/store-management-finances-accounting"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.analytics.customer_behavior.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.event_tracking", "label": "Event tracking"},
+          {"handle": "cf.analytics.customer_behavior.segmentation", "label": "Segmentation"},
+          {"handle": "cf.analytics.customer_behavior.page_views", "label": "Page views"},
+          {"handle": "cf.analytics.customer_behavior.lifetime_value_ltv", "label": "Lifetime value (LTV)"},
+          {"handle": "cf.analytics.customer_behavior.loyalty_analysis", "label": "Loyalty analysis"},
+          {"handle": "cf.analytics.customer_behavior.cohort_analysis", "label": "Cohort analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.ai_insights", "label": "AI insights"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.checkout_analytics", "label": "Checkout analytics"},
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.profit_insights", "label": "Profit insights"},
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.funnel_analysis", "label": "Funnel analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.abandoned_carts", "label": "Abandoned cart"},
+          {"handle": "cf.analytics.marketing_and_sales.pixel_tracking", "label": "Pixel tracking"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"},
+          {"handle": "cf.analytics.visuals_and_reports.benchmarking", "label": "Benchmarking"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_reports", "label": "Custom reports"},
+          {"handle": "cf.analytics.visuals_and_reports.data_export", "label": "Data export"},
+          {"handle": "cf.analytics.visuals_and_reports.historical_analysis", "label": "Historical analysis"},
+          {"handle": "cf.analytics.visuals_and_reports.report_scheduling", "label": "Report scheduling"},
+          {"handle": "cf.analytics.visuals_and_reports.notifications", "label": "Notifications"},
+          {"handle": "cf.accounting.financial_reports.income_and_balance", "label": "Income and balance"},
+          {"handle": "cf.accounting.financial_reports.sales_and_refunds", "label": "Sales and refunds"},
+          {"handle": "cf.accounting.financial_reports.sales_tax", "label": "Sales tax"},
+          {"handle": "cf.accounting.financial_reports.expense_tracking", "label": "Expense tracking"},
+          {
+            "handle": "cf.accounting.financial_reports.returns_and_exchanges",
+            "label": "Returns and exchanges"
+          }
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Facebook Ads",
+          "Google Ads",
+          "Google Sheets",
+          "Pinterest Ads",
+          "Tiktok Ads"
+        ]
+      },
+      "developer": {
+        "name": "GODISOFT",
+        "website_url": "https://goprofit.io/",
+        "partner_url": "https://apps.shopify.com/partners/godisoft",
+        "public_address": "Vaughan, ON, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/go-profit",
+        "canonical_app_store_url": "https://apps.shopify.com/go-profit",
+        "install_url": "https://apps.shopify.com/go-profit",
+        "demo_store_url": "https://demo.goprofit.io/app",
+        "resources": {
+          "Privacy policy": "https://goprofit.io/home/privacy-policy/",
+          "Tutorial": "https://www.youtube.com/@GoProfitAnalytics",
+          "App Documentation": "https://goprofit.io/metrics",
+          "GODISOFT": "https://apps.shopify.com/partners/godisoft",
+          "Website": "https://goprofit.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/32a2c89a60c5afffc4d3a45e30c4f070/icon/CNSaxs-r1YcDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/32a2c89a60c5afffc4d3a45e30c4f070/promotional_image/CLn0gZqT95YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32a2c89a60c5afffc4d3a45e30c4f070/desktop_screenshot/CNjEjJqT95YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32a2c89a60c5afffc4d3a45e30c4f070/desktop_screenshot/COypl5qT95YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32a2c89a60c5afffc4d3a45e30c4f070/desktop_screenshot/CPWhoZqT95YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32a2c89a60c5afffc4d3a45e30c4f070/desktop_screenshot/CO-Lq5qT95YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/32a2c89a60c5afffc4d3a45e30c4f070/desktop_screenshot/CMn4tZqT95YDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is GoProfit: Profit Analytics free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/go-profit"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/go-profit"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Facebook Ads, Google Ads, Google Sheets, Pinterest Ads, Tiktok Ads",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/go-profit"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/go-profit"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://www.youtube.com/@GoProfitAnalytics", "https://goprofit.io/metrics"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the required data sources and configure a sample report or automation.",
+            "Validate event or report output against a known transaction.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["profit-analytics", "marketing-attribution"],
+        "primary_category_id": "profit-analytics",
+        "seo": {
+          "title": "GoProfit: Profit Analytics Shopify App | eStorefy",
+          "meta_description": "A Shopify app for profit analytics. Listed functions include real-time tracking, activity tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/go-profit",
+          "retrieved_at": "2026-10-04T05:04:43.531248+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Real-time Tracking for Complete Profit Clarity. GoProfit tracks Net Profit, P&L, ROAS,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/go-profit"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "oc-openai-ads-chatgpt-pixel",
+      "name": "Orichi ChatGPT Ads‑ OpenAI Ads",
+      "slug": "oc-openai-ads-chatgpt-pixel",
+      "category_fit": {
+        "app_id": "oc-openai-ads-chatgpt-pixel",
+        "selection_score": 5.5216,
+        "rating_evidence": {"value": 5.0, "reviews": 24},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["roas", "attribution"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/oc-openai-ads-chatgpt-pixel"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for marketing attribution. Listed functions include audience segments, lookalike audiences.",
+        "description_long": "Orichi ChatGPT Ads‑ OpenAI Ads is developed by OrichiCommerce and listed for ads, wholesale. Its structured listing identifies functions such as audience segments, lookalike audiences, custom audiences, product category. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Marketing Attribution"],
+        "best_for": {
+          "use_cases": ["Marketing Attribution"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 24,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/oc-openai-ads-chatgpt-pixel",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 24},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Grow",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.90/year and save 20%"]
+          },
+          {
+            "name": "Scale",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $191.90/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 3, 2026",
+        "shopify_categories": [
+          {
+            "name": "Ads",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-advertising-ads"
+          },
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.ads.targeting.audience_segments", "label": "Audience segments"},
+          {"handle": "cf.ads.targeting.lookalike_audiences", "label": "Lookalike audiences"},
+          {"handle": "cf.ads.targeting.custom_audiences", "label": "Custom audiences"},
+          {"handle": "cf.ads.targeting.product_category", "label": "Product category"},
+          {"handle": "cf.ads.targeting.ai_targeting", "label": "AI targeting"},
+          {"handle": "cf.ads.targeting.retargeting", "label": "Retargeting"},
+          {"handle": "cf.ads.campaign_management.pixel_management", "label": "Pixel management"},
+          {"handle": "cf.ads.performance_analytics.performance_tracking", "label": "Performance tracking"},
+          {"handle": "cf.ads.performance_analytics.ad_spend", "label": "Ad spend"},
+          {"handle": "cf.ads.performance_analytics.engagement_metrics", "label": "Engagement metrics"},
+          {"handle": "cf.ads.performance_analytics.roi_analysis", "label": "ROI analysis"},
+          {"handle": "cf.ads.performance_analytics.conversion_tracking", "label": "Conversion tracking"},
+          {"handle": "cf.ads.performance_analytics.cost_per_acquisition", "label": "Cost per acquisition"},
+          {"handle": "cf.ads.performance_analytics.dashboards", "label": "Dashboards"},
+          {"handle": "cf.ads.performance_analytics.impression_counts", "label": "Impression counts"},
+          {"handle": "cf.ads.performance_analytics.utm_attribution", "label": "UTM attribution"}
+        ],
+        "languages": [
+          "English",
+          " Spanish",
+          " French",
+          " German",
+          " Portuguese (Brazil)",
+          " Italian",
+          " Turkish",
+          " Chinese (Simplified)",
+          " Japanese",
+          " Korean",
+          " Vietnamese",
+          " and Dutch"
+        ],
+        "works_with": ["Checkout", "Shopify Admin", "chatGPT", "chatGPT ads", "chatGPT pixel", "open ai", "reach"]
+      },
+      "developer": {
+        "name": "OrichiCommerce",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/orichicommerce",
+        "public_address": "Ha Noi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/oc-openai-ads-chatgpt-pixel",
+        "canonical_app_store_url": "https://apps.shopify.com/oc-openai-ads-chatgpt-pixel",
+        "install_url": "https://apps.shopify.com/oc-openai-ads-chatgpt-pixel",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://orichi.info/privacy-policy",
+          "OrichiCommerce": "https://apps.shopify.com/partners/orichicommerce"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/ff4c4269dbab50a0e5272e2ff0ac1350/icon/CM7g4rKc2pUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/ff4c4269dbab50a0e5272e2ff0ac1350/desktop_screenshot/CJry9YDfi5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff4c4269dbab50a0e5272e2ff0ac1350/desktop_screenshot/CJTx_4Dfi5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff4c4269dbab50a0e5272e2ff0ac1350/desktop_screenshot/CI2pudr2vZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff4c4269dbab50a0e5272e2ff0ac1350/desktop_screenshot/COyRw9r2vZYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/JRMrBZPDfeY"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Orichi ChatGPT Ads‑ OpenAI Ads free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/oc-openai-ads-chatgpt-pixel"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  Portuguese (Brazil),  Italian,  Turkish,  Chinese (Simplified),  Japanese,  Korean,  Vietnamese,  and Dutch",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/oc-openai-ads-chatgpt-pixel"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, chatGPT, chatGPT ads, chatGPT pixel, open ai, reach",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/oc-openai-ads-chatgpt-pixel"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/oc-openai-ads-chatgpt-pixel"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the required data sources and configure a sample report or automation.",
+            "Validate event or report output against a known transaction.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["marketing-attribution"],
+        "primary_category_id": "marketing-attribution",
+        "seo": {
+          "title": "Orichi ChatGPT Ads‑ OpenAI Ads Shopify App | eStorefy",
+          "meta_description": "A Shopify app for marketing attribution. Listed functions include audience segments, lookalike audiences.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/oc-openai-ads-chatgpt-pixel",
+          "retrieved_at": "2026-10-04T05:11:56.401960+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "The ultimate FREE tool to setup OpenAI Ads Pixel & ChatGPT Ads…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/oc-openai-ads-chatgpt-pixel"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "zigpoll",
+      "name": "Zigpoll Customer Surveys",
+      "slug": "zigpoll",
+      "category_fit": {
+        "app_id": "zigpoll",
+        "selection_score": 5.4,
+        "rating_evidence": {"value": 5.0, "reviews": 554},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["attribution"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/zigpoll"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for email marketing. Listed functions include conditional logic, custom styles.",
+        "description_long": "Zigpoll Customer Surveys is developed by Argonautic Labs and listed for surveys, analytics. Its structured listing identifies functions such as conditional logic, custom styles, drag-and-drop editor, embedded forms. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Email Marketing",
+          "SMS Marketing",
+          "Product Comparison",
+          "Customer Surveys",
+          "Marketing Attribution"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Email Marketing",
+            "SMS Marketing",
+            "Product Comparison",
+            "Customer Surveys",
+            "Marketing Attribution"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 554,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/zigpoll",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 544},
+          {"stars": 4, "percentage": 1, "count": 8},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Lite",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Standard",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $348/year and save 26%"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 129.0,
+            "billing_period": "month",
+            "price_display": "$129 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,164/year and save 25%"]
+          },
+          {
+            "name": "Premier",
+            "amount_usd": 399.0,
+            "billing_period": "month",
+            "price_display": "$399 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $3,588/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.zigpoll.com/pricing",
+        "starting_paid_monthly_price_usd": 39.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "April 23, 2019",
+        "shopify_categories": [
+          {"name": "Surveys", "url": "https://apps.shopify.com/categories/store-management-support-surveys"},
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.surveys.form_customization.conditional_logic", "label": "Conditional logic"},
+          {"handle": "cf.surveys.form_customization.custom_styles", "label": "Custom styles"},
+          {"handle": "cf.surveys.form_customization.drag_and_drop_editor", "label": "Drag-and-drop editor"},
+          {"handle": "cf.surveys.form_customization.embedded_forms", "label": "Embedded forms"},
+          {"handle": "cf.surveys.form_customization.file_uploads", "label": "File upload"},
+          {"handle": "cf.surveys.form_customization.templates", "label": "Templates"},
+          {"handle": "cf.surveys.form_customization.multi_page", "label": "Multi-page"},
+          {"handle": "cf.surveys.form_customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.surveys.form_customization.real_time_edits", "label": "Real-time editing"},
+          {"handle": "cf.surveys.form_customization.scheduling", "label": "Scheduling"},
+          {"handle": "cf.surveys.form_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.surveys.survey_types.customer_satisfaction", "label": "Customer satisfaction"},
+          {"handle": "cf.surveys.survey_types.market_research", "label": "Market research"},
+          {"handle": "cf.surveys.survey_types.net_promoter_score_nps", "label": "Net Promoter Score (NPS)"},
+          {"handle": "cf.surveys.survey_types.product_feedback", "label": "Product feedback"},
+          {"handle": "cf.surveys.survey_types.post_purchase", "label": "Post-purchase"},
+          {"handle": "cf.surveys.survey_types.attribution", "label": "Attribution"},
+          {"handle": "cf.surveys.submission_management.sms", "label": "SMS"},
+          {"handle": "cf.surveys.submission_management.email", "label": "Email"},
+          {"handle": "cf.surveys.submission_management.data_export", "label": "Data export"},
+          {"handle": "cf.surveys.submission_management.analytics", "label": "Analytics"},
+          {"handle": "cf.surveys.submission_management.customer_segments", "label": "Customer segments"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.event_tracking", "label": "Event tracking"},
+          {"handle": "cf.analytics.customer_behavior.segmentation", "label": "Segmentation"},
+          {"handle": "cf.analytics.customer_behavior.visitor_ip", "label": "Visitor IP"},
+          {"handle": "cf.analytics.marketing_and_sales.ai_insights", "label": "AI insights"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify POS",
+          "Shopify Flow",
+          "ActiveCampaign",
+          "Google Analytics",
+          "Google Sheets",
+          "Gorgias",
+          "Klaviyo",
+          "Mailchimp"
+        ]
+      },
+      "developer": {
+        "name": "Argonautic Labs",
+        "website_url": "https://www.zigpoll.com",
+        "partner_url": "https://apps.shopify.com/partners/jason-zigelbaum",
+        "public_address": "400 E 67th Street, New York, NY, 10065, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/zigpoll",
+        "canonical_app_store_url": "https://apps.shopify.com/zigpoll",
+        "install_url": "https://apps.shopify.com/zigpoll",
+        "demo_store_url": "https://www.zigpoll.com/demo/post-purchase",
+        "resources": {
+          "Privacy policy": "https://www.zigpoll.com/terms-and-policies",
+          "FAQ": "https://www.zigpoll.com/faq",
+          "Argonautic Labs": "https://apps.shopify.com/partners/jason-zigelbaum",
+          "Website": "https://www.zigpoll.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/icon/CN6KptDZyJYDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/promotional_image/CMDTmKrb8JYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CMDy76HVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CICe-qHVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CIaRhKLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CMXHjqLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/desktop_screenshot/CNbMmKLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/mobile_screenshot/CNfjoqLVyJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/03b0ee31c378e592b1c5c9da3dbe6651/pos_screenshot/CKjirKLVyJYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Zigpoll Customer Surveys free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, Shopify Flow, ActiveCampaign, Google Analytics, Google Sheets, Gorgias, Klaviyo, Mailchimp",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/zigpoll"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://www.zigpoll.com/faq"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supported messaging account and import or synchronize a consented audience.",
+            "Create a small campaign or recovery workflow and send a test message.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "email-marketing",
+          "sms-marketing",
+          "product-comparison",
+          "customer-surveys",
+          "marketing-attribution"
+        ],
+        "primary_category_id": "email-marketing",
+        "seo": {
+          "title": "Zigpoll Customer Surveys Shopify App | eStorefy",
+          "meta_description": "A Shopify app for email marketing. Listed functions include conditional logic, custom styles.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/zigpoll",
+          "retrieved_at": "2026-10-04T05:25:58.246372+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Post-purchase, attribution, NPS, exit-intent, email and SMS surveys for Shopify. See how…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/zigpoll"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "server-gtm",
+      "name": "Stape Conversion Tracking",
+      "slug": "server-gtm",
+      "category_fit": {
+        "app_id": "server-gtm",
+        "selection_score": 5.3811,
+        "rating_evidence": {"value": 4.4, "reviews": 42},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["roas", "attribution"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/server-gtm"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for marketing attribution.",
+        "description_long": "Stape Conversion Tracking is developed by Stape and listed for analytics. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Marketing Attribution"],
+        "best_for": {
+          "use_cases": ["Marketing Attribution"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.4,
+        "review_count": 42,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/server-gtm",
+        "distribution": [
+          {"stars": 5, "percentage": 76, "count": 32},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 7, "count": 3},
+          {"stars": 2, "percentage": 5, "count": 2},
+          {"stars": 1, "percentage": 12, "count": 5}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "March 6, 2023",
+        "shopify_categories": [
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Admin", "Google Tag Manager", "Stape"]
+      },
+      "developer": {
+        "name": "Stape",
+        "website_url": "https://stape.io",
+        "partner_url": "https://apps.shopify.com/partners/stape",
+        "public_address": "651 N Broad Street, Middletown, DE, 19709, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/server-gtm",
+        "canonical_app_store_url": "https://apps.shopify.com/server-gtm",
+        "install_url": "https://apps.shopify.com/server-gtm",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://stape.io/privacy-notice",
+          "Stape": "https://apps.shopify.com/partners/stape",
+          "Website": "https://stape.io"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6ad17d7651df903803b7a1c47669abb5/icon/CLOriKCLyv0CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6ad17d7651df903803b7a1c47669abb5/desktop_screenshot/CLn6ydGOiJEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6ad17d7651df903803b7a1c47669abb5/desktop_screenshot/CNeeuaPuxJADEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6ad17d7651df903803b7a1c47669abb5/desktop_screenshot/COqJ09GOiJEDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/i6ytE4FJO14"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Stape Conversion Tracking free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/server-gtm"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/server-gtm"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Google Tag Manager, Stape",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/server-gtm"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/server-gtm"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the required data sources and configure a sample report or automation.",
+            "Validate event or report output against a known transaction.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["marketing-attribution"],
+        "primary_category_id": "marketing-attribution",
+        "seo": {
+          "title": "Stape Conversion Tracking Shopify App | eStorefy",
+          "meta_description": "A Shopify app for marketing attribution.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/server-gtm",
+          "retrieved_at": "2026-10-04T05:26:16.212918+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Set up Google Tag Manager on Shopify with server-side tracking. Capture up…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/server-gtm"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "profitone",
+      "name": "ProfitOne: Profit Tracker P&L",
+      "slug": "profitone",
+      "category_fit": {
+        "app_id": "profitone",
+        "selection_score": 5.3366,
+        "rating_evidence": {"value": 5.0, "reviews": 4},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["roas", "ad spend"],
+          "official_category_match": true,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/profitone"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for marketing attribution. Listed functions include real-time tracking, activity tracking.",
+        "description_long": "ProfitOne: Profit Tracker P&L is developed by ProfitOne and listed for analytics. Its structured listing identifies functions such as real-time tracking, activity tracking, segmentation, lifetime value (ltv). For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Marketing Attribution"],
+        "best_for": {
+          "use_cases": ["Marketing Attribution"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 4,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/profitone",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 4},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $15/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic",
+            "amount_usd": 15.0,
+            "billing_period": "month",
+            "price_display": "$15 / month",
+            "trial_days": 7,
+            "additional_charge_notes": ["or $144/year and save 20%"]
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 35.0,
+            "billing_period": "month",
+            "price_display": "$35 / month",
+            "trial_days": 7,
+            "additional_charge_notes": ["or $336/year and save 20%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 99.0,
+            "billing_period": "month",
+            "price_display": "$99 / month",
+            "trial_days": 7,
+            "additional_charge_notes": ["or $950/year and save 20%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 199.0,
+            "billing_period": "month",
+            "price_display": "$199 / month",
+            "trial_days": 7,
+            "additional_charge_notes": ["or $1,910/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 15.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 4, 2025",
+        "shopify_categories": [
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.analytics.customer_behavior.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.segmentation", "label": "Segmentation"},
+          {"handle": "cf.analytics.customer_behavior.lifetime_value_ltv", "label": "Lifetime value (LTV)"},
+          {"handle": "cf.analytics.customer_behavior.loyalty_analysis", "label": "Loyalty analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.ai_insights", "label": "AI insights"},
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.profit_insights", "label": "Profit insights"},
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_dashboard", "label": "Custom dashboards"},
+          {"handle": "cf.analytics.visuals_and_reports.multi_store_reports", "label": "Multi-store reports"},
+          {"handle": "cf.analytics.visuals_and_reports.benchmarking", "label": "Benchmarking"},
+          {"handle": "cf.analytics.visuals_and_reports.data_export", "label": "Data export"},
+          {"handle": "cf.analytics.visuals_and_reports.historical_analysis", "label": "Historical analysis"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Facebook", "Google Ads", "Snapchat", "TikTok"]
+      },
+      "developer": {
+        "name": "ProfitOne",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/gamesbay",
+        "public_address": "Via Alfredo Catalani, verona, VR, 37131, IT"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/profitone",
+        "canonical_app_store_url": "https://apps.shopify.com/profitone",
+        "install_url": "https://apps.shopify.com/profitone",
+        "demo_store_url": "https://demo.profitone.app/",
+        "resources": {
+          "Privacy policy": "https://www.profitone.app/privacy",
+          "ProfitOne": "https://apps.shopify.com/partners/gamesbay"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/d602b0a4cd645591edea9bdcc8a08ac6/icon/CInYg_CtpY4DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/d602b0a4cd645591edea9bdcc8a08ac6/desktop_screenshot/CMPXpKK_gI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d602b0a4cd645591edea9bdcc8a08ac6/desktop_screenshot/CNa3rqK_gI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d602b0a4cd645591edea9bdcc8a08ac6/desktop_screenshot/CP6ErqrCgI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d602b0a4cd645591edea9bdcc8a08ac6/desktop_screenshot/CIOiqvrDgI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d602b0a4cd645591edea9bdcc8a08ac6/desktop_screenshot/CLeEyqK_gI4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/d602b0a4cd645591edea9bdcc8a08ac6/desktop_screenshot/CKDwk8LD0ZADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/6qyEdL1YJpI"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is ProfitOne: Profit Tracker P&L free?",
+            "answer": "The pricing label retrieved from the listing is: From $15/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/profitone"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/profitone"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Facebook, Google Ads, Snapchat, TikTok",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/profitone"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/profitone"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the required data sources and configure a sample report or automation.",
+            "Validate event or report output against a known transaction.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["marketing-attribution"],
+        "primary_category_id": "marketing-attribution",
+        "seo": {
+          "title": "ProfitOne: Profit Tracker P&L Shopify App | eStorefy",
+          "meta_description": "A Shopify app for marketing attribution. Listed functions include real-time tracking, activity tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/profitone",
+          "retrieved_at": "2026-10-04T05:31:11.527222+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Boost your Shopify store profits with ProfitOne. Get actionable AD insights, track…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/profitone"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "trueprofit",
+      "name": "TP: True Profit Analytics",
+      "slug": "trueprofit",
+      "category_fit": {
+        "app_id": "trueprofit",
+        "selection_score": 5.3327,
+        "rating_evidence": {"value": 4.9, "reviews": 905},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["ad spend", "attribution"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/trueprofit"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for order tracking. Listed functions include real-time tracking, event tracking.",
+        "description_long": "TP: True Profit Analytics is developed by TrueProfit Real-time Profit & LTV tracking and listed for analytics, accounting. Its structured listing identifies functions such as real-time tracking, event tracking, page views, lifetime value (ltv). For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Order Tracking", "Profit Analytics", "Marketing Attribution"],
+        "best_for": {
+          "use_cases": ["Order Tracking", "Profit Analytics", "Marketing Attribution"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 905,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/trueprofit",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 885},
+          {"stars": 4, "percentage": 1, "count": 9},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 1, "count": 8}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $35/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic",
+            "amount_usd": 35.0,
+            "billing_period": "month",
+            "price_display": "$35 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.3 per extra order. Maximum surcharge $300."]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 60.0,
+            "billing_period": "month",
+            "price_display": "$60 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.2 per extra order. Maximum surcharge $500."]
+          },
+          {
+            "name": "Ultimate",
+            "amount_usd": 100.0,
+            "billing_period": "month",
+            "price_display": "$100 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.1 per extra order. Maximum surcharge $700."]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 200.0,
+            "billing_period": "month",
+            "price_display": "$200 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["$0.07 per extra order. Maximum surcharge $1000."]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://trueprofit.io/pricing/",
+        "starting_paid_monthly_price_usd": 35.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 31, 2019 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          },
+          {
+            "name": "Accounting",
+            "url": "https://apps.shopify.com/categories/store-management-finances-accounting"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.analytics.customer_behavior.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.analytics.customer_behavior.event_tracking", "label": "Event tracking"},
+          {"handle": "cf.analytics.customer_behavior.page_views", "label": "Page views"},
+          {"handle": "cf.analytics.customer_behavior.lifetime_value_ltv", "label": "Lifetime value (LTV)"},
+          {"handle": "cf.analytics.customer_behavior.cohort_analysis", "label": "Cohort analysis"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.checkout_analytics", "label": "Checkout analytics"},
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.profit_insights", "label": "Profit insights"},
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.funnel_analysis", "label": "Funnel analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.abandoned_carts", "label": "Abandoned cart"},
+          {"handle": "cf.analytics.marketing_and_sales.pixel_tracking", "label": "Pixel tracking"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_dashboard", "label": "Custom dashboards"},
+          {"handle": "cf.analytics.visuals_and_reports.multi_store_reports", "label": "Multi-store reports"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_reports", "label": "Custom reports"},
+          {"handle": "cf.analytics.visuals_and_reports.data_export", "label": "Data export"},
+          {"handle": "cf.analytics.visuals_and_reports.historical_analysis", "label": "Historical analysis"},
+          {"handle": "cf.analytics.visuals_and_reports.report_scheduling", "label": "Report scheduling"},
+          {"handle": "cf.accounting.financial_reports.sales_and_refunds", "label": "Sales and refunds"},
+          {"handle": "cf.accounting.financial_reports.sales_tax", "label": "Sales tax"},
+          {"handle": "cf.accounting.financial_reports.expense_tracking", "label": "Expense tracking"},
+          {
+            "handle": "cf.accounting.financial_reports.returns_and_exchanges",
+            "label": "Returns and exchanges"
+          },
+          {"handle": "cf.accounting.financial_reports.cogs_tracking", "label": "COGS tracking"},
+          {"handle": "cf.accounting.financial_reports.custom_reports", "label": "Custom reports"},
+          {
+            "handle": "cf.accounting.financial_reports.performance_dashboard",
+            "label": "Performance dashboard"
+          },
+          {"handle": "cf.accounting.financial_operations.multi_store", "label": "Multi-store"},
+          {"handle": "cf.accounting.financial_operations.multi_currency", "label": "Multi-currency"}
+        ],
+        "languages": ["English", " French", " and Spanish"],
+        "works_with": [
+          "Checkout",
+          "ChatGPT, Claude, OpenClaw",
+          "Facebook, Google, TikTok",
+          "Microsoft (Bing), X (Twitter)",
+          "Pinterest, Snapchat, Amazon",
+          "Printful, Printify, Gelato",
+          "Shipwire, CJ Dropshipping"
+        ]
+      },
+      "developer": {
+        "name": "TrueProfit Real-time Profit & LTV tracking",
+        "website_url": "https://trueprofit.io?utm_source=app-store",
+        "partner_url": "https://apps.shopify.com/partners/true-profit",
+        "public_address": "FIREAPPS JSC. 22F, Flemington Tower, 182 Le Dai Hanh,, Phu Tho Ward, TIN: 0314919972, EID: 079211809826, Ho Chi Minh city, 700000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/trueprofit",
+        "canonical_app_store_url": "https://apps.shopify.com/trueprofit",
+        "install_url": "https://apps.shopify.com/trueprofit",
+        "demo_store_url": "https://app.trueprofit.io/demo",
+        "resources": {
+          "Privacy policy": "https://trueprofit.io/privacy-policy/",
+          "TrueProfit Real-time Profit & LTV tracking": "https://apps.shopify.com/partners/true-profit",
+          "Website": "https://trueprofit.io",
+          "Changelog": "https://helpdesk.trueprofit.io/en/articles/11330293-changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/icon/CJyUlLKRvoQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/desktop_screenshot/CLXL7PHF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/desktop_screenshot/CIT-yNbP640DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/desktop_screenshot/CIeTgfLF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/desktop_screenshot/COKN09bP640DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/desktop_screenshot/CKjuk_LF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/desktop_screenshot/CM6hnfLF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/mobile_screenshot/CO_7pvLF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/mobile_screenshot/CMbsr_LF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/mobile_screenshot/CO_4uPLF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/mobile_screenshot/COn4wfLF7YsDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0647f39e6b0a6d67b1f06204b829ec7b/mobile_screenshot/CJ6b_97J7JQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/lfnwixF99Co"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is TP: True Profit Analytics free?",
+            "answer": "The pricing label retrieved from the listing is: From $35/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/trueprofit"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  and Spanish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/trueprofit"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, ChatGPT, Claude, OpenClaw, Facebook, Google, TikTok, Microsoft (Bing), X (Twitter), Pinterest, Snapchat, Amazon, Printful, Printify, Gelato, Shipwire, CJ Dropshipping",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/trueprofit"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/trueprofit"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["order-tracking", "profit-analytics", "marketing-attribution"],
+        "primary_category_id": "order-tracking",
+        "seo": {
+          "title": "TP: True Profit Analytics Shopify App | eStorefy",
+          "meta_description": "A Shopify app for order tracking. Listed functions include real-time tracking, event tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/trueprofit",
+          "retrieved_at": "2026-10-04T05:04:18.308573+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Net Profit Analytics for Shopify. Instantly know your true Net profit. Profit…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/trueprofit"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "session-recording-now",
+      "name": "Propel Replay, Survey, Heatmap",
+      "slug": "session-recording-now",
+      "category_fit": {
+        "app_id": "session-recording-now",
+        "selection_score": 5.3178,
+        "rating_evidence": {"value": 4.9, "reviews": 699},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["ad spend"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/session-recording-now"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for customer surveys. Listed functions include real-time tracking, activity tracking.",
+        "description_long": "Propel Replay, Survey, Heatmap is developed by Propel Commerce and listed for analytics, site optimization - other. Its structured listing identifies functions such as real-time tracking, activity tracking, event tracking, session replay. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Customer Surveys", "Marketing Attribution", "Heatmaps & Session Recordings"],
+        "best_for": {
+          "use_cases": ["Customer Surveys", "Marketing Attribution", "Heatmaps & Session Recordings"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 699,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/session-recording-now",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 668},
+          {"stars": 4, "percentage": 2, "count": 15},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 1, "count": 4},
+          {"stars": 1, "percentage": 2, "count": 11}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Sampler",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 9.9,
+            "billing_period": "month",
+            "price_display": "$9.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $89.10/year and save 25%"]
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 19.9,
+            "billing_period": "month",
+            "price_display": "$19.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $179.10/year and save 25%"]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 39.9,
+            "billing_period": "month",
+            "price_display": "$39.90 / month",
+            "trial_days": null,
+            "additional_charge_notes": [
+              "or $359.10/year and save 25%",
+              "For Shopify Plus merchants, Enterprise plans with checkout recording start at $59.90/mo."
+            ]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://propelcommerce.io/#pricing",
+        "starting_paid_monthly_price_usd": 9.9,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 17, 2021",
+        "shopify_categories": [
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          },
+          {
+            "name": "Site optimization - Other",
+            "url": "https://apps.shopify.com/categories/store-design-site-optimization-site-optimization-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.analytics.customer_behavior.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.event_tracking", "label": "Event tracking"},
+          {"handle": "cf.analytics.customer_behavior.session_replay", "label": "Session replay"},
+          {"handle": "cf.analytics.customer_behavior.replay_filtering", "label": "Replay filtering"},
+          {"handle": "cf.analytics.customer_behavior.segmentation", "label": "Segmentation"},
+          {"handle": "cf.analytics.customer_behavior.page_views", "label": "Page views"},
+          {"handle": "cf.analytics.customer_behavior.visitor_ip", "label": "Visitor IP"},
+          {"handle": "cf.analytics.customer_behavior.lifetime_value_ltv", "label": "Lifetime value (LTV)"},
+          {"handle": "cf.analytics.customer_behavior.broken_links", "label": "Broken links"},
+          {"handle": "cf.analytics.customer_behavior.loyalty_analysis", "label": "Loyalty analysis"},
+          {"handle": "cf.analytics.customer_behavior.cohort_analysis", "label": "Cohort analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.ai_insights", "label": "AI insights"},
+          {
+            "handle": "cf.analytics.marketing_and_sales.marketing_attribution",
+            "label": "Marketing attribution"
+          },
+          {"handle": "cf.analytics.marketing_and_sales.checkout_analytics", "label": "Checkout analytics"},
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.profit_insights", "label": "Profit insights"},
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.funnel_analysis", "label": "Funnel analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.abandoned_carts", "label": "Abandoned cart"},
+          {"handle": "cf.analytics.marketing_and_sales.pixel_tracking", "label": "Pixel tracking"},
+          {"handle": "cf.analytics.visuals_and_reports.heatmaps", "label": "Heatmaps"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_dashboard", "label": "Custom dashboards"},
+          {"handle": "cf.analytics.visuals_and_reports.benchmarking", "label": "Benchmarking"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_reports", "label": "Custom reports"},
+          {"handle": "cf.analytics.visuals_and_reports.data_export", "label": "Data export"},
+          {"handle": "cf.analytics.visuals_and_reports.historical_analysis", "label": "Historical analysis"},
+          {"handle": "cf.analytics.visuals_and_reports.forecasting", "label": "Forecasting"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Admin", "Google Ads", "Meta Ads", "Microsoft Ads", "TikTok Ads"]
+      },
+      "developer": {
+        "name": "Propel Commerce",
+        "website_url": "https://propelcommerce.io/",
+        "partner_url": "https://apps.shopify.com/partners/propel-commerce",
+        "public_address": "170-422 Richards St, Vancouver, BC, V6B2Z4, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/session-recording-now",
+        "canonical_app_store_url": "https://apps.shopify.com/session-recording-now",
+        "install_url": "https://apps.shopify.com/session-recording-now",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://propelcommerce.io/privacy/replays",
+          "FAQ": "https://docs.propelcommerce.io/replays/",
+          "Propel Commerce": "https://apps.shopify.com/partners/propel-commerce",
+          "Website": "https://propelcommerce.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/icon/CNyTub_73JIDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/promotional_image/CIrXy7DU_ZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/desktop_screenshot/CKKDz-fgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/desktop_screenshot/CJ_qtrqPsJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/desktop_screenshot/CND14-fgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/desktop_screenshot/CLmi7ufgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/desktop_screenshot/CInt9-fgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/desktop_screenshot/CJzCgujgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/mobile_screenshot/CJiujejgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/mobile_screenshot/CLXslujgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/mobile_screenshot/CNGaoOjgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/mobile_screenshot/CLKGqejgqpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d70c3ddfc421bdfd1bb067d0937b80e/mobile_screenshot/CJHtsejgqpYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Propel Replay, Survey, Heatmap free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/session-recording-now"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/session-recording-now"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Google Ads, Meta Ads, Microsoft Ads, TikTok Ads",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/session-recording-now"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/session-recording-now"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.propelcommerce.io/replays/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant communication channel and add the approved support content.",
+            "Test common questions and handover behaviour before enabling it for customers.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["customer-surveys", "marketing-attribution", "heatmaps-session-recordings"],
+        "primary_category_id": "customer-surveys",
+        "seo": {
+          "title": "Propel Replay, Survey, Heatmap Shopify App | eStorefy",
+          "meta_description": "A Shopify app for customer surveys. Listed functions include real-time tracking, activity tracking.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/session-recording-now",
+          "retrieved_at": "2026-10-04T05:26:16.083447+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/session-recording-now"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "facebook-multiple-pixel",
+      "name": "ZT Facebook Pixel TikTok Pixel",
+      "slug": "facebook-multiple-pixel",
+      "category_fit": {
+        "app_id": "facebook-multiple-pixel",
+        "selection_score": 5.297,
+        "rating_evidence": {"value": 5.0, "reviews": 166},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["roas", "attribution"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/facebook-multiple-pixel"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for meta pixel & conversion tracking. Listed functions include event-based, behavior.",
+        "description_long": "ZT Facebook Pixel TikTok Pixel is developed by Zotek and listed for ads, analytics. Its structured listing identifies functions such as event-based, behavior, platform, product category. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Meta Pixel & Conversion Tracking",
+          "TikTok Ads & Tracking",
+          "Order Tracking",
+          "Marketing Attribution"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Meta Pixel & Conversion Tracking",
+            "TikTok Ads & Tracking",
+            "Order Tracking",
+            "Marketing Attribution"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 166,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/facebook-multiple-pixel",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 163},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 12.99,
+            "billing_period": "month",
+            "price_display": "$12.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $131.88/year and save 15%"]
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $306/year and save 15%"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 69.99,
+            "billing_period": "month",
+            "price_display": "$69.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $714/year and save 15%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://zotek.gitbook.io/facebook-multiple-pixel/pricing",
+        "starting_paid_monthly_price_usd": 12.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "January 22, 2024",
+        "shopify_categories": [
+          {
+            "name": "Ads",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-advertising-ads"
+          },
+          {
+            "name": "Analytics",
+            "url": "https://apps.shopify.com/categories/store-management-operations-analytics"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.ads.targeting.event_based", "label": "Event-based"},
+          {"handle": "cf.ads.targeting.behavior", "label": "Behavior"},
+          {"handle": "cf.ads.targeting.platform", "label": "Platform"},
+          {"handle": "cf.ads.targeting.product_category", "label": "Product category"},
+          {"handle": "cf.ads.targeting.retargeting", "label": "Retargeting"},
+          {"handle": "cf.ads.campaign_management.bid_optimization", "label": "Bid optimization"},
+          {"handle": "cf.ads.campaign_management.social_media", "label": "Social media"},
+          {"handle": "cf.ads.campaign_management.website", "label": "Website"},
+          {"handle": "cf.ads.campaign_management.pixel_management", "label": "Pixel management"},
+          {"handle": "cf.ads.performance_analytics.performance_tracking", "label": "Performance tracking"},
+          {"handle": "cf.ads.performance_analytics.ad_spend", "label": "Ad spend"},
+          {"handle": "cf.ads.performance_analytics.engagement_metrics", "label": "Engagement metrics"},
+          {"handle": "cf.ads.performance_analytics.conversion_tracking", "label": "Conversion tracking"},
+          {"handle": "cf.ads.performance_analytics.dashboards", "label": "Dashboards"},
+          {"handle": "cf.ads.performance_analytics.impression_counts", "label": "Impression counts"},
+          {"handle": "cf.ads.performance_analytics.utm_attribution", "label": "UTM attribution"},
+          {"handle": "cf.ads.performance_analytics.traffic_source", "label": "Traffic source"},
+          {"handle": "cf.analytics.customer_behavior.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.analytics.customer_behavior.activity_tracking", "label": "Activity tracking"},
+          {"handle": "cf.analytics.customer_behavior.event_tracking", "label": "Event tracking"},
+          {"handle": "cf.analytics.customer_behavior.page_views", "label": "Page views"},
+          {"handle": "cf.analytics.customer_behavior.visitor_ip", "label": "Visitor IP"},
+          {"handle": "cf.analytics.marketing_and_sales.checkout_analytics", "label": "Checkout analytics"},
+          {"handle": "cf.analytics.marketing_and_sales.roas", "label": "ROAS"},
+          {"handle": "cf.analytics.marketing_and_sales.purchase_tracking", "label": "Purchase tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.funnel_analysis", "label": "Funnel analysis"},
+          {"handle": "cf.analytics.marketing_and_sales.utm_tracking", "label": "UTM tracking"},
+          {"handle": "cf.analytics.marketing_and_sales.pixel_tracking", "label": "Pixel tracking"},
+          {"handle": "cf.analytics.visuals_and_reports.analytics_dashboard", "label": "Analytics dashboard"},
+          {"handle": "cf.analytics.visuals_and_reports.custom_dashboard", "label": "Custom dashboards"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Conversion API",
+          "Facebook Pixel",
+          "Facebook Product Feed",
+          "Meta Pixel",
+          "Snapchat Pixel",
+          "TikTok Pixel"
+        ]
+      },
+      "developer": {
+        "name": "Zotek",
+        "website_url": "https://zotek.io/",
+        "partner_url": "https://apps.shopify.com/partners/zotek",
+        "public_address": "Cau Giay, Ha Noi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/facebook-multiple-pixel",
+        "canonical_app_store_url": "https://apps.shopify.com/facebook-multiple-pixel",
+        "install_url": "https://apps.shopify.com/facebook-multiple-pixel",
+        "demo_store_url": "https://zotek-pixel-demo.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://zotek.gitbook.io/facebook-multiple-pixel/privacy-policy",
+          "FAQ": "https://zotek.gitbook.io/facebook-multiple-pixel/faqs",
+          "Tutorial": "https://zotek.gitbook.io/facebook-multiple-pixel",
+          "Zotek": "https://apps.shopify.com/partners/zotek",
+          "Website": "https://zotek.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/c4c30100185aa284d06ac94857e3e1fd/icon/CMqToYnxpokDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/c4c30100185aa284d06ac94857e3e1fd/promotional_image/CKLQkszO7JEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c4c30100185aa284d06ac94857e3e1fd/desktop_screenshot/CNntmszO7JEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c4c30100185aa284d06ac94857e3e1fd/desktop_screenshot/CInao8zO7JEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c4c30100185aa284d06ac94857e3e1fd/desktop_screenshot/CNDvq8zO7JEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c4c30100185aa284d06ac94857e3e1fd/desktop_screenshot/CKqFtMzO7JEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c4c30100185aa284d06ac94857e3e1fd/desktop_screenshot/CL27vMzO7JEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c4c30100185aa284d06ac94857e3e1fd/desktop_screenshot/CN2QxczO7JEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c4c30100185aa284d06ac94857e3e1fd/mobile_screenshot/CKv5zczO7JEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c4c30100185aa284d06ac94857e3e1fd/mobile_screenshot/CKq51szO7JEDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c4c30100185aa284d06ac94857e3e1fd/mobile_screenshot/CPChj4ic-5IDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c4c30100185aa284d06ac94857e3e1fd/pos_screenshot/CNLL3szO7JEDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is ZT Facebook Pixel TikTok Pixel free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/facebook-multiple-pixel"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/facebook-multiple-pixel"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Conversion API, Facebook Pixel, Facebook Product Feed, Meta Pixel, Snapchat Pixel, TikTok Pixel",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/facebook-multiple-pixel"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/facebook-multiple-pixel"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://zotek.gitbook.io/facebook-multiple-pixel/faqs",
+            "https://zotek.gitbook.io/facebook-multiple-pixel"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["meta-pixel-conversion-tracking", "tiktok-ads-tracking", "order-tracking", "marketing-attribution"],
+        "primary_category_id": "meta-pixel-conversion-tracking",
+        "seo": {
+          "title": "ZT Facebook Pixel TikTok Pixel Shopify App | eStorefy",
+          "meta_description": "A Shopify app for meta pixel & conversion tracking. Listed functions include event-based, behavior.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/facebook-multiple-pixel",
+          "retrieved_at": "2026-10-04T05:11:41.077564+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Elevate your Facebook Ads game with Zotek: Precision Pixel tracking and Conversion…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/facebook-multiple-pixel"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1343 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "request-a-quote",
+    "number": 64,
+    "name": "Request a Quote",
+    "group": "Sourcing & Wholesale",
+    "slug": "request-a-quote",
+    "url_path": "/apps/request-a-quote",
+    "focus": "Source products and manage business-to-business selling.",
+    "description": "Compare Shopify apps for request a quote. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/selling-products-pricing-pricing-quotes/all"],
+    "seo": {
+      "title": "Shopify Request a Quote Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for request a quote: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 5,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a request a quote app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "request-for-quote",
+      "name": "SA Request a Quote, Hide Price",
+      "slug": "request-for-quote",
+      "category_fit": {
+        "app_id": "request-for-quote",
+        "selection_score": 6.0131,
+        "rating_evidence": {"value": 4.9, "reviews": 646},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["quote"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/request-for-quote"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for request a quote. Listed functions include hide price, request a quote.",
+        "description_long": "SA Request a Quote, Hide Price is developed by Samita and listed for pricing quotes, forms. Its structured listing identifies functions such as hide price, request a quote, convert quote to order, buttons. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Request a Quote"],
+        "best_for": {
+          "use_cases": ["Request a Quote"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 646,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/request-for-quote",
+        "distribution": [
+          {"stars": 5, "percentage": 91, "count": 588},
+          {"stars": 4, "percentage": 6, "count": 39},
+          {"stars": 3, "percentage": 1, "count": 4},
+          {"stars": 2, "percentage": 1, "count": 4},
+          {"stars": 1, "percentage": 2, "count": 11}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "BASIC",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PREMIUM",
+            "amount_usd": 16.99,
+            "billing_period": "month",
+            "price_display": "$16.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $169.90/year and save 17%"]
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 36.99,
+            "billing_period": "month",
+            "price_display": "$36.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $369.90/year and save 17%", "Shopify Plus: $69 / month"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 16.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 8, 2017",
+        "shopify_categories": [
+          {
+            "name": "Pricing quotes",
+            "url": "https://apps.shopify.com/categories/selling-products-pricing-pricing-quotes"
+          },
+          {"name": "Forms", "url": "https://apps.shopify.com/categories/store-design-notifications-forms"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pricing_quotes.pricing_rules.hide_price", "label": "Hide price"},
+          {"handle": "cf.pricing_quotes.pricing_rules.request_a_quote", "label": "Request a quote"},
+          {
+            "handle": "cf.pricing_quotes.pricing_rules.convert_quote_to_order",
+            "label": "Convert quote to order"
+          },
+          {"handle": "cf.pricing_quotes.customization.buttons", "label": "Buttons"},
+          {"handle": "cf.pricing_quotes.customization.quote_form", "label": "Quote form"},
+          {"handle": "cf.pricing_quotes.customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.pricing_quotes.notifications.email_templates", "label": "Email templates"},
+          {"handle": "cf.pricing_quotes.notifications.quote_updates", "label": "Quote updates"},
+          {"handle": "cf.pricing_quotes.notifications.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.forms.form_types.pricing_quotes", "label": "Pricing quotes"},
+          {"handle": "cf.forms.form_types.registrations", "label": "Registrations"},
+          {"handle": "cf.forms.form_types.wholesale", "label": "Wholesale"},
+          {"handle": "cf.forms.customization.drag_and_drop_editor", "label": "Drag-and-drop editor"},
+          {"handle": "cf.forms.customization.fonts_and_colors", "label": "Font and color"},
+          {"handle": "cf.forms.customization.custom_fields", "label": "Custom fields"},
+          {"handle": "cf.forms.customization.custom_css", "label": "Custom CSS"},
+          {"handle": "cf.forms.customization.custom_javascript", "label": "Custom JavaScript"},
+          {"handle": "cf.forms.customization.embedded_forms", "label": "Embedded forms"},
+          {"handle": "cf.forms.customization.email_templates", "label": "Email templates"},
+          {"handle": "cf.forms.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.forms.customization.gdpr_checkbox", "label": "GDPR checkbox"},
+          {"handle": "cf.forms.data_management.email_responses", "label": "Email responses"},
+          {"handle": "cf.forms.data_management.history", "label": "History"},
+          {"handle": "cf.forms.data_management.captcha", "label": "CAPTCHA"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " French",
+          " Danish",
+          " Spanish",
+          " Finnish",
+          " Japanese",
+          " Italian",
+          " Korean",
+          " Dutch",
+          " Polish",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "ActiveCampaign, Zapier",
+          "Campaign Monitor, reCaptcha",
+          "GetResponse, Sendinblue",
+          "Globo Product Options",
+          "Hubspot, Omnisend",
+          "Mailchimp, Klaviyo"
+        ]
+      },
+      "developer": {
+        "name": "Samita",
+        "website_url": "https://samita.io",
+        "partner_url": "https://apps.shopify.com/partners/sami219",
+        "public_address": "Hanoi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/request-for-quote",
+        "canonical_app_store_url": "https://apps.shopify.com/request-for-quote",
+        "install_url": "https://apps.shopify.com/request-for-quote",
+        "demo_store_url": "https://demo-sami-quote.myshopify.com/products/selling-plans-ski-wax",
+        "resources": {
+          "Privacy policy": "https://docs.samita.io/privacy-policy",
+          "Tutorial": "https://docs.samita.io/sa-request-a-quote",
+          "Samita": "https://apps.shopify.com/partners/sami219",
+          "Website": "https://samita.io"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/f9d9fb303f0c27b71bb5b43b0ec0fb3c/icon/CJT4maqlgIYDEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/f9d9fb303f0c27b71bb5b43b0ec0fb3c/promotional_image/CPvwm8e3r5EDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f9d9fb303f0c27b71bb5b43b0ec0fb3c/desktop_screenshot/CIin1P67-I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f9d9fb303f0c27b71bb5b43b0ec0fb3c/desktop_screenshot/COiG482phY8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f9d9fb303f0c27b71bb5b43b0ec0fb3c/desktop_screenshot/CPWT-96BvI8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f9d9fb303f0c27b71bb5b43b0ec0fb3c/desktop_screenshot/CJ3F8v67-I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f9d9fb303f0c27b71bb5b43b0ec0fb3c/desktop_screenshot/CM7i-_67-I4DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f9d9fb303f0c27b71bb5b43b0ec0fb3c/mobile_screenshot/CPeI7M2phY8DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f9d9fb303f0c27b71bb5b43b0ec0fb3c/mobile_screenshot/CMudkfmphpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/f9d9fb303f0c27b71bb5b43b0ec0fb3c/mobile_screenshot/CL_R_s2phY8DEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is SA Request a Quote, Hide Price free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/request-for-quote"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  French,  Danish,  Spanish,  Finnish,  Japanese,  Italian,  Korean,  Dutch,  Polish,  Portuguese (Portugal),  Swedish,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/request-for-quote"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, ActiveCampaign, Zapier, Campaign Monitor, reCaptcha, GetResponse, Sendinblue, Globo Product Options, Hubspot, Omnisend, Mailchimp, Klaviyo",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/request-for-quote"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/request-for-quote"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.samita.io/sa-request-a-quote"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["request-a-quote"],
+        "primary_category_id": "request-a-quote",
+        "seo": {
+          "title": "SA Request a Quote, Hide Price Shopify App | eStorefy",
+          "meta_description": "A Shopify app for request a quote. Listed functions include hide price, request a quote.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/request-for-quote",
+          "retrieved_at": "2026-10-04T05:14:58.805495+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/request-for-quote"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "storeify-request-a-quote",
+      "name": "S: Request a Quote, Hide Price",
+      "slug": "storeify-request-a-quote",
+      "category_fit": {
+        "app_id": "storeify-request-a-quote",
+        "selection_score": 5.9635,
+        "rating_evidence": {"value": 5.0, "reviews": 125},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["quote"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/storeify-request-a-quote"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for request a quote. Listed functions include hide price, price login.",
+        "description_long": "S: Request a Quote, Hide Price is developed by Storeify and listed for pricing quotes, orders - other. Its structured listing identifies functions such as hide price, price login, show and hide, request a quote. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Request a Quote"],
+        "best_for": {
+          "use_cases": ["Request a Quote"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 125,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/storeify-request-a-quote",
+        "distribution": [
+          {"stars": 5, "percentage": 99, "count": 124},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "STARTUP",
+            "amount_usd": 12.99,
+            "billing_period": "month",
+            "price_display": "$12.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 24.99,
+            "billing_period": "month",
+            "price_display": "$24.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "ADVANCED",
+            "amount_usd": 36.99,
+            "billing_period": "month",
+            "price_display": "$36.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 12.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "November 22, 2021",
+        "shopify_categories": [
+          {
+            "name": "Pricing quotes",
+            "url": "https://apps.shopify.com/categories/selling-products-pricing-pricing-quotes"
+          },
+          {
+            "name": "Orders - Other",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-orders-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pricing_quotes.pricing_rules.hide_price", "label": "Hide price"},
+          {"handle": "cf.pricing_quotes.pricing_rules.price_login", "label": "Price login"},
+          {"handle": "cf.pricing_quotes.pricing_rules.show_and_hide", "label": "Show and hide"},
+          {"handle": "cf.pricing_quotes.pricing_rules.request_a_quote", "label": "Request a quote"},
+          {
+            "handle": "cf.pricing_quotes.pricing_rules.convert_quote_to_order",
+            "label": "Convert quote to order"
+          },
+          {"handle": "cf.pricing_quotes.pricing_rules.auto_approve", "label": "Auto-approve"},
+          {"handle": "cf.pricing_quotes.pricing_rules.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.pricing_quotes.pricing_rules.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.pricing_quotes.customization.custom_display", "label": "Custom display"},
+          {"handle": "cf.pricing_quotes.customization.buttons", "label": "Buttons"},
+          {"handle": "cf.pricing_quotes.customization.quote_form", "label": "Quote form"},
+          {"handle": "cf.pricing_quotes.customization.invoices", "label": "Invoices"},
+          {"handle": "cf.pricing_quotes.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.pricing_quotes.customization.pdf_generation", "label": "PDF generation"},
+          {"handle": "cf.pricing_quotes.customization.file_upload", "label": "File upload"},
+          {"handle": "cf.pricing_quotes.customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.pricing_quotes.notifications.admin_alerts", "label": "Admin alerts"},
+          {"handle": "cf.pricing_quotes.notifications.auto_email_responses", "label": "Auto-email responses"},
+          {"handle": "cf.pricing_quotes.notifications.email_templates", "label": "Email templates"},
+          {"handle": "cf.pricing_quotes.notifications.quote_updates", "label": "Quote updates"},
+          {"handle": "cf.pricing_quotes.notifications.email_notifications", "label": "Email notifications"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Contact Form Builder",
+          "GetResponse & Campaign Monitor",
+          "Google Sheets & reCaptcha",
+          "Mailchimp & Klaviyo",
+          "Omnisend & Active Campaign"
+        ]
+      },
+      "developer": {
+        "name": "Storeify",
+        "website_url": "https://storeify.app",
+        "partner_url": "https://apps.shopify.com/partners/storeify1",
+        "public_address": "Phú Mỹ, Quận 7, Hồ Chí Minh, 72906, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/storeify-request-a-quote",
+        "canonical_app_store_url": "https://apps.shopify.com/storeify-request-a-quote",
+        "install_url": "https://apps.shopify.com/storeify-request-a-quote",
+        "demo_store_url": "https://storeify-demo.myshopify.com/pages/demo-storeify-request-a-quote",
+        "resources": {
+          "Privacy policy": "https://storeify.app/privacy.html",
+          "FAQ": "https://quote-guide.storeify.app",
+          "Tutorial": "https://quote-guide.storeify.app",
+          "Storeify": "https://apps.shopify.com/partners/storeify1",
+          "Website": "https://storeify.app"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/c67239680df8325de66a9a53d3b68a2e/icon/CPuQ-6rz-_MCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/c67239680df8325de66a9a53d3b68a2e/promotional_image/CO-JsoKY4ZYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c67239680df8325de66a9a53d3b68a2e/desktop_screenshot/CKjCl7m34JUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c67239680df8325de66a9a53d3b68a2e/desktop_screenshot/CLHqyOqy4JUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c67239680df8325de66a9a53d3b68a2e/desktop_screenshot/CKf81bWx4JUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c67239680df8325de66a9a53d3b68a2e/desktop_screenshot/CL2G-5-y4JUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c67239680df8325de66a9a53d3b68a2e/desktop_screenshot/CMq34IC44JUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/c67239680df8325de66a9a53d3b68a2e/desktop_screenshot/CIKPuOvBnpEDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is S: Request a Quote, Hide Price free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/storeify-request-a-quote"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/storeify-request-a-quote"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Contact Form Builder, GetResponse & Campaign Monitor, Google Sheets & reCaptcha, Mailchimp & Klaviyo, Omnisend & Active Campaign",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/storeify-request-a-quote"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/storeify-request-a-quote"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://quote-guide.storeify.app", "https://quote-guide.storeify.app"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["request-a-quote"],
+        "primary_category_id": "request-a-quote",
+        "seo": {
+          "title": "S: Request a Quote, Hide Price Shopify App | eStorefy",
+          "meta_description": "A Shopify app for request a quote. Listed functions include hide price, price login.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/storeify-request-a-quote",
+          "retrieved_at": "2026-10-04T05:21:32.273367+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Easily interact with customers regarding best prices for products with Request a…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/storeify-request-a-quote"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "b2b-customer-portal-quick-order",
+      "name": "BSS B2B Request a Quote, Order",
+      "slug": "b2b-customer-portal-quick-order",
+      "category_fit": {
+        "app_id": "b2b-customer-portal-quick-order",
+        "selection_score": 5.9215,
+        "rating_evidence": {"value": 4.9, "reviews": 191},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["quote"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/b2b-customer-portal-quick-order"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for wholesale & b2b pricing. Listed functions include hide price, request a quote.",
+        "description_long": "BSS B2B Request a Quote, Order is developed by BSS B2B Suite and listed for pricing quotes, wholesale. Its structured listing identifies functions such as hide price, request a quote, convert quote to order, custom rules. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wholesale & B2B Pricing", "Request a Quote", "Wholesale Catalogs & Order Forms"],
+        "best_for": {
+          "use_cases": ["Wholesale & B2B Pricing", "Request a Quote", "Wholesale Catalogs & Order Forms"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 191,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/b2b-customer-portal-quick-order",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 180},
+          {"stars": 4, "percentage": 3, "count": 6},
+          {"stars": 3, "percentage": 1, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free - DEV Partner",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "GROWTH",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $194.40/year and save 15%"]
+          },
+          {
+            "name": "BUSINESS",
+            "amount_usd": 39.0,
+            "billing_period": "month",
+            "price_display": "$39 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $398.40/year and save 15%"]
+          },
+          {
+            "name": "ENTERPRISE",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $806.40/year and save 15%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "July 28, 2021",
+        "shopify_categories": [
+          {
+            "name": "Pricing quotes",
+            "url": "https://apps.shopify.com/categories/selling-products-pricing-pricing-quotes"
+          },
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pricing_quotes.pricing_rules.hide_price", "label": "Hide price"},
+          {"handle": "cf.pricing_quotes.pricing_rules.request_a_quote", "label": "Request a quote"},
+          {
+            "handle": "cf.pricing_quotes.pricing_rules.convert_quote_to_order",
+            "label": "Convert quote to order"
+          },
+          {"handle": "cf.pricing_quotes.pricing_rules.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.pricing_quotes.pricing_rules.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.pricing_quotes.customization.quote_form", "label": "Quote form"},
+          {"handle": "cf.pricing_quotes.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.pricing_quotes.customization.file_upload", "label": "File upload"},
+          {"handle": "cf.pricing_quotes.notifications.quote_updates", "label": "Quote updates"},
+          {"handle": "cf.wholesale.pricing_options.customer_groups", "label": "Customer groups"},
+          {"handle": "cf.wholesale.pricing_options.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.wholesale.order_management.bulk_processing", "label": "Bulk processing"},
+          {"handle": "cf.wholesale.order_management.order_form", "label": "Order form"},
+          {"handle": "cf.wholesale.order_management.draft_orders", "label": "Draft orders"}
+        ],
+        "languages": [
+          "English",
+          " Dutch",
+          " Danish",
+          " Spanish",
+          " German",
+          " Finnish",
+          " French",
+          " Italian",
+          " Japanese",
+          " Korean",
+          " Polish",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Czech",
+          " Hungarian",
+          " Turkish",
+          " Romanian",
+          " and Thai"
+        ],
+        "works_with": [
+          "Customer accounts",
+          "Shopify Admin",
+          "BSS B2B Lock",
+          "BSS B2B Solution",
+          "Eurus Theme",
+          "Maximize Theme",
+          "Page Builders"
+        ]
+      },
+      "developer": {
+        "name": "BSS B2B Suite",
+        "website_url": "https://bss-b2b.solutions/bss-b2b-quote/",
+        "partner_url": "https://apps.shopify.com/partners/bss-commerce-b2b",
+        "public_address": "Ha Noi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/b2b-customer-portal-quick-order",
+        "canonical_app_store_url": "https://apps.shopify.com/b2b-customer-portal-quick-order",
+        "install_url": "https://apps.shopify.com/b2b-customer-portal-quick-order",
+        "demo_store_url": "https://bss-b2b-quick-order-quotes.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://docs.bss-b2b.solutions/general/policies/privacy-policy/",
+          "FAQ": "https://docs.bss-b2b.solutions/quote-quick-order/other-resources/general-faqs/",
+          "Tutorial": "https://docs.bss-b2b.solutions/quote-quick-order/",
+          "App Documentation": "https://docs.bss-b2b.solutions/quote-quick-order/getting-started/quick-start-5-10-mins-setup/",
+          "BSS B2B Suite": "https://apps.shopify.com/partners/bss-commerce-b2b",
+          "Website": "https://bss-b2b.solutions/bss-b2b-quote/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/icon/CKH57aSigpEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/promotional_image/CP7Z4s-1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/desktop_screenshot/CNmt7c-1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/desktop_screenshot/CK6O-M-1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/desktop_screenshot/CJCPgtC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/desktop_screenshot/CKqajNC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/desktop_screenshot/CIyLltC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/desktop_screenshot/CKnSoNC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/mobile_screenshot/COSUrtC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/mobile_screenshot/CMXmt9C1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/mobile_screenshot/CIqxwtC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/mobile_screenshot/CKSvzNC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/mobile_screenshot/CLG01tC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/mobile_screenshot/CLuQ4NC1mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/pos_screenshot/CIuR29-3mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/pos_screenshot/CPD45d-3mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/pos_screenshot/CJmf8d-3mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/pos_screenshot/CNeY-9-3mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/pos_screenshot/CNXwheC3mpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/af0a3ec102358241ae7823679d9ccda3/pos_screenshot/CKWDkuC3mpcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is BSS B2B Request a Quote, Order free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/b2b-customer-portal-quick-order"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Dutch,  Danish,  Spanish,  German,  Finnish,  French,  Italian,  Japanese,  Korean,  Polish,  Portuguese (Portugal),  Swedish,  Chinese (Simplified),  Chinese (Traditional),  Czech,  Hungarian,  Turkish,  Romanian,  and Thai",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/b2b-customer-portal-quick-order"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Admin, BSS B2B Lock, BSS B2B Solution, Eurus Theme, Maximize Theme, Page Builders",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/b2b-customer-portal-quick-order"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/b2b-customer-portal-quick-order"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.bss-b2b.solutions/quote-quick-order/other-resources/general-faqs/",
+            "https://docs.bss-b2b.solutions/quote-quick-order/",
+            "https://docs.bss-b2b.solutions/quote-quick-order/getting-started/quick-start-5-10-mins-setup/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wholesale-b2b-pricing", "request-a-quote", "wholesale-catalogs-order-forms"],
+        "primary_category_id": "wholesale-b2b-pricing",
+        "seo": {
+          "title": "BSS B2B Request a Quote, Order Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wholesale & b2b pricing. Listed functions include hide price, request a quote.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/b2b-customer-portal-quick-order",
+          "retrieved_at": "2026-10-04T05:21:32.277283+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "BSS B2B Quotes & Quick Order Form lets wholesale buyers request quotes,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/b2b-customer-portal-quick-order"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "request-for-quote-by-omega",
+      "name": "QS Request a Quote, Hide Price",
+      "slug": "request-for-quote-by-omega",
+      "category_fit": {
+        "app_id": "request-for-quote-by-omega",
+        "selection_score": 5.9209,
+        "rating_evidence": {"value": 4.8, "reviews": 703},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["quote"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/request-for-quote-by-omega"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for wholesale & b2b pricing. Listed functions include hide price, price login.",
+        "description_long": "QS Request a Quote, Hide Price is developed by Quote Snap and listed for pricing quotes, wholesale. Its structured listing identifies functions such as hide price, price login, show and hide, request a quote. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Wholesale & B2B Pricing", "Request a Quote"],
+        "best_for": {
+          "use_cases": ["Wholesale & B2B Pricing", "Request a Quote"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.8,
+        "review_count": 703,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/request-for-quote-by-omega",
+        "distribution": [
+          {"stars": 5, "percentage": 93, "count": 656},
+          {"stars": 4, "percentage": 4, "count": 26},
+          {"stars": 3, "percentage": 0, "count": 3},
+          {"stars": 2, "percentage": 1, "count": 4},
+          {"stars": 1, "percentage": 2, "count": 14}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "FREE",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "STARTER",
+            "amount_usd": 16.99,
+            "billing_period": "month",
+            "price_display": "$16.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $183.49/year and save 10%"]
+          },
+          {
+            "name": "PRO",
+            "amount_usd": 36.99,
+            "billing_period": "month",
+            "price_display": "$36.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $399.49/year and save 10%"]
+          },
+          {
+            "name": "SHOPIFY PLUS",
+            "amount_usd": 96.99,
+            "billing_period": "month",
+            "price_display": "$96.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $1,047.49/year and save 10%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://help.omegatheme.com/en/article/pricing-plan-1yttj2j/",
+        "starting_paid_monthly_price_usd": 16.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 27, 2019",
+        "shopify_categories": [
+          {
+            "name": "Pricing quotes",
+            "url": "https://apps.shopify.com/categories/selling-products-pricing-pricing-quotes"
+          },
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pricing_quotes.pricing_rules.hide_price", "label": "Hide price"},
+          {"handle": "cf.pricing_quotes.pricing_rules.price_login", "label": "Price login"},
+          {"handle": "cf.pricing_quotes.pricing_rules.show_and_hide", "label": "Show and hide"},
+          {"handle": "cf.pricing_quotes.pricing_rules.request_a_quote", "label": "Request a quote"},
+          {
+            "handle": "cf.pricing_quotes.pricing_rules.convert_quote_to_order",
+            "label": "Convert quote to order"
+          },
+          {"handle": "cf.pricing_quotes.pricing_rules.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.pricing_quotes.pricing_rules.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.pricing_quotes.customization.custom_display", "label": "Custom display"},
+          {"handle": "cf.pricing_quotes.customization.buttons", "label": "Buttons"},
+          {"handle": "cf.pricing_quotes.customization.quote_form", "label": "Quote form"},
+          {"handle": "cf.pricing_quotes.customization.invoices", "label": "Invoices"},
+          {"handle": "cf.pricing_quotes.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.pricing_quotes.customization.pdf_generation", "label": "PDF generation"},
+          {"handle": "cf.pricing_quotes.customization.file_upload", "label": "File upload"},
+          {"handle": "cf.pricing_quotes.customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.pricing_quotes.notifications.admin_alerts", "label": "Admin alerts"},
+          {"handle": "cf.pricing_quotes.notifications.auto_email_responses", "label": "Auto-email responses"},
+          {"handle": "cf.pricing_quotes.notifications.email_templates", "label": "Email templates"},
+          {"handle": "cf.pricing_quotes.notifications.quote_updates", "label": "Quote updates"},
+          {"handle": "cf.pricing_quotes.notifications.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.wholesale.pricing_options.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.wholesale.pricing_options.discount_codes", "label": "Discount codes"},
+          {"handle": "cf.wholesale.pricing_options.net_terms", "label": "Net terms"},
+          {"handle": "cf.wholesale.pricing_options.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.order_management.draft_orders", "label": "Draft orders"},
+          {"handle": "cf.wholesale.order_management.shipping_options", "label": "Shipping options"},
+          {"handle": "cf.wholesale.order_management.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.wholesale.order_management.api_access", "label": "API access"},
+          {"handle": "cf.wholesale.order_management.import_and_export", "label": "Import and export"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Customer accounts",
+          "Shopify Admin",
+          "B2B",
+          "Email SMTP",
+          "Foxify Smart Page Builder",
+          "GemPages Landing Page Builder",
+          "Google reCaptcha",
+          "Wholesale"
+        ]
+      },
+      "developer": {
+        "name": "Quote Snap",
+        "website_url": "https://quotesnap.net/",
+        "partner_url": "https://apps.shopify.com/partners/quote-snap",
+        "public_address": "18/11 Thai Ha, Dong Da, Ha Noi, 100000, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/request-for-quote-by-omega",
+        "canonical_app_store_url": "https://apps.shopify.com/request-for-quote-by-omega",
+        "install_url": "https://apps.shopify.com/request-for-quote-by-omega",
+        "demo_store_url": "https://quote-snap.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.omegatheme.com/privacy-policy-app",
+          "App Documentation": "https://help.omegatheme.com/en/category/quote-snap-ut3g14/",
+          "Quote Snap": "https://apps.shopify.com/partners/quote-snap",
+          "Website": "https://quotesnap.net/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/icon/CM26s5Hfpf4CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/desktop_screenshot/COmrvNPwy5QDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/desktop_screenshot/CMXUxtPwy5QDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/desktop_screenshot/CPXCz9Pwy5QDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/desktop_screenshot/CJux2NPwy5QDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/desktop_screenshot/CIq34dPwy5QDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/desktop_screenshot/CIWE6tPwy5QDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/61e38414699017d5eb5658fa4a9df17d/mobile_screenshot/CNqa89Pwy5QDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/kHsR5VkrUyM"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is QS Request a Quote, Hide Price free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/request-for-quote-by-omega"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/request-for-quote-by-omega"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin, B2B, Email SMTP, Foxify Smart Page Builder, GemPages Landing Page Builder, Google reCaptcha, Wholesale",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/request-for-quote-by-omega"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/request-for-quote-by-omega"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://help.omegatheme.com/en/category/quote-snap-ut3g14/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["wholesale-b2b-pricing", "request-a-quote"],
+        "primary_category_id": "wholesale-b2b-pricing",
+        "seo": {
+          "title": "QS Request a Quote, Hide Price Shopify App | eStorefy",
+          "meta_description": "A Shopify app for wholesale & b2b pricing. Listed functions include hide price, price login.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/request-for-quote-by-omega",
+          "retrieved_at": "2026-10-04T05:21:22.423144+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Add Request a Quote & Hide Price to your Shopify store. Let…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/request-for-quote-by-omega"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "mp-request-a-quote-rfq",
+      "name": "SP Request a Quote (RFQ)",
+      "slug": "mp-request-a-quote-rfq",
+      "category_fit": {
+        "app_id": "mp-request-a-quote-rfq",
+        "selection_score": 5.726,
+        "rating_evidence": {"value": 5.0, "reviews": 31},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["quote"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/mp-request-a-quote-rfq"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for request a quote. Listed functions include request a quote, convert quote to order.",
+        "description_long": "SP Request a Quote (RFQ) is developed by Shopplaza B2B and listed for pricing quotes, wholesale. Its structured listing identifies functions such as request a quote, convert quote to order, custom rules, custom display. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Request a Quote"],
+        "best_for": {
+          "use_cases": ["Request a Quote"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 31,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/mp-request-a-quote-rfq",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 31},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "November 14, 2025",
+        "shopify_categories": [
+          {
+            "name": "Pricing quotes",
+            "url": "https://apps.shopify.com/categories/selling-products-pricing-pricing-quotes"
+          },
+          {
+            "name": "Wholesale",
+            "url": "https://apps.shopify.com/categories/finding-products-sourcing-options-wholesale"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.pricing_quotes.pricing_rules.request_a_quote", "label": "Request a quote"},
+          {
+            "handle": "cf.pricing_quotes.pricing_rules.convert_quote_to_order",
+            "label": "Convert quote to order"
+          },
+          {"handle": "cf.pricing_quotes.pricing_rules.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.pricing_quotes.customization.custom_display", "label": "Custom display"},
+          {"handle": "cf.pricing_quotes.customization.quote_form", "label": "Quote form"},
+          {"handle": "cf.pricing_quotes.customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.pricing_quotes.notifications.quote_updates", "label": "Quote updates"},
+          {"handle": "cf.pricing_quotes.notifications.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.wholesale.pricing_options.custom_pricing", "label": "Custom pricing"},
+          {"handle": "cf.wholesale.order_management.product_visibility", "label": "Product visibility"},
+          {"handle": "cf.wholesale.order_management.api_access", "label": "API access"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Shopify Admin"]
+      },
+      "developer": {
+        "name": "Shopplaza B2B",
+        "website_url": "https://shopplaza.io",
+        "partner_url": "https://apps.shopify.com/partners/mageplaza-co-ltd",
+        "public_address": "Ha Noi, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/mp-request-a-quote-rfq",
+        "canonical_app_store_url": "https://apps.shopify.com/mp-request-a-quote-rfq",
+        "install_url": "https://apps.shopify.com/mp-request-a-quote-rfq",
+        "demo_store_url": "https://demo-request-for-quote.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://shopplaza.io/privacy",
+          "FAQ": "https://shopplaza.io/docs/request-a-quote-rfq/faqs",
+          "Shopplaza B2B": "https://apps.shopify.com/partners/mageplaza-co-ltd",
+          "Website": "https://shopplaza.io"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/4d9fce2b8ec93b7a2cccc37142da8e2e/icon/CMDMqpLHzZADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/4d9fce2b8ec93b7a2cccc37142da8e2e/promotional_image/CKzzyaPzzpMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d9fce2b8ec93b7a2cccc37142da8e2e/desktop_screenshot/CLvt06PzzpMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d9fce2b8ec93b7a2cccc37142da8e2e/desktop_screenshot/CLHF3qPzzpMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d9fce2b8ec93b7a2cccc37142da8e2e/desktop_screenshot/CPe656PzzpMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d9fce2b8ec93b7a2cccc37142da8e2e/desktop_screenshot/CMGm8KPzzpMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d9fce2b8ec93b7a2cccc37142da8e2e/desktop_screenshot/CNG7-aPzzpMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4d9fce2b8ec93b7a2cccc37142da8e2e/desktop_screenshot/CPLxgaTzzpMDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is SP Request a Quote (RFQ) free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/mp-request-a-quote-rfq"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/mp-request-a-quote-rfq"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/mp-request-a-quote-rfq"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/mp-request-a-quote-rfq"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://shopplaza.io/docs/request-a-quote-rfq/faqs"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the supplier or set up the wholesale customer and product rules.",
+            "Check a sample product, price and order before importing or activating broadly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["request-a-quote"],
+        "primary_category_id": "request-a-quote",
+        "seo": {
+          "title": "SP Request a Quote (RFQ) Shopify App | eStorefy",
+          "meta_description": "A Shopify app for request a quote. Listed functions include request a quote, convert quote to order.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/mp-request-a-quote-rfq",
+          "retrieved_at": "2026-10-04T05:21:32.307224+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Add a request quote button so customers can ask for prices, then…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/mp-request-a-quote-rfq"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

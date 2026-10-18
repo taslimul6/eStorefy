@@ -44,9 +44,22 @@ export default function AgencyFaq({ agency }) {
       title="Your questions, answered."
       className="faq"
     >
-      {questions.map(([question, answer]) => (
+      {agency.faqs?.length > 0 && (
+        <p className="sub">
+          Answers retain their research labels. Editorial answers summarize captured facts
+          and are not developer quotations.
+        </p>
+      )}
+      {questions.map(([question, answer], index) => (
         <details key={question}>
           <summary>{question}</summary>
+          {agency.faqs?.[index]?.sourceType && (
+            <small className="sub">
+              {/generated|editorial/.test(agency.faqs[index].sourceType)
+                ? "Editorial answer from cited facts"
+                : `Research label: ${agency.faqs[index].sourceType.replaceAll("_", " ")}`}
+            </small>
+          )}
           <p>{answer}</p>
         </details>
       ))}

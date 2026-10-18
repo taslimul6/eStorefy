@@ -1,0 +1,1347 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "warranty-management",
+    "number": 74,
+    "name": "Warranty Management",
+    "group": "Orders & After-sales",
+    "slug": "warranty-management",
+    "url_path": "/apps/warranty-management",
+    "focus": "Manage order changes, documents and post-purchase service.",
+    "description": "Compare Shopify apps for warranty management. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": [
+      "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-warranties-and-insurance/all"
+    ],
+    "seo": {
+      "title": "Shopify Warranty Management Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for warranty management: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 5,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a warranty management app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "xcotton-free-return",
+      "name": "Xcotton Post Purchase Guard",
+      "slug": "xcotton-free-return",
+      "category_fit": {
+        "app_id": "xcotton-free-return",
+        "selection_score": 6.1197,
+        "rating_evidence": {"value": 5.0, "reviews": 754},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["warrant"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/xcotton-free-return"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for warranty management. Listed functions include shipping, stolen packages.",
+        "description_long": "Xcotton Post Purchase Guard is developed by XCOTTON CO. and listed for warranties and insurance, returns and exchanges. Its structured listing identifies functions such as shipping, stolen packages, lost packages, damaged packages. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Warranty Management", "Shipping Protection"],
+        "best_for": {
+          "use_cases": ["Warranty Management", "Shipping Protection"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 754,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/xcotton-free-return",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 754},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "August 7, 2024",
+        "shopify_categories": [
+          {
+            "name": "Warranties and insurance",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-warranties-and-insurance"
+          },
+          {
+            "name": "Returns and exchanges",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-exchanges"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.warranties_and_insurance.coverage_type.shipping", "label": "Shipping"},
+          {"handle": "cf.warranties_and_insurance.coverage_type.stolen_packages", "label": "Stolen packages"},
+          {"handle": "cf.warranties_and_insurance.coverage_type.lost_packages", "label": "Lost packages"},
+          {
+            "handle": "cf.warranties_and_insurance.coverage_type.damaged_packages",
+            "label": "Damaged packages"
+          },
+          {
+            "handle": "cf.warranties_and_insurance.coverage_type.extended_warranty",
+            "label": "Extended warranty"
+          },
+          {
+            "handle": "cf.warranties_and_insurance.coverage_type.returns_and_exchanges",
+            "label": "Returns and exchanges"
+          },
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.cart_page", "label": "Cart page"},
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.checkout", "label": "Checkout"},
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.custom_widget", "label": "Custom widget"},
+          {"handle": "cf.warranties_and_insurance.claims_management.claims_portal", "label": "Claims portal"},
+          {"handle": "cf.warranties_and_insurance.claims_management.request_form", "label": "Request form"},
+          {
+            "handle": "cf.warranties_and_insurance.claims_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {
+            "handle": "cf.returns_and_exchanges.return_options.automated_refunds",
+            "label": "Automated refunds"
+          },
+          {"handle": "cf.returns_and_exchanges.return_options.manual_refunds", "label": "Manual refunds"},
+          {"handle": "cf.returns_and_exchanges.return_options.exchanges", "label": "Exchanges"},
+          {"handle": "cf.returns_and_exchanges.return_options.replacements", "label": "Replacements"},
+          {"handle": "cf.returns_and_exchanges.return_options.gift_cards", "label": "Gift cards"},
+          {"handle": "cf.returns_and_exchanges.return_options.discount_code", "label": "Discount codes"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_portal", "label": "Return portal"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_reasons", "label": "Return reasons"},
+          {"handle": "cf.returns_and_exchanges.return_management.multi_language", "label": "Multi-language"},
+          {"handle": "cf.returns_and_exchanges.return_management.return_tracking", "label": "Return tracking"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.email_notifications",
+            "label": "Email notifications"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.custom_branding", "label": "Custom branding"},
+          {
+            "handle": "cf.returns_and_exchanges.return_management.refund_management",
+            "label": "Refund management"
+          },
+          {"handle": "cf.returns_and_exchanges.return_management.analytics", "label": "Analytics"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Customer accounts", "Shopify Admin"]
+      },
+      "developer": {
+        "name": "XCOTTON CO.",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/xcotton-co",
+        "public_address": "21 Garden LANE, DALY CITY, CA, 94015-1625, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/xcotton-free-return",
+        "canonical_app_store_url": "https://apps.shopify.com/xcotton-free-return",
+        "install_url": "https://apps.shopify.com/xcotton-free-return",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://sp.xcottons.com/parcel#/service",
+          "Tutorial": "https://sslstaticus.xcottons.com/dev/video/xcotton-install-english-20260801.mp4",
+          "XCOTTON CO.": "https://apps.shopify.com/partners/xcotton-co"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6761611050a164bf38472f48a0b6b120/icon/CPyW3fWgypQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6761611050a164bf38472f48a0b6b120/desktop_screenshot/COeXnK7o_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6761611050a164bf38472f48a0b6b120/desktop_screenshot/CPisp67o_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6761611050a164bf38472f48a0b6b120/desktop_screenshot/CPaKrMzRhpcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6761611050a164bf38472f48a0b6b120/desktop_screenshot/CM3fu67o_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6761611050a164bf38472f48a0b6b120/desktop_screenshot/CPju0K7o_5YDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6761611050a164bf38472f48a0b6b120/desktop_screenshot/CMjFkK_YhpcDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/eQR50V_3t4w"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Xcotton Post Purchase Guard free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/xcotton-free-return"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/xcotton-free-return"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/xcotton-free-return"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/xcotton-free-return"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://sslstaticus.xcottons.com/dev/video/xcotton-install-english-20260801.mp4"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["warranty-management", "shipping-protection"],
+        "primary_category_id": "warranty-management",
+        "seo": {
+          "title": "Xcotton Post Purchase Guard Shopify App | eStorefy",
+          "meta_description": "A Shopify app for warranty management. Listed functions include shipping, stolen packages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/xcotton-free-return",
+          "retrieved_at": "2026-10-04T05:23:17.449011+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Protect every order with shipping, product, delay, and warranty protection. Reduce post-purchase…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/xcotton-free-return"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "easy-shipping-protection",
+      "name": "Easy Shipping Protection",
+      "slug": "easy-shipping-protection",
+      "category_fit": {
+        "app_id": "easy-shipping-protection",
+        "selection_score": 5.8646,
+        "rating_evidence": {"value": 5.0, "reviews": 64},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["warrant"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/easy-shipping-protection"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for warranty management. Listed functions include shipping, stolen packages.",
+        "description_long": "Easy Shipping Protection is developed by Easy Shipping Protection and listed for warranties and insurance, order tracking. Its structured listing identifies functions such as shipping, stolen packages, lost packages, damaged packages. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Warranty Management", "Shipping Protection"],
+        "best_for": {
+          "use_cases": ["Warranty Management", "Shipping Protection"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 64,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/easy-shipping-protection",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 64},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "January 19, 2026 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Warranties and insurance",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-warranties-and-insurance"
+          },
+          {
+            "name": "Order tracking",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-orders-order-tracking"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.warranties_and_insurance.coverage_type.shipping", "label": "Shipping"},
+          {"handle": "cf.warranties_and_insurance.coverage_type.stolen_packages", "label": "Stolen packages"},
+          {"handle": "cf.warranties_and_insurance.coverage_type.lost_packages", "label": "Lost packages"},
+          {
+            "handle": "cf.warranties_and_insurance.coverage_type.damaged_packages",
+            "label": "Damaged packages"
+          },
+          {
+            "handle": "cf.warranties_and_insurance.coverage_type.extended_warranty",
+            "label": "Extended warranty"
+          },
+          {"handle": "cf.warranties_and_insurance.coverage_type.fixed_pricing", "label": "Fixed pricing"},
+          {"handle": "cf.warranties_and_insurance.coverage_type.dynamic_pricing", "label": "Dynamic pricing"},
+          {
+            "handle": "cf.warranties_and_insurance.coverage_type.percentage_pricing",
+            "label": "Percentage pricing"
+          },
+          {
+            "handle": "cf.warranties_and_insurance.coverage_type.returns_and_exchanges",
+            "label": "Returns and exchanges"
+          },
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.auto_opt_in", "label": "Auto opt-in"},
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.cart_page", "label": "Cart page"},
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.checkout", "label": "Checkout"},
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.custom_widget", "label": "Custom widget"},
+          {
+            "handle": "cf.warranties_and_insurance.opt_in_experience.instant_quotes",
+            "label": "Instant quotes"
+          },
+          {
+            "handle": "cf.warranties_and_insurance.opt_in_experience.coverage_confirmation",
+            "label": "Coverage confirmation"
+          },
+          {
+            "handle": "cf.warranties_and_insurance.opt_in_experience.custom_branding",
+            "label": "Custom branding"
+          },
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.custom_upsell", "label": "Custom upsell"},
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.a_b_testing", "label": "A/B testing"},
+          {"handle": "cf.warranties_and_insurance.claims_management.auto_handling", "label": "Auto-handling"},
+          {
+            "handle": "cf.warranties_and_insurance.claims_management.custom_policy",
+            "label": "Custom policies"
+          },
+          {"handle": "cf.warranties_and_insurance.claims_management.tracking", "label": "Tracking"},
+          {"handle": "cf.order_tracking.tracking.branded_tracking_page", "label": "Branded tracking page"},
+          {"handle": "cf.order_tracking.tracking.order_lookup_page", "label": "Order lookup page"},
+          {"handle": "cf.order_tracking.tracking.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.order_tracking.tracking.custom_tracking_link", "label": "Custom tracking link"},
+          {"handle": "cf.order_tracking.tracking.translation", "label": "Translation"},
+          {"handle": "cf.order_tracking.tracking.estimated_delivery_date", "label": "Estimated delivery date"},
+          {"handle": "cf.order_tracking.tracking.global_tracking", "label": "Global tracking"},
+          {"handle": "cf.order_tracking.tracking.dashboards", "label": "Dashboards"},
+          {"handle": "cf.order_tracking.tracking.multi_carrier", "label": "Multi-carrier"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " Spanish",
+          " Japanese",
+          " Italian",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " Thai",
+          " Turkish",
+          " Swedish",
+          " Norwegian (Bokmål)",
+          " Korean",
+          " Finnish",
+          " and Danish"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Cart Drawer",
+          "Checkout page",
+          "Order tracking",
+          "Returns and warranty",
+          "Shipping insurance",
+          "Upcart"
+        ]
+      },
+      "developer": {
+        "name": "Easy Shipping Protection",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/easy-protection",
+        "public_address": "370 Laurel Grove Ln, San Jose, CA 95126, San Jose, CA, 95126, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/easy-shipping-protection",
+        "canonical_app_store_url": "https://apps.shopify.com/easy-shipping-protection",
+        "install_url": "https://apps.shopify.com/easy-shipping-protection",
+        "demo_store_url": "https://easy-shipping-protection-demo.myshopify.com/products/smart-tv",
+        "resources": {
+          "Privacy policy": "https://intercom.help/easyprotection/en/articles/13279768-privacy-policy",
+          "FAQ": "https://intercom.help/easyprotection/en/",
+          "Tutorial": "https://www.youtube.com/@EasyShippingProtection",
+          "Easy Shipping Protection": "https://apps.shopify.com/partners/easy-protection",
+          "Changelog": "https://intercom.help/easyprotection/en/articles/15678730-what-s-new-in-easy-protection"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/fc697909539e81db700689ff00d0f208/icon/CJDxgL-mq5QDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/fc697909539e81db700689ff00d0f208/promotional_image/CIKzrqHAhpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fc697909539e81db700689ff00d0f208/desktop_screenshot/CM7Yt6HAhpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fc697909539e81db700689ff00d0f208/desktop_screenshot/CLTkwaHAhpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fc697909539e81db700689ff00d0f208/desktop_screenshot/CKXjzKHAhpYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fc697909539e81db700689ff00d0f208/desktop_screenshot/CLegrKyow5UDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Easy Shipping Protection free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/easy-shipping-protection"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  Spanish,  Japanese,  Italian,  Portuguese (Brazil),  Portuguese (Portugal),  Chinese (Simplified),  Chinese (Traditional),  Thai,  Turkish,  Swedish,  Norwegian (Bokmål),  Korean,  Finnish,  and Danish",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/easy-shipping-protection"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Cart Drawer, Checkout page, Order tracking, Returns and warranty, Shipping insurance, Upcart",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/easy-shipping-protection"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/easy-shipping-protection"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://intercom.help/easyprotection/en/", "https://www.youtube.com/@EasyShippingProtection"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["warranty-management", "shipping-protection"],
+        "primary_category_id": "warranty-management",
+        "seo": {
+          "title": "Easy Shipping Protection Shopify App | eStorefy",
+          "meta_description": "A Shopify app for warranty management. Listed functions include shipping, stolen packages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/easy-shipping-protection",
+          "retrieved_at": "2026-10-04T05:22:26.085913+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Create your shipping protection that build trust and boost revenue. Turn shipping…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/easy-shipping-protection"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "dyrect-warranty-registrations",
+      "name": "Warranty Registration & Claims",
+      "slug": "dyrect-warranty-registrations",
+      "category_fit": {
+        "app_id": "dyrect-warranty-registrations",
+        "selection_score": 5.6248,
+        "rating_evidence": {"value": 4.9, "reviews": 25},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["warrant"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/dyrect-warranty-registrations"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for warranty management. Listed functions include auto opt-in, custom branding.",
+        "description_long": "Warranty Registration & Claims is developed by Dyrect Solutions, Inc and listed for warranties and insurance. Its structured listing identifies functions such as auto opt-in, custom branding, custom upsell, claims portal. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Warranty Management"],
+        "best_for": {
+          "use_cases": ["Warranty Management"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 25,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/dyrect-warranty-registrations",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 24},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 4, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free Forever",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Registration",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Claims",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Claims Pro",
+            "amount_usd": 149.0,
+            "billing_period": "month",
+            "price_display": "$149 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://dyrect.co/pricing",
+        "starting_paid_monthly_price_usd": 19.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "May 26, 2025 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Warranties and insurance",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-warranties-and-insurance"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.auto_opt_in", "label": "Auto opt-in"},
+          {
+            "handle": "cf.warranties_and_insurance.opt_in_experience.custom_branding",
+            "label": "Custom branding"
+          },
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.custom_upsell", "label": "Custom upsell"},
+          {"handle": "cf.warranties_and_insurance.claims_management.claims_portal", "label": "Claims portal"},
+          {"handle": "cf.warranties_and_insurance.claims_management.request_form", "label": "Request form"},
+          {
+            "handle": "cf.warranties_and_insurance.claims_management.claims_dashboard",
+            "label": "Claims dashboard"
+          },
+          {"handle": "cf.warranties_and_insurance.claims_management.tracking", "label": "Tracking"},
+          {
+            "handle": "cf.warranties_and_insurance.claims_management.email_notifications",
+            "label": "Email notifications"
+          }
+        ],
+        "languages": ["English"],
+        "works_with": ["Gorgias", "HubSpot", "Klaviyo", "MailChimp", "Zendesk", "Zoho Desk"]
+      },
+      "developer": {
+        "name": "Dyrect Solutions, Inc",
+        "website_url": "https://www.dyrect.co?utm_source=shopif-app",
+        "partner_url": "https://apps.shopify.com/partners/dyrect-solutions-inc",
+        "public_address": "655 S Fair Oaks Ave, C-209, Sunnyvale, CA, 94086, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/dyrect-warranty-registrations",
+        "canonical_app_store_url": "https://apps.shopify.com/dyrect-warranty-registrations",
+        "install_url": "https://apps.shopify.com/dyrect-warranty-registrations",
+        "demo_store_url": "https://dyrect-store.myshopify.com/pages/register-your-product",
+        "resources": {
+          "Privacy policy": "https://www.dyrect.co/privacy-policy",
+          "App Documentation": "https://support.dyrect.co",
+          "Dyrect Solutions, Inc": "https://apps.shopify.com/partners/dyrect-solutions-inc",
+          "Website": "https://www.dyrect.co",
+          "Changelog": "https://www.dyrect.co/faqs"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6c7b8e80604ebfca725affc845978e45/icon/CM2HtYXYpIwDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6c7b8e80604ebfca725affc845978e45/desktop_screenshot/CNm5rrP50pEDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6c7b8e80604ebfca725affc845978e45/desktop_screenshot/CILR16Dboo4DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6c7b8e80604ebfca725affc845978e45/desktop_screenshot/CPr54aDboo4DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6c7b8e80604ebfca725affc845978e45/desktop_screenshot/COuL7aDboo4DEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6c7b8e80604ebfca725affc845978e45/desktop_screenshot/CJS5g6Hboo4DEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/qVzSytxsffY"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Warranty Registration & Claims free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/dyrect-warranty-registrations"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/dyrect-warranty-registrations"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Gorgias, HubSpot, Klaviyo, MailChimp, Zendesk, Zoho Desk",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/dyrect-warranty-registrations"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/dyrect-warranty-registrations"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://support.dyrect.co"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["warranty-management"],
+        "primary_category_id": "warranty-management",
+        "seo": {
+          "title": "Warranty Registration & Claims Shopify App | eStorefy",
+          "meta_description": "A Shopify app for warranty management. Listed functions include auto opt-in, custom branding.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/dyrect-warranty-registrations",
+          "retrieved_at": "2026-10-04T05:23:50.352290+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Dyrect offers easy warranty management. Track serial numbers, manage product registration, process…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/dyrect-warranty-registrations"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "umbrella-protection",
+      "name": "Umbrella: In‑house Warranties",
+      "slug": "umbrella-protection",
+      "category_fit": {
+        "app_id": "umbrella-protection",
+        "selection_score": 5.5063,
+        "rating_evidence": {"value": 5.0, "reviews": 11},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["warrant"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/umbrella-protection"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for warranty management. Listed functions include shipping, stolen packages.",
+        "description_long": "Umbrella: In‑house Warranties is developed by Umbrella and listed for warranties and insurance. Its structured listing identifies functions such as shipping, stolen packages, lost packages, damaged packages. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Warranty Management"],
+        "best_for": {
+          "use_cases": ["Warranty Management"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 11,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/umbrella-protection",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 11},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Forever",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Growth",
+            "amount_usd": 249.0,
+            "billing_period": "month",
+            "price_display": "$249 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Scale",
+            "amount_usd": 999.0,
+            "billing_period": "month",
+            "price_display": "$999 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://myumbrella.ai/pricing",
+        "starting_paid_monthly_price_usd": 249.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "June 16, 2025",
+        "shopify_categories": [
+          {
+            "name": "Warranties and insurance",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-warranties-and-insurance"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.warranties_and_insurance.coverage_type.shipping", "label": "Shipping"},
+          {"handle": "cf.warranties_and_insurance.coverage_type.stolen_packages", "label": "Stolen packages"},
+          {"handle": "cf.warranties_and_insurance.coverage_type.lost_packages", "label": "Lost packages"},
+          {
+            "handle": "cf.warranties_and_insurance.coverage_type.damaged_packages",
+            "label": "Damaged packages"
+          },
+          {
+            "handle": "cf.warranties_and_insurance.coverage_type.extended_warranty",
+            "label": "Extended warranty"
+          },
+          {"handle": "cf.warranties_and_insurance.coverage_type.fixed_pricing", "label": "Fixed pricing"},
+          {"handle": "cf.warranties_and_insurance.coverage_type.dynamic_pricing", "label": "Dynamic pricing"},
+          {
+            "handle": "cf.warranties_and_insurance.coverage_type.percentage_pricing",
+            "label": "Percentage pricing"
+          },
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.auto_opt_in", "label": "Auto opt-in"},
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.cart_page", "label": "Cart page"},
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.checkout", "label": "Checkout"},
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.custom_widget", "label": "Custom widget"},
+          {
+            "handle": "cf.warranties_and_insurance.opt_in_experience.instant_quotes",
+            "label": "Instant quotes"
+          },
+          {
+            "handle": "cf.warranties_and_insurance.opt_in_experience.coverage_confirmation",
+            "label": "Coverage confirmation"
+          },
+          {
+            "handle": "cf.warranties_and_insurance.opt_in_experience.custom_branding",
+            "label": "Custom branding"
+          },
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.custom_upsell", "label": "Custom upsell"},
+          {
+            "handle": "cf.warranties_and_insurance.opt_in_experience.revenue_sharing",
+            "label": "Revenue sharing"
+          },
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.a_b_testing", "label": "A/B testing"},
+          {"handle": "cf.warranties_and_insurance.claims_management.auto_handling", "label": "Auto-handling"},
+          {"handle": "cf.warranties_and_insurance.claims_management.claims_portal", "label": "Claims portal"},
+          {"handle": "cf.warranties_and_insurance.claims_management.request_form", "label": "Request form"},
+          {
+            "handle": "cf.warranties_and_insurance.claims_management.custom_policy",
+            "label": "Custom policies"
+          },
+          {
+            "handle": "cf.warranties_and_insurance.claims_management.claims_dashboard",
+            "label": "Claims dashboard"
+          },
+          {"handle": "cf.warranties_and_insurance.claims_management.tracking", "label": "Tracking"},
+          {
+            "handle": "cf.warranties_and_insurance.claims_management.email_notifications",
+            "label": "Email notifications"
+          }
+        ],
+        "languages": [
+          "English",
+          " Arabic",
+          " German",
+          " Spanish",
+          " Hebrew",
+          " Hindi",
+          " Italian",
+          " Japanese",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Russian",
+          " Turkish",
+          " Ukrainian",
+          " Chinese (Simplified)",
+          " French",
+          " Dutch",
+          " and Korean"
+        ],
+        "works_with": ["Checkout", "Customer accounts", "Shopify POS", "API"]
+      },
+      "developer": {
+        "name": "Umbrella",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/umbrella32",
+        "public_address": "edison, NJ, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/umbrella-protection",
+        "canonical_app_store_url": "https://apps.shopify.com/umbrella-protection",
+        "install_url": "https://apps.shopify.com/umbrella-protection",
+        "demo_store_url": "https://umbrella-bikes.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://myumbrella.ai/privacy-policy",
+          "FAQ": "https://myumbrella.ai/docs/introduction",
+          "Umbrella": "https://apps.shopify.com/partners/umbrella32"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/5d56c63eed9fd6ebf9497f32b0a9ecb2/icon/CJPm4OK0yo0DEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/5d56c63eed9fd6ebf9497f32b0a9ecb2/desktop_screenshot/CJrmnrqzyo0DEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d56c63eed9fd6ebf9497f32b0a9ecb2/desktop_screenshot/CJnzqMKP1IwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d56c63eed9fd6ebf9497f32b0a9ecb2/desktop_screenshot/COaRtMKP1IwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d56c63eed9fd6ebf9497f32b0a9ecb2/desktop_screenshot/CNmMvsKP1IwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d56c63eed9fd6ebf9497f32b0a9ecb2/desktop_screenshot/CNO2x8KP1IwDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/5d56c63eed9fd6ebf9497f32b0a9ecb2/desktop_screenshot/CM6k9I7E4owDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/Tjkh94-V8mU"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Umbrella: In‑house Warranties free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/umbrella-protection"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Arabic,  German,  Spanish,  Hebrew,  Hindi,  Italian,  Japanese,  Polish,  Portuguese (Brazil),  Russian,  Turkish,  Ukrainian,  Chinese (Simplified),  French,  Dutch,  and Korean",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/umbrella-protection"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Customer accounts, Shopify POS, API",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/umbrella-protection"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/umbrella-protection"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://myumbrella.ai/docs/introduction"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["warranty-management"],
+        "primary_category_id": "warranty-management",
+        "seo": {
+          "title": "Umbrella: In‑house Warranties Shopify App | eStorefy",
+          "meta_description": "A Shopify app for warranty management. Listed functions include shipping, stolen packages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/umbrella-protection",
+          "retrieved_at": "2026-10-04T05:23:50.376902+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Sell AppleCare-style protection plans on your Shopify store with Umbrella. Boost revenue,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/umbrella-protection"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "claimify",
+      "name": "Claimify: Warranty claims, RMA",
+      "slug": "claimify",
+      "category_fit": {
+        "app_id": "claimify",
+        "selection_score": 5.396,
+        "rating_evidence": {"value": 5.0, "reviews": 6},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["warrant"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/claimify"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for warranty management. Listed functions include damaged packages, extended warranty.",
+        "description_long": "Claimify: Warranty claims, RMA is developed by XCO Apps and listed for returns and warranty - other, warranties and insurance. Its structured listing identifies functions such as damaged packages, extended warranty, returns and exchanges, checkout. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Warranty Management"],
+        "best_for": {
+          "use_cases": ["Warranty Management"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 6,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/claimify",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 6},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $9/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic",
+            "amount_usd": 9.0,
+            "billing_period": "month",
+            "price_display": "$9 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $90/year and save 17%"]
+          },
+          {
+            "name": "Plus",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $190/year and save 17%"]
+          },
+          {
+            "name": "Business",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $490/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "May 9, 2025",
+        "shopify_categories": [
+          {
+            "name": "Returns and warranty - Other",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-returns-and-warranty-other"
+          },
+          {
+            "name": "Warranties and insurance",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-returns-and-warranty-warranties-and-insurance"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {
+            "handle": "cf.warranties_and_insurance.coverage_type.damaged_packages",
+            "label": "Damaged packages"
+          },
+          {
+            "handle": "cf.warranties_and_insurance.coverage_type.extended_warranty",
+            "label": "Extended warranty"
+          },
+          {
+            "handle": "cf.warranties_and_insurance.coverage_type.returns_and_exchanges",
+            "label": "Returns and exchanges"
+          },
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.checkout", "label": "Checkout"},
+          {"handle": "cf.warranties_and_insurance.opt_in_experience.custom_widget", "label": "Custom widget"},
+          {
+            "handle": "cf.warranties_and_insurance.opt_in_experience.custom_branding",
+            "label": "Custom branding"
+          },
+          {"handle": "cf.warranties_and_insurance.claims_management.auto_handling", "label": "Auto-handling"},
+          {"handle": "cf.warranties_and_insurance.claims_management.claims_portal", "label": "Claims portal"},
+          {"handle": "cf.warranties_and_insurance.claims_management.request_form", "label": "Request form"},
+          {
+            "handle": "cf.warranties_and_insurance.claims_management.claims_dashboard",
+            "label": "Claims dashboard"
+          },
+          {"handle": "cf.warranties_and_insurance.claims_management.tracking", "label": "Tracking"},
+          {
+            "handle": "cf.warranties_and_insurance.claims_management.email_notifications",
+            "label": "Email notifications"
+          }
+        ],
+        "languages": ["English", " Spanish", " French", " German", " and Portuguese (Brazil)"],
+        "works_with": [
+          "Customer accounts",
+          "Shopify Flow",
+          "Shopify Admin",
+          "Customer account",
+          "Flow",
+          "Gorgias",
+          "Klaviyo",
+          "Make",
+          "Zapier"
+        ]
+      },
+      "developer": {
+        "name": "XCO Apps",
+        "website_url": "https://xco.agency/",
+        "partner_url": "https://apps.shopify.com/partners/xco-agency-llc",
+        "public_address": "GREAT FALLS, MT, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/claimify",
+        "canonical_app_store_url": "https://apps.shopify.com/claimify",
+        "install_url": "https://apps.shopify.com/claimify",
+        "demo_store_url": "https://claimify-3.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://xco.agency/pages/apps-privacy-policy",
+          "FAQ": "https://docs.xco.agency/docs/claimify/faq",
+          "Tutorial": "https://docs.xco.agency/docs/claimify/features/claims-management",
+          "App Documentation": "https://docs.xco.agency/docs/claimify/intro",
+          "XCO Apps": "https://apps.shopify.com/partners/xco-agency-llc",
+          "Website": "https://xco.agency/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/0e86cfa79304ba760ff5c0dfea158f4f/icon/COLtqMqX7owDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/0e86cfa79304ba760ff5c0dfea158f4f/promotional_image/CN7q7t3s65QDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0e86cfa79304ba760ff5c0dfea158f4f/desktop_screenshot/CNXygfGGqpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0e86cfa79304ba760ff5c0dfea158f4f/desktop_screenshot/CJGNi_GGqpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0e86cfa79304ba760ff5c0dfea158f4f/desktop_screenshot/CIiglPGGqpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0e86cfa79304ba760ff5c0dfea158f4f/desktop_screenshot/CPLvnfGGqpQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/0e86cfa79304ba760ff5c0dfea158f4f/desktop_screenshot/CM6RpvGGqpQDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Claimify: Warranty claims, RMA free?",
+            "answer": "The pricing label retrieved from the listing is: From $9/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/claimify"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  French,  German,  and Portuguese (Brazil)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/claimify"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Customer accounts, Shopify Flow, Shopify Admin, Customer account, Flow, Gorgias, Klaviyo, Make, Zapier",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/claimify"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/claimify"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://docs.xco.agency/docs/claimify/faq",
+            "https://docs.xco.agency/docs/claimify/features/claims-management",
+            "https://docs.xco.agency/docs/claimify/intro"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the relevant order, document, return or warranty rules.",
+            "Use a sample order to verify the customer and staff workflows.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["warranty-management"],
+        "primary_category_id": "warranty-management",
+        "seo": {
+          "title": "Claimify: Warranty claims, RMA Shopify App | eStorefy",
+          "meta_description": "A Shopify app for warranty management. Listed functions include damaged packages, extended warranty.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/claimify",
+          "retrieved_at": "2026-10-04T05:23:50.325370+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Give customers a self-service portal for returns, refunds, exchanges, and warranty claims,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/claimify"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

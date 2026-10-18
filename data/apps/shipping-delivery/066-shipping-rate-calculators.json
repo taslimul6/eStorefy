@@ -1,0 +1,3238 @@
+{
+  "schema_version": "2.0.0",
+  "dataset": {
+    "name": "eStorefy Shopify Apps Research — 100 Categories",
+    "language": "en",
+    "source_generated_at": "2026-10-04T05:34:50.719585+00:00",
+    "organization": "One self-contained file per category; full app records included.",
+    "content_status": "Editorial descriptions, FAQs and general setup outlines require review before publication.",
+    "ranking_status": "Editorial research shortlist; not a Shopify ranking or hands-on recommendation."
+  },
+  "category": {
+    "id": "shipping-rate-calculators",
+    "number": 66,
+    "name": "Shipping Rate Calculators",
+    "group": "Shipping & Delivery",
+    "slug": "shipping-rate-calculators",
+    "url_path": "/apps/shipping-rate-calculators",
+    "focus": "Configure delivery options and shipping operations.",
+    "description": "Compare Shopify apps for shipping rate calculators. Review each app's listed functions, pricing and merchant feedback to find an option that fits your store.",
+    "description_provenance": "editorial draft",
+    "source_urls": ["https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping-rates/all"],
+    "seo": {
+      "title": "Shopify Shipping Rate Calculators Apps | eStorefy",
+      "meta_description": "Compare Shopify apps for shipping rate calculators: listed features, pricing, ratings and developer resources.",
+      "provenance": "editorial draft"
+    },
+    "app_count": 12,
+    "coverage_status": "target_met",
+    "faq": [
+      {
+        "question": "How should I choose a shipping rate calculators app?",
+        "answer": "Compare the exact functions you need, supported integrations, recent merchant reviews and the total cost for your expected usage.",
+        "provenance": "editorial general guidance"
+      },
+      {
+        "question": "Are these apps ranked by Shopify?",
+        "answer": "No. This is an eStorefy research shortlist based on listing relevance, rating and review volume. It does not reflect hands-on performance testing.",
+        "provenance": "editorial methodology"
+      }
+    ]
+  },
+  "apps": [
+    {
+      "id": "shipping-rates",
+      "name": "ShipX ‑ Shipping Rates & Rules",
+      "slug": "shipping-rates",
+      "category_fit": {
+        "app_id": "shipping-rates",
+        "selection_score": 6.1485,
+        "rating_evidence": {"value": 5.0, "reviews": 1246},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rate", "calculat"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/shipping-rates"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 1
+      },
+      "overview": {
+        "description_short": "A Shopify app for shipping rate calculators. Listed functions include flat fee, carrier-based.",
+        "description_long": "ShipX ‑ Shipping Rates & Rules is developed by Logbase and listed for shipping rates, delivery and pickup. Its structured listing identifies functions such as flat fee, carrier-based, customer-based, dimension-based. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Shipping Rate Calculators"],
+        "best_for": {
+          "use_cases": ["Shipping Rate Calculators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 1246,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/shipping-rates",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 1},
+          {"stars": 4, "percentage": 1, "count": 13},
+          {"stars": 3, "percentage": 0, "count": 2},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $107.99/year and save 10%"]
+          },
+          {
+            "name": "Smart",
+            "amount_usd": 24.99,
+            "billing_period": "month",
+            "price_display": "$24.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $269.99/year and save 10%"]
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 34.99,
+            "billing_period": "month",
+            "price_display": "$34.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $377.99/year and save 10%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.logbase.io/products/shipx-shipping-rates-and-rules",
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 13, 2021",
+        "shopify_categories": [
+          {
+            "name": "Shipping rates",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping-rates"
+          },
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.shipping_rates.rate_calculation.flat_fee", "label": "Flat fee"},
+          {"handle": "cf.shipping_rates.rate_calculation.carrier_based", "label": "Carrier-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.customer_based", "label": "Customer-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.dimension_based", "label": "Dimension-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.distance_based", "label": "Distance-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.product_based", "label": "Product-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.quantity_based", "label": "Quantity-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.weight_based", "label": "Weight-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.zip_post_code", "label": "ZIP/post code"},
+          {"handle": "cf.shipping_rates.rate_calculation.rate_blending", "label": "Rate blending"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_zone", "label": "Multi-zone"},
+          {"handle": "cf.shipping_rates.customization.delivery_date", "label": "Delivery date"},
+          {"handle": "cf.shipping_rates.customization.delivery_time", "label": "Delivery time"},
+          {"handle": "cf.shipping_rates.customization.rename_options", "label": "Rename options"},
+          {"handle": "cf.shipping_rates.customization.hide_rates", "label": "Hide rates"},
+          {"handle": "cf.shipping_rates.customization.reorder_rates", "label": "Reorder rates"},
+          {"handle": "cf.shipping_rates.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.shipping_rates.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.shipping_rates.customization.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.dynamic_rates", "label": "Dynamic rates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.minimum_values", "label": "Minimum values"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.multi_location", "label": "Multi-location"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.multi_location", "label": "Multi-location"}
+        ],
+        "languages": [
+          "English",
+          " German",
+          " Spanish",
+          " Italian",
+          " French",
+          " Portuguese (Brazil)",
+          " and Portuguese (Portugal)"
+        ],
+        "works_with": ["Checkout", "Shopify Admin", "Australia Post", "Canada Post", "DHL", "Fedex", "UPS", "USPS"]
+      },
+      "developer": {
+        "name": "Logbase",
+        "website_url": "https://www.logbase.io/",
+        "partner_url": "https://apps.shopify.com/partners/logbase1",
+        "public_address": "Logbase Technologies LLP, PSG STEP E-Lab, PSG College of Technology, Peelamedu, Coimbatore, TN, 641004, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/shipping-rates",
+        "canonical_app_store_url": "https://apps.shopify.com/shipping-rates",
+        "install_url": "https://apps.shopify.com/shipping-rates",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://logbase.io/privacy-policy/",
+          "FAQ": "https://shipx.helpkit.so/",
+          "Logbase": "https://apps.shopify.com/partners/logbase1",
+          "Website": "https://www.logbase.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/ff434226b7f91094b637c1285b845417/icon/CJfH452A1IADEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/ff434226b7f91094b637c1285b845417/desktop_screenshot/CL29usT1oZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff434226b7f91094b637c1285b845417/desktop_screenshot/CNj9xMT1oZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff434226b7f91094b637c1285b845417/desktop_screenshot/CL_IzcT1oZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff434226b7f91094b637c1285b845417/desktop_screenshot/CP6g1sT1oZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff434226b7f91094b637c1285b845417/desktop_screenshot/CI2C38T1oZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff434226b7f91094b637c1285b845417/desktop_screenshot/CPLU6MT1oZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff434226b7f91094b637c1285b845417/mobile_screenshot/COjk8cT1oZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff434226b7f91094b637c1285b845417/mobile_screenshot/CPfcif_itZUDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff434226b7f91094b637c1285b845417/mobile_screenshot/CND_g8X1oZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff434226b7f91094b637c1285b845417/mobile_screenshot/CMPvjcX1oZQDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/ff434226b7f91094b637c1285b845417/mobile_screenshot/CPrmzZbCspYDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/6H292q6RoHM"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is ShipX ‑ Shipping Rates & Rules free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/shipping-rates"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  German,  Spanish,  Italian,  French,  Portuguese (Brazil),  and Portuguese (Portugal)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/shipping-rates"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Australia Post, Canada Post, DHL, Fedex, UPS, USPS",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/shipping-rates"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/shipping-rates"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://shipx.helpkit.so/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["shipping-rate-calculators"],
+        "primary_category_id": "shipping-rate-calculators",
+        "seo": {
+          "title": "ShipX ‑ Shipping Rates & Rules Shopify App | eStorefy",
+          "meta_description": "A Shopify app for shipping rate calculators. Listed functions include flat fee, carrier-based.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/shipping-rates",
+          "retrieved_at": "2026-10-04T05:21:39.652755+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Set custom shipping rules & rates by product, weight, postcode, zip code…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/shipping-rates"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "smart-shipping-rates-rules",
+      "name": "SMART Shipping Rates & Rules",
+      "slug": "smart-shipping-rates-rules",
+      "category_fit": {
+        "app_id": "smart-shipping-rates-rules",
+        "selection_score": 6.084,
+        "rating_evidence": {"value": 5.0, "reviews": 440},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rate", "calculat"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 2
+      },
+      "overview": {
+        "description_short": "A Shopify app for collection sorting & merchandising. Listed functions include flat fee, carrier-based.",
+        "description_long": "SMART Shipping Rates & Rules is developed by SMART Shipping Rates and listed for shipping rates, delivery and pickup. Its structured listing identifies functions such as flat fee, carrier-based, customer-based, dimension-based. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Collection Sorting & Merchandising",
+          "Checkout Customization",
+          "Cash on Delivery",
+          "Shipping Rate Calculators",
+          "Delivery Date & Time Slots"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Collection Sorting & Merchandising",
+            "Checkout Customization",
+            "Cash on Delivery",
+            "Shipping Rate Calculators",
+            "Delivery Date & Time Slots"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 440,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/smart-shipping-rates-rules",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 428},
+          {"stars": 4, "percentage": 2, "count": 8},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Development stores",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Lite",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.88/year and save 20%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $191.88/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "June 14, 2024",
+        "shopify_categories": [
+          {
+            "name": "Shipping rates",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping-rates"
+          },
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.shipping_rates.rate_calculation.flat_fee", "label": "Flat fee"},
+          {"handle": "cf.shipping_rates.rate_calculation.carrier_based", "label": "Carrier-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.customer_based", "label": "Customer-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.dimension_based", "label": "Dimension-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.product_based", "label": "Product-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.quantity_based", "label": "Quantity-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.weight_based", "label": "Weight-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.zip_post_code", "label": "ZIP/post code"},
+          {"handle": "cf.shipping_rates.rate_calculation.rate_blending", "label": "Rate blending"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_zone", "label": "Multi-zone"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_origin", "label": "Multi-origin"},
+          {"handle": "cf.shipping_rates.customization.po_box_restrictions", "label": "PO Box restrictions"},
+          {"handle": "cf.shipping_rates.customization.delivery_date", "label": "Delivery date"},
+          {"handle": "cf.shipping_rates.customization.delivery_time", "label": "Delivery time"},
+          {"handle": "cf.shipping_rates.customization.scheduling", "label": "Scheduling"},
+          {"handle": "cf.shipping_rates.customization.order_limits", "label": "Order limits"},
+          {"handle": "cf.shipping_rates.customization.address_validation", "label": "Address validation"},
+          {"handle": "cf.shipping_rates.customization.rename_options", "label": "Rename options"},
+          {"handle": "cf.shipping_rates.customization.hide_rates", "label": "Hide rates"},
+          {"handle": "cf.shipping_rates.customization.reorder_rates", "label": "Reorder rates"},
+          {"handle": "cf.shipping_rates.customization.geolocation", "label": "Geolocation"},
+          {"handle": "cf.shipping_rates.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.shipping_rates.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.shipping_rates.customization.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.block_dates", "label": "Block dates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.cutoff_times", "label": "Cutoff times"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.date_picker", "label": "Date picker"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.dynamic_rates", "label": "Dynamic rates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.minimum_values", "label": "Minimum values"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Carrier Service (CCS)",
+          "Delivery Customizations",
+          "Functions",
+          "Shipping",
+          "Shipping Options",
+          "Shipping Rates"
+        ]
+      },
+      "developer": {
+        "name": "SMART Shipping Rates",
+        "website_url": "https://etradepartner.io/",
+        "partner_url": "https://apps.shopify.com/partners/smart-shipping-rates",
+        "public_address": "Hoża 86/410, Warszawa, 00-682, PL"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/smart-shipping-rates-rules",
+        "canonical_app_store_url": "https://apps.shopify.com/smart-shipping-rates-rules",
+        "install_url": "https://apps.shopify.com/smart-shipping-rates-rules",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://etradepartner.io/privacy-policy",
+          "FAQ": "https://smart-shipping-rates.com/faq",
+          "Tutorial": "https://smart-shipping-rates.com/docs/get-started",
+          "App Documentation": "https://smart-shipping-rates.com/docs",
+          "SMART Shipping Rates": "https://apps.shopify.com/partners/smart-shipping-rates",
+          "Website": "https://etradepartner.io/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/icon/CNaU79-pgpQDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/promotional_image/CLqztarKspYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/desktop_screenshot/CMnE_PmCiJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/desktop_screenshot/COeQh_qCiJYDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/91fa9a072ad5c77ad403d40b895f7ed0/desktop_screenshot/CJbekPqCiJYDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is SMART Shipping Rates & Rules free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Carrier Service (CCS), Delivery Customizations, Functions, Shipping, Shipping Options, Shipping Rates",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://smart-shipping-rates.com/faq",
+            "https://smart-shipping-rates.com/docs/get-started",
+            "https://smart-shipping-rates.com/docs"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select the products and rules used by search, comparisons or recommendations.",
+            "Test the customer journey with several representative products.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "collection-sorting-merchandising",
+          "checkout-customization",
+          "cash-on-delivery",
+          "shipping-rate-calculators",
+          "delivery-date-time-slots"
+        ],
+        "primary_category_id": "collection-sorting-merchandising",
+        "seo": {
+          "title": "SMART Shipping Rates & Rules Shopify App | eStorefy",
+          "meta_description": "A Shopify app for collection sorting & merchandising. Listed functions include flat fee, carrier-based.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/smart-shipping-rates-rules",
+          "retrieved_at": "2026-10-04T05:21:47.848629+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/smart-shipping-rates-rules"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "multi-carrier-shipping-label",
+      "name": "PH MultiCarrier Shipping Label",
+      "slug": "multi-carrier-shipping-label",
+      "category_fit": {
+        "app_id": "multi-carrier-shipping-label",
+        "selection_score": 6.0132,
+        "rating_evidence": {"value": 4.9, "reviews": 647},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rate", "calculat"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/multi-carrier-shipping-label"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 3
+      },
+      "overview": {
+        "description_short": "A Shopify app for shipping rate calculators. Listed functions include label creation, bulk printing.",
+        "description_long": "PH MultiCarrier Shipping Label is developed by PluginHive and listed for shipping, shipping rates. Its structured listing identifies functions such as label creation, bulk printing, address validation, packing slips. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Shipping Rate Calculators", "Shipping Labels", "Order Tracking", "Marketplace Integrations"],
+        "best_for": {
+          "use_cases": ["Shipping Rate Calculators", "Shipping Labels", "Order Tracking", "Marketplace Integrations"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 647,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/multi-carrier-shipping-label",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 609},
+          {"stars": 4, "percentage": 3, "count": 21},
+          {"stars": 3, "percentage": 1, "count": 4},
+          {"stars": 2, "percentage": 1, "count": 6},
+          {"stars": 1, "percentage": 1, "count": 7}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $9/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Basic Plan",
+            "amount_usd": 9.0,
+            "billing_period": "month",
+            "price_display": "$9 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter Plan",
+            "amount_usd": 19.0,
+            "billing_period": "month",
+            "price_display": "$19 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Popular Plan",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Premium Plan",
+            "amount_usd": 49.0,
+            "billing_period": "month",
+            "price_display": "$49 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.pluginhive.com/multi-carrier-shipping-label-app/#wss_pricing_plans",
+        "starting_paid_monthly_price_usd": 9.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "September 3, 2019",
+        "shopify_categories": [
+          {
+            "name": "Shipping",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping"
+          },
+          {
+            "name": "Shipping rates",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping-rates"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.shipping.labels_and_packaging.label_creation", "label": "Label creation"},
+          {"handle": "cf.shipping.labels_and_packaging.bulk_printing", "label": "Bulk printing"},
+          {"handle": "cf.shipping.labels_and_packaging.address_validation", "label": "Address validation"},
+          {"handle": "cf.shipping.labels_and_packaging.packing_slips", "label": "Packing slips"},
+          {"handle": "cf.shipping.labels_and_packaging.customs_documents", "label": "Customs documents"},
+          {"handle": "cf.shipping.labels_and_packaging.return_labels", "label": "Return labels"},
+          {"handle": "cf.shipping.labels_and_packaging.packaging", "label": "Packaging"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_insurance", "label": "Shipping insurance"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_rules", "label": "Shipping rules"},
+          {"handle": "cf.shipping.labels_and_packaging.delivery_dates", "label": "Delivery date"},
+          {"handle": "cf.shipping.labels_and_packaging.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.labels_and_packaging.carrier_selection", "label": "Carrier selection"},
+          {"handle": "cf.shipping.labels_and_packaging.shipping_rates", "label": "Shipping rates"},
+          {"handle": "cf.shipping.managing_shipments.order_sync", "label": "Order sync"},
+          {"handle": "cf.shipping.managing_shipments.real_time_tracking", "label": "Real-time tracking"},
+          {"handle": "cf.shipping.managing_shipments.email_notifications", "label": "Email notifications"},
+          {"handle": "cf.shipping.managing_shipments.order_updates", "label": "Order updates"},
+          {"handle": "cf.shipping_rates.rate_calculation.flat_fee", "label": "Flat fee"},
+          {"handle": "cf.shipping_rates.rate_calculation.carrier_based", "label": "Carrier-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.customer_based", "label": "Customer-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.dimension_based", "label": "Dimension-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.distance_based", "label": "Distance-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.product_based", "label": "Product-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.quantity_based", "label": "Quantity-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.weight_based", "label": "Weight-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.zip_post_code", "label": "ZIP/post code"},
+          {"handle": "cf.shipping_rates.rate_calculation.rate_blending", "label": "Rate blending"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_zone", "label": "Multi-zone"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_origin", "label": "Multi-origin"},
+          {"handle": "cf.shipping_rates.customization.custom_notifications", "label": "Custom notifications"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Admin",
+          "Amazon Shipping",
+          "Canada Post",
+          "FedEx",
+          "PostNord",
+          "UPS",
+          "USPS, DHL Express & India Post"
+        ]
+      },
+      "developer": {
+        "name": "PluginHive",
+        "website_url": "https://www.pluginhive.com/",
+        "partner_url": "https://apps.shopify.com/partners/pluginhive",
+        "public_address": "#214, 1st Floor, 1st AA Cross Road,, 2nd Main Road, Kasturi Nagar,, Bangalore, KA, 560043, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/multi-carrier-shipping-label",
+        "canonical_app_store_url": "https://apps.shopify.com/multi-carrier-shipping-label",
+        "install_url": "https://apps.shopify.com/multi-carrier-shipping-label",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.pluginhive.com/privacy-policy/",
+          "PluginHive": "https://apps.shopify.com/partners/pluginhive",
+          "Website": "https://www.pluginhive.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/icon/CJOvx86JyfsCEAE=.jpeg",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/desktop_screenshot/CMScsqj5rpUDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/desktop_screenshot/CM77-86JyfsCEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/desktop_screenshot/CLKOiM-JyfsCEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/desktop_screenshot/CKKTpPfMkIMDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/desktop_screenshot/CInlvPzXnYIDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/desktop_screenshot/CMv0xvzXnYIDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/4ef330dd71cffdada585ab8b2c0e3cb2/mobile_screenshot/CNuN0s-JyfsCEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/2lHjZJWcjeM"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is PH MultiCarrier Shipping Label free?",
+            "answer": "The pricing label retrieved from the listing is: From $9/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/multi-carrier-shipping-label"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/multi-carrier-shipping-label"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Amazon Shipping, Canada Post, FedEx, PostNord, UPS, USPS, DHL Express & India Post",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/multi-carrier-shipping-label"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/multi-carrier-shipping-label"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["shipping-rate-calculators", "shipping-labels", "order-tracking", "marketplace-integrations"],
+        "primary_category_id": "shipping-rate-calculators",
+        "seo": {
+          "title": "PH MultiCarrier Shipping Label Shopify App | eStorefy",
+          "meta_description": "A Shopify app for shipping rate calculators. Listed functions include label creation, bulk printing.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/multi-carrier-shipping-label",
+          "retrieved_at": "2026-10-04T05:21:47.862050+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Carrier calculated shipping rates at checkout, print shipping labels, live order tracking…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/multi-carrier-shipping-label"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "shopney-mobile-app",
+      "name": "Shopney ‑ Mobile App Builder",
+      "slug": "shopney-mobile-app",
+      "category_fit": {
+        "app_id": "shopney-mobile-app",
+        "selection_score": 5.9711,
+        "rating_evidence": {"value": 5.0, "reviews": 771},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rate"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/shopney-mobile-app"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 4
+      },
+      "overview": {
+        "description_short": "A Shopify app for page builders. Listed functions include app design, cart page.",
+        "description_long": "Shopney ‑ Mobile App Builder is developed by Shopney and listed for mobile app builder, customer loyalty - other. Its structured listing identifies functions such as app design, cart page, product pages, templates. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Page Builders", "Mobile App Builders", "Shipping Rate Calculators"],
+        "best_for": {
+          "use_cases": ["Page Builders", "Mobile App Builders", "Shipping Rate Calculators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 771,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/shopney-mobile-app",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 757},
+          {"stars": 4, "percentage": 1, "count": 8},
+          {"stars": 3, "percentage": 1, "count": 5},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $149/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Silver Plan",
+            "amount_usd": 149.0,
+            "billing_period": "month",
+            "price_display": "$149 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Gold Plan",
+            "amount_usd": 299.0,
+            "billing_period": "month",
+            "price_display": "$299 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Platinum Plan",
+            "amount_usd": 599.0,
+            "billing_period": "month",
+            "price_display": "$599 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Enterprise Plan",
+            "amount_usd": 1299.0,
+            "billing_period": "month",
+            "price_display": "$1,299 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://www.shopney.co/pricing",
+        "starting_paid_monthly_price_usd": 149.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 5, 2019",
+        "shopify_categories": [
+          {
+            "name": "Mobile app builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-mobile-app-builder"
+          },
+          {
+            "name": "Customer loyalty - Other",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-customer-loyalty-customer-loyalty-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.mobile_app_builder.customization.app_design", "label": "App design"},
+          {"handle": "cf.mobile_app_builder.customization.cart_page", "label": "Cart page"},
+          {"handle": "cf.mobile_app_builder.customization.product_pages", "label": "Product pages"},
+          {"handle": "cf.mobile_app_builder.customization.templates", "label": "Templates"},
+          {
+            "handle": "cf.mobile_app_builder.customization.drag_and_drop_editor",
+            "label": "Drag and drop editor"
+          },
+          {"handle": "cf.mobile_app_builder.customization.collections", "label": "Collections"},
+          {"handle": "cf.mobile_app_builder.customization.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.mobile_app_builder.customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.mobile_app_builder.customization.real_time_preview", "label": "Real-time preview"},
+          {"handle": "cf.mobile_app_builder.customization.real_time_sync", "label": "Real-time sync"},
+          {"handle": "cf.mobile_app_builder.push_notifications.abandoned_cart", "label": "Abandoned cart"},
+          {
+            "handle": "cf.mobile_app_builder.push_notifications.auto_notifications",
+            "label": "Auto-notifications"
+          },
+          {"handle": "cf.mobile_app_builder.push_notifications.back_in_stock", "label": "Back in stock"},
+          {"handle": "cf.mobile_app_builder.push_notifications.geolocation", "label": "Geolocation"},
+          {"handle": "cf.mobile_app_builder.push_notifications.personalized", "label": "Personalized"},
+          {"handle": "cf.mobile_app_builder.push_notifications.promotions", "label": "Promotions"},
+          {"handle": "cf.mobile_app_builder.push_notifications.rich_media", "label": "Rich media"},
+          {"handle": "cf.mobile_app_builder.push_notifications.scheduled", "label": "Scheduled"},
+          {"handle": "cf.mobile_app_builder.push_notifications.segments", "label": "Segments"},
+          {
+            "handle": "cf.mobile_app_builder.push_notifications.custom_notifications",
+            "label": "Custom notifications"
+          }
+        ],
+        "languages": ["English", " Spanish", " German", " French", " Portuguese (Brazil)", " and Italian"],
+        "works_with": [
+          "Shopify Admin",
+          "Growave - Kiwi Sizing",
+          "Klaviyo - Langify",
+          "LoyaltyLion - Smile.io",
+          "Nosto - Rebuy",
+          "Recharge - Appstle",
+          "Yotpo - Judge.me"
+        ]
+      },
+      "developer": {
+        "name": "Shopney",
+        "website_url": "https://shopney.co",
+        "partner_url": "https://apps.shopify.com/partners/shopney",
+        "public_address": "16192 Coastal Highway, Lewes, DE, 19958, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/shopney-mobile-app",
+        "canonical_app_store_url": "https://apps.shopify.com/shopney-mobile-app",
+        "install_url": "https://apps.shopify.com/shopney-mobile-app",
+        "demo_store_url": "https://shopney.co/demo-mobile-app-for-shopify",
+        "resources": {
+          "Privacy policy": "https://shopney.co/privacy-policy",
+          "Shopney": "https://apps.shopify.com/partners/shopney",
+          "Website": "https://shopney.co"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/b5aba6588464c37be7caf4c6c544a4c9/icon/CKT_uaOW2_sCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/b5aba6588464c37be7caf4c6c544a4c9/desktop_screenshot/CMamkNyi95IDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b5aba6588464c37be7caf4c6c544a4c9/desktop_screenshot/CILS0YvylZcDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b5aba6588464c37be7caf4c6c544a4c9/desktop_screenshot/COKZzendhokDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b5aba6588464c37be7caf4c6c544a4c9/desktop_screenshot/CLbE1undhokDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b5aba6588464c37be7caf4c6c544a4c9/desktop_screenshot/CKyx4OndhokDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b5aba6588464c37be7caf4c6c544a4c9/mobile_screenshot/CJ7L6endhokDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/b5aba6588464c37be7caf4c6c544a4c9/pos_screenshot/CMr44e-TsYsDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/Z8Ai6lh_3xI"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Shopney ‑ Mobile App Builder free?",
+            "answer": "The pricing label retrieved from the listing is: From $149/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/shopney-mobile-app"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Spanish,  German,  French,  Portuguese (Brazil),  and Italian",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/shopney-mobile-app"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Growave - Kiwi Sizing, Klaviyo - Langify, LoyaltyLion - Smile.io, Nosto - Rebuy, Recharge - Appstle, Yotpo - Judge.me",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/shopney-mobile-app"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/shopney-mobile-app"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["page-builders", "mobile-app-builders", "shipping-rate-calculators"],
+        "primary_category_id": "page-builders",
+        "seo": {
+          "title": "Shopney ‑ Mobile App Builder Shopify App | eStorefy",
+          "meta_description": "A Shopify app for page builders. Listed functions include app design, cart page.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/shopney-mobile-app",
+          "retrieved_at": "2026-10-04T05:14:11.257808+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Convert your Shopify store into a iOS & Android mobile app. The…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/shopney-mobile-app"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "shipping-calculator-shipmagic",
+      "name": "Shipping calculator: ShipMagic",
+      "slug": "shipping-calculator-shipmagic",
+      "category_fit": {
+        "app_id": "shipping-calculator-shipmagic",
+        "selection_score": 5.9572,
+        "rating_evidence": {"value": 5.0, "reviews": 119},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["calculat", "rate"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/shipping-calculator-shipmagic"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 5
+      },
+      "overview": {
+        "description_short": "A Shopify app for shipping rate calculators. Listed functions include flat fee, carrier-based.",
+        "description_long": "Shipping calculator: ShipMagic is developed by Speedy Squirrel and listed for shipping rates, delivery and pickup. Its structured listing identifies functions such as flat fee, carrier-based, customer-based, distance-based. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Shipping Rate Calculators"],
+        "best_for": {
+          "use_cases": ["Shipping Rate Calculators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 119,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/shipping-calculator-shipmagic",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 116},
+          {"stars": 4, "percentage": 1, "count": 1},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 2, "count": 2}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Sandbox / Test",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 14.0,
+            "billing_period": "month",
+            "price_display": "$14 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $140/year and save 17%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $290/year and save 17%"]
+          },
+          {
+            "name": "Pro+",
+            "amount_usd": 59.0,
+            "billing_period": "month",
+            "price_display": "$59 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $590/year and save 17%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 14.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 7, 2023 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Shipping rates",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping-rates"
+          },
+          {
+            "name": "Delivery and pickup",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-delivery-and-pickup"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.shipping_rates.rate_calculation.flat_fee", "label": "Flat fee"},
+          {"handle": "cf.shipping_rates.rate_calculation.carrier_based", "label": "Carrier-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.customer_based", "label": "Customer-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.distance_based", "label": "Distance-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.product_based", "label": "Product-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.quantity_based", "label": "Quantity-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.weight_based", "label": "Weight-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.zip_post_code", "label": "ZIP/post code"},
+          {"handle": "cf.shipping_rates.rate_calculation.rate_blending", "label": "Rate blending"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_zone", "label": "Multi-zone"},
+          {"handle": "cf.shipping_rates.rate_calculation.multi_origin", "label": "Multi-origin"},
+          {"handle": "cf.shipping_rates.customization.po_box_restrictions", "label": "PO Box restrictions"},
+          {"handle": "cf.shipping_rates.customization.delivery_time", "label": "Delivery time"},
+          {"handle": "cf.shipping_rates.customization.scheduling", "label": "Scheduling"},
+          {"handle": "cf.shipping_rates.customization.rename_options", "label": "Rename options"},
+          {"handle": "cf.shipping_rates.customization.hide_rates", "label": "Hide rates"},
+          {"handle": "cf.shipping_rates.customization.reorder_rates", "label": "Reorder rates"},
+          {"handle": "cf.shipping_rates.customization.custom_rules", "label": "Custom rules"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.block_dates", "label": "Block dates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.cutoff_times", "label": "Cutoff times"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.dynamic_rates", "label": "Dynamic rates"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.order_limits", "label": "Order limits"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.minimum_values", "label": "Minimum values"},
+          {"handle": "cf.delivery_and_pickup.delivery_options.multi_location", "label": "Multi-location"},
+          {
+            "handle": "cf.delivery_and_pickup.delivery_options.address_validation",
+            "label": "Address validation"
+          },
+          {"handle": "cf.delivery_and_pickup.pickup_options.in_store", "label": "In-store"},
+          {"handle": "cf.delivery_and_pickup.pickup_options.scheduling", "label": "Scheduling"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "Australia Post",
+          "Direct Freight Express",
+          "Fedex",
+          "Shiprocket",
+          "Stallion Express",
+          "USPS"
+        ]
+      },
+      "developer": {
+        "name": "Speedy Squirrel",
+        "website_url": "https://speedysquirrelhq.com/",
+        "partner_url": "https://apps.shopify.com/partners/speedy-squirrel",
+        "public_address": "Melco House, Station Road, Akot, MH, 444101, IN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/shipping-calculator-shipmagic",
+        "canonical_app_store_url": "https://apps.shopify.com/shipping-calculator-shipmagic",
+        "install_url": "https://apps.shopify.com/shipping-calculator-shipmagic",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://speedysquirrelhq.com/privacy-policy",
+          "FAQ": "https://speedysquirrelhq.com/shipmagic",
+          "Tutorial": "https://www.youtube.com/playlist?list=PLuGzJKkHN-DGI2HrdpJYGDelU8chV7KM0",
+          "App Documentation": "https://shipmagic-docs.speedysquirrelhq.com/",
+          "Speedy Squirrel": "https://apps.shopify.com/partners/speedy-squirrel",
+          "Website": "https://speedysquirrelhq.com/",
+          "Changelog": "https://speedysquirrelhq.com/changelog"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/fb1ca15692a4eb9b2137e3fada6ac816/icon/CM-hz8Cw7f8CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/fb1ca15692a4eb9b2137e3fada6ac816/promotional_image/CLSfxNDml5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fb1ca15692a4eb9b2137e3fada6ac816/desktop_screenshot/CLqZztDml5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fb1ca15692a4eb9b2137e3fada6ac816/desktop_screenshot/CN6J2NDml5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fb1ca15692a4eb9b2137e3fada6ac816/desktop_screenshot/CIyw4dDml5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fb1ca15692a4eb9b2137e3fada6ac816/desktop_screenshot/CLCf69Dml5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fb1ca15692a4eb9b2137e3fada6ac816/desktop_screenshot/CKip9dDml5UDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/fb1ca15692a4eb9b2137e3fada6ac816/desktop_screenshot/CMzxg9Hml5UDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Shipping calculator: ShipMagic free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/shipping-calculator-shipmagic"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/shipping-calculator-shipmagic"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, Australia Post, Direct Freight Express, Fedex, Shiprocket, Stallion Express, USPS",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/shipping-calculator-shipmagic"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/shipping-calculator-shipmagic"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://speedysquirrelhq.com/shipmagic",
+            "https://www.youtube.com/playlist?list=PLuGzJKkHN-DGI2HrdpJYGDelU8chV7KM0",
+            "https://shipmagic-docs.speedysquirrelhq.com/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["shipping-rate-calculators"],
+        "primary_category_id": "shipping-rate-calculators",
+        "seo": {
+          "title": "Shipping calculator: ShipMagic Shopify App | eStorefy",
+          "meta_description": "A Shopify app for shipping rate calculators. Listed functions include flat fee, carrier-based.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/shipping-calculator-shipmagic",
+          "retrieved_at": "2026-10-04T05:21:56.528984+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "ShipMagic is an advanced shipping rate calculator app that allows you to…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/shipping-calculator-shipmagic"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "releasit-cod-order-form",
+      "name": "Releasit COD Form & Upsells",
+      "slug": "releasit-cod-order-form",
+      "category_fit": {
+        "app_id": "releasit-cod-order-form",
+        "selection_score": 5.935,
+        "rating_evidence": {"value": 4.9, "reviews": 2500},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rate"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/releasit-cod-order-form"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 6
+      },
+      "overview": {
+        "description_short": "A Shopify app for upsell & cross-sell. Listed functions include custom fees, prepaid incentives.",
+        "description_long": "Releasit COD Form & Upsells is developed by Releasit and listed for pay later, upsell and cross-sell. Its structured listing identifies functions such as custom fees, prepaid incentives, fraud prevention, one-time password (otp). For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Upsell & Cross-sell",
+          "Product Comparison",
+          "Cash on Delivery",
+          "Wholesale Catalogs & Order Forms",
+          "Shipping Rate Calculators"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Upsell & Cross-sell",
+            "Product Comparison",
+            "Cash on Delivery",
+            "Wholesale Catalogs & Order Forms",
+            "Shipping Rate Calculators"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 2500,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/releasit-cod-order-form",
+        "distribution": [
+          {"stars": 5, "percentage": 94, "count": 2},
+          {"stars": 4, "percentage": 4, "count": 106},
+          {"stars": 3, "percentage": 1, "count": 16},
+          {"stars": 2, "percentage": 0, "count": 2},
+          {"stars": 1, "percentage": 1, "count": 27}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free to install",
+        "free_plan_available": false,
+        "free_to_install": true,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Forever Free",
+            "amount_usd": null,
+            "billing_period": null,
+            "price_display": "Free to install",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Premium",
+            "amount_usd": 11.49,
+            "billing_period": "month",
+            "price_display": "$11.49 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $103.49/year and save 25%"]
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $269.99/year and save 25%"]
+          },
+          {
+            "name": "Unlimited",
+            "amount_usd": 69.99,
+            "billing_period": "month",
+            "price_display": "$69.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $629.99/year and save 25%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 11.49,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "August 31, 2021",
+        "shopify_categories": [
+          {
+            "name": "Pay later",
+            "url": "https://apps.shopify.com/categories/selling-products-payments-pay-later"
+          },
+          {
+            "name": "Upsell and cross-sell",
+            "url": "https://apps.shopify.com/categories/marketing-and-conversion-upsell-and-bundles-upsell-and-cross-sell"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.cash_on_delivery_cod.cod_management.custom_fees", "label": "Custom fees"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.prepaid_incentives",
+            "label": "Prepaid incentives"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.fraud_prevention", "label": "Fraud prevention"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.one_time_password_otp",
+            "label": "One-time password (OTP)"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.ip_blocking", "label": "IP blocking"},
+          {
+            "handle": "cf.cash_on_delivery_cod.cod_management.phone_confirmation",
+            "label": "Phone confirmation"
+          },
+          {"handle": "cf.cash_on_delivery_cod.cod_management.sms_confirmation", "label": "SMS confirmation"},
+          {"handle": "cf.cash_on_delivery_cod.cod_management.order_export", "label": "Order export"},
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.drag_and_drop_editor",
+            "label": "Drag-and-drop editor"
+          },
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_fields", "label": "Custom fields"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.fonts_and_colors", "label": "Font and color"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_buttons", "label": "Custom buttons"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_layout", "label": "Custom layouts"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.custom_messages", "label": "Custom messages"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.cash_on_delivery_cod.form_customization.embedded_forms", "label": "Embedded forms"},
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.shipping_options",
+            "label": "Shipping options"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.form_customization.address_verification",
+            "label": "Address validation"
+          },
+          {"handle": "cf.cash_on_delivery_cod.form_customization.multi_language", "label": "Multi-language"},
+          {"handle": "cf.cash_on_delivery_cod.conversion_and_upsell.cross_sell", "label": "Cross-sell"},
+          {"handle": "cf.cash_on_delivery_cod.conversion_and_upsell.discounts", "label": "Discounts"},
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.one_click_order",
+            "label": "One-click order"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.one_click_upsells",
+            "label": "One-click upsells"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.post_purchase_upsells",
+            "label": "Post-purchase upsells"
+          },
+          {
+            "handle": "cf.cash_on_delivery_cod.conversion_and_upsell.pixel_tracking",
+            "label": "Pixel tracking"
+          },
+          {"handle": "cf.cash_on_delivery_cod.conversion_and_upsell.cart_recovery", "label": "Cart recovery"},
+          {"handle": "cf.upsell_and_cross_sell.customization.cart_upsell", "label": "Cart upsell"},
+          {"handle": "cf.upsell_and_cross_sell.customization.checkout_upsell", "label": "Checkout upsell"},
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.product_page_upsell",
+            "label": "Product page upsell"
+          },
+          {
+            "handle": "cf.upsell_and_cross_sell.customization.thank_you_page_upsell",
+            "label": "Thank you page upsell"
+          }
+        ],
+        "languages": [
+          "English",
+          " Italian",
+          " Spanish",
+          " French",
+          " Czech",
+          " Danish",
+          " German",
+          " Finnish",
+          " Japanese",
+          " Korean",
+          " Norwegian (Bokmål)",
+          " Dutch",
+          " Polish",
+          " Portuguese (Brazil)",
+          " Portuguese (Portugal)",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Chinese (Simplified)",
+          " and Chinese (Traditional)"
+        ],
+        "works_with": [
+          "Checkout",
+          "Shopify Admin",
+          "GemPages",
+          "Google Sheets",
+          "Kaching Cart",
+          "PageFly",
+          "Wide Bundles",
+          "Zipify Pages"
+        ]
+      },
+      "developer": {
+        "name": "Releasit",
+        "website_url": "https://www.releas.it",
+        "partner_url": "https://apps.shopify.com/partners/releasit",
+        "public_address": "1 Kingdom St, Paddington Central, London, ENG, W26BD, GB"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/releasit-cod-order-form",
+        "canonical_app_store_url": "https://apps.shopify.com/releasit-cod-order-form",
+        "install_url": "https://apps.shopify.com/releasit-cod-order-form",
+        "demo_store_url": "https://cod-order-form-demo-b.myshopify.com/",
+        "resources": {
+          "Privacy policy": "https://www.releas.it/pages/privacy-policy",
+          "FAQ": "https://help.releas.it/en/",
+          "Tutorial": "https://help.releas.it/en/article/how-to-activate-the-app-on-your-theme-yjb19o/",
+          "App Documentation": "https://www.releas.it/blogs/news",
+          "Releasit": "https://apps.shopify.com/partners/releasit",
+          "Website": "https://www.releas.it"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/icon/CKKYs5695_ICEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/desktop_screenshot/CLrBiJu4ppEDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/desktop_screenshot/CMmqh8n_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/desktop_screenshot/CI3bkMn_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/desktop_screenshot/COuYmsn_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/desktop_screenshot/CP3_o8n_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/desktop_screenshot/CNS0r8n_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/mobile_screenshot/CLKxucn_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/mobile_screenshot/CJLWwsn_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/mobile_screenshot/COi-y8n_9ocDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/mobile_screenshot/CLqYwpuko5ADEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/59ff1b17b1415cf11af2ee0a00c68334/mobile_screenshot/CKHBy5uko5ADEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/G6xZjLWfoEY"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Releasit COD Form & Upsells free?",
+            "answer": "The pricing label retrieved from the listing is: Free to install. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/releasit-cod-order-form"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  Italian,  Spanish,  French,  Czech,  Danish,  German,  Finnish,  Japanese,  Korean,  Norwegian (Bokmål),  Dutch,  Polish,  Portuguese (Brazil),  Portuguese (Portugal),  Swedish,  Thai,  Turkish,  Chinese (Simplified),  and Chinese (Traditional)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/releasit-cod-order-form"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin, GemPages, Google Sheets, Kaching Cart, PageFly, Wide Bundles, Zipify Pages",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/releasit-cod-order-form"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/releasit-cod-order-form"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://help.releas.it/en/",
+            "https://help.releas.it/en/article/how-to-activate-the-app-on-your-theme-yjb19o/",
+            "https://www.releas.it/blogs/news"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Select eligible products and set the offer conditions.",
+            "Preview the offer and test cart totals on a sample order.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "upsell-cross-sell",
+          "product-comparison",
+          "cash-on-delivery",
+          "wholesale-catalogs-order-forms",
+          "shipping-rate-calculators"
+        ],
+        "primary_category_id": "upsell-cross-sell",
+        "seo": {
+          "title": "Releasit COD Form & Upsells Shopify App | eStorefy",
+          "meta_description": "A Shopify app for upsell & cross-sell. Listed functions include custom fees, prepaid incentives.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/releasit-cod-order-form",
+          "retrieved_at": "2026-10-04T05:18:56.644851+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Create a 1 Click COD Order Form with Upsells, Offers and more.…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/releasit-cod-order-form"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "essential-seo-ai-blog-writer",
+      "name": "Essential AI SEO: AI Blog Post",
+      "slug": "essential-seo-ai-blog-writer",
+      "category_fit": {
+        "app_id": "essential-seo-ai-blog-writer",
+        "selection_score": 5.931,
+        "rating_evidence": {"value": 5.0, "reviews": 422},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rate"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/essential-seo-ai-blog-writer"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 7
+      },
+      "overview": {
+        "description_short": "A Shopify app for influencer marketing. Listed functions include ai generation, recommended topics.",
+        "description_long": "Essential AI SEO: AI Blog Post is developed by Essential Apps and listed for blogs, seo. Its structured listing identifies functions such as ai generation, recommended topics, bulk creation, multi-language. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Influencer Marketing", "SEO Optimization", "Blog & AI Content Tools", "Shipping Rate Calculators"],
+        "best_for": {
+          "use_cases": ["Influencer Marketing", "SEO Optimization", "Blog & AI Content Tools", "Shipping Rate Calculators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 422,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/essential-seo-ai-blog-writer",
+        "distribution": [
+          {"stars": 5, "percentage": 98, "count": 412},
+          {"stars": 4, "percentage": 2, "count": 7},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 1},
+          {"stars": 1, "percentage": 0, "count": 1}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Starter",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $95.88/year and save 20%"]
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 29.99,
+            "billing_period": "month",
+            "price_display": "$29.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $287.88/year and save 20%"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 99.99,
+            "billing_period": "month",
+            "price_display": "$99.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $959.88/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 9.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "April 12, 2024",
+        "shopify_categories": [
+          {"name": "Blogs", "url": "https://apps.shopify.com/categories/store-design-content-blogs"},
+          {"name": "SEO", "url": "https://apps.shopify.com/categories/store-design-site-optimization-seo"}
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.blogs.content_creation.ai_generation", "label": "AI generation"},
+          {"handle": "cf.blogs.content_creation.recommended_topics", "label": "Recommended topics"},
+          {"handle": "cf.blogs.content_creation.bulk_creation", "label": "Bulk creation"},
+          {"handle": "cf.blogs.content_creation.multi_language", "label": "Multi-language"},
+          {"handle": "cf.blogs.content_creation.translation", "label": "Translation"},
+          {"handle": "cf.blogs.content_creation.images", "label": "Images"},
+          {"handle": "cf.blogs.seo.keyword_optimization", "label": "Keyword optimization"},
+          {"handle": "cf.blogs.seo.seo_analysis", "label": "SEO analysis"},
+          {"handle": "cf.seo.seo_tools.ai_generation", "label": "AI generation"},
+          {"handle": "cf.seo.seo_tools.local_seo", "label": "Local SEO"},
+          {"handle": "cf.seo.seo_tools.content_optimization", "label": "Content optimization"},
+          {"handle": "cf.seo.monitoring_performance.seo_score", "label": "SEO score"},
+          {"handle": "cf.seo.monitoring_performance.website_traffic", "label": "Website traffic"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Admin",
+          "Avada SEO & Image Optimizer",
+          "Bloggle Powerful Blog Builder",
+          "Chat GPT",
+          "DropInBlog ‑ SEO Friendly Blog",
+          "SEOAnt ‑ AI SEO Optimizer"
+        ]
+      },
+      "developer": {
+        "name": "Essential Apps",
+        "website_url": "https://essential-apps.com",
+        "partner_url": "https://apps.shopify.com/partners/essentials25",
+        "public_address": "Baltupio g. 45 - 27, Vilnius, 08324, LT"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/essential-seo-ai-blog-writer",
+        "canonical_app_store_url": "https://apps.shopify.com/essential-seo-ai-blog-writer",
+        "install_url": "https://apps.shopify.com/essential-seo-ai-blog-writer",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://essential-apps.com/essential-seo-ai-blog-writer-privacy-policy-terms-and-conditions",
+          "FAQ": "https://essential-apps.com/ai-blog-writer",
+          "App Documentation": "https://essentials-docs.helpscoutdocs.com/collection/104-essential-ai-seo-ai-blog-post",
+          "Essential Apps": "https://apps.shopify.com/partners/essentials25",
+          "Website": "https://essential-apps.com"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/icon/CNXcrsjNqIUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/promotional_image/CNKV2uXFlYkDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/desktop_screenshot/CNm74-XFlYkDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/desktop_screenshot/CPLI7OXFlYkDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/desktop_screenshot/CLzR9eXFlYkDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/desktop_screenshot/CKL0_uXFlYkDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/desktop_screenshot/CIWKiebFlYkDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/70ea04279c79cfa3889d51b58bd9491f/desktop_screenshot/CImLk-bFlYkDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Essential AI SEO: AI Blog Post free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/essential-seo-ai-blog-writer"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/essential-seo-ai-blog-writer"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Avada SEO & Image Optimizer, Bloggle Powerful Blog Builder, Chat GPT, DropInBlog ‑ SEO Friendly Blog, SEOAnt ‑ AI SEO Optimizer",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/essential-seo-ai-blog-writer"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/essential-seo-ai-blog-writer"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://essential-apps.com/ai-blog-writer",
+            "https://essentials-docs.helpscoutdocs.com/collection/104-essential-ai-seo-ai-blog-post"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Connect the relevant advertising or partner account.",
+            "Verify a sample conversion or referral event before running a campaign.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["influencer-marketing", "seo-optimization", "blog-ai-content-tools", "shipping-rate-calculators"],
+        "primary_category_id": "influencer-marketing",
+        "seo": {
+          "title": "Essential AI SEO: AI Blog Post Shopify App | eStorefy",
+          "meta_description": "A Shopify app for influencer marketing. Listed functions include ai generation, recommended topics.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/essential-seo-ai-blog-writer",
+          "retrieved_at": "2026-10-04T05:12:49.395281+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Boost your Shopify store’s SEO with Essential SEO ‑ AI Blog Post,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/essential-seo-ai-blog-writer"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "a2x",
+      "name": "A2X Sync for QuickBooks & Xero",
+      "slug": "a2x",
+      "category_fit": {
+        "app_id": "a2x",
+        "selection_score": 5.9189,
+        "rating_evidence": {"value": 5.0, "reviews": 360},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rate"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/a2x"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 8
+      },
+      "overview": {
+        "description_short": "A Shopify app for accounting integrations. Listed functions include income and balance, sales and refunds.",
+        "description_long": "A2X Sync for QuickBooks & Xero is developed by A2X Software Limited and listed for accounting. Its structured listing identifies functions such as income and balance, sales and refunds, sales tax, returns and exchanges. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Accounting Integrations", "Shipping Rate Calculators", "Inventory Sync"],
+        "best_for": {
+          "use_cases": ["Accounting Integrations", "Shipping Rate Calculators", "Inventory Sync"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 360,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/a2x",
+        "distribution": [
+          {"stars": 5, "percentage": 96, "count": 345},
+          {"stars": 4, "percentage": 3, "count": 10},
+          {"stars": 3, "percentage": 0, "count": 1},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 1, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "From $29/month. Free trial available.",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Mini",
+            "amount_usd": 29.0,
+            "billing_period": "month",
+            "price_display": "$29 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 45.0,
+            "billing_period": "month",
+            "price_display": "$45 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 79.0,
+            "billing_period": "month",
+            "price_display": "$79 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Advanced",
+            "amount_usd": 115.0,
+            "billing_period": "month",
+            "price_display": "$115 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": true,
+        "all_pricing_url": "https://www.a2xaccounting.com/pricing",
+        "starting_paid_monthly_price_usd": 29.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "July 12, 2019 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Accounting",
+            "url": "https://apps.shopify.com/categories/store-management-finances-accounting"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.accounting.financial_reports.income_and_balance", "label": "Income and balance"},
+          {"handle": "cf.accounting.financial_reports.sales_and_refunds", "label": "Sales and refunds"},
+          {"handle": "cf.accounting.financial_reports.sales_tax", "label": "Sales tax"},
+          {
+            "handle": "cf.accounting.financial_reports.returns_and_exchanges",
+            "label": "Returns and exchanges"
+          },
+          {"handle": "cf.accounting.financial_reports.cogs_tracking", "label": "COGS tracking"},
+          {"handle": "cf.accounting.financial_reports.custom_reports", "label": "Custom reports"},
+          {
+            "handle": "cf.accounting.financial_reports.performance_dashboard",
+            "label": "Performance dashboard"
+          },
+          {"handle": "cf.accounting.financial_operations.accounts_receivable", "label": "Accounts receivable"},
+          {"handle": "cf.accounting.financial_operations.multi_store", "label": "Multi-store"},
+          {"handle": "cf.accounting.financial_operations.multi_currency", "label": "Multi-currency"},
+          {"handle": "cf.accounting.financial_operations.multi_channel", "label": "Multi-channel"},
+          {"handle": "cf.accounting.automated_data_sync.daily_sales_summary", "label": "Daily sales summary"},
+          {"handle": "cf.accounting.automated_data_sync.order_details", "label": "Order details"},
+          {"handle": "cf.accounting.automated_data_sync.transactions", "label": "Transactions"},
+          {"handle": "cf.accounting.automated_data_sync.payouts", "label": "Payouts"},
+          {"handle": "cf.accounting.automated_data_sync.sales_tax_mapping", "label": "Sales tax mapping"},
+          {"handle": "cf.accounting.automated_data_sync.bank_reconciliation", "label": "Bank reconciliation"},
+          {
+            "handle": "cf.accounting.automated_data_sync.historical_data_import",
+            "label": "Historical data import"
+          }
+        ],
+        "languages": ["English"],
+        "works_with": ["Amazon", "NetSuite", "PayPal", "QuickBooks", "Sage", "Xero"]
+      },
+      "developer": {
+        "name": "A2X Software Limited",
+        "website_url": null,
+        "partner_url": "https://apps.shopify.com/partners/a2x-accounting",
+        "public_address": "2100 - 2 Bloor Street E, Toronto, ON, M4W 1A8, CA"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/a2x",
+        "canonical_app_store_url": "https://apps.shopify.com/a2x",
+        "install_url": "https://apps.shopify.com/a2x",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://www.a2xaccounting.com/privacy",
+          "A2X Software Limited": "https://apps.shopify.com/partners/a2x-accounting",
+          "Changelog": "https://www.a2xaccounting.com/whats-new"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6572a569975f89dd622407fff4b64aba/icon/CIqJsczd-fsCEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6572a569975f89dd622407fff4b64aba/desktop_screenshot/CM7F35vQ_P0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6572a569975f89dd622407fff4b64aba/desktop_screenshot/CMio7JvQ_P0CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6572a569975f89dd622407fff4b64aba/desktop_screenshot/CMHTj6_g-fsCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6572a569975f89dd622407fff4b64aba/desktop_screenshot/CMTTmq_g-fsCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6572a569975f89dd622407fff4b64aba/desktop_screenshot/CObjpa_g-fsCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6572a569975f89dd622407fff4b64aba/desktop_screenshot/CM2wsP7LjooDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/QnhnQ-XyCo8"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is A2X Sync for QuickBooks & Xero free?",
+            "answer": "The pricing label retrieved from the listing is: From $29/month. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/a2x"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/a2x"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Amazon, NetSuite, PayPal, QuickBooks, Sage, Xero",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/a2x"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/a2x"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the supported jurisdictions and check the relevant tax or invoice settings.",
+            "Review a sample transaction and document before enabling automation.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["accounting-integrations", "shipping-rate-calculators", "inventory-sync"],
+        "primary_category_id": "accounting-integrations",
+        "seo": {
+          "title": "A2X Sync for QuickBooks & Xero Shopify App | eStorefy",
+          "meta_description": "A Shopify app for accounting integrations. Listed functions include income and balance, sales and refunds.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/a2x",
+          "retrieved_at": "2026-10-04T05:04:11.267989+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Join the thousands of merchants, accountants, and bookkeepers that trust A2X to…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/a2x"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "excel-export-import",
+      "name": "Matrixify: Data Export Import",
+      "slug": "excel-export-import",
+      "category_fit": {
+        "app_id": "excel-export-import",
+        "selection_score": 5.9166,
+        "rating_evidence": {"value": 4.9, "reviews": 1717},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rate"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/excel-export-import"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 9
+      },
+      "overview": {
+        "description_short": "A Shopify app for customer file uploads. Listed functions include products, variants.",
+        "description_long": "Matrixify: Data Export Import is developed by ITissible and listed for bulk editor, store data importer. Its structured listing identifies functions such as products, variants, orders, discounts. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": [
+          "Customer File Uploads",
+          "Shipping Rate Calculators",
+          "Bulk Product Editing",
+          "Store Migration & Data Import"
+        ],
+        "best_for": {
+          "use_cases": [
+            "Customer File Uploads",
+            "Shipping Rate Calculators",
+            "Bulk Product Editing",
+            "Store Migration & Data Import"
+          ],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 1717,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/excel-export-import",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 1},
+          {"stars": 4, "percentage": 2, "count": 32},
+          {"stars": 3, "percentage": 0, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 5},
+          {"stars": 1, "percentage": 2, "count": 38}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Demo",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Basic",
+            "amount_usd": 20.0,
+            "billing_period": "month",
+            "price_display": "$20 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Big",
+            "amount_usd": 50.0,
+            "billing_period": "month",
+            "price_display": "$50 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Enterprise",
+            "amount_usd": 200.0,
+            "billing_period": "month",
+            "price_display": "$200 / month",
+            "trial_days": null,
+            "additional_charge_notes": []
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://matrixify.app/pricing/",
+        "starting_paid_monthly_price_usd": 20.0,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "July 7, 2017 · Changelog",
+        "shopify_categories": [
+          {
+            "name": "Bulk editor",
+            "url": "https://apps.shopify.com/categories/store-management-operations-bulk-editor"
+          },
+          {
+            "name": "Store data importer",
+            "url": "https://apps.shopify.com/categories/sales-channels-selling-online-store-data-importer"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.bulk_editor.editable_resources.products", "label": "Products"},
+          {"handle": "cf.bulk_editor.editable_resources.variants", "label": "Variants"},
+          {"handle": "cf.bulk_editor.editable_resources.orders", "label": "Orders"},
+          {"handle": "cf.bulk_editor.editable_resources.discounts", "label": "Discounts"},
+          {"handle": "cf.bulk_editor.editable_resources.images", "label": "Images"},
+          {"handle": "cf.bulk_editor.editable_resources.prices", "label": "Prices"},
+          {"handle": "cf.bulk_editor.editable_resources.sku_and_barcodes", "label": "SKU and barcodes"},
+          {"handle": "cf.bulk_editor.editable_resources.tags", "label": "Tags"},
+          {"handle": "cf.bulk_editor.editable_resources.descriptions", "label": "Descriptions"},
+          {"handle": "cf.bulk_editor.editable_resources.inventory", "label": "Inventory"},
+          {"handle": "cf.bulk_editor.editable_resources.metafields", "label": "Metafields"},
+          {"handle": "cf.bulk_editor.editable_resources.collections", "label": "Collections"},
+          {"handle": "cf.bulk_editor.actions.bulk_deletion", "label": "Bulk deletion"},
+          {"handle": "cf.bulk_editor.actions.seo_updates", "label": "SEO updates"},
+          {"handle": "cf.bulk_editor.actions.ai_assistance", "label": "AI assistance"},
+          {"handle": "cf.bulk_editor.actions.csv_import_and_export", "label": "CSV import and export"},
+          {"handle": "cf.bulk_editor.actions.data_migration", "label": "Data migration"},
+          {"handle": "cf.bulk_editor.actions.data_sync", "label": "Data sync"},
+          {"handle": "cf.bulk_editor.actions.backup", "label": "Backup"},
+          {"handle": "cf.bulk_editor.actions.search_and_filter", "label": "Search and filter"},
+          {"handle": "cf.bulk_editor.actions.scheduled_tasks", "label": "Scheduled tasks"},
+          {"handle": "cf.bulk_editor.actions.bulk_edit", "label": "Bulk edit"},
+          {"handle": "cf.store_data_importer.data_sync.auto_updates", "label": "Auto-update"},
+          {"handle": "cf.store_data_importer.data_sync.inventory_sync", "label": "Inventory sync"},
+          {"handle": "cf.store_data_importer.data_sync.order_sync", "label": "Order sync"},
+          {"handle": "cf.store_data_importer.data_sync.price_sync", "label": "Price sync"},
+          {"handle": "cf.store_data_importer.data_sync.product_sync", "label": "Product sync"},
+          {"handle": "cf.store_data_importer.data_sync.scheduled_sync", "label": "Scheduled sync"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_export", "label": "Bulk export"},
+          {"handle": "cf.store_data_importer.data_migration.bulk_import", "label": "Bulk import"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Admin",
+          "Dropbox",
+          "FTP / SFTP",
+          "Google Drive",
+          "Google Sheets",
+          "Google Shopping",
+          "MCP, AI Agents like Claude"
+        ]
+      },
+      "developer": {
+        "name": "ITissible",
+        "website_url": "https://matrixify.app",
+        "partner_url": "https://apps.shopify.com/partners/itissible",
+        "public_address": "Kugu street 28-5, Riga, LV1048, LV"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/excel-export-import",
+        "canonical_app_store_url": "https://apps.shopify.com/excel-export-import",
+        "install_url": "https://apps.shopify.com/excel-export-import",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://matrixify.app/privacy-notice/",
+          "FAQ": "https://matrixify.app/how-it-works/",
+          "Tutorial": "https://matrixify.app/tutorials/",
+          "App Documentation": "https://matrixify.app/documentation/",
+          "ITissible": "https://apps.shopify.com/partners/itissible",
+          "Website": "https://matrixify.app",
+          "Changelog": "https://matrixify.app/whats-new/release-notes/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/88eff9935abeb622b5b85569b705f673/icon/CNevroaPk_4CEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/88eff9935abeb622b5b85569b705f673/desktop_screenshot/CNibjeWn-v8CEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/88eff9935abeb622b5b85569b705f673/desktop_screenshot/CPCqnO7_2vICEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/88eff9935abeb622b5b85569b705f673/desktop_screenshot/CJjRq-7_2vICEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/88eff9935abeb622b5b85569b705f673/desktop_screenshot/CMXZmOWn-v8CEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/jsB8CO6p_L4"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Matrixify: Data Export Import free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/excel-export-import"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/excel-export-import"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Dropbox, FTP / SFTP, Google Drive, Google Sheets, Google Shopping, MCP, AI Agents like Claude",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/excel-export-import"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/excel-export-import"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [
+            "https://matrixify.app/how-it-works/",
+            "https://matrixify.app/tutorials/",
+            "https://matrixify.app/documentation/"
+          ],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Create the options, personalization fields or sizing content required for a sample product.",
+            "Place a test order and check that the selected details are captured correctly.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": [
+          "customer-file-uploads",
+          "shipping-rate-calculators",
+          "bulk-product-editing",
+          "store-migration-data-import"
+        ],
+        "primary_category_id": "customer-file-uploads",
+        "seo": {
+          "title": "Matrixify: Data Export Import Shopify App | eStorefy",
+          "meta_description": "A Shopify app for customer file uploads. Listed functions include products, variants.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/excel-export-import",
+          "retrieved_at": "2026-10-04T05:26:32.865289+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Manage Shopify data with Excel & CSV: Products, Collections, Customers, Companies, Discounts,…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/excel-export-import"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "omnise",
+      "name": "Omnise ✧ AI Page Builder",
+      "slug": "omnise",
+      "category_fit": {
+        "app_id": "omnise",
+        "selection_score": 5.8815,
+        "rating_evidence": {"value": 4.9, "reviews": 885},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rate"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/omnise"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 10
+      },
+      "overview": {
+        "description_short": "A Shopify app for page builders. Listed functions include landing pages, home pages.",
+        "description_long": "Omnise ✧ AI Page Builder is developed by Omnise.com and listed for page builder, storefronts - other. Its structured listing identifies functions such as landing pages, home pages, product pages, collections. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Page Builders", "Theme Sections", "Shipping Rate Calculators"],
+        "best_for": {
+          "use_cases": ["Page Builders", "Theme Sections", "Shipping Rate Calculators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 885,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/omnise",
+        "distribution": [
+          {"stars": 5, "percentage": 97, "count": 860},
+          {"stars": 4, "percentage": 2, "count": 14},
+          {"stars": 3, "percentage": 0, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 3},
+          {"stars": 1, "percentage": 0, "count": 4}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [
+          {
+            "name": "Free",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Start",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $191.88/year and save 20%"]
+          },
+          {
+            "name": "Pro",
+            "amount_usd": 39.99,
+            "billing_period": "month",
+            "price_display": "$39.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $383.88/year and save 20%"]
+          },
+          {
+            "name": "Max",
+            "amount_usd": 79.99,
+            "billing_period": "month",
+            "price_display": "$79.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $767.88/year and save 20%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": "https://omnise.com/pages/pricing/?utm_source=app-listing&utm_medium=home&utm_campaign=link",
+        "starting_paid_monthly_price_usd": 19.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "November 22, 2021",
+        "shopify_categories": [
+          {
+            "name": "Page builder",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-page-builder"
+          },
+          {
+            "name": "Storefronts - Other",
+            "url": "https://apps.shopify.com/categories/store-design-storefronts-storefronts-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.page_builder.page_types.landing_pages", "label": "Landing pages"},
+          {"handle": "cf.page_builder.page_types.home_pages", "label": "Home pages"},
+          {"handle": "cf.page_builder.page_types.product_pages", "label": "Product pages"},
+          {"handle": "cf.page_builder.page_types.collections", "label": "Collections"},
+          {"handle": "cf.page_builder.page_types.blogs", "label": "Blogs"},
+          {"handle": "cf.page_builder.page_types.faqs", "label": "FAQs"},
+          {"handle": "cf.page_builder.page_types.help_center_pages", "label": "Help center pages"},
+          {"handle": "cf.page_builder.page_types.contact_pages", "label": "Contact pages"},
+          {"handle": "cf.page_builder.page_types.about_us_pages", "label": "About us pages"},
+          {"handle": "cf.page_builder.page_types.cart_pages", "label": "Cart pages"},
+          {"handle": "cf.page_builder.page_types.quick_view", "label": "Quick view"},
+          {"handle": "cf.page_builder.page_types.footers", "label": "Footers"},
+          {"handle": "cf.page_builder.page_types.pop_ups", "label": "Pop-ups"},
+          {"handle": "cf.page_builder.page_types.forms", "label": "Forms"},
+          {"handle": "cf.page_builder.page_types.press_pages", "label": "Press pages"},
+          {"handle": "cf.page_builder.page_types.career_pages", "label": "Career pages"},
+          {"handle": "cf.page_builder.page_types.legal_pages", "label": "Legal pages"},
+          {"handle": "cf.page_builder.page_types.link_in_bio_page", "label": "Link in bio page"},
+          {"handle": "cf.page_builder.page_types.reviews_page", "label": "Reviews page"},
+          {"handle": "cf.page_builder.page_types.pricing_pages", "label": "Pricing pages"},
+          {"handle": "cf.page_builder.page_types.theme_sections", "label": "Theme sections"},
+          {"handle": "cf.page_builder.page_types.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.page_builder.managing_pages.editor_tool", "label": "Editor tool"},
+          {"handle": "cf.page_builder.managing_pages.elements", "label": "Elements"},
+          {"handle": "cf.page_builder.managing_pages.templates", "label": "Templates"},
+          {"handle": "cf.page_builder.managing_pages.import_and_export", "label": "Import and export"},
+          {"handle": "cf.page_builder.managing_pages.save_pages", "label": "Save pages"},
+          {"handle": "cf.page_builder.managing_pages.draft_pages", "label": "Draft pages"},
+          {"handle": "cf.page_builder.managing_pages.page_versions", "label": "Page versions"},
+          {"handle": "cf.page_builder.managing_pages.global_sections", "label": "Global sections"}
+        ],
+        "languages": ["English"],
+        "works_with": [
+          "Shopify Admin",
+          "Aftership, Omnisend, Seguno",
+          "Growave, TYDAL, Ryviu, Stamped",
+          "Klaviyo, Loox, Yotpo, Judgeme",
+          "Recharge, Selleasy, Pumper",
+          "T Lab, Bundler, Fera, Okendo",
+          "Vitals, Bold, Hulk, Appstle"
+        ]
+      },
+      "developer": {
+        "name": "Omnise.com",
+        "website_url": "https://omnise.com/?utm_source=app-listing&utm_medium=home&utm_campaign=link",
+        "partner_url": "https://apps.shopify.com/partners/omnise",
+        "public_address": "68 Khuc Thua Du, Cau Giay, Ha Noi, 11311, VN"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/omnise",
+        "canonical_app_store_url": "https://apps.shopify.com/omnise",
+        "install_url": "https://apps.shopify.com/omnise",
+        "demo_store_url": "https://omnise.com/pages/templates",
+        "resources": {
+          "Privacy policy": "https://omnise.com/pages/privacy-policy/",
+          "App Documentation": "https://docs.omnise.com/en/",
+          "Omnise.com": "https://apps.shopify.com/partners/omnise",
+          "Website": "https://omnise.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/icon/CIGxi6nhspUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/promotional_image/CMPI_vbfs5UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/desktop_screenshot/CJH5xY3hs5UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/desktop_screenshot/CLikk_ffs5UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/desktop_screenshot/CJ_RmMGYx5UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/desktop_screenshot/CKO4pfffs5UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/desktop_screenshot/CJ77rfffs5UDEAE=.jpeg?height=900&quality=90&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/3db283686bdf064c04e98e5cf61875ee/desktop_screenshot/CKqjl8Sax5UDEAE=.jpeg?height=900&quality=90&width=1600"
+        ],
+        "video_urls": []
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is Omnise ✧ AI Page Builder free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/omnise"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/omnise"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Aftership, Omnisend, Seguno, Growave, TYDAL, Ryviu, Stamped, Klaviyo, Loox, Yotpo, Judgeme, Recharge, Selleasy, Pumper, T Lab, Bundler, Fera, Okendo, Vitals, Bold, Hulk, Appstle",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/omnise"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/omnise"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": ["https://docs.omnise.com/en/"],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Choose the target theme and build a draft layout.",
+            "Preview the result on desktop and mobile before publishing.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["page-builders", "theme-sections", "shipping-rate-calculators"],
+        "primary_category_id": "page-builders",
+        "seo": {
+          "title": "Omnise ✧ AI Page Builder Shopify App | eStorefy",
+          "meta_description": "A Shopify app for page builders. Listed functions include landing pages, home pages.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/omnise",
+          "retrieved_at": "2026-10-04T05:13:11.284728+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Generate pages, sections, images, and content with AI. Customize visually and optimize…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/omnise"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "trust-badge-by-giraffly",
+      "name": "SEOWILL ‑ Trust Badges & Icon",
+      "slug": "trust-badge-by-giraffly",
+      "category_fit": {
+        "app_id": "trust-badge-by-giraffly",
+        "selection_score": 5.8672,
+        "rating_evidence": {"value": 4.9, "reviews": 692},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rate"],
+          "official_category_match": false,
+          "discovered_in_category": false,
+          "source_url": "https://apps.shopify.com/trust-badge-by-giraffly"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 11
+      },
+      "overview": {
+        "description_short": "A Shopify app for shipping rate calculators. Listed functions include custom, guarantee.",
+        "description_long": "SEOWILL ‑ Trust Badges & Icon is developed by CWILL and listed for badges and icons, security - other. Its structured listing identifies functions such as custom, guarantee, payment, product features. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Shipping Rate Calculators"],
+        "best_for": {
+          "use_cases": ["Shipping Rate Calculators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 4.9,
+        "review_count": 692,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/trust-badge-by-giraffly",
+        "distribution": [
+          {"stars": 5, "percentage": 95, "count": 654},
+          {"stars": 4, "percentage": 4, "count": 31},
+          {"stars": 3, "percentage": 1, "count": 4},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 3}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free",
+        "free_plan_available": false,
+        "free_to_install": false,
+        "free_trial_available": false,
+        "plans": [],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": null,
+        "is_free": true
+      },
+      "listing": {
+        "built_for_shopify": true,
+        "launched": "November 21, 2019",
+        "shopify_categories": [
+          {
+            "name": "Badges and icons",
+            "url": "https://apps.shopify.com/categories/store-design-design-elements-badges-and-icons"
+          },
+          {
+            "name": "Security - Other",
+            "url": "https://apps.shopify.com/categories/store-management-security-security-other"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.badges_and_icons.icon_types.custom", "label": "Custom"},
+          {"handle": "cf.badges_and_icons.icon_types.guarantee", "label": "Guarantee"},
+          {"handle": "cf.badges_and_icons.icon_types.payment", "label": "Payment"},
+          {"handle": "cf.badges_and_icons.icon_types.product_features", "label": "Product features"},
+          {"handle": "cf.badges_and_icons.icon_types.sale_banners", "label": "Sale banners"},
+          {"handle": "cf.badges_and_icons.icon_types.security", "label": "Security"},
+          {"handle": "cf.badges_and_icons.icon_types.shipping", "label": "Shipping"},
+          {"handle": "cf.badges_and_icons.icon_types.social_media", "label": "Social media"},
+          {"handle": "cf.badges_and_icons.icon_types.trust", "label": "Trust"},
+          {"handle": "cf.badges_and_icons.customization.animations", "label": "Animations"},
+          {"handle": "cf.badges_and_icons.customization.backgrounds", "label": "Backgrounds"},
+          {"handle": "cf.badges_and_icons.customization.borders", "label": "Borders"},
+          {"handle": "cf.badges_and_icons.customization.colors", "label": "Colors"},
+          {"handle": "cf.badges_and_icons.customization.custom_text", "label": "Custom text"},
+          {"handle": "cf.badges_and_icons.customization.fonts", "label": "Fonts"},
+          {"handle": "cf.badges_and_icons.customization.styling", "label": "Styling"},
+          {"handle": "cf.badges_and_icons.customization.size", "label": "Size"},
+          {"handle": "cf.badges_and_icons.customization.mobile_responsive", "label": "Mobile responsive"},
+          {"handle": "cf.badges_and_icons.customization.device_specific", "label": "Device-specific"},
+          {"handle": "cf.badges_and_icons.customization.scheduling", "label": "Scheduling"},
+          {"handle": "cf.badges_and_icons.icon_position.auto_position", "label": "Auto-position"},
+          {"handle": "cf.badges_and_icons.icon_position.custom_pages", "label": "Custom pages"},
+          {"handle": "cf.badges_and_icons.icon_position.homepage", "label": "Homepage"},
+          {"handle": "cf.badges_and_icons.icon_position.product_pages", "label": "Product pages"}
+        ],
+        "languages": [
+          "English",
+          " French",
+          " Spanish",
+          " German",
+          " Portuguese (Brazil)",
+          " Czech",
+          " Danish",
+          " Finnish",
+          " Japanese",
+          " Korean",
+          " Polish",
+          " Swedish",
+          " Thai",
+          " Turkish",
+          " Chinese (Simplified)",
+          " Chinese (Traditional)",
+          " and Norwegian (Bokmål)"
+        ],
+        "works_with": ["Shopify Admin", "Loox", "pagefly", "Spocket"]
+      },
+      "developer": {
+        "name": "CWILL",
+        "website_url": "https://www.seoant.com/",
+        "partner_url": "https://apps.shopify.com/partners/giraffly",
+        "public_address": "201 Commonwealth Ct, Ste 220, Cary, NC, 27511-4471, US"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/trust-badge-by-giraffly",
+        "canonical_app_store_url": "https://apps.shopify.com/trust-badge-by-giraffly",
+        "install_url": "https://apps.shopify.com/trust-badge-by-giraffly",
+        "demo_store_url": "https://channelwill-2.myshopify.com/products/purple-gemstone-necklace",
+        "resources": {
+          "Privacy policy": "https://www.seoant.com/privacy-policy",
+          "CWILL": "https://apps.shopify.com/partners/giraffly",
+          "Website": "https://www.seoant.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/6baee2749b9ede050c5235f5ad143bb7/icon/COKU2u_s8ZUDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/6baee2749b9ede050c5235f5ad143bb7/desktop_screenshot/CKbJ6YrcjPwCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6baee2749b9ede050c5235f5ad143bb7/desktop_screenshot/CKOj18DX0voCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6baee2749b9ede050c5235f5ad143bb7/desktop_screenshot/CODlw92o7voCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6baee2749b9ede050c5235f5ad143bb7/desktop_screenshot/CKuf94rcjPwCEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6baee2749b9ede050c5235f5ad143bb7/desktop_screenshot/CPvqmMyq6IMDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/6baee2749b9ede050c5235f5ad143bb7/desktop_screenshot/CN-U5eqWi_gCEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/w-07I7t0gSk"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is SEOWILL ‑ Trust Badges & Icon free?",
+            "answer": "The pricing label retrieved from the listing is: Free. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/trust-badge-by-giraffly"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English,  French,  Spanish,  German,  Portuguese (Brazil),  Czech,  Danish,  Finnish,  Japanese,  Korean,  Polish,  Swedish,  Thai,  Turkish,  Chinese (Simplified),  Chinese (Traditional),  and Norwegian (Bokmål)",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/trust-badge-by-giraffly"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Shopify Admin, Loox, pagefly, Spocket",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/trust-badge-by-giraffly"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/trust-badge-by-giraffly"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["shipping-rate-calculators"],
+        "primary_category_id": "shipping-rate-calculators",
+        "seo": {
+          "title": "SEOWILL ‑ Trust Badges & Icon Shopify App | eStorefy",
+          "meta_description": "A Shopify app for shipping rate calculators. Listed functions include custom, guarantee.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/trust-badge-by-giraffly",
+          "retrieved_at": "2026-10-04T05:28:47.585713+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "trust badges shopify, shopify trust badges, trustedsite, trust badge master",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/trust-badge-by-giraffly"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    },
+    {
+      "id": "shipright-conditional-shipping-methods",
+      "name": "ShipRight Hide Shipping Method",
+      "slug": "shipright-conditional-shipping-methods",
+      "category_fit": {
+        "app_id": "shipright-conditional-shipping-methods",
+        "selection_score": 5.8445,
+        "rating_evidence": {"value": 5.0, "reviews": 57},
+        "relevance": {
+          "type": "listing-keyword-and-category-match",
+          "matched_terms": ["rate"],
+          "official_category_match": true,
+          "discovered_in_category": true,
+          "source_url": "https://apps.shopify.com/shipright-conditional-shipping-methods"
+        },
+        "editorial_rank_not_shopify_rank": true,
+        "rank": 12
+      },
+      "overview": {
+        "description_short": "A Shopify app for shipping rate calculators. Listed functions include customer-based, product-based.",
+        "description_long": "ShipRight Hide Shipping Method is developed by KlinKode and listed for shipping rates. Its structured listing identifies functions such as customer-based, product-based, quantity-based, zip/post code. For comparison, consider the relevant plans, integrations and merchant feedback recorded here. The fit depends on your store's requirements; features may vary by plan. This profile summarizes public listing information and has not been validated through an installation or hands-on test.",
+        "focus": ["Shipping Rate Calculators"],
+        "best_for": {
+          "use_cases": ["Shipping Rate Calculators"],
+          "provenance": "editorial relevance assessment"
+        }
+      },
+      "rating": {
+        "value": 5.0,
+        "review_count": 57,
+        "scale": 5,
+        "source_url": "https://apps.shopify.com/shipright-conditional-shipping-methods",
+        "distribution": [
+          {"stars": 5, "percentage": 100, "count": 57},
+          {"stars": 4, "percentage": 0, "count": 0},
+          {"stars": 3, "percentage": 0, "count": 0},
+          {"stars": 2, "percentage": 0, "count": 0},
+          {"stars": 1, "percentage": 0, "count": 0}
+        ]
+      },
+      "pricing": {
+        "currency": "USD",
+        "listing_label": "Free plan available. Free trial available.",
+        "free_plan_available": true,
+        "free_to_install": false,
+        "free_trial_available": true,
+        "plans": [
+          {
+            "name": "Free Development",
+            "amount_usd": 0,
+            "billing_period": null,
+            "price_display": "Free",
+            "trial_days": null,
+            "additional_charge_notes": []
+          },
+          {
+            "name": "Essential",
+            "amount_usd": 4.99,
+            "billing_period": "month",
+            "price_display": "$4.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $41.91/year and save 30%"]
+          },
+          {
+            "name": "Professional",
+            "amount_usd": 9.99,
+            "billing_period": "month",
+            "price_display": "$9.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $83.91/year and save 30%"]
+          },
+          {
+            "name": "Elite",
+            "amount_usd": 19.99,
+            "billing_period": "month",
+            "price_display": "$19.99 / month",
+            "trial_days": null,
+            "additional_charge_notes": ["or $167.91/year and save 30%"]
+          }
+        ],
+        "external_billing": false,
+        "all_pricing_url": null,
+        "starting_paid_monthly_price_usd": 4.99,
+        "is_free": false
+      },
+      "listing": {
+        "built_for_shopify": false,
+        "launched": "May 23, 2024",
+        "shopify_categories": [
+          {
+            "name": "Shipping rates",
+            "url": "https://apps.shopify.com/categories/orders-and-shipping-shipping-solutions-shipping-rates"
+          }
+        ]
+      },
+      "features_and_compatibility": {
+        "structured_features": [
+          {"handle": "cf.shipping_rates.rate_calculation.customer_based", "label": "Customer-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.product_based", "label": "Product-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.quantity_based", "label": "Quantity-based"},
+          {"handle": "cf.shipping_rates.rate_calculation.zip_post_code", "label": "ZIP/post code"},
+          {"handle": "cf.shipping_rates.customization.order_limits", "label": "Order limits"},
+          {"handle": "cf.shipping_rates.customization.hide_rates", "label": "Hide rates"},
+          {"handle": "cf.shipping_rates.customization.geolocation", "label": "Geolocation"},
+          {"handle": "cf.shipping_rates.customization.custom_rules", "label": "Custom rules"}
+        ],
+        "languages": ["English"],
+        "works_with": ["Checkout", "Shopify Admin"]
+      },
+      "developer": {
+        "name": "KlinKode",
+        "website_url": "https://klinkode.com/",
+        "partner_url": "https://apps.shopify.com/partners/klinkode-apps",
+        "public_address": "House 8, Road 34, Block M, Eastern Housing, Pallabi, Mirpur 12, Dhaka, 1216, BD"
+      },
+      "links": {
+        "app_store_url": "https://apps.shopify.com/shipright-conditional-shipping-methods",
+        "canonical_app_store_url": "https://apps.shopify.com/shipright-conditional-shipping-methods",
+        "install_url": "https://apps.shopify.com/shipright-conditional-shipping-methods",
+        "demo_store_url": null,
+        "resources": {
+          "Privacy policy": "https://klinkode.com/shipright-privacy-policy/",
+          "KlinKode": "https://apps.shopify.com/partners/klinkode-apps",
+          "Website": "https://klinkode.com/"
+        },
+        "affiliate": {"url": null, "program_verified": false}
+      },
+      "media": {
+        "logo_url": "https://cdn.shopify.com/app-store/listing_images/22d7173cd57a59bb46cbbb157ea3bf7f/icon/CJXTl_fAwpEDEAE=.png",
+        "screenshot_urls": [
+          "https://cdn.shopify.com/app-store/listing_images/22d7173cd57a59bb46cbbb157ea3bf7f/desktop_screenshot/CKXH1aSXxYgDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/22d7173cd57a59bb46cbbb157ea3bf7f/desktop_screenshot/CJ3P36SXxYgDEAE=.png?height=900&width=1600",
+          "https://cdn.shopify.com/app-store/listing_images/22d7173cd57a59bb46cbbb157ea3bf7f/desktop_screenshot/CLf66aSXxYgDEAE=.png?height=900&width=1600"
+        ],
+        "video_urls": ["https://www.youtube-nocookie.com/embed/iHWoMIyLcJM"]
+      },
+      "guidance": {
+        "faq": [
+          {
+            "question": "Is ShipRight Hide Shipping Method free?",
+            "answer": "The pricing label retrieved from the listing is: Free plan available. Free trial available.. Check the plan details and any usage or external charges before installing.",
+            "provenance": "editorial answer based on listing pricing",
+            "source_url": "https://apps.shopify.com/shipright-conditional-shipping-methods"
+          },
+          {
+            "question": "Which languages are listed?",
+            "answer": "English",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/shipright-conditional-shipping-methods"
+          },
+          {
+            "question": "Which integrations are listed?",
+            "answer": "Checkout, Shopify Admin",
+            "provenance": "listing facts reformatted",
+            "source_url": "https://apps.shopify.com/shipright-conditional-shipping-methods"
+          },
+          {
+            "question": "Where can I find setup instructions?",
+            "answer": "Use the developer resource links attached to this profile. The steps below are a general setup outline, not a verified app-specific tutorial.",
+            "provenance": "editorial guidance",
+            "source_url": "https://apps.shopify.com/shipright-conditional-shipping-methods"
+          }
+        ],
+        "how_to_use": {
+          "verification_status": "general_outline_not_app_specific_verified",
+          "provenance": "editorial draft; confirm against developer documentation",
+          "documentation_urls": [],
+          "steps": [
+            "Open the Shopify App Store listing and check pricing and compatibility.",
+            "Install into the intended store after reviewing the requested permissions.",
+            "Choose the appropriate plan and follow the developer onboarding guide.",
+            "Configure the supported carriers, delivery areas and rate or pickup rules.",
+            "Test representative addresses, package weights and delivery options.",
+            "Monitor the initial results and adjust the configuration as needed."
+          ]
+        },
+        "limitations": {
+          "verified_app_specific": [],
+          "review_before_install": [
+            "Plan-specific feature limits",
+            "Total cost at expected usage",
+            "Store and integration compatibility"
+          ],
+          "verification_status": "app-specific limitations not independently assessed"
+        }
+      },
+      "discovery": {
+        "category_ids": ["shipping-rate-calculators"],
+        "primary_category_id": "shipping-rate-calculators",
+        "seo": {
+          "title": "ShipRight Hide Shipping Method Shopify App | eStorefy",
+          "meta_description": "A Shopify app for shipping rate calculators. Listed functions include customer-based, product-based.",
+          "provenance": "editorial draft"
+        }
+      },
+      "research": {
+        "source": {
+          "url": "https://apps.shopify.com/shipright-conditional-shipping-methods",
+          "retrieved_at": "2026-10-04T05:21:56.515676+00:00",
+          "type": "Shopify App Store public listing",
+          "extraction": "HTML and SoftwareApplication structured data",
+          "publisher_claims_not_independently_tested": true
+        },
+        "source_excerpt": "Hide shipping methods & rates at Shopify checkout based on multiple conditions…",
+        "source_excerpt_type": "truncated quotation, maximum 12 words",
+        "field_provenance": {
+          "name": "SoftwareApplication JSON-LD",
+          "rating": "SoftwareApplication aggregateRating",
+          "logo_url": "SoftwareApplication image",
+          "pricing": "listing pricing section",
+          "shopify_categories": "listing category links",
+          "structured_features": "Shopify taxonomy feature links",
+          "works_with": "listing Works with section",
+          "resources": "listing developer section",
+          "screenshots": "listing gallery",
+          "video_urls": "listing embedded videos"
+        },
+        "description_provenance": {
+          "short": "editorial synthesis of category relevance",
+          "long": "editorial synthesis of listing facts; review before publication",
+          "source_url": "https://apps.shopify.com/shipright-conditional-shipping-methods"
+        },
+        "category_mapping_provenance": "Programmatic relevance assessment of public listing prose and Shopify category tags; review before publication",
+        "editorial_status": "review_required"
+      }
+    }
+  ]
+}

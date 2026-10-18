@@ -11,6 +11,9 @@ export default function AgencyDirectory({ agencies, cities, cityName }) {
   const { filters, changeFilter, resetFilters } = useDirectory();
   const { savedIds } = useShortlist();
   const [view, setView] = useState("grid");
+  const [pageState, setPageState] = useState({ key: "", count: 24 });
+  const pageKey = JSON.stringify([filters, savedIds]);
+  const visibleCount = pageState.key === pageKey ? pageState.count : 24;
   const matches = filterAgencies(agencies, filters, savedIds);
   const active = Object.entries(filters).filter(
     ([key, value]) => key !== "sort" && value !== emptyFilters[key],
@@ -68,12 +71,12 @@ export default function AgencyDirectory({ agencies, cities, cityName }) {
           {matches.length ? (
             view === "grid" ? (
               <div className="grid">
-                {matches.map((agency, index) => (
+                {matches.slice(0, visibleCount).map((agency, index) => (
                   <AgencyCard key={agency.recordKey} agency={agency} index={index} />
                 ))}
               </div>
             ) : (
-              <AgencyTable agencies={matches} />
+              <AgencyTable agencies={matches.slice(0, visibleCount)} />
             )
           ) : (
             <div className="empty">
@@ -85,7 +88,18 @@ export default function AgencyDirectory({ agencies, cities, cityName }) {
             </div>
           )}
           <div className="loadrow">
-            <p>Showing all {matches.length} matching agency profiles.</p>
+            <p>
+              Showing {Math.min(visibleCount, matches.length)} of {matches.length}{" "}
+              matching profiles.
+            </p>
+            {visibleCount < matches.length && (
+              <button
+                className="button"
+                onClick={() => setPageState({ key: pageKey, count: visibleCount + 24 })}
+              >
+                Show 24 more profiles
+              </button>
+            )}
           </div>
         </div>
       </div>

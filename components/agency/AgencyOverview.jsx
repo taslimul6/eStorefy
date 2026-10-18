@@ -1,8 +1,8 @@
 import AgencySection from "./AgencySection";
-import { locationLabel, priceLabel } from "@/lib/format";
+import { locationLabel, priceLabel, providerTypeLabel } from "@/lib/format";
 export default function AgencyOverview({ agency }) {
   const facts = [
-    ["BUSINESS TYPE", "Ecommerce & digital agency"],
+    ["BUSINESS TYPE", providerTypeLabel(agency.entityType)],
     ["LOCATION RELATIONSHIP", locationLabel(agency)],
     ["SHOPIFY PARTNER SINCE", agency.shopify.partnerSince || "Not confirmed"],
     ["PARTNER TIER", agency.shopify.partnerTier || "Not confirmed"],

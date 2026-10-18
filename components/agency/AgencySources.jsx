@@ -32,6 +32,8 @@ export default function AgencySources({ agency }) {
               <small>
                 {source.supports.join(", ").replaceAll(".", " / ")} · observed{" "}
                 {formatDate(source.observedAt)}
+                {source.evidenceMethod && ` · ${source.evidenceMethod}`}
+                {source.accessStatus && ` · ${source.accessStatus.replaceAll("_", " ")}`}
               </small>
             </div>
           </li>

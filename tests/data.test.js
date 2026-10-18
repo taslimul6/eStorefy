@@ -15,14 +15,17 @@ import { csvCell } from "../lib/download.js";
 
 const agencies = getAllAgencies();
 test("all city collections have unique routes and preserved NYC records", () => {
-  assert.equal(getCities().length, 30);
-  assert.equal(getAllCityAgencies().length, 378);
-  assert.equal(agencies.length, 167);
-  assert.equal(new Set(agencies.map((agency) => agency.profilePath)).size, 167);
+  assert.equal(getCities().length, 465);
+  assert.equal(getAllCityAgencies().length, 1939);
+  assert.equal(agencies.length, 1720);
+  assert.equal(new Set(agencies.map((agency) => agency.profilePath)).size, 1720);
   for (const city of getCities())
     for (const agency of getCityAgencies(city)) {
       assert.equal(getAgency(city.route, agency.id).name, agency.name);
-      assert.ok(agency.description && agency.services.length && agency.sources.length);
+      assert.ok(agency.name && agency.sources.length);
+      assert.equal(agency.indexable, true);
+      assert.ok(agency.description && agency.longDescription && agency.faqs.length);
+      if (agency.researchComplete) assert.ok(agency.services.length);
     }
 });
 test("unknown routes do not resolve to a real agency", () => {
@@ -67,7 +70,11 @@ test("CSV exports quote values and neutralize spreadsheet formulas", () => {
 test("city membership filters retain agencies after homepage deduplication", () => {
   for (const city of getCities()) {
     const matches = filterAgencies(agencies, { ...emptyFilters, city: city.id });
-    assert.equal(matches.length, city.dataset.agencies.length, city.name);
+    assert.equal(
+      matches.length,
+      new Set(getCityAgencies(city).map((a) => a.canonicalPath)).size,
+      city.name,
+    );
     assert.equal(
       city.insights.localCount + city.insights.remoteCount,
       city.dataset.agencies.length,

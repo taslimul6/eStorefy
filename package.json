@@ -12,7 +12,9 @@
     "start": "next start",
     "test": "node --test tests/*.test.js",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "seo:audit": "node scripts/audit-seo.mjs",
+    "data:report": "node scripts/report-enrichment.mjs"
   },
   "dependencies": {
     "@next/third-parties": "^16.3.8",
