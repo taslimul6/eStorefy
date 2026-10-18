@@ -7,7 +7,7 @@ export default function Logo() {
       <span className="brand-mark" aria-hidden="true">
         e
       </span>
-      <span>eStorefy.</span>
+      <span>Storefy.</span>
     </Link>
   );
 }
