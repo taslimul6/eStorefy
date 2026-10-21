@@ -4,7 +4,9 @@ import "@/styles/profile.css";
 import "@/styles/apps.css";
 import "@/styles/site-refresh.css";
 import "@/styles/site-shell.css";
+import "@/styles/exit-intent.css";
 import SiteShell from "@/components/shared/SiteShell";
+import ExitIntentOffer from "@/components/marketing/ExitIntentOffer";
 
 import Script from "next/script";
 import { site } from "@/lib/site";
@@ -57,6 +59,7 @@ export default function RootLayout({ children }) {
         <ShortlistProvider>
           <SiteShell>{children}</SiteShell>
         </ShortlistProvider>
+        <ExitIntentOffer />
 
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=GT-PJ4NLK4K"
